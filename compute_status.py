@@ -31,8 +31,71 @@ purely from stated_effective_date/window dates/page_last_updated as it is now.
 Plug that in here, in the days_since_evidence calculation below.
 """
 import datetime
+import re
 
 _CONFIDENCE_RANK = {"low": 0, "medium": 1, "high": 2}
+
+# ---------------------------------------------------------------------------
+# Round 2, task 1: rolling-statement timing gate.
+#
+# The extractor is putting application_method content ("Apply through our
+# portal") into status_statements labelled statement_type='rolling'. A
+# rolling label only counts as real intake-timing evidence if its text
+# actually carries temporal language. These word/pattern lists are the
+# heuristic surface of that gate -- they are reviewable, tune THESE, not the
+# classify_intake() function body, when a real case is misclassified.
+# ---------------------------------------------------------------------------
+
+CONTINUOUS_PHRASES = [
+    "year round", "year-round", "year long", "year-long", "all year",
+    "continuously", "ongoing", "at any time", "anytime", "at all times",
+    "always", "no deadline", "open enrollment", "throughout the year",
+    "accepted at all times",
+]
+
+PERIODIC_INTERVAL_WORDS = ["daily", "weekly", "monthly", "quarterly"]
+
+_WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+_WEEKDAY_ALT = "|".join(_WEEKDAYS)
+_WEEKDAY_ABBR_ALT = "mon|tue|tues|wed|thu|thurs|fri|sat|sun"
+
+# "every Wednesday", "each Monday"
+_PERIODIC_EVERY_EACH_RE = re.compile(rf"\b(every|each)\s+({_WEEKDAY_ALT})\b")
+# bare plural weekday: "Tuesdays", "on Wednesdays"
+_PERIODIC_PLURAL_WEEKDAY_RE = re.compile(rf"\b({_WEEKDAY_ALT})s\b")
+# weekday ranges: "Monday through Friday", "Mon-Fri", "Mon - Fri"
+_PERIODIC_WEEKDAY_RANGE_RE = re.compile(
+    rf"\b({_WEEKDAY_ALT}|{_WEEKDAY_ABBR_ALT})\s*(-|through|to)\s*({_WEEKDAY_ALT}|{_WEEKDAY_ABBR_ALT})\b"
+)
+# nth weekday/day of the month: "third Monday of the month", "first three days of the month"
+_PERIODIC_NTH_OF_MONTH_RE = re.compile(
+    r"\b(first|second|third|fourth|fifth|1st|2nd|3rd|4th|5th)\b[^.]{0,25}\bof\s+(the|each)?\s*month\b"
+)
+
+
+def classify_intake(text):
+    """Classify whether a statement's verbatim text carries real intake-timing
+    information, or is method/mechanics-only content that happens to be
+    labeled 'rolling'. Returns 'continuous', 'periodic', or 'none'.
+
+    This is a keyword/pattern heuristic, not a semantic parse. It is only
+    ever used to DEMOTE -- see the round-2 note in compute_status()."""
+    low = (text or "").lower()
+    for phrase in CONTINUOUS_PHRASES:
+        if phrase in low:
+            return "continuous"
+    for word in PERIODIC_INTERVAL_WORDS:
+        if word in low:
+            return "periodic"
+    if _PERIODIC_EVERY_EACH_RE.search(low):
+        return "periodic"
+    if _PERIODIC_PLURAL_WEEKDAY_RE.search(low):
+        return "periodic"
+    if _PERIODIC_WEEKDAY_RANGE_RE.search(low):
+        return "periodic"
+    if _PERIODIC_NTH_OF_MONTH_RE.search(low):
+        return "periodic"
+    return "none"
 
 
 def _parse_date(s):
@@ -81,7 +144,16 @@ def compute_status(record, today=None):
         w for w in windows
         if w.get("precision") == "absolute" and _parse_date(w.get("open_date"))
     ]
-    rolling_statements = [s for s in statements if s.get("statement_type") == "rolling"]
+    all_rolling_statements = [s for s in statements if s.get("statement_type") == "rolling"]
+    # Round 2, task 1: a rolling label only counts as rolling EVIDENCE if its
+    # text carries real temporal information. Method-only statements
+    # ("Apply through our portal") are excluded entirely here -- they trigger
+    # neither 'rolling' nor 'conflicting'; if nothing else resolves the local
+    # it correctly falls through to 'unknown'/'low', the safe answer.
+    rolling_statements = [
+        s for s in all_rolling_statements
+        if classify_intake(s.get("verbatim_text", "")) != "none"
+    ]
     closed_statements = [s for s in statements if s.get("statement_type") == "closed"]
     reopening_statements = [s for s in statements if s.get("statement_type") == "reopening"]
 
@@ -104,37 +176,48 @@ def compute_status(record, today=None):
     most_recent = max(all_dates) if all_dates else None
     days_since_evidence = (today - most_recent).days if most_recent else None
 
-    status, confidence = _determine_status(
+    status, confidence, intake_pattern = _determine_status(
         today, dated_windows, rolling_statements, closed_statements,
         reopening_statements, most_recent,
     )
     confidence = _cap_confidence(confidence, days_since_evidence)
 
     return {"computed_status": status, "status_confidence": confidence,
-            "days_since_evidence": days_since_evidence}
+            "days_since_evidence": days_since_evidence,
+            "intake_pattern": intake_pattern if status == "rolling" else ""}
 
 
 def _determine_status(today, dated_windows, rolling_statements, closed_statements,
                        reopening_statements, most_recent):
-    """Returns (computed_status, status_confidence) BEFORE the evidence-age
-    confidence cap is applied by the caller."""
+    """Returns (computed_status, status_confidence, intake_pattern) BEFORE the
+    evidence-age confidence cap is applied by the caller. intake_pattern is
+    only meaningful when computed_status == 'rolling'; '' otherwise.
+    rolling_statements here has ALREADY passed the task-1 timing gate --
+    method-only statements were filtered out by the caller."""
 
     # 1. CONFLICTING -- a rolling claim coexists with a closed/reopening claim.
     # Do not try to guess which one is current from text; surface it for a human.
     if rolling_statements and (closed_statements or reopening_statements):
-        return "conflicting", "low"
+        return "conflicting", "low", ""
 
     # 1b. ROLLING -- rolling claim, nothing contradicts it
     if rolling_statements:
-        confidence = "high" if len(rolling_statements) == 1 and not dated_windows else "medium"
-        return "rolling", confidence
+        patterns = {classify_intake(s.get("verbatim_text", "")) for s in rolling_statements}
+        if "continuous" in patterns:
+            intake_pattern = "continuous"
+            confidence = "high" if len(rolling_statements) == 1 and not dated_windows else "medium"
+        else:
+            # every qualifying statement was 'periodic' -- capped at medium, never high
+            intake_pattern = "periodic"
+            confidence = "medium"
+        return "rolling", confidence, intake_pattern
 
     # 2. OPEN -- today inside a dated window
     for w in dated_windows:
         od = _parse_date(w.get("open_date"))
         cd = _parse_date(w.get("close_date"))
         if od and od <= today and (cd is None or today <= cd):
-            return "open", "high"
+            return "open", "high", ""
 
     # 3. CLOSED_PENDING -- future dated window, or a reopening statement not yet arrived
     future_windows = [w for w in dated_windows if _parse_date(w.get("open_date")) > today]
@@ -143,7 +226,7 @@ def _determine_status(today, dated_windows, rolling_statements, closed_statement
         if _parse_date(s.get("stated_effective_date")) and _parse_date(s.get("stated_effective_date")) > today
     ]
     if future_windows or future_reopenings:
-        return "closed_pending", "high"
+        return "closed_pending", "high", ""
 
     # 4. EXPECTED_OPEN -- reopening date has passed and is the most recent evidence
     past_reopenings = [
@@ -153,7 +236,7 @@ def _determine_status(today, dated_windows, rolling_statements, closed_statement
     if past_reopenings:
         most_recent_reopen = max(_parse_date(s["stated_effective_date"]) for s in past_reopenings)
         if most_recent is None or most_recent == most_recent_reopen:
-            return "expected_open", "medium"
+            return "expected_open", "medium", ""
 
     # 5. EXPIRED_DATA -- most recent dated window's close has passed, nothing newer
     past_windows_with_close = [
@@ -163,14 +246,14 @@ def _determine_status(today, dated_windows, rolling_statements, closed_statement
     if past_windows_with_close:
         most_recent_close = max(_parse_date(w["close_date"]) for w in past_windows_with_close)
         if most_recent is None or most_recent == most_recent_close:
-            return "expired_data", "medium"
+            return "expired_data", "medium", ""
 
     # 6. CLOSED -- explicit closure statement, no reopen date/window anywhere
     if closed_statements and not reopening_statements and not dated_windows:
-        return "closed", "high"
+        return "closed", "high", ""
 
     # 7. UNKNOWN
-    return "unknown", "low"
+    return "unknown", "low", ""
 
 
 # ---------------------------------------------------------------------------
@@ -375,6 +458,130 @@ class TestComputeStatus(unittest.TestCase):
         result = compute_status(record, today=self.TODAY)
         self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "high")
+
+
+class TestClassifyIntake(unittest.TestCase):
+    def test_continuous_phrasings(self):
+        for text in [
+            "We accept applications year-round.",
+            "Applications for the Apprenticeship Program are accepted year round.",
+            "The JATC accepts applications continuously throughout the year.",
+            "Applications are open at any time.",
+            "Now accepting applications all year!",
+            "We accept applications on an ongoing basis with no deadline.",
+        ]:
+            self.assertEqual(classify_intake(text), "continuous", text)
+
+    def test_periodic_phrasings(self):
+        for text in [
+            "Applications are accepted daily.",
+            "Applications are reviewed weekly.",
+            "New cohorts are accepted monthly.",
+            "Interviews are conducted quarterly.",
+            "We accept applications every Wednesday.",
+            "Applications for the Apprenticeship Program are accepted Mondays.",
+            "Applications must be filled out in person on the third Monday of each month.",
+            "Applications are accepted the first three days of the month.",
+            # the three named regex traps
+            "All Applications must be submitted in person at the main union hall located at 101 South 7th Street on Tuesdays from 8:00-4:30.",
+            "Applications are taken each Wednesday of the month from 1-5 PM.",
+            "Apprenticeship Applications: In person on Tuesdays from 9am - 11:30am and 1pm - 4pm.",
+        ]:
+            self.assertEqual(classify_intake(text), "periodic", text)
+
+    def test_none_method_only_phrasings(self):
+        for text in [
+            "Applicants Apply Online",
+            "create an online account through our website",
+            "You will need to create an account on our online application portal provided in the link at the bottom of the page.",
+            "Apply through our portal.",
+            "All applicants must apply through the online process.",
+            "All applications are submitted online only.",
+            "Please call our office to request an application.",
+            "Applications may be picked up at our address during business hours.",
+        ]:
+            self.assertEqual(classify_intake(text), "none", text)
+
+
+class TestRollingTimingGate(unittest.TestCase):
+    TODAY = datetime.date(2026, 8, 10)
+
+    def test_method_only_rolling_alone_is_unknown(self):
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "Apply through our portal.",
+                "statement_type": "rolling", "stated_effective_date": None,
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+        self.assertEqual(result["status_confidence"], "low")
+        self.assertEqual(result["intake_pattern"], "")
+
+    def test_method_only_rolling_plus_closed_is_closed_not_conflicting(self):
+        record = {
+            "windows": [],
+            "status_statements": [
+                {"verbatim_text": "Apply through our portal.",
+                 "statement_type": "rolling", "stated_effective_date": None,
+                 "source_url": "https://example.org/"},
+                {"verbatim_text": "Applications are currently closed.",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://example.org/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed")
+
+    def test_continuous_rolling_fresh_is_high(self):
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "We accept applications year-round.",
+                "statement_type": "rolling", "stated_effective_date": None,
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": "2026-08-01",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "rolling")
+        self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["intake_pattern"], "continuous")
+
+    def test_periodic_rolling_fresh_is_medium(self):
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "Applications are accepted every Wednesday.",
+                "statement_type": "rolling", "stated_effective_date": None,
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": "2026-08-01",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "rolling")
+        self.assertEqual(result["status_confidence"], "medium")
+        self.assertEqual(result["intake_pattern"], "periodic")
+
+    def test_continuous_rolling_old_evidence_is_low(self):
+        # round-2 gate must not undo the round-1 age cap
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "We accept applications year-round.",
+                "statement_type": "rolling", "stated_effective_date": None,
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": "2025-07-06",  # 400 days before TODAY
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual((self.TODAY - datetime.date(2025, 7, 6)).days, 400)
+        self.assertEqual(result["computed_status"], "rolling")
+        self.assertEqual(result["status_confidence"], "low")
 
 
 if __name__ == "__main__":
