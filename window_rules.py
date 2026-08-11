@@ -6,7 +6,19 @@ task 3) -- extracted here so the two never drift apart.
 import datetime
 import re
 
-from compute_status import _parse_date
+# Local copy of compute_status._parse_date. Deliberately NOT imported from
+# compute_status -- compute_status imports is_suspect_window from this module
+# for task 3, and importing back would create a circular import.
+
+
+def _parse_date(s):
+    if not s:
+        return None
+    try:
+        return datetime.date.fromisoformat(s)
+    except (ValueError, TypeError):
+        return None
+
 
 _CLOCK_TIME_RE = re.compile(r"\b\d{1,2}(:\d{2})?\s*(am|pm|a\.m\.|p\.m\.)\b", re.IGNORECASE)
 _MONTH_NAME_RE = re.compile(
@@ -14,6 +26,15 @@ _MONTH_NAME_RE = re.compile(
     re.IGNORECASE,
 )
 CLOSURE_WORDS = ["closed", "not accepting", "suspended", "no longer accepting", "does not accept"]
+
+# Round 3, task 3: a window whose text is about a TESTING/interview schedule
+# rather than an application-intake window (LU 231: "typically one testing
+# date each month") must not be treated as a resolvable application window,
+# even if it otherwise has clean month fields. Targeted phrase match, not a
+# broad "test" keyword ban -- LU 73's "Interviews will be scheduled in the
+# first quarter" legitimately describes an application window and must NOT
+# be caught by this.
+_TESTING_SCHEDULE_RE = re.compile(r"\btest(ing)?\s+date\b", re.IGNORECASE)
 
 
 def is_suspect_window(w, today=None):
@@ -43,6 +64,9 @@ def is_suspect_window(w, today=None):
 
     if any(k in combined for k in CLOSURE_WORDS):
         reasons.append("relative_description_is_closure")
+
+    if _TESTING_SCHEDULE_RE.search(combined):
+        reasons.append("testing_schedule_not_application")
 
     if precision == "absolute" and not open_date and not close_date:
         reasons.append("absolute_with_no_dates")
