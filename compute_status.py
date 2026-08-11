@@ -51,9 +51,33 @@ CONTINUOUS_PHRASES = [
     "continuously", "ongoing", "at any time", "anytime", "at all times",
     "always", "no deadline", "open enrollment", "throughout the year",
     "accepted at all times",
+    # round 3, task 1 additions
+    "every day", "everyday", "all the time", "at any point",
+    "on a rolling basis", "rolling basis", "continually", "perpetually",
+    "whenever",
 ]
 
 PERIODIC_INTERVAL_WORDS = ["daily", "weekly", "monthly", "quarterly"]
+
+# round 3, task 1 additions -- plain substring phrases
+PERIODIC_PHRASES = [
+    "bi-weekly", "biweekly", "semi-monthly", "twice a month",
+    "every other week", "business days", "normal business hours",
+    "during office hours",
+]
+
+# round 3, task 1: classify_intake requires BOTH a temporal token (above) AND
+# one of these application-subject tokens. A statement with only a temporal
+# token (LU 349: "new hires could start working anytime during the year" --
+# that's about when hires START WORK, not whether applications are open) is
+# not intake-timing evidence. Requiring the positive subject is more robust
+# than trying to enumerate every non-intake subject to exclude.
+APPLICATION_SUBJECT_WORDS = [
+    "application", "applications", "applicant", "applicants", "apply",
+    "applying", "accept applications", "enroll", "enrollment",
+    "registration", "register", "sign up", "intake", "take applications",
+    "accepting",
+]
 
 _WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 _WEEKDAY_ALT = "|".join(_WEEKDAYS)
@@ -71,6 +95,10 @@ _PERIODIC_WEEKDAY_RANGE_RE = re.compile(
 _PERIODIC_NTH_OF_MONTH_RE = re.compile(
     r"\b(first|second|third|fourth|fifth|1st|2nd|3rd|4th|5th)\b[^.]{0,25}\bof\s+(the|each)?\s*month\b"
 )
+# bare ordinal + weekday, no "of month" required: "first Monday", "third Friday"
+_PERIODIC_NTH_WEEKDAY_RE = re.compile(
+    rf"\b(first|second|third|fourth|1st|2nd|3rd|4th)\s+({_WEEKDAY_ALT})\b"
+)
 
 
 def classify_intake(text):
@@ -78,14 +106,27 @@ def classify_intake(text):
     information, or is method/mechanics-only content that happens to be
     labeled 'rolling'. Returns 'continuous', 'periodic', or 'none'.
 
+    Round 3: requires BOTH a temporal token AND an application-subject token
+    (APPLICATION_SUBJECT_WORDS) -- a temporal phrase about something other
+    than applications (hiring, job start dates, testing dates) is not
+    intake-timing evidence.
+
     This is a keyword/pattern heuristic, not a semantic parse. It is only
     ever used to DEMOTE -- see the round-2 note in compute_status()."""
     low = (text or "").lower()
+
+    has_subject = any(k in low for k in APPLICATION_SUBJECT_WORDS)
+    if not has_subject:
+        return "none"
+
     for phrase in CONTINUOUS_PHRASES:
         if phrase in low:
             return "continuous"
     for word in PERIODIC_INTERVAL_WORDS:
         if word in low:
+            return "periodic"
+    for phrase in PERIODIC_PHRASES:
+        if phrase in low:
             return "periodic"
     if _PERIODIC_EVERY_EACH_RE.search(low):
         return "periodic"
@@ -94,6 +135,8 @@ def classify_intake(text):
     if _PERIODIC_WEEKDAY_RANGE_RE.search(low):
         return "periodic"
     if _PERIODIC_NTH_OF_MONTH_RE.search(low):
+        return "periodic"
+    if _PERIODIC_NTH_WEEKDAY_RE.search(low):
         return "periodic"
     return "none"
 
@@ -476,8 +519,8 @@ class TestClassifyIntake(unittest.TestCase):
         for text in [
             "Applications are accepted daily.",
             "Applications are reviewed weekly.",
-            "New cohorts are accepted monthly.",
-            "Interviews are conducted quarterly.",
+            "New applicant cohorts are accepted monthly.",
+            "Applications are reviewed quarterly.",
             "We accept applications every Wednesday.",
             "Applications for the Apprenticeship Program are accepted Mondays.",
             "Applications must be filled out in person on the third Monday of each month.",
@@ -582,6 +625,57 @@ class TestRollingTimingGate(unittest.TestCase):
         self.assertEqual((self.TODAY - datetime.date(2025, 7, 6)).days, 400)
         self.assertEqual(result["computed_status"], "rolling")
         self.assertEqual(result["status_confidence"], "low")
+
+
+class TestClassifyIntakeSubjectRequirement(unittest.TestCase):
+    """Round 3, task 1: classify_intake requires BOTH a temporal token AND an
+    application-subject token. Real verbatim_text pulled from extraction_v2.csv,
+    not invented."""
+
+    def test_temporal_without_subject_is_none(self):
+        # LU 349 Miami -- about when hires START WORK, not application status
+        text = "However, new hires could start working anytime during the year."
+        self.assertEqual(classify_intake(text), "none")
+
+    def test_every_day_with_subject_is_continuous(self):
+        # LU 606 Orlando -- "every day" wasn't in the old interval list at all
+        text = "We accept applications every day through our online portal."
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_lu349_application_statement_has_no_temporal_language(self):
+        # LU 349's OTHER statement has the subject but no temporal phrase --
+        # both of LU 349's rolling statements should fail the gate now
+        text = "Applications will be accepted for employment."
+        self.assertEqual(classify_intake(text), "none")
+
+    # -- regression protection: 6 locals that must keep classifying 'continuous' --
+
+    def test_regression_lu20_dallas(self):
+        text = ("Applicants are interviewed and accepted into the program year-round, "
+                "with the process of job placement and on-the-job-training beginning as soon as accepted.")
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_regression_lu134_chicago(self):
+        text = "Registration is ongoing for the Electrical (A) and Communications (C) Programs"
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_regression_lu22_omaha(self):
+        text = ("The Omaha Joint Apprenticeship & Training Committee accepts applications "
+                "year-round for the Electricians Apprenticeship, Construction Electrician, "
+                "and Construction Wireman programs.")
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_regression_lu72_waco(self):
+        text = "We take in-person appointments for applications year-round for the apprenticeship."
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_regression_lu158_green_bay(self):
+        text = "Applications for the Apprenticeship Program are accepted year-round."
+        self.assertEqual(classify_intake(text), "continuous")
+
+    def test_regression_lu915_tampa(self):
+        text = "The Tampa Area Electrical JATC is always accepting applications"
+        self.assertEqual(classify_intake(text), "continuous")
 
 
 if __name__ == "__main__":
