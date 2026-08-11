@@ -11,7 +11,7 @@ import datetime
 import json
 import os
 
-from compute_status import compute_status, _parse_date
+from compute_status import compute_status, _parse_date, classify_intake
 
 OUT_PATH = "out/verify_worklist.csv"
 
@@ -90,6 +90,26 @@ def load_flagged_lus(path, flag_col, value_true, reason_col=None, reason_value=N
     return flagged
 
 
+def rolling_gate_outcome(statements):
+    """Round 3, task 4. The method_only_rolling flag means "the task-1 gate
+    actually changed this local's outcome" -- i.e. it has >=1 rolling
+    statement that classifies 'none' AND has NO surviving rolling evidence
+    (every rolling statement was method-only). A local with a mix of junk
+    and genuine rolling statements (LU 20: one method-only + two genuine
+    year-round statements) is fine -- it survives as 'rolling' on the
+    genuine ones and doesn't belong in a risk queue for this reason.
+    Returns (method_only_rolling: bool, has_mixed_quality_statements: bool)."""
+    rolling = [s for s in statements if s.get("statement_type") == "rolling"]
+    if not rolling:
+        return False, False
+    classes = [classify_intake(s.get("verbatim_text", "")) for s in rolling]
+    none_count = sum(1 for c in classes if c == "none")
+    surviving_count = len(classes) - none_count
+    method_only_rolling = none_count > 0 and surviving_count == 0
+    has_mixed_quality_statements = none_count > 0 and surviving_count > 0
+    return method_only_rolling, has_mixed_quality_statements
+
+
 def main():
     with open("raw/scrape/complete_lus.json", encoding="utf-8") as f:
         complete_lus = set(json.load(f))
@@ -102,10 +122,6 @@ def main():
         extraction = {r["lu_number"]: r for r in csv.DictReader(f)}
 
     # -- round 2 risk inputs, built by tasks 3/4/6 in this same round --
-    method_only_rolling_lus = load_flagged_lus(
-        "out/statement_label_audit.csv", "disagreement_flag", "True",
-        "disagreement_reason", "rolling_no_temporal_language",
-    )
     statement_disagreement_lus = load_flagged_lus(
         "out/statement_label_audit.csv", "disagreement_flag", "True",
     )
@@ -150,9 +166,11 @@ def main():
         days_since = cs["days_since_evidence"]
         intake_pattern = cs.get("intake_pattern", "")
 
+        method_only_rolling, has_mixed_quality_statements = rolling_gate_outcome(statements)
+
         # ---- risk_flags: pipe-delimited list of everything true for this local ----
         flags = []
-        if lu in method_only_rolling_lus:
+        if method_only_rolling:
             flags.append("method_only_rolling")
         if cs["computed_status"] == "conflicting":
             flags.append("conflicting")
@@ -180,6 +198,12 @@ def main():
         # design, since "clean, high-confidence, continuous evidence" locals
         # are exactly the ones that need the LEAST manual attention.
         risk_score = round(len(flags) * (pop / 100_000), 1)
+
+        # round 3, task 4: has_mixed_quality_statements is informational only
+        # ("worth a glance") -- shown in risk_flags but deliberately NOT
+        # counted toward risk_score, unlike everything above.
+        if has_mixed_quality_statements:
+            flags.append("has_mixed_quality_statements")
 
         rows.append({
             "local_union_id": local_union_id,
