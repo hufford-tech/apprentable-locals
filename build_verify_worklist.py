@@ -11,7 +11,7 @@ import datetime
 import json
 import os
 
-from compute_status import compute_status, _parse_date, classify_intake
+from compute_status import compute_status, _parse_date, classify_intake, _resolve_recurring_windows
 
 OUT_PATH = "out/verify_worklist.csv"
 
@@ -21,6 +21,7 @@ def pick_decisive_evidence(computed_status, today, windows, statements):
     which single window or status_statement drove the computed_status, so a
     human reviewer can check the model's call without opening the page."""
     dated_windows = [w for w in windows if w.get("precision") == "absolute" and _parse_date(w.get("open_date"))]
+    recurring_windows = [w for w in windows if w.get("precision") == "recurring"]
     rolling = [s for s in statements if s.get("statement_type") == "rolling"]
     closed = [s for s in statements if s.get("statement_type") == "closed"]
     reopening = [s for s in statements if s.get("statement_type") == "reopening"]
@@ -40,6 +41,13 @@ def pick_decisive_evidence(computed_status, today, windows, statements):
             od, cd = _parse_date(w.get("open_date")), _parse_date(w.get("close_date"))
             if od and od <= today and (cd is None or today <= cd):
                 return w.get("evidence_quote", ""), w.get("source_url", "")
+        # round 3, task 3/6: no absolute window matched -- this 'open' must have
+        # come from recurring-window resolution. Reuse the exact same resolver
+        # so the shown evidence is the same window that actually decided it.
+        recur = _resolve_recurring_windows(recurring_windows, today)
+        if recur["resolved"] and recur["open_now"] and recur["source_window"]:
+            w = recur["source_window"]
+            return w.get("evidence_quote", ""), w.get("source_url", "")
 
     if computed_status == "closed_pending":
         future_windows = [w for w in dated_windows if _parse_date(w.get("open_date")) > today]
@@ -51,6 +59,12 @@ def pick_decisive_evidence(computed_status, today, windows, statements):
         if future_reopenings:
             s = min(future_reopenings, key=lambda s: _parse_date(s["stated_effective_date"]))
             return s.get("verbatim_text", ""), s.get("source_url", "")
+        # same fallback as 'open' -- closed_pending can also come from a
+        # recurring window whose next occurrence hasn't arrived yet
+        recur = _resolve_recurring_windows(recurring_windows, today)
+        if recur["resolved"] and not recur["open_now"] and recur["source_window"]:
+            w = recur["source_window"]
+            return w.get("evidence_quote", ""), w.get("source_url", "")
 
     if computed_status == "expected_open":
         past_reopenings = [s for s in reopening
@@ -188,6 +202,8 @@ def main():
             flags.append("max_year_mentioned_lt_2026")
         if intake_pattern == "periodic":
             flags.append("periodic_intake_only")
+        if cs.get("inferred_window_status"):
+            flags.append("inferred_window_status")
 
         pop = pop_val(p.get("population_current_served_inside", ""))
         # risk_score: flag_count * (population / 100,000), rounded to 1 decimal.
@@ -215,6 +231,8 @@ def main():
             "computed_status": cs["computed_status"],
             "status_confidence": cs["status_confidence"],
             "intake_pattern": intake_pattern,
+            "next_open_date": cs.get("next_open_date", ""),
+            "window_precision_note": cs.get("window_precision_note", ""),
             "days_since_evidence": days_since if days_since is not None else "",
             "max_year_mentioned": max_year,
             "window_count": r.get("window_count", ""),
@@ -237,7 +255,8 @@ def main():
     fieldnames = [
         "local_union_id", "lu_number", "charter_city", "charter_state",
         "population_current_served_inside", "application_url", "computed_status",
-        "status_confidence", "intake_pattern", "days_since_evidence", "max_year_mentioned",
+        "status_confidence", "intake_pattern", "next_open_date", "window_precision_note",
+        "days_since_evidence", "max_year_mentioned",
         "window_count", "status_statement_count", "evidence_quote", "source_url",
         "risk_score", "risk_flags",
         "verified_by", "verified_date", "verified_status", "notes",
