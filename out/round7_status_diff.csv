@@ -1,0 +1,3 @@
+local_union_id,lu_number,charter_city,population_current_served_inside,status_before,status_after,confidence_before,confidence_after,next_open_before,next_open_after,next_close_before,next_close_after,inferred_window_status,which_task_caused_it,evidence_quote,source_url
+341,613,Atlanta,7903227,expired_data,open,medium,medium,,,,,True,task1_recurring_window_is_dated_evidence,Apprenticeship Program Applications Now OPEN!,https://6601etc.wordpress.com/
+317,567,Portland,811094,closed_pending,closed_pending,high,high,2026-11-02,2026-11-02,2026-11-02,,False,task2_open_close_collision_fixed,"Applications for IBEW 567 Apprenticeship are closed they will reopen November 2nd, 2026.",https://www.ibew567.com/apprenticeship/
