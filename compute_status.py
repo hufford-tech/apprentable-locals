@@ -397,7 +397,7 @@ def _cap_confidence(confidence, days_since_evidence, days_until_next_event=None)
     return confidence
 
 
-def _evidence_recency(statements, dated_windows, page_last_updated, today):
+def _evidence_recency(statements, dated_windows, page_last_updated, today, embedded_evidence_dates=None):
     """Round 4, task 1. Splits evidence RECENCY (how stale is what we know)
     from evidence TIMING (a future date is real information, just not
     recency):
@@ -407,9 +407,10 @@ def _evidence_recency(statements, dated_windows, page_last_updated, today):
         or None.
 
     Stated dates (status_statements' stated_effective_date + absolute dated
-    windows' open/close dates) are the pool whenever any exist; a page's
-    crawl timestamp (page_last_updated) is used ONLY as a fallback when there
-    are no stated dates at all, past or future. Mixing a stale page-crawl
+    windows' open/close dates, plus round 5's embedded dates lifted from
+    open-statement prose) are the pool whenever any exist; a page's crawl
+    timestamp (page_last_updated) is used ONLY as a fallback when there are
+    no stated dates at all, past or future. Mixing a stale page-crawl
     timestamp in with a specific future claim would misrepresent how fresh
     THAT claim is -- see LU 112: its only stated dates are two closed
     statements dated Oct 1 (future); its page_last_updated (Jul 8, in the
@@ -428,6 +429,8 @@ def _evidence_recency(statements, dated_windows, page_last_updated, today):
             stated_dates.append(od)
         if cd:
             stated_dates.append(cd)
+    if embedded_evidence_dates:
+        stated_dates.extend(embedded_evidence_dates)
 
     pool = stated_dates if stated_dates else ([page_last_updated] if page_last_updated else [])
     past = [d for d in pool if d <= today]
@@ -442,7 +445,18 @@ def compute_status(record, today=None):
     optionally 'page_last_updated' (ISO string or None).
     Returns dict: computed_status, status_confidence, days_since_evidence,
     days_until_next_event, next_open_date, next_close_date,
-    corroborated_by_unknown_stmt, and the other fields _determine_status sets."""
+    corroborated_by_unknown_stmt, admitted_statement_count,
+    rejected_statement_count, and the other fields _determine_status sets."""
+    # Round 5, task 1/3: deferred (function-body, not module-level) import to
+    # break the circular dependency regardless of which module a caller
+    # imports first -- statement_evidence.py reads classify_intake /
+    # classify_closure_scope / APPLICATION_SUBJECT_WORDS / MONTH_NUM /
+    # _PAST_FRAMING_RE from THIS module, and this module needs
+    # admit_statement FROM statement_evidence.py. A module-level import here
+    # only resolves when compute_status.py happens to load first; deferring
+    # it into the function body makes both import orders work.
+    from statement_evidence import admit_statement, REOPEN_ANNOUNCEMENT_IN_CLOSED_RE
+
     if today is None:
         today = datetime.date.today()
 
@@ -454,26 +468,126 @@ def compute_status(record, today=None):
         w for w in windows
         if w.get("precision") == "absolute" and _parse_date(w.get("open_date"))
     ]
+
+    # ---- round 5, task 3: every statement passes through the admissibility
+    # gate before any branch below reads it. Nothing after this point touches
+    # a raw statement dict -- every list is built from `evidence`. ----
+    evidence = [(s, admit_statement(s, today)) for s in statements]
+    admitted = [(s, ev) for s, ev in evidence if ev["admissible"]]
+    admitted_statement_count = len(admitted)
+    rejected_statement_count = len(evidence) - admitted_statement_count
+    # Task 2: true whenever an ADMITTED statement's own embedded date
+    # contradicts its own text's claim (LU 26: "currently being accepted"
+    # sitting next to a deadline that already passed). The verification
+    # worklist signal this round exists to produce.
+    embedded_date_conflict = any(ev["embedded_date_conflict"] for s, ev in admitted)
+
+    # Rolling: preserved EXACTLY as round 1-4 left it (task 3 requirement) --
+    # gated on statement_type == 'rolling' AND classify_intake(text) != 'none'.
+    # Deliberately NOT routed through admit_statement's asserts field: a
+    # vague, temporally-flavored sentence sitting in an 'unknown'-typed
+    # statement (LU 112's "AVAILABLE as needed throughout the year") must not
+    # be promoted into rolling evidence just because its words overlap the
+    # continuous-phrase list -- that would demote 'open' to 'conflicting'
+    # against an explicit round-4 regression guard, an unintended side effect
+    # this round's "text over label" principle was never meant to cause.
     all_rolling_statements = [s for s in statements if s.get("statement_type") == "rolling"]
-    # Round 2, task 1: a rolling label only counts as rolling EVIDENCE if its
-    # text carries real temporal information. Method-only statements
-    # ("Apply through our portal") are excluded entirely here -- they trigger
-    # neither 'rolling' nor 'conflicting'; if nothing else resolves the local
-    # it correctly falls through to 'unknown'/'low', the safe answer.
     rolling_statements = [
         s for s in all_rolling_statements
         if classify_intake(s.get("verbatim_text", "")) != "none"
     ]
-    # Round 4, task 2: an entire statement_type ('open') used to be silently
-    # discarded -- grepped for it, it was never referenced anywhere.
-    open_statements = [s for s in statements if s.get("statement_type") == "open"]
+
+    # ---- round 5, tasks 1-2: THE fix. Every failing record in this round's
+    # spec was mislabeled statement_type == 'open' -- that is the entire
+    # demonstrated defect (the round-2 bug reappearing in a new type).
+    # open_statements is therefore routed through the full gate: it must
+    # still BE labeled 'open' (an unrelated statement's text is not pulled in
+    # just because it happens to use "accept"/"open" words -- LU 428/474's
+    # 'rolling'-labeled, non-temporal "applications are accepted online
+    # only..." text stays out, matching its pre-round-5 'unknown' result) AND
+    # pass admit_statement's admissibility + asserts=='open' check.
+    #
+    # closed_statements and reopening_statements are left keyed on
+    # statement_type exactly as round 1-4 built them -- NOT run through
+    # asserts. Two concrete reasons this is deliberate, not an oversight:
+    #   - LU 567/LU 1340: the extractor emits the SAME sentence twice under
+    #     two different statement_type labels with two different structured
+    #     stated_effective_date values (one null, one future) specifically so
+    #     the closed-copy and reopening-copy can be told apart. Text-deriving
+    #     asserts from a sentence that contains both "closed" and "will
+    #     reopen DATE" collapses that distinction and misfiles the reopening
+    #     date as a future CLOSURE date -- the exact LU 466 bug this round
+    #     already fixes once, reappearing if closed/reopening sourcing is
+    #     text-driven too.
+    #   - LU 130: rule 7 (CLOSED) is deliberately blocked by the mere
+    #     PRESENCE of any reopening statement, even a dateless, vague one
+    #     ("contact the office in January 2027") -- round 1-4's conservative
+    #     design. Admissibility-filtering that vague statement out (it lacks
+    #     literal application-subject vocabulary) removes the block and
+    #     promotes 'unknown' to 'closed', a promotion this round must not
+    #     make. See out/round5_blockers.csv for the corresponding note.
+    open_label_pool = [(s, ev) for s, ev in admitted if s.get("statement_type") == "open"]
+    raw_open_evidence = [(s, ev) for s, ev in open_label_pool if ev["asserts"] == "open"]
     raw_closed_statements = [s for s in statements if s.get("statement_type") == "closed"]
     reopening_statements = [s for s in statements if s.get("statement_type") == "reopening"]
 
-    # ---- round 4, tasks 3/4/5: tense- and scope-aware closed-statement
-    # processing. Produces the FILTERED closed-statement list every rule
-    # below operates on (effective_closed_statements), a pool of candidate
-    # next_close_date values, and the corroborated_by_unknown_stmt flag. ----
+    # ---- round 5, task 2: embedded-date adjudication for 'open' statements.
+    # A statement with no usable embedded bound is plain open evidence, same
+    # as before. One with a bound/start date is resolved here instead:
+    #   future start   -> not open yet; feeds next_open_date (LU 490)
+    #   past bound      -> expired, does not count as open (LU 26/1253/607-family)
+    #   future bound    -> still open; feeds next_close_date
+    #   ambiguous role  -> contributes nothing either way (LU 234)
+    # ----
+    open_statements = []
+    future_open_starts = []       # -> closed_pending / next_open_date
+    synthetic_expired_bounds = []  # -> expired_data
+    future_open_bound_dates = []   # -> next_close_date
+    open_date_precision_note = ""
+    embedded_evidence_dates = []   # feeds days_since_evidence/most_recent pools
+    for s, ev in raw_open_evidence:
+        bounds = [b for b in ev["embedded_bounds"] if b["role"] in ("bound", "start")]
+        if not bounds:
+            open_statements.append(s)
+            continue
+        decided = False
+        for b in bounds:
+            if b["role"] == "start" and b["date"] > today:
+                future_open_starts.append(b["date"])
+                embedded_evidence_dates.append(b["date"])
+                if b["month_inferred"]:
+                    open_date_precision_note = "month_inferred"
+                decided = True
+                break
+            if b["role"] == "bound" and b["date"] < today:
+                synthetic_expired_bounds.append(b["date"])
+                embedded_evidence_dates.append(b["date"])
+                decided = True
+                break
+            if b["role"] == "bound" and b["date"] >= today:
+                open_statements.append(s)
+                future_open_bound_dates.append(b["date"])
+                embedded_evidence_dates.append(b["date"])
+                decided = True
+                break
+            if b["role"] == "start" and b["date"] <= today:
+                open_statements.append(s)
+                embedded_evidence_dates.append(b["date"])
+                decided = True
+                break
+        if not decided:
+            # every bound on this statement was 'ambiguous' (LU 234) -- the
+            # statement contributes nothing, demote-safe default.
+            pass
+
+    # ---- round 4, tasks 3/4/5 (unchanged): tense- and scope-aware closed-
+    # statement processing. Produces the FILTERED closed-statement list every
+    # rule below operates on (effective_closed_statements), a pool of
+    # candidate next_close_date values, and the corroborated_by_unknown_stmt
+    # flag. Round 5 addition: a closed statement that also announces a
+    # reopen date (LU 466 "...HAS CLOSED. NEXT ... WILL BEGIN JANUARY 4TH, OF
+    # 2027.") must not have that date read as a future_period closure scope
+    # -- it is a next_open_date announcement, not a next_close_date one. ----
     effective_closed_statements = []
     future_closed_dates = []
     corroborated_by_unknown_stmt = False
@@ -485,11 +599,18 @@ def compute_status(record, today=None):
             # today. LU 112.
             future_closed_dates.append(eff)
             continue
-        scope = classify_closure_scope(s.get("verbatim_text", ""), today)
+        text = s.get("verbatim_text", "")
+        if REOPEN_ANNOUNCEMENT_IN_CLOSED_RE.search(text):
+            # round 5 fix: a reopen announcement embedded in a closure
+            # statement is next_open_date information, never next_close_date
+            # -- skip closure-scope classification entirely for it (LU 466).
+            effective_closed_statements.append(s)
+            continue
+        scope = classify_closure_scope(text, today)
         if scope == "future_period":
             # task 4: confined to a period that hasn't started -- implies
             # currently open. LU 313.
-            derived = _derive_future_period_date(s.get("verbatim_text", ""), today)
+            derived = _derive_future_period_date(text, today)
             if derived:
                 future_closed_dates.append(derived)
             continue
@@ -513,7 +634,9 @@ def compute_status(record, today=None):
     # ---- all dated evidence, for the recency-ORDERING checks in rules 5/6
     # below (is THIS the newest thing said) -- distinct from
     # days_since_evidence/days_until_next_event (task 1), which must never go
-    # negative. This pool is intentionally unchanged from before round 4. ----
+    # negative. Round 5: embedded dates lifted out of open-statement prose
+    # join this pool too, since they are just as much "stated" evidence as a
+    # structured stated_effective_date field. ----
     # TODO(monitor.py): fold last_changed in here once available (see module docstring).
     all_dates = []
     for s in statements:
@@ -527,12 +650,13 @@ def compute_status(record, today=None):
             all_dates.append(od)
         if cd:
             all_dates.append(cd)
+    all_dates.extend(embedded_evidence_dates)
     if page_last_updated:
         all_dates.append(page_last_updated)
     most_recent_any = max(all_dates) if all_dates else None
 
     days_since_evidence, days_until_next_event = _evidence_recency(
-        statements, dated_windows, page_last_updated, today,
+        statements, dated_windows, page_last_updated, today, embedded_evidence_dates,
     )
 
     recurring_windows = [w for w in windows if w.get("precision") == "recurring"]
@@ -541,31 +665,47 @@ def compute_status(record, today=None):
         today, dated_windows, recurring_windows, rolling_statements,
         effective_closed_statements, reopening_statements, open_statements,
         most_recent_any, future_closed_dates,
+        future_open_starts, synthetic_expired_bounds, future_open_bound_dates,
+        open_date_precision_note,
     )
     # Round 4, task 1: audited every comparison against days_since_evidence in
     # the codebase -- _cap_confidence below is the only one, and its `is None`
     # branch is checked first (before any `>` comparison), so it already
     # behaves correctly now that this can genuinely be None with future
     # evidence present (LU 112) rather than only when there's no evidence at all.
-    result["status_confidence"] = _cap_confidence(
-        result["status_confidence"], days_since_evidence, days_until_next_event,
-    )
+    # Round 5, task 3 (LU 400/701): a bounded absolute window with an
+    # explicit FUTURE close_date is self-evidently current right now --
+    # capping its confidence off how long ago it OPENED would punish exactly
+    # the windows that are most clearly still running. _determine_status sets
+    # bounded_window_current for that one branch; the age cap is skipped
+    # entirely there rather than reapplied against a different basis, since
+    # a window that hasn't closed yet has no meaningful "staleness."
+    if not result.get("bounded_window_current"):
+        result["status_confidence"] = _cap_confidence(
+            result["status_confidence"], days_since_evidence, days_until_next_event,
+        )
     result["days_since_evidence"] = days_since_evidence
     result["days_until_next_event"] = days_until_next_event
     result["corroborated_by_unknown_stmt"] = corroborated_by_unknown_stmt
     result["intake_pattern"] = result["intake_pattern"] if result["computed_status"] == "rolling" else ""
+    result["admitted_statement_count"] = admitted_statement_count
+    result["rejected_statement_count"] = rejected_statement_count
+    result["embedded_date_conflict"] = embedded_date_conflict
+    result.pop("bounded_window_current", None)
     return result
 
 
 def _determine_status(today, dated_windows, recurring_windows, rolling_statements,
                        closed_statements, reopening_statements, open_statements,
-                       most_recent, future_closed_dates):
+                       most_recent, future_closed_dates,
+                       future_open_starts=None, synthetic_expired_bounds=None,
+                       future_open_bound_dates=None, open_date_precision_note=""):
     """Returns a dict: computed_status, status_confidence, intake_pattern,
     next_open_date / next_close_date (ISO string or ''), window_precision_note
-    ('' or 'month_boundary_inferred'), inferred_window_status (bool -- True if
-    the status came from round-3 recurring-window resolution rather than a
-    stated date). status_confidence here is BEFORE the caller applies the
-    evidence-age cap.
+    ('' or 'month_boundary_inferred' or 'month_inferred'), inferred_window_status
+    (bool -- True if the status came from round-3 recurring-window resolution
+    rather than a stated date). status_confidence here is BEFORE the caller
+    applies the evidence-age cap.
 
     rolling_statements has ALREADY passed the round-2 timing gate.
     closed_statements has ALREADY passed round-4's tense/scope filtering in
@@ -573,12 +713,31 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
     not the raw extraction. future_closed_dates feeds next_close_date, which
     is attached to every result regardless of which rule wins (LU 313's
     closure hasn't started yet but is still worth surfacing even though the
-    record otherwise lands on 'unknown')."""
+    record otherwise lands on 'unknown').
 
-    next_close_date = min(future_closed_dates) if future_closed_dates else None
+    Round 5, task 2 additions (all already resolved by admit_statement's
+    embedded-date adjudication in compute_status() -- this function just
+    consumes the resulting pools):
+      future_open_starts: dates an 'open' statement's own text says intake
+        does not begin until (LU 490) -- next_open_date candidates.
+      synthetic_expired_bounds: dates an 'open' statement's own deadline has
+        already passed (LU 26/1253/607-family) -- expired_data candidates.
+      future_open_bound_dates: dates an 'open' statement's own deadline is
+        still ahead -- next_close_date candidates, same treatment as a
+        closed statement's future_closed_dates.
+      open_date_precision_note: 'month_inferred' when the deciding
+        future_open_starts date had no day-of-month in the source text.
+    """
+    future_open_starts = future_open_starts or []
+    synthetic_expired_bounds = synthetic_expired_bounds or []
+    future_open_bound_dates = future_open_bound_dates or []
+
+    next_close_date = min(future_closed_dates + future_open_bound_dates) \
+        if (future_closed_dates or future_open_bound_dates) else None
 
     def result(status, confidence, intake_pattern="", next_open_date=None,
-               window_precision_note="", inferred_window_status=False):
+               window_precision_note="", inferred_window_status=False,
+               bounded_window_current=False):
         return {
             "computed_status": status,
             "status_confidence": confidence,
@@ -587,6 +746,7 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             "next_close_date": next_close_date.isoformat() if next_close_date else "",
             "window_precision_note": window_precision_note,
             "inferred_window_status": inferred_window_status,
+            "bounded_window_current": bounded_window_current,
         }
 
     # 1. CONFLICTING -- a rolling claim coexists with a closed/reopening claim.
@@ -617,7 +777,10 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             continue
         if cd is not None:
             if today <= cd:
-                return result("open", "high")
+                # round 5, task 3 (LU 400/701): bounded window with an
+                # explicit future close_date is self-evidently current --
+                # tell the caller not to cap confidence off open_date age.
+                return result("open", "high", bounded_window_current=True)
             continue
         age = (today - od).days
         if age <= 60:
@@ -648,6 +811,16 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         candidates = [_parse_date(w.get("open_date")) for w in future_windows]
         candidates += [_parse_date(s["stated_effective_date"]) for s in future_reopenings]
         return result("closed_pending", "high", next_open_date=min(candidates))
+
+    # 3b. CLOSED_PENDING -- round 5, task 2: an 'open' statement whose own
+    # text says intake doesn't begin until a future date (LU 490). Weaker
+    # provenance than a structured window/reopening date (rule 3, prose
+    # not a stated field) so capped at medium, never high -- same treatment
+    # as every other prose-inferred result in this module.
+    if future_open_starts:
+        note = "month_inferred" if open_date_precision_note else ""
+        return result("closed_pending", "medium", next_open_date=min(future_open_starts),
+                       window_precision_note=note)
 
     # 4. OPEN -- round 4, task 2: a prose 'open' statement, with no
     # contradicting present-tense closed statement. Confidence medium, never
@@ -686,13 +859,17 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             return result("closed_pending", "medium", next_open_date=recur["next_open_date"],
                            window_precision_note=note, inferred_window_status=True)
 
-    # 6. EXPIRED_DATA -- most recent dated window's close has passed, nothing newer
-    past_windows_with_close = [
-        w for w in dated_windows
+    # 6. EXPIRED_DATA -- most recent dated window's close has passed, nothing
+    # newer. Round 5, task 2: an 'open' statement whose own deadline has
+    # passed (LU 26/1253/607-family) joins the same pool -- its bound is just
+    # as much a "close" as a window's stated close_date.
+    past_close_dates = [
+        _parse_date(w.get("close_date")) for w in dated_windows
         if _parse_date(w.get("close_date")) and _parse_date(w.get("close_date")) < today
     ]
-    if past_windows_with_close:
-        most_recent_close = max(_parse_date(w["close_date"]) for w in past_windows_with_close)
+    past_close_dates += synthetic_expired_bounds
+    if past_close_dates:
+        most_recent_close = max(past_close_dates)
         if most_recent is None or most_recent == most_recent_close:
             return result("expired_data", "medium")
 
@@ -1486,6 +1663,394 @@ class TestRound4NamedLocals(unittest.TestCase):
         result = compute_status(record, today=self.TODAY)
         self.assertEqual(result["computed_status"], "closed")
         self.assertEqual(result["status_confidence"], "medium")
+
+
+class TestRound5AdmissibilityGate(unittest.TestCase):
+    """Round 5. Every verbatim_text below is pulled verbatim from
+    out/extraction_v2.csv for the named local -- see PROMPT_status_round5.md,
+    "The failing records. These are the spec." TODAY held at 2026-08-10
+    throughout, per round 4's convention."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    def _record(self, statements, windows=None, page_last_updated=None):
+        return {
+            "windows": windows or [],
+            "status_statements": statements,
+            "page_last_updated": page_last_updated,
+        }
+
+    def _open_stmt(self, text, source="https://example.org/"):
+        return {"verbatim_text": text, "statement_type": "open",
+                "stated_effective_date": None, "source_url": source}
+
+    # -- the deadline-family (LU 26, 1253, 607) -----------------------------
+
+    def test_lu26_washington_dc_expired_data_with_conflict(self):
+        record = self._record([self._open_stmt(
+            "Applications currently being accepted are for the Class of 2030. "
+            "The deadline to apply is March 31, 2025.",
+            "https://ibewlocal26.org/join-as-individual/training/",
+        )], windows=[{
+            "precision": "absolute", "open_date": "", "close_date": "2025-03-31",
+            "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+            "is_recurring_annual": False, "relative_description": "",
+            "evidence_quote": "The deadline to apply is March 31, 2025.",
+            "source_url": "https://ibewlocal26.org/join-as-individual/training/",
+        }])
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "open")
+        self.assertEqual(result["computed_status"], "expired_data")
+        self.assertTrue(result["embedded_date_conflict"])
+
+    def test_lu1253_augusta_not_open(self):
+        record = self._record([
+            self._open_stmt(
+                "FALL 2026 APPRENTICESHIP OPPORTUNITY: Applications are due March 31, 2026.",
+                "https://www.ibew1253.org/",
+            ),
+            {"verbatim_text": "All applications and testing completed after these dates will be "
+                               "considered for the fall of 2027 apprenticeship",
+             "statement_type": "unknown", "stated_effective_date": None,
+             "source_url": "https://www.ibew1253.org/"},
+        ])
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "open")
+
+    def test_lu607_shamokin_not_open(self):
+        record = self._record([self._open_stmt(
+            "Apply in person or online until April 10th, 2026, at 25 South 5th St, "
+            "Shamokin, PA or down below.",
+            "https://ibew607.com/apprenticeship",
+        )])
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "open")
+
+    def test_lu490_dover_closed_pending_month_inferred(self):
+        record = self._record([self._open_stmt(
+            "We are accepting applications for the 2027-2028 school year starting "
+            "August of 2027.",
+            "https://ibew490.org/apprenticeship/",
+        )])
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["next_open_date"], "2027-08-01")
+        self.assertEqual(result["window_precision_note"], "month_inferred")
+
+    def test_lu234_castroville_unknown(self):
+        record = self._record([self._open_stmt(
+            "Accepting applications by mail only. To be eligible for the next aptitude "
+            "test in February 2027, applications must be received before or postmarked "
+            "no later than Friday, December 18, 2026.",
+            "https://www.tricountyjatc.org/",
+        )])
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    # -- the method-only family (LU 494, 1205, 16) ---------------------------
+
+    def test_lu494_milwaukee_method_only_unknown(self):
+        record = self._record([self._open_stmt(
+            "If you meet the minimum qualifications you may apply by following this "
+            "link CLICK HERE",
+            "https://www.ibew494.com/",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "method_only")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    def test_lu1205_gainesville_method_only_unknown(self):
+        record = self._record([self._open_stmt(
+            "Currently, applications can be obtained in person at Gainesville "
+            "Electrical Joint Apprenticeship and Training Committee D/B/A, Electrical "
+            "Training Alliance of Gainesville or by clicking on the link below to "
+            "download and print a copy of the application.",
+            "https://www.ibew1205.org/",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "method_only")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    def test_lu16_evansville_method_only_unknown(self):
+        record = self._record([self._open_stmt(
+            "Online applications for both the inside and residential program are "
+            "available. Click on the Apply Online button on the Applicants page.",
+            "https://evvjatc.org/applicants/",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "method_only")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    # -- CTA-only, office-hours, program-mismatch ----------------------------
+
+    def test_lu163_wilkes_barre_cta_only_unknown(self):
+        record = self._record([self._open_stmt(
+            "Start your application to the IBEW Local 163 JATC Apprenticeship Program today!",
+            "https://www.ibew163.org/apprenticeship-training/",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "cta_only")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    def test_lu601_champaign_urbana_office_hours_unknown(self):
+        record = self._record([self._open_stmt(
+            "Summer Hours for applications: Wednesdays from 12:30 pm - 3:30 pm",
+            "https://www.ibew601.org/apprenticeshipopportunitydocument/",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "office_hours")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "unknown")
+
+    def test_lu229_york_program_mismatch_not_open(self):
+        cw_stmt = self._open_stmt(
+            "⚡ Now Accepting Applications – Construction Wireman / "
+            "Construction Electrician Program",
+            "https://www.ibew229.org/content/membership-application",
+        )
+        from statement_evidence import admit_statement
+        ev = admit_statement(cw_stmt, self.TODAY)
+        self.assertEqual(ev["reject_reason"], "program_mismatch")
+
+        record = self._record([
+            self._open_stmt(
+                "To make application for the IBEW Inside Wireman Apprenticeship you "
+                "must apply online.",
+                "https://www.ibew229.org/",
+            ),
+            cw_stmt,
+        ])
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "open")
+
+    def test_lu153_south_bend_survives_cta_check(self):
+        # "Applications Are OPEN Apply NOW!!!" carries a state claim
+        # (OPEN_STATE_CUE_RE) and must NOT be rejected as cta_only.
+        record = self._record([self._open_stmt(
+            "Applications Are OPEN Apply NOW!!!",
+            "https://www.jatc153.com/?zone=/unionactive/view_page.cfm&page=Apprentice20Resources",
+        )])
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][0], self.TODAY)
+        self.assertTrue(ev["admissible"])
+        self.assertEqual(ev["asserts"], "open")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+
+    def test_lu48_portland_program_rule_does_not_fire_when_inside_named(self):
+        # Inside is named ALONGSIDE the other programs -- must stay admissible
+        # and the local must stay closed (round 4 regression).
+        record = self._record([
+            {"verbatim_text": "Inside Program – Closed\n\nLimited Energy Program – "
+                               "Closed\n\nResidential Program – Closed",
+             "statement_type": "closed", "stated_effective_date": None,
+             "source_url": "https://nietc.org/applicants/preparing-to-apply/current-application-openings/"},
+            {"verbatim_text": "The Training Center will remain closed for all applications "
+                               "until further notice. Any updates will be posted on this page.",
+             "statement_type": "closed", "stated_effective_date": None,
+             "source_url": "https://nietc.org/applicants/preparing-to-apply/current-application-openings/"},
+            {"verbatim_text": "We are not accepting new requests for reinterviews at this "
+                               "time due to the current work slowdown and pause on new "
+                               "apprentice classes.",
+             "statement_type": "closed", "stated_effective_date": None,
+             "source_url": "https://nietc.org/applicants/preparing-to-apply/current-application-openings/"},
+        ], page_last_updated="2026-05-01")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed")
+        self.assertEqual(result["status_confidence"], "high")
+
+    # -- task 3: LU 400/701 confidence restored; LU 466 assignment fix -------
+
+    def test_lu400_bounded_window_future_close_stays_high(self):
+        record = self._record([], windows=[{
+            "precision": "absolute", "open_date": "2026-01-01", "close_date": "2026-12-31",
+            "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+            "is_recurring_annual": False, "relative_description": "",
+            "evidence_quote": "Application Period: January 1, 2026 through December 31, 2026",
+            "source_url": "https://www.ibew400.org/jatc/apprenticeship/",
+        }])
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+        self.assertEqual(result["status_confidence"], "high")
+
+    def test_lu701_dupage_bounded_window_future_close_stays_high(self):
+        record = self._record([self._open_stmt(
+            "Applications moving online starting 10/1/25. Click Here to Apply",
+            "https://dupagejatc.org/",
+        )], windows=[{
+            "precision": "absolute", "open_date": "2025-10-01", "close_date": "2026-09-30",
+            "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+            "is_recurring_annual": False, "relative_description": "",
+            "evidence_quote": "accepting applications online starting on 10/1/25 through September 30, 2026",
+            "source_url": "https://dupagejatc.org/wp-content/uploads/2025/10/Application-Info-2027.pdf",
+        }])
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+        self.assertEqual(result["status_confidence"], "high")
+
+    def test_lu466_charleston_reopen_date_is_next_open_not_next_close(self):
+        record = self._record([{
+            "verbatim_text": "2026 APPLICATION PERIOD HAS CLOSED. NEXT APPLICATION PERIOD "
+                              "WILL BEGIN JANUARY 4TH, OF 2027. THANK YOU TO ALL THAT HAVE APPLIED.",
+            "statement_type": "closed", "stated_effective_date": None,
+            "source_url": "https://www.ibew466.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
+        }], windows=[{
+            "precision": "absolute", "open_date": "2027-01-04", "close_date": "",
+            "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+            "is_recurring_annual": False, "relative_description": "",
+            "evidence_quote": "NEXT APPLICATION PERIOD WILL BEGIN JANUARY 4TH, OF 2027.",
+            "source_url": "https://www.ibew466.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
+        }], page_last_updated="2026-04-22")
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["next_open_date"], "2027-01-04")
+        self.assertEqual(result["next_close_date"], "")
+
+    # -- regression guards: 14 named locals, unchanged status/confidence ----
+
+    def test_regression_guards_unchanged(self):
+        cases = [
+            ("LU68 Denver", [self._open_stmt("Applications now open.", "https://djeatc68.com/apply/")],
+             "open", "medium"),
+            ("LU570 Tucson", [self._open_stmt("We are now accepting Applications online.", "https://www.tucsonjatc.org/")],
+             "open", "medium"),
+            ("LU38 Cleveland", [self._open_stmt("The JATC is now accepting applications on-line, 24/7.", "https://ibew38.org/jatc/")],
+             "open", "medium"),
+            ("LU236 Albany", [self._open_stmt("Applications for apprenticeship are now being accepted.", "https://www.tricityjatc.org/")],
+             "open", "medium"),
+            ("LU112 Kennewick", [self._open_stmt("Applications Are Currently Open", "https://www.jatc112.org/")],
+             "open", "medium"),
+            ("LU153 South Bend", [self._open_stmt("Applications Are OPEN", "https://www.jatc153.com/index.cfm")],
+             "open", "medium"),
+            ("LU110 St. Paul", [self._open_stmt(
+                "The St. Paul Electrical Joint Apprenticeship and Training Committee (JATC) "
+                "is now accepting applications for entry into our comprehensive Apprenticeship "
+                "Program.", "https://www.jatc110.org/")], "open", "medium"),
+            ("LU558 Sheffield", [self._open_stmt(
+                "The North Alabama Electrical Training Alliance is now accepting applications "
+                "for our four-year construction apprenticeship training program.",
+                "https://naeta.org/")], "open", "medium"),
+            ("LU456 New Brunswick", [self._open_stmt(
+                "Applications are Currently being Accepted Today, CLICK HERE.",
+                "https://ibew456.org/training.aspx")], "open", "medium"),
+            ("LU34 Peoria", [self._open_stmt("Now accepting online applications", "https://peoriajatc.com/")],
+             "open", "medium"),
+            ("LU575 Portsmouth", [self._open_stmt(
+                "Accepting Applications for an Electrical Apprenticeship",
+                "https://www.ibew575.org/application_information/")], "open", "medium"),
+            ("LU673 Painesville", [self._open_stmt(
+                "This Joint Apprenticeship and Training Committee (JATC) is accepting "
+                "applications for apprenticeship.", "https://ibew673.org/")], "open", "medium"),
+            ("LU270 Oak Ridge", [self._open_stmt("now accepting applications", "https://www.orejatc.org/")],
+             "open", "medium"),
+            ("LU972 Marietta", [self._open_stmt(
+                "Marietta Electrical JATC is currently taking applications for Apprentices "
+                "to become Inside Wireman.", "https://www.ibew972.com/apprrenticeshiptraining/")],
+             "open", "medium"),
+        ]
+        for name, statements, expected_status, expected_conf in cases:
+            record = self._record(statements)
+            result = compute_status(record, today=self.TODAY)
+            self.assertEqual(result["computed_status"], expected_status, name)
+            self.assertEqual(result["status_confidence"], expected_conf, name)
+
+
+class TestAdmitStatementUnits(unittest.TestCase):
+    """Round 5, task 5: >=4 admit_statement fixtures per reject reason, plus
+    the date-parser and cohort-vs-bound coverage task 2 asks for."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    def _admit(self, text):
+        from statement_evidence import admit_statement
+        return admit_statement({"verbatim_text": text}, self.TODAY)
+
+    def test_no_application_subject_x4(self):
+        for text in [
+            "We look forward to seeing you at the union hall.",
+            "The apprenticeship provides excellent wages and benefits.",
+            "Our office hours are Monday through Friday.",
+            "For general questions, please call the main line.",
+        ]:
+            self.assertFalse(self._admit(text)["admissible"], text)
+            self.assertEqual(self._admit(text)["reject_reason"], "no_application_subject", text)
+
+    def test_method_only_x4(self):
+        for text in [
+            "If you meet the minimum qualifications you may apply by following this link CLICK HERE",
+            "Currently, applications can be obtained in person at our office or by clicking the link below.",
+            "Online applications for both the inside and residential program are available. Click Apply Online.",
+            "To make application for the IBEW Inside Wireman Apprenticeship you must apply online.",
+        ]:
+            self.assertEqual(self._admit(text)["reject_reason"], "method_only", text)
+
+    def test_cta_only_x4(self):
+        for text in [
+            "Start your application to the IBEW Local 163 JATC Apprenticeship Program today!",
+            "Start the application process to join the IBEW Local 163 JATC apprenticeship program today!",
+            "Apply now for the apprenticeship program!",
+            "Begin your application for the apprenticeship program now!",
+        ]:
+            self.assertEqual(self._admit(text)["reject_reason"], "cta_only", text)
+
+    def test_office_hours_x4(self):
+        for text in [
+            "Summer Hours for applications: Wednesdays from 12:30 pm - 3:30 pm",
+            "Applications accepted Monday - Friday 8:00 a.m. - 4:00 p.m.",
+            "Application office hours are 9am to 5pm on weekdays.",
+            "Applications available Monday through Friday, 8am-4:30pm.",
+        ]:
+            self.assertEqual(self._admit(text)["reject_reason"], "office_hours", text)
+
+    def test_program_mismatch_x4(self):
+        for text in [
+            "Now Accepting Applications – Construction Wireman / Construction Electrician Program",
+            "We are accepting applications for the Residential Apprenticeship Program.",
+            "Applications for the VDV apprenticeship are now open.",
+            "Now accepting applications for the Limited Energy program.",
+        ]:
+            self.assertEqual(self._admit(text)["reject_reason"], "program_mismatch", text)
+
+    def test_date_parser_formats(self):
+        from statement_evidence import extract_embedded_dates
+        cases = [
+            ("The deadline to apply is March 31, 2025.", datetime.date(2025, 3, 31)),
+            ("The deadline to apply is March 31st, 2025.", datetime.date(2025, 3, 31)),
+            ("Applications due by 3/31/2025.", datetime.date(2025, 3, 31)),
+            ("Applications close 2025-03-31.", datetime.date(2025, 3, 31)),
+            ("Apply in person or online until April 10th, 2026.", datetime.date(2026, 4, 10)),
+        ]
+        for text, expected in cases:
+            dates = [e["date"] for e in extract_embedded_dates(text)]
+            self.assertIn(expected, dates, text)
+
+    def test_date_parser_bare_month_year(self):
+        from statement_evidence import extract_embedded_dates
+        starting = extract_embedded_dates("starting August of 2027")
+        self.assertEqual(starting[0]["date"], datetime.date(2027, 8, 1))
+        self.assertEqual(starting[0]["role"], "start")
+        self.assertTrue(starting[0]["month_inferred"])
+
+        eligible = extract_embedded_dates("eligible for the next aptitude test in February 2027")
+        self.assertEqual(eligible[0]["date"].year, 2027)
+        self.assertEqual(eligible[0]["date"].month, 2)
+
+    def test_cohort_reference_not_read_as_bound(self):
+        from statement_evidence import extract_embedded_dates
+        for text in [
+            "Applications currently being accepted are for the Class of 2030.",
+            "We are accepting applications for the 2027-2028 school year.",
+        ]:
+            dates = extract_embedded_dates(text)
+            self.assertTrue(dates, text)
+            for d in dates:
+                self.assertEqual(d["role"], "cohort", text)
 
 
 if __name__ == "__main__":
