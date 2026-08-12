@@ -247,6 +247,7 @@ h3{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--ink3)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script id="payload" type="application/json">__DATA__</script>
+<script>__FINDER_CORE__</script>
 <script>
 /* ==========================================================================
    CONFIG
@@ -263,26 +264,11 @@ const DATA = JSON.parse(document.getElementById('payload').textContent);
 const L_ = DATA.locals;
 const leads = [];   // stub: email captures live here for the prototype
 
-const LABEL = {
-  open:"Accepting applications now",
-  rolling:"Accepts applications on an ongoing basis",
-  closed_pending:"Not open yet",
-  closed:"Applications closed",
-  expired_data:"Last posted window has passed",
-  conflicting:"Conflicting information posted",
-  unknown:"Status not published"
-};
-const NOTE = {
-  open:"A posted application window is open today.",
-  rolling:"This local takes applications year-round or on a repeating schedule.",
-  closed_pending:"A future window is posted. Get notified when it opens.",
-  closed:"The local has posted that applications are closed.",
-  expired_data:"The most recent window on their site has ended and nothing newer is posted.",
-  conflicting:"Their site says more than one thing. Confirm with the local before relying on this.",
-  unknown:"We could not confirm a status from their website. Contact the local directly."
-};
-
-const CONF_LABEL = {h:"high", m:"medium", l:"low", "":"—"};
+// Pure search/status logic (ZIP normalization, city matching, status label
+// selection, multi-local sorting) lives in site/js/finder-core.js, unit
+// tested by test_finder_core.js. This inline block only does DOM rendering.
+const { statusLabel, statusNote, confidenceLabel, isConfirmedStatus,
+        normalizeZip, matchCities, unionCityIndexes, sortMultiLocal } = FinderCore;
 
 const fmt = n => n==null ? "—" : n.toLocaleString();
 const money = n => n==null ? "—" : "$"+n.toLocaleString();
@@ -294,7 +280,6 @@ function showMapFail(){ mapfail.hidden = false; }
 
 const COLOR = {open:'#39c46e',rolling:'#4aa3f0',closed_pending:'#f0a13a',
                closed:'#e2564d',expired_data:'#8a6d3b',unknown:'#6b7889',conflicting:'#a97bd6'};
-const CONFIRMED = new Set(['open','rolling','closed_pending','closed']);
 const markers = [];
 let map = null;
 
@@ -335,7 +320,7 @@ if (typeof L === 'undefined'){
       inp.addEventListener('change', () => {
         const onlyConfirmed = inp.value==='confirmed' && inp.checked;
         L_.forEach((l,i) => {
-          const show = !onlyConfirmed || CONFIRMED.has(l.status);
+          const show = !onlyConfirmed || isConfirmedStatus(l.status);
           const el = markers[i].getElement && markers[i].getElement();
           if (el) el.style.display = show ? '' : 'none';
         });
@@ -348,7 +333,7 @@ if (typeof L === 'undefined'){
 
 function popupHTML(l,i){
   const s = STATUS_DISPLAY
-    ? `<div style="margin:6px 0 2px"><span class="dot s-${l.status}"></span>${LABEL[l.status]}</div>` : "";
+    ? `<div style="margin:6px 0 2px"><span class="dot s-${l.status}"></span>${statusLabel(l.status)}</div>` : "";
   return `<div class="pop"><b>IBEW Local ${l.lu}</b>
     <div class="pl">${esc(l.city)}, ${l.st}</div>${s}
     <div style="color:#9aa7b8;font-size:12px">${fmt(l.pop)} people in jurisdiction</div>
@@ -392,9 +377,10 @@ q.addEventListener('input', () => {
 });
 
 function runSearch(v){
-  if (/^\d{3,5}$/.test(v)){
-    if (v.length<5){ hint.textContent = "Keep typing, ZIP codes are 5 digits."; return; }
-    const zip5 = v.padStart(5,'0');
+  const parsed = normalizeZip(v);
+  if (parsed.kind === 'zip_incomplete'){ hint.textContent = "Keep typing, ZIP codes are 5 digits."; return; }
+  if (parsed.kind === 'zip'){
+    const zip5 = parsed.zip5;
     const hits = DATA.zips[zip5];
     const multi = DATA.zip_multi[zip5];
     if (multi && multi.length>1){
@@ -405,14 +391,12 @@ function runSearch(v){
     hint.textContent = hits ? `ZIP ${v} is in the jurisdiction of ${hits.length} local${hits.length>1?'s':''}.`
                             : `We have no jurisdiction record for ZIP ${v}.`;
     showList(hits||[], hits?`ZIP ${v}`:null);
-  } else {
-    const needle = v.toLowerCase();
-    const keys = Object.keys(DATA.cities)
-      .filter(k => k.toLowerCase().startsWith(needle)).slice(0,8);
+  } else if (parsed.kind === 'city'){
+    const keys = matchCities(Object.keys(DATA.cities), parsed.needle, 8);
     if (!keys.length){ hint.textContent = "No city match. Try a ZIP code."; showList([],null); return; }
-    const set = new Set(); keys.forEach(k => DATA.cities[k].forEach(i => set.add(i)));
+    const idxs = unionCityIndexes(DATA.cities, keys);
     hint.textContent = keys.length===1 ? `${keys[0]}` : `Matching: ${keys.slice(0,3).join(' · ')}${keys.length>3?' · …':''}`;
-    showList([...set].sort((a,b)=>L_[b].pop-L_[a].pop), keys[0]);
+    showList(idxs.sort((a,b)=>L_[b].pop-L_[a].pop), keys[0]);
   }
 }
 
@@ -425,20 +409,19 @@ function showDefault(){
 }
 
 function showMultiZip(zip5, cands){
-  const rows = cands.map((c,rank) => {
+  const rows = sortMultiLocal(cands).map((c) => {
     const l = L_[c.i];
     const s = STATUS_DISPLAY ? `<span class="dot s-${l.status}"></span>` : '';
-    const isTop = rank===0;
     return `<div class="res mres" onclick="select(${c.i},true)" tabindex="0" role="button"
-      aria-label="IBEW Local ${l.lu}, ${esc(l.city)}, ${l.st}${isTop?', most likely match':''}"
+      aria-label="IBEW Local ${l.lu}, ${esc(l.city)}, ${l.st}${c.isTop?', most likely match':''}"
       onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();select(${c.i},true)}">
-      <div class="lu">${s}IBEW Local ${l.lu}${isTop?'<span class="toppick">Most likely</span>':''}</div>
+      <div class="lu">${s}IBEW Local ${l.lu}${c.isTop?'<span class="toppick">Most likely</span>':''}</div>
       <div class="loc">${esc(l.city)}, ${l.st}</div>
       <div class="meta">${fmt(l.pop)} people in jurisdiction</div>
       <div class="mgrid">
         <div><span>Res. ratio</span><b>${(c.r*100).toFixed(0)}%</b></div>
         <div><span>County coverage</span><b>${c.c!=null?c.c.toFixed(0)+'%':'—'}</b></div>
-        ${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${CONF_LABEL[c.cf]||'—'}</b></div>`:''}
+        ${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${confidenceLabel(c.cf)}</b></div>`:''}
         ${c.d!=null?`<div><span>Distance</span><b>${c.d} mi</b></div>`:''}
       </div>
     </div>`;
@@ -463,7 +446,7 @@ function rowHTML(i){
   const l = L_[i];
   const s = STATUS_DISPLAY ? `<span class="dot s-${l.status}"></span>` : '';
   return `<div class="res" onclick="select(${i},true)" tabindex="0" role="button"
-    aria-label="IBEW Local ${l.lu}, ${esc(l.city)}, ${l.st}${STATUS_DISPLAY?', '+LABEL[l.status]:''}"
+    aria-label="IBEW Local ${l.lu}, ${esc(l.city)}, ${l.st}${STATUS_DISPLAY?', '+statusLabel(l.status):''}"
     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();select(${i},true)}">
     <div class="lu">${s}IBEW Local ${l.lu}</div>
     <div class="loc">${esc(l.city)}, ${l.st}</div>
@@ -491,8 +474,8 @@ function statusHTML(l){
   const nx = l.next_open
     ? `<div class="snote" style="color:var(--accent2)">Next window opens ${l.next_open}</div>` : '';
   return `<div class="statusband ${l.status}">
-    <div class="slabel"><span class="dot s-${l.status}"></span>${LABEL[l.status]}${conf}</div>
-    <div class="snote">${NOTE[l.status]}</div>${nx}${ev}</div>`;
+    <div class="slabel"><span class="dot s-${l.status}"></span>${statusLabel(l.status)}${conf}</div>
+    <div class="snote">${statusNote(l.status)}</div>${nx}${ev}</div>`;
 }
 
 function detailHTML(l,i){

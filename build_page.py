@@ -58,11 +58,24 @@ def _redact_locals(bundle, show_confidence, status_display):
     return bundle
 
 
+def _load_finder_core(show_confidence, status_display, core_path="site/js/finder-core.js"):
+    # Task 10: LABEL/NOTE/CONF_LABEL live here, not in the inline template --
+    # strip the dictionaries a disabled flag would otherwise leak as dead JS
+    # source text (see the module docstring: a runtime-only toggle isn't
+    # enough for the grep check in task 9).
+    core = open(core_path, encoding="utf-8").read()
+    if not status_display:
+        core = re.sub(r"const LABEL = \{.*?\};", "const LABEL = {};", core, flags=re.S)
+        core = re.sub(r"const NOTE = \{.*?\};", "const NOTE = {};", core, flags=re.S)
+    return core
+
+
 def _apply_flags(tpl, show_confidence, status_display):
     tpl = tpl.replace("const SHOW_CONFIDENCE = true;",
                        f"const SHOW_CONFIDENCE = {'true' if show_confidence else 'false'};")
     tpl = tpl.replace("const STATUS_DISPLAY  = true;",
                        f"const STATUS_DISPLAY  = {'true' if status_display else 'false'};")
+    tpl = tpl.replace("__FINDER_CORE__", _load_finder_core(show_confidence, status_display))
     if not show_confidence or not status_display:
         # the source-level CONFIG comment documents both flags using the words
         # "confidence"/status label examples -- strip it for a build with
@@ -79,15 +92,9 @@ def _apply_flags(tpl, show_confidence, status_display):
             "''",
         )
         tpl = tpl.replace(
-            "${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${CONF_LABEL[c.cf]||'—'}</b></div>`:''}",
+            "${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${confidenceLabel(c.cf)}</b></div>`:''}",
             "''",
         )
-    if not status_display:
-        # LABEL/NOTE are only ever read when STATUS_DISPLAY is true (statusHTML
-        # returns a static "Check with the local" string otherwise) -- delete
-        # the dead label text so it can't ship in the file at all.
-        tpl = re.sub(r"const LABEL = \{.*?\};", "const LABEL = {};", tpl, flags=re.S)
-        tpl = re.sub(r"const NOTE = \{.*?\};", "const NOTE = {};", tpl, flags=re.S)
     return tpl
 
 
