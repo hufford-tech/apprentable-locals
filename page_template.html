@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find Your IBEW Local | Apprenticeship Finder</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{
+  --bg:#0e1116; --panel:#151a22; --panel2:#1c222c; --line:#2a323f;
+  --ink:#e8edf4; --ink2:#9aa7b8; --ink3:#6b7889;
+  --accent:#f0a13a; --accent2:#ffc46b;
+  --open:#39c46e; --rolling:#4aa3f0; --pending:#f0a13a; --closed:#e2564d;
+  --unknown:#6b7889; --conflict:#a97bd6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%}
+body{
+  background:var(--bg); color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header{
+  padding:14px 22px; border-bottom:1px solid var(--line);
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  background:linear-gradient(180deg,#141922,#0e1116);
+}
+.brand{display:flex;align-items:center;gap:11px}
+.bolt{
+  width:30px;height:30px;border-radius:7px;flex:none;
+  background:linear-gradient(150deg,var(--accent),#c9761d);
+  display:grid;place-items:center;color:#1a1206;font-weight:800;font-size:17px;
+}
+h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
+.sub{color:var(--ink3);font-size:12px;margin-top:1px}
+.hstat{margin-left:auto;display:flex;gap:22px}
+.hstat div{text-align:right}
+.hstat b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
+.hstat span{font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:.7px}
+
+.wrap{display:grid;grid-template-columns:400px 1fr;height:calc(100vh - 63px)}
+@media(max-width:900px){.wrap{grid-template-columns:1fr;height:auto}#map{height:380px}}
+
+.side{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--panel)}
+.searchbox{padding:16px;border-bottom:1px solid var(--line)}
+.searchbox label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--ink3);margin-bottom:7px}
+#q{
+  width:100%;padding:12px 13px;border-radius:9px;border:1px solid var(--line);
+  background:var(--bg);color:var(--ink);font-size:15px;outline:none;
+}
+#q:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(240,161,58,.13)}
+.hint{font-size:11.5px;color:var(--ink3);margin-top:7px}
+
+.scroll{overflow-y:auto;flex:1;min-height:0}
+.scroll::-webkit-scrollbar{width:9px}
+.scroll::-webkit-scrollbar-thumb{background:#2c3542;border-radius:5px}
+
+.res{padding:13px 16px;border-bottom:1px solid var(--line);cursor:pointer}
+.res:hover{background:var(--panel2)}
+.res.on{background:var(--panel2);box-shadow:inset 3px 0 0 var(--accent)}
+.res .lu{font-weight:650;font-size:14.5px}
+.res .loc{color:var(--ink2);font-size:12.5px;margin-top:2px}
+.res .meta{color:var(--ink3);font-size:11.5px;margin-top:5px;font-variant-numeric:tabular-nums}
+
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.s-open{background:var(--open)} .s-rolling{background:var(--rolling)}
+.s-closed_pending{background:var(--pending)} .s-closed{background:var(--closed)}
+.s-expired_data{background:var(--unknown)} .s-unknown{background:var(--unknown)}
+.s-conflicting{background:var(--conflict)}
+
+.empty{padding:34px 20px;text-align:center;color:var(--ink3);font-size:13.5px}
+
+/* ---------- detail ---------- */
+.detail{padding:18px}
+.back{font-size:12px;color:var(--ink3);cursor:pointer;margin-bottom:13px;display:inline-block}
+.back:hover{color:var(--ink)}
+.dl{font-size:23px;font-weight:700;letter-spacing:-.4px}
+.dc{color:var(--ink2);font-size:13.5px;margin-top:1px}
+
+.statusband{
+  margin:15px 0;padding:13px 14px;border-radius:10px;
+  background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--unknown);
+}
+.statusband.open{border-left-color:var(--open)}
+.statusband.rolling{border-left-color:var(--rolling)}
+.statusband.closed_pending{border-left-color:var(--pending)}
+.statusband.closed{border-left-color:var(--closed)}
+.statusband.conflicting{border-left-color:var(--conflict)}
+.slabel{font-size:14.5px;font-weight:640}
+.sconf{
+  display:inline-block;margin-left:8px;font-size:10px;text-transform:uppercase;
+  letter-spacing:.7px;padding:2px 7px;border-radius:20px;
+  background:#2a323f;color:var(--ink2);font-weight:600;vertical-align:1.5px;
+}
+.snote{font-size:12px;color:var(--ink3);margin-top:6px}
+.quote{
+  font-size:12px;color:var(--ink2);margin-top:9px;padding:9px 11px;
+  background:var(--bg);border-radius:7px;border-left:2px solid var(--line);font-style:italic;
+}
+
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:15px 0}
+.cell{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:11px 12px}
+.cell b{display:block;font-size:19px;font-variant-numeric:tabular-nums;letter-spacing:-.3px}
+.cell span{font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:.7px}
+.cell small{display:block;font-size:10.5px;color:var(--ink3);margin-top:3px;text-transform:none;letter-spacing:0}
+
+h3{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--ink3);margin:19px 0 9px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px}
+.row span{color:var(--ink3);flex:none}
+.row b{font-weight:520;text-align:right}
+.muted{color:var(--ink3);font-style:italic}
+
+.btn{
+  display:block;width:100%;padding:12px;border-radius:9px;text-align:center;
+  font-weight:640;font-size:14px;cursor:pointer;border:1px solid var(--line);
+  background:var(--panel2);color:var(--ink);margin-top:9px;
+}
+.btn:hover{background:#232b36}
+.btn.primary{background:linear-gradient(160deg,var(--accent),#d4841f);color:#1a1206;border:none}
+.btn.primary:hover{filter:brightness(1.07)}
+
+.counties{font-size:12px;color:var(--ink2);line-height:1.8;max-height:170px;overflow-y:auto}
+
+/* ---------- map ---------- */
+#map{height:100%;background:#0b0e13}
+.leaflet-popup-content-wrapper{background:var(--panel2);color:var(--ink);border-radius:10px}
+.leaflet-popup-tip{background:var(--panel2)}
+.leaflet-popup-content{margin:12px 14px;font-size:13px}
+.pop b{font-size:14.5px}
+.pop .pl{color:var(--ink2);font-size:12px;margin:2px 0 7px}
+.pop button{
+  margin-top:8px;width:100%;padding:7px;border-radius:7px;border:none;cursor:pointer;
+  background:var(--accent);color:#1a1206;font-weight:640;font-size:12.5px;
+}
+.legend{
+  position:absolute;bottom:18px;right:12px;z-index:600;background:rgba(21,26,34,.94);
+  border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:11.5px;
+  backdrop-filter:blur(6px);
+}
+.legend div{margin:3.5px 0;color:var(--ink2)}
+
+/* ---------- modal ---------- */
+.modal{position:fixed;inset:0;background:rgba(6,8,11,.72);z-index:2000;display:none;place-items:center;padding:20px}
+.modal.on{display:grid}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:15px;
+  padding:26px;max-width:400px;width:100%;
+}
+.card h2{margin:0 0 7px;font-size:19px;letter-spacing:-.3px}
+.card p{margin:0 0 17px;color:var(--ink2);font-size:13.5px}
+.card input{
+  width:100%;padding:12px;border-radius:9px;border:1px solid var(--line);
+  background:var(--bg);color:var(--ink);font-size:14.5px;outline:none;margin-bottom:9px;
+}
+.card input:focus{border-color:var(--accent)}
+.fine{font-size:11px;color:var(--ink3);margin-top:11px;line-height:1.5}
+.x{float:right;color:var(--ink3);cursor:pointer;font-size:21px;line-height:1;margin:-4px -4px 0 0}
+.ok{text-align:center;padding:14px 0}
+.ok .big{font-size:34px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="bolt">&#9889;</div>
+    <div>
+      <h1>IBEW Apprenticeship Finder</h1>
+      <div class="sub">Inside wireman programs &middot; every local, every county</div>
+    </div>
+  </div>
+  <div class="hstat">
+    <div><b id="nLocals">0</b><span>Locals</span></div>
+    <div><b id="nZips">0</b><span>ZIPs mapped</span></div>
+    <div><b id="nPop">0</b><span>People covered</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="side">
+    <div class="searchbox">
+      <label for="q">Find the local that covers you</label>
+      <input id="q" placeholder="ZIP code or city, e.g. 02138 or Boston" autocomplete="off">
+      <div class="hint" id="hint">Every U.S. county is assigned to a local. Enter a ZIP for an exact match.</div>
+    </div>
+    <div class="scroll" id="panel"></div>
+  </div>
+  <div style="position:relative">
+    <div id="map"></div>
+    <div class="legend">
+      <div><span class="dot s-open"></span>Accepting now</div>
+      <div><span class="dot s-rolling"></span>Ongoing intake</div>
+      <div><span class="dot s-closed_pending"></span>Opens later</div>
+      <div><span class="dot s-closed"></span>Closed</div>
+      <div><span class="dot s-unknown"></span>Check with local</div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal">
+  <div class="card" id="cardBody"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+/* ==========================================================================
+   CONFIG
+   SHOW_CONFIDENCE=false hides every confidence badge and every "how we know"
+   evidence line, sitewide. Status labels themselves stay. Flip this one
+   constant before deploying if you don't want to expose the confidence model.
+   STATUS_DISPLAY=false hides application status entirely and falls back to
+   "check with the local" plus the official link everywhere.
+   ========================================================================== */
+const SHOW_CONFIDENCE = true;
+const STATUS_DISPLAY  = true;
+
+const DATA = JSON.parse(document.getElementById('payload').textContent);
+const L_ = DATA.locals;
+const leads = [];   // stub: email captures live here for the prototype
+
+const LABEL = {
+  open:"Accepting applications now",
+  rolling:"Accepts applications on an ongoing basis",
+  closed_pending:"Not open yet",
+  closed:"Applications closed",
+  expired_data:"Last posted window has passed",
+  conflicting:"Conflicting information posted",
+  unknown:"Status not published"
+};
+const NOTE = {
+  open:"A posted application window is open today.",
+  rolling:"This local takes applications year-round or on a repeating schedule.",
+  closed_pending:"A future window is posted. Get notified when it opens.",
+  closed:"The local has posted that applications are closed.",
+  expired_data:"The most recent window on their site has ended and nothing newer is posted.",
+  conflicting:"Their site says more than one thing. Confirm with the local before relying on this.",
+  unknown:"We could not confirm a status from their website. Contact the local directly."
+};
+
+const fmt = n => n==null ? "—" : n.toLocaleString();
+const money = n => n==null ? "—" : "$"+n.toLocaleString();
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ---------------- map ---------------- */
+const map = L.map('map',{zoomControl:true,attributionControl:true}).setView([39.5,-97],4);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+  maxZoom:14, attribution:'&copy; OpenStreetMap &copy; CARTO'
+}).addTo(map);
+
+const COLOR = {open:'#39c46e',rolling:'#4aa3f0',closed_pending:'#f0a13a',
+               closed:'#e2564d',expired_data:'#6b7889',unknown:'#6b7889',conflicting:'#a97bd6'};
+const markers = [];
+L_.forEach((l,i) => {
+  const r = 4 + Math.min(7, Math.sqrt(l.pop/1e6)*3.4);
+  const m = L.circleMarker([l.lat,l.lon],{
+    radius:r, weight:1.4, color:'#0e1116',
+    fillColor: STATUS_DISPLAY ? (COLOR[l.status]||'#6b7889') : '#f0a13a',
+    fillOpacity:.88
+  }).addTo(map);
+  m.bindPopup(popupHTML(l,i));
+  m.on('click', () => select(i,false));
+  markers.push(m);
+});
+
+function popupHTML(l,i){
+  const s = STATUS_DISPLAY
+    ? `<div style="margin:6px 0 2px"><span class="dot s-${l.status}"></span>${LABEL[l.status]}</div>` : "";
+  return `<div class="pop"><b>IBEW Local ${l.lu}</b>
+    <div class="pl">${esc(l.city)}, ${l.st}</div>${s}
+    <div style="color:#9aa7b8;font-size:12px">${fmt(l.pop)} people in jurisdiction</div>
+    <button onclick="select(${i},true)">View local</button></div>`;
+}
+
+/* ---------------- search ---------------- */
+const q = document.getElementById('q');
+const panel = document.getElementById('panel');
+const hint = document.getElementById('hint');
+let current = null;
+
+q.addEventListener('input', () => {
+  const v = q.value.trim();
+  if (!v){ current=null; showDefault(); return; }
+  if (/^\d{3,5}$/.test(v)){
+    if (v.length<5){ hint.textContent = "Keep typing, ZIP codes are 5 digits."; return; }
+    const hits = DATA.zips[v.padStart(5,'0')];
+    hint.textContent = hits ? `ZIP ${v} is in the jurisdiction of ${hits.length} local${hits.length>1?'s':''}.`
+                            : `We have no jurisdiction record for ZIP ${v}.`;
+    showList(hits||[], hits?`ZIP ${v}`:null);
+  } else {
+    const needle = v.toLowerCase();
+    const keys = Object.keys(DATA.cities)
+      .filter(k => k.toLowerCase().startsWith(needle)).slice(0,8);
+    if (!keys.length){ hint.textContent = "No city match. Try a ZIP code."; showList([],null); return; }
+    const set = new Set(); keys.forEach(k => DATA.cities[k].forEach(i => set.add(i)));
+    hint.textContent = keys.length===1 ? `${keys[0]}` : `Matching: ${keys.slice(0,3).join(' · ')}${keys.length>3?' · …':''}`;
+    showList([...set].sort((a,b)=>L_[b].pop-L_[a].pop), keys[0]);
+  }
+});
+
+function showDefault(){
+  hint.textContent = "Every U.S. county is assigned to a local. Enter a ZIP for an exact match.";
+  const top = L_.map((l,i)=>i).sort((a,b)=>L_[b].pop-L_[a].pop).slice(0,25);
+  panel.innerHTML = `<div style="padding:13px 16px;font-size:11px;text-transform:uppercase;
+    letter-spacing:.9px;color:var(--ink3);border-bottom:1px solid var(--line)">
+    Largest locals by population served</div>` + top.map(rowHTML).join('');
+}
+
+function showList(idxs, title){
+  if (!idxs.length){ panel.innerHTML = `<div class="empty">No local found.<br>Try a nearby ZIP code.</div>`; return; }
+  panel.innerHTML = (title?`<div style="padding:13px 16px;font-size:11px;text-transform:uppercase;
+    letter-spacing:.9px;color:var(--ink3);border-bottom:1px solid var(--line)">${esc(title)}</div>`:'')
+    + idxs.map(rowHTML).join('');
+  if (idxs.length===1) select(idxs[0], true);
+}
+
+function rowHTML(i){
+  const l = L_[i];
+  const s = STATUS_DISPLAY ? `<span class="dot s-${l.status}"></span>` : '';
+  return `<div class="res" onclick="select(${i},true)">
+    <div class="lu">${s}IBEW Local ${l.lu}</div>
+    <div class="loc">${esc(l.city)}, ${l.st}</div>
+    <div class="meta">${fmt(l.pop)} people &middot; ${l.county_n} count${l.county_n===1?'y':'ies'}</div>
+  </div>`;
+}
+
+/* ---------------- detail ---------------- */
+function select(i, fly){
+  current = i;
+  const l = L_[i];
+  if (fly){ map.flyTo([l.lat,l.lon], 7, {duration:.7}); markers[i].openPopup(); }
+  panel.innerHTML = detailHTML(l,i);
+  panel.scrollTop = 0;
+}
+
+function statusHTML(l){
+  if (!STATUS_DISPLAY) return `<div class="statusband">
+      <div class="slabel">Check with the local</div>
+      <div class="snote">Application windows change often. Use the official link below.</div></div>`;
+  const conf = SHOW_CONFIDENCE
+    ? `<span class="sconf">${l.conf} confidence</span>` : '';
+  const ev = (SHOW_CONFIDENCE && l.quote)
+    ? `<div class="quote">&ldquo;${esc(l.quote)}&rdquo;${l.src?` <a href="${esc(l.src)}" target="_blank" rel="noopener">source</a>`:''}</div>` : '';
+  const nx = l.next_open
+    ? `<div class="snote" style="color:var(--accent2)">Next window opens ${l.next_open}</div>` : '';
+  return `<div class="statusband ${l.status}">
+    <div class="slabel"><span class="dot s-${l.status}"></span>${LABEL[l.status]}${conf}</div>
+    <div class="snote">${NOTE[l.status]}</div>${nx}${ev}</div>`;
+}
+
+function detailHTML(l,i){
+  const req = [
+    ['Minimum age', l.min_age], ['Education', l.min_edu], ['Aptitude test', l.aptitude]
+  ].filter(r => r[1] && r[1].trim());
+
+  return `<div class="detail">
+  <div class="back" onclick="q.dispatchEvent(new Event('input'))">&larr; Back to results</div>
+  <div class="dl">IBEW Local ${l.lu}</div>
+  <div class="dc">${esc(l.city)}, ${l.st}${l.jatc?` &middot; ${esc(l.jatc)}`:''}</div>
+
+  ${statusHTML(l)}
+
+  <button class="btn primary" onclick="openModal(${i},'prep')">Practice the aptitude test &amp; interview</button>
+  <button class="btn" onclick="openModal(${i},'alert')">Email me when Local ${l.lu} opens</button>
+  ${l.slug?`<a class="btn" href="local/${l.slug}.html" style="display:block;text-decoration:none">View full local profile &rarr;</a>`:''}
+
+  <div class="grid">
+    <div class="cell"><b>${fmt(l.pop)}</b><span>People in jurisdiction</span>
+      ${l.rank?`<small>#${l.rank} of 245 nationally</small>`:''}</div>
+    <div class="cell"><b>${fmt(l.members)}</b><span>Union members</span>
+      <small>${l.members?'DOL filing, FY2025':'Not filed'}</small></div>
+    <div class="cell"><b>${l.county_n}</b><span>Counties covered</span></div>
+    <div class="cell"><b>${fmt(l.zip_n)}</b><span>ZIP codes</span></div>
+  </div>
+
+  <h3>Apprentice pay</h3>
+  <div class="row"><span>Starting wage</span><b class="muted">Not yet collected</b></div>
+  <div class="row"><span>Journeyman scale</span><b class="muted">Not yet collected</b></div>
+
+  ${req.length?`<h3>Requirements</h3>`+req.map(r=>
+    `<div class="row"><span>${r[0]}</span><b>${esc(r[1])}</b></div>`).join(''):''}
+
+  <h3>Apply</h3>
+  ${l.app_url?`<div class="row"><span>Application page</span><b><a href="${esc(l.app_url)}" target="_blank" rel="noopener">Official link &rarr;</a></b></div>`:
+    `<div class="row"><span>Application page</span><b class="muted">Not published</b></div>`}
+  ${l.website?`<div class="row"><span>Local website</span><b><a href="${esc(l.website.startsWith('http')?l.website:'https://'+l.website)}" target="_blank" rel="noopener">${esc(l.website)}</a></b></div>`:''}
+  ${l.phone?`<div class="row"><span>Phone</span><b>${esc(l.phone)}</b></div>`:''}
+  ${l.email?`<div class="row"><span>Email</span><b>${esc(l.email)}</b></div>`:''}
+  ${l.meets?`<div class="row"><span>Meetings</span><b style="max-width:220px">${esc(l.meets)}</b></div>`:''}
+
+  <h3>Counties served ${l.county_n>l.counties.length?`(top ${l.counties.length} of ${l.county_n})`:''}</h3>
+  <div class="counties">${l.counties.map(esc).join(' &middot; ')}</div>
+  </div>`;
+}
+
+/* ---------------- modal ---------------- */
+const modal = document.getElementById('modal'), cardBody = document.getElementById('cardBody');
+function openModal(i,kind){
+  const l = L_[i];
+  cardBody.innerHTML = kind==='prep' ? prepCard(l) : alertCard(l);
+  modal.classList.add('on');
+}
+function closeModal(){ modal.classList.remove('on'); }
+modal.addEventListener('click', e => { if (e.target===modal) closeModal(); });
+
+function prepCard(l){
+  return `<div><span class="x" onclick="closeModal()">&times;</span>
+  <h2>Get ready for Local ${l.lu}</h2>
+  <p>The IBEW aptitude test covers algebra, functions and reading comprehension, and the
+  interview is scored on a rubric. Practice both before you sit down.</p>
+  <input id="em" type="email" placeholder="you@email.com">
+  <button class="btn primary" onclick="capture('${l.lu}','prep')">Start free practice</button>
+  <div class="fine">Prototype. No email is sent and nothing is stored on a server.</div></div>`;
+}
+function alertCard(l){
+  const w = l.next_open ? `We'll email you before it opens on ${l.next_open}.`
+    : `We check this local's website daily and will email you the day the window opens.`;
+  return `<div><span class="x" onclick="closeModal()">&times;</span>
+  <h2>Application alerts for Local ${l.lu}</h2>
+  <p>${w}</p>
+  <input id="em" type="email" placeholder="you@email.com">
+  <button class="btn primary" onclick="capture('${l.lu}','alert')">Notify me</button>
+  <div class="fine">Prototype. No email is sent and nothing is stored on a server.</div></div>`;
+}
+function capture(lu,kind){
+  const v = (document.getElementById('em')||{}).value || '';
+  if (!/^\S+@\S+\.\S+$/.test(v)){ alert('Enter a valid email address.'); return; }
+  leads.push({lu,kind,email:v,at:new Date().toISOString()});
+  cardBody.innerHTML = `<div class="ok"><div class="big">&#9889;</div>
+    <h2>You're on the list</h2>
+    <p>${esc(v)} &middot; Local ${lu}</p>
+    <button class="btn" onclick="closeModal()">Close</button>
+    <div class="fine">Captured in memory for this prototype: ${leads.length} lead${leads.length>1?'s':''} this session.</div></div>`;
+}
+
+/* ---------------- boot ---------------- */
+document.getElementById('nLocals').textContent = L_.length;
+document.getElementById('nZips').textContent = Object.keys(DATA.zips).length.toLocaleString();
+document.getElementById('nPop').textContent =
+  (L_.reduce((a,l)=>a+l.pop,0)/1e6).toFixed(0)+'M';
+showDefault();
+</script>
+</body>
+</html>

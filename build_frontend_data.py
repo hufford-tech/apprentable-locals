@@ -17,6 +17,13 @@ from city_coords import CITY_COORDS
 csv.field_size_limit(10_000_000)
 
 
+def slugify(lu, city, state):
+    c = "".join(ch.lower() if ch.isalnum() else "-" for ch in city).strip("-")
+    while "--" in c:
+        c = c.replace("--", "-")
+    return f"ibew-local-{lu}-{c}-{state.lower()}"
+
+
 def load(path):
     with open(path, encoding="utf-8") as f:
         return list(csv.DictReader(f))
@@ -139,6 +146,7 @@ for t in targets:
     locals_out.append({
         "id": lid,
         "lu": lu,
+        "slug": slugify(lu, t["charter_city"], t["charter_state"]),
         "city": t["charter_city"],
         "st": t["charter_state"],
         "lat": coords[0],
