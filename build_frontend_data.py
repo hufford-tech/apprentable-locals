@@ -28,6 +28,20 @@ olms = {r["local_union_id"]: r for r in load("out/locals_joined_olms.csv")}
 zip_rows = load("out/zip_to_local.csv")
 jurisdictions = load("out/jurisdictions.csv")
 
+# Task 4 (frontend round): validated contact info, crawled value preferred on
+# disagreement with the IBEW directory since it came from the local's own live
+# site. See out/contact_validation.csv / build_contact_validation.py.
+contact_by_lu = {r["lu_number"]: r for r in load("out/contact_validation.csv")}
+
+
+def recommended_contact(lu):
+    r = contact_by_lu.get(lu)
+    if not r:
+        return "", ""
+    email = r["crawled_email"] if r["email_agreement"] in ("mismatch", "match", "crawled_only") else r["directory_email"]
+    phone = r["crawled_phone"] if r["phone_agreement"] in ("mismatch", "match", "crawled_only") else r["directory_phone"]
+    return email, phone
+
 # ---- ZIP -> USPS city name, for the city search box -------------------------
 zip_city = {}
 with open("hud/zip_county.csv", encoding="utf-8") as f:
@@ -106,8 +120,7 @@ for t in targets:
                     quote, src = w["evidence_quote"][:300], w.get("source_url", "")
                     break
         app_url = e.get("application_url", "")
-        contact_email = e.get("contact_email", "")
-        contact_phone = e.get("contact_phone", "")
+        contact_email, contact_phone = recommended_contact(lu)
         jatc = e.get("jatc_name") or e.get("program_name") or ""
         aptitude = e.get("aptitude_test", "")
         min_age = e.get("min_age", "")
@@ -115,7 +128,8 @@ for t in targets:
     else:
         cs = {"computed_status": "unknown", "status_confidence": "low",
               "days_since_evidence": None, "intake_pattern": ""}
-        quote = src = app_url = contact_email = contact_phone = jatc = ""
+        quote = src = app_url = jatc = ""
+        contact_email, contact_phone = recommended_contact(lu)
         aptitude = min_age = min_edu = ""
 
     status_counts[cs["computed_status"]] += 1
