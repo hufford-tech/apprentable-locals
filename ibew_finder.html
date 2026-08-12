@@ -8,11 +8,13 @@
 <style>
 :root{
   --bg:#0e1116; --panel:#151a22; --panel2:#1c222c; --line:#2a323f;
-  --ink:#e8edf4; --ink2:#9aa7b8; --ink3:#6b7889;
+  --ink:#e8edf4; --ink2:#9aa7b8; --ink3:#7c8998;
   --accent:#f0a13a; --accent2:#ffc46b;
   --open:#39c46e; --rolling:#4aa3f0; --pending:#f0a13a; --closed:#e2564d;
-  --unknown:#6b7889; --conflict:#a97bd6;
+  --unknown:#6b7889; --expired:#8a6d3b; --conflict:#a97bd6;
 }
+/* --ink3 raised from #6b7889 to #7c8998: the original was ~3.9:1 against
+   --panel, below the 4.5:1 WCAG AA threshold for small text; this is ~4.8:1. */
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;height:100%}
 body{
@@ -41,8 +43,16 @@ h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
 .hstat b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
 .hstat span{font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:.7px}
 
+.sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
 .wrap{display:grid;grid-template-columns:400px 1fr;height:calc(100vh - 63px)}
-@media(max-width:900px){.wrap{grid-template-columns:1fr;height:auto}#map{height:380px}}
+@media(max-width:900px){
+  .wrap{grid-template-columns:1fr;height:auto}
+  #map{height:380px}
+  .side{height:auto;border-right:none;border-bottom:1px solid var(--line)}
+  .scroll{overflow-y:visible;flex:none}
+  .searchbox{position:sticky;top:0;z-index:50;background:var(--panel)}
+}
 
 .side{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--panel)}
 .searchbox{padding:16px;border-bottom:1px solid var(--line)}
@@ -61,6 +71,9 @@ h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
 .res{padding:13px 16px;border-bottom:1px solid var(--line);cursor:pointer}
 .res:hover{background:var(--panel2)}
 .res.on{background:var(--panel2);box-shadow:inset 3px 0 0 var(--accent)}
+.res:focus-visible,.btn:focus-visible,#q:focus-visible,.back:focus-visible{
+  outline:2px solid var(--accent);outline-offset:-2px;
+}
 .res .lu{font-weight:650;font-size:14.5px}
 .res .loc{color:var(--ink2);font-size:12.5px;margin-top:2px}
 .res .meta{color:var(--ink3);font-size:11.5px;margin-top:5px;font-variant-numeric:tabular-nums}
@@ -68,7 +81,7 @@ h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
 .s-open{background:var(--open)} .s-rolling{background:var(--rolling)}
 .s-closed_pending{background:var(--pending)} .s-closed{background:var(--closed)}
-.s-expired_data{background:var(--unknown)} .s-unknown{background:var(--unknown)}
+.s-expired_data{background:var(--expired)} .s-unknown{background:var(--unknown)}
 .s-conflicting{background:var(--conflict)}
 
 .empty{padding:34px 20px;text-align:center;color:var(--ink3);font-size:13.5px}
@@ -99,6 +112,7 @@ h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
 .statusband.rolling{border-left-color:var(--rolling)}
 .statusband.closed_pending{border-left-color:var(--pending)}
 .statusband.closed{border-left-color:var(--closed)}
+.statusband.expired_data{border-left-color:var(--expired)}
 .statusband.conflicting{border-left-color:var(--conflict)}
 .slabel{font-size:14.5px;font-weight:640}
 .sconf{
@@ -152,6 +166,13 @@ h3{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--ink3)
   backdrop-filter:blur(6px);
 }
 .legend div{margin:3.5px 0;color:var(--ink2)}
+.mapfilter{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:7px}
+.mapfilter label{display:block;font-size:11.5px;color:var(--ink2);cursor:pointer;margin:2px 0}
+.mapfilter input{margin-right:5px;vertical-align:-1px}
+.mapfail{
+  position:absolute;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:30px;background:var(--bg);color:var(--ink2);font-size:14px;line-height:1.6;
+}
 
 /* ---------- modal ---------- */
 .modal{position:fixed;inset:0;background:rgba(6,8,11,.72);z-index:2000;display:none;place-items:center;padding:20px}
@@ -202,11 +223,20 @@ h3{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--ink3)
   <div style="position:relative">
     <div id="map"></div>
     <div class="legend">
+      <div class="mapfilter">
+        <label><input type="radio" name="mapf" value="all" checked> All locals</label>
+        <label><input type="radio" name="mapf" value="confirmed"> Only confirmed status</label>
+      </div>
       <div><span class="dot s-open"></span>Accepting now</div>
       <div><span class="dot s-rolling"></span>Ongoing intake</div>
       <div><span class="dot s-closed_pending"></span>Opens later</div>
       <div><span class="dot s-closed"></span>Closed</div>
+      <div><span class="dot s-expired_data"></span>Window passed, nothing newer</div>
+      <div><span class="dot s-conflicting"></span>Conflicting info</div>
       <div><span class="dot s-unknown"></span>Check with local</div>
+    </div>
+    <div class="mapfail" id="mapfail" hidden>
+      Map failed to load, but search still works &mdash; use the box on the left.
     </div>
   </div>
 </div>
@@ -259,25 +289,62 @@ const money = n => n==null ? "—" : "$"+n.toLocaleString();
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 /* ---------------- map ---------------- */
-const map = L.map('map',{zoomControl:true,attributionControl:true}).setView([39.5,-97],4);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
-  maxZoom:14, attribution:'&copy; OpenStreetMap &copy; CARTO'
-}).addTo(map);
+const mapfail = document.getElementById('mapfail');
+function showMapFail(){ mapfail.hidden = false; }
 
 const COLOR = {open:'#39c46e',rolling:'#4aa3f0',closed_pending:'#f0a13a',
-               closed:'#e2564d',expired_data:'#6b7889',unknown:'#6b7889',conflicting:'#a97bd6'};
+               closed:'#e2564d',expired_data:'#8a6d3b',unknown:'#6b7889',conflicting:'#a97bd6'};
+const CONFIRMED = new Set(['open','rolling','closed_pending','closed']);
 const markers = [];
-L_.forEach((l,i) => {
-  const r = 4 + Math.min(7, Math.sqrt(l.pop/1e6)*3.4);
-  const m = L.circleMarker([l.lat,l.lon],{
-    radius:r, weight:1.4, color:'#0e1116',
-    fillColor: STATUS_DISPLAY ? (COLOR[l.status]||'#6b7889') : '#f0a13a',
-    fillOpacity:.88
-  }).addTo(map);
-  m.bindPopup(popupHTML(l,i));
-  m.on('click', () => select(i,false));
-  markers.push(m);
-});
+let map = null;
+
+if (typeof L === 'undefined'){
+  showMapFail();
+} else {
+  try {
+    map = L.map('map',{zoomControl:true,attributionControl:true}).setView([39.5,-97],4);
+    const tiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+      maxZoom:14, attribution:'&copy; OpenStreetMap &copy; CARTO'
+    });
+    let tileErrors = 0;
+    tiles.on('tileerror', () => { tileErrors++; if (tileErrors > 20) showMapFail(); });
+    tiles.addTo(map);
+
+    L_.forEach((l,i) => {
+      const r = 4 + Math.min(7, Math.sqrt(l.pop/1e6)*3.4);
+      const m = L.circleMarker([l.lat,l.lon],{
+        radius:r, weight:1.4, color:'#0e1116',
+        fillColor: STATUS_DISPLAY ? (COLOR[l.status]||'#6b7889') : '#f0a13a',
+        fillOpacity:.88
+      }).addTo(map);
+      m.bindPopup(popupHTML(l,i));
+      m.on('click', () => select(i,false));
+      const el = m.getElement && m.getElement();
+      if (el){
+        el.setAttribute('role','button');
+        el.setAttribute('tabindex','0');
+        el.setAttribute('aria-label', `IBEW Local ${l.lu}, ${l.city}, ${l.st}`);
+        el.addEventListener('keydown', e => {
+          if (e.key==='Enter' || e.key===' '){ e.preventDefault(); select(i,true); }
+        });
+      }
+      markers.push(m);
+    });
+
+    document.querySelectorAll('input[name="mapf"]').forEach(inp => {
+      inp.addEventListener('change', () => {
+        const onlyConfirmed = inp.value==='confirmed' && inp.checked;
+        L_.forEach((l,i) => {
+          const show = !onlyConfirmed || CONFIRMED.has(l.status);
+          const el = markers[i].getElement && markers[i].getElement();
+          if (el) el.style.display = show ? '' : 'none';
+        });
+      });
+    });
+  } catch (err){
+    showMapFail();
+  }
+}
 
 function popupHTML(l,i){
   const s = STATUS_DISPLAY
@@ -367,7 +434,9 @@ function showList(idxs, title){
 function rowHTML(i){
   const l = L_[i];
   const s = STATUS_DISPLAY ? `<span class="dot s-${l.status}"></span>` : '';
-  return `<div class="res" onclick="select(${i},true)">
+  return `<div class="res" onclick="select(${i},true)" tabindex="0" role="button"
+    aria-label="IBEW Local ${l.lu}, ${esc(l.city)}, ${l.st}${STATUS_DISPLAY?', '+LABEL[l.status]:''}"
+    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();select(${i},true)}">
     <div class="lu">${s}IBEW Local ${l.lu}</div>
     <div class="loc">${esc(l.city)}, ${l.st}</div>
     <div class="meta">${fmt(l.pop)} people &middot; ${l.county_n} count${l.county_n===1?'y':'ies'}</div>
@@ -378,7 +447,7 @@ function rowHTML(i){
 function select(i, fly){
   current = i;
   const l = L_[i];
-  if (fly){ map.flyTo([l.lat,l.lon], 7, {duration:.7}); markers[i].openPopup(); }
+  if (fly && map){ map.flyTo([l.lat,l.lon], 7, {duration:.7}); markers[i].openPopup(); }
   panel.innerHTML = detailHTML(l,i);
   panel.scrollTop = 0;
 }
@@ -404,7 +473,9 @@ function detailHTML(l,i){
   ].filter(r => r[1] && r[1].trim());
 
   return `<div class="detail">
-  <div class="back" onclick="q.dispatchEvent(new Event('input'))">&larr; Back to results</div>
+  <div class="back" onclick="q.dispatchEvent(new Event('input'))" tabindex="0" role="button"
+    aria-label="Back to results"
+    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();q.dispatchEvent(new Event('input'))}">&larr; Back to results</div>
   <div class="dl">IBEW Local ${l.lu}</div>
   <div class="dc">${esc(l.city)}, ${l.st}${l.jatc?` &middot; ${esc(l.jatc)}`:''}</div>
 
@@ -445,30 +516,54 @@ function detailHTML(l,i){
 
 /* ---------------- modal ---------------- */
 const modal = document.getElementById('modal'), cardBody = document.getElementById('cardBody');
+let modalReturnFocus = null;
 function openModal(i,kind){
   const l = L_[i];
+  modalReturnFocus = document.activeElement;
   cardBody.innerHTML = kind==='prep' ? prepCard(l) : alertCard(l);
   modal.classList.add('on');
+  modal.setAttribute('role','dialog');
+  modal.setAttribute('aria-modal','true');
+  const first = cardBody.querySelector('input,button,a,[tabindex]');
+  if (first) first.focus();
 }
-function closeModal(){ modal.classList.remove('on'); }
+function closeModal(){
+  modal.classList.remove('on');
+  if (modalReturnFocus) modalReturnFocus.focus();
+}
 modal.addEventListener('click', e => { if (e.target===modal) closeModal(); });
+modal.addEventListener('keydown', e => {
+  if (!modal.classList.contains('on')) return;
+  if (e.key === 'Escape'){ closeModal(); return; }
+  if (e.key !== 'Tab') return;
+  const focusables = cardBody.querySelectorAll('input,button,a[href],[tabindex]:not([tabindex="-1"])');
+  if (!focusables.length) return;
+  const list = [...focusables];
+  const idx = list.indexOf(document.activeElement);
+  if (e.shiftKey && (idx===0 || idx===-1)){ e.preventDefault(); list[list.length-1].focus(); }
+  else if (!e.shiftKey && idx===list.length-1){ e.preventDefault(); list[0].focus(); }
+});
 
 function prepCard(l){
-  return `<div><span class="x" onclick="closeModal()">&times;</span>
+  return `<div><span class="x" onclick="closeModal()" tabindex="0" role="button" aria-label="Close"
+  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();closeModal()}">&times;</span>
   <h2>Get ready for Local ${l.lu}</h2>
   <p>The IBEW aptitude test covers algebra, functions and reading comprehension, and the
   interview is scored on a rubric. Practice both before you sit down.</p>
-  <input id="em" type="email" placeholder="you@email.com">
+  <label for="em" class="sronly">Email address</label>
+  <input id="em" type="email" placeholder="you@email.com" aria-label="Email address">
   <button class="btn primary" onclick="capture('${l.lu}','prep')">Start free practice</button>
   <div class="fine">Prototype. No email is sent and nothing is stored on a server.</div></div>`;
 }
 function alertCard(l){
   const w = l.next_open ? `We'll email you before it opens on ${l.next_open}.`
     : `We check this local's website daily and will email you the day the window opens.`;
-  return `<div><span class="x" onclick="closeModal()">&times;</span>
+  return `<div><span class="x" onclick="closeModal()" tabindex="0" role="button" aria-label="Close"
+  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();closeModal()}">&times;</span>
   <h2>Application alerts for Local ${l.lu}</h2>
   <p>${w}</p>
-  <input id="em" type="email" placeholder="you@email.com">
+  <label for="em" class="sronly">Email address</label>
+  <input id="em" type="email" placeholder="you@email.com" aria-label="Email address">
   <button class="btn primary" onclick="capture('${l.lu}','alert')">Notify me</button>
   <div class="fine">Prototype. No email is sent and nothing is stored on a server.</div></div>`;
 }
