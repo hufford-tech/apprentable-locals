@@ -14,6 +14,7 @@ the 15-40 KB range.
 Zero network, zero API cost. Reads out/frontend_data.json (already built by
 build_frontend_data.py), out/jurisdictions.csv, out/zip_to_local.csv.
 """
+import calendar
 import csv
 import json
 import math
@@ -48,6 +49,13 @@ NOTE = {
     "conflicting": "Their site says more than one thing. Confirm with the local before relying on this.",
     "unknown": "We could not confirm a status from their website. Contact the local directly.",
 }
+
+
+def fmt_date(iso):
+    if not iso:
+        return ""
+    y, m, d = (int(x) for x in iso.split("-"))
+    return f"{calendar.month_name[m]} {d}, {y}"
 
 
 def esc(s):
@@ -169,10 +177,14 @@ def status_block_html(l):
     if SHOW_CONFIDENCE and l.get("quote"):
         src = f' <a href="{esc(l["src"])}" target="_blank" rel="noopener">source</a>' if l.get("src") else ""
         ev = f'<div class="quote">&ldquo;{esc(l["quote"])}&rdquo;{src}</div>'
-    nx = f'<div class="snote" style="color:var(--accent2)">Next window opens {esc(l["next_open"])}</div>' if l.get("next_open") else ""
+    nx = f'<div class="snote" style="color:var(--accent2)">Next window opens {fmt_date(l["next_open"])}</div>' if l.get("next_open") else ""
+    nc = ""
+    if l.get("next_close"):
+        prefix = "Open now, closes " if l["status"] == "open" else "Closes "
+        nc = f'<div class="snote" style="color:var(--accent2)">{prefix}{fmt_date(l["next_close"])}.</div>'
     return (f'<div class="statusband {l["status"]}"><div class="slabel">'
             f'<span class="dot s-{l["status"]}"></span>{LABEL[l["status"]]}{conf}</div>'
-            f'<div class="snote">{NOTE[l["status"]]}</div>{nx}{ev}</div>')
+            f'<div class="snote">{NOTE[l["status"]]}</div>{nx}{nc}{ev}</div>')
 
 
 def cta_block_html(l):

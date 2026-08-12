@@ -183,6 +183,7 @@ for t in targets:
         "conf": cs["status_confidence"],
         "pattern": cs.get("intake_pattern", "") or "",
         "next_open": cs.get("next_open_date", "") or "",
+        "next_close": cs.get("next_close_date", "") or "",
         "days_since": cs["days_since_evidence"],
         "quote": quote,
         "src": src,

@@ -273,6 +273,15 @@ const { statusLabel, statusNote, confidenceLabel, isConfirmedStatus,
 const fmt = n => n==null ? "—" : n.toLocaleString();
 const money = n => n==null ? "—" : "$"+n.toLocaleString();
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const MONTH_NAMES = ["January","February","March","April","May","June","July",
+  "August","September","October","November","December"];
+// Parsed from the Y-M-D components directly (not `new Date(iso)`) so a
+// viewer west of UTC never sees the date shift back a day.
+const fmtDate = iso => {
+  if (!iso) return "";
+  const [y,m,d] = iso.split("-").map(Number);
+  return `${MONTH_NAMES[m-1]} ${d}, ${y}`;
+};
 
 /* ---------------- map ---------------- */
 const mapfail = document.getElementById('mapfail');
@@ -472,10 +481,12 @@ function statusHTML(l){
   const ev = (SHOW_CONFIDENCE && l.quote)
     ? `<div class="quote">&ldquo;${esc(l.quote)}&rdquo;${l.src?` <a href="${esc(l.src)}" target="_blank" rel="noopener">source</a>`:''}</div>` : '';
   const nx = l.next_open
-    ? `<div class="snote" style="color:var(--accent2)">Next window opens ${l.next_open}</div>` : '';
+    ? `<div class="snote" style="color:var(--accent2)">Next window opens ${fmtDate(l.next_open)}</div>` : '';
+  const nc = l.next_close
+    ? `<div class="snote" style="color:var(--accent2)">${l.status==='open' ? 'Open now, closes ' : 'Closes '}${fmtDate(l.next_close)}.</div>` : '';
   return `<div class="statusband ${l.status}">
     <div class="slabel"><span class="dot s-${l.status}"></span>${statusLabel(l.status)}${conf}</div>
-    <div class="snote">${statusNote(l.status)}</div>${nx}${ev}</div>`;
+    <div class="snote">${statusNote(l.status)}</div>${nx}${nc}${ev}</div>`;
 }
 
 function detailHTML(l,i){
