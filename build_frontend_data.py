@@ -77,6 +77,29 @@ for r in zip_rows:
     zips_by_local[lid].add(z)
     zip_to_locals[z].add(lid)
 
+# Task 6: per-(zip, local) res_ratio/coverage/confidence, aggregated across any
+# duplicate rows (a ZIP can straddle multiple counties mapped to the same
+# local). Used to build the multi-local comparison view -- a county-level ZIP
+# can genuinely fall under more than one local, so surface the raw numbers
+# rather than silently picking one.
+CONF_RANK = {"high": 3, "medium": 2, "med": 2, "low": 1, "": 0}
+zip_local_agg = defaultdict(lambda: defaultdict(lambda: {"res_ratio": 0.0, "county_pct_coverage": 0.0, "confidence": ""}))
+for r in zip_rows:
+    z = r["zip"].zfill(5)
+    lid = r["local_union_id"]
+    agg = zip_local_agg[z][lid]
+    try:
+        agg["res_ratio"] += float(r.get("res_ratio") or 0)
+    except ValueError:
+        pass
+    try:
+        agg["county_pct_coverage"] = max(agg["county_pct_coverage"], float(r.get("county_pct_coverage") or 0))
+    except ValueError:
+        pass
+    conf = (r.get("confidence") or "").strip().lower()
+    if CONF_RANK.get(conf, 0) >= CONF_RANK.get(agg["confidence"], 0):
+        agg["confidence"] = conf
+
 # ---- assemble ---------------------------------------------------------------
 locals_out = []
 missing_coords = []
@@ -187,6 +210,44 @@ for z, lids in zip_to_locals.items():
     if hits:
         zip_index[z] = hits
 
+# Task 6: comparison-view metadata for ZIPs resolving to >1 local. Sorted by
+# res_ratio descending so the most likely local is first. Distance from the
+# searched ZIP's city is included only when that city matches a charter city
+# we have coordinates for (best-effort -- omitted otherwise).
+import math
+
+
+def haversine_mi(lat1, lon1, lat2, lon2):
+    r = 3958.8
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp = math.radians(lat2 - lat1)
+    dl = math.radians(lon2 - lon1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+zip_multi = {}
+for z, hits in zip_index.items():
+    if len(hits) < 2:
+        continue
+    zip_coords = CITY_COORDS.get(zip_city.get(z, (None, None)))
+    cands = []
+    for n in hits:
+        lid = locals_out[n]["id"]
+        agg = zip_local_agg.get(z, {}).get(lid, {"res_ratio": 0.0, "county_pct_coverage": 0.0, "confidence": ""})
+        dist = None
+        if zip_coords:
+            dist = round(haversine_mi(zip_coords[0], zip_coords[1], locals_out[n]["lat"], locals_out[n]["lon"]), 1)
+        cands.append({
+            "i": n,
+            "r": round(agg["res_ratio"], 3),
+            "c": round(agg["county_pct_coverage"], 1),
+            "cf": agg["confidence"][:1],  # h/m/l/''
+            "d": dist,
+        })
+    cands.sort(key=lambda c: -c["r"])
+    zip_multi[z] = cands
+
 # City index: "city, ST" -> list of local indexes, derived through ZIPs.
 city_index = defaultdict(set)
 for z, hits in zip_index.items():
@@ -201,6 +262,7 @@ bundle = {
     "generated": __import__("datetime").date.today().isoformat(),
     "locals": locals_out,
     "zips": {z: h for z, h in sorted(zip_index.items())},
+    "zip_multi": {z: h for z, h in sorted(zip_multi.items())},
     "cities": {k: sorted(v) for k, v in sorted(city_index.items())},
 }
 
@@ -217,6 +279,7 @@ if missing_coords:
     for k in missing_coords:
         print("   ", k)
 print(f"zips indexed: {len(zip_index):,}")
+print(f"zips with >1 local (comparison view): {len(zip_multi):,}")
 print(f"cities indexed: {len(city_index):,}")
 print(f"status: {dict(sorted(status_counts.items(), key=lambda x: -x[1]))}")
 import os
