@@ -11,10 +11,22 @@ site/data/cities.json, fetched on first search. Writes site/index.html.
 
 Both modes read the same out/frontend_data.json -- run build_frontend_data.py
 first. Zero network.
+
+show_confidence / status_display (task 9): when a flag is off this doesn't
+just gate rendering at runtime -- the JS is source text sitting in the file
+either way, so a runtime-only toggle would still leave the literal strings
+grep-able. When a flag is off this also (a) strips the corresponding fields
+from the embedded JSON payload so no confidence/status value ships at all,
+and (b) deletes the dead label/confidence-badge JS literals from the
+template text for that build. The two named constants remain the single
+switch a real deploy flips; this function is the one place that has to know
+about the flag beyond that.
 """
 import argparse
+import copy
 import json
 import os
+import re
 
 FIRST_PAINT_KEYS = {"generated", "locals"}
 
@@ -24,10 +36,69 @@ def _escape_for_script_tag(json_text):
     return json_text.replace("</", "<\\/")
 
 
+def _redact_locals(bundle, show_confidence, status_display):
+    bundle = copy.deepcopy(bundle)
+    for l in bundle.get("locals", []):
+        if not show_confidence:
+            l["conf"] = ""
+            l["quote"] = ""
+            l["src"] = ""
+        if not status_display:
+            l["status"] = ""
+            l["pattern"] = ""
+            l["next_open"] = ""
+    if not show_confidence:
+        # zip_multi's "cf" is the ZIP-to-local match confidence (a different
+        # concept from application-status confidence), but it's still a
+        # confidence value -- redact it under the same flag rather than leave
+        # a loophole.
+        for cands in bundle.get("zip_multi", {}).values():
+            for c in cands:
+                c["cf"] = ""
+    return bundle
+
+
+def _apply_flags(tpl, show_confidence, status_display):
+    tpl = tpl.replace("const SHOW_CONFIDENCE = true;",
+                       f"const SHOW_CONFIDENCE = {'true' if show_confidence else 'false'};")
+    tpl = tpl.replace("const STATUS_DISPLAY  = true;",
+                       f"const STATUS_DISPLAY  = {'true' if status_display else 'false'};")
+    if not show_confidence or not status_display:
+        # the source-level CONFIG comment documents both flags using the words
+        # "confidence"/status label examples -- strip it for a build with
+        # either flag off so a grep for those words has nothing to find here.
+        tpl = re.sub(
+            r"/\* =+\s*\n\s*CONFIG.*?=+ \*/",
+            "/* build-time flags, see build_page.py */",
+            tpl, flags=re.S,
+        )
+    if not show_confidence:
+        # only ever rendered when SHOW_CONFIDENCE is true; delete the dead literals.
+        tpl = tpl.replace(
+            '`<span class="sconf">${l.conf} confidence</span>`',
+            "''",
+        )
+        tpl = tpl.replace(
+            "${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${CONF_LABEL[c.cf]||'—'}</b></div>`:''}",
+            "''",
+        )
+    if not status_display:
+        # LABEL/NOTE are only ever read when STATUS_DISPLAY is true (statusHTML
+        # returns a static "Check with the local" string otherwise) -- delete
+        # the dead label text so it can't ship in the file at all.
+        tpl = re.sub(r"const LABEL = \{.*?\};", "const LABEL = {};", tpl, flags=re.S)
+        tpl = re.sub(r"const NOTE = \{.*?\};", "const NOTE = {};", tpl, flags=re.S)
+    return tpl
+
+
 def build_single(out_path="ibew_finder.html", template_path="page_template.html",
-                  data_path="out/frontend_data.json"):
+                  data_path="out/frontend_data.json", show_confidence=True, status_display=True):
     tpl = open(template_path, encoding="utf-8").read()
-    data = open(data_path, encoding="utf-8").read()
+    tpl = _apply_flags(tpl, show_confidence, status_display)
+    with open(data_path, encoding="utf-8") as f:
+        bundle = json.load(f)
+    bundle = _redact_locals(bundle, show_confidence, status_display)
+    data = json.dumps(bundle, separators=(",", ":"))
     html = tpl.replace("__DATA__", _escape_for_script_tag(data))
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
@@ -35,9 +106,11 @@ def build_single(out_path="ibew_finder.html", template_path="page_template.html"
 
 
 def build_lean(out_path="site/index.html", template_path="page_template.html",
-                data_path="out/frontend_data.json", data_dir="site/data"):
+                data_path="out/frontend_data.json", data_dir="site/data",
+                show_confidence=True, status_display=True):
     with open(data_path, encoding="utf-8") as f:
         bundle = json.load(f)
+    bundle = _redact_locals(bundle, show_confidence, status_display)
 
     os.makedirs(data_dir, exist_ok=True)
     with open(os.path.join(data_dir, "zips.json"), "w", encoding="utf-8") as f:
@@ -54,6 +127,7 @@ def build_lean(out_path="site/index.html", template_path="page_template.html",
     first_paint["lean"] = True
 
     tpl = open(template_path, encoding="utf-8").read()
+    tpl = _apply_flags(tpl, show_confidence, status_display)
     payload = _escape_for_script_tag(json.dumps(first_paint, separators=(",", ":")))
     html = tpl.replace("__DATA__", payload)
 

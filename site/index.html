@@ -438,7 +438,7 @@ function showMultiZip(zip5, cands){
       <div class="mgrid">
         <div><span>Res. ratio</span><b>${(c.r*100).toFixed(0)}%</b></div>
         <div><span>County coverage</span><b>${c.c!=null?c.c.toFixed(0)+'%':'—'}</b></div>
-        <div><span>ZIP confidence</span><b>${CONF_LABEL[c.cf]||'—'}</b></div>
+        ${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${CONF_LABEL[c.cf]||'—'}</b></div>`:''}
         ${c.d!=null?`<div><span>Distance</span><b>${c.d} mi</b></div>`:''}
       </div>
     </div>`;

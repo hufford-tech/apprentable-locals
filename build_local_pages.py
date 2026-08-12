@@ -24,8 +24,11 @@ csv.field_size_limit(10_000_000)
 
 SITE_BASE_URL = "https://REPLACE-ME-BEFORE-DEPLOY.example"  # domain not cleared, see note above
 
-SHOW_CONFIDENCE = True
-STATUS_DISPLAY = True
+# Task 9: single-constant switches, same contract as page_template.html's.
+# Overridable via env for the flag-variant verification build in task 9/11 --
+# the constants themselves are still what you'd flip for a real deploy.
+SHOW_CONFIDENCE = os.environ.get("SHOW_CONFIDENCE", "true").lower() != "false"
+STATUS_DISPLAY = os.environ.get("STATUS_DISPLAY", "true").lower() != "false"
 
 LABEL = {
     "open": "Accepting applications now",
@@ -88,13 +91,17 @@ zips_full = {}
 for r in load_csv("out/zip_to_local.csv"):
     zips_full.setdefault(r["local_union_id"], set()).add(r["zip"].zfill(5))
 
+# Task 9: OUT_DIR lets the flag-variant verification build (task 9/11) render
+# into a scratch directory instead of overwriting the real site/ output.
+OUT_DIR = os.environ.get("OUT_DIR", "site")
+
 slugs_seen = set()
-os.makedirs("site/local", exist_ok=True)
+os.makedirs(f"{OUT_DIR}/local", exist_ok=True)
 
 CSS = """
 :root{
   --bg:#0e1116; --panel:#151a22; --panel2:#1c222c; --line:#2a323f;
-  --ink:#e8edf4; --ink2:#9aa7b8; --ink3:#6b7889;
+  --ink:#e8edf4; --ink2:#9aa7b8; --ink3:#7c8998;
   --accent:#f0a13a; --accent2:#ffc46b;
   --open:#39c46e; --rolling:#4aa3f0; --pending:#f0a13a; --closed:#e2564d;
   --unknown:#6b7889; --expired:#8a6d3b; --conflict:#a97bd6;
@@ -149,7 +156,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--ink3)}
 @media(max-width:480px){.grid{grid-template-columns:1fr}}
 """
 
-with open("site/local.css", "w", encoding="utf-8") as f:
+with open(f"{OUT_DIR}/local.css", "w", encoding="utf-8") as f:
     f.write(CSS.strip() + "\n")
 
 
@@ -332,7 +339,7 @@ for l in locals_:
     nearest = dists[:5]
 
     html = page_html(l, nearest)
-    path = f"site/local/{slug}.html"
+    path = f"{OUT_DIR}/local/{slug}.html"
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
     pages_written.append((slug, os.path.getsize(path)))
@@ -343,7 +350,8 @@ for l in locals_:
 # separately by `python build_page.py --single`) stays fully inlined for
 # file://.
 import build_page
-build_page.build_lean()
+build_page.build_lean(out_path=f"{OUT_DIR}/index.html", data_dir=f"{OUT_DIR}/data",
+                       show_confidence=SHOW_CONFIDENCE, status_display=STATUS_DISPLAY)
 
 # ---- sitemap.xml + robots.txt --------------------------------------------------
 urls = [f"{SITE_BASE_URL}/index.html"] + [f"{SITE_BASE_URL}/local/{l['slug']}.html" for l in locals_]
@@ -352,15 +360,15 @@ sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
 for u in urls:
     sitemap.append(f"  <url><loc>{u}</loc><lastmod>{generated}</lastmod></url>")
 sitemap.append("</urlset>")
-with open("site/sitemap.xml", "w", encoding="utf-8") as f:
+with open(f"{OUT_DIR}/sitemap.xml", "w", encoding="utf-8") as f:
     f.write("\n".join(sitemap) + "\n")
 
-with open("site/robots.txt", "w", encoding="utf-8") as f:
+with open(f"{OUT_DIR}/robots.txt", "w", encoding="utf-8") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_BASE_URL}/sitemap.xml\n")
 
 sizes = sorted(sz for _, sz in pages_written)
 print(f"local pages written: {len(pages_written)}")
 print(f"page size: min {sizes[0]/1024:.1f} KB, median {sizes[len(sizes)//2]/1024:.1f} KB, "
       f"max {sizes[-1]/1024:.1f} KB")
-print(f"site/index.html: {os.path.getsize('site/index.html')/1024:.0f} KB")
+print(f"{OUT_DIR}/index.html: {os.path.getsize(OUT_DIR + '/index.html')/1024:.0f} KB")
 print(f"unique slugs: {len(slugs_seen)}")
