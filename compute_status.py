@@ -656,19 +656,33 @@ def compute_status(record, today=None):
     future_closed_dates = []
     corroborated_by_unknown_stmt = False
     for s in raw_closed_statements:
+        text = s.get("verbatim_text", "")
+        # Round 7, task 2: this check must run BEFORE the eff-date branch
+        # below, not after. Round 5 fixed LU 466 by putting the
+        # reopen-announcement check ahead of closure-scope classification,
+        # but the eff-future branch still sat in front of it -- harmless
+        # then, because LU 466's closed statement had no structured
+        # stated_effective_date of its own. Round 6 task 4's dedup gave
+        # LU 567's merged closed/reopening statement a stated_effective_date
+        # backfilled from its reopening-labeled duplicate (2026-11-02, in the
+        # future), which then hit the eff-future branch FIRST and got read
+        # as a future CLOSURE date -- the exact LU 466 bug, reintroduced by
+        # a different mechanism (dedup backfill instead of a single
+        # statement's own text). Checking the reopen-announcement pattern
+        # first, unconditionally, closes that gap regardless of where a
+        # future date on the statement came from.
+        if REOPEN_ANNOUNCEMENT_IN_CLOSED_RE.search(text):
+            # round 5 fix: a reopen announcement embedded in a closure
+            # statement is next_open_date information, never next_close_date
+            # -- skip closure-scope classification entirely for it (LU 466).
+            effective_closed_statements.append(s)
+            continue
         eff = _parse_date(s.get("stated_effective_date"))
         if eff and eff > today:
             # task 3: a closed statement whose effective date hasn't arrived
             # yet ANNOUNCES a future closure -- it does not close the local
             # today. LU 112.
             future_closed_dates.append(eff)
-            continue
-        text = s.get("verbatim_text", "")
-        if REOPEN_ANNOUNCEMENT_IN_CLOSED_RE.search(text):
-            # round 5 fix: a reopen announcement embedded in a closure
-            # statement is next_open_date information, never next_close_date
-            # -- skip closure-scope classification entirely for it (LU 466).
-            effective_closed_statements.append(s)
             continue
         scope = classify_closure_scope(text, today)
         if scope == "future_period":
@@ -758,6 +772,17 @@ def compute_status(record, today=None):
     result["rejected_statement_count"] = rejected_statement_count
     result["embedded_date_conflict"] = embedded_date_conflict
     result.pop("bounded_window_current", None)
+    # Round 7, task 2: next_open_date and next_close_date must never be the
+    # same date -- a record can't simultaneously open and close on the same
+    # day, and the one real case of this (LU 567: a window's open-ended
+    # open_date and a reopen-announcement date both landing on 2026-11-02)
+    # was always a bug, not a coincidence worth allowing for. This is a
+    # canary, not a fix -- if it ever fires, some new code path is feeding an
+    # open_date or a reopen announcement into next_close_date again.
+    assert not (result["next_open_date"] and result["next_open_date"] == result["next_close_date"]), (
+        f"next_open_date == next_close_date == {result['next_open_date']!r} -- "
+        "an open_date or reopen announcement is being read as a close bound"
+    )
     return result
 
 
@@ -818,8 +843,58 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             "bounded_window_current": bounded_window_current,
         }
 
+    # Round 7, task 1: resolved once, up front, and reused at every call site
+    # that needs to know whether a recurring window currently contains
+    # TODAY -- the round-6 task-1 override below (rule 4) and the round-3
+    # recurring-window resolution rule (5.5) both need this, and computing
+    # it in exactly one place is what keeps them from drifting apart again.
+    recur = _resolve_recurring_windows(recurring_windows, today)
+
     # 1. CONFLICTING -- a rolling claim coexists with a closed/reopening claim.
     # Do not try to guess which one is current from text; surface it for a human.
+    #
+    # Round 7, task 4: documenting the round-6 compromise this condition
+    # embeds, per Andrew's request -- this is deliberate, not an oversight.
+    #
+    # WHAT: the OR'd-in any_raw_closed_or_reopening reads every statement's
+    # RAW statement_type label, ungated -- unlike closed_statements/
+    # reopening_statements (the two params before it), which are the
+    # admissibility-gated, scope-filtered pools every other rule in this
+    # function reads. So a closed/reopening-LABELED statement can trigger
+    # 'conflicting' here even when admit_statement would reject its own text
+    # as insufficient evidence of actual closure.
+    #
+    # WHY: gating this condition on the same admitted pools as everything
+    # else would make 'conflicting' inherit whatever the closed/reopening
+    # gate rejects -- and one thing it correctly rejects is text that isn't
+    # about intake at all (no_application_subject). Removing that statement
+    # from consideration here doesn't just stop it from being closure
+    # EVIDENCE; with nothing else contradicting the rolling claim, the
+    # record falls through to rule 1b and comes out 'rolling' -- a promotion
+    # out of a caution status, which this round's demote-only constraint (and
+    # round 6's, before it) does not permit outside the one authorized
+    # exception (LU 130, round 6 task 3). So rule 1 deliberately stays on the
+    # raw, ungated label -- more conservative than every rule below it, on
+    # purpose -- to keep that promotion from happening as an unintended side
+    # effect of sharpening what counts as real closure/reopening evidence.
+    #
+    # WHICH LOCAL: LU 292 Minneapolis. Its "Pre-apprentice hiring is frozen
+    # at this time" is labeled 'closed' but is about HIRING, a different
+    # subject than application INTAKE -- admit_statement correctly rejects it
+    # (no_application_subject). Without this OR clause, LU 292 flips from
+    # 'conflicting'/low to 'rolling'/medium the moment that statement is
+    # gated out; regression-guarded in
+    # TestRound6DatedWindowsAndGating.test_lu292_minneapolis_conflicting_not_promoted_to_rolling.
+    #
+    # WHAT WOULD REMOVE THIS: 'conflicting' would need to become something
+    # other than a single low-confidence catch-all before this distinction
+    # could safely collapse -- e.g. a way to flag "raw signals disagree, but
+    # the disagreement doesn't survive the gate" as its own, lower-severity
+    # signal (worth a human glance, not full 'conflicting' treatment) rather
+    # than either merging it into 'rolling' (the promotion this exists to
+    # block) or leaving it indistinguishable from a real closed/rolling
+    # contradiction (today's behavior). That is a status-taxonomy change, out
+    # of scope for a demote-only round.
     if rolling_statements and (closed_statements or reopening_statements or any_raw_closed_or_reopening):
         return result("conflicting", "low")
 
@@ -911,17 +986,30 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         # that HAS decayed is already caught by the decayed_expired branch
         # right after rule 2. So "every dated_windows entry has a past
         # close_date" is the only shape that can still reach here, and it
-        # means every dated window on this record has definitively closed.
-        # An undated open-asserting statement (LU 613's "Now OPEN!", LU 538's
-        # "will be taking applications on the following days" -- a header for
-        # the window list below it, not an independent claim) cannot outrank
-        # that: the windows are the better, dated evidence.
-        if dated_windows and all(
-            _parse_date(w.get("close_date")) and _parse_date(w.get("close_date")) < today
-            for w in dated_windows
-        ):
-            return result("expired_data", "medium")
-        return result("open", "medium")
+        # means every ABSOLUTE dated window on this record has definitively
+        # closed.
+        #
+        # Round 7, task 1: "every dated window has closed" was spec'd (and
+        # coded) as absolute windows only. LU 613 Atlanta has an expired
+        # absolute window AND a recurring window (August 1-31) that TODAY
+        # falls inside -- the recurring window is just as much dated,
+        # resolvable evidence as an absolute one, and here it says open. If
+        # recur["open_now"] is True, this rule must not fire at all --
+        # falling through (no return here) lets control reach rule 5.5 below,
+        # which resolves the record via the SAME _resolve_recurring_windows()
+        # call already made above and returns open/medium with
+        # inferred_window_status=True, the correct provenance for a
+        # pattern-inferred result. LU 490 Dover and LU 12 Pueblo are
+        # unaffected: both are already resolved by an earlier-firing rule
+        # (3b's future_open_starts for LU 490, 1b's ROLLING for LU 12) and
+        # never reach this branch at all.
+        if not recur["open_now"]:
+            if dated_windows and all(
+                _parse_date(w.get("close_date")) and _parse_date(w.get("close_date")) < today
+                for w in dated_windows
+            ):
+                return result("expired_data", "medium")
+            return result("open", "medium")
 
     # 5. EXPECTED_OPEN -- reopening date has passed and is the most recent evidence
     past_reopenings = [
@@ -937,7 +1025,8 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
     # rule based on a stated/absolute date (2, 3, 4, 5) and before the
     # fallbacks that assume no further evidence exists (6, 7, 8). Inferred
     # from a pattern, not a stated date -- always capped at medium, never high.
-    recur = _resolve_recurring_windows(recurring_windows, today)
+    # `recur` was already computed once, up front (round 7, task 1) -- reused
+    # here rather than recomputed.
     if recur["resolved"]:
         note = "month_boundary_inferred" if recur["inferred"] else ""
         if recur["open_now"]:
@@ -2157,6 +2246,13 @@ class TestRound6DatedWindowsAndGating(unittest.TestCase):
     # -- task 1: dated windows beat undated prose -----------------------
 
     def test_lu613_atlanta_expired_data_and_program_mismatch(self):
+        # Superseded by round 7, task 1: the recurring window (August 1-31)
+        # contains TODAY, so this now correctly resolves 'open', not
+        # 'expired_data' -- see TestRound7RecurringWindowsAndCloseDate below
+        # for the round-7 fixture and rationale. Kept here (status updated)
+        # so this test class still documents the record's full history; the
+        # program_mismatch assertion (round 6, task 2) is unaffected by round
+        # 7 and still holds.
         record = {
             "windows": [
                 {"precision": "absolute", "open_date": "2026-02-01", "close_date": "2026-03-31"},
@@ -2177,8 +2273,9 @@ class TestRound6DatedWindowsAndGating(unittest.TestCase):
             "page_last_updated": None,
         }
         result = compute_status(record, today=self.TODAY)
-        self.assertEqual(result["computed_status"], "expired_data")
+        self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "medium")
+        self.assertTrue(result["inferred_window_status"])
 
         from statement_evidence import admit_statement
         ev = admit_statement(record["status_statements"][1], self.TODAY)
