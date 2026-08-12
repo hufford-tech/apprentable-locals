@@ -455,13 +455,20 @@ def compute_status(record, today=None):
     # admit_statement FROM statement_evidence.py. A module-level import here
     # only resolves when compute_status.py happens to load first; deferring
     # it into the function body makes both import orders work.
-    from statement_evidence import admit_statement, REOPEN_ANNOUNCEMENT_IN_CLOSED_RE
+    from statement_evidence import (
+        admit_statement, REOPEN_ANNOUNCEMENT_IN_CLOSED_RE,
+        dedupe_statements, statement_labels,
+    )
 
     if today is None:
         today = datetime.date.today()
 
     windows = record.get("windows") or []
-    statements = record.get("status_statements") or []
+    # Round 6, task 4: collapse statements that are the same sentence emitted
+    # under more than one statement_type label (LU 567) before anything else
+    # reads them -- two copies of one sentence must not be counted as two
+    # independent pieces of evidence.
+    statements, _dedup_audit_rows = dedupe_statements(record.get("status_statements") or [])
     page_last_updated = _parse_date(record.get("page_last_updated"))
 
     dated_windows = [
@@ -482,6 +489,31 @@ def compute_status(record, today=None):
     # worklist signal this round exists to produce.
     embedded_date_conflict = any(ev["embedded_date_conflict"] for s, ev in admitted)
 
+    # ---- round 6, task 3: LU 130. A reopening-labeled statement REJECTED by
+    # the gate (too vague to count as reopening EVIDENCE -- "Please contact
+    # the office in January 2027 for information regarding the 2027-2028
+    # school year" has no application-subject vocabulary) still carries a
+    # real date in its own text. That date is a fact independent of whether
+    # the sentence survives the gate as evidence, so it is surfaced
+    # separately and consumed ONLY by rule 7 (CLOSED) below -- the one place
+    # a bare closure statement with no admitted reopening/window evidence
+    # would otherwise report no next_open_date at all. This never changes
+    # WHICH rule fires (rule 7's own guard, "not reopening_statements",
+    # already required this statement to be gate-rejected before rule 7 is
+    # reachable), so it cannot promote any record rule 7 wasn't already
+    # going to resolve as closed.
+    rejected_reopening_next_open = None
+    rejected_reopening_month_inferred = False
+    for s, ev in evidence:
+        if ev["admissible"] or "reopening" not in statement_labels(s):
+            continue
+        for b in ev["embedded_bounds"]:
+            if b["role"] == "cohort" or b["date"] <= today:
+                continue
+            if rejected_reopening_next_open is None or b["date"] < rejected_reopening_next_open:
+                rejected_reopening_next_open = b["date"]
+                rejected_reopening_month_inferred = b["month_inferred"]
+
     # Rolling: preserved EXACTLY as round 1-4 left it (task 3 requirement) --
     # gated on statement_type == 'rolling' AND classify_intake(text) != 'none'.
     # Deliberately NOT routed through admit_statement's asserts field: a
@@ -491,7 +523,7 @@ def compute_status(record, today=None):
     # continuous-phrase list -- that would demote 'open' to 'conflicting'
     # against an explicit round-4 regression guard, an unintended side effect
     # this round's "text over label" principle was never meant to cause.
-    all_rolling_statements = [s for s in statements if s.get("statement_type") == "rolling"]
+    all_rolling_statements = [s for s in statements if "rolling" in statement_labels(s)]
     rolling_statements = [
         s for s in all_rolling_statements
         if classify_intake(s.get("verbatim_text", "")) != "none"
@@ -507,29 +539,61 @@ def compute_status(record, today=None):
     # only..." text stays out, matching its pre-round-5 'unknown' result) AND
     # pass admit_statement's admissibility + asserts=='open' check.
     #
-    # closed_statements and reopening_statements are left keyed on
-    # statement_type exactly as round 1-4 built them -- NOT run through
-    # asserts. Two concrete reasons this is deliberate, not an oversight:
-    #   - LU 567/LU 1340: the extractor emits the SAME sentence twice under
-    #     two different statement_type labels with two different structured
-    #     stated_effective_date values (one null, one future) specifically so
-    #     the closed-copy and reopening-copy can be told apart. Text-deriving
-    #     asserts from a sentence that contains both "closed" and "will
-    #     reopen DATE" collapses that distinction and misfiles the reopening
-    #     date as a future CLOSURE date -- the exact LU 466 bug this round
-    #     already fixes once, reappearing if closed/reopening sourcing is
-    #     text-driven too.
-    #   - LU 130: rule 7 (CLOSED) is deliberately blocked by the mere
-    #     PRESENCE of any reopening statement, even a dateless, vague one
-    #     ("contact the office in January 2027") -- round 1-4's conservative
-    #     design. Admissibility-filtering that vague statement out (it lacks
-    #     literal application-subject vocabulary) removes the block and
-    #     promotes 'unknown' to 'closed', a promotion this round must not
-    #     make. See out/round5_blockers.csv for the corresponding note.
-    open_label_pool = [(s, ev) for s, ev in admitted if s.get("statement_type") == "open"]
+    # Round 6, task 2 now routes closed_statements and reopening_statements
+    # through admit_statement too -- see the comment on closed_label_pool
+    # below for what changed and why, and the compute_status() comment on
+    # rejected_reopening_next_open for how LU 130's rule-7 block (a vague,
+    # gate-rejected reopening statement must still block promotion out of
+    # 'unknown' the same way it always has) survives that change.
+    open_label_pool = [(s, ev) for s, ev in admitted if "open" in statement_labels(s)]
     raw_open_evidence = [(s, ev) for s, ev in open_label_pool if ev["asserts"] == "open"]
-    raw_closed_statements = [s for s in statements if s.get("statement_type") == "closed"]
-    reopening_statements = [s for s in statements if s.get("statement_type") == "reopening"]
+
+    # ---- round 6, task 2: closed/reopening now pass through the same
+    # admissibility gate as 'open' (no_application_subject/method_only/
+    # cta_only/office_hours/program_mismatch), so LU 613's "Journeyman Wireman
+    # Continuing Education CURRENTLY CLOSED" -- program_mismatch, once
+    # "continuing education" joined OTHER_PROGRAM_WORDS -- is rejected instead
+    # of sitting in the record as apprenticeship evidence.
+    #
+    # Unlike the 'open' pool, membership here is NOT additionally filtered on
+    # ev['asserts'] matching the label. Diagnosis of round 5's LU 567/1340
+    # revert: LU 567 emits ONE sentence ("...are closed they will reopen
+    # November 2nd, 2026.") twice, once labeled 'closed' and once labeled
+    # 'reopening' with stated_effective_date=2026-11-02 on the reopening copy
+    # only. _derive_asserts() checks the closed-cue regex before the
+    # reopen-cue regex, so BOTH copies' text derives asserts=='closed' -- the
+    # word "closed" appears in the sentence and always wins that race. Filtering
+    # the reopening pool on asserts=='reopening' therefore drops the one copy
+    # carrying the future date, and next_open_date silently disappears or
+    # falls back to a weaker source. The fix: a statement's admissibility (do
+    # its own words survive the five reject checks) is independent of which
+    # status it originates -- gate on label + admissible only, exactly as
+    # round 1-4 keyed these two pools before round 5 existed, just now
+    # filtered through the same five reject reasons 'open' already gets.
+    closed_label_pool = [(s, ev) for s, ev in admitted if "closed" in statement_labels(s)]
+    raw_closed_statements = [s for s, ev in closed_label_pool]
+    reopening_label_pool = [(s, ev) for s, ev in admitted if "reopening" in statement_labels(s)]
+    reopening_statements = [s for s, ev in reopening_label_pool]
+
+    # Round 6, task 2 side effect this module must not let through: gating
+    # closed/reopening EVIDENCE also, as an unintended side effect, would
+    # weaken rule 1's CONFLICTING check below if that check read the gated
+    # pools -- LU 292's "Pre-apprentice hiring is frozen at this time" is
+    # correctly gate-rejected as no_application_subject (hiring is a
+    # different subject than intake), but that must not silently flip the
+    # record from 'conflicting' to 'rolling'. 'conflicting' exists to flag
+    # messy raw signals for a human; a closed/reopening LABEL sitting next to
+    # a rolling claim is itself worth flagging even when that statement's
+    # text doesn't clear the sharper admissibility bar used to decide real
+    # open/closed/reopening EVIDENCE. So rule 1 keeps reading the raw,
+    # UNGATED label presence (exactly what it read before this round),
+    # deliberately more conservative than the gated pools every other rule
+    # uses -- this is not a promotion, it is refusing to let task 2
+    # accidentally cause one.
+    any_raw_closed_or_reopening = any(
+        "closed" in statement_labels(s) or "reopening" in statement_labels(s)
+        for s in statements
+    )
 
     # ---- round 5, task 2: embedded-date adjudication for 'open' statements.
     # A statement with no usable embedded bound is plain open evidence, same
@@ -667,6 +731,8 @@ def compute_status(record, today=None):
         most_recent_any, future_closed_dates,
         future_open_starts, synthetic_expired_bounds, future_open_bound_dates,
         open_date_precision_note,
+        rejected_reopening_next_open, rejected_reopening_month_inferred,
+        any_raw_closed_or_reopening,
     )
     # Round 4, task 1: audited every comparison against days_since_evidence in
     # the codebase -- _cap_confidence below is the only one, and its `is None`
@@ -699,7 +765,10 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
                        closed_statements, reopening_statements, open_statements,
                        most_recent, future_closed_dates,
                        future_open_starts=None, synthetic_expired_bounds=None,
-                       future_open_bound_dates=None, open_date_precision_note=""):
+                       future_open_bound_dates=None, open_date_precision_note="",
+                       rejected_reopening_next_open=None,
+                       rejected_reopening_month_inferred=False,
+                       any_raw_closed_or_reopening=False):
     """Returns a dict: computed_status, status_confidence, intake_pattern,
     next_open_date / next_close_date (ISO string or ''), window_precision_note
     ('' or 'month_boundary_inferred' or 'month_inferred'), inferred_window_status
@@ -751,7 +820,7 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
 
     # 1. CONFLICTING -- a rolling claim coexists with a closed/reopening claim.
     # Do not try to guess which one is current from text; surface it for a human.
-    if rolling_statements and (closed_statements or reopening_statements):
+    if rolling_statements and (closed_statements or reopening_statements or any_raw_closed_or_reopening):
         return result("conflicting", "low")
 
     # 1b. ROLLING -- rolling claim, nothing contradicts it
@@ -833,6 +902,25 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
     # relocated. No fixture in this round combines the two either way, so
     # this is a demote-safety judgment call, not something a test forces.
     if open_statements and not closed_statements:
+        # Round 6, task 1: dated evidence outranks undated prose. By this
+        # point every dated_windows entry still in play has EITHER been
+        # matched by rule 2 (currently/recently open -- already returned) or
+        # has a close_date that has passed with nobody stating otherwise --
+        # an open-ended window without a close_date that hasn't decayed past
+        # 180 days is also already caught by rule 2's "open" branch, and one
+        # that HAS decayed is already caught by the decayed_expired branch
+        # right after rule 2. So "every dated_windows entry has a past
+        # close_date" is the only shape that can still reach here, and it
+        # means every dated window on this record has definitively closed.
+        # An undated open-asserting statement (LU 613's "Now OPEN!", LU 538's
+        # "will be taking applications on the following days" -- a header for
+        # the window list below it, not an independent claim) cannot outrank
+        # that: the windows are the better, dated evidence.
+        if dated_windows and all(
+            _parse_date(w.get("close_date")) and _parse_date(w.get("close_date")) < today
+            for w in dated_windows
+        ):
+            return result("expired_data", "medium")
         return result("open", "medium")
 
     # 5. EXPECTED_OPEN -- reopening date has passed and is the most recent evidence
@@ -873,9 +961,16 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         if most_recent is None or most_recent == most_recent_close:
             return result("expired_data", "medium")
 
-    # 7. CLOSED -- explicit closure statement, no reopen date/window anywhere
+    # 7. CLOSED -- explicit closure statement, no reopen date/window anywhere.
+    # Round 6, task 3: next_open_date, when available, comes from a
+    # reopening-labeled statement that was REJECTED by the admissibility gate
+    # (that rejection is why this rule was even reachable -- see the
+    # compute_status() comment on rejected_reopening_next_open) rather than
+    # from admitted reopening evidence, which would have taken rule 3 instead.
     if closed_statements and not reopening_statements and not dated_windows:
-        return result("closed", "high")
+        note = "month_inferred" if rejected_reopening_month_inferred else ""
+        return result("closed", "high", next_open_date=rejected_reopening_next_open,
+                       window_precision_note=note)
 
     # 8. UNKNOWN
     return result("unknown", "low")

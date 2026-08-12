@@ -142,6 +142,13 @@ OTHER_PROGRAM_WORDS = [
     "residential", "construction wireman", "construction electrician",
     "vdv", "telecommunications", "sound and communication",
     "sound & communication", "limited energy", "lineman", "outside",
+    # round 6, task 2: journeyman CONTINUING EDUCATION is a distinct track
+    # from apprenticeship intake -- LU 613's "Journeyman Wireman Continuing
+    # Education CURRENTLY CLOSED" must not be read as apprenticeship
+    # evidence. Deliberately the phrase "continuing education", not the bare
+    # word "journeyman" -- "journeyman wireman apprenticeship" is the
+    # standard name of the INSIDE program itself and must not be flagged.
+    "continuing education",
 ]
 _OTHER_PROGRAM_ABBR_RE = re.compile(r"\b(cw|ce)\b", re.IGNORECASE)
 _INSIDE_RE = re.compile(r"\binside\b", re.IGNORECASE)
@@ -462,3 +469,80 @@ def admit_statement(stmt, today):
         "program": program,
         "embedded_date_conflict": embedded_date_conflict,
     }
+
+
+# ---------------------------------------------------------------------------
+# Round 6, task 4: de-duplicate statements that are the same sentence emitted
+# under more than one statement_type label (LU 567 emits its one sentence
+# twice, as 'closed' and as 'reopening'). Two copies of one sentence must not
+# be counted as two independent pieces of evidence by the round-2 conflicting
+# rule or round-5's corroboration logic.
+# ---------------------------------------------------------------------------
+
+
+def normalise_statement_text(text):
+    """Collapse whitespace, strip punctuation, lowercase -- the dedup key."""
+    low = (text or "").lower()
+    low = re.sub(r"[^\w\s]", "", low)
+    low = re.sub(r"\s+", " ", low).strip()
+    return low
+
+
+def statement_labels(s):
+    """Every statement_type label a (possibly merged) statement carries.
+    Un-merged statements just carry their own single label."""
+    return s.get("combined_types") or [s.get("statement_type")]
+
+
+def dedupe_statements(statements):
+    """Collapses statements sharing a normalised verbatim_text into one
+    record carrying every statement_type seen (in `combined_types`), keeping
+    the first copy's fields otherwise -- except stated_effective_date, which
+    is backfilled from a duplicate if the first copy left it empty (LU 567:
+    the 'closed'-labeled copy has stated_effective_date=None, the
+    'reopening'-labeled copy has the real date; the merged record must keep
+    that date regardless of which copy happened to come first).
+
+    Returns (deduped_statements, audit_rows). audit_rows only contains
+    entries for groups with duplicate_count > 1: dicts with normalised_text,
+    duplicate_count, statement_types, kept_asserts (of the merged text, via
+    admit_statement -- caller fills today), original_statements (the raw
+    group, for callers that want more detail).
+    """
+    groups = {}
+    order = []
+    for s in statements:
+        key = normalise_statement_text(s.get("verbatim_text", ""))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(s)
+
+    deduped = []
+    audit_rows = []
+    for key in order:
+        group = groups[key]
+        if len(group) == 1:
+            deduped.append(group[0])
+            continue
+        labels = []
+        for g in group:
+            for lbl in statement_labels(g):
+                if lbl not in labels:
+                    labels.append(lbl)
+        merged = dict(group[0])
+        merged["combined_types"] = labels
+        if not merged.get("stated_effective_date"):
+            for g in group:
+                if g.get("stated_effective_date"):
+                    merged["stated_effective_date"] = g["stated_effective_date"]
+                    break
+        deduped.append(merged)
+        audit_rows.append({
+            "normalised_text": key,
+            "duplicate_count": len(group),
+            "statement_types": "|".join(labels),
+            "merged_statement": merged,
+            "original_statements": group,
+        })
+    return deduped, audit_rows
