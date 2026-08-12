@@ -153,6 +153,111 @@ def _parse_date(s):
         return None
 
 
+# ---------------------------------------------------------------------------
+# Round 4, task 4: three-way scope classification for 'closed' statements.
+#
+# A closure can be scoped to a period that HASN'T STARTED (future_period --
+# implies currently open, e.g. LU 313 "No applications will be accepted in
+# September 2026") or to a NAMED COHORT that has ALREADY closed (past_cohort
+# -- says nothing about current intake by itself, e.g. LU 488 "Selection of
+# applicants for classes beginning September 2026 has closed"). Everything
+# else -- including duration words like "until further notice" /
+# "indefinitely" / "temporarily" (these describe DURATION, not SCOPE) and
+# historical window-closed logs like LU 11's "January 5th, 2026 (APPLICATION
+# WINDOW CLOSED)" -- is unscoped and behaves as a plain closure always has.
+# ---------------------------------------------------------------------------
+
+MONTH_NUM = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+    "december": 12,
+}
+_MONTH_NAME_ALT = "|".join(MONTH_NUM)
+# "September 2026", "January 5th, 2026", "September of 2026"
+_MONTH_YEAR_RE = re.compile(
+    rf"\b({_MONTH_NAME_ALT})\b(?:\s+\d{{1,2}}(?:st|nd|rd|th)?,?)?(?:\s+of)?\s+(\d{{4}})\b",
+    re.IGNORECASE,
+)
+
+COHORT_WORDS = ["class", "classes", "cohort", "cohorts", "term", "terms",
+                "program year", "session", "sessions"]
+_PAST_FRAMING_RE = re.compile(
+    r"has\s+closed|has\s+passed|deadline[^.]{0,60}passed|selection[^.]{0,60}closed",
+    re.IGNORECASE,
+)
+
+
+def classify_closure_scope(text, today):
+    """Returns 'future_period', 'past_cohort', or 'unscoped'. See the module
+    comment above for definitions and the traps this must not match."""
+    low = (text or "").lower()
+    m = _MONTH_YEAR_RE.search(text or "")
+    my_date = None
+    if m:
+        my_date = (int(m.group(2)), MONTH_NUM[m.group(1).lower()])
+    is_future_month = my_date is not None and my_date > (today.year, today.month)
+    has_cohort_word = any(w in low for w in COHORT_WORDS)
+    has_past_framing = bool(_PAST_FRAMING_RE.search(low))
+
+    # past_cohort checked first: LU 488's text names both a cohort AND a
+    # month that is nominally "future" by bare date comparison (classes
+    # beginning September 2026) -- the cohort+deadline-passed framing must
+    # win over the plain future-date read, or it would wrongly read as
+    # future_period (implying currently open) instead of past_cohort.
+    if has_cohort_word and (has_past_framing or my_date is not None):
+        return "past_cohort"
+    if is_future_month:
+        return "future_period"
+    return "unscoped"
+
+
+def _derive_future_period_date(text, today):
+    """The 1st of the month named in a future_period closure -- used only to
+    populate next_close_date, never for the recency/days_since_evidence math."""
+    m = _MONTH_YEAR_RE.search(text or "")
+    if not m:
+        return None
+    year, month = int(m.group(2)), MONTH_NUM[m.group(1).lower()]
+    try:
+        return datetime.date(year, month, 1)
+    except ValueError:
+        return None
+
+
+# Round 4, task 4/5: does some OTHER statement on the record (any type,
+# including the closed statement's own text -- see LU 520, where the signal
+# is embedded in the closed statement itself) describe the successor
+# cohort/term as currently accepting applications, or as explicitly
+# not-yet-open/unannounced? Narrow patterns tuned to the two real cases that
+# motivated this (LU 488 vs LU 520). Ambiguous language matches neither and
+# correctly falls through to 'unknown' rather than guessing which way to
+# resolve a past_cohort closure -- that is the demote-safe default.
+_SUCCESSOR_FUTURE_RE = re.compile(
+    r"when\s+we\s+begin\s+accepting|will\s+announce|not\s+yet\s+accepting|"
+    r"has\s+not\s+yet\s+begun|next\s+term\s+will\s+be\s+announced",
+    re.IGNORECASE,
+)
+_SUCCESSOR_ACCEPTING_RE = re.compile(
+    r"applications?\s+received\s+will\s+be\s+for\s+consideration|"
+    r"currently\s+accepting\s+applications\s+for|now\s+accepting\s+applications\s+for",
+    re.IGNORECASE,
+)
+
+
+def _successor_intake_signal(all_statements):
+    """Returns (signal, source_statement): signal is 'future', 'accepting', or
+    None. 'future' is checked first as the safer read if text ever matched
+    both patterns (shouldn't happen given how narrow they are, but a
+    demote-safe tie-break costs nothing)."""
+    for s in all_statements:
+        if _SUCCESSOR_FUTURE_RE.search(s.get("verbatim_text", "")):
+            return "future", s
+    for s in all_statements:
+        if _SUCCESSOR_ACCEPTING_RE.search(s.get("verbatim_text", "")):
+            return "accepting", s
+    return None, None
+
+
 def _last_day_of_month(month, year):
     return calendar.monthrange(year, month)[1]
 
@@ -257,18 +362,31 @@ def _resolve_recurring_windows(windows, today):
             "inferred": best_inferred, "source_window": best_window}
 
 
-def _cap_confidence(confidence, days_since_evidence):
+def _cap_confidence(confidence, days_since_evidence, days_until_next_event=None):
     """Downgrade-only cap on status_confidence based on evidence age. Never
     upgrades a confidence that was already lower than the cap allows.
-      days_since_evidence is None (no dated evidence at all) -> cap at medium
-      days_since_evidence > 365                              -> cap at low
-      days_since_evidence > 180                               -> cap at medium
+      days_since_evidence is None AND days_until_next_event is None
+                                     (no dated evidence at all)  -> cap medium
+      days_since_evidence > 365                                  -> cap low
+      days_since_evidence > 180                                  -> cap medium
+
+    Round 4, task 1: days_since_evidence can now be None for a DIFFERENT
+    reason than "no evidence exists" -- a record can have solid, specific,
+    dated evidence that just happens to be entirely in the future (LU 150's
+    reopening date, LU 112's closing date). That is not staleness; it is the
+    opposite. The "no evidence at all" cap must only fire when BOTH days
+    values are None -- otherwise LU 150's closed_pending/high (driven by a
+    concrete, specific reopen date) would get wrongly capped to medium purely
+    because days_since_evidence, now correctly, doesn't retroactively invent
+    a past-evidence date that doesn't exist. Before round 4 this worked out
+    to the "right" answer only by accident: the old unified max let a future
+    date go negative and silently skip every cap branch.
     """
-    if days_since_evidence is None:
+    if days_since_evidence is None and days_until_next_event is None:
         cap = "medium"
-    elif days_since_evidence > 365:
+    elif days_since_evidence is not None and days_since_evidence > 365:
         cap = "low"
-    elif days_since_evidence > 180:
+    elif days_since_evidence is not None and days_since_evidence > 180:
         cap = "medium"
     else:
         cap = None
@@ -279,10 +397,52 @@ def _cap_confidence(confidence, days_since_evidence):
     return confidence
 
 
+def _evidence_recency(statements, dated_windows, page_last_updated, today):
+    """Round 4, task 1. Splits evidence RECENCY (how stale is what we know)
+    from evidence TIMING (a future date is real information, just not
+    recency):
+      days_since_evidence: today minus the most recent dated evidence that is
+        NOT in the future. None when there is no such (past) evidence.
+      days_until_next_event: the soonest future dated evidence minus today,
+        or None.
+
+    Stated dates (status_statements' stated_effective_date + absolute dated
+    windows' open/close dates) are the pool whenever any exist; a page's
+    crawl timestamp (page_last_updated) is used ONLY as a fallback when there
+    are no stated dates at all, past or future. Mixing a stale page-crawl
+    timestamp in with a specific future claim would misrepresent how fresh
+    THAT claim is -- see LU 112: its only stated dates are two closed
+    statements dated Oct 1 (future); its page_last_updated (Jul 8, in the
+    past) must not quietly supply a days_since_evidence value the specific
+    claims don't support. None is the honest answer until Oct 1 arrives.
+    """
+    stated_dates = []
+    for s in statements:
+        d = _parse_date(s.get("stated_effective_date"))
+        if d:
+            stated_dates.append(d)
+    for w in dated_windows:
+        od = _parse_date(w.get("open_date"))
+        cd = _parse_date(w.get("close_date"))
+        if od:
+            stated_dates.append(od)
+        if cd:
+            stated_dates.append(cd)
+
+    pool = stated_dates if stated_dates else ([page_last_updated] if page_last_updated else [])
+    past = [d for d in pool if d <= today]
+    future = [d for d in pool if d > today]
+    days_since = (today - max(past)).days if past else None
+    days_until = (min(future) - today).days if future else None
+    return days_since, days_until
+
+
 def compute_status(record, today=None):
     """record: dict with keys 'windows' (list) and 'status_statements' (list),
     optionally 'page_last_updated' (ISO string or None).
-    Returns dict: computed_status, status_confidence, days_since_evidence."""
+    Returns dict: computed_status, status_confidence, days_since_evidence,
+    days_until_next_event, next_open_date, next_close_date,
+    corroborated_by_unknown_stmt, and the other fields _determine_status sets."""
     if today is None:
         today = datetime.date.today()
 
@@ -304,10 +464,56 @@ def compute_status(record, today=None):
         s for s in all_rolling_statements
         if classify_intake(s.get("verbatim_text", "")) != "none"
     ]
-    closed_statements = [s for s in statements if s.get("statement_type") == "closed"]
+    # Round 4, task 2: an entire statement_type ('open') used to be silently
+    # discarded -- grepped for it, it was never referenced anywhere.
+    open_statements = [s for s in statements if s.get("statement_type") == "open"]
+    raw_closed_statements = [s for s in statements if s.get("statement_type") == "closed"]
     reopening_statements = [s for s in statements if s.get("statement_type") == "reopening"]
 
-    # ---- gather all dated evidence for days_since_evidence ----
+    # ---- round 4, tasks 3/4/5: tense- and scope-aware closed-statement
+    # processing. Produces the FILTERED closed-statement list every rule
+    # below operates on (effective_closed_statements), a pool of candidate
+    # next_close_date values, and the corroborated_by_unknown_stmt flag. ----
+    effective_closed_statements = []
+    future_closed_dates = []
+    corroborated_by_unknown_stmt = False
+    for s in raw_closed_statements:
+        eff = _parse_date(s.get("stated_effective_date"))
+        if eff and eff > today:
+            # task 3: a closed statement whose effective date hasn't arrived
+            # yet ANNOUNCES a future closure -- it does not close the local
+            # today. LU 112.
+            future_closed_dates.append(eff)
+            continue
+        scope = classify_closure_scope(s.get("verbatim_text", ""), today)
+        if scope == "future_period":
+            # task 4: confined to a period that hasn't started -- implies
+            # currently open. LU 313.
+            derived = _derive_future_period_date(s.get("verbatim_text", ""), today)
+            if derived:
+                future_closed_dates.append(derived)
+            continue
+        if scope == "past_cohort":
+            # task 4/5: names a cohort that's already closed -- says nothing
+            # about CURRENT intake on its own. Resolve via any statement
+            # (any type, including an 'unknown'-typed one -- task 5:
+            # corroborate, never originate) describing the successor intake.
+            signal, source = _successor_intake_signal(statements)
+            if signal == "accepting":
+                if source is not None and source.get("statement_type") == "unknown":
+                    corroborated_by_unknown_stmt = True
+                continue  # LU 488: resolved -- not closed
+            elif signal == "future":
+                effective_closed_statements.append(s)  # LU 520: stays closed
+                continue
+            else:
+                continue  # nothing resolves it -- demote, don't count as closed
+        effective_closed_statements.append(s)  # unscoped: business as usual
+
+    # ---- all dated evidence, for the recency-ORDERING checks in rules 5/6
+    # below (is THIS the newest thing said) -- distinct from
+    # days_since_evidence/days_until_next_event (task 1), which must never go
+    # negative. This pool is intentionally unchanged from before round 4. ----
     # TODO(monitor.py): fold last_changed in here once available (see module docstring).
     all_dates = []
     for s in statements:
@@ -323,30 +529,53 @@ def compute_status(record, today=None):
             all_dates.append(cd)
     if page_last_updated:
         all_dates.append(page_last_updated)
-    most_recent = max(all_dates) if all_dates else None
-    days_since_evidence = (today - most_recent).days if most_recent else None
+    most_recent_any = max(all_dates) if all_dates else None
+
+    days_since_evidence, days_until_next_event = _evidence_recency(
+        statements, dated_windows, page_last_updated, today,
+    )
 
     recurring_windows = [w for w in windows if w.get("precision") == "recurring"]
 
     result = _determine_status(
-        today, dated_windows, recurring_windows, rolling_statements, closed_statements,
-        reopening_statements, most_recent,
+        today, dated_windows, recurring_windows, rolling_statements,
+        effective_closed_statements, reopening_statements, open_statements,
+        most_recent_any, future_closed_dates,
     )
-    result["status_confidence"] = _cap_confidence(result["status_confidence"], days_since_evidence)
+    # Round 4, task 1: audited every comparison against days_since_evidence in
+    # the codebase -- _cap_confidence below is the only one, and its `is None`
+    # branch is checked first (before any `>` comparison), so it already
+    # behaves correctly now that this can genuinely be None with future
+    # evidence present (LU 112) rather than only when there's no evidence at all.
+    result["status_confidence"] = _cap_confidence(
+        result["status_confidence"], days_since_evidence, days_until_next_event,
+    )
     result["days_since_evidence"] = days_since_evidence
+    result["days_until_next_event"] = days_until_next_event
+    result["corroborated_by_unknown_stmt"] = corroborated_by_unknown_stmt
     result["intake_pattern"] = result["intake_pattern"] if result["computed_status"] == "rolling" else ""
     return result
 
 
 def _determine_status(today, dated_windows, recurring_windows, rolling_statements,
-                       closed_statements, reopening_statements, most_recent):
+                       closed_statements, reopening_statements, open_statements,
+                       most_recent, future_closed_dates):
     """Returns a dict: computed_status, status_confidence, intake_pattern,
-    next_open_date (ISO string or ''), window_precision_note (''  or
-    'month_boundary_inferred'), inferred_window_status (bool -- True if the
-    status came from round-3 recurring-window resolution rather than a
+    next_open_date / next_close_date (ISO string or ''), window_precision_note
+    ('' or 'month_boundary_inferred'), inferred_window_status (bool -- True if
+    the status came from round-3 recurring-window resolution rather than a
     stated date). status_confidence here is BEFORE the caller applies the
-    evidence-age cap. rolling_statements has ALREADY passed the task-1
-    timing gate -- method-only statements were filtered out by the caller."""
+    evidence-age cap.
+
+    rolling_statements has ALREADY passed the round-2 timing gate.
+    closed_statements has ALREADY passed round-4's tense/scope filtering in
+    compute_status() -- it is the "counts as really closed right now" set,
+    not the raw extraction. future_closed_dates feeds next_close_date, which
+    is attached to every result regardless of which rule wins (LU 313's
+    closure hasn't started yet but is still worth surfacing even though the
+    record otherwise lands on 'unknown')."""
+
+    next_close_date = min(future_closed_dates) if future_closed_dates else None
 
     def result(status, confidence, intake_pattern="", next_open_date=None,
                window_precision_note="", inferred_window_status=False):
@@ -355,6 +584,7 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             "status_confidence": confidence,
             "intake_pattern": intake_pattern,
             "next_open_date": next_open_date.isoformat() if next_open_date else "",
+            "next_close_date": next_close_date.isoformat() if next_close_date else "",
             "window_precision_note": window_precision_note,
             "inferred_window_status": inferred_window_status,
         }
@@ -376,12 +606,37 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             confidence = "medium"
         return result("rolling", confidence, intake_pattern)
 
-    # 2. OPEN -- today inside a dated (absolute) window
+    # 2. OPEN -- today inside a dated (absolute) window. Round 4, task 6: an
+    # open-ended window (open_date, no close_date) decays -- see the module
+    # comment above compute_status for the threshold reasoning. A window
+    # with both dates is a bounded, explicit claim and does not decay.
     for w in dated_windows:
         od = _parse_date(w.get("open_date"))
         cd = _parse_date(w.get("close_date"))
-        if od and od <= today and (cd is None or today <= cd):
+        if not od or od > today:
+            continue
+        if cd is not None:
+            if today <= cd:
+                return result("open", "high")
+            continue
+        age = (today - od).days
+        if age <= 60:
             return result("open", "high")
+        if age <= 180:
+            return result("open", "medium")
+        # else: past 180 days with nobody having closed or updated it --
+        # falls through to the decayed-expired check right below, which
+        # takes priority over every later rule (an authoritative, specific
+        # signal, not a vague one).
+
+    decayed_expired = any(
+        _parse_date(w.get("open_date")) and _parse_date(w.get("open_date")) <= today
+        and not _parse_date(w.get("close_date"))
+        and (today - _parse_date(w.get("open_date"))).days > 180
+        for w in dated_windows
+    )
+    if decayed_expired:
+        return result("expired_data", "low")
 
     # 3. CLOSED_PENDING -- future dated window, or a reopening statement not yet arrived
     future_windows = [w for w in dated_windows if _parse_date(w.get("open_date")) > today]
@@ -394,7 +649,20 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         candidates += [_parse_date(s["stated_effective_date"]) for s in future_reopenings]
         return result("closed_pending", "high", next_open_date=min(candidates))
 
-    # 4. EXPECTED_OPEN -- reopening date has passed and is the most recent evidence
+    # 4. OPEN -- round 4, task 2: a prose 'open' statement, with no
+    # contradicting present-tense closed statement. Confidence medium, never
+    # high -- a prose claim is weaker than a dated window. Deliberately
+    # placed AFTER closed_pending (rule 3) rather than the slot suggested in
+    # the round-4 task prompt (before closed_pending): a dated future
+    # window/reopening is a specific, falsifiable claim, and a vague
+    # "Applications Are Currently Open" sentence must not outrank it -- that
+    # would be the exact overconfidence bug this round exists to fix, just
+    # relocated. No fixture in this round combines the two either way, so
+    # this is a demote-safety judgment call, not something a test forces.
+    if open_statements and not closed_statements:
+        return result("open", "medium")
+
+    # 5. EXPECTED_OPEN -- reopening date has passed and is the most recent evidence
     past_reopenings = [
         s for s in reopening_statements
         if _parse_date(s.get("stated_effective_date")) and _parse_date(s.get("stated_effective_date")) <= today
@@ -404,10 +672,10 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         if most_recent is None or most_recent == most_recent_reopen:
             return result("expected_open", "medium")
 
-    # 4.5 (round 3, task 3) -- RECURRING WINDOW RESOLUTION. Runs after every
-    # rule based on a stated/absolute date (2, 3, 4) and before the fallbacks
-    # that assume no further evidence exists (5, 6, 7). Inferred from a
-    # pattern, not a stated date -- always capped at medium, never high.
+    # 5.5 (round 3, task 3) -- RECURRING WINDOW RESOLUTION. Runs after every
+    # rule based on a stated/absolute date (2, 3, 4, 5) and before the
+    # fallbacks that assume no further evidence exists (6, 7, 8). Inferred
+    # from a pattern, not a stated date -- always capped at medium, never high.
     recur = _resolve_recurring_windows(recurring_windows, today)
     if recur["resolved"]:
         note = "month_boundary_inferred" if recur["inferred"] else ""
@@ -418,7 +686,7 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
             return result("closed_pending", "medium", next_open_date=recur["next_open_date"],
                            window_precision_note=note, inferred_window_status=True)
 
-    # 5. EXPIRED_DATA -- most recent dated window's close has passed, nothing newer
+    # 6. EXPIRED_DATA -- most recent dated window's close has passed, nothing newer
     past_windows_with_close = [
         w for w in dated_windows
         if _parse_date(w.get("close_date")) and _parse_date(w.get("close_date")) < today
@@ -428,11 +696,11 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
         if most_recent is None or most_recent == most_recent_close:
             return result("expired_data", "medium")
 
-    # 6. CLOSED -- explicit closure statement, no reopen date/window anywhere
+    # 7. CLOSED -- explicit closure statement, no reopen date/window anywhere
     if closed_statements and not reopening_statements and not dated_windows:
         return result("closed", "high")
 
-    # 7. UNKNOWN
+    # 8. UNKNOWN
     return result("unknown", "low")
 
 
@@ -955,6 +1223,269 @@ class TestRecurringWindowResolution(unittest.TestCase):
         }
         result = compute_status(record, today=self.TODAY)
         self.assertEqual(result["computed_status"], "unknown")
+
+
+class TestRound4EvidenceRecency(unittest.TestCase):
+    """Task 1: days_since_evidence must never go negative; days_until_next_event
+    is the new field for future-dated evidence."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    def test_only_future_dates_yields_none_and_positive_until(self):
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "We will close on October 1, 2026.",
+                "statement_type": "closed", "stated_effective_date": "2026-10-01",
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertIsNone(result["days_since_evidence"])
+        self.assertEqual(result["days_until_next_event"], 52)
+
+    def test_page_last_updated_ignored_when_stated_dates_exist(self):
+        # LU 112's exact shape: page_last_updated is a real past date, but
+        # every stated date on the record is in the future -- the page
+        # timestamp must not quietly fill in a days_since_evidence value the
+        # specific claims don't support.
+        record = {
+            "windows": [],
+            "status_statements": [{
+                "verbatim_text": "Closing October 1, 2026.",
+                "statement_type": "closed", "stated_effective_date": "2026-10-01",
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": "2026-07-08",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertIsNone(result["days_since_evidence"])
+
+    def test_page_last_updated_used_as_fallback_when_no_stated_dates(self):
+        record = {"windows": [], "status_statements": [], "page_last_updated": "2026-07-08"}
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["days_since_evidence"], 33)
+        self.assertIsNone(result["days_until_next_event"])
+
+
+class TestClassifyClosureScope(unittest.TestCase):
+    """Task 4. Real verbatim_text pulled from extraction_v2.csv where noted;
+    synthetic examples are clearly-realistic IBEW-apprenticeship-page phrasing
+    used only to round out category coverage to >=5, not tied to a specific
+    local's test assertions."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    def test_future_period(self):
+        cases = [
+            "No applications will be accepted in September 2026.",  # LU 313, real
+            "The JETC will not be accepting applications in the month of September 2026.",  # LU 176, real
+            "Applications will not be reopened until March 2027.",
+            "The apprenticeship program will be closed for the month of December 2026.",
+            "We will not accept new applications during October 2026.",
+        ]
+        for text in cases:
+            self.assertEqual(classify_closure_scope(text, self.TODAY), "future_period", text)
+
+    def test_past_cohort(self):
+        cases = [
+            "SELECTION OF APPLICANTS FOR CLASSES BEGINNING SEPTEMBER OF 2026 HAS CLOSED.",  # LU 488, real
+            "The Deadline to Submit an Application for September 2026 Classes has passed.",  # LU 520, real (trimmed)
+            "Selection of candidates for the Spring 2026 class has closed.",
+            "The application deadline for the 2026 cohort has passed.",
+            "Enrollment for the September 2026 term has closed.",
+        ]
+        for text in cases:
+            self.assertEqual(classify_closure_scope(text, self.TODAY), "past_cohort", text)
+
+    def test_unscoped_including_traps(self):
+        cases = [
+            # LU 48: named non-inside programs closed too, but Inside is ALSO
+            # named -- must not read as scoped to Limited Energy/Residential.
+            "Inside Program – Closed\n\nLimited Energy Program – Closed\n\nResidential Program – Closed",
+            # LU 48: "until further notice" is duration, not scope.
+            "The Training Center will remain closed for all applications until further notice.",
+            # LU 46: "temporarily" is duration, not scope.
+            "As of May 1, 2026, Puget Sound Electrical Apprenticeship has temporarily stopped accepting new applications.",
+            # LU 11: a past window-closed LOG, not a scoped closure.
+            "January 5th, 2026 (APPLICATION WINDOW CLOSED)",
+            # LU 728: plain closure with a past date.
+            "As of March 9, 2026, online applications are closed.",
+            # explicit "indefinitely" trap
+            "Applications are closed indefinitely.",
+        ]
+        for text in cases:
+            self.assertEqual(classify_closure_scope(text, self.TODAY), "unscoped", text)
+
+
+class TestRound4NamedLocals(unittest.TestCase):
+    """Task 7. Fixtures built verbatim from out/extraction_v2.csv's
+    windows_json/status_statements_json for the six locals the round-4 spec
+    is built around. TODAY held at 2026-08-10 throughout."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    def test_lu112_open_medium_next_close_date(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "", "close_date": "2026-10-01",
+                 "open_month": None, "open_day": None, "close_month": 10, "close_day": 1,
+                 "is_recurring_annual": False, "relative_description": "",
+                 "evidence_quote": "APPLICATIONS ARE CLOSING OCTOBER 1ST, 2026 - DECEMBER 31, 2026",
+                 "source_url": "https://www.jatc112.org/"},
+                {"precision": "relative", "open_date": "", "close_date": "",
+                 "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                 "is_recurring_annual": False, "relative_description": "APPLICATIONS WILL BE REOPEN IN 2027",
+                 "evidence_quote": "APPLICATIONS WILL BE REOPEN IN 2027",
+                 "source_url": "https://www.jatc112.org/"},
+            ],
+            "status_statements": [
+                {"verbatim_text": "Applications Are Currently Open", "statement_type": "open",
+                 "stated_effective_date": None, "source_url": "https://www.jatc112.org/"},
+                {"verbatim_text": "applications are closing October 1, 2026 and will be closed through "
+                                   "the remaining of 2026 but will open again in 2027",
+                 "statement_type": "closed", "stated_effective_date": "2026-10-01",
+                 "source_url": "https://www.jatc112.org/"},
+                {"verbatim_text": "After October 1st, 2026 we will only be accepting re-interview "
+                                   "applications and applications for 4000 hours qualifier.",
+                 "statement_type": "closed", "stated_effective_date": "2026-10-01",
+                 "source_url": "https://www.jatc112.org/"},
+                {"verbatim_text": "APPLICATIONS WILL BE REOPEN IN 2027.", "statement_type": "reopening",
+                 "stated_effective_date": None, "source_url": "https://www.jatc112.org/"},
+                {"verbatim_text": "Applications are AVAILABLE as needed throughout the year. Please "
+                                   "check our website to get information about our next application window.",
+                 "statement_type": "unknown", "stated_effective_date": None,
+                 "source_url": "https://www.jatc112.org/"},
+            ],
+            "page_last_updated": "2026-07-08",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+        self.assertEqual(result["status_confidence"], "medium")
+        self.assertEqual(result["next_close_date"], "2026-10-01")
+        self.assertIsNone(result["days_since_evidence"])
+        self.assertEqual(result["days_until_next_event"], 52)
+
+    def test_lu728_open_high_today_decays_to_expired_at_day200(self):
+        record = {
+            "windows": [{
+                "precision": "absolute", "open_date": "2026-07-01", "close_date": "",
+                "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                "is_recurring_annual": False, "relative_description": "",
+                "evidence_quote": "We will reopen the applications on July 1, 2026.",
+                "source_url": "https://www.ibew728.org/",
+            }],
+            "status_statements": [
+                {"verbatim_text": "As of March 9, 2026, online applications are closed.",
+                 "statement_type": "closed", "stated_effective_date": "2026-03-09",
+                 "source_url": "https://www.ibew728.org/"},
+                {"verbatim_text": "We will reopen the applications on July 1, 2026.",
+                 "statement_type": "reopening", "stated_effective_date": "2026-07-01",
+                 "source_url": "https://www.ibew728.org/"},
+            ],
+            "page_last_updated": "2026-03-19",
+        }
+        today_result = compute_status(record, today=self.TODAY)
+        self.assertEqual(today_result["computed_status"], "open")
+        self.assertEqual(today_result["status_confidence"], "high")
+
+        day200 = datetime.date(2026, 7, 1) + datetime.timedelta(days=200)
+        later_result = compute_status(record, today=day200)
+        self.assertEqual(later_result["computed_status"], "expired_data")
+        self.assertEqual(later_result["status_confidence"], "low")
+
+    def test_lu313_future_period_not_closed(self):
+        record = {
+            "windows": [{
+                "precision": "recurring", "open_date": "", "close_date": "",
+                "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                "is_recurring_annual": True,
+                "relative_description": "first Wednesday of every month, unless otherwise noted below",
+                "evidence_quote": "Applications are on the first Wednesday of every month, unless otherwise noted below.",
+                "source_url": "https://www.ibew313.org/",
+            }],
+            "status_statements": [{
+                "verbatim_text": "No applications will be accepted in September 2026.",
+                "statement_type": "closed", "stated_effective_date": None,
+                "source_url": "https://www.ibew313.org/",
+            }],
+            "page_last_updated": "2026-07-23",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "closed")
+        self.assertEqual(result["next_close_date"], "2026-09-01")
+
+    def test_lu488_past_cohort_resolved_by_unknown_stmt_not_closed(self):
+        record = {
+            "windows": [{
+                "precision": "none", "open_date": "", "close_date": "",
+                "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                "is_recurring_annual": False, "relative_description": "",
+                "evidence_quote": "Applications are available Monday-Friday from 8 a.m. through 11 a.m.",
+                "source_url": "https://www.ibewlocal488.org/content/apprenticeship-opportunities",
+            }],
+            "status_statements": [
+                {"verbatim_text": "SELECTION OF APPLICANTS FOR CLASSES BEGINNING SEPTEMBER OF 2026 HAS CLOSED.",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://www.ibewlocal488.org/content/apprenticeship-opportunities"},
+                {"verbatim_text": "APPLICATIONS RECEIVED WILL BE FOR CONSIDERATION FOR CLASSES BEGINNING SEPTEMBER 2027.",
+                 "statement_type": "unknown", "stated_effective_date": None,
+                 "source_url": "https://www.ibewlocal488.org/content/apprenticeship-opportunities"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["computed_status"], "closed")
+        self.assertTrue(result["corroborated_by_unknown_stmt"])
+
+    def test_lu150_unchanged_regression(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "", "close_date": "2026-01-30",
+                 "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                 "is_recurring_annual": False, "relative_description": "",
+                 "evidence_quote": "documents must be uploaded...NO LATER THAN 4:00pm on 1/30/2026",
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+                {"precision": "absolute", "open_date": "2026-10-01", "close_date": "",
+                 "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                 "is_recurring_annual": False, "relative_description": "",
+                 "evidence_quote": "Applications will reopen on October 1, 2026",
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+            ],
+            "status_statements": [
+                {"verbatim_text": "Applications for the 2026 Program are now CLOSED",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+                {"verbatim_text": "Applications will reopen on October 1, 2026",
+                 "statement_type": "reopening", "stated_effective_date": "2026-10-01",
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["next_open_date"], "2026-10-01")
+
+    def test_lu520_unchanged_regression(self):
+        record = {
+            "windows": [{
+                "precision": "absolute", "open_date": "", "close_date": "2026-06-21",
+                "open_month": None, "open_day": None, "close_month": None, "close_day": None,
+                "is_recurring_annual": False, "relative_description": "",
+                "evidence_quote": "last day to submit a complete and accurate application is on June 21, 2026",
+                "source_url": "https://austineta.org/news/",
+            }],
+            "status_statements": [{
+                "verbatim_text": "The Deadline to Submit an Application for September 2026 Classes has "
+                                   "passed...when we begin accepting applications for the next term we "
+                                   "will announce it here!",
+                "statement_type": "closed", "stated_effective_date": None,
+                "source_url": "https://austineta.org/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed")
+        self.assertEqual(result["status_confidence"], "medium")
 
 
 if __name__ == "__main__":
