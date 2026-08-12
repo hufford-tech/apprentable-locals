@@ -2148,5 +2148,298 @@ class TestAdmitStatementUnits(unittest.TestCase):
                 self.assertEqual(d["role"], "cohort", text)
 
 
+class TestRound6DatedWindowsAndGating(unittest.TestCase):
+    """Round 6. verbatim_text/windows pulled from out/extraction_v2.csv for
+    every named local -- see PROMPT_status_round6.md. TODAY held at
+    2026-08-10 throughout, per round 4-5's convention."""
+    TODAY = datetime.date(2026, 8, 10)
+
+    # -- task 1: dated windows beat undated prose -----------------------
+
+    def test_lu613_atlanta_expired_data_and_program_mismatch(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "2026-02-01", "close_date": "2026-03-31"},
+                {"precision": "recurring", "open_month": 8, "open_day": 1,
+                 "close_month": 8, "close_day": 31, "is_recurring_annual": False,
+                 "relative_description": "August 1st - August 31st",
+                 "evidence_quote": "Apprenticeship Program Applications Now OPEN! August 1st - August 31st",
+                 "source_url": "https://6601etc.wordpress.com/"},
+            ],
+            "status_statements": [
+                {"verbatim_text": "Apprenticeship Program Applications Now OPEN!",
+                 "statement_type": "open", "stated_effective_date": None,
+                 "source_url": "https://6601etc.wordpress.com/"},
+                {"verbatim_text": "Journeyman Wireman Continuing Education CURRENTLY CLOSED",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://6601etc.wordpress.com/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "expired_data")
+        self.assertEqual(result["status_confidence"], "medium")
+
+        from statement_evidence import admit_statement
+        ev = admit_statement(record["status_statements"][1], self.TODAY)
+        self.assertEqual(ev["reject_reason"], "program_mismatch")
+
+    def test_lu538_danville_expired_data(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "2026-03-30", "close_date": "2026-04-03"},
+                {"precision": "absolute", "open_date": "2026-04-06", "close_date": "2026-04-10"},
+            ],
+            "status_statements": [{
+                "verbatim_text": "The JATC will be taking applications on the following days in 2026",
+                "statement_type": "open", "stated_effective_date": None,
+                "source_url": "https://ibew538.org/apprenticeship-cet/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "expired_data")
+        self.assertEqual(result["status_confidence"], "medium")
+
+    def test_synthetic_undated_open_with_currently_open_window_stays_open(self):
+        # task 1's rule must only fire when EVERY dated window has closed --
+        # one still-open window must let the undated prose (and rule 2's
+        # window match) stand.
+        record = {
+            "windows": [{"precision": "absolute", "open_date": "2026-08-01", "close_date": "2026-08-31"}],
+            "status_statements": [{
+                "verbatim_text": "Applications are currently open.",
+                "statement_type": "open", "stated_effective_date": None,
+                "source_url": "https://example.org/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+
+    # -- task 2: closed/reopening gated, LU 567/1340 date survives ------
+
+    def test_lu567_unchanged_and_duplicate_counted_once(self):
+        text = "Applications for IBEW 567 Apprenticeship are closed they will reopen November 2nd, 2026."
+        record = {
+            "windows": [{"precision": "absolute", "open_date": "2026-11-02", "close_date": ""}],
+            "status_statements": [
+                {"verbatim_text": text, "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://www.ibew567.com/apprenticeship/"},
+                {"verbatim_text": text, "statement_type": "reopening", "stated_effective_date": "2026-11-02",
+                 "source_url": "https://www.ibew567.com/apprenticeship/advantages-of-joining/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["next_open_date"], "2026-11-02")
+        self.assertEqual(result["admitted_statement_count"], 1)
+
+    def test_lu1340_newport_news_unchanged(self):
+        record = {
+            "windows": [
+                {"precision": "recurring", "open_month": 12, "open_day": 1,
+                 "close_month": 4, "close_day": 30, "is_recurring_annual": True},
+                {"precision": "absolute", "open_date": "2026-12-01", "close_date": ""},
+            ],
+            "status_statements": [{
+                "verbatim_text": "THE DEADLINE FOR THE UPCOMING SCHOOL YEAR HAS PASSED, APPLICATIONS FOR "
+                                   "THE 2027 SCHOOL YEAR WILL BE AVAILABLE DECEMBER 1, 2026",
+                "statement_type": "reopening", "stated_effective_date": "2026-12-01",
+                "source_url": "http://hamptonroadsjatc.com/?zone=/unionactive/view_page.cfm&page=Applications",
+            }],
+            "page_last_updated": "2026-08-10",
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["next_open_date"], "2026-12-01")
+
+    def test_lu292_minneapolis_conflicting_not_promoted_to_rolling(self):
+        # round-6 regression guard: gating "Pre-apprentice hiring is frozen"
+        # out of closed-EVIDENCE (it's about hiring, not intake -- correctly
+        # rejected no_application_subject) must not also flip the record out
+        # of 'conflicting', the one status this round is not allowed to
+        # promote out of.
+        record = {
+            "windows": [],
+            "status_statements": [
+                {"verbatim_text": "Applications are open year-round for the Apprenticeship program, "
+                                   "but hiring is completed as needed, typically during late spring "
+                                   "and summer months.",
+                 "statement_type": "rolling", "stated_effective_date": None,
+                 "source_url": "https://mplsjatc.org/"},
+                {"verbatim_text": "Pre-apprentice hiring is frozen at this time.",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://mplsjatc.org/applicants/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "conflicting")
+        self.assertEqual(result["status_confidence"], "low")
+
+    # -- task 3: LU 130 -----------------------------------------------------
+
+    def test_lu130_new_orleans_closed_with_inferred_next_open(self):
+        record = {
+            "windows": [],
+            "status_statements": [
+                {"verbatim_text": "APPLICATIONS FOR THE 2026-2027 SCHOOL YEAR ARE NOW CLOSED.",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://ibewlu130.com/apprenticeship/"},
+                {"verbatim_text": "Please contact the office in January 2027 for information "
+                                   "regarding the 2027-2028 school year.",
+                 "statement_type": "reopening", "stated_effective_date": None,
+                 "source_url": "https://ibewlu130.com/apprenticeship/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed")
+        self.assertEqual(result["next_open_date"], "2027-01-01")
+        self.assertEqual(result["window_precision_note"], "month_inferred")
+
+    # -- round 4 guards must stay unchanged ------------------------------
+
+    def test_lu520_austin_unchanged(self):
+        record = {
+            "windows": [{
+                "precision": "absolute", "open_date": "", "close_date": "2026-06-21",
+                "source_url": "https://austineta.org/news/",
+            }],
+            "status_statements": [{
+                "verbatim_text": "The Deadline to Submit an Application for September 2026 Classes has "
+                                   "passed...when we begin accepting applications for the next term we "
+                                   "will announce it here!",
+                "statement_type": "closed", "stated_effective_date": None,
+                "source_url": "https://austineta.org/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed")
+        self.assertEqual(result["status_confidence"], "medium")
+
+    def test_lu150_unchanged(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "", "close_date": "2026-01-30"},
+                {"precision": "absolute", "open_date": "2026-10-01", "close_date": ""},
+            ],
+            "status_statements": [
+                {"verbatim_text": "Applications for the 2026 Program are now CLOSED",
+                 "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+                {"verbatim_text": "Applications will reopen on October 1, 2026",
+                 "statement_type": "reopening", "stated_effective_date": "2026-10-01",
+                 "source_url": "https://lakecountyjatc.org/howtoapply/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["next_open_date"], "2026-10-01")
+
+    def test_lu26_dc_still_expired_data(self):
+        record = {
+            "windows": [{
+                "precision": "absolute", "open_date": "", "close_date": "2025-03-31",
+                "source_url": "https://ibewlocal26.org/join-as-individual/training/",
+            }],
+            "status_statements": [{
+                "verbatim_text": "Applications currently being accepted are for the Class of 2030. "
+                                   "The deadline to apply is March 31, 2025.",
+                "statement_type": "open", "stated_effective_date": None,
+                "source_url": "https://ibewlocal26.org/join-as-individual/training/",
+            }],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "expired_data")
+
+    def test_regression_guards_14_prose_only_open_unchanged(self):
+        cases = [
+            ("LU68 Denver", "Applications now open.", "https://djeatc68.com/apply/"),
+            ("LU570 Tucson", "We are now accepting Applications online.", "https://www.tucsonjatc.org/"),
+            ("LU38 Cleveland", "The JATC is now accepting applications on-line, 24/7.", "https://ibew38.org/jatc/"),
+            ("LU236 Albany", "Applications for apprenticeship are now being accepted.", "https://www.tricityjatc.org/"),
+            ("LU112 Kennewick", "Applications Are Currently Open", "https://www.jatc112.org/"),
+            ("LU153 South Bend", "Applications Are OPEN", "https://www.jatc153.com/index.cfm"),
+            ("LU110 St. Paul", "The St. Paul Electrical Joint Apprenticeship and Training Committee (JATC) "
+                                "is now accepting applications for entry into our comprehensive Apprenticeship "
+                                "Program.", "https://www.jatc110.org/"),
+            ("LU558 Sheffield", "The North Alabama Electrical Training Alliance is now accepting applications "
+                                 "for our four-year construction apprenticeship training program.", "https://naeta.org/"),
+            ("LU456 New Brunswick", "Applications are Currently being Accepted Today, CLICK HERE.",
+             "https://ibew456.org/training.aspx"),
+            ("LU34 Peoria", "Now accepting online applications", "https://peoriajatc.com/"),
+            ("LU575 Portsmouth", "Accepting Applications for an Electrical Apprenticeship",
+             "https://www.ibew575.org/application_information/"),
+            ("LU673 Painesville", "This Joint Apprenticeship and Training Committee (JATC) is accepting "
+                                   "applications for apprenticeship.", "https://ibew673.org/"),
+            ("LU270 Oak Ridge", "now accepting applications", "https://www.orejatc.org/"),
+            ("LU972 Marietta", "Marietta Electrical JATC is currently taking applications for Apprentices "
+                                "to become Inside Wireman.", "https://www.ibew972.com/apprrenticeshiptraining/"),
+        ]
+        for name, text, url in cases:
+            record = {
+                "windows": [],
+                "status_statements": [{
+                    "verbatim_text": text, "statement_type": "open",
+                    "stated_effective_date": None, "source_url": url,
+                }],
+                "page_last_updated": None,
+            }
+            result = compute_status(record, today=self.TODAY)
+            self.assertEqual(result["computed_status"], "open", name)
+            self.assertEqual(result["status_confidence"], "medium", name)
+
+    # -- task 4: de-duplication -------------------------------------------
+
+    def test_dedupe_statements_merges_and_backfills_date(self):
+        from statement_evidence import dedupe_statements
+        text = "Applications for IBEW 567 Apprenticeship are closed they will reopen November 2nd, 2026."
+        statements = [
+            {"verbatim_text": text, "statement_type": "closed", "stated_effective_date": None,
+             "source_url": "a"},
+            {"verbatim_text": text, "statement_type": "reopening", "stated_effective_date": "2026-11-02",
+             "source_url": "b"},
+        ]
+        deduped, audit = dedupe_statements(statements)
+        self.assertEqual(len(deduped), 1)
+        self.assertEqual(deduped[0]["stated_effective_date"], "2026-11-02")
+        self.assertEqual(sorted(deduped[0]["combined_types"]), ["closed", "reopening"])
+        self.assertEqual(len(audit), 1)
+        self.assertEqual(audit[0]["duplicate_count"], 2)
+
+    def test_dedupe_statements_normalises_whitespace_and_punctuation(self):
+        from statement_evidence import dedupe_statements
+        statements = [
+            {"verbatim_text": "Applications are OPEN!!", "statement_type": "open",
+             "stated_effective_date": None, "source_url": "a"},
+            {"verbatim_text": "applications are open", "statement_type": "open",
+             "stated_effective_date": None, "source_url": "b"},
+        ]
+        deduped, audit = dedupe_statements(statements)
+        self.assertEqual(len(deduped), 1)
+        self.assertEqual(audit[0]["duplicate_count"], 2)
+
+    def test_dedupe_statements_no_duplicates_passthrough(self):
+        from statement_evidence import dedupe_statements
+        statements = [
+            {"verbatim_text": "Applications are open.", "statement_type": "open",
+             "stated_effective_date": None, "source_url": "a"},
+            {"verbatim_text": "Applications close March 1.", "statement_type": "closed",
+             "stated_effective_date": None, "source_url": "b"},
+        ]
+        deduped, audit = dedupe_statements(statements)
+        self.assertEqual(len(deduped), 2)
+        self.assertEqual(audit, [])
+
+
 if __name__ == "__main__":
     unittest.main()
