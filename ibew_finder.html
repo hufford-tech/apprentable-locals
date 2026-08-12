@@ -361,9 +361,37 @@ const panel = document.getElementById('panel');
 const hint = document.getElementById('hint');
 let current = null;
 
+/* ---------------- lean-mode index loading ----------------
+   In --lean builds DATA.lean is true and DATA.zips/zip_multi/cities ship
+   empty; the ZIP and city indexes are fetched from site/data/*.json on first
+   search instead of being inlined. --single builds have DATA.lean unset and
+   never fetch anything. */
+let indexesReady = !DATA.lean;
+let indexesPromise = null;
+function ensureIndexes(){
+  if (indexesReady) return Promise.resolve();
+  if (indexesPromise) return indexesPromise;
+  hint.textContent = "Loading the ZIP index…";
+  indexesPromise = Promise.all([
+    fetch('data/zips.json').then(r => r.json()),
+    fetch('data/zip_multi.json').then(r => r.json()),
+    fetch('data/cities.json').then(r => r.json()),
+  ]).then(([z, zm, c]) => {
+    DATA.zips = z; DATA.zip_multi = zm; DATA.cities = c; indexesReady = true;
+  }).catch(() => {
+    hint.textContent = "Couldn't load the search index. Check your connection and try again.";
+    indexesPromise = null; // allow retry on next input
+  });
+  return indexesPromise;
+}
+
 q.addEventListener('input', () => {
   const v = q.value.trim();
   if (!v){ current=null; showDefault(); return; }
+  ensureIndexes().then(() => runSearch(v));
+});
+
+function runSearch(v){
   if (/^\d{3,5}$/.test(v)){
     if (v.length<5){ hint.textContent = "Keep typing, ZIP codes are 5 digits."; return; }
     const zip5 = v.padStart(5,'0');
@@ -386,7 +414,7 @@ q.addEventListener('input', () => {
     hint.textContent = keys.length===1 ? `${keys[0]}` : `Matching: ${keys.slice(0,3).join(' · ')}${keys.length>3?' · …':''}`;
     showList([...set].sort((a,b)=>L_[b].pop-L_[a].pop), keys[0]);
   }
-});
+}
 
 function showDefault(){
   hint.textContent = "Every U.S. county is assigned to a local. Enter a ZIP for an exact match.";

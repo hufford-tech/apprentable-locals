@@ -337,15 +337,13 @@ for l in locals_:
         f.write(html)
     pages_written.append((slug, os.path.getsize(path)))
 
-# ---- site/index.html: finder built from page_template.html --------------------
-with open("page_template.html", encoding="utf-8") as f:
-    template = f.read()
-with open("out/frontend_data.json", encoding="utf-8") as f:
-    payload = f.read()
-index_html = template.replace("__DATA__", payload)
-os.makedirs("site", exist_ok=True)
-with open("site/index.html", "w", encoding="utf-8") as f:
-    f.write(index_html)
+# ---- site/index.html: the finder, lean build (task 8) -------------------------
+# ZIP/city indexes fetched from site/data/*.json on first search instead of
+# being inlined -- keeps the hosted entry page light. ibew_finder.html (built
+# separately by `python build_page.py --single`) stays fully inlined for
+# file://.
+import build_page
+build_page.build_lean()
 
 # ---- sitemap.xml + robots.txt --------------------------------------------------
 urls = [f"{SITE_BASE_URL}/index.html"] + [f"{SITE_BASE_URL}/local/{l['slug']}.html" for l in locals_]
