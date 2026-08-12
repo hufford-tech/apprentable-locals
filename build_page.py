@@ -47,6 +47,7 @@ def _redact_locals(bundle, show_confidence, status_display):
             l["status"] = ""
             l["pattern"] = ""
             l["next_open"] = ""
+            l["next_close"] = ""
     if not show_confidence:
         # zip_multi's "cf" is the ZIP-to-local match confidence (a different
         # concept from application-status confidence), but it's still a
@@ -93,6 +94,16 @@ def _apply_flags(tpl, show_confidence, status_display):
         )
         tpl = tpl.replace(
             "${SHOW_CONFIDENCE?`<div><span>ZIP confidence</span><b>${confidenceLabel(c.cf)}</b></div>`:''}",
+            "''",
+        )
+    if not status_display:
+        # statusHTML() returns a static "Check with the local" string and
+        # never reaches this line when STATUS_DISPLAY is false, but the JS
+        # source text -- including the "Open now, closes" copy -- still ships
+        # in the file either way. Found leaking during task-11
+        # re-verification; same category of fix as the sconf/LABEL/NOTE ones.
+        tpl = tpl.replace(
+            "${l.status==='open' ? 'Open now, closes ' : 'Closes '}${fmtDate(l.next_close)}.",
             "''",
         )
     return tpl
