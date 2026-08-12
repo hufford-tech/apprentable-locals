@@ -1,0 +1,4 @@
+local_union_id,lu_number,charter_city,population_current_served_inside,status_before,status_after,confidence_before,confidence_after,next_open_before,next_open_after,which_task_caused_it,evidence_quote,source_url
+341,613,Atlanta,7903227,open,expired_data,medium,medium,,,task1_dated_window_beats_prose,Apprenticeship Program Applications Now OPEN!,https://6601etc.wordpress.com/
+99,130,New Orleans,1233922,unknown,closed,low,medium,,2027-01-01,task3_lu130_promotion,APPLICATIONS FOR THE 2026-2027 SCHOOL YEAR ARE NOW CLOSED.,https://ibewlu130.com/apprenticeship/
+305,538,Danville,113209,open,expired_data,medium,medium,,,task1_dated_window_beats_prose,The JATC will be taking applications on the following days in 2026,https://ibew538.org/apprenticeship-cet/

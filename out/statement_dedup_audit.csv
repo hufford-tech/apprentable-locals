@@ -1,0 +1,6 @@
+local_union_id,lu_number,normalised_text,duplicate_count,statement_types,kept_asserts,affected_status
+66,81,applications are accepted year round,2,rolling,rolling,False
+317,567,applications for ibew 567 apprenticeship are closed they will reopen november 2nd 2026,2,closed|reopening,closed,False
+284,494,if you meet the minimum qualifications you may apply by following this link click here,4,open,none,False
+165,269,applications for the 2026 apprenticeship class are now closed,2,closed,closed,False
+279,481,the electrical training institute of indianapolis also known as the indianapolis electrical jatc is currently accepting applications for those applicants interested in being considered for the next apprenticeship class,2,open,open,False
