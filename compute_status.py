@@ -319,7 +319,9 @@ def _resolve_recurring_windows(windows, today):
     Returns dict: resolved (bool -- was there >=1 eligible window at all),
     open_now (bool), next_open_date (date or None), inferred (bool -- did the
     deciding cycle need day-of-month inference), source_window (the window
-    dict that produced the answer, or None).
+    dict that produced the answer, or None), current_close_date (date or
+    None -- when open_now is True, the computed end of the cycle that is
+    currently open; feeds next_close_date, round 8 task 4).
     """
     eligible = []
     for w in windows:
@@ -336,7 +338,7 @@ def _resolve_recurring_windows(windows, today):
 
     if not eligible:
         return {"resolved": False, "open_now": False, "next_open_date": None,
-                "inferred": False, "source_window": None}
+                "inferred": False, "source_window": None, "current_close_date": None}
 
     # 1. today inside any resolved window wins
     for w in eligible:
@@ -344,7 +346,7 @@ def _resolve_recurring_windows(windows, today):
         for od, cd in cycles:
             if od <= today <= cd:
                 return {"resolved": True, "open_now": True, "next_open_date": None,
-                        "inferred": inferred, "source_window": w}
+                        "inferred": inferred, "source_window": w, "current_close_date": cd}
 
     # 2. nothing open now -- earliest future occurrence across all eligible windows
     best_next = None
@@ -359,7 +361,7 @@ def _resolve_recurring_windows(windows, today):
                 best_window = w
 
     return {"resolved": True, "open_now": False, "next_open_date": best_next,
-            "inferred": best_inferred, "source_window": best_window}
+            "inferred": best_inferred, "source_window": best_window, "current_close_date": None}
 
 
 def _cap_confidence(confidence, days_since_evidence, days_until_next_event=None):
@@ -831,13 +833,26 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
 
     def result(status, confidence, intake_pattern="", next_open_date=None,
                window_precision_note="", inferred_window_status=False,
-               bounded_window_current=False):
+               bounded_window_current=False, close_date_override=None):
+        # Round 8, task 4: when the OPEN determination itself is the basis --
+        # a resolved recurring window's current cycle, or a bounded absolute
+        # window's own close_date -- that window's end is exactly as much a
+        # next_close_date as a closed/open statement's stated deadline
+        # (future_closed_dates/future_open_bound_dates above). Only passed by
+        # the specific call sites that just made that determination, never
+        # applied blanket, so it can't leak a close date from a recurring
+        # window that happens to be open right now into an unrelated result
+        # (e.g. 'conflicting') that didn't rely on it.
+        effective_close_date = next_close_date
+        if close_date_override is not None:
+            effective_close_date = (min(effective_close_date, close_date_override)
+                                     if effective_close_date else close_date_override)
         return {
             "computed_status": status,
             "status_confidence": confidence,
             "intake_pattern": intake_pattern,
             "next_open_date": next_open_date.isoformat() if next_open_date else "",
-            "next_close_date": next_close_date.isoformat() if next_close_date else "",
+            "next_close_date": effective_close_date.isoformat() if effective_close_date else "",
             "window_precision_note": window_precision_note,
             "inferred_window_status": inferred_window_status,
             "bounded_window_current": bounded_window_current,
@@ -924,7 +939,9 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
                 # round 5, task 3 (LU 400/701): bounded window with an
                 # explicit future close_date is self-evidently current --
                 # tell the caller not to cap confidence off open_date age.
-                return result("open", "high", bounded_window_current=True)
+                # round 8, task 4: that same close_date is next_close_date.
+                return result("open", "high", bounded_window_current=True,
+                               close_date_override=cd)
             continue
         age = (today - od).days
         if age <= 60:
@@ -1030,8 +1047,11 @@ def _determine_status(today, dated_windows, recurring_windows, rolling_statement
     if recur["resolved"]:
         note = "month_boundary_inferred" if recur["inferred"] else ""
         if recur["open_now"]:
+            # round 8, task 4: the resolved cycle's own end is next_close_date
+            # (LU 613 Atlanta: recurring Aug 1-31 -> 2026-08-31).
             return result("open", "medium", next_open_date=None,
-                           window_precision_note=note, inferred_window_status=True)
+                           window_precision_note=note, inferred_window_status=True,
+                           close_date_override=recur["current_close_date"])
         else:
             return result("closed_pending", "medium", next_open_date=recur["next_open_date"],
                            window_precision_note=note, inferred_window_status=True)
@@ -2064,6 +2084,9 @@ class TestRound5AdmissibilityGate(unittest.TestCase):
         result = compute_status(record, today=self.TODAY)
         self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "high")
+        # Round 8, task 4: a bounded absolute window's own close_date is
+        # next_close_date too, same treatment as the recurring-window case.
+        self.assertEqual(result["next_close_date"], "2026-12-31")
 
     def test_lu701_dupage_bounded_window_future_close_stays_high(self):
         record = self._record([self._open_stmt(
@@ -2079,6 +2102,7 @@ class TestRound5AdmissibilityGate(unittest.TestCase):
         result = compute_status(record, today=self.TODAY)
         self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "high")
+        self.assertEqual(result["next_close_date"], "2026-09-30")
 
     def test_lu466_charleston_reopen_date_is_next_open_not_next_close(self):
         record = self._record([{
@@ -2276,6 +2300,10 @@ class TestRound6DatedWindowsAndGating(unittest.TestCase):
         self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "medium")
         self.assertTrue(result["inferred_window_status"])
+        # Round 8, task 4: the recurring window's own end (August 31) is
+        # exactly as much a next_close_date as a stated deadline is.
+        self.assertEqual(result["next_close_date"], "2026-08-31")
+        self.assertNotEqual(result["next_open_date"], result["next_close_date"])
 
         from statement_evidence import admit_statement
         ev = admit_statement(record["status_statements"][1], self.TODAY)
@@ -2570,6 +2598,10 @@ class TestRound7RecurringWindowsAndCloseDate(unittest.TestCase):
         self.assertEqual(result["computed_status"], "open")
         self.assertEqual(result["status_confidence"], "medium")
         self.assertTrue(result["inferred_window_status"])
+        # Round 8, task 4: the recurring window's own end (August 31) is
+        # exactly as much a next_close_date as a stated deadline is.
+        self.assertEqual(result["next_close_date"], "2026-08-31")
+        self.assertNotEqual(result["next_open_date"], result["next_close_date"])
 
         from statement_evidence import admit_statement
         ev = admit_statement(record["status_statements"][1], self.TODAY)
@@ -2773,6 +2805,66 @@ class TestRound7RecurringWindowsAndCloseDate(unittest.TestCase):
             if result["next_open_date"] and result["next_open_date"] == result["next_close_date"]:
                 collisions.append(row["lu_number"])
         self.assertEqual(collisions, [])
+
+
+class TestRound8NextCloseDateFromResolvedWindow(unittest.TestCase):
+    """Round 8, task 4: an OPEN determination driven by a resolved window
+    (recurring or bounded-absolute) must populate next_close_date from that
+    window's own end, not leave it empty. LU 613 Atlanta is the named
+    fixture -- see PROMPT_claude_parallel_round1.md task 4."""
+    TODAY = datetime.date(2026, 8, 12)
+
+    def test_lu613_atlanta_next_close_date_from_recurring_window(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "2026-02-01", "close_date": "2026-03-31"},
+                {"precision": "recurring", "open_month": 8, "open_day": 1,
+                 "close_month": 8, "close_day": 31, "is_recurring_annual": False,
+                 "relative_description": "August 1st - August 31st",
+                 "evidence_quote": "Apprenticeship Program Applications Now OPEN! August 1st - August 31st",
+                 "source_url": "https://6601etc.wordpress.com/"},
+            ],
+            "status_statements": [
+                {"verbatim_text": "Apprenticeship Program Applications Now OPEN!",
+                 "statement_type": "open", "stated_effective_date": None,
+                 "source_url": "https://6601etc.wordpress.com/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "open")
+        self.assertEqual(result["next_close_date"], "2026-08-31")
+        self.assertEqual(result["next_open_date"], "")
+
+    def test_lu567_portland_still_no_next_close_date(self):
+        # Guard named in the round 8 prompt: LU 567 must keep next_close_date
+        # empty -- its window has no close_date at all (open-ended reopen).
+        text = "Applications for IBEW 567 Apprenticeship are closed they will reopen November 2nd, 2026."
+        record = {
+            "windows": [{"precision": "absolute", "open_date": "2026-11-02", "close_date": ""}],
+            "status_statements": [
+                {"verbatim_text": text, "statement_type": "closed", "stated_effective_date": None,
+                 "source_url": "https://www.ibew567.com/apprenticeship/"},
+                {"verbatim_text": text, "statement_type": "reopening", "stated_effective_date": "2026-11-02",
+                 "source_url": "https://www.ibew567.com/apprenticeship/advantages-of-joining/"},
+            ],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["next_close_date"], "")
+
+    def test_no_open_close_collision_still_holds(self):
+        record = {
+            "windows": [{"precision": "recurring", "open_month": 8, "open_day": 1,
+                          "close_month": 8, "close_day": 12, "is_recurring_annual": True,
+                          "relative_description": "August",
+                          "evidence_quote": "Open August 1-12",
+                          "source_url": "https://example.org/"}],
+            "status_statements": [],
+            "page_last_updated": None,
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertNotEqual(result["next_open_date"], result["next_close_date"])
 
 
 if __name__ == "__main__":
