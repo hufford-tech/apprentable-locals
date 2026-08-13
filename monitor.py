@@ -92,6 +92,7 @@ def fetch_with_retry(url):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None, help="only process the first N distinct URLs")
+    ap.add_argument("--resume", action="store_true", help="resume an interrupted run using the latest last_checked marker")
     ap.add_argument("--dry-run", action="store_true", help="build the URL list and print counts, make no HTTP requests")
     args = ap.parse_args()
 
@@ -111,6 +112,18 @@ def main():
     if os.path.exists(STATE_PATH):
         with open(STATE_PATH, encoding="utf-8") as f:
             state = json.load(f)
+
+    resume_cutoff = None
+    if args.resume and state:
+        checked = [r.get("last_checked") for r in state.values() if r.get("last_checked")]
+        resume_cutoff = max(checked) if checked else None
+        if resume_cutoff:
+            distinct_urls = [
+                url for url in distinct_urls
+                if not all(state.get(local_id, {}).get("last_checked") == resume_cutoff
+                           for local_id in url_to_locals[url])
+            ]
+            print(f"--resume: skipping URL groups completed at {resume_cutoff}; remaining {len(distinct_urls)}")
 
     changes = []
     failures = []
@@ -147,20 +160,23 @@ def main():
         if i < len(urls_to_process) - 1:
             time.sleep(SLEEP_BETWEEN)
 
-    if changes:
+    # Always materialize the audit files.  A clean sweep is still evidence and
+    # should not be confused with a monitor that never ran.
+    change_header = ["local_union_id", "url", "old_hash", "new_hash", "detected_at"]
+    failure_header = ["local_union_id", "url", "consecutive_failures", "last_error", "detected_at"]
+    if changes or not os.path.exists(CHANGES_PATH):
         write_header = not os.path.exists(CHANGES_PATH)
         with open(CHANGES_PATH, "a", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
             if write_header:
-                w.writerow(["local_union_id", "url", "old_hash", "new_hash", "detected_at"])
+                w.writerow(change_header)
             w.writerows(changes)
-
-    if failures:
+    if failures or not os.path.exists(FAILURES_PATH):
         write_header = not os.path.exists(FAILURES_PATH)
         with open(FAILURES_PATH, "a", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
             if write_header:
-                w.writerow(["local_union_id", "url", "consecutive_failures", "last_error", "detected_at"])
+                w.writerow(failure_header)
             w.writerows(failures)
 
     print(f"Done. Changes detected: {len(changes)}  Failures logged (>={FAILURE_THRESHOLD} consecutive): {len(failures)}")

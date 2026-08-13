@@ -1,0 +1,3 @@
+Distinct application_url values (non-empty): 215
+Processing 215 URL(s) this run (all)
+Done. Changes detected: 99  Failures logged (>=3 consecutive): 2
