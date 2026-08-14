@@ -1,1754 +1,2411 @@
 {
   "122": {
     "url": "https://springfieldjatc193.org/apply-now.html",
-    "last_hash": "4d4be6fbc91b6460de619e48720b7c86f5ac9fc8f58f9e53c740eb0caff3fc08",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a6f61c97cefad7d1e7f8acd48374b37000dfefbdd623a33fcdf813ce3a45f7c5",
+    "last_checked": "2026-08-14T17:07:08Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "4d4be6fbc91b6460de619e48720b7c86f5ac9fc8f58f9e53c740eb0caff3fc08",
+    "pending_hash": null,
+    "pending_since": null
   },
   "579": {
     "url": "http://hamptonroadsjatc.com/?zone=/unionactive/view_page.cfm&page=Applications",
-    "last_hash": "d669605fbb3e0ea8a3196223f4298a0c2921d66d948261b691f42e93b3ed73ac",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "65e2b660c270c104f8d5f0cda3cd0d3306cea3e8b506611a58a9ce2ddbee7dff",
+    "last_checked": "2026-08-14T17:07:08Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2b7319e949017711aeca8709fca46281ef038778dbee0b898f7d171f52296902",
+    "pending_hash": null,
+    "pending_since": null
   },
   "375": {
     "url": "https://secure.tradeschoolinc.com/v5/electricaltrades-org/login/index.php",
-    "last_hash": "de3549433e83d24e2a3c5838875597ab2a742c9f9614f9a187ff956631045d19",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "3dce8f06cc5506be3e3da053f3d7e5b0fc21d38c639a7a008ab7e0f96e992b26",
+    "last_checked": "2026-08-14T17:07:08Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "de3549433e83d24e2a3c5838875597ab2a742c9f9614f9a187ff956631045d19",
+    "pending_hash": null,
+    "pending_since": null
   },
   "25": {
     "url": "https://www.lijatc.org/request-information/",
-    "last_hash": "d2bd554fe4362299fcb4ce5c385d12d95d669f817fa0824cc71cfaf8eb909e8c",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "2141191e17a3d1f83da58c8d1ce6511710c134df3c8391858006d0a338774eee",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7ecd5e5f5ac50175459308ceb0c1a943f4d17e1675f94842b71db96084b7dd06",
+    "pending_hash": null,
+    "pending_since": null
   },
   "108": {
     "url": "https://lakecountyjatc.org/howtoapply/",
-    "last_hash": "01544ce387633a289026d88c9e22a2122dd3cfbbea565709fc3e2c03b3a25292",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "92af0d6671c77faa3f29736ea97b7826febf8c41f3f5de0401537da3d32dbd79",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "cafcf4c6097800485fa38fe5c6e5928d88fa42f168a15aa9365f32b8acfe5ea3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "370": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew673-org/login/index.php",
-    "last_hash": "d396766ddeb710e71d73768d6ad7d5707f9e9e4a0bbfe6ec621e8a4138daa8a4",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "624eb7804604bb1e442d06977a4f0666b800effe1707b3b9efbb84b68299f8d7",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d396766ddeb710e71d73768d6ad7d5707f9e9e4a0bbfe6ec621e8a4138daa8a4",
+    "pending_hash": null,
+    "pending_since": null
   },
   "369": {
     "url": "https://www.lejatc.com/online-application",
-    "last_hash": "a4a5dd82f0f72e4341aa1d127f0b677b621a7f68fec89330c37eb85ad4037cf9",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "27cc3a9ced8226da104013a06054c485b92522b364bfe2a1e940127623c765b7",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a4a5dd82f0f72e4341aa1d127f0b677b621a7f68fec89330c37eb85ad4037cf9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "111": {
     "url": "https://www.ibew158.com/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
-    "last_hash": "cf367c5ffe597808641ae88829415a08be8326fd71db582a75166a143d5a4ad0",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "f21243fb525a879c0de39473bd4736ad286f3a76eafa2cb74f4a3186e2211436",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "cf367c5ffe597808641ae88829415a08be8326fd71db582a75166a143d5a4ad0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "452": {
     "url": "https://secure.tradeschoolinc.com/v5/lcjatc-org/login/index.php",
-    "last_hash": "28bf9ba4e231c8dc9fa61e907da6899e87a5a3f7d071adf0e6377c2d759f9470",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "061e0a5a924f4b1a79fbb0e3794c9b09566c6d678fab472602665a18c70e5271",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "28bf9ba4e231c8dc9fa61e907da6899e87a5a3f7d071adf0e6377c2d759f9470",
+    "pending_hash": null,
+    "pending_since": null
   },
   "142": {
     "url": "https://www.ibew229.org/content/ibew-local-229-application",
-    "last_hash": "c82aef3bf6db4b9e63b865e7331f0c875dc1f6b0751a71a122e1b92313cf1f8b",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a4f79194efe85d1edbbdfc20188aa1015700e94b3d365d6219bec6944ab4496d",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "af667a934b6c1fdfb4a94314b160d9406fcc6bd11b160294853a22e7ffa94e51",
+    "pending_hash": null,
+    "pending_since": null
   },
   "418": {
     "url": "https://secure.tradeschoolinc.com/v5/mtelectricaljatc-org/login/index.php",
-    "last_hash": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "262f9ea5c3ee51eb451730e7f5936b889b07b0b38e9c8e1744697fe612f62b5a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "145": {
     "url": "https://secure.tradeschoolinc.com/v5/mtelectricaljatc-org/login/index.php",
-    "last_hash": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "262f9ea5c3ee51eb451730e7f5936b889b07b0b38e9c8e1744697fe612f62b5a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "303": {
     "url": "https://secure.tradeschoolinc.com/v5/mtelectricaljatc-org/login/index.php",
-    "last_hash": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "262f9ea5c3ee51eb451730e7f5936b889b07b0b38e9c8e1744697fe612f62b5a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9e84154af92160b7a9c2ef137640f6ea34b515f52e1062b2cb7f044f2c9fc00f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "323": {
     "url": "https://secure.tradeschoolinc.com/v4/electricaltrainingacademy-org/login/index.php",
-    "last_hash": "2e3fa610cbee0e2f72e08e5a42e846f27a4e8db88769b722ef1a38700f28d6b1",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "5320e466d85b0e5f97ae15f68cc29236ebb3c807d9214ca59894dac0915fd368",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2e3fa610cbee0e2f72e08e5a42e846f27a4e8db88769b722ef1a38700f28d6b1",
+    "pending_hash": null,
+    "pending_since": null
   },
   "170": {
     "url": "https://www.ccjatc.net/",
-    "last_hash": "99d650820fe2db3897aebca1bde7082c0c70eb9e2e99ef42da4f6ec825844280",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "32a462cdfafabc73d85632aa448e0dbc19a3bd8fb36ded3620611d5dc78b7da2",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "3796f662b1196a2203a3c9d6bbb4a12bc4dff28197c8903117aa38b074658df1",
+    "pending_hash": null,
+    "pending_since": null
   },
   "314": {
     "url": "https://www.fsejatc.com/?zone=/unionactive/view_page.cfm&page=Become20an20Apprentice",
-    "last_hash": "160d1c6067c2e43f8b1e55a48345255cf959ee56a495a7c60350c7b4c7dfc377",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a73bcd1c5fa97b78622588d85a6b67615e4e46438535ba6ea6968eb5d6fe6ed2",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "160d1c6067c2e43f8b1e55a48345255cf959ee56a495a7c60350c7b4c7dfc377",
+    "pending_hash": null,
+    "pending_since": null
   },
   "479": {
     "url": "https://www.fsejatc.com/?zone=/unionactive/view_page.cfm&page=Become20an20Apprentice",
-    "last_hash": "160d1c6067c2e43f8b1e55a48345255cf959ee56a495a7c60350c7b4c7dfc377",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a73bcd1c5fa97b78622588d85a6b67615e4e46438535ba6ea6968eb5d6fe6ed2",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "160d1c6067c2e43f8b1e55a48345255cf959ee56a495a7c60350c7b4c7dfc377",
+    "pending_hash": null,
+    "pending_since": null
   },
   "91": {
     "url": "https://ibew117.com/apprenticeship/",
-    "last_hash": "328bbff51d653c6a3b8478dd66c1e09186caaac08a7f719f49080683aab0e769",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "70791df88c7901a4ae4648da4fe97c7996c620714915f6e1d4b4dbb5daf386c7",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "6ece0c24c2cbd38422e1d13bc543744fa15874a9139e587ea24ebe83eea3fc73",
+    "pending_hash": null,
+    "pending_since": null
   },
   "354": {
     "url": "https://www.pejatc.org/",
-    "last_hash": "2b2ebcb7b765812f5860212d518eba5337f5141660569bf10ae2c2fea2176670",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "3ba8bd334e72f7cba8d11db77f515bf5f1cc6378ce20b6db35e17563a981e306",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8d18840612e27846806bb5d8de6e0373ea9bbadbaf83ce92b95b6715bda5a4dd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "139": {
     "url": "https://www.ibew223.org/apprentices/",
-    "last_hash": "1a69ff2a8cc87d7cdf2367e198e9d7509b913684e8f4aee52a4132625c8c0b88",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "cb26180697700e09860b3d02ede3e0754e594d61193c58754577251d72631799",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ea01c5f06d3b1ff91336f5f59e43f67d245f33ed84a8eaeb7d1b3b5955056049",
+    "pending_hash": null,
+    "pending_since": null
   },
   "242": {
     "url": "http://www.ibew413.org/index.cfm?zone=/unionactive/view_page.cfm&page=SBJATC20Getting20Started",
-    "last_hash": "72b885fbe27425935ad2848b3c5f11351f23204d814e79df1e2326549b9c669b",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "80b500fcd3005f7f716589ea7dec8f880a0c19ac21b7430ad37c67091990aa30",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ad4d6e1e799d6aa37d3465e25d73a475c7e23a9c7c896eb5c10c8bd27aff29fb",
+    "pending_hash": null,
+    "pending_since": null
   },
   "237": {
     "url": "https://secure.tradeschoolinc.com/v5/401jatc-org/login/index.php",
-    "last_hash": "5a03508cbb5bbd588c777e31ce8d61d0c4435e7599e903eeb8a30dbde38f5311",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "dd5cacc466cd68e2a5a9e99c140d8459413103f3ffb30e01680083d22d8f16f0",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5a03508cbb5bbd588c777e31ce8d61d0c4435e7599e903eeb8a30dbde38f5311",
+    "pending_hash": null,
+    "pending_since": null
   },
   "260": {
     "url": "https://www.bcejatc.com/apply",
-    "last_hash": "a880932823241c0769926757c5a3ccf2ee4f5d4d3ea0f5511d00e7c935aae333",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "6e774b6b5f435399bbb8113eb7b59b5cb87606e82b44e4dfd30ff5914f5e1c96",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "70f371952136be40827ea1d2bb7b1edfca45014acb27f858ef18460a555fdb7b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "112": {
     "url": "https://tinyurl.com/159NEWapplicant",
-    "last_hash": "4e3bead4a00e9c9a8bfd64de04275957efef9d8667cd0e8353db25d89bf2f046",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "c2d32baa1bdb7fe4071dc048862f2efcd4098ecb2a6bed54ce512e9c00b8c816",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "691f1ec356dab3229236dd29222bb75dff8d5481a06152e18e4bebc036bec9bd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "13": {
     "url": "https://secure.tradeschoolinc.com/v5/seiajatc-org/login/index.php",
-    "last_hash": "ca3c35ade9a474ee77b8b70e7d45afe79351b79caaf503e5b44efd9068816bec",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "13ea91b5fefc9640b3b1efe4abeb6ca1504c1cae917f389d71d02a85a79598fb",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ca3c35ade9a474ee77b8b70e7d45afe79351b79caaf503e5b44efd9068816bec",
+    "pending_hash": null,
+    "pending_since": null
   },
   "74": {
     "url": "https://ibewlocal96.org/training-education/apprenticeship-opportunities/",
-    "last_hash": "9adc91b0d41bd7b35d48601d0e1d2944f456de5cd57d6fb5ac402a925c1cffb9",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "2f1d26d5a09aa2dfcae562e7095cbe7fbe47856b053e43e0ae39a36606cf7572",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9adc91b0d41bd7b35d48601d0e1d2944f456de5cd57d6fb5ac402a925c1cffb9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "36": {
     "url": "https://cejatc.org/",
-    "last_hash": "0cec8f16dc3d873d81a8265e11d6204f9169c0f93973475263f1989b654edea3",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "01e050fa60408db8d52891bfbb662c742a02921d88a59e5cc8e2db441487b3b8",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0cec8f16dc3d873d81a8265e11d6204f9169c0f93973475263f1989b654edea3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "88": {
     "url": "https://www.jatc112.org/?zone=/unionactive/view_page.cfm&page=Applicants",
-    "last_hash": "c2ba802ac7acea772f77d17f73aa767836ab622a5c1f48b933be1df69d551f69",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "57489020633ce7b74945be1cb683f3985db271a192c42de93f10a33086fbaa6c",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c2ba802ac7acea772f77d17f73aa767836ab622a5c1f48b933be1df69d551f69",
+    "pending_hash": null,
+    "pending_since": null
   },
   "26": {
     "url": "https://www.jatc26.org/applications/",
-    "last_hash": "5a821a4fc7bcb846ee176da6b74c1b4cb038d14ed45b41e624631ffa19bbf520",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "e10345cdbb1881402e2b1fda5bfc8c995192815323613469719a513d3dd6a2b0",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "cf646ac15465489c3515570a7c6988508f43d83854237966db2337dc208cfb4a",
+    "pending_hash": null,
+    "pending_since": null
   },
   "98": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew129-org/login/index.php",
-    "last_hash": "ab72d4776288f01872f1cbcba1e1cddcb87be7ada28b097041e636b7ebe6156e",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "bfe5f074a92bf85973cbe60b1c344c4d8518c0d2b28355fa038dd54befdd086a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ab72d4776288f01872f1cbcba1e1cddcb87be7ada28b097041e636b7ebe6156e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "148": {
     "url": "https://www.ibew237.com/application-process",
-    "last_hash": "6e16de9d51ccc480b9851cdad59a38a33bf51670d51d7fde807a4dd860d63eb7",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9674f4c841e0d1715d72a998421084457d76ae38bd7a47ddb8737ad9408fcb5e",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9d7ab2f8f0f97bbb19be7c1485abb55d92e5db2a2018dcbf9f775af72b5fc932",
+    "pending_hash": null,
+    "pending_since": null
   },
   "66": {
     "url": "https://ibew81.org/sites/ibew81.org/files/JATC%20Application.pdf",
-    "last_hash": "9ae3bf576a994d1d60a379290ad76e362e1222a2f30cb3559ef314036945f604",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "9f0a793e12c55d18dcdfe1a504620a0f9735de369aa50138b2fdb92000f5a1db",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9ae3bf576a994d1d60a379290ad76e362e1222a2f30cb3559ef314036945f604",
+    "pending_hash": null,
+    "pending_since": null
   },
   "473": {
     "url": "https://www.ibew917.net/apprenticeship/",
-    "last_hash": "9325316ea6522d7be04ce4f147a35d6e482f7f91cb63e2b8670029d00edff75b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "472fcf18ca42c1c5999f4735504d048f990bdd5c0096a3255cb4b264154db411",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9325316ea6522d7be04ce4f147a35d6e482f7f91cb63e2b8670029d00edff75b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "481": {
     "url": "http://www.electricalcareersvc.com/",
-    "last_hash": "725b320f17d3e95ab1cf64dccfeae7c8c9b238260ab4aeac11ca1c9cc332ffb5",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "82b91d1b3acbd12e3c470bac65b5da594a8d1ca3b3b540dd9a35b62154d16b2d",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e7302055c883314f31ac04f8943f133ccdd36ae27ac094ed30184de5a2f0d33d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "54": {
     "url": "https://www.sotxjatc.org/application.html",
-    "last_hash": "50b130ea8ef2521f6ec6f16cde602b778dbe337c4c6cdc7136c0876a65ca7e78",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "101dcd7ef028a389a3619392a4a16fef5694139a0fac818b2494d744eb1cc90a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "50b130ea8ef2521f6ec6f16cde602b778dbe337c4c6cdc7136c0876a65ca7e78",
+    "pending_hash": null,
+    "pending_since": null
   },
   "283": {
     "url": "https://secure2.tradeschoolinc.com/v5/ibew490-org/login/index.php",
-    "last_hash": "d89c3fd55f2a8dbe69f9f0a559857414d76f0d3e9c5414a910558dd00b4d870f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "bd4177655c757b227300021197540c39b910857b9953d1cb403694e0aa9945ec",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d89c3fd55f2a8dbe69f9f0a559857414d76f0d3e9c5414a910558dd00b4d870f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "276": {
     "url": "https://applications.ieetc.org/App.aspx",
-    "last_hash": "efa2a35bfbc1332e38f990ce6f5cc724ea40d07b163a7ee5b1a525e5884178af",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "7a5bc784d9cbacb08b81b363a87d29bc8f521afd1d2854d7da749eb996b989bd",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "fe9977563639b384393ce2ced542b2f397bb35137c526d57b51a1620ca0432ab",
+    "pending_hash": null,
+    "pending_since": null
   },
   "357": {
     "url": "https://www.ibew648.org/index.cfm?zone=/unionactive/form_page.cfm&formID=70720",
-    "last_hash": "b2e82d832976c53fd135a222b9d09abed476a86a061380fccdca7c7f18fc35cf",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "62e4a0ec713e3d59948b6d5deff678623054def457386f3cef454c347f4e5d85",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b6ef0d5f81730e1427cdb4734976769ad9b56214dc299e4e93822e6aad980e2b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "215": {
     "url": "https://apply.appion.network/Start/ejatcsn",
-    "last_hash": "703d0ea12d9455e63f6c114d5297feefbe4222dfb3314a99107d46d9ca6b8ea8",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "de7f778532c3e3adc00a9b6a42f2b017cd20e8a66749a771063ee1673d5e3435",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "04cedec316aca83bb1061ec07837e3d7820e474b4f31a60543087b7253005eb1",
+    "pending_hash": null,
+    "pending_since": null
   },
   "383": {
     "url": "https://secure2.tradeschoolinc.com/v5/dupagejatc-org/login/index.php",
-    "last_hash": "677c5edf6007b199317263d488a6fbdebe77d29a97c92e94a139a08d11d3ecfa",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "6566aa1508cc7d844c40cc190ea75d65723e2c79137160ee6bc1c44a7d8f0c5d",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "677c5edf6007b199317263d488a6fbdebe77d29a97c92e94a139a08d11d3ecfa",
+    "pending_hash": null,
+    "pending_since": null
   },
   "302": {
     "url": "https://www.ibewlocal531.org/Apprenticeship%20Application%202025.pdf",
-    "last_hash": "7a0f77c3b6f9920b118da242675423a13275b5336ab9984441bb2729941cca99",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "09d05a8e5447eaa8d310fb42ba2030a5ccf06b87003c529110bc0e3c440e3446",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7a0f77c3b6f9920b118da242675423a13275b5336ab9984441bb2729941cca99",
+    "pending_hash": null,
+    "pending_since": null
   },
   "367": {
     "url": "https://secure.tradeschoolinc.com/v5/rjatc-org/login/index.php",
-    "last_hash": "083bde7f140cd6d9b5012f5c076a00ec906901d8aefd536234502ce1851c526f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "07d037466bf6434a74b32273f65c6d415eb6a16e171820058b3d81ff57548041",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "083bde7f140cd6d9b5012f5c076a00ec906901d8aefd536234502ce1851c526f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "55": {
     "url": "http://www.yjatc.org/Apply/Default.aspx",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 5,
-    "last_http_status": 404
+    "consecutive_failures": 1,
+    "last_http_status": 404,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "223": {
     "url": "https://www.loujatc.com/application-information/",
-    "last_hash": "92e0c86ff91a6547a30767daf4152a3cb65de43087468c7e9870dc1ed9086627",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "f5521d8da558641d3d051f2cd1580d38e3ce1a354dfbe83880aae1a1afa2b653",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b161dd378158fa986f8c6afa76b51c537ac8787ea5a4c584db7f6fe41a8cabda",
+    "pending_hash": null,
+    "pending_since": null
   },
   "250": {
     "url": "https://kerncountyjatc.com/apply/",
-    "last_hash": "a9c30e7fcb549881c9b380b3011eb646f731924b03acf3b66784b091212bf9a0",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "ef3a5894afa64133686498be734cbdd3bacf0efa4ce53b94c8f6976644b95035",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a3674e423071b3aa738b03045be2a0d59d87440f8e5b035e9bcc3965c87f1a0d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "440": {
     "url": "https://padjatc.org/",
-    "last_hash": "84743f7c03b251598e02a3c694d3a50847550a3539ca2f3c4a8f384eba98e273",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9992a44240133d631eb692aeb09daa1ddbd6978c147ee3f8905f18c9e45fbec1",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8887d83e926ca853e0acde51842b54cc7dcc2f47fe3a5dfcb8b22c0fc27a1980",
+    "pending_hash": null,
+    "pending_since": null
   },
   "277": {
     "url": "https://electricaltrainingsetx.org/apprentice-program/",
-    "last_hash": "d09057397930db7b491d52fe02f6a94e3265939b3e1acaff10124b321d779470",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "c5893b3026a0e69d627a92906270abe8086d8aabcf73c2384b32b01610034e70",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1d01cecbf7e966ad21492a543d381a92a69ecc6bf95d5f54b582645241e04143",
+    "pending_hash": null,
+    "pending_since": null
   },
   "275": {
     "url": "https://secure.tradeschoolinc.com/v5/memphiselectricaljatc-org/login/index.php",
-    "last_hash": "5a812e677c2a2e4dc4153abed4fe3c0853f85b78f63ce5638fa1d8993f7bbfe2",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "182df5f240f74a0fd281f0c778d0ce68c15b4444c0458f664e87d361002db75f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5a812e677c2a2e4dc4153abed4fe3c0853f85b78f63ce5638fa1d8993f7bbfe2",
+    "pending_hash": null,
+    "pending_since": null
   },
   "297": {
     "url": "https://secure2.tradeschoolinc.com/v5/austineta-org/login/index.php",
-    "last_hash": "8e3e7eac1aa33246c60362789f6dbc98940aebd1eae9d5172119a83c00670b3c",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "84c5b034fa50374572089f46a9e34e5e1caa5f201b7b3d87828c4e3144e49177",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8e3e7eac1aa33246c60362789f6dbc98940aebd1eae9d5172119a83c00670b3c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "11": {
     "url": "https://www.laett.com/?zone=/unionactive/view_page.cfm&page=test",
-    "last_hash": "d9987e194a385c1f60a8950dcbe03bab64be57fe10a9f80b1d527b566ca43ab8",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "d926872264e198842217b8a6572d1f6ae61d8939f89414664df59a2a3daad83d",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d9987e194a385c1f60a8950dcbe03bab64be57fe10a9f80b1d527b566ca43ab8",
+    "pending_hash": null,
+    "pending_since": null
   },
   "553": {
     "url": "https://www.ibew1205.org/Application%20with%20Disclosure.pdf",
-    "last_hash": "9a0cdb765239c5c32f6d20d912d5a52a20dbe8615fc3bd3707b11b936e2d4aee",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "d73f2fbf696962daa0173e85c3972fc6bfc35cd636d7b77ba065415e64660626",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9a0cdb765239c5c32f6d20d912d5a52a20dbe8615fc3bd3707b11b936e2d4aee",
+    "pending_hash": null,
+    "pending_since": null
   },
   "144": {
     "url": "https://scjatc.org/how-to-apply/",
-    "last_hash": "2e2bdf8b953ab96efba881bf36046aeb1786c8ecc51df5c15685a1f5b10b9c15",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0a9478a32c761a0d2a05453c77d2c7f412081da77dd814f962dd617f99ea4525",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "081e8df1764ae502ecd29168c82c351a3a211bf2532bf64f72d6b79deb11dcce",
+    "pending_hash": null,
+    "pending_since": null
   },
   "65": {
     "url": "https://www.tidewaterjatc80.com/applicants",
-    "last_hash": "a79154ed5a8bd728cf683391dd51657a1869300588673d531ae7fe44b8579d83",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "3c9958e06112fbfd7187d30c139b729d861d66c1027d44fa64cf74d0e7b5499f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5ee3c02be882e072ffb2fe1c87404efa7d64d841787f38bf03a03758a73dcb4d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "39": {
     "url": "https://www.ibewlocal41.com/?zone=/unionactive/view_page.cfm&page=Apprentice20Information",
-    "last_hash": "f4441f36b0d50309a7100fb9831e8a866f59b0d5afee89bb5019ea97b4d7b19d",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "79ef261666b99c973a916dd47dbbe12cb9439dc7782bed6b6545202026961e5d",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f4441f36b0d50309a7100fb9831e8a866f59b0d5afee89bb5019ea97b4d7b19d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "73": {
     "url": "http://joplinjatc.com/index.cfm?zone=/unionactive/doc_page.cfm&pageID=2028",
-    "last_hash": "9b5317e10c8ee94ef5af3474d9d6f0193c4fb0bf0e988059b44d5367002f1d1c",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "14a9d5b6aa936efbb17f7b4ff26851bdf4de1e236bd75484e6d6491b49ae0ffd",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "4ac90696fbcf3c157357de666351a112fb9b7acd19682a846948384d0c832035",
+    "pending_hash": null,
+    "pending_since": null
   },
   "100": {
     "url": "https://secure2.tradeschoolinc.com/v5/kalamazoojatc-com/login/index.php",
-    "last_hash": "b0817a5fa39dcdb0563245bbad551f667da3df95089caad309280e2646ec6352",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "6ca87876d95d35ea577fce368aa8248c2fd01dbe061e6f97a5ed4ae274e9e838",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "91aecc6a5d9501eb64a7c01c9d4fe969c54d690c225bc20c153a0ab5598da3eb",
+    "pending_hash": null,
+    "pending_since": null
   },
   "121": {
     "url": "https://www.nwejatc.org/?zone=/unionactive/view_page.cfm&page=Applicant",
-    "last_hash": "28fc132cc0a4da203f842f15fe9bd250a559b139532494d8fb1010f1752499d8",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "133c49fc24747000f4469bb708d33fb1496e09bcbad1288101c6ca4d19343073",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d0e59ad58ae79b8acf81ac2d8177c02bdee0c04ec1f3053f440e7cc42ba0b346",
+    "pending_hash": null,
+    "pending_since": null
   },
   "187": {
     "url": "https://www.wmjatc.com/apply/",
-    "last_hash": "e41db726af2599be4bb96824c8fc9f281487263fe3ecc8799daf1ac2f0d8cc0a",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0b6dfc399ebc61e55b4601a59ae1327ce7ae6658eba02809430f4d9147c99020",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e41db726af2599be4bb96824c8fc9f281487263fe3ecc8799daf1ac2f0d8cc0a",
+    "pending_hash": null,
+    "pending_since": null
   },
   "67": {
     "url": "https://www.82jatc.com/?zone=/unionactive/view_page.cfm&page=Apply20Online",
-    "last_hash": "0a52a7af27272245ea8eb7ae57b93f6ffaed4205166c311b001d9eeb4f4d137c",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d502a0c27466ee22cd552b782203136d6bed524772a186cef6b79683cad406e9",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "aae124c4803be983fd6cf48ba0c04f70c27e2a7e47cecf3459333d4d535be5f0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "286": {
     "url": "https://www.ibewlocal498.com/apprenticeship-application/",
-    "last_hash": "ab52e6b697c3ae6c6990102ce7afcbdfa9766f001f935fc600b39de94dc86569",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "54e1d1d6a5517f749839c9e8f90de3e611acc5e479315821bd63ff2d5f6ec4ae",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "3db6d6dfabfb5be944d05fb39ab99b3ad37fdfb55629df4ede4cf62291ecfb1d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "261": {
     "url": "https://www.ibew446.org/our-impact",
-    "last_hash": "b00110f297c9c83013e03deb7a2e4b3a5399969fcc78980bf047ba5f1bb18317",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "02ff4a4c2a572e305347b2501dd3fd06e302facb42ce27231a235ec1a70eec15",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b00110f297c9c83013e03deb7a2e4b3a5399969fcc78980bf047ba5f1bb18317",
+    "pending_hash": null,
+    "pending_since": null
   },
   "210": {
     "url": "https://www.ibew351.org/training.aspx?zone=training&pID=7844",
-    "last_hash": "a67c93ef169d56d59322142ef0deeb1b649ccc6754118d3c81392054e33dd47f",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "33378a56a55dd2015dd3f215c43e04f7062ae52785f555c11ab65092d2a3d25f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0181d67091c1eb98666910db8cc79d4dbee553af6333de925f0c9991e489f68b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "251": {
     "url": "https://www.nejatc.org/apply",
-    "last_hash": "17814efaae2df40f39043af28ba7ce1247d1f8765324b67d4478d6f31408e852",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b8e0e1cba05062d2be040a55ea6c3e44e4dcb84e7fd595d160461d21f94c4787",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "67277c097a8cfdf88ca7ac7fc140261d6e38e2c5cee538c834f032769c38e8bd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "16": {
     "url": "https://evvjatc.org/apply-online",
-    "last_hash": "3a3e4f0a82d4253e1ae5185bb6e3fc244ffa07645b296652a09502d40fce7b4f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "87920ced86555568822fd84f01b1768eb25d0b633eee3d707d9ac728b1bf599b",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "93a091d0587898ecd11c8b0d4815011e17b94b131ec4fcefd3d2f263e445d904",
+    "pending_hash": null,
+    "pending_since": null
   },
   "565": {
     "url": "https://www.ibewlocal1250.org/?zone=/unionactive/view_page.cfm&page=APPRENTICESHIP",
-    "last_hash": "1de25ee91800031951a27e88c8f0087ec275880118cb8362b0f4c4adc6dc0a4a",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "22650884284385bcdac4aafce16c34e5882c0d1d08616ba778bcc4631e7e9ac7",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1de25ee91800031951a27e88c8f0087ec275880118cb8362b0f4c4adc6dc0a4a",
+    "pending_hash": null,
+    "pending_since": null
   },
   "472": {
     "url": "https://secure.tradeschoolinc.com/v5/tampajatc-org/login/index.php",
-    "last_hash": "0cbb1c96b0b556d782117b6a28ada71dc10c15086d082ddc31d82da3e0e4e300",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9c4ab4bd960a766fb93c5bb5e2737b3ff99aa20c6da6120f3707ab58498d553e",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b1867c1266764df5863320dbf2caa8561083a4806073260d9a47126d9d760ba2",
+    "pending_hash": null,
+    "pending_since": null
   },
   "327": {
     "url": "https://www.epjatc.com/the-application-process/",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 3,
-    "last_http_status": 403
+    "consecutive_failures": 1,
+    "last_http_status": 403,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "403": {
     "url": "https://ibew743.org/apply/",
-    "last_hash": "b8c03483cc688dfbb1ed9496e8c1e2d825310e12b22542b687ac5f4bff2051ef",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "cc56e11c667f98090a1c24c7d39eb2f82433f2b623696ea2ef6223b221422cd2",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b8c03483cc688dfbb1ed9496e8c1e2d825310e12b22542b687ac5f4bff2051ef",
+    "pending_hash": null,
+    "pending_since": null
   },
   "636": {
     "url": "https://ibew1579.org/apprenticeship-info",
-    "last_hash": "49557b24f10e3fc20a81dfd790537b330d7067b8b0b304abe2698f70dcfa80de",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "7d25711e8c3d0ff4085e6b9564e840ab361ad581620b3ffb37f3074d76f3ff6c",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "59586f6d09f03a69f9900a63ac8a1fa3cce2c3dfb3b1a1286570d1c2e925cb72",
+    "pending_hash": null,
+    "pending_since": null
   },
   "312": {
     "url": "https://apprentice.rejatc.org/",
-    "last_hash": "2be91385cc12509f156f931682cdfd74d86eb629e571772d7a12be1673ad24fa",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "18c864fca528bf25c3951603a32eb035571b53ea4cd38d281bb0e4f2756ad08f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2be91385cc12509f156f931682cdfd74d86eb629e571772d7a12be1673ad24fa",
+    "pending_hash": null,
+    "pending_since": null
   },
   "492": {
     "url": "https://www.ibew972.com/howtoapply/",
-    "last_hash": "c43f43654532257c724761ace832a544675cc8a30cc8b217ea3bc3ed03b8b3a4",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "40f2692a6890b0b7ef8f30c102d0b1e5b14185dc357141350874e4ed20fb2df5",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f29e83c69faa62154aae7534687bddb186b5a4851a0f407f10274adb63eb7246",
+    "pending_hash": null,
+    "pending_since": null
   },
   "534": {
     "url": "https://etawok.org/applications",
-    "last_hash": "46af8302806b032415b5dc3a05a7d9a73fc4fea6422858fea4125fe02c2861b5",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "70d792377ef25071a8c78e364ea66c7010423d75096d689e91a45286b4f3f04f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "eaa72ae55971c3b58ef7eb4e85b7a1adeb8cddebc6b130d151bb4e781239d4b9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "30": {
     "url": "https://secure.tradeschoolinc.com/v5/limajatc-com/login/index.php",
-    "last_hash": "dcaf1ef7dafa7dec2e5e08e2db7665edc562b709c8824b57136b27cfc9d70616",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ffe25e904fb777c50831a9579c1260f112ee9d9ad615e28ee05537a4eed2d4ae",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "dcaf1ef7dafa7dec2e5e08e2db7665edc562b709c8824b57136b27cfc9d70616",
+    "pending_hash": null,
+    "pending_since": null
   },
   "163": {
     "url": "https://www.ibew265.org/index.cfm?zone=/unionactive/view_article.cfm&HomeID=221903&page=Training",
-    "last_hash": "80bd029827066b72540f0e234532339f6e8b6c0011b6184af8cbb351415f6b45",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "f070662d7225707e30bab684f2828576203d433a5b2036b6f1d1a0ba1bfbda9b",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "80bd029827066b72540f0e234532339f6e8b6c0011b6184af8cbb351415f6b45",
+    "pending_hash": null,
+    "pending_since": null
   },
   "469": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew910-org/login/index.php",
-    "last_hash": "56b1a2e8aa8de63517a3c2f72103ede06691109b2c45491cd731b5a7dd2b9c8a",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "0cbe2d5d482a77a76b5001202a726edf0bb5f544755fd3b10c3fbc7f4b7ff6d2",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "56b1a2e8aa8de63517a3c2f72103ede06691109b2c45491cd731b5a7dd2b9c8a",
+    "pending_hash": null,
+    "pending_since": null
   },
   "596": {
     "url": "https://ats.movalleyjatc.org/movalley/app/pages/createAccount?addNew=true",
-    "last_hash": "f0fe2c7b73929b4609bcad602a9a0e64bc1ffb77fb700cb46ef567254a3c29fd",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b51f1a1c7cc93df1b7e1605becf5f74fd58efa4c34bbff52d6a74e84239ff540",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f0fe2c7b73929b4609bcad602a9a0e64bc1ffb77fb700cb46ef567254a3c29fd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "61": {
     "url": "https://www.ibewlu72.com/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
-    "last_hash": "fcd774192bb7a9a1bc26a10fb2c5da584934de1e5f67e5f72deec4a0f1db285f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "87614ca8732575162675ee84e9592dce593a6d74b3e4b32fa257d3c1536b39f4",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "fcd774192bb7a9a1bc26a10fb2c5da584934de1e5f67e5f72deec4a0f1db285f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "391": {
     "url": "https://www.houstonjatc.com/how-to-apply",
-    "last_hash": "594be70284d1ecc21706b6581aebf035270c3019383519ff81750c28e58f34a7",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d8c08a4134210dea47b3c35ab0bdb6f06667b6b7d2d7460b19d439e35663e56b",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "35ee1a04c46d812f137103aa83830970c1ca844558cdce2a3550b623fe9cee8c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "381": {
     "url": "https://secure.tradeschoolinc.com/v5/697jatc-org/login/index.php",
-    "last_hash": "2a17944784e8624c80fe8872b633a9a303c2aae2ecaa2479c6399629c8465f78",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "e92a3a7364c3ebd92ad70942c35beb601cb44ddd123433c9872aa14ff7e95fdc",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2a17944784e8624c80fe8872b633a9a303c2aae2ecaa2479c6399629c8465f78",
+    "pending_hash": null,
+    "pending_since": null
   },
   "169": {
     "url": "https://www.wmejatc.org/programs",
-    "last_hash": "64dd5198fa9dcf54b19078ff780bd1361b7a440bb023c353348a90480a840ac4",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "eac9f96962961dd20cf7fc02392f443c0a3df9418213f0c355680429d7cecf0f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5f5f47cc112d0cd66c7900d38c48471bd68b4ef562752173b1104dbaf71fea62",
+    "pending_hash": null,
+    "pending_since": null
   },
   "104": {
     "url": "https://www.ibew141.org/apprenticeshiprograms/",
-    "last_hash": "b34e0ff1c72c9c7334c86bde3262d60b273f4fce5a2d21be5cd249cb3acd9081",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b11c4dd822382c7c3d9721e7a0b49c5e7494d3810347edab9d935e5202141a2c",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b34e0ff1c72c9c7334c86bde3262d60b273f4fce5a2d21be5cd249cb3acd9081",
+    "pending_hash": null,
+    "pending_since": null
   },
   "12": {
     "url": "https://secure.tradeschoolinc.com/v5/pueblojatc-org/login/accountCreate.php",
-    "last_hash": "33f103d6506a444eecb5d0951cdd901b12e25eb0ab2c6d1ac28707b8ba876600",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "220fb865a92c4684bf5ab4750c1f0e5b5e23043a6e2665b8cf601dd7c7d20bf0",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ba1c509c4c414e61aeb4508559851517603e8bc1ec8f761d67128133d03d4ce9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "337": {
     "url": "https://secure2.tradeschoolinc.com/v5/cfelectricaljatc-org/login/index.php",
-    "last_hash": "2e9b420c0b533d2a2343054e8441df9d8c8217c3a81440bbd4f4ca2d6af0060d",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "09ae38f90ee92eb7e2dcb6493124d20db44f35b30a397f604de7739824901b62",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d3c69aa899e924177f55b5d3a75d86f31814e917c6ee7e61b9a188e44e459a72",
+    "pending_hash": null,
+    "pending_since": null
   },
   "151": {
     "url": "https://ithacajatc.com/forms/onlineApp_apprenticeship.html",
-    "last_hash": "d204d6299132a84f412b0eaa4865b894e5400a94ee53505856ca51584fe3fe89",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "da1b6fbd76b735752655eb8fb0113522f22e65bce8e453108e4bbd686cd80d8b",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d204d6299132a84f412b0eaa4865b894e5400a94ee53505856ca51584fe3fe89",
+    "pending_hash": null,
+    "pending_since": null
   },
   "133": {
     "url": "https://www.electricaltc.org/?zone=/unionactive/view_page.cfm&page=Apply20Online",
-    "last_hash": "c167db809be4498391e068b506ffbd41c266698d2a19508f0a6be065a026120a",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "98b6629def822b9111005a027605232020b957aafeb217f431c592ecbbf4c351",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "cb5a6f07d45700eaab551be1cbcd986af9b94ee0f5bcf6a3718bc946d36614f8",
+    "pending_hash": null,
+    "pending_since": null
   },
   "106": {
     "url": "https://albat.org/apprentice/",
-    "last_hash": "bd65de3dfd8caa58d602b4554932b73cb26df7063ea808e42aec9a96de5afd1d",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "4fe91214198b08bfd769f483250f35ed6987c3079a66ad9587e676c34dbdea62",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ef46e5d7037bf150a17c53727bb49de52a85b79e11622d0fd60004501ae944af",
+    "pending_hash": null,
+    "pending_since": null
   },
   "24": {
     "url": "https://apply.appion.network/Start/bejatc",
-    "last_hash": "33da48da1289c91aff5050f13c4227ec453a7fe22baf7c062280e94532c9dfc6",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "09030a72aa1eeb6d06a2170dae8410b18914ddb53b7a5b4263fb90dd3ae3a97e",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "818d5ea41ee5a21da10da66de54007e217b60988b714c46faf2b3e6aaa73addc",
+    "pending_hash": null,
+    "pending_since": null
   },
   "446": {
     "url": "https://ibew840.org/contact-us/",
-    "last_hash": "e7106114c64ea58f9bf3da149eb85111ed5f955a8203f46394a861ebba9db69b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "681dd08f48c3a4a29d1681e2d0a7a9849c6f7646a49e4755144777aabfd901af",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e7106114c64ea58f9bf3da149eb85111ed5f955a8203f46394a861ebba9db69b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "366": {
     "url": "https://www.lejatc.org/apply",
-    "last_hash": "7f38bc6c7e1b5f83b1f2c2fcb789d8018cb51dc83cb3b5ab0e36182ad993f7c1",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b3910bcb559ba9cfb1da10b94e6a700c66f555e349c0f4c62b2c57fc77b5ced2",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8fc2febb3e96cbad7c9d019edae609db5eb620ba62323887d9ae19a015ace8a3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "270": {
     "url": "https://ibew461.org/apprenticeship/",
-    "last_hash": "0aa3de0f6233efccaea7fad240c90f06418ae634c142ba59de9aedacbaa4816e",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0b78b5b057a184414e35db4a97e576908dba699350066c446d54dab9f0a277ee",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "fcd842f9819b2b9a7e698a0d931d04cf28afec1a7393d9bcddce39895b961182",
+    "pending_hash": null,
+    "pending_since": null
   },
   "51": {
     "url": "https://ibewlocal56.org/pdf/ApprenticeshipApplication20.pdf",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 2,
-    "last_http_status": 404
+    "consecutive_failures": 1,
+    "last_http_status": 404,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "460": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew873-com/login/index.php",
-    "last_hash": "035c448813454258a756daaa460b3cba77a31cb4d5c73199b2ffb81372b5973e",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "f25975366cff4d36374addd7dfe211e6d2ac12bf0a5089c137b720e1f5330825",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "035c448813454258a756daaa460b3cba77a31cb4d5c73199b2ffb81372b5973e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "282": {
     "url": "https://www.ibewlocal488.org/content/apprenticeship-opportunities",
-    "last_hash": "7cd6e6eefeac16978e82ab2fa3939a12f372e90fdc343ba91a4f97a68fa01ada",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ffd3fa4918ceb7d48468b1ba5d51fb8a5a7bb0750edc959b270b8f5084416c05",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7cd6e6eefeac16978e82ab2fa3939a12f372e90fdc343ba91a4f97a68fa01ada",
+    "pending_hash": null,
+    "pending_since": null
   },
   "413": {
     "url": "http://www.etaknox.org/",
-    "last_hash": "8ebb61aa32efcdd111d3b577e48b7bbfafdbad68718bbab33fe682814aa8bd2c",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "39155bcebbc1b0a6e5ac3fcdffcbdd4867fe35c00857bc3206294811e44dea61",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8ebb61aa32efcdd111d3b577e48b7bbfafdbad68718bbab33fe682814aa8bd2c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "201": {
     "url": "https://secure.tradeschoolinc.com/v5/ejatc332-org/login/index.php",
-    "last_hash": "d42276ae100af0eb92d94df2800ff74c5a6144bdfb4981e2ed560d52a6700c7b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a53408e30388fe56d64ba5eb16a0fd7cc62f62cebe5627df0ba37907e9a0f768",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d42276ae100af0eb92d94df2800ff74c5a6144bdfb4981e2ed560d52a6700c7b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "197": {
     "url": "https://www.wyojatc.org/?zone=/unionactive/view_page.cfm&page=APPLICANTS",
-    "last_hash": "2e8ff2341e69c1e69238446f0a255b17a8c14fa64a770d71f25effb82a00dda8",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "5de704be0adb745226c21570245f29789031ec1a85d0bb3611aaf4ac146eab6f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2e8ff2341e69c1e69238446f0a255b17a8c14fa64a770d71f25effb82a00dda8",
+    "pending_hash": null,
+    "pending_since": null
   },
   "377": {
     "url": "https://secure2.tradeschoolinc.com/v5/ibew688-org/login/index.php",
-    "last_hash": "9c4422db655e0cfb49f47efd14e3442589e9ef78b99545bf9754366ab25bffaf",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "4a8eaac43432c9b7c8afadba0a74838cdd938c7dc751f196613a100167cc8755",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9c4422db655e0cfb49f47efd14e3442589e9ef78b99545bf9754366ab25bffaf",
+    "pending_hash": null,
+    "pending_since": null
   },
   "291": {
     "url": "https://secure.tradeschoolinc.com/v5/mejatc-org/login/index.php",
-    "last_hash": "02040de903bdf8bc09eb510c9383dc77fdf9ff09e400e0ac44203072658bf1e6",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "be9ba6093a2a641373f251e7f73b3389f7d0c4abd398bc90da86fb92e30a40c3",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "02040de903bdf8bc09eb510c9383dc77fdf9ff09e400e0ac44203072658bf1e6",
+    "pending_hash": null,
+    "pending_since": null
   },
   "102": {
     "url": "https://secure2.tradeschoolinc.com/v5/bejatc-org/login/index.php",
-    "last_hash": "f6485f5f18c2b88676405dad2421cf9788187ccaa66df1b668592a8e738decef",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "d200ca12f45e416184c88328859fc1365571ee4c8b17db306fa5db6a3fec457a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f6485f5f18c2b88676405dad2421cf9788187ccaa66df1b668592a8e738decef",
+    "pending_hash": null,
+    "pending_since": null
   },
   "69": {
     "url": "http://ibewlu86.org/apprenticeship-training/",
-    "last_hash": "75714d5bfd03510724a6659fd6abe74a19c90fe47f42c4d9604fe6d1ca08eb53",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "c5bf7ebd154818d48948652f66bec4902356820675a585b1378560a9eab5103d",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2385db18c641a6784a7381ab79184b8fa7948fd32f7abdc4a38143a631324954",
+    "pending_hash": null,
+    "pending_since": null
   },
   "193": {
     "url": "https://secure.tradeschoolinc.com/v5/huntingtonjatc-org/login/index.php",
-    "last_hash": "22b7cddf2c1df73c729f5b20d2202289f5c4259a61a7550bb35f219b89744846",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b70b2fadbe245ca52400585c69c4020736bab1e2456f91a8f1fd3ed475d61c71",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "22b7cddf2c1df73c729f5b20d2202289f5c4259a61a7550bb35f219b89744846",
+    "pending_hash": null,
+    "pending_since": null
   },
   "101": {
     "url": "https://ejatt.com/about-in-tech/faqs/",
-    "last_hash": "81ff32143dc86675ac571866804d9a39d893f559df14e1d1e0a2e8f260316a7a",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a214a37135762673af0f5f5f6491b030cbd4273c0708c6758b72ec32c6dce02c",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "78efd5f39f3c3cdcc69783327ec4d2414b4eae117836730086148e42f0f5a790",
+    "pending_hash": null,
+    "pending_since": null
   },
   "152": {
     "url": "https://www.ibew242-neca.org/",
-    "last_hash": "6c76a0f627426441f6621d01d32b7dcef7443f57016a5b461e184a9ed5c28e52",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9f17e8f514658608da3d81b213a133aef4d34fd3ffc9b98e859fbcc6d615446b",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e4718d0e78dbdb95c9014b35fbd7669b38109299146dde43a6ce0ac1cd1b00d3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "225": {
     "url": "http://carolinaseti.unionactive.com/docs/cejatc_apprentice_application.pdf",
-    "last_hash": "48b6ed3c8b3acee43953a9b5604c158c15fcba1ed0e5a5342f7e6be68c466a54",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "53b6ee72fbc0d667b763f02b8440e55fa874fe36d5f1f38122c40b15f1719a06",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "48b6ed3c8b3acee43953a9b5604c158c15fcba1ed0e5a5342f7e6be68c466a54",
+    "pending_hash": null,
+    "pending_since": null
   },
   "566": {
     "url": "https://www.ibew1253.org/fall-2026-apprenticeship-deadline/",
-    "last_hash": "9a5351488ad91ab73dc84508c90464d815c1d562a34d06cb0d1ce73fb6fc82b7",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "4974a93af4834eb1d38ccddb651c550a481b3532a258b1f5efd9540ce1ea4ffe",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d3d742178460d062796e1448debf02d1a237587294a992441c5b61bd507e05bf",
+    "pending_hash": null,
+    "pending_since": null
   },
   "6": {
     "url": "https://www.sfelectricaltraining.org/index.cfm?zone=/unionactive/view_article.cfm&HomeID=647296&page=JW20Courses",
-    "last_hash": "1088324ac67c990eb3427b0e4b7d9378022b87daef4adfec7202cd6eb0b77de7",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "640802d8d182174646682914a879759d4449f166cf36881ec288b2f5ca7af531",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1088324ac67c990eb3427b0e4b7d9378022b87daef4adfec7202cd6eb0b77de7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "53": {
     "url": "https://cutt.ly/orpQirLH",
-    "last_hash": "c681538c206a2b13d7afb8838a49d3b4e3ec7243026d67f2440922afa82f3576",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ffe3583f33f0bb17e963927b0daca9b23921778355f70aa15b8a0cc81e3bf17b",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c681538c206a2b13d7afb8838a49d3b4e3ec7243026d67f2440922afa82f3576",
+    "pending_hash": null,
+    "pending_since": null
   },
   "331": {
     "url": "https://sjeti.org/applicants/application/",
-    "last_hash": "351eefeed48cc454e141b2d6a983be74c25fea50507377ab2adfe673a0bb3576",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "4b3266df82edad8ea6a48b37b394bfda13a64db36fa4e94d91297d0875a02c33",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1bef33ff7eaa249718f6344bb36ec697524c04935aba7b3c83cf39383d096666",
+    "pending_hash": null,
+    "pending_since": null
   },
   "409": {
     "url": "https://secure2.tradeschoolinc.com/v5/etadb-org/login/index.php",
-    "last_hash": "6542985718ad387b060e92c2ec3e8f9e4f4a3b9a9d2e765589b8193c3031faff",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "feb1bdb39acd2fed17bf4a66d57d27140456e6d66e3e1cd465a8bb3697ebecaa",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "6542985718ad387b060e92c2ec3e8f9e4f4a3b9a9d2e765589b8193c3031faff",
+    "pending_hash": null,
+    "pending_since": null
   },
   "77": {
     "url": "https://ibew99.org/electrician-apprenticeship",
-    "last_hash": "03638b459318e5fbf6b3f06aa7d03fcdbe8f3056857489a41b0fc9995bea1e5d",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a91adfdecda63039ba3f144ae3e35218fdbd8bea33bee97aec24263c6808a1ff",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "58014b6d75fad7a599267450d5aec0ca781b5698c2c50d9d2f6d4762c5a2cf05",
+    "pending_hash": null,
+    "pending_since": null
   },
   "397": {
     "url": "http://ibewlu728apprenticeship.unionactive.com/",
-    "last_hash": "bda039046cb280c3adc726f7ef59450bfb3de770f4a573feebf049172102ffed",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b09a640bda6694df119f3841da021e0da06dc94a5682c967f321f03c96b0fc92",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "855ab638f7c14e6414de70a975f1cb06d66abddd2774933c39b4d15c5b364f70",
+    "pending_hash": null,
+    "pending_since": null
   },
   "489": {
     "url": "https://secure2.tradeschoolinc.com/v5/ibew968-com/login/index.php",
-    "last_hash": "57b250e9d66b399c1a54fe2db3a91afb1ebfc2f953fcc46f4641c3e2e0c90417",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "95e3471b903a18514a2de06b713d6240752e665cf8ad6cb4e02c91e480bb080f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "57b250e9d66b399c1a54fe2db3a91afb1ebfc2f953fcc46f4641c3e2e0c90417",
+    "pending_hash": null,
+    "pending_since": null
   },
   "3": {
     "url": "https://www.jibei.org/benefits/apprentice-program/",
-    "last_hash": "81e83a6f17de43a5f5eec49761d5e38a069cc361be452d42c7dfa2467df5d27e",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0a63b7ea9930b00e01d3f2880d17cc704b3d1b6dcb575c823bf27a60d506a1d0",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "81e83a6f17de43a5f5eec49761d5e38a069cc361be452d42c7dfa2467df5d27e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "110": {
     "url": "https://secure.tradeschoolinc.com/v5/jatc153-org/login/index.php",
-    "last_hash": "f725e448e911237689745495d2a98a06cf65efbb7af9eb7b3c074c9d7986c09b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "1c616bbec2b7ee23d414fe1fdd81b4637ccc6e0b7eae1ac2a65edeb1251c707d",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f725e448e911237689745495d2a98a06cf65efbb7af9eb7b3c074c9d7986c09b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "14": {
     "url": "https://www.ibew14.net/?zone=/unionactive/view_page.cfm&page=Apprenticeship20Application",
-    "last_hash": "c8bd8a4d819605ccf3f213037128aaf906bb514c20037abb29ec6267fe156309",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "34f9fe977ec26677062ff7e98c521b7b5036e1a3a57f0dc967ec4382e52c76d3",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c8bd8a4d819605ccf3f213037128aaf906bb514c20037abb29ec6267fe156309",
+    "pending_hash": null,
+    "pending_since": null
   },
   "388": {
     "url": "https://www.wcpaejatc.org/apply-here/",
-    "last_hash": "ae6fbd8acfa6b7445a1be6a1ed959446a9312151357e7e06586c2089847c8edd",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": null,
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 1,
-    "last_http_status": 404
+    "last_http_status": 404,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "333": {
     "url": "https://www.ibew601.org/apprenticeshipopportunitydocument/",
-    "last_hash": "1e58e2eb61b54d13e9bf8cea9bb345a2a39819293111582b139bbbd2edbf9118",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "40c7bb330914a7613cb6211c2e09023b56e10757a35da59c0528b24259433ff2",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d72f8ee4edc56a19f8808f57dac582bb7d31b4a6b364f4d772d89a372e0ebc74",
+    "pending_hash": null,
+    "pending_since": null
   },
   "257": {
     "url": "https://www.ocett.org/?zone=/unionactive/view_page.cfm&page=How20to20Apply",
-    "last_hash": "aff48f56e9bb01296f2dfe23bf51824fbd4856414c6a86f76a4666f5db1c7f98",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "c89abdcf1cc92cc36cff17d2639e06340bd9a136059411a6d9b9788792be5937",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "aff48f56e9bb01296f2dfe23bf51824fbd4856414c6a86f76a4666f5db1c7f98",
+    "pending_hash": null,
+    "pending_since": null
   },
   "44": {
     "url": "https://www.psejatc.org/careers/apply-now/",
-    "last_hash": "9920ac667fdfa991801d91b75950231b0f6d9f66624833ec8dafadc03a3623da",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "cef445f3a40b4601442b18bf5fe1c0f45c5aa509178f27dc2b4ce9879c4bb751",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9920ac667fdfa991801d91b75950231b0f6d9f66624833ec8dafadc03a3623da",
+    "pending_hash": null,
+    "pending_since": null
   },
   "89": {
     "url": "https://secure2.tradeschoolinc.com/v5/csejatc-org/login/index.php",
-    "last_hash": "99d959ca32460d1611654792f547580c9613e45fb3654f11bf5884d5d9415429",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "3ff98cc5dc0cf2a51eda729703a355d18212c9e93cea21f793dbf7f21f471bdc",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "99d959ca32460d1611654792f547580c9613e45fb3654f11bf5884d5d9415429",
+    "pending_hash": null,
+    "pending_since": null
   },
   "79": {
     "url": "https://www.ibew102.org/apprenticeship-application-process.aspx",
-    "last_hash": "c1056f7d7329f2708254a2336fcfb069ec5401cf55ddf1501a8bd2086f4239f0",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "fb7e82f73cf898ca7fa7319b07d4b7ec44803a7fec0aeed5552dc010db6aa9cf",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "437d77246b069ed4d488e32748925ad656effb8b3571d5f9b4163736ed749d19",
+    "pending_hash": null,
+    "pending_since": null
   },
   "382": {
     "url": "https://apihoard.webit.com/api/v1/File/4CE6DE045F9D25B26368592DAB40B135/4CE6DE045F9D25B26368592DAB40B135.pdf",
-    "last_hash": "9677f7c6485288deb7bbbc42c3e49f840fa94f90f5361f55c2bd32012bbf9ffe",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "3ef6062afb5810f03bd1a218d5e6a691099f00b0ef17ae24eebc16506570feb0",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9677f7c6485288deb7bbbc42c3e49f840fa94f90f5361f55c2bd32012bbf9ffe",
+    "pending_hash": null,
+    "pending_since": null
   },
   "178": {
     "url": "https://secure.tradeschoolinc.com/v5/twinportsneca-com/login/index.php",
-    "last_hash": "bd985335ed274c299733d127144be05d1c3a2e806f0caa6de65236a8a81291f2",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "fce905b8e77cdd2aa6c9abf6a8e6f18390dc94a4b05c40d043441d04a2dafb17",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "bd985335ed274c299733d127144be05d1c3a2e806f0caa6de65236a8a81291f2",
+    "pending_hash": null,
+    "pending_since": null
   },
   "1": {
     "url": "https://ibewlocal1.org/wp-content/uploads/2022/08/JATCapp.pdf",
-    "last_hash": "5f03c3236350701c34f65694bdd3e8a10fe823d3917232eb33524fc3d736c933",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "017260cba05f296b6ba3cf88ff7c1341e53b90f7bb71a887a31b0dca17325257",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5f03c3236350701c34f65694bdd3e8a10fe823d3917232eb33524fc3d736c933",
+    "pending_hash": null,
+    "pending_since": null
   },
   "185": {
     "url": "https://fortwayneelectricaljatc.org/apply/",
-    "last_hash": "47dacc4cc4367442449203a421623098007ec750566f1e95c315363ecbeb893d",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "0ce810aadd32fb8fc9bd159630ec35aafd3fb4cc3661b3f1475f0a01695ef33f",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "fe18da8bf135ff4463814a6c7ded6dcafe013a5f400c75a335685d9054fcc3fa",
+    "pending_hash": null,
+    "pending_since": null
   },
   "207": {
     "url": "https://www.dmelejatc.org/index.cfm?zone=/unionactive/form_page.cfm&formID=103690",
-    "last_hash": "c4b14f4c92c896a18b9c1d42e15a283eed21d2e2d368a1cb71b821200da481fd",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "00d3a3b21677869d2cc679e017d09bd407d815482edf1eb97a8d781ad1009c5b",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "94a50bad1b3735eee66dae1bb506350b8434c54d58170586fd02e4acbce408e7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "86": {
     "url": "https://secure2.tradeschoolinc.com/v5/jatc110-org/login/index.php",
-    "last_hash": "1014c1bb5d81b0fea2889bf04dd7bd706eb3d4b7cf5be12e92ded1330489af5e",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "2e9dc52bdb3e19e9a1a18a3183823dd59e269b0a913cf5a7e45f98ae56151008",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1014c1bb5d81b0fea2889bf04dd7bd706eb3d4b7cf5be12e92ded1330489af5e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "126": {
     "url": "https://secure.tradeschoolinc.com/v5/bnjatc-org/login/index.php",
-    "last_hash": "1988f5450cc5a8389e76cf30a842381bc1632a4c270b0b7509921c7b568b58ae",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ff68a105a255397106829888ff22f9ff46032ed17914c552eab0008f619632e4",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1988f5450cc5a8389e76cf30a842381bc1632a4c270b0b7509921c7b568b58ae",
+    "pending_hash": null,
+    "pending_since": null
   },
   "317": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew567-com/login/accountCreate.php",
-    "last_hash": "52dfcf5e0b91828463b5bada97d19ae5ae2833b2887a2d6cfa3aea77cc14045b",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "dada62e562f019bff85dece9c99706be541667312cec5681b6ec8e0f32070d49",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f4d0cd3bceb4942caa07c0ca3239023cc97fef109a2fc89b4c67ce9a54a9f636",
+    "pending_hash": null,
+    "pending_since": null
   },
   "332": {
     "url": "https://www.ibew596.com/apprenticeship/",
-    "last_hash": "971e67c06617f63ba7b435d66b4b834c3b208a6bfd24ad7896d88822252dd6c0",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d4d079f7226a06432115ecd8b1414d11d542e323aea3aaf73ab79f4f1526085f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1eb2c2776a5f6bbb19662a132cdbefd8fd41ee8d4d6c02e470110a890b29d8cd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "450": {
     "url": "https://application.jatc855.com/application_step_1",
-    "last_hash": "65ef9c0bb88453b291962542ca5bfa41d5cbbe841ac6e6f043807959b22290f7",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "27cc3a9ced8226da104013a06054c485b92522b364bfe2a1e940127623c765b7",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "65ef9c0bb88453b291962542ca5bfa41d5cbbe841ac6e6f043807959b22290f7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "305": {
     "url": "https://ibew538.org/apprenticeship-cet/",
-    "last_hash": "189739ade081da9435c8a8ddc0549ec96c049c04a0a9d20cd62c14d686196da5",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "654fef3063f2a7d93b2a4d85f4181e11e3b8c2fc4640aea068eb0f1e6f33c540",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f6133524d2fb996e806d039c053bc9bbe57cca2026976605b5b9ec9b52f7b59b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "284": {
     "url": "https://form.jotform.com/253443716815157",
-    "last_hash": "6d7a950d3cc0793052caf6462461adfcce32912648382a2ea4cc59b2773a1067",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "7e36da0079e2c69d2bbd844674afca488b01ccfef3e28c85ba689103fe1f45ca",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "6d7a950d3cc0793052caf6462461adfcce32912648382a2ea4cc59b2773a1067",
+    "pending_hash": null,
+    "pending_since": null
   },
   "341": {
     "url": "https://sites.google.com/aejatc.org/etc/home/application-requirements/application-process-required-documents",
-    "last_hash": "4e1ff6dc4ef99b0b5ca56510e24cf134478b336fbcccb5be07f69cb4aa324562",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d2e7518cd6d79fd2ef83ced9dee1bc5d149cfcfa259f215abbdc10d606c3da3f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0d4f61803043d92b7d7da103866752adb3d7fcd92f1324495c9b3b3be677a34c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "105": {
     "url": "https://ibewlocal143.org/apprentice/",
-    "last_hash": "fd4a2186c1d0cbda91f2b39779abb7ca9509ae0c340a7ec691472912ff4775fc",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "e84ce4d37939932907fd647c8b061a03a219fa35c0595390217f43bbac08952a",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c9261403a38d566998ceb8c989b993d1cc4f20cf63b10a162bbe4636b923ace4",
+    "pending_hash": null,
+    "pending_since": null
   },
   "198": {
     "url": "https://ibew325.net/online-application/",
-    "last_hash": "738cc148dd26125fd4bac7fdc64b64e3e6093167bdea527c1c6a8c573f4f27be",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "520e046c764fb03dee6f6140f390ce59c71251047eb46842158adbf56449fbc6",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "87187d3e6aa386bc143054f1ce8fea2aa52970c3954362786aa6e2b9ac3fd3c0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "395": {
     "url": "https://secure.tradeschoolinc.com/v5/thejatc-org/login/index.php",
-    "last_hash": "27abb8a9dfe08f8a1eb663eee4b2a3f38e4b91ee9f988c9356d3b62067d588ad",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "1ddc37763ddd630f89ae7cdc4976d15a3210c65acca04fe9d3b5e7902eeffcf0",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "27abb8a9dfe08f8a1eb663eee4b2a3f38e4b91ee9f988c9356d3b62067d588ad",
+    "pending_hash": null,
+    "pending_since": null
   },
   "258": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew443-org/login/index.php",
-    "last_hash": "e716f0f8ec16f12d31678fadc240028b191eedd7d81ea3c541d24794e491917e",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "0178685c9e57fce9ccf7c28e9fbbb40481b818b44005488d4b23331ff8060f51",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e716f0f8ec16f12d31678fadc240028b191eedd7d81ea3c541d24794e491917e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "338": {
     "url": "https://forms.microsoft.com/Pages/ResponsePage.aspx?id=ybZkLNbP2EC2BhnO-tvSGhAfZrmA0fxMrpScptPrBftUN0ozVk9SUUQyNzk0QlZFV1RSNkpHRUlITC4u",
-    "last_hash": "433aa6a84bc526c9ce999b51a01182ec8487b0e9fad5d78ae1e5e584e47a9cdb",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "fbc6d752fe528706966cdcf8fce5d3d46999313ffd6098308efb6306972d6b44",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "433aa6a84bc526c9ce999b51a01182ec8487b0e9fad5d78ae1e5e584e47a9cdb",
+    "pending_hash": null,
+    "pending_since": null
   },
   "160": {
     "url": "https://www.ibew257.org/news-details/webview/apply-for-apprenticeship/single/51257",
-    "last_hash": "71856dcc3c8d2eebd9c12ab016f2c4b03b79466863e3e7b66ac6d491549392dc",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b8b580f6c0695034407e44651a22d7b1d12d7a85b8a1926fa64b6c3a8c7c9f45",
+    "pending_hash": null,
+    "pending_since": null
   },
   "385": {
     "url": "https://www.dubuqueelectricalapprenticeship.com/how-to-apply",
-    "last_hash": "5dff6173e23cf6c00bb834f86accbd78062a824722e38d2acd76f59cac756877",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "211d3653f9e87ff302909801bbef687e7f52e48d7d88e70c066f5721b4391ff3",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "3c9f4138eba49ff2280bb089c21b8fafe3e4577bcebb8c50a7ad364ab689a102",
+    "pending_hash": null,
+    "pending_since": null
   },
   "309": {
     "url": "http://www.ibewlocal545.net/index.cfm?zone=/unionactive/form_page.cfm&formID=105706",
-    "last_hash": "31eb8199cb7b2a7d732c0c4514ced0c43ac186e76b910c6fecfe30fa03681d12",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "8a9645bb2a9f2509e2bc8f4f0c3e9b6afe20fa3a3772eac4e6e5218c93dfc3a6",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 1,
-    "last_http_status": null
+    "consecutive_failures": 0,
+    "last_http_status": 200,
+    "last_hash_legacy": "b21c27ba8ac84fc2edb7143ac50c13fb396d1a30c3db5a60be1c056587d86cfc",
+    "pending_hash": null,
+    "pending_since": null
   },
   "46": {
     "url": "https://nietc.org/applicants/preparing-to-apply/current-application-openings/",
-    "last_hash": "036d2c27e091b4f626201a4718e93fd5858fe7968634efad5b5f52025c287624",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "86d84eea93b606f2ecc6dd742f0b01d52caa7d613e094602c07f4a6e51200f46",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "efd979d5d0eacacb477fbc50e9f87fc0d1ccdfc381900fcebffeab0d99671649",
+    "pending_hash": null,
+    "pending_since": null
   },
   "256": {
     "url": "https://www.ieetc.org/en-US/pages/b733f5f3-9b60-4d15-8a29-01bfb4722954",
-    "last_hash": "37b2415a2fdba210d71a18aba36085e0eae9d7f13b330f834745744337dce088",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "be393c2f5ee67314bd04d888b175501e86bbe468fa5676bfecda96c37a1c7ba8",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "37b2415a2fdba210d71a18aba36085e0eae9d7f13b330f834745744337dce088",
+    "pending_hash": null,
+    "pending_since": null
   },
   "243": {
     "url": "https://secure2.tradeschoolinc.com/v5/wyjatc-org/login/index.php",
-    "last_hash": "b1f9795e30bdfbe1d595d9513a5263ac3ab37c48221de60952a6a01dd7a7dc34",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "7f644062304cd46d3b5879f4238d2c57d2851ae60fa2a2fc90c5cb231f46b009",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b1f9795e30bdfbe1d595d9513a5263ac3ab37c48221de60952a6a01dd7a7dc34",
+    "pending_hash": null,
+    "pending_since": null
   },
   "114": {
     "url": "https://secure.tradeschoolinc.com/v5/wbjatc-org/login/index.php",
-    "last_hash": "d81d124c14c81738b346ca5974a95390a99ceb2efb9c2872e14f844fbd2114b3",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a56d8d31cc0d44c61fba1cd80411f09a09957c1354fbd286c612a28a6b7a21c4",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d81d124c14c81738b346ca5974a95390a99ceb2efb9c2872e14f844fbd2114b3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "315": {
     "url": "https://naeta.org/apprenticeship-application-form/",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 2,
-    "last_http_status": 403
+    "consecutive_failures": 1,
+    "last_http_status": 403,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "379": {
     "url": "https://apply.appion.network/Start/baycity",
-    "last_hash": "e09c250e660cb39ba90d0660ce2ac0e572c8aebe01684d73e27c0d9716445568",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b9c0e7a347f1b07e7e5349291b92740cb8594249b668e8ce74ee1c5bf8ecdf0d",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a93e0833d2ac2fa658c224f85038840973ce40b48e4fc07e99f52fb4e74bf906",
+    "pending_hash": null,
+    "pending_since": null
   },
   "167": {
     "url": "https://ibew271.com/training/application",
-    "last_hash": "c046b25d0d72ead53271ed16b7e1406f939ee2d6e6c491df488520866f595b1c",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "93dba1e127c887f82b48badc6291d2635b6c47b9e5ad09aedb9f9210477e7cca",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9dd4cc1788a1b4179601effa4b0e380620af1c87483a5fc9fb906d23e6fa4375",
+    "pending_hash": null,
+    "pending_since": null
   },
   "372": {
     "url": "https://ibewlocal676.com/application-form",
-    "last_hash": "45f9260efa0e4031c07846f4e7d6b62289ace0662f27257ea47c7b98b019b8ca",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "232957208fb5d7201ded086bc85107d72a0e3c006fcda2d3f483ab2a036e86db",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "45f9260efa0e4031c07846f4e7d6b62289ace0662f27257ea47c7b98b019b8ca",
+    "pending_hash": null,
+    "pending_since": null
   },
   "224": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew375-org/login/index.php",
-    "last_hash": "16e7f265180b9470db94009878c3d02d63eb92a2e5cf08eb442808f670c63050",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a26b2e0ec4c6272d936cabb533cc4001d5e80f0c121616fd4a27f1a150864bbc",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "16e7f265180b9470db94009878c3d02d63eb92a2e5cf08eb442808f670c63050",
+    "pending_hash": null,
+    "pending_since": null
   },
   "141": {
     "url": "https://www.topekaelectricaljatc.com/application_information",
-    "last_hash": "7d66e8fef8fcfa999724324134bf97e167bd6f01fdd243578d27b36cbaafe191",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "9dfb44e1d8ef2642974baf25d34fcd2bf6ada866e9673ceda0fc30157363855c",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7d66e8fef8fcfa999724324134bf97e167bd6f01fdd243578d27b36cbaafe191",
+    "pending_hash": null,
+    "pending_since": null
   },
   "165": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew269-com/login/index.php",
-    "last_hash": "e7fc8658515a732393d9e20a15adede4b310fb56cc10bc8ffe5dd8c276ce7139",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ef40341b611cb3ad42ccdf5c269d70f13766a578aca611efb7a780b808f637fe",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e7fc8658515a732393d9e20a15adede4b310fb56cc10bc8ffe5dd8c276ce7139",
+    "pending_hash": null,
+    "pending_since": null
   },
   "123": {
     "url": "https://www.shreveportelectricaljatc.org/apply.html",
-    "last_hash": "a29c0d9990d1d0555f4d4025eba7baa7035332ca8051cd78e8ea9917979b06f1",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9374efec12a3bd49578a79e9f20a2d126fcffd33fd02a270f90b6b655f872a9e",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0b70551a0ed976a4a4de6060030ffeedd80accea0b74642bf6f79ba548089961",
+    "pending_hash": null,
+    "pending_since": null
   },
   "78": {
     "url": "http://www.cceti.org/",
-    "last_hash": "9e7418acd8eecd7f6a26848c0a0b0cb4d97c096b26b688acc93791215f29bbae",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0c71f9e86bbac70efa832918244dcb5b395f45fc2e09428f8a5d8a45965c08dc",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f07c4959d03b3b9497343f657a4ac3dc6ed5fa2982d916be55d6ede5ce70f2d0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "119": {
     "url": "http://www.jatclu180.org/?zone=/unionactive/view_article.cfm&HomeID=98063",
-    "last_hash": "803211e1352dbcc7621d5666ce7bca168957605183cdf7de8138bcc0fbed8499",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b76f119b075c5cb99f8845dc26105f350d46c1f7cd8a09b5096436687d084cc6",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7d6a6a55a85d3e2c8e6fd6600c907182cfc4caf354c45d10e7b2438d31335fcc",
+    "pending_hash": null,
+    "pending_since": null
   },
   "320": {
     "url": "https://www.tucsonjatc.org/become-an-apprentice/",
-    "last_hash": "2ce3b2e8e682a87ee2146a153849b6851ec00e4ae8603d133ede1b742965076f",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "8b8ea2d3238285f381ef27e91440ed2c735963c5ae6afa4e63744d596a76708f",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "89d2ef4d7ae0a86879e50321f7a057a0623ee509481268a8b0acc0e31bc9ade3",
+    "pending_hash": null,
+    "pending_since": null
   },
   "191": {
     "url": "https://www.ibew313.org/?zone=/unionactive/view_article.cfm&HomeID=822773&page=Apprenticeship20and20Training",
-    "last_hash": "17c2a8fbdedb654f84f09fa6b3e672fbe9773af2ff1173550ceb8c3e02c4b6e3",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a781cc1ad459559622ad2565138c37cfc5fa3e56abb38d2a84f56d788154a911",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "96d3143e4fb101ea078a6f64eafd6226b77ce843389a978dc6b2c27fb408ac84",
+    "pending_hash": null,
+    "pending_since": null
   },
   "376": {
     "url": "https://cvjatc684.org/applicants/application-process/",
-    "last_hash": "7947c4d159eec095a4959afbd7db24b629334993363f9c8f3e5132ae9e1c8a1b",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "2d9a158ebb353088331f18dec2f8b41b17f0782046214453f5b7638eadd05a66",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5f2b9415e1df13b0f36941cfae4bad70fb8e94870f32ab1d55c9239968a0c45d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "157": {
     "url": "https://www.aaejatc.org/how-to-apply",
-    "last_hash": "77697793793bce390d8290af2a450dd5a549657d136a8f4a8d50f21db03b042d",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "123b78dcc39f8f38ba348c430d435bbf51429dcc365c533965663b36ad61c1ba",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5bb6727a208fe37214d759526a72fc79c8e9c8ce05bfb827d46cd90fed924705",
+    "pending_hash": null,
+    "pending_since": null
   },
   "115": {
     "url": "https://ibew164.org/training.aspx?zone=training&pID=5147",
-    "last_hash": "d724b99eea68037400d7a162595c0593853d7c05ad05794e7ab79b0cd97191c9",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "88d5ed3693d3e326c6dde2034cf6aab5f7bebdac2967d353e161939cdeaa6234",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "d724b99eea68037400d7a162595c0593853d7c05ad05794e7ab79b0cd97191c9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "33": {
     "url": "https://www.ibewlocal35.org/content/apprentice-application-information",
-    "last_hash": "2a1b460f90c17fae858545dfbffa3a161b37a15c31f9d08f456adc58da1e0f98",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "926bb45aae6839f7174252e08d22a94df4ca5e1e73730e598b42739df0ccc14e",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "2a1b460f90c17fae858545dfbffa3a161b37a15c31f9d08f456adc58da1e0f98",
+    "pending_hash": null,
+    "pending_since": null
   },
   "353": {
     "url": "https://www.ibew639.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
-    "last_hash": "a669dc7daef98c3c7a1ae943a5328cedb1ba5508aa5536ee6146e8be4b840d26",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "32878847dea8fa8d0b59424ddcc5cc8ed662eebbb65de4426d9e331664f7b526",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a669dc7daef98c3c7a1ae943a5328cedb1ba5508aa5536ee6146e8be4b840d26",
+    "pending_hash": null,
+    "pending_since": null
   },
   "116": {
     "url": "https://secure2.tradeschoolinc.com/v5/chattanooga-jatc-com/login/index.php",
-    "last_hash": "5d36def166448de24706a5fbd1db7ac1eb706d21358724ffceb820b5cabac3e5",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a84cd878a14e949f6673bfe62224fa62d2dea93bfb2c2ce0e5545d00e6751820",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5d36def166448de24706a5fbd1db7ac1eb706d21358724ffceb820b5cabac3e5",
+    "pending_hash": null,
+    "pending_since": null
   },
   "57": {
     "url": "https://djeatc68.com/apply/",
-    "last_hash": "8d6cdbed9470af2d10c2dd0a178c3dfa5ec254c494cac9031f08b9690c0917ec",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "3bd1dde9bfc47fbdc62f83dd8bf64840e844fadff2c82d98847e2b986aeb866c",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8d6cdbed9470af2d10c2dd0a178c3dfa5ec254c494cac9031f08b9690c0917ec",
+    "pending_hash": null,
+    "pending_since": null
   },
   "8": {
     "url": "https://www.tejatc.org/?zone=/unionactive/view_page.cfm&page=Apply",
-    "last_hash": "853f37997fbd3fc164013c2946f7eaee2f53f2ee73a5a5edc2e32680367a990e",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "43f3f13d78b8f2065ba414b0dee9354336689d478aa94aff12bdb12b4addcfba",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "4b5931fb19afb197db0d32a58edad4d9c518126918de702c115266bc49dea5d9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "213": {
     "url": "https://uteta.org/programs/apply-now/",
-    "last_hash": "5983c5b8c2a3bd608f6331a9fd491fad1e5aecc7dc26338908eb1ed2ab2428b8",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "46a961faf5c9ace6d55e87a7d0160bcc631b0540d9ffc6631f3da54388ed7e4b",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b8d35aab88100d4dd5f2fea04a49cdd6252170ad511cbff52808aa12044830e0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "467": {
     "url": "http://lu903.com/apprenticeship-training/applying-for-apprenticeship/",
-    "last_hash": "ae19b1a246e05958cbfb2f6ec63a81589e20fed09d517f631111b593a0b07b7c",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "65fa1f15d147032fb62fa41817bc88484b9700e86d89bdc8ee8388b33db9d705",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ae19b1a246e05958cbfb2f6ec63a81589e20fed09d517f631111b593a0b07b7c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "501": {
     "url": "https://www.brejatc.org/applyonline",
-    "last_hash": "e713c4ef40ed800a4518517be34d48a923a21bf2fba26fa981a6e3997e63f44b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "0a233b22de495eeae47a60028e8151dda246d0aa17caae0eae1c645147f67d04",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9d22f6916c1e36ea993f2c2ba20687bde653e50e70d09f670265129d781fa6fa",
+    "pending_hash": null,
+    "pending_since": null
   },
   "171": {
     "url": "https://unionly.io/o/cjatc/request-for-application",
-    "last_hash": "dff630dd90cb5364bd2bc7ca7d812a3582904d8878564e858df572c8f159f1d2",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "9b65378755183852a26b3940fff3ee80dbc008155d611c144047f2b39fbe0051",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c40ddba91bfac69a50c241e335eba8a4d99cfde48863e7c2adf2773343fc3bb2",
+    "pending_hash": null,
+    "pending_since": null
   },
   "574": {
     "url": "https://www.maconetc.org/blank-2",
-    "last_hash": "a775d5ee4200f7095dfaf08db562f769bfa5fb4f1325cba7e86103c34d6f2c18",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "fd65b440a9943fdb33b0c60fa1abafddd4e9dc7d3b10458c18f2be6a83290f19",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "998b6f3f6d8d8c8de6422c69ff1251f5c208918e0c3911c510aeb8a4e55229e5",
+    "pending_hash": null,
+    "pending_since": null
   },
   "389": {
     "url": "https://secure.tradeschoolinc.com/v5/dakotasjatc-org/login/index.php",
-    "last_hash": "a24bd8a1a6164e22ded9317e2509edfe911b163493b6a2b6008b32d1236ec634",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b2fc9c75c08caa8022e48863068a82c1299053cee98661586d6d78d1ed369b88",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a24bd8a1a6164e22ded9317e2509edfe911b163493b6a2b6008b32d1236ec634",
+    "pending_hash": null,
+    "pending_since": null
   },
   "249": {
     "url": "https://secure.tradeschoolinc.com/v5/dakotasjatc-org/login/index.php",
-    "last_hash": "a24bd8a1a6164e22ded9317e2509edfe911b163493b6a2b6008b32d1236ec634",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b2fc9c75c08caa8022e48863068a82c1299053cee98661586d6d78d1ed369b88",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a24bd8a1a6164e22ded9317e2509edfe911b163493b6a2b6008b32d1236ec634",
+    "pending_hash": null,
+    "pending_since": null
   },
   "5": {
     "url": "https://secure.tradeschoolinc.com/v5/ibewlocal5jatc-org/login/index.php",
-    "last_hash": "b4b9adc6e81dba09c92161d38f069545f53a19c7ad3fa842703b922bb764aae7",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "455e335bb34d1a13e3e6be4dd50de680e38313222ba700a2d55457e2cc5e25d7",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b4b9adc6e81dba09c92161d38f069545f53a19c7ad3fa842703b922bb764aae7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "117": {
     "url": "https://www.jatc176.org/news-details/webview/steps-to-apply/single/44948",
-    "last_hash": "8ad8b0b14001ea3c8c5e583b241c66da0d2287c3fd34e7056c2c73bd2d4f7f5e",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1c0d0d076f78366f52ef6c099c72894cb94b2908e02c3f58dad173491a3a9da9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "208": {
     "url": "https://www.ibew349.net/applicant.html",
-    "last_hash": "9eb51225150245ab9f567f2153fe756b5eea6052d761b01361a7827436dc573f",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "c3dd335d2bd2b4ecaec756cff620382902df299eca53c4e71d8107cc7c537a4c",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9eb51225150245ab9f567f2153fe756b5eea6052d761b01361a7827436dc573f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "319": {
     "url": "https://etiedu.org/applicants",
-    "last_hash": "f49a93c8694f144cd6a9c68c001201694a57313b75d3a0e90cefdf8434df4287",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "9c53a3283caa6092982afd07e9f0a14c05f1809f0e1ea27dd6ef84c70e710e96",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "e6cb3454edc66b27b8d42fdd7e0873dda9499e2ef6da273a08c1312e521afc2c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "321": {
     "url": "https://secure.tradeschoolinc.com/v5/warrenjatc-org/login/index.php",
-    "last_hash": "1decbc5fbf270156b3506fb1d8d6e369a9462dab11bf12ae00dbd8a72c623588",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "eb786f0b53c8e06d5ad0220c938879f1e7b81e6ce9da66db1def5841b9c6c878",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "144391525ba284a505e9928a1e330bf599583ab3e6c57c903a84476470555baa",
+    "pending_hash": null,
+    "pending_since": null
   },
   "313": {
     "url": "https://raldurjatc.org/apply/",
-    "last_hash": "2e717198d0b15cf0e6364a71fbbaaceaa2b8e6251590045f056eaebed8067cd9",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "b43e42f4c4b5b1f57d648534dabe25590588fbf9a14ee0004e7a5fefd39e2037",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "399bed2336bdee3345197ff549c46a00f7cede7c222b06bea490109896a9130e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "334": {
     "url": "https://wtxjatc.org/applicants",
-    "last_hash": "4006c3272641ad472048854420063da97a8629023b0ccf6fd77a85a47ad4b40d",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "24eeecc1e3205fc304799764a53f37a05a16a83e79f275db70fc4d6b20fbc744",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "4006c3272641ad472048854420063da97a8629023b0ccf6fd77a85a47ad4b40d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "80": {
     "url": "https://bostonjatc.com/apply-for-apprenticeship/",
-    "last_hash": "0194e864c4b37a4244b75655970bb3320cb092ae025653b3ccfeae82a2acb8d8",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "e6becce535d315bfb037f732115bed82eb7b4e35f47b83248c10830878f62c5b",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0194e864c4b37a4244b75655970bb3320cb092ae025653b3ccfeae82a2acb8d8",
+    "pending_hash": null,
+    "pending_since": null
   },
   "166": {
     "url": "https://secure2.tradeschoolinc.com/v5/oak-ridge-jatc-org/login/index.php",
-    "last_hash": "893b75e290dd538affc78a96c1c76eabafa624dd3862e6f86a6fd4be1c7618be",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "2149e8f9a2a6566c5103497c6f0d9e471d147c3ece7c2f8828286eac9b7963d8",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "893b75e290dd538affc78a96c1c76eabafa624dd3862e6f86a6fd4be1c7618be",
+    "pending_hash": null,
+    "pending_since": null
   },
   "146": {
     "url": "https://www.tricountyjatc.org/apply",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 2,
-    "last_http_status": 403
+    "consecutive_failures": 1,
+    "last_http_status": 403,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "278": {
     "url": "https://secure.tradeschoolinc.com/v5/ibew480-org/login/index.php",
-    "last_hash": "90a5408a3e4719680c85a2ca8bcc837d113c0b7ae3ec3c9f0e2ac6a7a410df54",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "4176d19767532c82b2b14b11f3e5f4413e75f38c355b051d4609683a466d1d74",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "90a5408a3e4719680c85a2ca8bcc837d113c0b7ae3ec3c9f0e2ac6a7a410df54",
+    "pending_hash": null,
+    "pending_since": null
   },
   "438": {
     "url": "https://ibew812.com/apprentices/",
-    "last_hash": "6372149fbbc4c13032212598ef44b4546ae4b27d9c9a5e7ee195bd6becee731d",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "79a92e647fc4ee3163fcb26bf10a1d8f141799cd5d2d018fd16ef0de239b3b55",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ea76615e071645471844b83be0b77f85f3955da8a5b0cb0fa8b67d964f1d1fad",
+    "pending_hash": null,
+    "pending_since": null
   },
   "7": {
     "url": "https://local7jatc.com/applying-and-qualifying-for-an-apprenticeship/",
-    "last_hash": "ac15d7a6756cab02453d8448ff46fb7cdf43f51340b5b9136a168ec5492fba9d",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "2121182c78c44e08e6db33855f1f04a3cd064b3c864510b4c6d1a63cc1970736",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "ac15d7a6756cab02453d8448ff46fb7cdf43f51340b5b9136a168ec5492fba9d",
+    "pending_hash": null,
+    "pending_since": null
   },
   "328": {
     "url": "https://secure2.tradeschoolinc.com/v5/tulsajatc-org/login/index.php",
-    "last_hash": "8e35e5c514633e6211df41ab0388d1284eeb219e681096a012f7e6f2e1d6c7a7",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "45372414f8d894bd3b24d106563d209e1859ebc577145820721eed01bfd875b3",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8e35e5c514633e6211df41ab0388d1284eeb219e681096a012f7e6f2e1d6c7a7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "527": {
     "url": "https://www.ibewlocal1105.org/apply-today/",
-    "last_hash": "0df0f716f7cbb7b2c560241948c7fdaf8414791ed9cf1b5ea7e6d3ecc542ed15",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "6db78a8929497d3892ed826186355ace5aa71ef5fb38e67922ac76a7167bc492",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "1bdace007e121f661af112654aa0768d38bacd19705cbf87657f62f177e29921",
+    "pending_hash": null,
+    "pending_since": null
   },
   "343": {
     "url": "https://apply.appion.network/Start/smjatc617",
-    "last_hash": "76608197d080630f3b651ddc2726c03371601928e17fa4fe6e669a717e18e434",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "de7f778532c3e3adc00a9b6a42f2b017cd20e8a66749a771063ee1673d5e3435",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "71dc91d331d6b84bcec0ad97aa1c429f7db5113296dc18479550c126b5a9e53e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "239": {
     "url": "https://www.crejatc.org/",
-    "last_hash": "15000ebf86ef24e0767672297760c70012b7a662305560f2e09013bb7e3c6112",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "3c0fbd62ebba8dd4c01a04dddbaba196ee803532fd0aa5b38666ab07cfab733a",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "3abb0e14da6971bfb257e09b0741905d907201e94ba81dc9a9649b8ff139e8db",
+    "pending_hash": null,
+    "pending_since": null
   },
   "62": {
     "url": "https://secure.tradeschoolinc.com/v5/inlandelectrical-org/login/index.php",
-    "last_hash": "03fadff4dbcfc9398ccc6a4b2e5b71660a4748cf86a2708739ececc3882d7901",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "6aabda36a470f58fe2ee1d88a3447221b2d2b4f7bddab1007a4f6651b78cf659",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "03fadff4dbcfc9398ccc6a4b2e5b71660a4748cf86a2708739ececc3882d7901",
+    "pending_hash": null,
+    "pending_since": null
   },
   "364": {
     "url": "https://www.hutchinsonelectricaltrainingacademy.org/app-1",
-    "last_hash": "bfefc71783420576b7701f5355c232f66344567cfabea1e98bb54aed480910b0",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "bbe8295d040bf450a42d8c6bf36244856ba6382426fd7e8d485e5b8e39f37fab",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f5bf4f543cf7f2fc680066dee0413af412a9438323e4fda98b0602c6f84c6d59",
+    "pending_hash": null,
+    "pending_since": null
   },
   "94": {
     "url": "https://www.kcjatc124.org/applications",
-    "last_hash": "c25b7157c20eb9c0ca4003a4aca408d06e7b805af197442cababbc81f58ccda2",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "ac8dabce02b7ab58ac5f8b493124d97d010fb05411d07b7c170afc59a9181237",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0bdaf36d3988d79d7637ba38839c5287d290289e1bd81748f0784e67dd2716c5",
+    "pending_hash": null,
+    "pending_since": null
   },
   "205": {
     "url": "https://www.scmnjatc.org/apply/",
-    "last_hash": "f0504339f5feafb87246369eb14e9c3f377b52b730948ba5343a662a8ed29453",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d6ef3b5b38917d387abba11fd632ea44f0329548a95f144bf827bb736879169c",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "559492bf944612a98f2970a908873371cad04d9cf89ca6ba8e7904d2638b1e03",
+    "pending_hash": null,
+    "pending_since": null
   },
   "465": {
     "url": "https://ibew890.org/apprenticeship-scholarship/",
-    "last_hash": "fd8f4515d75e6ba4696a499cd9b8af570e0d2f0614e9d1e78d347b50375607a2",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "75a4b3fa1f85331bc621cddcfe90f641dfb3c965216122f38eced0576f848f0d",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7d9c926510af20f0df17a7fb0fe8fb02c25ac9c76ea289ee96d783ca301352b4",
+    "pending_hash": null,
+    "pending_since": null
   },
   "32": {
     "url": "https://peoriajatc.com/the-application-process/",
-    "last_hash": "4a09b7230275bc739a70a3f8e62f1678510fa8e6f9c0ccd2d38afc6e5cffdccf",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "d2d5b1046af62899eb6170b7561019bd8d57a1b436958bc054d8abb3a9fd04be",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "784babbb72e7d36e26dcfee2cf49774752e759123dc142f863336bfd019c11d7",
+    "pending_hash": null,
+    "pending_since": null
   },
   "149": {
     "url": "https://aejatc238.org/applications-2/",
-    "last_hash": "a36e445fefe94176a2d87fe88477e925ae7f7a678332f443083256d299590611",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "2d9e57de255246e0cbd969059369e0c5a8877675825af32666aec06e5f623180",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "bc9529e13a6de08d346308086ceee5dc0b205f53b12b62d473c4ff4bfb51ae9f",
+    "pending_hash": null,
+    "pending_since": null
   },
   "103": {
     "url": "https://ibew139.com/apprenticeship/",
-    "last_hash": "49d540f9bc566d7d1ed30fdaa0a4a1f096915cbfde2ae2dba6476f7508f7b4a5",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "f0dc5be84a59be0f09de6408d71882c3c2287959261f00f2e790748c9b143b4a",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "c25bc57a19470ddd010a03bc3c781005f69160b0b47d87e9bfcab4428584dfa6",
+    "pending_hash": null,
+    "pending_since": null
   },
   "267": {
     "url": "http://local456.coffeecup.com/forms/NBApplication/",
     "last_hash": null,
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 2,
-    "last_http_status": 404
+    "consecutive_failures": 1,
+    "last_http_status": 404,
+    "last_hash_legacy": null,
+    "pending_hash": null,
+    "pending_since": null
   },
   "22": {
     "url": "http://www.ojeatc.com/",
-    "last_hash": "fa6a55edeb4dadbe70494927865d0cfbb1b01c51b0adb5519609390879bece21",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "0394754f2acd45f57cbc6c7591d6ed5bb2f9367220ea7360c60149d157c8c5ff",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "859710c1fd05de19099c08c468586f4f6067a6d9b18f0e57a0568275e6e35d25",
+    "pending_hash": null,
+    "pending_since": null
   },
   "229": {
     "url": "https://www.ibewlocal388.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
-    "last_hash": "25d75e7c7ba1ef4e3cffd5cc29431c9da770e57f7f603e8d3b37bc7ace024b45",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "7f435f971ea800a4890cb30335ab0937f14818240598bd54d7a86a036837decb",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
-    "consecutive_failures": 1,
-    "last_http_status": null
+    "consecutive_failures": 0,
+    "last_http_status": 200,
+    "last_hash_legacy": "25d75e7c7ba1ef4e3cffd5cc29431c9da770e57f7f603e8d3b37bc7ace024b45",
+    "pending_hash": null,
+    "pending_since": null
   },
   "182": {
     "url": "https://www.ibewlu302.com/apprenticeships/",
-    "last_hash": "0afff60d610bfc342e13d8d4dd498fa0f0f5f976532ab3a4dd60bf207bd3bb6b",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "04f11e23c06bd35f775ec1f976c9c8b4d824b7a9de5f34a17b965ff4b2c41226",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "83ed3e4196ea48528012bbbca15434927b3f994eeba8df3c98736fa1ba79bfbd",
+    "pending_hash": null,
+    "pending_since": null
   },
   "107": {
     "url": "https://ibew146.com/training-program/",
-    "last_hash": "c2c219d02344e504c77ad695cf1d057d0c2ebff1fdeeb4e39add4d51b55bb991",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a13bbe77d814e13e7f740197287922830dd3dc025fdf4588066fa8c0c1adbabb",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "f00b2cf8b06a0c696ebcadcdf08e1cb09bbaf8191c868b9b397379ef82a7e366",
+    "pending_hash": null,
+    "pending_since": null
   },
   "339": {
     "url": "https://nmjatc.org/",
-    "last_hash": "7d9ec1b626a4ff8f83687199149a9f9a8d80f503d9abc077fce53642016b34c6",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "0837f022c213dbefee265c217765ac7adecfe3ae639b46346ce247822451509a",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7d9ec1b626a4ff8f83687199149a9f9a8d80f503d9abc077fce53642016b34c6",
+    "pending_hash": null,
+    "pending_since": null
   },
   "279": {
     "url": "https://eti-indy.org/application-process2/",
-    "last_hash": "2fd82079c756d105144168499f0516548f81aa2a8918df9652eac91154fefe01",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "13ba12389eca9c9e8b7d86449dafeaf664013b60e2011ba9adc4760cd71a89ce",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "7044d679e74d227aafedaeb54d1d99573c326433a6a9bcf8e1a923d36ba8b3d0",
+    "pending_hash": null,
+    "pending_since": null
   },
   "177": {
     "url": "https://mplsjatc.org/applicants/",
-    "last_hash": "ae497a2b8f74ee33e1a2d886e9505a4a5aa27bfe69cf2fb8c6bc88ea6365dd41",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "a7f5c3af47cb8ca6b1fb681aee2adafee0f4a7b28a0bdf8dd5bbe49662aaa148",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0f55466467275e9bace8c60263369907c9c5841b22db3f165523b2542c77b4da",
+    "pending_hash": null,
+    "pending_since": null
   },
   "147": {
     "url": "https://www.tricityjatc.org/page/online-apprentice-application-18.html",
-    "last_hash": "b612f744121d5676a736e0e0239ada86d883b99e222007bbb40085481ed8397e",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "5843f01b9edc67e090d9c09a73d7b3379b3ed3742796cdaed07fd8d93c348ec9",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "b612f744121d5676a736e0e0239ada86d883b99e222007bbb40085481ed8397e",
+    "pending_hash": null,
+    "pending_since": null
   },
   "203": {
     "url": "https://www.340jatc.org/apply-now",
-    "last_hash": "a5bb852b883664083646679f85f4b914fb4ae2722e3adc0fbf3626db771a0248",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "7f234fcb47ebc9c25c9f89df51eb0169034093ba16643122d4e2add5969c09b4",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "50ce387796a16ec85bab127a508b29520cda971efebbf8748793e12e86722843",
+    "pending_hash": null,
+    "pending_since": null
   },
   "20": {
     "url": "https://ntejatc.org/index.php/applicant",
-    "last_hash": "cb97121aa830d816aa733cd7e13d4738c985c1f6e8302e12c4af0aa45bd64c99",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "354ebab53c414593f7252f6423aa853b7f8ac4d9a1ddcfcfd1568d6d3fadbcc3",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "39ff80c50049e2ffffb56c73017971e3ea29368f8dd3707b3c66f27ba8e02158",
+    "pending_hash": null,
+    "pending_since": null
   },
   "176": {
     "url": "https://secure.tradeschoolinc.com/v5/swidjatc-org/login/index.php",
-    "last_hash": "3df543191213273e52068c65548ae1d2ffbed422679d77209cfb0fff223d707b",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "b3109ca0ab0ec8d368c65e69134fbc245ead441936c26690ec90ba748a44dd03",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "3df543191213273e52068c65548ae1d2ffbed422679d77209cfb0fff223d707b",
+    "pending_hash": null,
+    "pending_since": null
   },
   "236": {
     "url": "https://secure.tradeschoolinc.com/v5/asburypark-jatc-org/login/index.php",
-    "last_hash": "0e7967e8a84d8c38d274f2f11e0b8c404d839c1c0ce24e9021deaa62b991639c",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "bf92df815f6e2ba52510c6daaaeec570d2c60962b7680062a5d70ee0ab31e779",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0e7967e8a84d8c38d274f2f11e0b8c404d839c1c0ce24e9021deaa62b991639c",
+    "pending_hash": null,
+    "pending_since": null
   },
   "262": {
     "url": "https://secure.tradeschoolinc.com/v5/eijatc-org/login/index.php",
-    "last_hash": "095a52211b10eff3b05057f6249d33bb58f07f9a665116eceb8f6995f07e69e8",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "f1bc2860b73f98ca2bdba669863ef4b6df160cfcd9975a94044efe1b4b8cd8a3",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "095a52211b10eff3b05057f6249d33bb58f07f9a665116eceb8f6995f07e69e8",
+    "pending_hash": null,
+    "pending_since": null
   },
   "274": {
     "url": "https://www.ibew466.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship",
-    "last_hash": "df596656c295b3b9cdcee31cce2765fe99d685f08fd2302dfee97792fe676552",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "04f65c426153d28f9f766bc50653f7a1d24a57879151dced724e1cb69a680b8b",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5475ab71b56432aa9b660f07b69090f1516ec3c20c3659a06c314e1409f8fdc9",
+    "pending_hash": null,
+    "pending_since": null
   },
   "97": {
     "url": "https://www.wijatc.org/127-kenosha-area-electrical-jac/",
-    "last_hash": "8e2994ee3f4d9715ece7a50f0c21cde704620b57e830e70b4fbe96525ac44099",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "a94b88f1239ead4bfba53c8769c10286b910dad968f32cf2004698ebce4c2f6c",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "8e2994ee3f4d9715ece7a50f0c21cde704620b57e830e70b4fbe96525ac44099",
+    "pending_hash": null,
+    "pending_since": null
   },
   "174": {
     "url": "https://form.jotform.com/220458055946158",
-    "last_hash": "5983bfadafef8d2137a2cdc6ecd0e7fe5ed9fb40944d0f0afea3e3abbafe94bf",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "233bab8811187b7441c2991f2fc25f0e87268835431ab3e0549f1d4f87b89906",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "5983bfadafef8d2137a2cdc6ecd0e7fe5ed9fb40944d0f0afea3e3abbafe94bf",
+    "pending_hash": null,
+    "pending_since": null
   },
   "306": {
     "url": "https://cantonjatc.org/getstarted2/",
-    "last_hash": "ee07cc5ffff24145fde8974296d7100e3b007972043cb86157f6218663e58118",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "61290549e48d13a4a2ada80565d6f2056b38464e4aecef564b9a73b9dd92c3c7",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "a0163f5c84db5a768f1a32582a8749ada9ffa91c13344c86352c020beeeca691",
+    "pending_hash": null,
+    "pending_since": null
   },
   "628": {
     "url": "https://www.alaskaelectricalapprenticeship.org/apply/start",
-    "last_hash": "9601dd7f428cd1bb6c79fdc6771a44479c6a94419a223ea166408062d75b2197",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "4fab80314a6eee7e0b1223ba5e956fd79ea125a5905b1f5363a9b52b16c61f22",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "9601dd7f428cd1bb6c79fdc6771a44479c6a94419a223ea166408062d75b2197",
+    "pending_hash": null,
+    "pending_since": null
   },
   "293": {
     "url": "https://www.sav-electricaltrainingalliance.com/about-us",
-    "last_hash": "03c34171052e6ebb4b71c535ceb526c21a005e48987e854e5e25b862bde993f7",
-    "last_checked": "2026-08-13T01:34:07Z",
-    "last_changed": "2026-08-13T01:34:07Z",
+    "last_hash": "3ba3ac8de6386ed1b7d2a38581c2d6ea6ba69887c7c9e437e807e87431fb0629",
+    "last_checked": "2026-08-14T16:31:59Z",
+    "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "0341e60ffca0a388c18730518db6d7c5cb83b30982c8c011d950f1e9da4087d1",
+    "pending_hash": null,
+    "pending_since": null
   },
   "180": {
     "url": "https://ibewlocal300.org/apprentice-application.html",
-    "last_hash": "95396f943120db7d0d8a2f07d1c7dbdf606cf9c618a3694d7436c91eeefb2cd6",
-    "last_checked": "2026-08-13T01:34:07Z",
+    "last_hash": "4eaec22a2b2f6a1929ce64f0bcef09b1d613bf9d0c3a1827b0df60c5e699fbb0",
+    "last_checked": "2026-08-14T16:31:59Z",
     "last_changed": null,
     "consecutive_failures": 0,
-    "last_http_status": 200
+    "last_http_status": 200,
+    "last_hash_legacy": "95396f943120db7d0d8a2f07d1c7dbdf606cf9c618a3694d7436c91eeefb2cd6",
+    "pending_hash": null,
+    "pending_since": null
   }
 }

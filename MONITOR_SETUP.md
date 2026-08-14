@@ -65,18 +65,62 @@ Right-click the new task in the list and choose **Run**. Then open
 `exit code 0` at the end. If you see anything else, check `out\monitor_log.txt`
 for the Python traceback -- it will be appended just like normal output.
 
+## What "confirmed" means, and why daily (not hourly)
+
+The first version of this monitor hashed the whole raw page. That is broken:
+measured over ten minutes with nothing on these sites actually changing, it
+flagged **24.7%** of pages as different every run. The cause wasn't content
+-- it was CSRF tokens, session IDs, cache-busting version numbers on CSS/JS
+files, rotating banner images, hit counters, and a login CAPTCHA that
+generates a fresh random math problem on every single page load. None of
+that is something a visitor reads.
+
+The fix: the monitor now hashes only the **visible text** of the page --
+everything inside HTML tags and attributes is thrown away before hashing,
+which is where almost all of that churn lived -- plus a short list of rules
+that blank out dates, timestamps, long ID-shaped numbers, and that one
+CAPTCHA's numbers. Re-tested the same way (ten minutes, nothing changed):
+**0%** false positives, checked against all 212 pages that loaded
+successfully both times.
+
+On top of that, a single differing check is still not proof of a real
+change. So now:
+
+- The first time a page's hash differs from what's stored, it becomes a
+  **candidate** -- logged internally, nothing else happens yet.
+- Only if the *next* check comes back with that *same new* hash does it
+  become a **confirmed** change -- that's when `last_changed` updates and
+  it gets written to `out/monitor_changes.csv`, the file worth actually
+  reading.
+- A candidate that flips back to the old hash instead of confirming is
+  **flapping** -- logged to `out/monitor_flapping.csv`. That's not a real
+  change either; it usually means some noise source slipped past the
+  normalizer for that one site and is worth a look if it keeps recurring
+  for the same URL.
+
+This is also the reason the job should run **once a day, not once an
+hour.** Confirmation needs two checks to agree, so the schedule is really
+asking "did this page look the same both times I checked, roughly a day
+apart?" Checking hourly wouldn't make that faster or more reliable -- it
+would just mean waiting for two hourly checks in a row to agree instead of
+two daily ones, while burning ten times the requests against sites that
+have no reason to be hit that often. Daily is the right cadence for what
+this signal actually measures.
+
 ## What this builds toward
 
-Right now `out/monitor_freshness.csv` (`monitor_days_since_change` /
+`out/monitor_freshness.csv` (`monitor_days_since_change` /
 `consecutive_failures` per local) is not fed into `compute_status.py` at
-all -- there isn't enough history yet for it to mean anything. A single
-snapshot can't tell you whether a page changes weekly or never. Once this
-task has run daily for three to four weeks, `monitor_days_since_change`
-becomes a real, trustworthy signal, and at that point it's the correct
-input to wire into `is_stale` (which is empty for every record today, by
-design, for exactly this reason). Don't wire it in before then -- an
-`is_stale` computed from one or two data points would be noise dressed up
-as signal.
+all yet -- there isn't enough history for it to mean anything, and
+`monitor_days_since_change` is now based on **confirmed** changes only, so
+right after a re-baseline it will read empty for everyone by design (there
+hasn't been a second sweep yet to confirm anything against). Once this task
+has run daily for three to four weeks, it becomes a real, trustworthy
+signal, and at that point it's the correct input to wire into `is_stale`
+(which is empty for every record today, by design, for exactly this
+reason). Don't wire it in before then -- even a low false-positive rate
+computed from a handful of data points would be noise dressed up as
+signal.
 
 ## If something goes wrong
 

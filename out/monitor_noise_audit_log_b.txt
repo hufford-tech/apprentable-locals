@@ -1,0 +1,12 @@
+Run B: fetching 215 distinct URLs...
+  fetched 25/215
+  fetched 50/215
+  fetched 75/215
+  fetched 100/215
+  fetched 125/215
+  fetched 150/215
+  fetched 175/215
+  fetched 200/215
+  fetched 215/215
+Run B done. Building diff report...
+Wrote out/monitor_noise_audit.csv: 219 locals, 0 differ over the gap (0.0% false-positive rate)

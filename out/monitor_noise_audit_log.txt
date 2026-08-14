@@ -1,0 +1,11 @@
+Run A: fetching 215 distinct URLs...
+  fetched 25/215
+  fetched 50/215
+  fetched 75/215
+  fetched 100/215
+  fetched 125/215
+  fetched 150/215
+  fetched 175/215
+  fetched 200/215
+  fetched 215/215
+Run A done. Checkpoint written to out/monitor_noise_audit_run_a.json.
