@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 1253 Apprenticeship — Augusta, ME | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 1253 in Augusta, ME serves 461,832 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-1253-augusta-me">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 1253 Apprenticeship — Augusta, ME | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 1253 in Augusta, ME serves 461,832 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-1253-augusta-me.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 1253 Apprenticeship — Augusta, ME | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 1253 in Augusta, ME serves 461,832 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 1253 Inside Wireman Apprenticeship", "description": "IBEW Local 1253 in Augusta, ME serves 461,832 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 1253 (Augusta Electrical JATC)", "url": "https://www.ibew1253.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "12 counties served by IBEW Local 1253, headquartered in Augusta, ME"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.ibew1253.org/fall-2026-apprenticeship-deadline/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "1253", "state": "ME", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "1253", "city": "Augusta", "state": "ME", "slug": "ibew-local-1253-augusta-me"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 1253" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Augusta, ME" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 1253</h1>
+  <div class="sub">Augusta, ME &middot; Augusta Electrical JATC</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=1253" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 1253" onclick="track('prep_cta_clicked',{lu_number:'1253',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 1253 tests: Aptitude exam required; must be passed by April 2026 to be eligible for an interview.</div><div class="notifybox" id="notifybox-1253"><label for="nem-1253" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 1253 opens</label><input id="nem-1253" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 1253 application alerts"><input id="nhp-1253" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('1253')">Notify me</button><div class="fine" id="notifyfine-1253" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$18.65/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 75 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell"><b>13</b><span>Apprentices taken (FY2025)</span><small>Reported to the U.S. Department of Labor by this local's registered program.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$18.65/hr</b></div><div class="row"><span>Observed registration wages</span><b>$14.05–$29.68/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 75 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  <h2>Apprenticeship program size</h2><div class="row"><span>Active apprentices (FY2025)</span><b>108</b></div><div class="row"><span>New apprentices (FY2025)</span><b>13</b></div><div class="snote">U.S. Department of Labor Registered Apprenticeship Partners Information Database (RAPIDS), reporting period 2024-10-01 to 2025-09-30. Reflects this local's registered JATC program under the general "Electrician" occupation code, which may include classifications beyond inside wireman.</div><div class="snote">Not affiliated with or endorsed by IBEW. Figures are as registered with the U.S. Department of Labor, not a real-time headcount -- active apprentices includes everyone whose registration was open at any point in the period, which for a multi-year apprenticeship can mean several years of overlapping classes counted together.</div>
+
+  <h2>Requirements</h2><div class="row"><span>Aptitude test</span><b>Aptitude exam required; must be passed by April 2026 to be eligible for an interview.</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.ibew1253.org/fall-2026-apprenticeship-deadline/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'1253',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew1253.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'1253',link_type:'site',surface:'static'})">www.ibew1253.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:2074531301" onclick="track('outbound_local_click',{lu_number:'1253',link_type:'phone',surface:'static'})">(207) 453-1301</a></b></div><div class="row"><span>Email</span><b><a href="mailto:Cflannery@ibew1253.org">Cflannery@ibew1253.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">Last Tuesday, 6 pm</b></div>
+
+  <h2>Counties served (12)</h2>
+  <div class="counties">Penobscot County, ME &middot; Kennebec County, ME &middot; Androscoggin County, ME &middot; Hancock County, ME &middot; Somerset County, ME &middot; Knox County, ME &middot; Waldo County, ME &middot; Sagadahoc County, ME &middot; Lincoln County, ME &middot; Washington County, ME &middot; Franklin County, ME &middot; Piscataquis County, ME</div>
+
+  <h2>ZIP codes served (290)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">04008, 04011, 04086, 04210, 04211, 04212, 04220, 04222, 04224, 04236, 04238, 04239, 04240, 04241, 04243, 04250, 04252, 04253, 04254, 04256, 04258, 04259, 04260, 04262, 04263, 04265, 04270, 04274, 04280, 04282, 04284, 04285, 04287, 04294, 04330, 04332, 04338, 04342, 04344, 04345, 04346, 04347, 04348, 04349, 04350, 04351, 04352, 04353, 04354, 04355, 04357, 04358, 04359, 04360, 04363, 04364, 04401, 04402, 04406, 04408, 04410, 04411, 04412, 04413, 04414, 04415, 04416, 04417, 04418, 04419, 04421, 04422, 04424, 04426, 04427, 04428, 04429, 04430, 04434, 04435, 04438, 04441, 04442, 04443, 04444, 04448, 04449, 04450, 04451, 04453, 04454, 04455, 04456, 04457, 04459, 04460, 04461, 04462, 04463, 04464, 04468, 04472, 04473, 04474, 04475, 04476, 04478, 04479, 04481, 04485, 04487, 04488, 04489, 04490, 04492, 04493, 04495, 04496, 04497, 04530, 04535, 04537, 04538, 04539, 04541, 04543, 04544, 04547, 04548, 04551, 04553, 04554, 04555, 04556, 04558, 04562, 04563, 04564, 04568, 04571, 04572, 04573, 04574, 04575, 04576, 04578, 04579, 04605, 04606, 04607, 04609, 04611, 04612, 04613, 04614, 04616, 04617, 04619, 04622, 04623, 04624, 04625, 04626, 04627, 04628, 04630, 04631, 04634, 04635, 04640, 04642, 04643, 04646, 04648, 04649, 04650, 04652, 04653, 04654, 04655, 04657, 04658, 04660, 04662, 04664, 04666, 04667, 04668, 04669, 04671, 04673, 04674, 04675, 04676, 04677, 04679, 04680, 04681, 04683, 04684, 04685, 04686, 04691, 04693, 04694, 04733, 04765, 04777, 04841, 04843, 04847, 04848, 04849, 04851, 04852, 04853, 04854, 04856, 04858, 04859, 04860, 04861, 04862, 04863, 04864, 04901, 04903, 04910, 04911, 04912, 04915, 04917, 04918, 04920, 04921, 04922, 04923, 04924, 04925, 04926, 04927, 04928, 04929, 04930, 04932, 04933, 04936, 04937, 04938, 04939, 04941, 04942, 04943, 04944, 04945, 04947, 04949, 04950, 04951, 04952, 04953, 04955, 04956, 04957, 04958, 04961, 04963, 04964, 04965, 04966, 04967, 04969, 04970, 04971, 04973, 04974, 04975, 04976, 04978, 04979, 04981, 04982, 04983, 04984, 04985, 04986, 04987, 04988, 04989, 04992</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-567-portland-me">Local 567 (Portland, ME) &middot; 51 mi</a><a href="ibew-local-490-dover-nh">Local 490 (Dover, NH) &middot; 94 mi</a><a href="ibew-local-300-montpelier-vt">Local 300 (Montpelier, VT) &middot; 138 mi</a><a href="ibew-local-103-boston-ma">Local 103 (Boston, MA) &middot; 149 mi</a><a href="ibew-local-223-brockton-ma">Local 223 (Brockton, MA) &middot; 166 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 1253, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

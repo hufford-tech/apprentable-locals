@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 7 Apprenticeship — Springfield, MA | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 7 in Springfield, MA serves 837,959 people across 5 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-7-springfield-ma">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 7 Apprenticeship — Springfield, MA | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 7 in Springfield, MA serves 837,959 people across 5 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-7-springfield-ma.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 7 Apprenticeship — Springfield, MA | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 7 in Springfield, MA serves 837,959 people across 5 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 7 Inside Wireman Apprenticeship", "description": "IBEW Local 7 in Springfield, MA serves 837,959 people across 5 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 7 (Springfield Electrical JATC)", "url": "https://www.ibewlocal7.com"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "5 counties served by IBEW Local 7, headquartered in Springfield, MA"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://local7jatc.com/applying-and-qualifying-for-an-apprenticeship/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "7", "state": "MA", "status": "closed_pending", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "7", "city": "Springfield", "state": "MA", "slug": "ibew-local-7-springfield-ma"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 7" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Springfield, MA" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 7</h1>
+  <div class="sub">Springfield, MA &middot; Springfield Electrical JATC</div>
+
+  <div class="statusband d-opens_date"><div class="slabel"><span class="dot" aria-hidden="true">▲</span>Opens September 1, 2026</div><div class="snote">A future window is posted. Get notified when it opens.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=7" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 7" onclick="track('prep_cta_clicked',{lu_number:'7',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 7 tests: Aptitude test required; score of 4 or better on 1-9 scale to qualify for oral interview</div><div class="notifybox" id="notifybox-7"><label for="nem-7" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 7 opens</label><input id="nem-7" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 7 application alerts"><input id="nhp-7" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('7')">Notify me</button><div class="fine" id="notifyfine-7" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$81.72/hr</b><span>Journeyman rate</span>
+      <small>Davis-Bacon WD MA20260003 &middot; Worcester County, MA</small></div>
+    <div class="cell"><b>$14.29/hr national average</b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b>September 1, 2026 <small>(in 12 days)</small></b><span>Next application window</span></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Annual intake</span></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>17, High School Education or GED</b></div>
+
+  
+
+  <h2>Journeyman scale</h2><div class="row"><span>Base wage</span><b>$52.16/hr</b></div><div class="row"><span>Fringe benefits</span><b>$29.56/hr</b></div><div class="row"><span>Total package</span><b>$81.72/hr</b></div><div class="snote">Effective May 18, 2026. Source: <a href="https://sam.gov/wage-determination/MA20260003/1" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination MA20260003</a>. Classification: ELECTRICIAN (HAMPDEN (EXCEPT CHESTER &amp; HOLYOKE); HAMPSHIRE (BELCHERTOWN, WARE)) ELEC0007-002.</div><div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div><h2>Apprentice wage</h2><div class="row"><span>National average benchmark</span><b>$14.29/hr</b></div><div class="snote">Local-specific apprentice wage data is not currently available for this local. This national average is based on 152 locals with apprentice wage data and is not a local rate. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>17</b></div><div class="row"><span>Education</span><b>High School Education or GED</b></div><div class="row"><span>Aptitude test</span><b>Aptitude test required; score of 4 or better on 1-9 scale to qualify for oral interview</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://local7jatc.com/applying-and-qualifying-for-an-apprenticeship/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'7',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlocal7.com" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'7',link_type:'site',surface:'static'})">www.ibewlocal7.com</a></b></div><div class="row"><span>Phone</span><b><a href="tel:4137372253" onclick="track('outbound_local_click',{lu_number:'7',link_type:'phone',surface:'static'})">(413) 737-2253</a></b></div><div class="row"><span>Email</span><b><a href="mailto:TD@local7jatc.com">TD@local7jatc.com</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Monday, 6 pm</b></div>
+
+  <h2>Counties served (5)</h2>
+  <div class="counties">Worcester County, MA &middot; Hampden County, MA &middot; Hampshire County, MA &middot; Berkshire County, MA &middot; Franklin County, MA</div>
+
+  <h2>ZIP codes served (218)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">01001, 01002, 01003, 01004, 01005, 01007, 01008, 01009, 01010, 01011, 01012, 01013, 01014, 01020, 01021, 01022, 01026, 01027, 01028, 01029, 01030, 01031, 01032, 01033, 01034, 01035, 01036, 01037, 01038, 01039, 01040, 01041, 01050, 01053, 01054, 01056, 01057, 01060, 01061, 01062, 01066, 01068, 01069, 01070, 01071, 01072, 01073, 01075, 01077, 01080, 01081, 01082, 01083, 01084, 01085, 01086, 01088, 01089, 01090, 01095, 01096, 01098, 01101, 01103, 01104, 01105, 01106, 01107, 01108, 01109, 01116, 01118, 01119, 01128, 01129, 01138, 01139, 01151, 01201, 01202, 01220, 01222, 01223, 01224, 01225, 01226, 01227, 01230, 01235, 01236, 01237, 01238, 01240, 01245, 01247, 01253, 01254, 01255, 01256, 01257, 01258, 01259, 01266, 01267, 01270, 01301, 01302, 01330, 01331, 01337, 01338, 01339, 01340, 01341, 01342, 01343, 01344, 01346, 01349, 01350, 01351, 01354, 01355, 01360, 01364, 01366, 01367, 01368, 01370, 01373, 01375, 01376, 01378, 01379, 01380, 01420, 01430, 01431, 01434, 01436, 01438, 01440, 01451, 01452, 01453, 01462, 01468, 01473, 01475, 01501, 01503, 01504, 01505, 01506, 01507, 01508, 01509, 01510, 01515, 01516, 01518, 01519, 01520, 01521, 01522, 01523, 01524, 01525, 01527, 01529, 01531, 01532, 01534, 01535, 01536, 01537, 01538, 01540, 01541, 01542, 01543, 01545, 01550, 01560, 01562, 01564, 01566, 01568, 01569, 01570, 01571, 01581, 01583, 01585, 01586, 01588, 01590, 01602, 01603, 01604, 01605, 01606, 01607, 01608, 01609, 01610, 01611, 01612, 01613, 01740, 01745, 01747, 01748, 01749, 01752, 01756, 01757, 01772</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-35-hartford-ct">Local 35 (Hartford, CT) &middot; 24 mi</a><a href="ibew-local-96-worcester-ma">Local 96 (Worcester, MA) &middot; 42 mi</a><a href="ibew-local-90-new-haven-ct">Local 90 (New Haven, CT) &middot; 58 mi</a><a href="ibew-local-99-providence-ri">Local 99 (Providence, RI) &middot; 63 mi</a><a href="ibew-local-488-bridgeport-ct">Local 488 (Bridgeport, CT) &middot; 71 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 7, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

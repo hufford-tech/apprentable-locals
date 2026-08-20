@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 363 Apprenticeship — New City, NY | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 363 in New City, NY serves 1,457,876 people across 8 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-363-new-city-ny">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 363 Apprenticeship — New City, NY | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 363 in New City, NY serves 1,457,876 people across 8 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-363-new-city-ny.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 363 Apprenticeship — New City, NY | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 363 in New City, NY serves 1,457,876 people across 8 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 363 Inside Wireman Apprenticeship", "description": "IBEW Local 363 in New City, NY serves 1,457,876 people across 8 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 363 (Apprentice Program)", "url": "https://www.ibewlu363.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "8 counties served by IBEW Local 363, headquartered in New City, NY"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "363", "state": "NY", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "363", "city": "New City", "state": "NY", "slug": "ibew-local-363-new-city-ny"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 363" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="New City, NY" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 363</h1>
+  <div class="sub">New City, NY &middot; Apprentice Program</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=363" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 363" onclick="track('prep_cta_clicked',{lu_number:'363',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-363"><label for="nem-363" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 363 opens</label><input id="nem-363" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 363 application alerts"><input id="nhp-363" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('363')">Notify me</button><div class="fine" id="notifyfine-363" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$14.29/hr national average</b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 60</b><span>Estimated annual intake</span><small>Rough estimate based on DOL-registered programs serving similarly sized jurisdictions. Intake varies widely between locals and year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>National average benchmark</span><b>$14.29/hr</b></div><div class="snote">Local-specific apprentice wage data is not currently available for this local. This national average is based on 152 locals with apprentice wage data and is not a local rate. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b class="muted">Not published</b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlu363.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'363',link_type:'site',surface:'static'})">www.ibewlu363.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:8452348540" onclick="track('outbound_local_click',{lu_number:'363',link_type:'phone',surface:'static'})">(845) 234-8540</a></b></div><div class="row"><span>Email</span><b><a href="mailto:office363@ibewlu363.org">office363@ibewlu363.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">4th Tuesday, 5 pm</b></div>
+
+  <h2>Counties served (8)</h2>
+  <div class="counties">Orange County, NY &middot; Rockland County, NY &middot; Dutchess County, NY &middot; Ulster County, NY &middot; Putnam County, NY &middot; Sullivan County, NY &middot; Greene County, NY &middot; Delaware County, NY</div>
+
+  <h2>ZIP codes served (312)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">10505, 10509, 10512, 10516, 10524, 10537, 10541, 10542, 10560, 10567, 10579, 10588, 10901, 10910, 10911, 10912, 10913, 10914, 10915, 10916, 10917, 10918, 10919, 10920, 10921, 10922, 10923, 10924, 10925, 10926, 10927, 10928, 10930, 10931, 10932, 10933, 10940, 10941, 10949, 10950, 10952, 10953, 10954, 10956, 10958, 10960, 10962, 10963, 10964, 10965, 10968, 10969, 10970, 10973, 10974, 10975, 10976, 10977, 10980, 10981, 10982, 10983, 10984, 10985, 10986, 10987, 10988, 10989, 10990, 10992, 10993, 10994, 10996, 10998, 12015, 12042, 12046, 12051, 12058, 12083, 12087, 12093, 12120, 12124, 12143, 12155, 12167, 12176, 12192, 12401, 12402, 12404, 12405, 12406, 12407, 12409, 12410, 12411, 12412, 12413, 12414, 12416, 12417, 12418, 12419, 12420, 12421, 12422, 12423, 12424, 12427, 12428, 12429, 12430, 12431, 12432, 12433, 12434, 12435, 12436, 12438, 12439, 12440, 12441, 12442, 12443, 12444, 12446, 12448, 12449, 12450, 12451, 12453, 12454, 12455, 12456, 12457, 12458, 12459, 12460, 12461, 12463, 12464, 12465, 12466, 12468, 12469, 12470, 12471, 12472, 12473, 12474, 12475, 12477, 12480, 12481, 12482, 12483, 12484, 12485, 12486, 12487, 12489, 12490, 12491, 12492, 12493, 12494, 12495, 12496, 12498, 12501, 12507, 12508, 12512, 12514, 12515, 12518, 12520, 12522, 12524, 12525, 12527, 12528, 12531, 12533, 12538, 12540, 12542, 12543, 12545, 12546, 12547, 12548, 12549, 12550, 12551, 12552, 12553, 12555, 12561, 12563, 12564, 12566, 12567, 12569, 12570, 12571, 12572, 12574, 12575, 12577, 12578, 12580, 12581, 12582, 12583, 12584, 12585, 12586, 12589, 12590, 12592, 12594, 12601, 12602, 12603, 12701, 12719, 12720, 12721, 12722, 12723, 12724, 12725, 12726, 12729, 12732, 12733, 12734, 12736, 12737, 12738, 12740, 12741, 12742, 12743, 12745, 12746, 12747, 12748, 12749, 12750, 12751, 12752, 12754, 12758, 12759, 12760, 12762, 12763, 12764, 12765, 12766, 12767, 12768, 12770, 12771, 12775, 12776, 12777, 12778, 12779, 12780, 12783, 12785, 12786, 12787, 12788, 12789, 12790, 12791, 12792, 13731, 13733, 13739, 13740, 13750, 13751, 13752, 13753, 13754, 13755, 13756, 13757, 13774, 13775, 13782, 13783, 13786, 13788, 13804, 13806, 13820, 13825, 13838, 13839, 13842, 13846, 13849, 13856, 13860</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-102-paterson-nj">Local 102 (Paterson, NJ) &middot; 19 mi</a><a href="ibew-local-164-jersey-city-nj">Local 164 (Jersey City, NJ) &middot; 29 mi</a><a href="ibew-local-3-new-york-ny">Local 3 (New York, NY) &middot; 30 mi</a><a href="ibew-local-488-bridgeport-ct">Local 488 (Bridgeport, CT) &middot; 41 mi</a><a href="ibew-local-25-long-island-ny">Local 25 (Long Island, NY) &middot; 51 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 363, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

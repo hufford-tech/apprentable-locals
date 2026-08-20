@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 265 Apprenticeship — Lincoln, NE | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 265 in Lincoln, NE serves 932,878 people across 75 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-265-lincoln-ne">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 265 Apprenticeship — Lincoln, NE | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 265 in Lincoln, NE serves 932,878 people across 75 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-265-lincoln-ne.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 265 Apprenticeship — Lincoln, NE | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 265 in Lincoln, NE serves 932,878 people across 75 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 265 Inside Wireman Apprenticeship", "description": "IBEW Local 265 in Lincoln, NE serves 932,878 people across 75 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 265 (Lincoln JATC)", "url": "https://www.ibew265.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "75 counties served by IBEW Local 265, headquartered in Lincoln, NE"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.ibew265.org/index.cfm?zone=/unionactive/view_article.cfm&HomeID=221903&page=Training"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "265", "state": "NE", "status": "rolling", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "265", "city": "Lincoln", "state": "NE", "slug": "ibew-local-265-lincoln-ne"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 265" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Lincoln, NE" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 265</h1>
+  <div class="sub">Lincoln, NE &middot; Lincoln JATC</div>
+
+  <div class="statusband d-always"><div class="slabel"><span class="dot" aria-hidden="true">◆</span>Always accepting</div><div class="snote">This local takes applications year-round or on a repeating schedule.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=265" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 265" onclick="track('prep_cta_clicked',{lu_number:'265',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-265"><label for="nem-265" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 265 opens</label><input id="nem-265" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 265 application alerts"><input id="nhp-265" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('265')">Notify me</button><div class="fine" id="notifyfine-265" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$13.79/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 168 records</small></div>
+    <div class="cell"><b>Always accepting</b><span>Next application window</span></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Annual intake</span></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$13.79/hr</b></div><div class="row"><span>Observed registration wages</span><b>$10.49–$21.00/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 168 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.ibew265.org/index.cfm?zone=/unionactive/view_article.cfm&amp;HomeID=221903&amp;page=Training" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'265',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew265.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'265',link_type:'site',surface:'static'})">www.ibew265.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:4024234519" onclick="track('outbound_local_click',{lu_number:'265',link_type:'phone',surface:'static'})">(402) 423-4519</a></b></div><div class="row"><span>Email</span><b><a href="mailto:info@ibew265.org">info@ibew265.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Wednesday, 6 pm</b></div>
+
+  <h2>Counties served (75)</h2>
+  <div class="counties">Lancaster County, NE &middot; Hall County, NE &middot; Buffalo County, NE &middot; Scotts Bluff County, NE &middot; Lincoln County, NE &middot; Adams County, NE &middot; Dawson County, NE &middot; Saunders County, NE &middot; Gage County, NE &middot; Seward County, NE &middot; Otoe County, NE &middot; Saline County, NE &middot; York County, NE &middot; Box Butte County, NE &middot; Custer County, NE &middot; Red Willow County, NE &middot; Holt County, NE &middot; Cheyenne County, NE &middot; Hamilton County, NE &middot; Phelps County, NE &middot; Butler County, NE &middot; Keith County, NE &middot; Dawes County, NE &middot; Merrick County, NE &middot; Richardson County, NE &middot; Jefferson County, NE &middot; Nemaha County, NE &middot; Kearney County, NE &middot; Howard County, NE &middot; Antelope County, NE &middot; Clay County, NE &middot; Cherry County, NE &middot; Fillmore County, NE &middot; Boone County, NE &middot; Polk County, NE &middot; Johnson County, NE &middot; Sheridan County, NE &middot; Thayer County, NE &middot; Morrill County, NE &middot; Furnas County, NE &middot; Nuckolls County, NE &middot; Valley County, NE &middot; Chase County, NE &middot; Webster County, NE &middot; Kimball County, NE &middot; Nance County, NE &middot; Harlan County, NE &middot; Sherman County, NE &middot; Brown County, NE &middot; Franklin County, NE &middot; Perkins County, NE &middot; Frontier County, NE &middot; Pawnee County, NE &middot; Hitchcock County, NE &middot; Greeley County, NE &middot; Deuel County, NE &middot; Gosper County, NE &middot; Garden County, NE &middot; Garfield County, NE &middot; Boyd County, NE &middot; Dundy County, NE &middot; Rock County, NE &middot; Sioux County, NE &middot; Hayes County, NE &middot; Keya Paha County, NE &middot; Wheeler County, NE &middot; Hooker County, NE &middot; Logan County, NE &middot; Banner County, NE &middot; Thomas County, NE &middot; Loup County, NE &middot; Grant County, NE &middot; Blaine County, NE &middot; Arthur County, NE &middot; McPherson County, NE</div>
+
+  <h2>ZIP codes served (451)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">68001, 68003, 68014, 68015, 68017, 68018, 68025, 68033, 68036, 68040, 68041, 68042, 68050, 68064, 68065, 68066, 68070, 68073, 68301, 68303, 68305, 68307, 68309, 68310, 68313, 68314, 68315, 68316, 68317, 68318, 68319, 68320, 68321, 68322, 68323, 68324, 68325, 68326, 68327, 68328, 68329, 68330, 68331, 68332, 68333, 68335, 68336, 68337, 68338, 68339, 68340, 68341, 68342, 68343, 68344, 68345, 68346, 68347, 68348, 68350, 68351, 68352, 68354, 68355, 68357, 68358, 68359, 68360, 68361, 68362, 68364, 68365, 68366, 68367, 68368, 68370, 68371, 68372, 68375, 68376, 68377, 68378, 68379, 68380, 68381, 68382, 68401, 68402, 68404, 68405, 68406, 68410, 68413, 68414, 68415, 68416, 68417, 68418, 68419, 68420, 68421, 68422, 68423, 68424, 68428, 68429, 68430, 68431, 68433, 68434, 68436, 68437, 68438, 68439, 68440, 68441, 68442, 68443, 68444, 68445, 68446, 68447, 68448, 68450, 68452, 68453, 68454, 68455, 68456, 68457, 68458, 68460, 68461, 68462, 68464, 68465, 68466, 68467, 68501, 68502, 68503, 68504, 68505, 68506, 68507, 68508, 68510, 68512, 68514, 68516, 68517, 68520, 68521, 68522, 68523, 68524, 68526, 68527, 68528, 68529, 68531, 68532, 68542, 68601, 68620, 68622, 68623, 68624, 68626, 68627, 68628, 68632, 68635, 68636, 68637, 68638, 68640, 68648, 68651, 68652, 68654, 68655, 68658, 68660, 68662, 68663, 68665, 68666, 68667, 68669, 68711, 68713, 68714, 68719, 68720, 68722, 68725, 68726, 68729, 68734, 68735, 68742, 68746, 68753, 68755, 68756, 68758, 68759, 68761, 68763, 68764, 68766, 68769, 68773, 68777, 68778, 68780, 68781, 68801, 68802, 68803, 68810, 68812, 68813, 68814, 68815, 68816, 68817, 68818, 68820, 68821, 68822, 68823, 68824, 68825, 68826, 68827, 68828, 68831, 68832, 68833, 68834, 68835, 68836, 68837, 68838, 68840, 68841, 68842, 68843, 68844, 68845, 68846, 68847, 68848, 68850, 68852, 68853, 68854, 68855, 68856, 68858, 68859, 68860, 68861, 68862, 68863, 68864, 68865, 68866, 68869, 68870, 68871, 68872, 68873, 68874, 68875, 68876, 68878, 68879, 68881, 68882, 68883, 68901, 68902, 68920, 68922, 68923, 68924, 68925, 68926, 68927, 68928, 68929, 68930, 68932, 68933, 68934, 68935, 68936, 68937, 68938, 68939, 68940, 68941, 68942, 68943, 68944, 68945, 68946, 68947, 68948, 68949, 68950, 68952, 68954, 68955, 68956, 68957, 68958, 68959, 68960, 68961, 68964, 68966, 68967, 68969, 68970, 68971, 68972, 68973, 68974, 68975, 68976, 68977, 68978, 68979, 68980, 68981, 68982, 69001, 69020, 69021, 69022, 69023, 69024, 69025, 69026, 69027, 69028, 69029, 69030, 69032, 69033, 69034, 69036, 69037, 69038, 69039, 69040, 69041, 69042, 69043, 69044, 69045, 69046, 69101, 69103, 69120, 69121, 69122, 69123, 69125, 69127, 69128, 69129, 69130, 69131, 69132, 69133, 69134, 69135, 69138, 69140, 69141, 69142, 69143, 69144, 69145, 69146, 69147, 69148, 69149, 69150, 69151, 69152, 69153, 69154, 69155, 69156, 69157, 69161, 69162, 69163, 69165, 69166, 69167, 69168, 69169, 69170, 69171, 69201, 69210, 69211, 69212, 69214, 69216, 69217, 69218, 69219, 69220, 69221, 69301, 69331, 69333, 69334, 69335, 69336, 69337, 69339, 69340, 69341, 69343, 69345, 69346, 69347, 69348, 69350, 69351, 69352, 69354, 69355, 69356, 69357, 69358, 69360, 69361, 69363, 69365, 69366, 69367</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-22-omaha-ne">Local 22 (Omaha, NE) &middot; 50 mi</a><a href="ibew-local-231-sioux-city-ia">Local 231 (Sioux City, IA) &middot; 118 mi</a><a href="ibew-local-545-st-joseph-mo">Local 545 (St. Joseph, MO) &middot; 122 mi</a><a href="ibew-local-226-topeka-ks">Local 226 (Topeka, KS) &middot; 134 mi</a><a href="ibew-local-124-kansas-city-mo">Local 124 (Kansas City, MO) &middot; 163 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 265, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

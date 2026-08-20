@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 602 Apprenticeship — Amarillo, TX | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 602 in Amarillo, TX serves 1,451,558 people across 67 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-602-amarillo-tx">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 602 Apprenticeship — Amarillo, TX | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 602 in Amarillo, TX serves 1,451,558 people across 67 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-602-amarillo-tx.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 602 Apprenticeship — Amarillo, TX | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 602 in Amarillo, TX serves 1,451,558 people across 67 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 602 Inside Wireman Apprenticeship", "description": "IBEW Local 602 in Amarillo, TX serves 1,451,558 people across 67 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 602 (West Texas Electrical JATC)", "url": "https://www.ibew602.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "67 counties served by IBEW Local 602, headquartered in Amarillo, TX"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://wtxjatc.org/applicants"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "602", "state": "TX", "status": "rolling", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "602", "city": "Amarillo", "state": "TX", "slug": "ibew-local-602-amarillo-tx"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 602" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Amarillo, TX" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 602</h1>
+  <div class="sub">Amarillo, TX &middot; West Texas Electrical JATC</div>
+
+  <div class="statusband d-always"><div class="slabel"><span class="dot" aria-hidden="true">◆</span>Always accepting</div><div class="snote">This local takes applications year-round or on a repeating schedule.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=602" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 602" onclick="track('prep_cta_clicked',{lu_number:'602',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 602 tests: electrical training ALLIANCE aptitude test; minimum passing score of 5 required (except for Direct Entry applicants)</div><div class="notifybox" id="notifybox-602"><label for="nem-602" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 602 opens</label><input id="nem-602" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 602 application alerts"><input id="nhp-602" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('602')">Notify me</button><div class="fine" id="notifyfine-602" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$38.70–$42.14/hr</b><span>Journeyman rate</span>
+      <small>Davis-Bacon WD TX20260228 &middot; Lubbock County, TX</small></div>
+    <div class="cell"><b>$13.24/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 356 records</small></div>
+    <div class="cell"><b>Always accepting</b><span>Next application window</span></div>
+    <div class="cell est"><b>about 60</b><span>Estimated annual intake</span><small>Rough estimate based on DOL-registered programs serving similarly sized jurisdictions. Intake varies widely between locals and year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>18, High school diploma, GED/Certificate of High School Equivalency, or two-year Associate Degree or higher</b></div>
+
+  
+
+  <h2>Journeyman scale</h2><div class="row"><span>Base wage</span><b>$26.07–$29.41/hr</b></div><div class="row"><span>Fringe benefits</span><b>$12.63–$12.73/hr</b></div><div class="row"><span>Total package</span><b>$38.70–$42.14/hr</b></div><div class="snote">Effective January 2, 2026. Source: <a href="https://sam.gov/wage-determination/TX20260228/0" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination TX20260228</a>. Classification: ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms) ELEC0602-007.</div><div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div><h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$13.24/hr</b></div><div class="row"><span>Observed registration wages</span><b>$8.54–$26.33/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 356 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>18</b></div><div class="row"><span>Education</span><b>High school diploma, GED/Certificate of High School Equivalency, or two-year Associate Degree or higher</b></div><div class="row"><span>Aptitude test</span><b>electrical training ALLIANCE aptitude test; minimum passing score of 5 required (except for Direct Entry applicants)</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://wtxjatc.org/applicants" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'602',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew602.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'602',link_type:'site',surface:'static'})">www.ibew602.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:8063721581" onclick="track('outbound_local_click',{lu_number:'602',link_type:'phone',surface:'static'})">(806) 372-1581</a></b></div><div class="row"><span>Email</span><b><a href="mailto:admin@wtxjatc.org">admin@wtxjatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">2nd Wednesday, 7:30 pm</b></div>
+
+  <h2>Counties served (67)</h2>
+  <div class="counties">Lubbock County, TX &middot; Midland County, TX &middot; Ector County, TX &middot; Randall County, TX &middot; Potter County, TX &middot; Hale County, TX &middot; Howard County, TX &middot; Gaines County, TX &middot; Moore County, TX &middot; Hockley County, TX &middot; Gray County, TX &middot; Texas County, OK &middot; Hutchinson County, TX &middot; Andrews County, TX &middot; Deaf Smith County, TX &middot; Scurry County, TX &middot; Pecos County, TX &middot; Lamb County, TX &middot; Reeves County, TX &middot; Dawson County, TX &middot; Terry County, TX &middot; Ward County, TX &middot; Ochiltree County, TX &middot; Parmer County, TX &middot; Brewster County, TX &middot; Mitchell County, TX &middot; Yoakum County, TX &middot; Dallam County, TX &middot; Winkler County, TX &middot; Castro County, TX &middot; Bailey County, TX &middot; Swisher County, TX &middot; Lynn County, TX &middot; Carson County, TX &middot; Presidio County, TX &middot; Martin County, TX &middot; Floyd County, TX &middot; Crosby County, TX &middot; Beaver County, OK &middot; Hansford County, TX &middot; Hartley County, TX &middot; Wheeler County, TX &middot; Garza County, TX &middot; Crane County, TX &middot; Fisher County, TX &middot; Donley County, TX &middot; Reagan County, TX &middot; Hemphill County, TX &middot; Upton County, TX &middot; Lipscomb County, TX &middot; Crockett County, TX &middot; Sherman County, TX &middot; Collingsworth County, TX &middot; Cochran County, TX &middot; Cimarron County, OK &middot; Oldham County, TX &middot; Armstrong County, TX &middot; Jeff Davis County, TX &middot; Dickens County, TX &middot; Briscoe County, TX &middot; Glasscock County, TX &middot; Motley County, TX &middot; Roberts County, TX &middot; Terrell County, TX &middot; Kent County, TX &middot; Borden County, TX &middot; Loving County, TX</div>
+
+  <h2>ZIP codes served (271)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">73844, 73848, 73931, 73932, 73933, 73937, 73938, 73939, 73942, 73944, 73945, 73946, 73947, 73949, 73950, 73951, 73960, 76932, 76943, 78851, 79001, 79002, 79003, 79005, 79007, 79008, 79009, 79010, 79011, 79012, 79013, 79014, 79015, 79018, 79019, 79022, 79024, 79027, 79029, 79031, 79032, 79033, 79034, 79035, 79036, 79039, 79040, 79041, 79042, 79043, 79044, 79045, 79046, 79051, 79052, 79056, 79057, 79058, 79059, 79061, 79062, 79063, 79064, 79065, 79066, 79068, 79070, 79072, 79073, 79078, 79079, 79080, 79081, 79082, 79083, 79084, 79085, 79086, 79087, 79088, 79091, 79092, 79093, 79094, 79095, 79096, 79097, 79098, 79101, 79102, 79103, 79104, 79105, 79106, 79107, 79108, 79109, 79110, 79111, 79114, 79116, 79117, 79118, 79119, 79120, 79121, 79124, 79159, 79201, 79220, 79221, 79226, 79229, 79230, 79234, 79235, 79237, 79240, 79241, 79243, 79244, 79245, 79250, 79251, 79255, 79256, 79257, 79258, 79261, 79311, 79312, 79313, 79314, 79316, 79322, 79323, 79324, 79325, 79326, 79329, 79330, 79331, 79336, 79339, 79342, 79343, 79344, 79345, 79346, 79347, 79350, 79351, 79353, 79355, 79356, 79357, 79358, 79359, 79360, 79363, 79364, 79366, 79367, 79370, 79371, 79372, 79373, 79376, 79377, 79381, 79382, 79401, 79403, 79404, 79407, 79408, 79409, 79410, 79411, 79412, 79413, 79414, 79415, 79416, 79423, 79424, 79452, 79453, 79464, 79490, 79493, 79499, 79511, 79512, 79517, 79518, 79520, 79526, 79527, 79528, 79532, 79534, 79543, 79545, 79546, 79549, 79556, 79560, 79561, 79565, 79701, 79702, 79703, 79704, 79705, 79706, 79707, 79708, 79710, 79712, 79713, 79714, 79718, 79719, 79720, 79730, 79731, 79733, 79734, 79735, 79738, 79739, 79740, 79741, 79742, 79743, 79744, 79745, 79748, 79749, 79752, 79755, 79756, 79758, 79759, 79760, 79761, 79762, 79763, 79764, 79765, 79766, 79768, 79769, 79770, 79772, 79777, 79778, 79781, 79782, 79783, 79785, 79789, 79830, 79842, 79843, 79845, 79846, 79848, 79852, 79854</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-681-wichita-falls-tx">Local 681 (Wichita Falls, TX) &middot; 210 mi</a><a href="ibew-local-1141-oklahoma-city-ok">Local 1141 (Oklahoma City, OK) &middot; 244 mi</a><a href="ibew-local-12-pueblo-co">Local 12 (Pueblo, CO) &middot; 260 mi</a><a href="ibew-local-611-albuquerque-nm">Local 611 (Albuquerque, NM) &middot; 272 mi</a><a href="ibew-local-661-hutchinson-ks">Local 661 (Hutchinson, KS) &middot; 292 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 602, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

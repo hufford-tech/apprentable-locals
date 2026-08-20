@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 143 Apprenticeship — Harrisburg, PA | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 143 in Harrisburg, PA serves 1,235,992 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-143-harrisburg-pa">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 143 Apprenticeship — Harrisburg, PA | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 143 in Harrisburg, PA serves 1,235,992 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-143-harrisburg-pa.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 143 Apprenticeship — Harrisburg, PA | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 143 in Harrisburg, PA serves 1,235,992 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 143 Inside Wireman Apprenticeship", "description": "IBEW Local 143 in Harrisburg, PA serves 1,235,992 people across 12 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 143", "url": "https://www.ibewlocal143.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "12 counties served by IBEW Local 143, headquartered in Harrisburg, PA"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://ibewlocal143.org/apprentice/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "143", "state": "PA", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "143", "city": "Harrisburg", "state": "PA", "slug": "ibew-local-143-harrisburg-pa"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 143" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Harrisburg, PA" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 143</h1>
+  <div class="sub">Harrisburg, PA</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=143" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 143" onclick="track('prep_cta_clicked',{lu_number:'143',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-143"><label for="nem-143" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 143 opens</label><input id="nem-143" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 143 application alerts"><input id="nhp-143" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('143')">Notify me</button><div class="fine" id="notifyfine-143" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$11.93/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 194 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 60</b><span>Estimated annual intake</span><small>Rough estimate based on DOL-registered programs serving similarly sized jurisdictions. Intake varies widely between locals and year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$11.93/hr</b></div><div class="row"><span>Observed registration wages</span><b>$9.37–$24.00/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 194 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://ibewlocal143.org/apprentice/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'143',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlocal143.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'143',link_type:'site',surface:'static'})">www.ibewlocal143.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:6104922650" onclick="track('outbound_local_click',{lu_number:'143',link_type:'phone',surface:'static'})">(610) 492-2650</a></b></div><div class="row"><span>Email</span><b><a href="mailto:info@ibewlocal143.org">info@ibewlocal143.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Monday, 7:30 pm</b></div>
+
+  <h2>Counties served (12)</h2>
+  <div class="counties">Lancaster County, PA &middot; York County, PA &middot; Berks County, PA &middot; Dauphin County, PA &middot; Cumberland County, PA &middot; Franklin County, PA &middot; Lebanon County, PA &middot; Schuylkill County, PA &middot; Perry County, PA &middot; Mifflin County, PA &middot; Snyder County, PA &middot; Juniata County, PA</div>
+
+  <h2>ZIP codes served (366)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">17001, 17002, 17003, 17004, 17005, 17006, 17007, 17009, 17010, 17011, 17013, 17014, 17015, 17016, 17017, 17018, 17019, 17020, 17021, 17022, 17023, 17024, 17025, 17026, 17027, 17028, 17029, 17030, 17032, 17033, 17034, 17035, 17036, 17037, 17038, 17039, 17040, 17041, 17042, 17043, 17044, 17045, 17046, 17047, 17048, 17049, 17050, 17051, 17053, 17055, 17056, 17057, 17058, 17059, 17060, 17061, 17062, 17063, 17064, 17065, 17066, 17067, 17068, 17069, 17070, 17072, 17073, 17074, 17076, 17077, 17078, 17080, 17082, 17083, 17084, 17086, 17087, 17088, 17090, 17093, 17094, 17097, 17098, 17099, 17101, 17102, 17103, 17104, 17105, 17106, 17108, 17109, 17110, 17111, 17112, 17113, 17201, 17202, 17210, 17213, 17214, 17217, 17219, 17220, 17221, 17222, 17224, 17225, 17231, 17232, 17233, 17235, 17236, 17237, 17240, 17241, 17243, 17244, 17246, 17250, 17251, 17252, 17254, 17256, 17257, 17262, 17263, 17265, 17266, 17268, 17271, 17301, 17302, 17307, 17309, 17313, 17314, 17315, 17316, 17317, 17318, 17319, 17321, 17322, 17323, 17324, 17327, 17329, 17331, 17339, 17342, 17345, 17347, 17349, 17352, 17355, 17356, 17360, 17361, 17362, 17363, 17364, 17365, 17366, 17368, 17370, 17371, 17372, 17401, 17402, 17403, 17404, 17405, 17406, 17407, 17408, 17501, 17502, 17504, 17505, 17506, 17507, 17508, 17509, 17512, 17516, 17517, 17518, 17519, 17520, 17522, 17527, 17529, 17532, 17534, 17535, 17536, 17538, 17540, 17543, 17545, 17547, 17550, 17551, 17552, 17554, 17555, 17557, 17560, 17562, 17563, 17565, 17566, 17567, 17568, 17569, 17572, 17576, 17578, 17579, 17580, 17581, 17582, 17584, 17601, 17602, 17603, 17604, 17605, 17608, 17812, 17813, 17823, 17827, 17831, 17841, 17842, 17844, 17853, 17861, 17862, 17864, 17870, 17876, 17889, 17901, 17921, 17922, 17923, 17925, 17929, 17930, 17931, 17933, 17934, 17935, 17936, 17938, 17941, 17943, 17945, 17948, 17949, 17951, 17952, 17953, 17954, 17957, 17959, 17960, 17961, 17963, 17964, 17965, 17967, 17968, 17970, 17972, 17974, 17976, 17978, 17979, 17980, 17981, 17982, 17983, 17985, 18011, 18031, 18041, 18056, 18062, 18070, 18092, 18202, 18211, 18214, 18218, 18220, 18231, 18237, 18240, 18241, 18242, 18245, 18248, 18249, 18252, 19310, 19344, 19362, 19363, 19405, 19464, 19501, 19503, 19504, 19505, 19506, 19507, 19508, 19510, 19512, 19516, 19518, 19520, 19522, 19523, 19525, 19526, 19529, 19530, 19533, 19534, 19535, 19536, 19538, 19539, 19540, 19541, 19543, 19544, 19547, 19549, 19550, 19551, 19554, 19555, 19559, 19560, 19562, 19564, 19565, 19567, 19601, 19602, 19603, 19604, 19605, 19606, 19607, 19608, 19609, 19610, 19611, 19612</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-229-york-pa">Local 229 (York, PA) &middot; 23 mi</a><a href="ibew-local-607-shamokin-pa">Local 607 (Shamokin, PA) &middot; 40 mi</a><a href="ibew-local-743-reading-pa">Local 743 (Reading, PA) &middot; 51 mi</a><a href="ibew-local-812-williamsport-pa">Local 812 (Williamsport, PA) &middot; 67 mi</a><a href="ibew-local-24-baltimore-md">Local 24 (Baltimore, MD) &middot; 69 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 143, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

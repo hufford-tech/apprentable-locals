@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 466 Apprenticeship — Charleston, WV | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 466 in Charleston, WV serves 773,143 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-466-charleston-wv">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 466 Apprenticeship — Charleston, WV | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 466 in Charleston, WV serves 773,143 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-466-charleston-wv.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 466 Apprenticeship — Charleston, WV | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 466 in Charleston, WV serves 773,143 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 466 Inside Wireman Apprenticeship", "description": "IBEW Local 466 in Charleston, WV serves 773,143 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 466 (Charleston Electrical JATC)", "url": "https://www.ibew466.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "26 counties served by IBEW Local 466, headquartered in Charleston, WV"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.ibew466.org/?zone=/unionactive/view_page.cfm&page=Apprenticeship"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "466", "state": "WV", "status": "closed_pending", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "466", "city": "Charleston", "state": "WV", "slug": "ibew-local-466-charleston-wv"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 466" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Charleston, WV" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 466</h1>
+  <div class="sub">Charleston, WV &middot; Charleston Electrical JATC</div>
+
+  <div class="statusband d-opens_date"><div class="slabel"><span class="dot" aria-hidden="true">▲</span>Opens January 4, 2027</div><div class="snote">A future window is posted. Get notified when it opens.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=466" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 466" onclick="track('prep_cta_clicked',{lu_number:'466',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 466 tests: Qualifying Score on an Aptitude Test</div><div class="notifybox" id="notifybox-466"><label for="nem-466" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 466 opens</label><input id="nem-466" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 466 application alerts"><input id="nhp-466" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('466')">Notify me</button><div class="fine" id="notifyfine-466" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$13.30/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 158 records</small></div>
+    <div class="cell"><b>January 4, 2027 <small>(in 137 days)</small></b><span>Next application window</span></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Annual intake</span></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>18, High School Education</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$13.30/hr</b></div><div class="row"><span>Observed registration wages</span><b>$6.03–$29.07/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 158 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>18</b></div><div class="row"><span>Education</span><b>High School Education</b></div><div class="row"><span>Aptitude test</span><b>Qualifying Score on an Aptitude Test</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.ibew466.org/?zone=/unionactive/view_page.cfm&amp;page=Apprenticeship" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'466',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew466.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'466',link_type:'site',surface:'static'})">www.ibew466.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:3043455166" onclick="track('outbound_local_click',{lu_number:'466',link_type:'phone',surface:'static'})">304.345.5166</a></b></div><div class="row"><span>Email</span><b><a href="mailto:jatc@ibew466.org">jatc@ibew466.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Tuesday, 6:30 pm</b></div>
+
+  <h2>Counties served (26)</h2>
+  <div class="counties">Kanawha County, WV &middot; Raleigh County, WV &middot; Mercer County, WV &middot; Putnam County, WV &middot; Tazewell County, VA &middot; Fayette County, WV &middot; Greenbrier County, WV &middot; Carroll County, VA &middot; Smyth County, VA &middot; Wythe County, VA &middot; Nicholas County, WV &middot; Boone County, WV &middot; Wyoming County, WV &middot; Buchanan County, VA &middot; McDowell County, WV &middot; Giles County, VA &middot; Grayson County, VA &middot; Roane County, WV &middot; Monroe County, WV &middot; Braxton County, WV &middot; Summers County, WV &middot; Webster County, WV &middot; Clay County, WV &middot; Gilmer County, WV &middot; Bland County, VA &middot; Calhoun County, WV</div>
+
+  <h2>ZIP codes served (466)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">24053, 24084, 24086, 24093, 24105, 24120, 24124, 24128, 24134, 24136, 24147, 24150, 24167, 24217, 24225, 24236, 24239, 24256, 24260, 24292, 24311, 24312, 24313, 24314, 24315, 24316, 24317, 24318, 24319, 24322, 24323, 24324, 24325, 24326, 24328, 24330, 24333, 24340, 24343, 24347, 24348, 24350, 24351, 24352, 24354, 24360, 24363, 24366, 24368, 24370, 24374, 24375, 24377, 24378, 24380, 24381, 24382, 24430, 24602, 24603, 24605, 24609, 24613, 24614, 24620, 24622, 24630, 24631, 24634, 24635, 24637, 24639, 24641, 24646, 24649, 24651, 24656, 24657, 24701, 24712, 24714, 24715, 24716, 24719, 24724, 24726, 24731, 24733, 24736, 24737, 24738, 24739, 24740, 24747, 24801, 24808, 24811, 24815, 24817, 24818, 24822, 24823, 24827, 24828, 24829, 24830, 24831, 24836, 24839, 24843, 24844, 24845, 24846, 24847, 24848, 24849, 24850, 24853, 24854, 24855, 24857, 24860, 24861, 24862, 24866, 24867, 24868, 24869, 24870, 24871, 24872, 24873, 24874, 24878, 24879, 24880, 24881, 24882, 24884, 24887, 24888, 24892, 24894, 24895, 24898, 24901, 24910, 24916, 24918, 24925, 24931, 24935, 24938, 24941, 24943, 24945, 24951, 24954, 24957, 24962, 24963, 24966, 24970, 24974, 24976, 24977, 24981, 24983, 24984, 24985, 24986, 24991, 24993, 25002, 25003, 25005, 25007, 25008, 25009, 25011, 25015, 25019, 25021, 25024, 25025, 25028, 25030, 25031, 25033, 25035, 25036, 25039, 25040, 25043, 25044, 25045, 25047, 25048, 25049, 25051, 25053, 25054, 25059, 25060, 25061, 25062, 25063, 25064, 25067, 25070, 25071, 25075, 25079, 25081, 25082, 25083, 25085, 25086, 25088, 25090, 25093, 25102, 25103, 25107, 25108, 25109, 25110, 25111, 25112, 25113, 25114, 25115, 25118, 25119, 25123, 25124, 25125, 25126, 25130, 25132, 25133, 25134, 25136, 25139, 25140, 25141, 25142, 25143, 25148, 25154, 25159, 25160, 25161, 25164, 25165, 25168, 25169, 25173, 25174, 25177, 25180, 25181, 25186, 25193, 25201, 25202, 25203, 25204, 25206, 25208, 25209, 25211, 25213, 25214, 25234, 25235, 25243, 25244, 25245, 25248, 25251, 25252, 25259, 25261, 25266, 25267, 25268, 25270, 25276, 25285, 25286, 25301, 25302, 25303, 25304, 25305, 25306, 25309, 25311, 25312, 25313, 25314, 25315, 25320, 25321, 25322, 25323, 25324, 25325, 25326, 25327, 25328, 25329, 25330, 25331, 25332, 25333, 25334, 25335, 25336, 25337, 25338, 25339, 25356, 25361, 25362, 25364, 25387, 25508, 25510, 25523, 25524, 25526, 25529, 25541, 25560, 25608, 25617, 25801, 25802, 25810, 25811, 25812, 25813, 25817, 25818, 25820, 25823, 25825, 25826, 25827, 25831, 25832, 25836, 25837, 25839, 25840, 25841, 25843, 25844, 25845, 25846, 25848, 25849, 25854, 25857, 25862, 25864, 25865, 25866, 25868, 25870, 25871, 25873, 25875, 25876, 25878, 25879, 25880, 25882, 25901, 25902, 25904, 25907, 25908, 25909, 25911, 25913, 25915, 25917, 25918, 25920, 25921, 25922, 25928, 25932, 25936, 25938, 25951, 25958, 25962, 25969, 25971, 25972, 25976, 25977, 25978, 25979, 25981, 25984, 25985, 25989, 26136, 26137, 26138, 26141, 26147, 26151, 26152, 26202, 26203, 26205, 26206, 26208, 26217, 26222, 26261, 26266, 26288, 26298, 26335, 26342, 26351, 26376, 26384, 26411, 26412, 26430, 26443, 26447, 26601, 26610, 26611, 26615, 26617, 26619, 26621, 26623, 26624, 26627, 26629, 26631, 26636, 26638, 26651, 26656, 26660, 26662, 26676, 26678, 26679, 26680, 26681, 26684, 26690, 26691</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-317-huntington-wv">Local 317 (Huntington, WV) &middot; 44 mi</a><a href="ibew-local-968-parkersburg-wv">Local 968 (Parkersburg, WV) &middot; 63 mi</a><a href="ibew-local-972-marietta-oh">Local 972 (Marietta, OH) &middot; 74 mi</a><a href="ibew-local-575-portsmouth-oh">Local 575 (Portsmouth, OH) &middot; 78 mi</a><a href="ibew-local-596-clarksburg-wv">Local 596 (Clarksburg, WV) &middot; 95 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 466, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

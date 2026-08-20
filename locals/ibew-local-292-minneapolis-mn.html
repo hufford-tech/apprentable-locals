@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 292 Apprenticeship — Minneapolis, MN | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 292 in Minneapolis, MN serves 2,277,751 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-292-minneapolis-mn">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 292 Apprenticeship — Minneapolis, MN | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 292 in Minneapolis, MN serves 2,277,751 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-292-minneapolis-mn.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 292 Apprenticeship — Minneapolis, MN | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 292 in Minneapolis, MN serves 2,277,751 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 292 Inside Wireman Apprenticeship", "description": "IBEW Local 292 in Minneapolis, MN serves 2,277,751 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 292 (Minneapolis Electrical JATC)", "url": "https://www.ibew292.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "17 counties served by IBEW Local 292, headquartered in Minneapolis, MN"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://mplsjatc.org/applicants/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "292", "state": "MN", "status": "conflicting", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "292", "city": "Minneapolis", "state": "MN", "slug": "ibew-local-292-minneapolis-mn"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 292" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Minneapolis, MN" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 292</h1>
+  <div class="sub">Minneapolis, MN &middot; Minneapolis Electrical JATC</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=292" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 292" onclick="track('prep_cta_clicked',{lu_number:'292',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 292 tests: GAN Aptitude Test Battery (reading, numerical computation, numerical reasoning, paper folding, problem solving, mechanical comprehension); administered four times per year at JATC </div><div class="notifybox" id="notifybox-292"><label for="nem-292" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 292 opens</label><input id="nem-292" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 292 application alerts"><input id="nhp-292" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('292')">Notify me</button><div class="fine" id="notifyfine-292" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>$14.29/hr national average</b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Annual intake</span></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>17, High school diploma or GED</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>National average benchmark</span><b>$14.29/hr</b></div><div class="snote">Local-specific apprentice wage data is not currently available for this local. This national average is based on 152 locals with apprentice wage data and is not a local rate. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>17</b></div><div class="row"><span>Education</span><b>High school diploma or GED</b></div><div class="row"><span>Aptitude test</span><b>GAN Aptitude Test Battery (reading, numerical computation, numerical reasoning, paper folding, problem solving, mechanical comprehension); administered four times per year at JATC facility in St. Michael, MN</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://mplsjatc.org/applicants/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'292',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew292.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'292',link_type:'site',surface:'static'})">www.ibew292.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:7634970072" onclick="track('outbound_local_click',{lu_number:'292',link_type:'phone',surface:'static'})">763-497-0072</a></b></div><div class="row"><span>Email</span><b><a href="mailto:office@mplsjatc.org">office@mplsjatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">Union Hall, Henry Miller Conference Rooms, 2nd Tuesday, 5 pm</b></div>
+
+  <h2>Counties served (17)</h2>
+  <div class="counties">Hennepin County, MN &middot; Anoka County, MN &middot; Stearns County, MN &middot; Scott County, MN &middot; Wright County, MN &middot; Carver County, MN &middot; Sherburne County, MN &middot; Kandiyohi County, MN &middot; Benton County, MN &middot; McLeod County, MN &middot; Meeker County, MN &middot; Chippewa County, MN &middot; Pope County, MN &middot; Stevens County, MN &middot; Swift County, MN &middot; Lac qui Parle County, MN &middot; Big Stone County, MN</div>
+
+  <h2>ZIP codes served (247)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">55005, 55011, 55014, 55020, 55025, 55038, 55040, 55044, 55054, 55070, 55079, 55088, 55092, 55110, 55111, 55113, 55126, 55301, 55302, 55303, 55304, 55305, 55308, 55309, 55311, 55312, 55313, 55315, 55316, 55317, 55318, 55319, 55320, 55321, 55322, 55324, 55325, 55327, 55328, 55329, 55330, 55331, 55334, 55335, 55336, 55337, 55338, 55339, 55340, 55341, 55342, 55343, 55344, 55345, 55346, 55347, 55349, 55350, 55352, 55353, 55354, 55355, 55356, 55357, 55358, 55359, 55360, 55361, 55362, 55363, 55364, 55367, 55368, 55369, 55370, 55371, 55372, 55373, 55374, 55375, 55376, 55378, 55379, 55381, 55382, 55384, 55385, 55386, 55387, 55388, 55389, 55390, 55391, 55395, 55396, 55397, 55398, 55401, 55402, 55403, 55404, 55405, 55406, 55407, 55408, 55409, 55410, 55411, 55412, 55413, 55414, 55415, 55416, 55417, 55418, 55419, 55420, 55421, 55422, 55423, 55424, 55425, 55426, 55427, 55428, 55429, 55430, 55431, 55432, 55433, 55434, 55435, 55436, 55437, 55438, 55439, 55441, 55442, 55443, 55444, 55445, 55446, 55447, 55448, 55449, 55450, 55454, 55455, 55458, 55474, 56011, 56044, 56071, 56201, 56207, 56208, 56209, 56210, 56211, 56212, 56215, 56216, 56218, 56219, 56220, 56221, 56222, 56223, 56225, 56226, 56227, 56228, 56231, 56232, 56235, 56236, 56240, 56241, 56243, 56244, 56248, 56249, 56251, 56252, 56253, 56256, 56257, 56260, 56262, 56265, 56267, 56271, 56273, 56276, 56277, 56278, 56279, 56281, 56282, 56284, 56285, 56288, 56289, 56295, 56301, 56302, 56303, 56304, 56307, 56308, 56310, 56312, 56314, 56316, 56320, 56321, 56323, 56325, 56327, 56329, 56330, 56331, 56334, 56335, 56336, 56340, 56343, 56349, 56352, 56356, 56357, 56360, 56362, 56367, 56368, 56369, 56371, 56373, 56374, 56375, 56376, 56377, 56378, 56379, 56381, 56385, 56387</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-110-st-paul-mn">Local 110 (St. Paul, MN) &middot; 9 mi</a><a href="ibew-local-343-le-sueur-mn">Local 343 (Le Sueur, MN) &middot; 48 mi</a><a href="ibew-local-14-eau-claire-wi">Local 14 (Eau Claire, WI) &middot; 87 mi</a><a href="ibew-local-242-duluth-mn">Local 242 (Duluth, MN) &middot; 137 mi</a><a href="ibew-local-294-hibbing-mn">Local 294 (Hibbing, MN) &middot; 170 mi</a></div>
+
+  <footer>Page built 2026-08-20. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 292, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>
