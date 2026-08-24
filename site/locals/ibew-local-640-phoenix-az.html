@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 640 Apprenticeship — Phoenix, AZ | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 640 in Phoenix, AZ serves 5,616,018 people across 6 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-640-phoenix-az.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 640 Apprenticeship — Phoenix, AZ | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 640 in Phoenix, AZ serves 5,616,018 people across 6 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-640-phoenix-az.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 640 Apprenticeship — Phoenix, AZ | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 640 in Phoenix, AZ serves 5,616,018 people across 6 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 640 Inside Wireman Apprenticeship", "description": "IBEW Local 640 in Phoenix, AZ serves 5,616,018 people across 6 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 640 (Phoenix Electrical Joint Apprenticeship and Training Center (PEJATC))", "url": "https://ibew640.com/"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "6 counties served by IBEW Local 640, headquartered in Phoenix, AZ"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.pejatc.org/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "640", "state": "AZ", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "640", "city": "Phoenix", "state": "AZ", "slug": "ibew-local-640-phoenix-az"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 640" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Phoenix, AZ" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 640</h1>
+  <div class="sub">Phoenix, AZ &middot; Phoenix Electrical Joint Apprenticeship and Training Center (PEJATC)</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=640" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 640" onclick="track('prep_cta_clicked',{lu_number:'640',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-640"><label for="nem-640" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 640 opens</label><input id="nem-640" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 640 application alerts"><input id="nhp-640" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('640')">Notify me</button><div class="fine" id="notifyfine-640" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$16.52/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 1,211 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 215</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$16.52/hr</b></div><div class="row"><span>Observed registration wages</span><b>$8.50–$30.29/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 1,211 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.pejatc.org/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'640',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://ibew640.com/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'640',link_type:'site',surface:'static'})">https://ibew640.com/</a></b></div><div class="row"><span>Phone</span><b><a href="tel:6022644506" onclick="track('outbound_local_click',{lu_number:'640',link_type:'phone',surface:'static'})">(602) 264-4506</a></b></div><div class="row"><span>Email</span><b><a href="mailto:info@ibew640.com">info@ibew640.com</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">3rd Monday, 6 pm</b></div>
+
+  <h2>Counties served (6)</h2>
+  <div class="counties">Maricopa County, AZ &middot; Pinal County, AZ &middot; Yavapai County, AZ &middot; Mohave County, AZ &middot; Coconino County, AZ &middot; Navajo County, AZ</div>
+
+  <h2>ZIP codes served (328)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">85001, 85002, 85003, 85004, 85005, 85006, 85007, 85008, 85009, 85010, 85011, 85012, 85013, 85014, 85015, 85016, 85017, 85018, 85019, 85020, 85021, 85022, 85023, 85024, 85027, 85028, 85029, 85030, 85031, 85032, 85033, 85034, 85035, 85036, 85037, 85040, 85041, 85042, 85043, 85044, 85045, 85046, 85048, 85050, 85051, 85053, 85054, 85060, 85061, 85063, 85064, 85066, 85067, 85068, 85069, 85070, 85071, 85074, 85076, 85078, 85079, 85080, 85082, 85083, 85085, 85086, 85087, 85117, 85118, 85119, 85120, 85121, 85122, 85123, 85127, 85128, 85130, 85131, 85132, 85137, 85138, 85139, 85140, 85141, 85142, 85143, 85144, 85145, 85147, 85172, 85173, 85178, 85191, 85192, 85193, 85194, 85201, 85202, 85203, 85204, 85205, 85206, 85207, 85208, 85209, 85210, 85211, 85212, 85213, 85214, 85215, 85216, 85224, 85225, 85226, 85233, 85234, 85236, 85244, 85246, 85248, 85249, 85250, 85251, 85252, 85253, 85254, 85255, 85256, 85257, 85258, 85259, 85260, 85261, 85262, 85263, 85264, 85266, 85267, 85268, 85269, 85271, 85274, 85275, 85277, 85280, 85281, 85282, 85283, 85284, 85285, 85286, 85288, 85295, 85296, 85297, 85298, 85299, 85301, 85302, 85303, 85304, 85305, 85306, 85307, 85308, 85309, 85310, 85311, 85312, 85318, 85320, 85322, 85323, 85324, 85326, 85327, 85329, 85331, 85332, 85333, 85335, 85337, 85338, 85339, 85340, 85342, 85343, 85345, 85351, 85353, 85354, 85355, 85360, 85361, 85362, 85363, 85372, 85373, 85374, 85375, 85376, 85377, 85378, 85379, 85380, 85381, 85382, 85383, 85385, 85387, 85388, 85390, 85392, 85395, 85396, 85539, 85545, 85602, 85618, 85623, 85631, 85653, 85658, 85739, 85901, 85902, 85923, 85928, 85929, 85931, 85933, 85934, 85935, 85937, 85939, 85942, 86001, 86002, 86003, 86004, 86005, 86015, 86017, 86018, 86020, 86021, 86022, 86023, 86024, 86025, 86029, 86031, 86032, 86033, 86034, 86035, 86036, 86038, 86040, 86044, 86045, 86046, 86047, 86052, 86053, 86054, 86301, 86302, 86303, 86304, 86305, 86312, 86314, 86315, 86320, 86321, 86322, 86323, 86324, 86325, 86326, 86327, 86329, 86331, 86332, 86333, 86334, 86335, 86336, 86337, 86338, 86339, 86340, 86341, 86343, 86351, 86401, 86402, 86403, 86404, 86405, 86406, 86409, 86411, 86413, 86426, 86427, 86429, 86430, 86431, 86432, 86433, 86434, 86435, 86436, 86437, 86438, 86439, 86440, 86441, 86442, 86443, 86444, 86445, 86446, 86510, 86520</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-570-tucson-az.html">Local 570 (Tucson, AZ) &middot; 106 mi</a><a href="ibew-local-357-las-vegas-nv.html">Local 357 (Las Vegas, NV) &middot; 256 mi</a><a href="ibew-local-569-san-diego-ca.html">Local 569 (San Diego, CA) &middot; 299 mi</a><a href="ibew-local-477-san-bernardino-ca.html">Local 477 (San Bernardino, CA) &middot; 303 mi</a><a href="ibew-local-440-riverside-ca.html">Local 440 (Riverside, CA) &middot; 308 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 640, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

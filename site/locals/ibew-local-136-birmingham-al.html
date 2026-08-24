@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 136 Apprenticeship — Birmingham, AL | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 136 in Birmingham, AL serves 2,013,161 people across 20 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-136-birmingham-al.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 136 Apprenticeship — Birmingham, AL | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 136 in Birmingham, AL serves 2,013,161 people across 20 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-136-birmingham-al.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 136 Apprenticeship — Birmingham, AL | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 136 in Birmingham, AL serves 2,013,161 people across 20 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 136 Inside Wireman Apprenticeship", "description": "IBEW Local 136 in Birmingham, AL serves 2,013,161 people across 20 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 136 (Birmingham Electrical JATC (BEJATC))", "url": "https://www.ibew136.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "20 counties served by IBEW Local 136, headquartered in Birmingham, AL"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://secure2.tradeschoolinc.com/v5/bejatc-org/login/index.php"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "136", "state": "AL", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "136", "city": "Birmingham", "state": "AL", "slug": "ibew-local-136-birmingham-al"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 136" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Birmingham, AL" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 136</h1>
+  <div class="sub">Birmingham, AL &middot; Birmingham Electrical JATC (BEJATC)</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=136" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 136" onclick="track('prep_cta_clicked',{lu_number:'136',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 136 tests: NJATC aptitude test required; candidates move to test pool after documents verified</div><div class="notifybox" id="notifybox-136"><label for="nem-136" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 136 opens</label><input id="nem-136" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 136 application alerts"><input id="nhp-136" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('136')">Notify me</button><div class="fine" id="notifyfine-136" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$11.88/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 439 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 40</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>18, High school diploma or GED</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$11.88/hr</b></div><div class="row"><span>Observed registration wages</span><b>$9.00–$22.60/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 439 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>18</b></div><div class="row"><span>Education</span><b>High school diploma or GED</b></div><div class="row"><span>Aptitude test</span><b>NJATC aptitude test required; candidates move to test pool after documents verified</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://secure2.tradeschoolinc.com/v5/bejatc-org/login/index.php" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'136',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew136.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'136',link_type:'site',surface:'static'})">www.ibew136.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:2058495522" onclick="track('outbound_local_click',{lu_number:'136',link_type:'phone',surface:'static'})">(205) 849-5522</a></b></div><div class="row"><span>Email</span><b><a href="mailto:corey@bejatc.org">corey@bejatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">3rd Thursday, 7 pm</b></div>
+
+  <h2>Counties served (20)</h2>
+  <div class="counties">Jefferson County, AL &middot; Tuscaloosa County, AL &middot; Shelby County, AL &middot; Calhoun County, AL &middot; Etowah County, AL &middot; Marshall County, AL &middot; St. Clair County, AL &middot; Cullman County, AL &middot; Talladega County, AL &middot; Walker County, AL &middot; Blount County, AL &middot; Cherokee County, AL &middot; Randolph County, AL &middot; Bibb County, AL &middot; Marengo County, AL &middot; Cleburne County, AL &middot; Fayette County, AL &middot; Hale County, AL &middot; Clay County, AL &middot; Greene County, AL</div>
+
+  <h2>ZIP codes served (269)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">35004, 35005, 35006, 35007, 35014, 35016, 35019, 35020, 35021, 35022, 35023, 35031, 35033, 35034, 35035, 35036, 35040, 35042, 35043, 35044, 35048, 35049, 35051, 35053, 35054, 35055, 35056, 35057, 35058, 35060, 35061, 35062, 35063, 35064, 35068, 35071, 35072, 35073, 35077, 35078, 35079, 35080, 35082, 35083, 35087, 35091, 35094, 35096, 35097, 35098, 35111, 35114, 35115, 35116, 35117, 35118, 35120, 35121, 35124, 35125, 35126, 35127, 35128, 35130, 35131, 35133, 35135, 35143, 35146, 35147, 35148, 35149, 35150, 35151, 35160, 35172, 35173, 35175, 35176, 35178, 35179, 35180, 35181, 35184, 35186, 35188, 35201, 35202, 35203, 35204, 35205, 35206, 35207, 35208, 35209, 35210, 35211, 35212, 35213, 35214, 35215, 35216, 35217, 35218, 35219, 35220, 35221, 35222, 35223, 35224, 35226, 35228, 35231, 35232, 35233, 35234, 35235, 35236, 35238, 35242, 35243, 35244, 35253, 35255, 35259, 35260, 35261, 35266, 35294, 35401, 35402, 35403, 35404, 35405, 35406, 35407, 35441, 35443, 35444, 35446, 35452, 35453, 35456, 35457, 35458, 35462, 35463, 35464, 35466, 35469, 35473, 35474, 35475, 35476, 35480, 35486, 35487, 35490, 35501, 35502, 35503, 35504, 35540, 35541, 35542, 35546, 35549, 35550, 35554, 35555, 35563, 35574, 35578, 35579, 35580, 35587, 35594, 35619, 35621, 35622, 35670, 35747, 35754, 35755, 35760, 35769, 35776, 35901, 35902, 35903, 35904, 35905, 35906, 35907, 35950, 35951, 35952, 35953, 35954, 35956, 35957, 35959, 35960, 35961, 35962, 35967, 35972, 35973, 35975, 35976, 35980, 35983, 35984, 35987, 35990, 36201, 36202, 36203, 36204, 36205, 36206, 36207, 36250, 36251, 36255, 36256, 36257, 36258, 36260, 36262, 36263, 36264, 36265, 36266, 36268, 36269, 36271, 36272, 36273, 36274, 36276, 36277, 36278, 36279, 36280, 36722, 36728, 36732, 36736, 36738, 36740, 36742, 36744, 36748, 36750, 36751, 36754, 36756, 36765, 36769, 36773, 36776, 36782, 36783, 36784, 36786, 36792, 36793, 36904</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-443-montgomery-al.html">Local 443 (Montgomery, AL) &middot; 85 mi</a><a href="ibew-local-558-sheffield-al.html">Local 558 (Sheffield, AL) &middot; 100 mi</a><a href="ibew-local-175-chattanooga-tn.html">Local 175 (Chattanooga, TN) &middot; 136 mi</a><a href="ibew-local-917-meridian-ms.html">Local 917 (Meridian, MS) &middot; 136 mi</a><a href="ibew-local-613-atlanta-ga.html">Local 613 (Atlanta, GA) &middot; 140 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 136, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

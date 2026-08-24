@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 295 Apprenticeship — Little Rock, AR | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 295 in Little Rock, AR serves 1,259,461 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-295-little-rock-ar.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 295 Apprenticeship — Little Rock, AR | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 295 in Little Rock, AR serves 1,259,461 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-295-little-rock-ar.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 295 Apprenticeship — Little Rock, AR | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 295 in Little Rock, AR serves 1,259,461 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 295 Inside Wireman Apprenticeship", "description": "IBEW Local 295 in Little Rock, AR serves 1,259,461 people across 26 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 295 (LR JATC)", "url": "https://www.ibew295.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "26 counties served by IBEW Local 295, headquartered in Little Rock, AR"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "295", "state": "AR", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "295", "city": "Little Rock", "state": "AR", "slug": "ibew-local-295-little-rock-ar"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 295" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Little Rock, AR" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 295</h1>
+  <div class="sub">Little Rock, AR &middot; LR JATC</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=295" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 295" onclick="track('prep_cta_clicked',{lu_number:'295',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-295"><label for="nem-295" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 295 opens</label><input id="nem-295" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 295 application alerts"><input id="nhp-295" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('295')">Notify me</button><div class="fine" id="notifyfine-295" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$11.34/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 197 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 20</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$11.34/hr</b></div><div class="row"><span>Observed registration wages</span><b>$7.00–$19.99/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 197 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b class="muted">Not published</b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew295.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'295',link_type:'site',surface:'static'})">www.ibew295.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:5015650768" onclick="track('outbound_local_click',{lu_number:'295',link_type:'phone',surface:'static'})">(501) 565-0768</a></b></div><div class="row"><span>Email</span><b><a href="mailto:ibew295@ibew295.org">ibew295@ibew295.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Tuesday, 7 pm</b></div>
+
+  <h2>Counties served (26)</h2>
+  <div class="counties">Pulaski County, AR &middot; Faulkner County, AR &middot; Saline County, AR &middot; Garland County, AR &middot; White County, AR &middot; Lonoke County, AR &middot; Jefferson County, AR &middot; Hot Spring County, AR &middot; Cleburne County, AR &middot; Conway County, AR &middot; Clark County, AR &middot; Polk County, AR &middot; Grant County, AR &middot; Van Buren County, AR &middot; Arkansas County, AR &middot; Izard County, AR &middot; Lincoln County, AR &middot; Stone County, AR &middot; Fulton County, AR &middot; Perry County, AR &middot; Montgomery County, AR &middot; Prairie County, AR &middot; Cleveland County, AR &middot; Monroe County, AR &middot; Dallas County, AR &middot; Woodruff County, AR</div>
+
+  <h2>ZIP codes served (259)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">71601, 71602, 71603, 71639, 71643, 71644, 71652, 71655, 71659, 71660, 71665, 71667, 71671, 71675, 71720, 71725, 71742, 71743, 71748, 71763, 71841, 71901, 71902, 71903, 71909, 71910, 71913, 71914, 71921, 71923, 71929, 71933, 71935, 71937, 71941, 71943, 71944, 71945, 71949, 71953, 71956, 71957, 71960, 71961, 71962, 71964, 71965, 71968, 71969, 71970, 71972, 71973, 72001, 72002, 72003, 72004, 72006, 72007, 72010, 72011, 72012, 72013, 72015, 72016, 72017, 72018, 72019, 72020, 72021, 72022, 72023, 72024, 72025, 72026, 72027, 72029, 72030, 72031, 72032, 72033, 72034, 72036, 72038, 72039, 72040, 72041, 72042, 72044, 72045, 72046, 72047, 72048, 72051, 72052, 72053, 72055, 72057, 72058, 72060, 72061, 72063, 72064, 72065, 72067, 72068, 72069, 72070, 72072, 72073, 72074, 72076, 72078, 72079, 72080, 72081, 72082, 72083, 72084, 72085, 72086, 72087, 72088, 72101, 72102, 72103, 72104, 72106, 72107, 72110, 72111, 72112, 72113, 72114, 72115, 72116, 72117, 72118, 72119, 72120, 72121, 72122, 72123, 72124, 72125, 72126, 72127, 72128, 72129, 72130, 72131, 72132, 72133, 72134, 72135, 72136, 72137, 72139, 72140, 72141, 72142, 72143, 72145, 72150, 72152, 72153, 72156, 72157, 72160, 72166, 72167, 72168, 72170, 72173, 72175, 72176, 72179, 72181, 72182, 72183, 72190, 72201, 72202, 72203, 72204, 72205, 72206, 72207, 72209, 72210, 72211, 72212, 72214, 72215, 72216, 72217, 72219, 72221, 72222, 72223, 72225, 72227, 72231, 72260, 72366, 72368, 72392, 72396, 72501, 72512, 72513, 72515, 72517, 72519, 72520, 72523, 72528, 72529, 72530, 72531, 72532, 72533, 72534, 72536, 72538, 72539, 72540, 72542, 72543, 72544, 72546, 72550, 72554, 72555, 72556, 72560, 72561, 72565, 72566, 72567, 72568, 72573, 72576, 72577, 72578, 72581, 72583, 72584, 72585, 72587, 72617, 72629, 72645, 72650, 72663, 72679, 72680, 72823, 72853, 72857</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-1516-jonesboro-ar.html">Local 1516 (Jonesboro, AR) &middot; 117 mi</a><a href="ibew-local-700-ft-smith-ar.html">Local 700 (Ft. Smith, AR) &middot; 127 mi</a><a href="ibew-local-474-memphis-tn.html">Local 474 (Memphis, TN) &middot; 130 mi</a><a href="ibew-local-446-monroe-la.html">Local 446 (Monroe, LA) &middot; 155 mi</a><a href="ibew-local-194-shreveport-la.html">Local 194 (Shreveport, LA) &middot; 175 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 295, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

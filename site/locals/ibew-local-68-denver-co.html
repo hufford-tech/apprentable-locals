@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 68 Apprenticeship — Denver, CO | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 68 in Denver, CO serves 4,262,008 people across 22 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-68-denver-co.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 68 Apprenticeship — Denver, CO | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 68 in Denver, CO serves 4,262,008 people across 22 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-68-denver-co.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 68 Apprenticeship — Denver, CO | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 68 in Denver, CO serves 4,262,008 people across 22 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 68 Inside Wireman Apprenticeship", "description": "IBEW Local 68 in Denver, CO serves 4,262,008 people across 22 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 68 (Denver Joint Electrical Apprenticeship and Training Committee (DJEATC))", "url": "https://www.ibewlu68.com"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "22 counties served by IBEW Local 68, headquartered in Denver, CO"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://djeatc68.com/apply/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "68", "state": "CO", "status": "open", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "68", "city": "Denver", "state": "CO", "slug": "ibew-local-68-denver-co"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 68" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Denver, CO" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 68</h1>
+  <div class="sub">Denver, CO &middot; Denver Joint Electrical Apprenticeship and Training Committee (DJEATC)</div>
+
+  <div class="statusband d-open_now"><div class="slabel"><span class="dot" aria-hidden="true">●</span>Open now</div><div class="snote">A posted application window is open today.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=68" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 68" onclick="track('prep_cta_clicked',{lu_number:'68',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 68 tests: GAN Aptitude Test covering Paper Folding, Numerical Computation, Numerical Reasoning, Reading Comprehension, and Mechanical Reasoning; offered typically the second, third, and four</div><div class="notifybox" id="notifybox-68"><label for="nem-68" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 68 opens</label><input id="nem-68" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 68 application alerts"><input id="nhp-68" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('68')">Notify me</button><div class="fine" id="notifyfine-68" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$14.17/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 1,030 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>Open now</b><span>Next application window</span></div>
+    <div class="cell est"><b>about 105</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>High school diploma, GED, or Associate's degree or higher; transcript must state graduation date</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$14.17/hr</b></div><div class="row"><span>Observed registration wages</span><b>$11.02–$27.03/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 1,030 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Education</span><b>High school diploma, GED, or Associate's degree or higher; transcript must state graduation date</b></div><div class="row"><span>Aptitude test</span><b>GAN Aptitude Test covering Paper Folding, Numerical Computation, Numerical Reasoning, Reading Comprehension, and Mechanical Reasoning; offered typically the second, third, and fourth Fridays of every month</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://djeatc68.com/apply/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'68',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlu68.com" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'68',link_type:'site',surface:'static'})">www.ibewlu68.com</a></b></div><div class="row"><span>Phone</span><b><a href="tel:3032951903" onclick="track('outbound_local_click',{lu_number:'68',link_type:'phone',surface:'static'})">(303)295-1903</a></b></div><div class="row"><span>Email</span><b><a href="mailto:djeatcapplications@outlook.com">djeatcapplications@outlook.com</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Tuesday, 6 pm</b></div>
+
+  <h2>Counties served (22)</h2>
+  <div class="counties">Denver County, CO &middot; Arapahoe County, CO &middot; Jefferson County, CO &middot; Adams County, CO &middot; Douglas County, CO &middot; Larimer County, CO &middot; Weld County, CO &middot; Boulder County, CO &middot; Broomfield County, CO &middot; Eagle County, CO &middot; Summit County, CO &middot; Morgan County, CO &middot; Logan County, CO &middot; Grand County, CO &middot; Yuma County, CO &middot; Clear Creek County, CO &middot; Lake County, CO &middot; Gilpin County, CO &middot; Washington County, CO &middot; Phillips County, CO &middot; Sedgwick County, CO &middot; Jackson County, CO</div>
+
+  <h2>ZIP codes served (299)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">80001, 80002, 80003, 80004, 80005, 80006, 80007, 80010, 80011, 80012, 80013, 80014, 80015, 80016, 80017, 80018, 80019, 80020, 80021, 80022, 80023, 80024, 80025, 80026, 80027, 80030, 80031, 80033, 80034, 80035, 80036, 80037, 80038, 80040, 80041, 80042, 80044, 80045, 80046, 80047, 80102, 80103, 80104, 80105, 80106, 80108, 80109, 80110, 80111, 80112, 80113, 80116, 80118, 80120, 80121, 80122, 80123, 80124, 80125, 80126, 80127, 80128, 80129, 80130, 80131, 80134, 80135, 80136, 80137, 80138, 80150, 80151, 80155, 80160, 80161, 80162, 80163, 80201, 80202, 80203, 80204, 80205, 80206, 80207, 80209, 80210, 80211, 80212, 80214, 80215, 80216, 80217, 80218, 80219, 80220, 80221, 80222, 80223, 80224, 80225, 80226, 80227, 80228, 80229, 80230, 80231, 80232, 80233, 80234, 80235, 80236, 80237, 80238, 80239, 80241, 80246, 80247, 80248, 80249, 80250, 80260, 80301, 80302, 80303, 80304, 80305, 80306, 80307, 80308, 80310, 80401, 80402, 80403, 80421, 80422, 80423, 80424, 80425, 80426, 80427, 80430, 80433, 80434, 80435, 80436, 80437, 80438, 80439, 80442, 80443, 80444, 80446, 80447, 80451, 80452, 80453, 80454, 80455, 80457, 80459, 80461, 80463, 80465, 80466, 80468, 80470, 80473, 80474, 80476, 80478, 80480, 80481, 80482, 80497, 80498, 80501, 80502, 80503, 80504, 80510, 80512, 80513, 80514, 80515, 80516, 80517, 80520, 80521, 80522, 80524, 80525, 80526, 80527, 80528, 80530, 80532, 80533, 80534, 80535, 80536, 80537, 80538, 80539, 80540, 80542, 80543, 80544, 80545, 80546, 80547, 80549, 80550, 80601, 80602, 80603, 80610, 80611, 80612, 80614, 80615, 80620, 80621, 80622, 80623, 80624, 80631, 80632, 80633, 80634, 80640, 80642, 80643, 80644, 80645, 80646, 80648, 80649, 80650, 80651, 80652, 80653, 80654, 80701, 80705, 80720, 80721, 80722, 80723, 80726, 80727, 80728, 80729, 80731, 80732, 80733, 80734, 80735, 80736, 80737, 80740, 80741, 80742, 80743, 80744, 80745, 80746, 80747, 80749, 80750, 80751, 80754, 80755, 80757, 80758, 80759, 80801, 80807, 80812, 80818, 80822, 80824, 80834, 80861, 80863, 81228, 81251, 81620, 81621, 81623, 81631, 81632, 81637, 81642, 81645, 81649, 81654, 81655, 81657, 81658</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-113-colorado-springs-co.html">Local 113 (Colorado Springs, CO) &middot; 63 mi</a><a href="ibew-local-415-cheyenne-wy.html">Local 415 (Cheyenne, WY) &middot; 97 mi</a><a href="ibew-local-12-pueblo-co.html">Local 12 (Pueblo, CO) &middot; 105 mi</a><a href="ibew-local-322-casper-wy.html">Local 322 (Casper, WY) &middot; 226 mi</a><a href="ibew-local-1250-rapid-city-sd.html">Local 1250 (Rapid City, SD) &middot; 313 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 68, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

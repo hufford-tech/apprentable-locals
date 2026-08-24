@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 498 Apprenticeship — Traverse City, MI | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 498 in Traverse City, MI serves 387,942 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-498-traverse-city-mi.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 498 Apprenticeship — Traverse City, MI | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 498 in Traverse City, MI serves 387,942 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-498-traverse-city-mi.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 498 Apprenticeship — Traverse City, MI | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 498 in Traverse City, MI serves 387,942 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 498 Inside Wireman Apprenticeship", "description": "IBEW Local 498 in Traverse City, MI serves 387,942 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 498 (Traverse City Electrical Joint Apprenticeship and Training Committee)", "url": "https://www.ibewlocal498.com"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "18 counties served by IBEW Local 498, headquartered in Traverse City, MI"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.ibewlocal498.com/apprenticeship-application/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "498", "state": "MI", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "498", "city": "Traverse City", "state": "MI", "slug": "ibew-local-498-traverse-city-mi"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 498" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Traverse City, MI" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 498</h1>
+  <div class="sub">Traverse City, MI &middot; Traverse City Electrical Joint Apprenticeship and Training Committee</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=498" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 498" onclick="track('prep_cta_clicked',{lu_number:'498',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-498"><label for="nem-498" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 498 opens</label><input id="nem-498" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 498 application alerts"><input id="nhp-498" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('498')">Notify me</button><div class="fine" id="notifyfine-498" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 10</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>17, High school diploma or GED</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="snote">Wage data coming for this local. <a href="#notifybox-498">Notify me &rarr;</a></div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>17</b></div><div class="row"><span>Education</span><b>High school diploma or GED</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.ibewlocal498.com/apprenticeship-application/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'498',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlocal498.com" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'498',link_type:'site',surface:'static'})">www.ibewlocal498.com</a></b></div><div class="row"><span>Phone</span><b><a href="tel:2319434193" onclick="track('outbound_local_click',{lu_number:'498',link_type:'phone',surface:'static'})">231-943-4193</a></b></div><div class="row"><span>Email</span><b><a href="mailto:ibew@local498.net">ibew@local498.net</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">2nd Monday, 7 pm</b></div>
+
+  <h2>Counties served (18)</h2>
+  <div class="counties">Grand Traverse County, MI &middot; Wexford County, MI &middot; Emmet County, MI &middot; Clare County, MI &middot; Mason County, MI &middot; Charlevoix County, MI &middot; Otsego County, MI &middot; Cheboygan County, MI &middot; Manistee County, MI &middot; Antrim County, MI &middot; Roscommon County, MI &middot; Osceola County, MI &middot; Leelanau County, MI &middot; Kalkaska County, MI &middot; Benzie County, MI &middot; Missaukee County, MI &middot; Crawford County, MI &middot; Lake County, MI</div>
+
+  <h2>ZIP codes served (128)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">48612, 48617, 48622, 48624, 48625, 48627, 48629, 48630, 48632, 48633, 48651, 48653, 48656, 49304, 49309, 49338, 49402, 49405, 49410, 49411, 49431, 49449, 49454, 49458, 49601, 49610, 49611, 49612, 49613, 49614, 49615, 49616, 49617, 49618, 49619, 49620, 49621, 49622, 49623, 49625, 49626, 49627, 49628, 49629, 49630, 49631, 49632, 49633, 49634, 49635, 49636, 49637, 49638, 49639, 49640, 49642, 49643, 49644, 49645, 49646, 49648, 49649, 49650, 49651, 49653, 49654, 49655, 49656, 49657, 49659, 49660, 49663, 49664, 49665, 49667, 49668, 49670, 49674, 49675, 49676, 49677, 49679, 49680, 49682, 49683, 49684, 49685, 49686, 49688, 49689, 49690, 49696, 49701, 49705, 49706, 49712, 49713, 49716, 49717, 49718, 49720, 49721, 49722, 49723, 49727, 49729, 49730, 49733, 49734, 49735, 49738, 49740, 49749, 49751, 49755, 49756, 49761, 49764, 49765, 49769, 49770, 49782, 49791, 49792, 49795, 49796, 49797, 49799</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-275-muskegon-mi.html">Local 275 (Muskegon, MI) &middot; 110 mi</a><a href="ibew-local-692-bay-city-mi.html">Local 692 (Bay City, MI) &middot; 118 mi</a><a href="ibew-local-158-green-bay-wi.html">Local 158 (Green Bay, WI) &middot; 119 mi</a><a href="ibew-local-557-saginaw-mi.html">Local 557 (Saginaw, MI) &middot; 124 mi</a><a href="ibew-local-577-appleton-wi.html">Local 577 (Appleton, WI) &middot; 142 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 498, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 613 Apprenticeship — Atlanta, GA | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 613 in Atlanta, GA serves 7,903,227 people across 60 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-613-atlanta-ga.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 613 Apprenticeship — Atlanta, GA | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 613 in Atlanta, GA serves 7,903,227 people across 60 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-613-atlanta-ga.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 613 Apprenticeship — Atlanta, GA | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 613 in Atlanta, GA serves 7,903,227 people across 60 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 613 Inside Wireman Apprenticeship", "description": "IBEW Local 613 in Atlanta, GA serves 7,903,227 people across 60 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 613 (Atlanta Electrical JATC)", "url": "https://www.ibew613.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "60 counties served by IBEW Local 613, headquartered in Atlanta, GA"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://sites.google.com/aejatc.org/etc/home/application-requirements/application-process-required-documents", "applicationDeadline": "2026-08-31"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "613", "state": "GA", "status": "open", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "613", "city": "Atlanta", "state": "GA", "slug": "ibew-local-613-atlanta-ga"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 613" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Atlanta, GA" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 613</h1>
+  <div class="sub">Atlanta, GA &middot; Atlanta Electrical JATC</div>
+
+  <div class="statusband d-open_now"><div class="slabel"><span class="dot" aria-hidden="true">●</span>Open now</div><div class="snote">A posted application window is open today.</div><div class="snote" style="color:var(--accent2)">Open now, closes August 31, 2026.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=613" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 613" onclick="track('prep_cta_clicked',{lu_number:'613',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 613 tests: Must pass an aptitude test (test prep page available at aejatc.org)</div><div class="notifybox" id="notifybox-613"><label for="nem-613" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 613 opens</label><input id="nem-613" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 613 application alerts"><input id="nhp-613" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('613')">Notify me</button><div class="fine" id="notifyfine-613" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b>$51.40/hr</b><span>Journeyman rate</span>
+      <small>Davis-Bacon WD GA20260304 &middot; Fulton County, GA</small></div>
+    <div class="cell"><b>Open now</b><span>Next application window</span></div>
+    <div class="cell est"><b>about 215</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>High school diploma or GED equivalent</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="snote">Wage data coming for this local. <a href="#notifybox-613">Notify me &rarr;</a></div><h2>Journeyman scale</h2><div class="row"><span>Base wage</span><b>$38.65/hr</b></div><div class="row"><span>Fringe benefits</span><b>$12.75/hr</b></div><div class="row"><span>Total package</span><b>$51.40/hr</b></div><div class="snote">Effective May 18, 2026. Source: <a href="https://sam.gov/wage-determination/GA20260304/2" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination GA20260304</a>. Classification: ELECTRICIAN (EXCLUDES LOW VOLTAGE WIRING) ELEC0613-004.</div><div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Education</span><b>High school diploma or GED equivalent</b></div><div class="row"><span>Aptitude test</span><b>Must pass an aptitude test (test prep page available at aejatc.org)</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://sites.google.com/aejatc.org/etc/home/application-requirements/application-process-required-documents" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'613',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew613.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'613',link_type:'site',surface:'static'})">www.ibew613.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:4045235400" onclick="track('outbound_local_click',{lu_number:'613',link_type:'phone',surface:'static'})">404-523-5400</a></b></div><div class="row"><span>Email</span><b><a href="mailto:Admin@aejatc.org">Admin@aejatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">3rd Tuesday, 6 pm</b></div>
+
+  <h2>Counties served (60)</h2>
+  <div class="counties">Fulton County, GA &middot; Gwinnett County, GA &middot; Cobb County, GA &middot; DeKalb County, GA &middot; Clayton County, GA &middot; Cherokee County, GA &middot; Forsyth County, GA &middot; Henry County, GA &middot; Hall County, GA &middot; Muscogee County, GA &middot; Paulding County, GA &middot; Lee County, AL &middot; Coweta County, GA &middot; Douglas County, GA &middot; Clarke County, GA &middot; Carroll County, GA &middot; Fayette County, GA &middot; Newton County, GA &middot; Bartow County, GA &middot; Walton County, GA &middot; Floyd County, GA &middot; Rockdale County, GA &middot; Barrow County, GA &middot; Jackson County, GA &middot; Troup County, GA &middot; Spalding County, GA &middot; Russell County, AL &middot; Habersham County, GA &middot; Oconee County, GA &middot; Polk County, GA &middot; Harris County, GA &middot; Pickens County, GA &middot; Lumpkin County, GA &middot; Chambers County, AL &middot; Dawson County, GA &middot; Madison County, GA &middot; Haralson County, GA &middot; White County, GA &middot; Union County, GA &middot; Butts County, GA &middot; Chattooga County, GA &middot; Barbour County, AL &middot; Morgan County, GA &middot; Meriwether County, GA &middot; Pike County, GA &middot; Banks County, GA &middot; Elbert County, GA &middot; Henry County, AL &middot; Oglethorpe County, GA &middot; Towns County, GA &middot; Heard County, GA &middot; Chattahoochee County, GA &middot; Taylor County, GA &middot; Marion County, GA &middot; Talbot County, GA &middot; Stewart County, GA &middot; Schley County, GA &middot; Clay County, GA &middot; Quitman County, GA &middot; Webster County, GA</div>
+
+  <h2>ZIP codes served (466)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">30002, 30003, 30004, 30005, 30006, 30007, 30008, 30009, 30010, 30011, 30012, 30013, 30014, 30015, 30016, 30017, 30019, 30021, 30022, 30023, 30024, 30025, 30028, 30030, 30031, 30032, 30033, 30034, 30035, 30036, 30037, 30038, 30039, 30040, 30041, 30042, 30043, 30044, 30045, 30046, 30047, 30048, 30049, 30052, 30054, 30055, 30056, 30058, 30060, 30061, 30062, 30064, 30065, 30066, 30067, 30068, 30070, 30071, 30072, 30074, 30075, 30076, 30077, 30078, 30079, 30080, 30081, 30082, 30083, 30084, 30085, 30086, 30087, 30088, 30091, 30092, 30093, 30094, 30095, 30096, 30097, 30101, 30102, 30103, 30104, 30105, 30106, 30107, 30108, 30110, 30111, 30112, 30113, 30114, 30115, 30116, 30117, 30120, 30121, 30122, 30123, 30124, 30125, 30126, 30127, 30132, 30133, 30134, 30135, 30137, 30139, 30141, 30142, 30143, 30144, 30145, 30146, 30147, 30148, 30151, 30152, 30153, 30154, 30156, 30157, 30160, 30161, 30162, 30164, 30165, 30168, 30169, 30170, 30171, 30172, 30173, 30175, 30176, 30177, 30178, 30179, 30180, 30182, 30183, 30184, 30185, 30187, 30188, 30189, 30205, 30206, 30212, 30213, 30214, 30215, 30216, 30217, 30218, 30220, 30222, 30223, 30224, 30228, 30230, 30233, 30234, 30236, 30237, 30238, 30240, 30241, 30248, 30250, 30251, 30252, 30253, 30256, 30257, 30258, 30259, 30260, 30261, 30263, 30264, 30265, 30266, 30268, 30269, 30271, 30272, 30273, 30274, 30276, 30277, 30281, 30284, 30285, 30287, 30288, 30290, 30291, 30292, 30293, 30294, 30295, 30296, 30297, 30298, 30301, 30302, 30303, 30304, 30305, 30306, 30307, 30308, 30309, 30310, 30311, 30312, 30313, 30314, 30315, 30316, 30317, 30318, 30319, 30320, 30321, 30324, 30325, 30326, 30327, 30328, 30329, 30331, 30332, 30333, 30334, 30336, 30337, 30338, 30339, 30340, 30341, 30342, 30343, 30344, 30345, 30346, 30349, 30350, 30354, 30355, 30356, 30357, 30358, 30359, 30360, 30362, 30363, 30364, 30366, 30377, 30501, 30502, 30503, 30504, 30506, 30507, 30510, 30511, 30512, 30514, 30515, 30517, 30518, 30519, 30521, 30523, 30525, 30527, 30528, 30529, 30530, 30531, 30533, 30534, 30535, 30536, 30540, 30542, 30543, 30545, 30546, 30547, 30548, 30549, 30554, 30558, 30560, 30563, 30564, 30565, 30566, 30567, 30571, 30572, 30575, 30577, 30582, 30601, 30603, 30604, 30605, 30606, 30607, 30608, 30609, 30619, 30620, 30621, 30622, 30624, 30625, 30627, 30628, 30629, 30630, 30633, 30634, 30635, 30641, 30642, 30646, 30648, 30650, 30655, 30656, 30660, 30662, 30663, 30666, 30667, 30669, 30677, 30680, 30683, 30701, 30730, 30731, 30733, 30734, 30747, 30753, 31006, 31029, 31041, 31058, 31064, 31068, 31076, 31081, 31085, 31106, 31107, 31119, 31126, 31131, 31139, 31141, 31145, 31146, 31150, 31156, 31711, 31719, 31780, 31801, 31803, 31804, 31805, 31806, 31807, 31808, 31811, 31812, 31815, 31816, 31820, 31821, 31822, 31823, 31824, 31825, 31826, 31827, 31829, 31830, 31831, 31832, 31833, 31836, 31901, 31902, 31903, 31904, 31905, 31906, 31907, 31908, 31909, 31914, 31917, 31995, 36016, 36017, 36027, 36048, 36053, 36072, 36274, 36276, 36303, 36310, 36311, 36317, 36319, 36345, 36350, 36353, 36373, 36374, 36801, 36803, 36804, 36830, 36831, 36832, 36850, 36852, 36854, 36855, 36856, 36858, 36860, 36862, 36863, 36866, 36867, 36868, 36869, 36870, 36871, 36874, 36875, 36877, 36879, 39823, 39824, 39836, 39846, 39851, 39854, 39867, 39877</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-1316-macon-ga.html">Local 1316 (Macon, GA) &middot; 76 mi</a><a href="ibew-local-175-chattanooga-tn.html">Local 175 (Chattanooga, TN) &middot; 104 mi</a><a href="ibew-local-136-birmingham-al.html">Local 136 (Birmingham, AL) &middot; 140 mi</a><a href="ibew-local-1579-augusta-ga.html">Local 1579 (Augusta, GA) &middot; 140 mi</a><a href="ibew-local-443-montgomery-al.html">Local 443 (Montgomery, AL) &middot; 146 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 613, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

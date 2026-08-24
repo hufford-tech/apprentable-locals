@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 100 Apprenticeship — Fresno, CA | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 100 in Fresno, CA serves 1,828,016 people across 4 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-100-fresno-ca.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 100 Apprenticeship — Fresno, CA | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 100 in Fresno, CA serves 1,828,016 people across 4 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-100-fresno-ca.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 100 Apprenticeship — Fresno, CA | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 100 in Fresno, CA serves 1,828,016 people across 4 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 100 Inside Wireman Apprenticeship", "description": "IBEW Local 100 in Fresno, CA serves 1,828,016 people across 4 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 100 (Central California Electrical Training Institute (CCETI / Fresno JATC))", "url": "https://www.ibew100.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "4 counties served by IBEW Local 100, headquartered in Fresno, CA"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "http://www.cceti.org/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "100", "state": "CA", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "100", "city": "Fresno", "state": "CA", "slug": "ibew-local-100-fresno-ca"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 100" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Fresno, CA" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 100</h1>
+  <div class="sub">Fresno, CA &middot; Central California Electrical Training Institute (CCETI / Fresno JATC)</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=100" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 100" onclick="track('prep_cta_clicked',{lu_number:'100',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-100"><label for="nem-100" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 100 opens</label><input id="nem-100" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 100 application alerts"><input id="nhp-100" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('100')">Notify me</button><div class="fine" id="notifyfine-100" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$18.23/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 291 records</small></div>
+    <div class="cell"><b>$80.15/hr</b><span>Journeyman rate</span>
+      <small>Davis-Bacon WD CA20260018 &middot; Fresno County, CA</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 90</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$18.23/hr</b></div><div class="row"><span>Observed registration wages</span><b>$9.08–$47.00/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 291 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div><h2>Journeyman scale</h2><div class="row"><span>Base wage</span><b>$50.00/hr</b></div><div class="row"><span>Fringe benefits</span><b>$30.15/hr</b></div><div class="row"><span>Total package</span><b>$80.15/hr</b></div><div class="snote">Effective July 14, 2026. Source: <a href="https://sam.gov/wage-determination/CA20260018/6" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination CA20260018</a>. Classification: ELECTRICIAN (FRESNO, KINGS, AND MADERA COUNTIES) ELEC0100-002.</div><div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="http://www.cceti.org/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'100',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew100.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'100',link_type:'site',surface:'static'})">www.ibew100.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:5592518241" onclick="track('outbound_local_click',{lu_number:'100',link_type:'phone',surface:'static'})">(559) 251-8241</a></b></div><div class="row"><span>Email</span><b><a href="mailto:Organizer@ibew100.org">Organizer@ibew100.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">2nd Tuesday, 6 pm</b></div>
+
+  <h2>Counties served (4)</h2>
+  <div class="counties">Fresno County, CA &middot; Tulare County, CA &middot; Madera County, CA &middot; Kings County, CA</div>
+
+  <h2>ZIP codes served (144)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">93201, 93202, 93204, 93207, 93210, 93212, 93215, 93218, 93219, 93221, 93223, 93227, 93230, 93232, 93234, 93235, 93239, 93242, 93244, 93245, 93247, 93256, 93257, 93258, 93260, 93262, 93265, 93266, 93267, 93270, 93271, 93272, 93274, 93275, 93277, 93278, 93279, 93286, 93290, 93291, 93292, 93527, 93601, 93602, 93603, 93604, 93605, 93606, 93608, 93609, 93610, 93611, 93612, 93613, 93614, 93615, 93616, 93618, 93619, 93620, 93621, 93622, 93624, 93625, 93626, 93627, 93628, 93630, 93631, 93633, 93636, 93637, 93638, 93639, 93640, 93641, 93643, 93644, 93645, 93646, 93647, 93648, 93650, 93651, 93652, 93653, 93654, 93656, 93657, 93660, 93662, 93664, 93666, 93667, 93668, 93669, 93673, 93675, 93701, 93702, 93703, 93704, 93705, 93706, 93707, 93708, 93709, 93710, 93711, 93712, 93714, 93715, 93716, 93717, 93718, 93720, 93721, 93722, 93723, 93725, 93726, 93727, 93728, 93729, 93730, 93737, 93744, 93745, 93747, 93755, 93771, 93772, 93773, 93774, 93775, 93776, 93777, 93778, 93779, 93790, 93791, 93792, 93793, 93794</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-684-modesto-ca.html">Local 684 (Modesto, CA) &middot; 91 mi</a><a href="ibew-local-428-bakersfield-ca.html">Local 428 (Bakersfield, CA) &middot; 104 mi</a><a href="ibew-local-234-castroville-ca.html">Local 234 (Castroville, CA) &middot; 109 mi</a><a href="ibew-local-639-san-luis-obispo-ca.html">Local 639 (San Luis Obispo, CA) &middot; 112 mi</a><a href="ibew-local-332-san-jose-ca.html">Local 332 (San Jose, CA) &middot; 123 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 100, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

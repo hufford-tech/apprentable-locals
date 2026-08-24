@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 340 Apprenticeship — Sacramento, CA | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 340 in Sacramento, CA serves 3,217,734 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-340-sacramento-ca.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 340 Apprenticeship — Sacramento, CA | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 340 in Sacramento, CA serves 3,217,734 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-340-sacramento-ca.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 340 Apprenticeship — Sacramento, CA | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 340 in Sacramento, CA serves 3,217,734 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 340 Inside Wireman Apprenticeship", "description": "IBEW Local 340 in Sacramento, CA serves 3,217,734 people across 18 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 340 (Sacramento Electrical Training Center (340 JATC))", "url": "https://www.ibewlocal340.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "18 counties served by IBEW Local 340, headquartered in Sacramento, CA"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://www.340jatc.org/apply-now"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "340", "state": "CA", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "340", "city": "Sacramento", "state": "CA", "slug": "ibew-local-340-sacramento-ca"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 340" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Sacramento, CA" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 340</h1>
+  <div class="sub">Sacramento, CA &middot; Sacramento Electrical Training Center (340 JATC)</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=340" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 340" onclick="track('prep_cta_clicked',{lu_number:'340',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 340 tests: NJATC Aptitude Test (Inside Wireman) or ETA Aptitude Test (Sound &amp; Communication); approximately 2.5 hours; covers Algebra, Technical Mathematics, and Reading Comprehension; $25 fe</div><div class="notifybox" id="notifybox-340"><label for="nem-340" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 340 opens</label><input id="nem-340" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 340 application alerts"><input id="nhp-340" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('340')">Notify me</button><div class="fine" id="notifyfine-340" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$16.22/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 523 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 140</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>18, High school diploma, college degree, or GED certificate required; official transcript showing completion of 1 year of high school algebra or 1 semester of college algebra with grade of C or better (or GED passing scores)</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$16.22/hr</b></div><div class="row"><span>Observed registration wages</span><b>$12.46–$39.36/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 523 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>18</b></div><div class="row"><span>Education</span><b>High school diploma, college degree, or GED certificate required; official transcript showing completion of 1 year of high school algebra or 1 semester of college algebra with grade of C or better (or GED passing scores)</b></div><div class="row"><span>Aptitude test</span><b>NJATC Aptitude Test (Inside Wireman) or ETA Aptitude Test (Sound &amp; Communication); approximately 2.5 hours; covers Algebra, Technical Mathematics, and Reading Comprehension; $25 fee for Inside Wireman; may re-test after 3 months if failed</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://www.340jatc.org/apply-now" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'340',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibewlocal340.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'340',link_type:'site',surface:'static'})">www.ibewlocal340.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:9166466688" onclick="track('outbound_local_click',{lu_number:'340',link_type:'phone',surface:'static'})">(916) 646-6688</a></b></div><div class="row"><span>Email</span><b><a href="mailto:adminstaff@340jatc.org">adminstaff@340jatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Wednesday, 6 pm</b></div>
+
+  <h2>Counties served (18)</h2>
+  <div class="counties">Sacramento County, CA &middot; Placer County, CA &middot; Yolo County, CA &middot; Butte County, CA &middot; El Dorado County, CA &middot; Shasta County, CA &middot; Nevada County, CA &middot; Sutter County, CA &middot; Yuba County, CA &middot; Tehama County, CA &middot; Amador County, CA &middot; Lassen County, CA &middot; Glenn County, CA &middot; Colusa County, CA &middot; Plumas County, CA &middot; Trinity County, CA &middot; Sierra County, CA &middot; Alpine County, CA</div>
+
+  <h2>ZIP codes served (298)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">94571, 95223, 95526, 95527, 95542, 95552, 95563, 95595, 95601, 95602, 95603, 95604, 95605, 95606, 95607, 95608, 95609, 95610, 95611, 95612, 95613, 95614, 95615, 95616, 95617, 95618, 95619, 95620, 95621, 95623, 95624, 95626, 95627, 95628, 95629, 95630, 95631, 95632, 95633, 95634, 95635, 95636, 95637, 95638, 95640, 95641, 95642, 95645, 95648, 95650, 95651, 95652, 95655, 95656, 95658, 95659, 95660, 95661, 95662, 95663, 95664, 95665, 95666, 95667, 95668, 95669, 95670, 95672, 95673, 95674, 95676, 95677, 95678, 95681, 95682, 95683, 95684, 95685, 95689, 95690, 95691, 95692, 95693, 95694, 95695, 95697, 95699, 95701, 95703, 95709, 95713, 95714, 95715, 95717, 95720, 95722, 95724, 95726, 95728, 95735, 95736, 95741, 95742, 95746, 95747, 95757, 95758, 95759, 95762, 95763, 95765, 95776, 95798, 95811, 95812, 95813, 95814, 95815, 95816, 95817, 95818, 95819, 95820, 95821, 95822, 95823, 95824, 95825, 95826, 95827, 95828, 95829, 95830, 95831, 95832, 95833, 95834, 95835, 95836, 95837, 95838, 95841, 95842, 95843, 95851, 95852, 95853, 95860, 95864, 95865, 95866, 95901, 95903, 95910, 95912, 95914, 95916, 95917, 95918, 95919, 95920, 95922, 95923, 95924, 95925, 95926, 95927, 95928, 95930, 95932, 95934, 95935, 95938, 95939, 95940, 95941, 95942, 95943, 95945, 95946, 95947, 95948, 95949, 95953, 95954, 95956, 95957, 95959, 95960, 95961, 95962, 95963, 95965, 95966, 95967, 95968, 95969, 95970, 95971, 95972, 95973, 95975, 95977, 95979, 95982, 95983, 95987, 95988, 95991, 95992, 95993, 96001, 96002, 96003, 96007, 96008, 96009, 96010, 96013, 96016, 96017, 96019, 96020, 96021, 96022, 96024, 96025, 96028, 96029, 96033, 96035, 96040, 96041, 96046, 96047, 96048, 96049, 96051, 96052, 96055, 96056, 96059, 96061, 96062, 96065, 96068, 96069, 96071, 96073, 96075, 96076, 96078, 96080, 96087, 96088, 96091, 96092, 96093, 96095, 96096, 96099, 96103, 96105, 96106, 96109, 96111, 96113, 96114, 96117, 96118, 96120, 96121, 96122, 96123, 96124, 96125, 96126, 96127, 96128, 96129, 96130, 96132, 96136, 96137, 96140, 96141, 96142, 96143, 96145, 96146, 96148, 96150, 96151, 96155, 96158, 96160, 96161, 96162</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-302-martinez-ca.html">Local 302 (Martinez, CA) &middot; 52 mi</a><a href="ibew-local-180-vallejo-ca.html">Local 180 (Vallejo, CA) &middot; 53 mi</a><a href="ibew-local-595-dublin-ca.html">Local 595 (Dublin, CA) &middot; 65 mi</a><a href="ibew-local-551-santa-rosa-ca.html">Local 551 (Santa Rosa, CA) &middot; 67 mi</a><a href="ibew-local-684-modesto-ca.html">Local 684 (Modesto, CA) &middot; 71 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 340, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

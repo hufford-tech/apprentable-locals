@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 480 Apprenticeship — Jackson, MS | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 480 in Jackson, MS serves 1,074,199 people across 32 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-480-jackson-ms.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 480 Apprenticeship — Jackson, MS | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 480 in Jackson, MS serves 1,074,199 people across 32 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-480-jackson-ms.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 480 Apprenticeship — Jackson, MS | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 480 in Jackson, MS serves 1,074,199 people across 32 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 480 Inside Wireman Apprenticeship", "description": "IBEW Local 480 in Jackson, MS serves 1,074,199 people across 32 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 480 (Jackson Electrical Joint Apprenticeship and Training Committee)", "url": "https://www.ibew480.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "32 counties served by IBEW Local 480, headquartered in Jackson, MS"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://secure.tradeschoolinc.com/v5/ibew480-org/login/index.php"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "480", "state": "MS", "status": "unknown", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "480", "city": "Jackson", "state": "MS", "slug": "ibew-local-480-jackson-ms"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 480" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Jackson, MS" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 480</h1>
+  <div class="sub">Jackson, MS &middot; Jackson Electrical Joint Apprenticeship and Training Committee</div>
+
+  <div class="statusband d-unconfirmed"><div class="slabel"><span class="dot" aria-hidden="true">■</span>Unconfirmed – check with the local</div><div class="snote">We could not confirm a current application window from the local's own site. Contact the local directly or use the official link below.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=480" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 480" onclick="track('prep_cta_clicked',{lu_number:'480',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="notifybox" id="notifybox-480"><label for="nem-480" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 480 opens</label><input id="nem-480" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 480 application alerts"><input id="nhp-480" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('480')">Notify me</button><div class="fine" id="notifyfine-480" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Apprentice wage</span>
+      <small>Local data unavailable</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Next application window</span></div>
+    <div class="cell est"><b>about 25</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>Not published</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="snote">Wage data coming for this local. <a href="#notifybox-480">Notify me &rarr;</a></div>
+
+  
+
+  
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://secure.tradeschoolinc.com/v5/ibew480-org/login/index.php" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'480',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew480.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'480',link_type:'site',surface:'static'})">www.ibew480.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:6013724650" onclick="track('outbound_local_click',{lu_number:'480',link_type:'phone',surface:'static'})">601-372-4650</a></b></div><div class="row"><span>Email</span><b><a href="mailto:jatc-jackson@msn.com">jatc-jackson@msn.com</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">2nd Thursday, 6 pm</b></div>
+
+  <h2>Counties served (32)</h2>
+  <div class="counties">Hinds County, MS &middot; Rankin County, MS &middot; Madison County, MS &middot; Jones County, MS &middot; Warren County, MS &middot; Washington County, MS &middot; Pike County, MS &middot; Lincoln County, MS &middot; Adams County, MS &middot; Bolivar County, MS &middot; Copiah County, MS &middot; Leflore County, MS &middot; Simpson County, MS &middot; Sunflower County, MS &middot; Yazoo County, MS &middot; Wayne County, MS &middot; Covington County, MS &middot; Jasper County, MS &middot; Holmes County, MS &middot; Smith County, MS &middot; Walthall County, MS &middot; Amite County, MS &middot; Lawrence County, MS &middot; Montgomery County, MS &middot; Carroll County, MS &middot; Claiborne County, MS &middot; Wilkinson County, MS &middot; Franklin County, MS &middot; Humphreys County, MS &middot; Jefferson County, MS &middot; Sharkey County, MS &middot; Issaquena County, MS</div>
+
+  <h2>ZIP codes served (217)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">38614, 38701, 38703, 38720, 38721, 38722, 38725, 38726, 38730, 38731, 38732, 38736, 38737, 38738, 38740, 38744, 38746, 38748, 38751, 38753, 38754, 38756, 38759, 38760, 38761, 38762, 38764, 38765, 38769, 38771, 38772, 38773, 38774, 38776, 38778, 38901, 38917, 38923, 38924, 38925, 38930, 38940, 38941, 38943, 38944, 38946, 38947, 38952, 38954, 38963, 38967, 39038, 39039, 39040, 39041, 39042, 39043, 39044, 39045, 39046, 39047, 39051, 39054, 39056, 39059, 39060, 39062, 39063, 39066, 39069, 39071, 39073, 39074, 39078, 39079, 39082, 39083, 39086, 39088, 39092, 39094, 39095, 39096, 39097, 39110, 39111, 39113, 39114, 39116, 39117, 39119, 39120, 39121, 39122, 39130, 39140, 39144, 39145, 39146, 39149, 39150, 39152, 39153, 39154, 39156, 39157, 39158, 39159, 39162, 39166, 39168, 39169, 39170, 39173, 39174, 39175, 39176, 39179, 39180, 39181, 39182, 39183, 39190, 39191, 39192, 39194, 39201, 39202, 39203, 39204, 39205, 39206, 39207, 39208, 39209, 39211, 39212, 39213, 39215, 39216, 39218, 39225, 39232, 39236, 39272, 39282, 39283, 39284, 39286, 39288, 39289, 39296, 39298, 39322, 39330, 39332, 39336, 39338, 39345, 39347, 39348, 39356, 39360, 39362, 39366, 39367, 39401, 39402, 39422, 39428, 39437, 39439, 39440, 39443, 39459, 39464, 39465, 39474, 39476, 39477, 39478, 39479, 39480, 39481, 39482, 39483, 39601, 39602, 39603, 39629, 39630, 39631, 39633, 39638, 39641, 39643, 39645, 39647, 39648, 39649, 39652, 39653, 39654, 39656, 39657, 39661, 39662, 39663, 39664, 39665, 39666, 39667, 39668, 39669, 39745, 39747, 39767</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-917-meridian-ms.html">Local 917 (Meridian, MS) &middot; 87 mi</a><a href="ibew-local-446-monroe-la.html">Local 446 (Monroe, LA) &middot; 114 mi</a><a href="ibew-local-995-baton-rouge-la.html">Local 995 (Baton Rouge, LA) &middot; 141 mi</a><a href="ibew-local-903-gulfport-ms.html">Local 903 (Gulfport, MS) &middot; 148 mi</a><a href="ibew-local-130-new-orleans-la.html">Local 130 (New Orleans, LA) &middot; 162 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 480, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

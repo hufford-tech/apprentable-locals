@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 1141 Apprenticeship — Oklahoma City, OK | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 1141 in Oklahoma City, OK serves 2,343,992 people across 43 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-1141-oklahoma-city-ok.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 1141 Apprenticeship — Oklahoma City, OK | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 1141 in Oklahoma City, OK serves 2,343,992 people across 43 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-1141-oklahoma-city-ok.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 1141 Apprenticeship — Oklahoma City, OK | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 1141 in Oklahoma City, OK serves 2,343,992 people across 43 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 1141 Inside Wireman Apprenticeship", "description": "IBEW Local 1141 in Oklahoma City, OK serves 2,343,992 people across 43 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 1141 (electrical training ALLIANCE of Western Oklahoma)", "url": "https://www.ibew1141.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "43 counties served by IBEW Local 1141, headquartered in Oklahoma City, OK"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://etawok.org/applications"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "1141", "state": "OK", "status": "rolling", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "1141", "city": "Oklahoma City", "state": "OK", "slug": "ibew-local-1141-oklahoma-city-ok"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 1141" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Oklahoma City, OK" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 1141</h1>
+  <div class="sub">Oklahoma City, OK &middot; electrical training ALLIANCE of Western Oklahoma</div>
+
+  <div class="statusband d-always"><div class="slabel"><span class="dot" aria-hidden="true">◆</span>Always accepting</div><div class="snote">This local takes applications year-round or on a repeating schedule.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=1141" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 1141" onclick="track('prep_cta_clicked',{lu_number:'1141',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 1141 tests: Aptitude test covering Algebra Functions and Reading Comprehension; minimum score of 4 out of 9 required; conducted once per month, first 30 applicants tested</div><div class="notifybox" id="notifybox-1141"><label for="nem-1141" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 1141 opens</label><input id="nem-1141" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 1141 application alerts"><input id="nhp-1141" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('1141')">Notify me</button><div class="fine" id="notifyfine-1141" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$13.25/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 395 records</small></div>
+    <div class="cell"><b><span class="muted">Not published</span></b><span>Journeyman rate</span>
+      </div>
+    <div class="cell"><b>Always accepting</b><span>Next application window</span></div>
+    <div class="cell est"><b>about 70</b><span>Estimated annual intake</span><small>Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>17, High school diploma or GED</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$13.25/hr</b></div><div class="row"><span>Observed registration wages</span><b>$10.68–$31.15/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 395 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div>
+
+  
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>17</b></div><div class="row"><span>Education</span><b>High school diploma or GED</b></div><div class="row"><span>Aptitude test</span><b>Aptitude test covering Algebra Functions and Reading Comprehension; minimum score of 4 out of 9 required; conducted once per month, first 30 applicants tested</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://etawok.org/applications" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'1141',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew1141.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'1141',link_type:'site',surface:'static'})">www.ibew1141.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:4056727600" onclick="track('outbound_local_click',{lu_number:'1141',link_type:'phone',surface:'static'})">(405) 672-7600</a></b></div><div class="row"><span>Email</span><b><a href="mailto:staff@etawok.org">staff@etawok.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">1st Friday, 7 pm</b></div>
+
+  <h2>Counties served (43)</h2>
+  <div class="counties">Oklahoma County, OK &middot; Cleveland County, OK &middot; Canadian County, OK &middot; Comanche County, OK &middot; Payne County, OK &middot; Pottawatomie County, OK &middot; Garfield County, OK &middot; Grady County, OK &middot; Logan County, OK &middot; Bryan County, OK &middot; Carter County, OK &middot; McClain County, OK &middot; Stephens County, OK &middot; Pontotoc County, OK &middot; Lincoln County, OK &middot; Custer County, OK &middot; Caddo County, OK &middot; Garvin County, OK &middot; Jackson County, OK &middot; Seminole County, OK &middot; Beckham County, OK &middot; Woodward County, OK &middot; Marshall County, OK &middot; Kingfisher County, OK &middot; Murray County, OK &middot; Washita County, OK &middot; Love County, OK &middot; Johnston County, OK &middot; Woods County, OK &middot; Blaine County, OK &middot; Kiowa County, OK &middot; Major County, OK &middot; Tillman County, OK &middot; Alfalfa County, OK &middot; Cotton County, OK &middot; Greer County, OK &middot; Jefferson County, OK &middot; Dewey County, OK &middot; Grant County, OK &middot; Ellis County, OK &middot; Roger Mills County, OK &middot; Harper County, OK &middot; Harmon County, OK</div>
+
+  <h2>ZIP codes served (402)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">73002, 73003, 73004, 73005, 73006, 73007, 73008, 73009, 73010, 73011, 73012, 73013, 73014, 73015, 73016, 73017, 73018, 73020, 73021, 73023, 73024, 73025, 73026, 73027, 73028, 73029, 73030, 73031, 73033, 73034, 73036, 73038, 73040, 73041, 73042, 73043, 73044, 73045, 73047, 73048, 73049, 73050, 73051, 73052, 73053, 73054, 73055, 73056, 73057, 73058, 73059, 73062, 73063, 73064, 73065, 73066, 73067, 73068, 73069, 73070, 73071, 73072, 73073, 73074, 73075, 73077, 73078, 73079, 73080, 73082, 73083, 73084, 73085, 73086, 73089, 73090, 73092, 73093, 73095, 73096, 73097, 73098, 73099, 73101, 73102, 73103, 73104, 73105, 73106, 73107, 73108, 73109, 73110, 73111, 73112, 73113, 73114, 73115, 73116, 73117, 73118, 73119, 73120, 73121, 73122, 73123, 73127, 73128, 73129, 73130, 73131, 73132, 73134, 73135, 73136, 73137, 73139, 73140, 73141, 73142, 73143, 73144, 73145, 73146, 73147, 73148, 73149, 73150, 73151, 73152, 73153, 73154, 73155, 73156, 73157, 73159, 73160, 73162, 73165, 73169, 73170, 73172, 73173, 73179, 73189, 73195, 73401, 73402, 73403, 73430, 73432, 73433, 73434, 73437, 73438, 73439, 73440, 73441, 73442, 73443, 73444, 73446, 73447, 73448, 73449, 73450, 73453, 73455, 73456, 73458, 73459, 73460, 73461, 73463, 73481, 73488, 73491, 73501, 73502, 73503, 73505, 73506, 73507, 73521, 73522, 73523, 73526, 73527, 73528, 73529, 73530, 73531, 73532, 73533, 73534, 73537, 73538, 73539, 73540, 73541, 73542, 73543, 73544, 73546, 73547, 73548, 73549, 73550, 73551, 73552, 73553, 73554, 73556, 73557, 73559, 73560, 73562, 73564, 73565, 73566, 73567, 73568, 73569, 73570, 73571, 73572, 73573, 73601, 73620, 73622, 73624, 73625, 73626, 73627, 73628, 73632, 73638, 73639, 73641, 73642, 73644, 73645, 73646, 73647, 73650, 73651, 73654, 73655, 73658, 73659, 73660, 73661, 73662, 73663, 73664, 73666, 73667, 73668, 73669, 73673, 73701, 73702, 73703, 73705, 73716, 73717, 73718, 73719, 73720, 73722, 73724, 73726, 73727, 73728, 73729, 73730, 73731, 73733, 73734, 73735, 73736, 73737, 73738, 73739, 73741, 73742, 73743, 73744, 73746, 73747, 73749, 73750, 73753, 73754, 73755, 73756, 73757, 73758, 73759, 73760, 73761, 73762, 73763, 73764, 73766, 73768, 73770, 73771, 73772, 73773, 73801, 73802, 73832, 73834, 73835, 73838, 73840, 73841, 73842, 73843, 73848, 73851, 73852, 73853, 73855, 73857, 73858, 73859, 73860, 74023, 74026, 74028, 74030, 74032, 74045, 74059, 74062, 74074, 74075, 74076, 74079, 74085, 74525, 74530, 74572, 74630, 74636, 74640, 74643, 74646, 74701, 74702, 74720, 74723, 74726, 74727, 74729, 74730, 74731, 74733, 74741, 74748, 74801, 74802, 74804, 74820, 74821, 74824, 74825, 74826, 74830, 74831, 74832, 74834, 74836, 74837, 74840, 74842, 74843, 74844, 74848, 74849, 74851, 74852, 74854, 74855, 74856, 74857, 74859, 74860, 74864, 74865, 74867, 74868, 74869, 74871, 74872, 74873, 74875, 74878, 74881, 74884</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-584-tulsa-ok.html">Local 584 (Tulsa, OK) &middot; 98 mi</a><a href="ibew-local-681-wichita-falls-tx.html">Local 681 (Wichita Falls, TX) &middot; 121 mi</a><a href="ibew-local-271-wichita-ks.html">Local 271 (Wichita, KS) &middot; 154 mi</a><a href="ibew-local-700-ft-smith-ar.html">Local 700 (Ft. Smith, AR) &middot; 176 mi</a><a href="ibew-local-661-hutchinson-ks.html">Local 661 (Hutchinson, KS) &middot; 181 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 1141, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>

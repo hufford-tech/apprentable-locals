@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBEW Local 34 Apprenticeship — Peoria, IL | Inside Wireman Program</title>
+<meta name="description" content="IBEW Local 34 in Peoria, IL serves 571,109 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<link rel="canonical" href="https://www.apprentable.org/locals/ibew-local-34-peoria-il.html">
+<link rel="stylesheet" href="../local.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IBEW Local 34 Apprenticeship — Peoria, IL | Inside Wireman Program">
+<meta property="og:description" content="IBEW Local 34 in Peoria, IL serves 571,109 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<meta property="og:url" content="https://www.apprentable.org/locals/ibew-local-34-peoria-il.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IBEW Local 34 Apprenticeship — Peoria, IL | Inside Wireman Program">
+<meta name="twitter:description" content="IBEW Local 34 in Peoria, IL serves 571,109 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": "IBEW Local 34 Inside Wireman Apprenticeship", "description": "IBEW Local 34 in Peoria, IL serves 571,109 people across 17 counties. Inside wireman apprenticeship status, requirements, and how to apply.", "provider": {"@type": "Organization", "name": "IBEW Local 34 (Peoria Area Electrical JATC)", "url": "https://www.ibew34.org"}, "occupationalCategory": "47-2111.00", "areaServed": {"@type": "AdministrativeArea", "name": "17 counties served by IBEW Local 34, headquartered in Peoria, IL"}, "educationalProgramMode": "https://schema.org/OnSitePlacement", "programType": "Apprenticeship", "url": "https://peoriajatc.com/the-application-process/"}</script>
+<!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
+     layout, so the gtag snippet is injected here directly. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S83RVT3S3B');
+</script>
+</head>
+<body>
+<script>
+// Provider-agnostic on purpose: no vendor is chosen yet. Never pass PII in
+// props -- the captured email must never reach track(). ZIP code/lu_number
+// are fine.
+const DEBUG_EVENTS = false;
+function track(eventName, props){
+  try {
+    if (DEBUG_EVENTS) console.log('[track]', eventName, props || {});
+    if (typeof gtag === 'function') gtag('event', eventName, props || {});
+  } catch (e) { /* tracking must never break the page */ }
+}
+track('local_viewed', {"lu_number": "34", "state": "IL", "status": "open", "surface": "static"});
+
+// Task 13: same Supabase `leads` insert the finder's capture() does (same
+// endpoint, same apikey/Authorization headers, same payload shape), plus
+// lu_number so this lead is attributable to the local whose page sent it.
+const SUPABASE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_lJmIe0ZSszhaB4rG8TCfEg_PRbSVgCw';
+const REPORT_ISSUE_URL = 'https://tbkodgxqeibwfdrbmxyi.supabase.co/functions/v1/report-issue';
+const CAPTURE_LEAD_URL = `${SUPABASE_URL}/functions/v1/capture-lead`;
+const ISSUE_CONTEXT = {"lu_number": "34", "city": "Peoria", "state": "IL", "slug": "ibew-local-34-peoria-il"};
+async function notifyMe(lu){
+  const emailEl = document.getElementById('nem-' + lu);
+  const email = (emailEl && emailEl.value || '').trim();
+  const website = (document.getElementById('nhp-' + lu)?.value || '').trim();
+  const fine = document.getElementById('notifyfine-' + lu);
+  if (!/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address.'; return; }
+  const btn = document.querySelector('#notifybox-' + lu + ' button.btn');
+  if (btn){ btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    const res = await fetch(CAPTURE_LEAD_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({
+        lu_number: lu, kind: 'alert', email, phone: null, website,
+        clerk_user_id: (typeof Clerk !== 'undefined' && Clerk.user) ? Clerk.user.id : null,
+      }),
+    });
+    if (!res.ok) throw new Error(`save failed: ${res.status}`);
+    track('email_captured', {lu_number: lu, surface: 'static'});
+    const box = document.getElementById('notifybox-' + lu);
+    if (box) box.textContent = "Email alerts are launching soon. " + email + " is on the list for Local " + lu + ".";
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Notify me'; }
+    if (fine) fine.textContent = "Couldn't save that just now -- check your connection and try again.";
+  }
+}
+function openIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.add('on');
+  const first = document.getElementById('issue-message');
+  if (first) first.focus();
+  track('report_issue_opened', {lu_number: ISSUE_CONTEXT.lu_number, surface: 'static'});
+}
+function closeIssueModal(){
+  const modal = document.getElementById('issue-modal');
+  if (modal) modal.classList.remove('on');
+}
+async function submitIssue(){
+  const local = (document.getElementById('issue-local')?.value || '').trim();
+  const place = (document.getElementById('issue-place')?.value || '').trim();
+  const issueType = (document.getElementById('issue-type')?.value || '').trim();
+  const message = (document.getElementById('issue-message')?.value || '').trim();
+  const email = (document.getElementById('issue-email')?.value || '').trim();
+  const fine = document.getElementById('issue-fine');
+  const btn = document.getElementById('issue-submit');
+  if (message.length < 5){ if (fine) fine.textContent = 'Please tell us a little more about the issue.'; return; }
+  if (email && !/^\S+@\S+\.\S+$/.test(email)){ if (fine) fine.textContent = 'Enter a valid email address, or leave it blank.'; return; }
+  if (btn){ btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    const res = await fetch(REPORT_ISSUE_URL, {
+      method: 'POST', headers: {'Content-Type':'application/json','apikey':SUPABASE_ANON_KEY,'Authorization':`Bearer ${SUPABASE_ANON_KEY}`},
+      body: JSON.stringify({lu_number:local, local_location:place, issue_type:issueType, message,
+        reporter_email:email || null, source_url:location.href, page_title:document.title, context:ISSUE_CONTEXT}),
+    });
+    if (!res.ok) throw new Error(`report failed: ${res.status}`);
+    track('report_issue_submitted', {lu_number: ISSUE_CONTEXT.lu_number, issue_type: issueType, surface: 'static'});
+    const card = document.getElementById('issue-card');
+    if (card) card.innerHTML = '<div style="text-align:center;padding:14px 0"><div style="font-size:34px">&#9888;</div><h2>Report received</h2><p>Thanks — we’ll review the source and correct the page if needed.</p><button class="btn" onclick="closeIssueModal()">Close</button></div>';
+  } catch (err) {
+    if (btn){ btn.disabled = false; btn.textContent = 'Send report'; }
+    if (fine) fine.textContent = 'We couldn’t send that just now. Please try again in a moment.';
+  }
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeIssueModal(); });
+</script>
+<button class="report-fab" type="button" onclick="openIssueModal()">&#9888; Report an issue</button>
+<div class="issue-modal" id="issue-modal" onclick="if(event.target===this)closeIssueModal()">
+  <div class="issue-card" id="issue-card" role="dialog" aria-modal="true" aria-labelledby="issue-title">
+    <span class="issue-close" onclick="closeIssueModal()" tabindex="0" role="button" aria-label="Close">&times;</span>
+    <h2 id="issue-title">Report a data issue</h2>
+    <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
+    <label for="issue-local">Local</label>
+    <input id="issue-local" type="text" value="IBEW Local 34" aria-label="Local">
+    <label for="issue-place">City and state</label>
+    <input id="issue-place" type="text" value="Peoria, IL" aria-label="City and state">
+    <label for="issue-type">What is wrong?</label>
+    <select id="issue-type" aria-label="Issue type"><option>Wage data</option><option>Application status</option><option>Requirements</option><option>Contact information</option><option>Local match or jurisdiction</option><option>Other</option></select>
+    <label for="issue-message">What should we fix?</label>
+    <textarea id="issue-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
+    <label for="issue-email">Your email (optional)</label>
+    <input id="issue-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
+    <button class="btn primary" id="issue-submit" type="button" onclick="submitIssue()">Send report</button>
+    <div class="issue-fine" id="issue-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <h1>IBEW Local 34</h1>
+  <div class="sub">Peoria, IL &middot; Peoria Area Electrical JATC</div>
+
+  <div class="statusband d-open_now"><div class="slabel"><span class="dot" aria-hidden="true">●</span>Open now</div><div class="snote">A posted application window is open today.</div></div>
+
+  <a class="btn primary" href="https://www.apprentable.org/?local=34" target="_blank" rel="noopener" aria-label="Practice the aptitude test and interview for Local 34" onclick="track('prep_cta_clicked',{lu_number:'34',surface:'static'})">Practice the aptitude test &amp; interview</a><div class="snote">Local 34 tests: Qualifying score on an aptitude test required; no penalty for guessing; results in two to four weeks; minimum 3-month wait to retest if not qualifying</div><div class="notifybox" id="notifybox-34"><label for="nem-34" style="display:block;font-size:11px;color:var(--ink3);margin-top:9px">Get notified when Local 34 opens</label><input id="nem-34" type="email" placeholder="you@email.com" style="width:100%;padding:10px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px;margin-top:5px" aria-label="Email address for Local 34 application alerts"><input id="nhp-34" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button class="btn" onclick="notifyMe('34')">Notify me</button><div class="fine" id="notifyfine-34" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div></div>
+
+  <div class="grid">
+    <div class="cell"><b>$13.62/hr median reported</b><span>Apprentice wage</span>
+      <small>RAPIDS median at registration, 342 records</small></div>
+    <div class="cell"><b>$63.74/hr</b><span>Journeyman rate</span>
+      <small>Davis-Bacon WD IL20260003 &middot; Peoria County, IL</small></div>
+    <div class="cell"><b>Open now</b><span>Next application window</span></div>
+    <div class="cell"><b>53</b><span>Apprentices taken (FY2025)</span><small>Reported to the U.S. Department of Labor by this local's registered program.</small></div>
+  </div>
+  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
+  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
+  <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
+  <div class="row"><span>Minimum requirements</span><b>18, High School Education</b></div>
+
+  
+
+  <h2>Apprentice wage</h2><div class="row"><span>Median reported starting wage</span><b>$13.62/hr</b></div><div class="row"><span>Observed registration wages</span><b>$9.18–$30.64/hr</b></div><div class="snote">DOL RAPIDS, data as of August 17, 2026; median of 342 valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: <a href="https://www.apprenticeship.gov/help/what-rapids" target="_blank" rel="noopener">DOL RAPIDS</a>.</div><h2>Journeyman scale</h2><div class="row"><span>Base wage</span><b>$39.50/hr</b></div><div class="row"><span>Fringe benefits</span><b>$24.24/hr</b></div><div class="row"><span>Total package</span><b>$63.74/hr</b></div><div class="snote">Effective May 18, 2026. Source: <a href="https://sam.gov/wage-determination/IL20260003/1" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination IL20260003</a>. Classification: ELECTRICIAN (BUILDING) ELEC0034-004.</div><div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div>
+
+  <h2>Apprenticeship program size</h2><div class="row"><span>Active apprentices (FY2025)</span><b>202</b></div><div class="row"><span>New apprentices (FY2025)</span><b>53</b></div><div class="snote">U.S. Department of Labor Registered Apprenticeship Partners Information Database (RAPIDS), reporting period 2024-10-01 to 2025-09-30. Reflects this local's registered JATC program under the general "Electrician" occupation code, which may include classifications beyond inside wireman.</div><div class="snote">Not affiliated with or endorsed by IBEW. Figures are as registered with the U.S. Department of Labor, not a real-time headcount -- active apprentices includes everyone whose registration was open at any point in the period, which for a multi-year apprenticeship can mean several years of overlapping classes counted together.</div>
+
+  <h2>Requirements</h2><div class="row"><span>Minimum age</span><b>18</b></div><div class="row"><span>Education</span><b>High School Education</b></div><div class="row"><span>Aptitude test</span><b>Qualifying score on an aptitude test required; no penalty for guessing; results in two to four weeks; minimum 3-month wait to retest if not qualifying</b></div>
+
+  <h2>Apply</h2>
+  <div class="row"><span>Application page</span><b><a href="https://peoriajatc.com/the-application-process/" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'34',link_type:'apply',surface:'static'})">Official link &rarr;</a></b></div><div class="row"><span>Local website</span><b><a href="https://www.ibew34.org" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'34',link_type:'site',surface:'static'})">www.ibew34.org</a></b></div><div class="row"><span>Phone</span><b><a href="tel:3096730393" onclick="track('outbound_local_click',{lu_number:'34',link_type:'phone',surface:'static'})">309-673-0393</a></b></div><div class="row"><span>Email</span><b><a href="mailto:info@peoriajatc.org">info@peoriajatc.org</a></b></div><div class="row"><span>Meetings</span><b style="max-width:260px">2nd Wednesday, 6 pm</b></div>
+
+  <h2>Counties served (17)</h2>
+  <div class="counties">Peoria County, IL &middot; Tazewell County, IL &middot; Adams County, IL &middot; Knox County, IL &middot; Woodford County, IL &middot; Fulton County, IL &middot; McDonough County, IL &middot; Hancock County, IL &middot; Warren County, IL &middot; Mercer County, IL &middot; Pike County, IL &middot; Mason County, IL &middot; Marshall County, IL &middot; Schuyler County, IL &middot; Brown County, IL &middot; Henderson County, IL &middot; Stark County, IL</div>
+
+  <h2>ZIP codes served (234)</h2>
+  <details><summary>Show all ZIP codes</summary><div class="zips">61231, 61259, 61260, 61262, 61263, 61264, 61272, 61273, 61276, 61279, 61281, 61314, 61321, 61334, 61336, 61358, 61369, 61375, 61377, 61401, 61402, 61410, 61411, 61412, 61413, 61414, 61415, 61416, 61417, 61418, 61420, 61421, 61422, 61423, 61425, 61427, 61428, 61430, 61431, 61432, 61434, 61435, 61436, 61437, 61438, 61439, 61440, 61441, 61442, 61443, 61447, 61448, 61449, 61450, 61451, 61452, 61453, 61454, 61455, 61458, 61459, 61460, 61462, 61465, 61466, 61467, 61469, 61470, 61471, 61472, 61473, 61474, 61475, 61476, 61477, 61478, 61479, 61480, 61482, 61483, 61484, 61485, 61486, 61488, 61489, 61490, 61491, 61501, 61516, 61517, 61519, 61520, 61523, 61524, 61525, 61526, 61528, 61529, 61530, 61531, 61532, 61533, 61534, 61535, 61536, 61537, 61539, 61540, 61541, 61542, 61543, 61544, 61545, 61546, 61547, 61548, 61550, 61552, 61553, 61554, 61555, 61559, 61560, 61561, 61562, 61563, 61564, 61565, 61567, 61568, 61569, 61570, 61571, 61572, 61601, 61602, 61603, 61604, 61605, 61606, 61607, 61610, 61611, 61612, 61614, 61615, 61616, 61651, 61652, 61653, 61654, 61655, 61656, 61721, 61725, 61729, 61732, 61733, 61734, 61738, 61740, 61742, 61744, 61747, 61748, 61755, 61759, 61760, 61771, 61774, 62301, 62305, 62306, 62311, 62312, 62313, 62314, 62316, 62319, 62320, 62321, 62323, 62324, 62325, 62326, 62330, 62334, 62338, 62339, 62340, 62341, 62343, 62344, 62345, 62346, 62347, 62349, 62351, 62352, 62353, 62354, 62355, 62356, 62357, 62358, 62359, 62360, 62361, 62362, 62363, 62365, 62366, 62367, 62370, 62373, 62374, 62375, 62376, 62378, 62379, 62380, 62617, 62618, 62624, 62627, 62633, 62635, 62639, 62644, 62655, 62664, 62671, 62681, 62682</div></details>
+
+  <h2>Nearby locals</h2>
+  <div class="nearby"><a href="ibew-local-197-bloomington-il.html">Local 197 (Bloomington, IL) &middot; 34 mi</a><a href="ibew-local-193-springfield-il.html">Local 193 (Springfield, IL) &middot; 63 mi</a><a href="ibew-local-146-decatur-il.html">Local 146 (Decatur, IL) &middot; 68 mi</a><a href="ibew-local-145-rock-island-il.html">Local 145 (Rock Island, IL) &middot; 76 mi</a><a href="ibew-local-13-burlington-ia.html">Local 13 (Burlington, IA) &middot; 80 mi</a></div>
+
+  <footer>Page built 2026-08-21. This is the build date, not a verification date &mdash;
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
+  local's own website and can change without notice &mdash; confirm with the local before relying
+  on this page. &copy; IBEW Apprenticeship Finder.
+  <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
+  sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
+  Contractors Association (NECA), IBEW Local 34, or any other local union or Joint
+  Apprenticeship and Training Committee (JATC).</p></footer>
+</div>
+</body>
+</html>
