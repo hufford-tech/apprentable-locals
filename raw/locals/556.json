@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1211  (u) Gulfport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "556",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1211|Gulfport|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "556",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2411 32nd Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "514",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2411 32nd Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Gulfport, MS 39502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "514",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Gulfport|MS|39502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 541[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "513",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 541",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Gulfport, MS 39502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "513",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Gulfport|MS|39502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](228) 860-7434[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "968",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(228) 860-7434",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1211@gmail.com\" target=\"_blank\">ibew1211@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "523",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1211@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Christopher Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1710",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Martin||{ \"MemberID\" : \"1710\",\"luid\": \"556\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14664 Lamey Bridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Biloxi\",\"state\":\"MS\",\"zip\":\"39532\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3859",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Martin||{ \"MemberID\" : \"3859\",\"luid\": \"556\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14664 Lamey Bridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Biloxi\",\"state\":\"MS\",\"zip\":\"39532\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Milton J. LeBlanc Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1712",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Milton|J.|LeBlanc|Jr.|{ \"MemberID\" : \"1712\",\"luid\": \"556\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 541\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Gulfport\",\"state\":\"MS\",\"zip\":\"39502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Wilford L. Firth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1711",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wilford|L.|Firth||{ \"MemberID\" : \"1711\",\"luid\": \"556\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 541\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Gulfport\",\"state\":\"MS\",\"zip\":\"39502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "556",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

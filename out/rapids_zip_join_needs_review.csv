@@ -1,0 +1,7 @@
+lu_number,local_city,local_state,matched_ps_id,matched_name,matched_zip,jurisdiction_confidence,candidate_count_for_this_local,review_reason
+43,Clay,NY,135771,Electricians Jac Ithaca Lu #241,14850,low,1,confidence=low
+90,Wallingford,CT,44400,BATTLE CREEK ELECTRICAL JATC,06114,low,1,confidence=low; program also claimed by lu ['488']
+81,Scranton,PA,28586,WILKES BARRE ELECTRICIANS,18634,low,2,confidence=low; program also claimed by lu ['163']
+163,Wilkes-Barre,PA,28586,WILKES BARRE ELECTRICIANS,18634,low,2,confidence=low; program also claimed by lu ['81']
+488,Monroe,CT,44400,BATTLE CREEK ELECTRICAL JATC,06114,low,1,confidence=low; program also claimed by lu ['90']
+294,Nashwauk,MN,120998,IRON RANGE ELECTRICAL JAC,55812,low,3,confidence=low

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]435-  (as, rtb, rts, spa, t) Winnipeg, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "254",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "435-|Winnipeg|MB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "254",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, rtb, rts, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]214-301 Weston Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "Address1",
+    "editFieldValues": "214-301 Weston Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Winnipeg, MB R3E 3H4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Winnipeg|MB|R3E 3H4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](204) 985-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "471",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(204) 985-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](204) 985-4233[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(204) 985-4233",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:union@ibew435.ca\" target=\"_blank\">union@ibew435.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "247",
+    "editFieldNames": "Email",
+    "editFieldValues": "union@ibew435.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew435.com\" target=\"_blank\">www.ibew435.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "254",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew435.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Richard A. Ferris[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "782",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Ferris||{ \"MemberID\" : \"782\",\"luid\": \"254\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"214-301 Weston Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3E 3H4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Barry D. Sesak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "781",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barry|D.|Sesak||{ \"MemberID\" : \"781\",\"luid\": \"254\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"214-301 Weston Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3E 3H4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Richard A. Ferris[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3569",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Ferris||{ \"MemberID\" : \"3569\",\"luid\": \"254\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Luke Brunger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "780",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Luke||Brunger||{ \"MemberID\" : \"780\",\"luid\": \"254\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"214-301 Weston Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3E 3H4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]As Notified[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "254",
+    "editFieldNames": "Meets",
+    "editFieldValues": "As Notified",
+    "datatype": "txt"
+  }
+]

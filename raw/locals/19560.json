@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]410-  (u) Baltimore[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19560",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "410-|Baltimore|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19560",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]913 Ridgebrook Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4591",
+    "editFieldNames": "Address1",
+    "editFieldValues": "913 Ridgebrook Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 104[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4591",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 104",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Sparks Glencoe, MD 21152[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4591",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sparks Glencoe|MD|21152",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](410) 819-2230[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1963",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 819-2230",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:officemanager@local410.com\" target=\"_blank\">officemanager@local410.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2037",
+    "editFieldNames": "Email",
+    "editFieldValues": "officemanager@local410.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew410.com\" target=\"_blank\">www.ibew410.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19560",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew410.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Woodrow H. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4177",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Woodrow|H.|Jacobs||{ \"MemberID\" : \"4177\",\"luid\": \"*\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Woodrow H. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4176",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Woodrow|H.|Jacobs||{ \"MemberID\" : \"4176\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"614 Zieme Rue C.P. 142\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sainte-Helene-de-Bagot\",\"state\":\"QC\",\"zip\":\"J0H 1M0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Woodrow H. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4180",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Woodrow|H.|Jacobs||{ \"MemberID\" : \"4180\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nicholas D. Dieter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4193",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|D.|Dieter||{ \"MemberID\" : \"4193\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19560",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2099  (em, mt) Huntingdon[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "778",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2099|Huntingdon|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "778",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1700 Moore Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6417",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1700 Moore Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Huntingdon, PA 16652[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6417",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Huntingdon|PA|16652",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 20[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "675",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 20",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Huntingdon, PA 16652[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "675",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Huntingdon|PA|16652",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](814) 599-7316[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2217",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 599-7316",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:localunion2099@livejuniata.onmicrosoft.com\" target=\"_blank\">localunion2099@livejuniata.onmicrosoft.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2156",
+    "editFieldNames": "Email",
+    "editFieldValues": "localunion2099@livejuniata.onmicrosoft.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Andrew L. Nicholson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2374",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|L.|Nicholson||{ \"MemberID\" : \"2374\",\"luid\": \"778\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 20\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Huntingdon\",\"state\":\"PA\",\"zip\":\"16652\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Andrew L. Nicholson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4097",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|L.|Nicholson||{ \"MemberID\" : \"4097\",\"luid\": \"778\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Hunter McVey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2375",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter||McVey||{ \"MemberID\" : \"2375\",\"luid\": \"778\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1700 Moore Street\",\"addr2\":\"PO Box 20\",\"addr3\":\"\",\"city\":\"Huntingdon\",\"state\":\"PA\",\"zip\":\"16652\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Charles B. Port III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2376",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|B.|Port|III|{ \"MemberID\" : \"2376\",\"luid\": \"778\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1700 Moore Street\",\"addr2\":\"PO Box 20\",\"addr3\":\"\",\"city\":\"Huntingdon\",\"state\":\"PA\",\"zip\":\"16652\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Juniata College, Von Liebig Center of Science, Rockwell Seminar Room, 3rd Wednesday, 3:10 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "778",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Juniata College, Von Liebig Center of Science, Rockwell Seminar Room, 3rd Wednesday, 3:10 pm",
+    "datatype": "txt"
+  }
+]

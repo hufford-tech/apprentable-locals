@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]547-  (rr) Galesburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "547-|Galesburg|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "310",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 213[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5718",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 213",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rayville, MO 64084[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5718",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rayville|MO|64084",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](817) 235-9357[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2304",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(817) 235-9357",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:president.ibew547@gmail.com\" target=\"_blank\">president.ibew547@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "300",
+    "editFieldNames": "Email",
+    "editFieldValues": "president.ibew547@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.facebook.com/groups/398895581178805\" target=\"_blank\">www.facebook.com/groups/398895581178805</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.facebook.com/groups/398895581178805",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Russell G. Wines[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "950",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Russell|G.|Wines||{ \"MemberID\" : \"950\",\"luid\": \"310\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"203 N Maple\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Abingdon\",\"state\":\"IL\",\"zip\":\"61410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Russell G. Wines[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3625",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Russell|G.|Wines||{ \"MemberID\" : \"3625\",\"luid\": \"310\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"203 N Maple\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Abingdon\",\"state\":\"IL\",\"zip\":\"61410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Christopher J. Cassens[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "948",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Cassens||{ \"MemberID\" : \"948\",\"luid\": \"310\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"321 N H Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oskaloosa\",\"state\":\"IA\",\"zip\":\"52577\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Eric Denton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "949",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric||Denton||{ \"MemberID\" : \"949\",\"luid\": \"310\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 213\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rayville\",\"state\":\"MO\",\"zip\":\"64084\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

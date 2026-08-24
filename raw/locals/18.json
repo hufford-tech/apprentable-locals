@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]18--  (u) Los Angeles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "18--|Los Angeles|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "18",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4189 W Second Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4189 W Second Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Los Angeles, CA 90004[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Los Angeles|CA|90004",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](213) 387-8274[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "35",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(213) 387-8274",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](213) 739-6937[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "36",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(213) 739-6937",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew18@ibewlocal18.org\" target=\"_blank\">ibew18@ibewlocal18.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew18@ibewlocal18.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal18.org\" target=\"_blank\">www.ibewlocal18.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal18.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Martin Marrufo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "56",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Martin||Marrufo||{ \"MemberID\" : \"56\",\"luid\": \"18\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4189 W Second Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Los Angeles\",\"state\":\"CA\",\"zip\":\"90004\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Rafael Lopez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "57",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rafael||Lopez||{ \"MemberID\" : \"57\",\"luid\": \"18\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4189 W Second Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Los Angeles\",\"state\":\"CA\",\"zip\":\"90004\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Martin Marrufo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3350",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Martin||Marrufo||{ \"MemberID\" : \"3350\",\"luid\": \"18\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Peter J. Knutson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter|J.|Knutson||{ \"MemberID\" : \"55\",\"luid\": \"18\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4189 W Second Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Los Angeles\",\"state\":\"CA\",\"zip\":\"90004\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Thursday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Thursday, 8 pm",
+    "datatype": "txt"
+  }
+]

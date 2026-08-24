@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1209  (u) Meridian[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "555",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1209|Meridian|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "555",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5348 Trick Talbert Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5927",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5348 Trick Talbert Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Bailey, MS 39320[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5927",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bailey|MS|39320",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1147[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "512",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1147",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Meridian, MS 39301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "512",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Meridian|MS|39301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](601) 513-1313[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "967",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(601) 513-1313",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1209@gmail.com\" target=\"_blank\">ibew1209@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2071",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1209@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jason Odom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1709",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Odom||{ \"MemberID\" : \"1709\",\"luid\": \"555\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5348 Trick Talbert Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bailey\",\"state\":\"MS\",\"zip\":\"39320\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jason Odom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3858",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Odom||{ \"MemberID\" : \"3858\",\"luid\": \"555\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5348 Trick Talbert Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bailey\",\"state\":\"MS\",\"zip\":\"39320\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jason Burt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1707",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Burt||{ \"MemberID\" : \"1707\",\"luid\": \"555\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5348 Trick Talbert Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bailey\",\"state\":\"MS\",\"zip\":\"39320\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Duncan Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1708",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Duncan||Brown||{ \"MemberID\" : \"1708\",\"luid\": \"555\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5348 Trick Talbert Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bailey\",\"state\":\"MS\",\"zip\":\"39320\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1620 Highway 39, Meridian, 1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "555",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1620 Highway 39, Meridian, 1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

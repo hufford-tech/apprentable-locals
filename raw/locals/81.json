@@ -1,0 +1,232 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]104-  (lctt, o, ptc, u) Boston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "81",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "104-|Boston|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "81",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, o, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]900 S Main Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "Address1",
+    "editFieldValues": "900 S Main Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mansfield, MA 02048[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mansfield|MA|02048",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 660-3900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "158",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 660-3900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](508) 660-0986[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "159",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 660-0986",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew104.org\" target=\"_blank\">info@ibew104.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew104.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew104.org\" target=\"_blank\">www.ibew104.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "81",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew104.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]New Hampshire Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4155",
+    "editFieldNames": "Name",
+    "editFieldValues": "New Hampshire Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]22 Old Concord Turnpike[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4155",
+    "editFieldNames": "Address1",
+    "editFieldValues": "22 Old Concord Turnpike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Barrington, NH 03825[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4155",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Barrington|NH|03825",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](603) 868-1143[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1757",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(603) 868-1143",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (603) 868-1798[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1758",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(603) 868-1798",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Maine Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4368",
+    "editFieldNames": "Name",
+    "editFieldValues": "Maine Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t]238 Goddard Road[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4368",
+    "editFieldNames": "Address1",
+    "editFieldValues": "238 Goddard Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][t]Lewiston, ME 04240[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4368",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lewiston|ME|04240",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][t][b](207) 241-7691[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1940",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 241-7691",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][t][b]Fax [/b] (207) 241-0899[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1941",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 241-0899",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]B.M. [/b]Brian T. Murphy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "252",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|T.|Murphy||{ \"MemberID\" : \"252\",\"luid\": \"81\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"22 Old Concord Turnpike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Barrington\",\"state\":\"NH\",\"zip\":\"03825\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][b]Pres. [/b]James E. Foster Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "250",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|E.|Foster|Jr.|{ \"MemberID\" : \"250\",\"luid\": \"81\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"22 Old Concord Turnpike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Barrington\",\"state\":\"NH\",\"zip\":\"03825\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "21",
+    "Line": "[t][b]F.S. [/b]Brian T. Murphy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3407",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|T.|Murphy||{ \"MemberID\" : \"3407\",\"luid\": \"81\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "22",
+    "Line": "[t][b]R.S. [/b]Jason A. Bentley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|A.|Bentley||{ \"MemberID\" : \"251\",\"luid\": \"81\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"22 Old Concord Turnpike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Barrington\",\"state\":\"NH\",\"zip\":\"03825\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "23",
+    "Line": "[t][b]Meets [/b]All 3 Halls, 3rd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "81",
+    "editFieldNames": "Meets",
+    "editFieldValues": "All 3 Halls, 3rd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

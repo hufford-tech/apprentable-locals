@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2179  (em) Sandy Lake[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "795",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2179|Sandy Lake|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "795",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 405[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 405",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sandy Lake, PA 16145[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sandy Lake|PA|16145",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](724) 376-7515[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1313",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 376-7515",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](724) 376-2249[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1314",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 376-2249",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Scott Keene[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2421",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott||Keene||{ \"MemberID\" : \"2421\",\"luid\": \"795\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"235 Urey School Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandy Lake\",\"state\":\"PA\",\"zip\":\"16145\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Scott Keene[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4118",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott||Keene||{ \"MemberID\" : \"4118\",\"luid\": \"795\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"235 Urey School Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandy Lake\",\"state\":\"PA\",\"zip\":\"16145\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jason Free[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2422",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Free||{ \"MemberID\" : \"2422\",\"luid\": \"795\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1294 Petersburg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hadley\",\"state\":\"PA\",\"zip\":\"16130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Shawn E Whitehair[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4292",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|E|Whitehair||{ \"MemberID\" : \"4292\",\"luid\": \"795\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Sandy Lake Fire Department, 2nd Wednesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "795",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Sandy Lake Fire Department, 2nd Wednesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

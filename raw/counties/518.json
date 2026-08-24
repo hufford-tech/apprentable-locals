@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Apache County, AZ",
+    "District": "7",
+    "Population": "69423",
+    "LandArea": "11204.87",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Gila County, AZ",
+    "District": "7",
+    "Population": "51335",
+    "LandArea": "4767.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Navajo County, AZ",
+    "District": "7",
+    "Population": "97470",
+    "LandArea": "9953.17",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Pinal County, AZ",
+    "District": "7",
+    "Population": "179727",
+    "LandArea": "5369.59",
+    "Percentage": "35%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  }
+]

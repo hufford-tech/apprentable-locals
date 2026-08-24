@@ -1,0 +1,344 @@
+[
+  {
+    "CountyName": "Avery County, NC",
+    "District": "10",
+    "Population": "17167",
+    "LandArea": "247.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Avery County, NC",
+    "District": "10",
+    "Population": "17167",
+    "LandArea": "247.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Buncombe County, NC",
+    "District": "10",
+    "Population": "206330",
+    "LandArea": "655.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Buncombe County, NC",
+    "District": "10",
+    "Population": "206330",
+    "LandArea": "655.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Burke County, NC",
+    "District": "10",
+    "Population": "89148",
+    "LandArea": "506.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Burke County, NC",
+    "District": "10",
+    "Population": "89148",
+    "LandArea": "506.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cherokee County, NC",
+    "District": "10",
+    "Population": "24298",
+    "LandArea": "455.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cherokee County, NC",
+    "District": "10",
+    "Population": "24298",
+    "LandArea": "455.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Clay County, NC",
+    "District": "10",
+    "Population": "8775",
+    "LandArea": "214.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Clay County, NC",
+    "District": "10",
+    "Population": "8775",
+    "LandArea": "214.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Graham County, NC",
+    "District": "10",
+    "Population": "7993",
+    "LandArea": "292.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Graham County, NC",
+    "District": "10",
+    "Population": "7993",
+    "LandArea": "292.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Haywood County, NC",
+    "District": "10",
+    "Population": "54033",
+    "LandArea": "553.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Haywood County, NC",
+    "District": "10",
+    "Population": "54033",
+    "LandArea": "553.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Henderson County, NC",
+    "District": "10",
+    "Population": "89173",
+    "LandArea": "374.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Henderson County, NC",
+    "District": "10",
+    "Population": "89173",
+    "LandArea": "374.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Jackson County, NC",
+    "District": "10",
+    "Population": "33121",
+    "LandArea": "490.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Jackson County, NC",
+    "District": "10",
+    "Population": "33121",
+    "LandArea": "490.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Macon County, NC",
+    "District": "10",
+    "Population": "29811",
+    "LandArea": "516.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Macon County, NC",
+    "District": "10",
+    "Population": "29811",
+    "LandArea": "516.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Madison County, NC",
+    "District": "10",
+    "Population": "19635",
+    "LandArea": "449.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Madison County, NC",
+    "District": "10",
+    "Population": "19635",
+    "LandArea": "449.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "McDowell County, NC",
+    "District": "10",
+    "Population": "42151",
+    "LandArea": "441.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "McDowell County, NC",
+    "District": "10",
+    "Population": "42151",
+    "LandArea": "441.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Mitchell County, NC",
+    "District": "10",
+    "Population": "15687",
+    "LandArea": "221.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Mitchell County, NC",
+    "District": "10",
+    "Population": "15687",
+    "LandArea": "221.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Polk County, NC",
+    "District": "10",
+    "Population": "18324",
+    "LandArea": "237.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Polk County, NC",
+    "District": "10",
+    "Population": "18324",
+    "LandArea": "237.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rutherford County, NC",
+    "District": "10",
+    "Population": "62899",
+    "LandArea": "564.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rutherford County, NC",
+    "District": "10",
+    "Population": "62899",
+    "LandArea": "564.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Swain County, NC",
+    "District": "10",
+    "Population": "12968",
+    "LandArea": "528.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Swain County, NC",
+    "District": "10",
+    "Population": "12968",
+    "LandArea": "528.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Transylvania County, NC",
+    "District": "10",
+    "Population": "29334",
+    "LandArea": "378.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Transylvania County, NC",
+    "District": "10",
+    "Population": "29334",
+    "LandArea": "378.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Watauga County, NC",
+    "District": "10",
+    "Population": "42695",
+    "LandArea": "312.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Watauga County, NC",
+    "District": "10",
+    "Population": "42695",
+    "LandArea": "312.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Yancey County, NC",
+    "District": "10",
+    "Population": "17774",
+    "LandArea": "312.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Yancey County, NC",
+    "District": "10",
+    "Population": "17774",
+    "LandArea": "312.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  }
+]

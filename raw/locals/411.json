@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]758-  (t, u) Glasgow[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "411",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "758-|Glasgow|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "411",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]301 W Laurel Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7251",
+    "editFieldNames": "Address1",
+    "editFieldValues": "301 W Laurel Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Plentywood, MT 59254[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7251",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Plentywood|MT|59254",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](406) 650-8365[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2338",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 650-8365",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal758@gmail.com\" target=\"_blank\">ibewlocal758@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal758@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Parker S. Serio, 301 W Laurel Avenue, Plentywood, MT  59254[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1264",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Parker|S.|Serio||{ \"MemberID\" : \"1264\",\"luid\": \"411\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"301 W Laurel Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Plentywood\",\"state\":\"MT\",\"zip\":\"59254\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Parker S. Serio, 301 W Laurel Avenue, Plentywood, MT  59254[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1263",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Parker|S.|Serio||{ \"MemberID\" : \"1263\",\"luid\": \"411\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"301 W Laurel Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Plentywood\",\"state\":\"MT\",\"zip\":\"59254\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Parker Serio, 301 W Laurel Avenue, Plentywood, MT  59254[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3719",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Parker||Serio||{ \"MemberID\" : \"3719\",\"luid\": \"411\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"301 W Laurel Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Plentywood\",\"state\":\"MT\",\"zip\":\"59254\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Phil L. Wahl[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3720",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Phil|L.|Wahl||{ \"MemberID\" : \"3720\",\"luid\": \"411\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Places, 4th Thursday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "411",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Places, 4th Thursday, 8 pm",
+    "datatype": "txt"
+  }
+]

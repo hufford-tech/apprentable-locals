@@ -1,0 +1,362 @@
+[
+  {
+    "CountyName": "Baker County, GA",
+    "District": "5",
+    "Population": "4074",
+    "LandArea": "343.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Baker County, GA",
+    "District": "5",
+    "Population": "4074",
+    "LandArea": "343.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Ben Hill County, GA",
+    "District": "5",
+    "Population": "17484",
+    "LandArea": "251.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Ben Hill County, GA",
+    "District": "5",
+    "Population": "17484",
+    "LandArea": "251.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Calhoun County, GA",
+    "District": "5",
+    "Population": "6320",
+    "LandArea": "280.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Calhoun County, GA",
+    "District": "5",
+    "Population": "6320",
+    "LandArea": "280.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Colquitt County, GA",
+    "District": "5",
+    "Population": "42053",
+    "LandArea": "552.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Colquitt County, GA",
+    "District": "5",
+    "Population": "42053",
+    "LandArea": "552.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Crisp County, GA",
+    "District": "5",
+    "Population": "21996",
+    "LandArea": "273.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Crisp County, GA",
+    "District": "5",
+    "Population": "21996",
+    "LandArea": "273.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Decatur County, GA",
+    "District": "5",
+    "Population": "28240",
+    "LandArea": "596.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dooly County, GA",
+    "District": "5",
+    "Population": "11525",
+    "LandArea": "392.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dooly County, GA",
+    "District": "5",
+    "Population": "11525",
+    "LandArea": "392.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dougherty County, GA",
+    "District": "5",
+    "Population": "96065",
+    "LandArea": "329.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dougherty County, GA",
+    "District": "5",
+    "Population": "96065",
+    "LandArea": "329.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Early County, GA",
+    "District": "5",
+    "Population": "12354",
+    "LandArea": "511.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Early County, GA",
+    "District": "5",
+    "Population": "12354",
+    "LandArea": "511.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Irwin County, GA",
+    "District": "5",
+    "Population": "9931",
+    "LandArea": "356.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Irwin County, GA",
+    "District": "5",
+    "Population": "9931",
+    "LandArea": "356.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lee County, GA",
+    "District": "5",
+    "Population": "24757",
+    "LandArea": "355.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lee County, GA",
+    "District": "5",
+    "Population": "24757",
+    "LandArea": "355.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Miller County, GA",
+    "District": "5",
+    "Population": "6383",
+    "LandArea": "283.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Miller County, GA",
+    "District": "5",
+    "Population": "6383",
+    "LandArea": "283.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Mitchell County, GA",
+    "District": "5",
+    "Population": "23932",
+    "LandArea": "511.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Mitchell County, GA",
+    "District": "5",
+    "Population": "23932",
+    "LandArea": "511.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Randolph County, GA",
+    "District": "5",
+    "Population": "7791",
+    "LandArea": "429.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Randolph County, GA",
+    "District": "5",
+    "Population": "7791",
+    "LandArea": "429.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Seminole County, GA",
+    "District": "5",
+    "Population": "9369",
+    "LandArea": "238.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Sumter County, GA",
+    "District": "5",
+    "Population": "33200",
+    "LandArea": "485.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Sumter County, GA",
+    "District": "5",
+    "Population": "33200",
+    "LandArea": "485.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Terrell County, GA",
+    "District": "5",
+    "Population": "10970",
+    "LandArea": "335.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Terrell County, GA",
+    "District": "5",
+    "Population": "10970",
+    "LandArea": "335.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Tift County, GA",
+    "District": "5",
+    "Population": "38407",
+    "LandArea": "265.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Tift County, GA",
+    "District": "5",
+    "Population": "38407",
+    "LandArea": "265.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Turner County, GA",
+    "District": "5",
+    "Population": "9504",
+    "LandArea": "286.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Turner County, GA",
+    "District": "5",
+    "Population": "9504",
+    "LandArea": "286.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilcox County, GA",
+    "District": "5",
+    "Population": "8577",
+    "LandArea": "380.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilcox County, GA",
+    "District": "5",
+    "Population": "8577",
+    "LandArea": "380.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Worth County, GA",
+    "District": "5",
+    "Population": "21967",
+    "LandArea": "569.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Worth County, GA",
+    "District": "5",
+    "Population": "21967",
+    "LandArea": "569.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

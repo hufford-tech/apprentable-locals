@@ -1,0 +1,192 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]11--  (em, i, rts, spa) Los Angeles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "11--|Los Angeles|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "11",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]297 N Marengo Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "Address1",
+    "editFieldValues": "297 N Marengo Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pasadena, CA 91101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pasadena|CA|91101",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](626) 243-9700[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "21",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(626) 243-9700",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](626) 243-9750[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1997",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(626) 243-9750",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:businessmanager@ibew11.org\" target=\"_blank\">businessmanager@ibew11.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1956",
+    "editFieldNames": "Email",
+    "editFieldValues": "businessmanager@ibew11.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew11.org\" target=\"_blank\">www.ibew11.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew11.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Dispatch Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4146",
+    "editFieldNames": "Name",
+    "editFieldValues": "Dispatch Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]6023 S Garfield Avenue[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4146",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6023 S Garfield Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Commerce, CA 90040[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4146",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Commerce|CA|90040",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](323) 517-9610[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1738",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 517-9610",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (323) 726-0623[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1739",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 726-0623",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t][b]Dispatch No.[/b] (323) 517-9618[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1740",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 517-9618",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]B.M. [/b]Robert J. Corona[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "35",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Corona||{ \"MemberID\" : \"35\",\"luid\": \"11\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"297 N Marengo Avenue\",\"addr2\":\"3rd Floor\",\"addr3\":\"\",\"city\":\"Pasadena\",\"state\":\"CA\",\"zip\":\"91101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Pres. [/b]Alton C. Wilkerson III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "36",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alton|C.|Wilkerson|III|{ \"MemberID\" : \"36\",\"luid\": \"11\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"297 N Marengo Avenue\",\"addr2\":\"3rd Floor\",\"addr3\":\"\",\"city\":\"Pasadena\",\"state\":\"CA\",\"zip\":\"91101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]F.S. [/b]Robert J. Corona[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3342",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Corona||{ \"MemberID\" : \"3342\",\"luid\": \"11\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]R.S. [/b]Irene C. Valenzuela[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "37",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Irene|C.|Valenzuela||{ \"MemberID\" : \"37\",\"luid\": \"11\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"297 N Marengo Avenue\",\"addr2\":\"3rd Floor\",\"addr3\":\"\",\"city\":\"Pasadena\",\"state\":\"CA\",\"zip\":\"91101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

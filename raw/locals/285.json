@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]495-  (em, i, o) Wilmington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "285",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "495-|Wilmington|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "285",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2725 Old Wrightsboro Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "279",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2725 Old Wrightsboro Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit 3C[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "279",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit 3C",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Wilmington, NC 28405[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "279",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wilmington|NC|28405",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](910) 660-8630[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(910) 660-8630",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](910) 660-8768[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "531",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(910) 660-8768",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewunion495@gmail.com\" target=\"_blank\">ibewunion495@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "275",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewunion495@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Earl V. Mumford[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "874",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Earl|V.|Mumford||{ \"MemberID\" : \"874\",\"luid\": \"285\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 820\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hampstead\",\"state\":\"NC\",\"zip\":\"28443\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Michael A. Monk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4396",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Monk||{ \"MemberID\" : \"4396\",\"luid\": \"285\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Earl V. Mumford[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3599",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Earl|V.|Mumford||{ \"MemberID\" : \"3599\",\"luid\": \"285\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Darren L. Cook[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4397",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darren|L.|Cook||{ \"MemberID\" : \"4397\",\"luid\": \"285\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Friday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "285",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 8 pm",
+    "datatype": "txt"
+  }
+]

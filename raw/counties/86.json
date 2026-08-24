@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Genesee County, NY",
+    "District": "3",
+    "Population": "60370",
+    "LandArea": "494.11",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Livingston County, NY",
+    "District": "3",
+    "Population": "64328",
+    "LandArea": "632.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Monroe County, NY",
+    "District": "3",
+    "Population": "735343",
+    "LandArea": "659.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Ontario County, NY",
+    "District": "3",
+    "Population": "100224",
+    "LandArea": "644.38",
+    "Percentage": "28%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Orleans County, NY",
+    "District": "3",
+    "Population": "44171",
+    "LandArea": "391.40",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wayne County, NY",
+    "District": "3",
+    "Population": "93765",
+    "LandArea": "604.21",
+    "Percentage": "59%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wyoming County, NY",
+    "District": "3",
+    "Population": "43424",
+    "LandArea": "592.91",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Ada County, ID",
+    "District": "8",
+    "Population": "300904",
+    "LandArea": "1054.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Ada County, ID",
+    "District": "8",
+    "Population": "300904",
+    "LandArea": "1054.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Adams County, ID",
+    "District": "8",
+    "Population": "3476",
+    "LandArea": "1364.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Adams County, ID",
+    "District": "8",
+    "Population": "3476",
+    "LandArea": "1364.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Boise County, ID",
+    "District": "8",
+    "Population": "6670",
+    "LandArea": "1902.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Boise County, ID",
+    "District": "8",
+    "Population": "6670",
+    "LandArea": "1902.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Canyon County, ID",
+    "District": "8",
+    "Population": "131441",
+    "LandArea": "589.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Canyon County, ID",
+    "District": "8",
+    "Population": "131441",
+    "LandArea": "589.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Elmore County, ID",
+    "District": "8",
+    "Population": "29130",
+    "LandArea": "3077.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Elmore County, ID",
+    "District": "8",
+    "Population": "29130",
+    "LandArea": "3077.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Gem County, ID",
+    "District": "8",
+    "Population": "15181",
+    "LandArea": "562.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Gem County, ID",
+    "District": "8",
+    "Population": "15181",
+    "LandArea": "562.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Malheur County, OR",
+    "District": "9",
+    "Population": "31615",
+    "LandArea": "9887.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Malheur County, OR",
+    "District": "9",
+    "Population": "31615",
+    "LandArea": "9887.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Owyhee County, ID",
+    "District": "8",
+    "Population": "10644",
+    "LandArea": "7677.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Owyhee County, ID",
+    "District": "8",
+    "Population": "10644",
+    "LandArea": "7677.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Payette County, ID",
+    "District": "8",
+    "Population": "20578",
+    "LandArea": "407.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Payette County, ID",
+    "District": "8",
+    "Population": "20578",
+    "LandArea": "407.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Valley County, ID",
+    "District": "8",
+    "Population": "7651",
+    "LandArea": "3677.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Valley County, ID",
+    "District": "8",
+    "Population": "7651",
+    "LandArea": "3677.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Washington County, ID",
+    "District": "8",
+    "Population": "9977",
+    "LandArea": "1456.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Washington County, ID",
+    "District": "8",
+    "Population": "9977",
+    "LandArea": "1456.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  }
+]

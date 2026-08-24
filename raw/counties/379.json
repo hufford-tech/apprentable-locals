@@ -1,0 +1,560 @@
+[
+  {
+    "CountyName": "Abbeville County, SC",
+    "District": "10",
+    "Population": "26167",
+    "LandArea": "508.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Abbeville County, SC",
+    "District": "10",
+    "Population": "26167",
+    "LandArea": "508.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Anderson County, SC",
+    "District": "10",
+    "Population": "165740",
+    "LandArea": "718.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Anderson County, SC",
+    "District": "10",
+    "Population": "165740",
+    "LandArea": "718.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Anson County, NC",
+    "District": "10",
+    "Population": "25275",
+    "LandArea": "531.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Anson County, NC",
+    "District": "10",
+    "Population": "25275",
+    "LandArea": "531.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cabarrus County, NC",
+    "District": "10",
+    "Population": "131063",
+    "LandArea": "364.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cabarrus County, NC",
+    "District": "10",
+    "Population": "131063",
+    "LandArea": "364.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Caldwell County, NC",
+    "District": "10",
+    "Population": "77415",
+    "LandArea": "471.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Caldwell County, NC",
+    "District": "10",
+    "Population": "77415",
+    "LandArea": "471.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Catawba County, NC",
+    "District": "10",
+    "Population": "141685",
+    "LandArea": "399.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Catawba County, NC",
+    "District": "10",
+    "Population": "141685",
+    "LandArea": "399.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cherokee County, SC",
+    "District": "10",
+    "Population": "52537",
+    "LandArea": "392.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Cherokee County, SC",
+    "District": "10",
+    "Population": "52537",
+    "LandArea": "392.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Chester County, SC",
+    "District": "10",
+    "Population": "34068",
+    "LandArea": "580.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Chester County, SC",
+    "District": "10",
+    "Population": "34068",
+    "LandArea": "580.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Chesterfield County, SC",
+    "District": "10",
+    "Population": "42768",
+    "LandArea": "798.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Chesterfield County, SC",
+    "District": "10",
+    "Population": "42768",
+    "LandArea": "798.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Cleveland County, NC",
+    "District": "10",
+    "Population": "96287",
+    "LandArea": "464.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cleveland County, NC",
+    "District": "10",
+    "Population": "96287",
+    "LandArea": "464.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Gaston County, NC",
+    "District": "10",
+    "Population": "190365",
+    "LandArea": "356.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Gaston County, NC",
+    "District": "10",
+    "Population": "190365",
+    "LandArea": "356.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Greenville County, SC",
+    "District": "10",
+    "Population": "379616",
+    "LandArea": "790.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Greenville County, SC",
+    "District": "10",
+    "Population": "379616",
+    "LandArea": "790.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Greenwood County, SC",
+    "District": "10",
+    "Population": "66271",
+    "LandArea": "455.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Greenwood County, SC",
+    "District": "10",
+    "Population": "66271",
+    "LandArea": "455.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Habersham County, GA",
+    "District": "5",
+    "Population": "35902",
+    "LandArea": "278.17",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Hart County, GA",
+    "District": "5",
+    "Population": "22997",
+    "LandArea": "232.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Iredell County, NC",
+    "District": "10",
+    "Population": "122660",
+    "LandArea": "575.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Iredell County, NC",
+    "District": "10",
+    "Population": "122660",
+    "LandArea": "575.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lancaster County, SC",
+    "District": "10",
+    "Population": "61351",
+    "LandArea": "548.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lancaster County, SC",
+    "District": "10",
+    "Population": "61351",
+    "LandArea": "548.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Laurens County, SC",
+    "District": "10",
+    "Population": "69567",
+    "LandArea": "715.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Laurens County, SC",
+    "District": "10",
+    "Population": "69567",
+    "LandArea": "715.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lincoln County, NC",
+    "District": "10",
+    "Population": "63780",
+    "LandArea": "298.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lincoln County, NC",
+    "District": "10",
+    "Population": "63780",
+    "LandArea": "298.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Mecklenburg County, NC",
+    "District": "10",
+    "Population": "695454",
+    "LandArea": "526.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Mecklenburg County, NC",
+    "District": "10",
+    "Population": "695454",
+    "LandArea": "526.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Montgomery County, NC",
+    "District": "10",
+    "Population": "26822",
+    "LandArea": "491.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Montgomery County, NC",
+    "District": "10",
+    "Population": "26822",
+    "LandArea": "491.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Oconee County, SC",
+    "District": "10",
+    "Population": "66215",
+    "LandArea": "625.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Oconee County, SC",
+    "District": "10",
+    "Population": "66215",
+    "LandArea": "625.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Pickens County, SC",
+    "District": "10",
+    "Population": "110757",
+    "LandArea": "496.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Pickens County, SC",
+    "District": "10",
+    "Population": "110757",
+    "LandArea": "496.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Rabun County, GA",
+    "District": "5",
+    "Population": "15050",
+    "LandArea": "371.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Richmond County, NC",
+    "District": "10",
+    "Population": "46564",
+    "LandArea": "473.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Richmond County, NC",
+    "District": "10",
+    "Population": "46564",
+    "LandArea": "473.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rowan County, NC",
+    "District": "10",
+    "Population": "130340",
+    "LandArea": "511.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rowan County, NC",
+    "District": "10",
+    "Population": "130340",
+    "LandArea": "511.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Scotland County, NC",
+    "District": "10",
+    "Population": "35998",
+    "LandArea": "319.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Scotland County, NC",
+    "District": "10",
+    "Population": "35998",
+    "LandArea": "319.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Spartanburg County, SC",
+    "District": "10",
+    "Population": "253791",
+    "LandArea": "810.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Spartanburg County, SC",
+    "District": "10",
+    "Population": "253791",
+    "LandArea": "810.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Stanly County, NC",
+    "District": "10",
+    "Population": "58100",
+    "LandArea": "395.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Stanly County, NC",
+    "District": "10",
+    "Population": "58100",
+    "LandArea": "395.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Stephens County, GA",
+    "District": "5",
+    "Population": "25435",
+    "LandArea": "179.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Union County, NC",
+    "District": "10",
+    "Population": "123677",
+    "LandArea": "637.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Union County, NC",
+    "District": "10",
+    "Population": "123677",
+    "LandArea": "637.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Union County, SC",
+    "District": "10",
+    "Population": "29881",
+    "LandArea": "514.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Union County, SC",
+    "District": "10",
+    "Population": "29881",
+    "LandArea": "514.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "York County, SC",
+    "District": "10",
+    "Population": "164614",
+    "LandArea": "682.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "York County, SC",
+    "District": "10",
+    "Population": "164614",
+    "LandArea": "682.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  }
+]

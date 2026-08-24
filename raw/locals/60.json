@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]71--  (lctt, o, rtb) Columbus[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "71--|Columbus|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "60",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, o, rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2280 Citygate Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2280 Citygate Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Columbus, OH 43219[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Columbus|OH|43219",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](614) 539-1394[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "117",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(614) 539-1394",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](614) 539-4855[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "118",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(614) 539-4855",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew71.org\" target=\"_blank\">office@ibew71.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew71.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew71.org\" target=\"_blank\">www.ibew71.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew71.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Todd Kessler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "184",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd||Kessler||{ \"MemberID\" : \"184\",\"luid\": \"60\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3403 Farm Bank Way\",\"addr2\":\"Building 2\",\"addr3\":\"\",\"city\":\"Grove City\",\"state\":\"OH\",\"zip\":\"43123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Walter W. Gribble III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "183",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Walter|W.|Gribble|III|{ \"MemberID\" : \"183\",\"luid\": \"60\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3403 Farm Bank Way\",\"addr2\":\"Building 2\",\"addr3\":\"\",\"city\":\"Grove City\",\"state\":\"OH\",\"zip\":\"43123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Todd Kessler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3390",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd||Kessler||{ \"MemberID\" : \"3390\",\"luid\": \"60\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James B. Roessner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "185",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|B.|Roessner||{ \"MemberID\" : \"185\",\"luid\": \"60\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3403 Farm Bank Way\",\"addr2\":\"Building 2\",\"addr3\":\"\",\"city\":\"Grove City\",\"state\":\"OH\",\"zip\":\"43123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Eldorado Gaming Scioto Downs, 6000 S High Street, 3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Eldorado Gaming Scioto Downs, 6000 S High Street, 3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

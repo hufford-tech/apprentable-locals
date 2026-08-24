@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Brevard County, FL",
+    "District": "5",
+    "Population": "476230",
+    "LandArea": "1018.19",
+    "Percentage": "98%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hernando County, FL",
+    "District": "5",
+    "Population": "130802",
+    "LandArea": "478.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Indian River County, FL",
+    "District": "5",
+    "Population": "112947",
+    "LandArea": "503.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lake County, FL",
+    "District": "5",
+    "Population": "210528",
+    "LandArea": "953.15",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Orange County, FL",
+    "District": "5",
+    "Population": "896344",
+    "LandArea": "907.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Osceola County, FL",
+    "District": "5",
+    "Population": "172493",
+    "LandArea": "1321.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Seminole County, FL",
+    "District": "5",
+    "Population": "365196",
+    "LandArea": "308.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Sumter County, FL",
+    "District": "5",
+    "Population": "53345",
+    "LandArea": "545.73",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Volusia County, FL",
+    "District": "5",
+    "Population": "443343",
+    "LandArea": "1103.25",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

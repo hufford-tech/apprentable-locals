@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]239-  (u) Jamestown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "150",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "239-|Jamestown|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "150",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1122[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1122",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jamestown, ND 58402[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jamestown|ND|58402",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bbruner70@hotmail.com\" target=\"_blank\">bbruner70@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "148",
+    "editFieldNames": "Email",
+    "editFieldValues": "bbruner70@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Brent J. Bruner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "464",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brent|J.|Bruner||{ \"MemberID\" : \"464\",\"luid\": \"150\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1122\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"ND\",\"zip\":\"58402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]David J. Roberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "466",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|J.|Roberts||{ \"MemberID\" : \"466\",\"luid\": \"150\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1122\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"ND\",\"zip\":\"58402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Kyle R. Beach[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "465",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|R.|Beach||{ \"MemberID\" : \"465\",\"luid\": \"150\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1122\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"ND\",\"zip\":\"58402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Jeremy D. Engles[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "467",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|D.|Engles||{ \"MemberID\" : \"467\",\"luid\": \"150\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1122\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"ND\",\"zip\":\"58402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Various Places, 5:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "150",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Places, 5:15 pm",
+    "datatype": "txt"
+  }
+]

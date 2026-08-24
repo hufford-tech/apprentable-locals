@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Chester County, PA",
+    "District": "3",
+    "Population": "433501",
+    "LandArea": "755.97",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Delaware County, PA",
+    "District": "3",
+    "Population": "550864",
+    "LandArea": "184.21",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

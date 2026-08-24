@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Bienville Parish, LA",
+    "District": "5",
+    "Population": "15752",
+    "LandArea": "810.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Bossier Parish, LA",
+    "District": "5",
+    "Population": "98310",
+    "LandArea": "839.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Caddo Parish, LA",
+    "District": "5",
+    "Population": "252161",
+    "LandArea": "881.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Claiborne Parish, LA",
+    "District": "5",
+    "Population": "16851",
+    "LandArea": "754.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "De Soto Parish, LA",
+    "District": "5",
+    "Population": "25494",
+    "LandArea": "877.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Natchitoches Parish, LA",
+    "District": "5",
+    "Population": "39080",
+    "LandArea": "1255.45",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Red River Parish, LA",
+    "District": "5",
+    "Population": "9622",
+    "LandArea": "389.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Webster Parish, LA",
+    "District": "5",
+    "Population": "41831",
+    "LandArea": "595.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Ingham County, MI",
+    "District": "6",
+    "Population": "279320",
+    "LandArea": "559.19",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Jackson County, MI",
+    "District": "6",
+    "Population": "158422",
+    "LandArea": "706.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Livingston County, MI",
+    "District": "6",
+    "Population": "156951",
+    "LandArea": "568.40",
+    "Percentage": "33%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Washtenaw County, MI",
+    "District": "6",
+    "Population": "322895",
+    "LandArea": "709.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

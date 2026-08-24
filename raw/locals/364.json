@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]661-  (i, rts, spa) Hutchinson[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "364",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "661-|Hutchinson|KS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "364",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]200 W Second Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "361",
+    "editFieldNames": "Address1",
+    "editFieldValues": "200 W Second Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hutchinson, KS 67501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "361",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hutchinson|KS|67501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](620) 663-3431[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "669",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(620) 663-3431",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew661.com\" target=\"_blank\">info@ibew661.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "349",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew661.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew661.com\" target=\"_blank\">www.ibew661.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "364",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew661.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ken E. Boyer Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1115",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ken|E.|Boyer|Jr.|{ \"MemberID\" : \"1115\",\"luid\": \"364\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"427 N Main Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Hutchinson\",\"state\":\"KS\",\"zip\":\"67501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Gavin W. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1114",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gavin|W.|Taylor||{ \"MemberID\" : \"1114\",\"luid\": \"364\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"427 N Main Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Hutchinson\",\"state\":\"KS\",\"zip\":\"67501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Ken E. Boyer Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3675",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ken|E.|Boyer|Jr.|{ \"MemberID\" : \"3675\",\"luid\": \"364\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Anthony R. Gresham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1116",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony|R.|Gresham||{ \"MemberID\" : \"1116\",\"luid\": \"364\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"427 N Main Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Hutchinson\",\"state\":\"KS\",\"zip\":\"67501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "364",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

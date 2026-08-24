@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]55--  (c, lctt, o, u) Des Moines[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "55--|Des Moines|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "50",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, lctt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1435 NE 54th Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1435 NE 54th Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Des Moines, IA 50313[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Des Moines|IA|50313",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](515) 265-6193[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "97",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(515) 265-6193",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](515) 265-6194[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "98",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(515) 265-6194",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew55@ibew55.org\" target=\"_blank\">ibew55@ibew55.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew55@ibew55.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew55.org\" target=\"_blank\">www.ibew55.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew55.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Shane M. Nelson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shane|M.|Nelson||{ \"MemberID\" : \"153\",\"luid\": \"50\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1435 NE 54th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Des Moines\",\"state\":\"IA\",\"zip\":\"50313\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James P. Blair[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "155",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|P.|Blair||{ \"MemberID\" : \"155\",\"luid\": \"50\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1435 NE 54th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Des Moines\",\"state\":\"IA\",\"zip\":\"50313\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Shane M. Nelson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3380",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shane|M.|Nelson||{ \"MemberID\" : \"3380\",\"luid\": \"50\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christina M. Fucaloro[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4483",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christina|M.|Fucaloro||{ \"MemberID\" : \"4483\",\"luid\": \"50\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Union Hall, 3rd Friday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Union Hall, 3rd Friday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

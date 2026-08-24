@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]25--  (c, catv, es, i, ptc, rts) Long Island[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "25--|Long Island|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "25",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, catv, es, i, ptc, rts",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]370 Vanderbilt Motor Parkway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "26",
+    "editFieldNames": "Address1",
+    "editFieldValues": "370 Vanderbilt Motor Parkway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hauppauge, NY 11788[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "26",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hauppauge|NY|11788",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](631) 273-4567[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "49",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(631) 273-4567",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](631) 273-4773[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(631) 273-4773",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew25.org\" target=\"_blank\">info@ibew25.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew25.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew25.org\" target=\"_blank\">www.ibew25.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew25.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Kevin B. Casey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "75",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|B.|Casey||{ \"MemberID\" : \"75\",\"luid\": \"25\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"370 Vanderbilt Motor Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hauppauge\",\"state\":\"NY\",\"zip\":\"11788\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Sean P. Meehan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "77",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|P.|Meehan||{ \"MemberID\" : \"77\",\"luid\": \"25\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"370 Vanderbilt Motor Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hauppauge\",\"state\":\"NY\",\"zip\":\"11788\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ryan G. Casey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "78",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|G.|Casey||{ \"MemberID\" : \"78\",\"luid\": \"25\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"370 Vanderbilt Motor Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hauppauge\",\"state\":\"NY\",\"zip\":\"11788\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jason Alvarez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "76",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Alvarez||{ \"MemberID\" : \"76\",\"luid\": \"25\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"370 Vanderbilt Motor Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hauppauge\",\"state\":\"NY\",\"zip\":\"11788\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

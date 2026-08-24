@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]443-  (i, lctt, mo, o) Montgomery[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "258",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "443-|Montgomery|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "258",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, mo, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1469 Jean Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "253",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1469 Jean Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Montgomery, AL 36107[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "253",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montgomery|AL|36107",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 3204[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "252",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 3204",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Montgomery, AL 36109[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "252",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montgomery|AL|36109",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](334) 272-8830[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "479",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(334) 272-8830",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](334) 272-8831[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "480",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(334) 272-8831",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew443.org\" target=\"_blank\">info@ibew443.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew443.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew443.org\" target=\"_blank\">www.ibew443.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "258",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew443.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]James B. Cardwell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "793",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|B.|Cardwell||{ \"MemberID\" : \"793\",\"luid\": \"258\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3204\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montgomery\",\"state\":\"AL\",\"zip\":\"36109\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]William C. Smitherman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "792",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|C.|Smitherman||{ \"MemberID\" : \"792\",\"luid\": \"258\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3204\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montgomery\",\"state\":\"AL\",\"zip\":\"36109\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]James B. Cardwell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3573",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|B.|Cardwell||{ \"MemberID\" : \"3573\",\"luid\": \"258\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Herman T. Bayless[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "794",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Herman|T.|Bayless||{ \"MemberID\" : \"794\",\"luid\": \"258\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3204\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montgomery\",\"state\":\"AL\",\"zip\":\"36109\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]2nd Saturday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "258",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Saturday, 6 pm",
+    "datatype": "txt"
+  }
+]

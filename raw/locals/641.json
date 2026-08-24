@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1590  (em) Oshawa, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "641",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1590|Oshawa|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "641",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1511-33 Falby Court[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7258",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1511-33 Falby Court",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ajax, ON L1S 3R3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7258",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ajax|ON|L1S 3R3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](905) 404-1420[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1110",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(905) 404-1420",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:eherrington77@gmail.com\" target=\"_blank\">eherrington77@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2147",
+    "editFieldNames": "Email",
+    "editFieldValues": "eherrington77@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Eric Herrington, 65 Rennie Street, Sunderland, ON  L0C 1H0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1968",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric||Herrington||{ \"MemberID\" : \"1968\",\"luid\": \"641\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"65 Rennie Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sunderland\",\"state\":\"ON\",\"zip\":\"L0C 1H0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Eric Herrington, 65 Rennie Street, Sunderland, ON  L0C 1H0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3944",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric||Herrington||{ \"MemberID\" : \"3944\",\"luid\": \"641\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"65 Rennie Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sunderland\",\"state\":\"ON\",\"zip\":\"L0C 1H0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Wade Mowat, 1511-33 Falby Court, Ajax, ON  L1S 3R3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1969",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wade||Mowat||{ \"MemberID\" : \"1969\",\"luid\": \"641\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1511-33 Falby Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ajax\",\"state\":\"ON\",\"zip\":\"L1S 3R3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Karen L. Stevenson, 1511-33 Falby Court, Ajax, ON  L1S 3R3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1967",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Karen|L.|Stevenson||{ \"MemberID\" : \"1967\",\"luid\": \"641\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1511-33 Falby Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ajax\",\"state\":\"ON\",\"zip\":\"L1S 3R3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]IBEW Local Union 636, 1001 Ritson Road South, 2nd Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "641",
+    "editFieldNames": "Meets",
+    "editFieldValues": "IBEW Local Union 636, 1001 Ritson Road South, 2nd Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

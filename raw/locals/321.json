@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]573-  (as, i) Warren[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "321",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "573-|Warren|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "321",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4550 Research Parkway NW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "315",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4550 Research Parkway NW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Warren, OH 44483[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "315",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Warren|OH|44483",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](330) 394-3606[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 394-3606",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](330) 399-3225[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "593",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 399-3225",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:electricians573@gmail.com\" target=\"_blank\">electricians573@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "Email",
+    "editFieldValues": "electricians573@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew573.org\" target=\"_blank\">www.ibew573.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "321",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew573.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Todd J. Ambrose[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "982",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|J.|Ambrose||{ \"MemberID\" : \"982\",\"luid\": \"321\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4550 Research Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Warren\",\"state\":\"OH\",\"zip\":\"44483\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mark A. Phillips[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "983",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|A.|Phillips||{ \"MemberID\" : \"983\",\"luid\": \"321\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4550 Research Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Warren\",\"state\":\"OH\",\"zip\":\"44483\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Todd J. Ambrose[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3635",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|J.|Ambrose||{ \"MemberID\" : \"3635\",\"luid\": \"321\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Hunter Urick[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "984",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter||Urick||{ \"MemberID\" : \"984\",\"luid\": \"321\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4550 Research Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Warren\",\"state\":\"OH\",\"zip\":\"44483\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Friday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "321",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Friday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

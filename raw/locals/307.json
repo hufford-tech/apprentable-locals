@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]543-  (mo, t) San Bernardino[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "543-|San Bernardino|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "307",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]16519 Victor Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "302",
+    "editFieldNames": "Address1",
+    "editFieldValues": "16519 Victor Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 304[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "302",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 304",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Victorville, CA 92395[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "302",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Victorville|CA|92395",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](760) 245-8147[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "568",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(760) 245-8147",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jorge.Lugo@ibew543.org\" target=\"_blank\">jorge.Lugo@ibew543.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "297",
+    "editFieldNames": "Email",
+    "editFieldValues": "jorge.Lugo@ibew543.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew543.org\" target=\"_blank\">www.ibew543.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew543.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jorge L. Lugo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "941",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jorge|L.|Lugo||{ \"MemberID\" : \"941\",\"luid\": \"307\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16519 Victor Street\",\"addr2\":\"Suite 304\",\"addr3\":\"\",\"city\":\"Victorville\",\"state\":\"CA\",\"zip\":\"92395\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John A. Munoz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "940",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|A.|Munoz||{ \"MemberID\" : \"940\",\"luid\": \"307\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16519 Victor Street\",\"addr2\":\"Suite 304\",\"addr3\":\"\",\"city\":\"Victorville\",\"state\":\"CA\",\"zip\":\"92395\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jorge L. Lugo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3622",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jorge|L.|Lugo||{ \"MemberID\" : \"3622\",\"luid\": \"307\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nestor A. Cora Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "939",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nestor|A.|Cora|Jr.|{ \"MemberID\" : \"939\",\"luid\": \"307\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"16519 Victor Street\",\"addr2\":\"Suite 304\",\"addr3\":\"\",\"city\":\"Victorville\",\"state\":\"CA\",\"zip\":\"92395\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

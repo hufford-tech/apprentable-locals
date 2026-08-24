@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]366-  (rr) Proctor[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "222",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "366-|Proctor|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "222",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2621 W Skyline Parkway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7217",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2621 W Skyline Parkway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Duluth, MN 55806[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7217",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Duluth|MN|55806",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](218) 213-8143[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(218) 213-8143",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rirrganglu0366@gmail.com\" target=\"_blank\">rirrganglu0366@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "Email",
+    "editFieldValues": "rirrganglu0366@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Robert C. Irrgang, 6237 Birch Point Road, Saginaw, MN  55779[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "684",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|C.|Irrgang||{ \"MemberID\" : \"684\",\"luid\": \"222\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6237 Birch Point Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saginaw\",\"state\":\"MN\",\"zip\":\"55779\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Robert C. Irrgang, 6237 Birch Point Road, Saginaw, MN  55779[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|C.|Irrgang||{ \"MemberID\" : \"686\",\"luid\": \"222\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6237 Birch Point Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saginaw\",\"state\":\"MN\",\"zip\":\"55779\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Chad K. Hewitt, 2621 W Skyline Parkway, Duluth, MN  55806[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3537",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chad|K.|Hewitt||{ \"MemberID\" : \"3537\",\"luid\": \"222\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2621 W Skyline Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Duluth\",\"state\":\"MN\",\"zip\":\"55806\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]James M. Leseman, 5642 St. Louis River Road, Proctor, MN  55810[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|M.|Leseman||{ \"MemberID\" : \"685\",\"luid\": \"222\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5642 St. Louis River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Proctor\",\"state\":\"MN\",\"zip\":\"55810\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Moose Lodge, 415 Third Avenue, 3rd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "222",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Moose Lodge, 415 Third Avenue, 3rd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Boone County, IL",
+    "District": "6",
+    "Population": "41786",
+    "LandArea": "281.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Carroll County, IL",
+    "District": "6",
+    "Population": "16674",
+    "LandArea": "444.21",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "De Kalb County, IL",
+    "District": "6",
+    "Population": "88969",
+    "LandArea": "634.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Du Page County, IL",
+    "District": "6",
+    "Population": "904161",
+    "LandArea": "333.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jo Daviess County, IL",
+    "District": "6",
+    "Population": "22289",
+    "LandArea": "601.08",
+    "Percentage": "75%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kane County, IL",
+    "District": "6",
+    "Population": "404119",
+    "LandArea": "520.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kendall County, IL",
+    "District": "6",
+    "Population": "54544",
+    "LandArea": "320.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Lake County, IL",
+    "District": "6",
+    "Population": "644356",
+    "LandArea": "447.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Lee County, IL",
+    "District": "6",
+    "Population": "36062",
+    "LandArea": "725.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mchenry County, IL",
+    "District": "6",
+    "Population": "260077",
+    "LandArea": "603.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Ogle County, IL",
+    "District": "6",
+    "Population": "51032",
+    "LandArea": "758.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stephenson County, IL",
+    "District": "6",
+    "Population": "48979",
+    "LandArea": "564.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Whiteside County, IL",
+    "District": "6",
+    "Population": "60653",
+    "LandArea": "684.77",
+    "Percentage": "60%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Winnebago County, IL",
+    "District": "6",
+    "Population": "278418",
+    "LandArea": "513.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

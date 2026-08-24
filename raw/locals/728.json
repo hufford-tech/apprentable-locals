@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1959  (u) Huron[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "728",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1959|Huron|SD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "728",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3031 Sussex Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7290",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3031 Sussex Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pierre, SD 57501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7290",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pierre|SD|57501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](970) 556-1087[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1230",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(970) 556-1087",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:nneddo1959@gmail.com\" target=\"_blank\">nneddo1959@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "Email",
+    "editFieldValues": "nneddo1959@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Nathan Neddo, 3031 Sussex Road, Pierre, SD  57501[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2229",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan||Neddo||{ \"MemberID\" : \"2229\",\"luid\": \"728\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3031 Sussex Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pierre\",\"state\":\"SD\",\"zip\":\"57501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jesse C. Briggs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4301",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|C.|Briggs||{ \"MemberID\" : \"4301\",\"luid\": \"728\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Nathan Neddo, 3031 Sussex Road, Pierre, SD  57501[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4042",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan||Neddo||{ \"MemberID\" : \"4042\",\"luid\": \"728\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3031 Sussex Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pierre\",\"state\":\"SD\",\"zip\":\"57501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Colton V. Hanson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4302",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colton|V.|Hanson||{ \"MemberID\" : \"4302\",\"luid\": \"728\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "728",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

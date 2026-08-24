@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]301-  (i, mt, o, u) Texarkana[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "181",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "301-|Texarkana|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "181",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]114 Elm Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "Address1",
+    "editFieldValues": "114 Elm Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Nash, TX 75569[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Nash|TX|75569",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 490[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 490",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Nash, TX 75569[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Nash|TX|75569",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](903) 838-8531[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "343",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 838-8531",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](903) 838-8532[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "344",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 838-8532",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:chris@ibew301.com\" target=\"_blank\">chris@ibew301.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "178",
+    "editFieldNames": "Email",
+    "editFieldValues": "chris@ibew301.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Christopher M. Donaldson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "560",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Donaldson||{ \"MemberID\" : \"560\",\"luid\": \"181\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 490\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Nash\",\"state\":\"TX\",\"zip\":\"75569\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jesse A. Hill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "561",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|A.|Hill||{ \"MemberID\" : \"561\",\"luid\": \"181\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 490\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Nash\",\"state\":\"TX\",\"zip\":\"75569\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Christopher M. Donaldson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3497",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Donaldson||{ \"MemberID\" : \"3497\",\"luid\": \"181\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "181",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

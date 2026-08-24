@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1491  (u) Enterprise[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "610",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1491|Enterprise|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "610",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]917 Asby Way[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5292",
+    "editFieldNames": "Address1",
+    "editFieldValues": "917 Asby Way",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Osteen, FL 32764[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5292",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Osteen|FL|32764",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](386) 804-6626[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2046",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(386) 804-6626",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Oleheavy84@gmail.com\" target=\"_blank\">Oleheavy84@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2093",
+    "editFieldNames": "Email",
+    "editFieldValues": "Oleheavy84@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Kyle E. Carter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1873",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|E.|Carter||{ \"MemberID\" : \"1873\",\"luid\": \"610\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1739\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Deland\",\"state\":\"FL\",\"zip\":\"32724\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Kyle E. Carter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3912",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|E.|Carter||{ \"MemberID\" : \"3912\",\"luid\": \"610\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1739\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Deland\",\"state\":\"FL\",\"zip\":\"32724\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Kyle E. Carter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1874",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|E.|Carter||{ \"MemberID\" : \"1874\",\"luid\": \"610\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1739\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Deland\",\"state\":\"FL\",\"zip\":\"32724\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Andrew E. Jenkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1875",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|E.|Jenkins||{ \"MemberID\" : \"1875\",\"luid\": \"610\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1739\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Deland\",\"state\":\"FL\",\"zip\":\"32724\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Cave Lake Club House, 4454 Cave Lake Road, DeLeon Springs, 3rd Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "610",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Cave Lake Club House, 4454 Cave Lake Road, DeLeon Springs, 3rd Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

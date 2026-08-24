@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Bartholomew County, IN",
+    "District": "6",
+    "Population": "71435",
+    "LandArea": "406.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Boone County, IN",
+    "District": "6",
+    "Population": "46107",
+    "LandArea": "422.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Decatur County, IN",
+    "District": "6",
+    "Population": "24555",
+    "LandArea": "372.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hamilton County, IN",
+    "District": "6",
+    "Population": "182740",
+    "LandArea": "397.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hancock County, IN",
+    "District": "6",
+    "Population": "55391",
+    "LandArea": "306.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hendricks County, IN",
+    "District": "6",
+    "Population": "104093",
+    "LandArea": "408.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jennings County, IN",
+    "District": "6",
+    "Population": "27554",
+    "LandArea": "377.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Johnson County, IN",
+    "District": "6",
+    "Population": "115209",
+    "LandArea": "320.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Madison County, IN",
+    "District": "6",
+    "Population": "133358",
+    "LandArea": "452.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Marion County, IN",
+    "District": "6",
+    "Population": "860454",
+    "LandArea": "396.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Montgomery County, IN",
+    "District": "6",
+    "Population": "37629",
+    "LandArea": "504.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Morgan County, IN",
+    "District": "6",
+    "Population": "66689",
+    "LandArea": "406.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Putnam County, IN",
+    "District": "6",
+    "Population": "36019",
+    "LandArea": "480.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Ripley County, IN",
+    "District": "6",
+    "Population": "26523",
+    "LandArea": "446.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Rush County, IN",
+    "District": "6",
+    "Population": "18261",
+    "LandArea": "408.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Shelby County, IN",
+    "District": "6",
+    "Population": "43445",
+    "LandArea": "412.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

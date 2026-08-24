@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Buena Vista County, IA",
+    "District": "11",
+    "Population": "20411",
+    "LandArea": "574.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Cedar County, NE",
+    "District": "11",
+    "Population": "9615",
+    "LandArea": "740.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Cherokee County, IA",
+    "District": "11",
+    "Population": "13035",
+    "LandArea": "577.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Clay County, IA",
+    "District": "11",
+    "Population": "17372",
+    "LandArea": "568.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Clay County, SD",
+    "District": "11",
+    "Population": "13537",
+    "LandArea": "411.60",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Crawford County, IA",
+    "District": "11",
+    "Population": "16942",
+    "LandArea": "714.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Dakota County, NE",
+    "District": "11",
+    "Population": "20253",
+    "LandArea": "263.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Dickinson County, IA",
+    "District": "11",
+    "Population": "16424",
+    "LandArea": "381.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Dixon County, NE",
+    "District": "11",
+    "Population": "6339",
+    "LandArea": "476.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Emmet County, IA",
+    "District": "11",
+    "Population": "11027",
+    "LandArea": "395.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Ida County, IA",
+    "District": "11",
+    "Population": "7837",
+    "LandArea": "431.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Knox County, NE",
+    "District": "11",
+    "Population": "9374",
+    "LandArea": "1108.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Lyon County, IA",
+    "District": "11",
+    "Population": "11763",
+    "LandArea": "587.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Monona County, IA",
+    "District": "11",
+    "Population": "10020",
+    "LandArea": "693.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Obrien County, IA",
+    "District": "11",
+    "Population": "15102",
+    "LandArea": "573.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Osceola County, IA",
+    "District": "11",
+    "Population": "7003",
+    "LandArea": "398.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Palo Alto County, IA",
+    "District": "11",
+    "Population": "10147",
+    "LandArea": "563.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Pierce County, NE",
+    "District": "11",
+    "Population": "7857",
+    "LandArea": "573.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Plymouth County, IA",
+    "District": "11",
+    "Population": "24849",
+    "LandArea": "863.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Sac County, IA",
+    "District": "11",
+    "Population": "11529",
+    "LandArea": "575.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Sioux County, IA",
+    "District": "11",
+    "Population": "31589",
+    "LandArea": "767.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Thurston County, NE",
+    "District": "11",
+    "Population": "7171",
+    "LandArea": "393.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Union County, SD",
+    "District": "11",
+    "Population": "12584",
+    "LandArea": "460.38",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Wayne County, NE",
+    "District": "11",
+    "Population": "9851",
+    "LandArea": "443.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Woodbury County, IA",
+    "District": "11",
+    "Population": "103877",
+    "LandArea": "872.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Yankton County, SD",
+    "District": "11",
+    "Population": "21652",
+    "LandArea": "521.55",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  }
+]

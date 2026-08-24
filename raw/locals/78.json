@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]100-  (c, em, i, ptc, rts, st) Fresno[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "78",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "100-|Fresno|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "78",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, em, i, ptc, rts, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5434 E Lamona Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5434 E Lamona Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fresno, CA 93727[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fresno|CA|93727",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](559) 251-8241[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "152",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(559) 251-8241",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](559) 251-0543[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(559) 251-0543",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew100.org\" target=\"_blank\">info@ibew100.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "77",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew100.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew100.org\" target=\"_blank\">www.ibew100.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "78",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew100.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jake P. Piland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "240",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jake|P.|Piland||{ \"MemberID\" : \"240\",\"luid\": \"78\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5410 E Home Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fresno\",\"state\":\"CA\",\"zip\":\"93727\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Luis Almendarez Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Luis||Almendarez|Jr.|{ \"MemberID\" : \"241\",\"luid\": \"78\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5410 E Home Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fresno\",\"state\":\"CA\",\"zip\":\"93727\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jake P. Piland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3406",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jake|P.|Piland||{ \"MemberID\" : \"3406\",\"luid\": \"78\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Skyler J. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Skyler|J.|Walker||{ \"MemberID\" : \"239\",\"luid\": \"78\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5410 E Home Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fresno\",\"state\":\"CA\",\"zip\":\"93727\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "78",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

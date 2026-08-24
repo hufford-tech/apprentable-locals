@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Benton County, IA",
+    "District": "11",
+    "Population": "25308",
+    "LandArea": "716.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Iowa County, IA",
+    "District": "11",
+    "Population": "15671",
+    "LandArea": "586.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Johnson County, IA",
+    "District": "11",
+    "Population": "111006",
+    "LandArea": "614.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Jones County, IA",
+    "District": "11",
+    "Population": "20221",
+    "LandArea": "575.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Linn County, IA",
+    "District": "11",
+    "Population": "191701",
+    "LandArea": "717.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Poweshiek County, IA",
+    "District": "11",
+    "Population": "18815",
+    "LandArea": "585.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  }
+]

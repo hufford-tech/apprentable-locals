@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1700  (u) New Orleans[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "673",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1700|New Orleans|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "673",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]128 Willow Wood Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "Address1",
+    "editFieldValues": "128 Willow Wood Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Slidell, LA 70461[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Slidell|LA|70461",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](504) 287-3196[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1153",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(504) 287-3196",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:djaug1875@msn.com\" target=\"_blank\">djaug1875@msn.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "629",
+    "editFieldNames": "Email",
+    "editFieldValues": "djaug1875@msn.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Darius I. Hollins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2059",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darius|I.|Hollins||{ \"MemberID\" : \"2059\",\"luid\": \"673\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17517 Rosemont Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Prairieville\",\"state\":\"LA\",\"zip\":\"70769\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Darius I. Hollins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3980",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darius|I.|Hollins||{ \"MemberID\" : \"3980\",\"luid\": \"673\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17517 Rosemont Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Prairieville\",\"state\":\"LA\",\"zip\":\"70769\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Darius I. Hollins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3981",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darius|I.|Hollins||{ \"MemberID\" : \"3981\",\"luid\": \"673\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"128 Willow Wood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Slidell\",\"state\":\"LA\",\"zip\":\"70461\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kimberlin Young[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2060",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kimberlin||Young||{ \"MemberID\" : \"2060\",\"luid\": \"673\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"128 Willow Wood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Slidell\",\"state\":\"LA\",\"zip\":\"70461\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 7 am & 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "673",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 7 am & 3 pm",
+    "datatype": "txt"
+  }
+]

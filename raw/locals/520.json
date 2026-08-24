@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1055  (u) Pensacola[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "520",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1055|Pensacola|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "520",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 846[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7072",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 846",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Gonzalez, FL 32560[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7072",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Gonzalez|FL|32560",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](850) 382-8474[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2285",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(850) 382-8474",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Local1055BA@outlook.com\" target=\"_blank\">Local1055BA@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1948",
+    "editFieldNames": "Email",
+    "editFieldValues": "Local1055BA@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1055.org\" target=\"_blank\">www.ibew1055.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "520",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1055.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]David L. Thompkins Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1599",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Thompkins|Jr.|{ \"MemberID\" : \"1599\",\"luid\": \"520\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 846\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Gonzalez\",\"state\":\"FL\",\"zip\":\"32560\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Travis L. Parker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1597",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|L.|Parker||{ \"MemberID\" : \"1597\",\"luid\": \"520\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 427\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crestview\",\"state\":\"FL\",\"zip\":\"32536\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Gregory B. Collins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1598",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|B.|Collins||{ \"MemberID\" : \"1598\",\"luid\": \"520\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6178 Brighton Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milton\",\"state\":\"FL\",\"zip\":\"32570\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jared S. Arrant[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1596",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jared|S.|Arrant||{ \"MemberID\" : \"1596\",\"luid\": \"520\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"208 Scooter Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Panama City Beach\",\"state\":\"FL\",\"zip\":\"32408\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]IBEW Local Union 676, 780 N Palafox Street, 1st Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "520",
+    "editFieldNames": "Meets",
+    "editFieldValues": "IBEW Local Union 676, 780 N Palafox Street, 1st Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

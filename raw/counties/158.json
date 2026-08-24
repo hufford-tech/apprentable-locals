@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Brown County, WI",
+    "District": "6",
+    "Population": "226778",
+    "LandArea": "528.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Door County, WI",
+    "District": "6",
+    "Population": "27961",
+    "LandArea": "482.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Kewaunee County, WI",
+    "District": "6",
+    "Population": "20187",
+    "LandArea": "342.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Manitowoc County, WI",
+    "District": "6",
+    "Population": "82887",
+    "LandArea": "591.53",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marinette County, WI",
+    "District": "6",
+    "Population": "43384",
+    "LandArea": "1401.76",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Menominee County, MI",
+    "District": "6",
+    "Population": "25326",
+    "LandArea": "1043.52",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Menominee County, WI",
+    "District": "6",
+    "Population": "4562",
+    "LandArea": "357.96",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Oconto County, WI",
+    "District": "6",
+    "Population": "35634",
+    "LandArea": "997.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Shawano County, WI",
+    "District": "6",
+    "Population": "40664",
+    "LandArea": "892.51",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

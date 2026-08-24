@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1507  (t) Hudson[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "615",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1507|Hudson|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "615",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2733 Route 193[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "572",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2733 Route 193",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jefferson, OH 44047[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "572",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jefferson|OH|44047",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](440) 417-6048[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2095",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(440) 417-6048",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lester.bolen@windstream.com\" target=\"_blank\">lester.bolen@windstream.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2141",
+    "editFieldNames": "Email",
+    "editFieldValues": "lester.bolen@windstream.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Lester Bolen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1888",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lester||Bolen||{ \"MemberID\" : \"1888\",\"luid\": \"615\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 324\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hudson\",\"state\":\"OH\",\"zip\":\"44236\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Lester Bolen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3917",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lester||Bolen||{ \"MemberID\" : \"3917\",\"luid\": \"615\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Keith W. Fischer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1890",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Keith|W.|Fischer||{ \"MemberID\" : \"1890\",\"luid\": \"615\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10575 Tallmadge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Diamond \",\"state\":\"OH\",\"zip\":\"44412\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kyle S. Brass[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1889",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|S.|Brass||{ \"MemberID\" : \"1889\",\"luid\": \"615\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 324\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hudson\",\"state\":\"OH\",\"zip\":\"44236\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Locations, 3rd Tuesday, 5:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "615",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Locations, 3rd Tuesday, 5:45 pm",
+    "datatype": "txt"
+  }
+]

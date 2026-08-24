@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Bergen County, NJ",
+    "District": "3",
+    "Population": "884118",
+    "LandArea": "234.17",
+    "Percentage": "3%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Bergen County, NJ",
+    "District": "3",
+    "Population": "884118",
+    "LandArea": "234.17",
+    "Percentage": "3%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Bucks County, PA",
+    "District": "3",
+    "Population": "597635",
+    "LandArea": "607.38",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Essex County, NJ",
+    "District": "3",
+    "Population": "793633",
+    "LandArea": "126.27",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Essex County, NJ",
+    "District": "3",
+    "Population": "793633",
+    "LandArea": "126.27",
+    "Percentage": "1%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Hunterdon County, NJ",
+    "District": "3",
+    "Population": "121989",
+    "LandArea": "429.94",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Hunterdon County, NJ",
+    "District": "3",
+    "Population": "121989",
+    "LandArea": "429.94",
+    "Percentage": "60%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Monroe County, PA",
+    "District": "3",
+    "Population": "138687",
+    "LandArea": "608.50",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Morris County, NJ",
+    "District": "3",
+    "Population": "470212",
+    "LandArea": "468.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Morris County, NJ",
+    "District": "3",
+    "Population": "470212",
+    "LandArea": "468.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Northampton County, PA",
+    "District": "3",
+    "Population": "267066",
+    "LandArea": "373.80",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Passaic County, NJ",
+    "District": "3",
+    "Population": "489049",
+    "LandArea": "185.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Passaic County, NJ",
+    "District": "3",
+    "Population": "489049",
+    "LandArea": "185.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Pike County, PA",
+    "District": "3",
+    "Population": "46302",
+    "LandArea": "546.81",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Somerset County, NJ",
+    "District": "3",
+    "Population": "297490",
+    "LandArea": "304.69",
+    "Percentage": "60%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Somerset County, NJ",
+    "District": "3",
+    "Population": "297490",
+    "LandArea": "304.69",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Sussex County, NJ",
+    "District": "3",
+    "Population": "144166",
+    "LandArea": "521.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Sussex County, NJ",
+    "District": "3",
+    "Population": "144166",
+    "LandArea": "521.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Union County, NJ",
+    "District": "3",
+    "Population": "522541",
+    "LandArea": "103.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Union County, NJ",
+    "District": "3",
+    "Population": "522541",
+    "LandArea": "103.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Warren County, NJ",
+    "District": "3",
+    "Population": "102437",
+    "LandArea": "357.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Warren County, NJ",
+    "District": "3",
+    "Population": "102437",
+    "LandArea": "357.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1997  (u) Atlanta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19563",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1997|Atlanta|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19563",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]501 Pulliam Street SW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5538",
+    "editFieldNames": "Address1",
+    "editFieldValues": "501 Pulliam Street SW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 518[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5538",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 518",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Atlanta, GA 30312[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5538",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Atlanta|GA|30312",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](912) 659-8072[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2084",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(912) 659-8072",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:businessmanager@ibew1997.org\" target=\"_blank\">businessmanager@ibew1997.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2052",
+    "editFieldNames": "Email",
+    "editFieldValues": "businessmanager@ibew1997.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1997.org\" target=\"_blank\">www.ibew1997.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19563",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1997.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Timothy W. Dasher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4194",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|W.|Dasher||{ \"MemberID\" : \"4194\",\"luid\": \"*\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"50 Galloway Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Covington\",\"state\":\"GA\",\"zip\":\"30016\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mark W. Ellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4195",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|W.|Ellis||{ \"MemberID\" : \"4195\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6776 H Abercrombie Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Murrayville \",\"state\":\"GA\",\"zip\":\"30564\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jacob S Ezell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4459",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|S|Ezell||{ \"MemberID\" : \"4459\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Timothy Kristich[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4460",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy||Kristich||{ \"MemberID\" : \"4460\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Locations, 3rd Saturday, 9 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19563",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Locations, 3rd Saturday, 9 am",
+    "datatype": "txt"
+  }
+]

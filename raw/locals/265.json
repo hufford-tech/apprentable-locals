@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]454-  (rr) Orange[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "265",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "454-|Orange|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "265",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]804 Madaline Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5712",
+    "editFieldNames": "Address1",
+    "editFieldValues": "804 Madaline Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Avenel, NJ 07001[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5712",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Avenel|NJ|07001",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](201) 209-8776[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2112",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(201) 209-8776",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](973) 225-5994[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2113",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(973) 225-5994",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal454@gmail.com\" target=\"_blank\">ibewlocal454@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "257",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal454@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Stephen D. Suriano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "816",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|D.|Suriano||{ \"MemberID\" : \"816\",\"luid\": \"265\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Dwyane Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oceanport\",\"state\":\"NJ\",\"zip\":\"07757\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Stephen D. Suriano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3579",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|D.|Suriano||{ \"MemberID\" : \"3579\",\"luid\": \"265\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7 Cherry Blossom Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe Township\",\"state\":\"NJ\",\"zip\":\"08831\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Vito Rizzi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "814",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vito||Rizzi||{ \"MemberID\" : \"814\",\"luid\": \"265\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4 Nakomis Path\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln Park\",\"state\":\"NJ\",\"zip\":\"07035\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Eric M. Gritschke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "815",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|M.|Gritschke||{ \"MemberID\" : \"815\",\"luid\": \"265\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1 Powderhorn Court\",\"addr2\":\"Unit 6\",\"addr3\":\"\",\"city\":\"Vernon\",\"state\":\"NJ\",\"zip\":\"07462\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Sun Tavern, 600 Westfield Avenue W, Roselle Park, 4th Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "265",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Sun Tavern, 600 Westfield Avenue W, Roselle Park, 4th Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

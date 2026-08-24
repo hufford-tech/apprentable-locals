@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]988-  (u) Sidney[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "499",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "988-|Sidney|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "499",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]12776 Highway 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "Address1",
+    "editFieldValues": "12776 Highway 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sidney, MT 59270[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sidney|MT|59270",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](406) 480-0952[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "887",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 480-0952",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:domradke@outlook.com\" target=\"_blank\">domradke@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "473",
+    "editFieldNames": "Email",
+    "editFieldValues": "domradke@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Dominque A. Radke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1532",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dominque|A.|Radke||{ \"MemberID\" : \"1532\",\"luid\": \"499\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"307 Second Avenue SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sidney\",\"state\":\"MT\",\"zip\":\"59270\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Dominque A. Radke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1529",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dominque|A.|Radke||{ \"MemberID\" : \"1529\",\"luid\": \"499\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"307 Second Avenue SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sidney\",\"state\":\"MT\",\"zip\":\"59270\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Nathanial Turner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1530",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathanial||Turner||{ \"MemberID\" : \"1530\",\"luid\": \"499\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"405 W Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sidney\",\"state\":\"MT\",\"zip\":\"59270\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Bryan R. Franck[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1531",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|R.|Franck||{ \"MemberID\" : \"1531\",\"luid\": \"499\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"307 Second Avenue SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sidney\",\"state\":\"MT\",\"zip\":\"59270\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]VFW Club, 1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "499",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Club, 1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

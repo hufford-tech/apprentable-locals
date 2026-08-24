@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Bland County, VA",
+    "District": "4",
+    "Population": "6871",
+    "LandArea": "358.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Boone County, WV",
+    "District": "4",
+    "Population": "25535",
+    "LandArea": "502.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Braxton County, WV",
+    "District": "4",
+    "Population": "14702",
+    "LandArea": "513.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Buchanan County, VA",
+    "District": "4",
+    "Population": "26978",
+    "LandArea": "503.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Calhoun County, WV",
+    "District": "4",
+    "Population": "7582",
+    "LandArea": "280.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Carroll County, VA",
+    "District": "4",
+    "Population": "29245",
+    "LandArea": "476.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Clay County, WV",
+    "District": "4",
+    "Population": "10330",
+    "LandArea": "342.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Fayette County, WV",
+    "District": "4",
+    "Population": "47579",
+    "LandArea": "663.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Giles County, VA",
+    "District": "4",
+    "Population": "16657",
+    "LandArea": "357.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Gilmer County, WV",
+    "District": "4",
+    "Population": "7160",
+    "LandArea": "340.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Grayson County, VA",
+    "District": "4",
+    "Population": "17917",
+    "LandArea": "442.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Greenbrier County, WV",
+    "District": "4",
+    "Population": "34453",
+    "LandArea": "1021.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Kanawha County, WV",
+    "District": "4",
+    "Population": "200073",
+    "LandArea": "903.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "McDowell County, WV",
+    "District": "4",
+    "Population": "27329",
+    "LandArea": "534.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mercer County, WV",
+    "District": "4",
+    "Population": "62980",
+    "LandArea": "420.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Monroe County, WV",
+    "District": "4",
+    "Population": "14583",
+    "LandArea": "473.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Nicholas County, WV",
+    "District": "4",
+    "Population": "26562",
+    "LandArea": "648.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Putnam County, WV",
+    "District": "4",
+    "Population": "51589",
+    "LandArea": "346.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Raleigh County, WV",
+    "District": "4",
+    "Population": "79220",
+    "LandArea": "606.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Roane County, WV",
+    "District": "4",
+    "Population": "15446",
+    "LandArea": "483.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Smyth County, VA",
+    "District": "4",
+    "Population": "33081",
+    "LandArea": "452.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Summers County, WV",
+    "District": "4",
+    "Population": "12999",
+    "LandArea": "361.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tazewell County, VA",
+    "District": "4",
+    "Population": "44598",
+    "LandArea": "519.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Webster County, WV",
+    "District": "4",
+    "Population": "9719",
+    "LandArea": "555.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wyoming County, WV",
+    "District": "4",
+    "Population": "25708",
+    "LandArea": "500.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wythe County, VA",
+    "District": "4",
+    "Population": "27599",
+    "LandArea": "463.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  }
+]

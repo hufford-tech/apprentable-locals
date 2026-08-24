@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Boone County, IL",
+    "District": "6",
+    "Population": "41786",
+    "LandArea": "281.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Carroll County, IL",
+    "District": "6",
+    "Population": "16674",
+    "LandArea": "444.21",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "De Kalb County, IL",
+    "District": "6",
+    "Population": "88969",
+    "LandArea": "634.16",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jo Daviess County, IL",
+    "District": "6",
+    "Population": "22289",
+    "LandArea": "601.08",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Lee County, IL",
+    "District": "6",
+    "Population": "36062",
+    "LandArea": "725.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Ogle County, IL",
+    "District": "6",
+    "Population": "51032",
+    "LandArea": "758.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stephenson County, IL",
+    "District": "6",
+    "Population": "48979",
+    "LandArea": "564.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Whiteside County, IL",
+    "District": "6",
+    "Population": "60653",
+    "LandArea": "684.77",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Winnebago County, IL",
+    "District": "6",
+    "Population": "278418",
+    "LandArea": "513.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "CountyName": "Esmeralda County, NV",
+    "District": "9",
+    "Population": "971",
+    "LandArea": "3588.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Imperial County, CA",
+    "District": "9",
+    "Population": "142361",
+    "LandArea": "4174.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Inyo County, CA",
+    "District": "9",
+    "Population": "17945",
+    "LandArea": "10203.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Kern County, CA",
+    "District": "9",
+    "Population": "661645",
+    "LandArea": "8140.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Kings County, CA",
+    "District": "9",
+    "Population": "129461",
+    "LandArea": "1390.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Los Angeles County, CA",
+    "District": "9",
+    "Population": "9519338",
+    "LandArea": "4060.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mono County, CA",
+    "District": "9",
+    "Population": "12853",
+    "LandArea": "3044.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Nye County, NV",
+    "District": "9",
+    "Population": "32485",
+    "LandArea": "18146.65",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Orange County, CA",
+    "District": "9",
+    "Population": "2846289",
+    "LandArea": "789.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Riverside County, CA",
+    "District": "9",
+    "Population": "1545387",
+    "LandArea": "7207.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Bernardino County, CA",
+    "District": "9",
+    "Population": "1709434",
+    "LandArea": "20052.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Diego County, CA",
+    "District": "9",
+    "Population": "2813833",
+    "LandArea": "4199.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Santa Barbara County, CA",
+    "District": "9",
+    "Population": "399347",
+    "LandArea": "2737.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tulare County, CA",
+    "District": "9",
+    "Population": "368021",
+    "LandArea": "4823.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Ventura County, CA",
+    "District": "9",
+    "Population": "753197",
+    "LandArea": "1845.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  }
+]

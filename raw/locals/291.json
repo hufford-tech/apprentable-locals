@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]505-  (i) Mobile[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "291",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "505-|Mobile|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "291",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2244 Halls Mill Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "286",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2244 Halls Mill Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mobile, AL 36606[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "286",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mobile|AL|36606",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](251) 476-0275[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "542",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(251) 476-0275",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](251) 450-0957[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "543",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(251) 450-0957",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew505.org\" target=\"_blank\">info@ibew505.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "281",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew505.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew505.org\" target=\"_blank\">www.ibew505.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "291",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew505.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Andrew D. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "891",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|D.|Taylor||{ \"MemberID\" : \"891\",\"luid\": \"291\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2244 Halls Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mobile\",\"state\":\"AL\",\"zip\":\"36606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]William T. Teat[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "892",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|T.|Teat||{ \"MemberID\" : \"892\",\"luid\": \"291\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2244 Halls Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mobile\",\"state\":\"AL\",\"zip\":\"36606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Andrew D. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3606",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|D.|Taylor||{ \"MemberID\" : \"3606\",\"luid\": \"291\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Herron L. Abney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "893",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Herron|L.|Abney||{ \"MemberID\" : \"893\",\"luid\": \"291\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2244 Halls Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mobile\",\"state\":\"AL\",\"zip\":\"36606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "291",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

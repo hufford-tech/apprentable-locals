@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Alpine County, CA",
+    "District": "9",
+    "Population": "1208",
+    "LandArea": "738.62",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Amador County, CA",
+    "District": "9",
+    "Population": "35100",
+    "LandArea": "592.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Butte County, CA",
+    "District": "9",
+    "Population": "203171",
+    "LandArea": "1639.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Colusa County, CA",
+    "District": "9",
+    "Population": "18804",
+    "LandArea": "1150.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "El Dorado County, CA",
+    "District": "9",
+    "Population": "156299",
+    "LandArea": "1710.85",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Glenn County, CA",
+    "District": "9",
+    "Population": "26453",
+    "LandArea": "1314.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Lassen County, CA",
+    "District": "9",
+    "Population": "33828",
+    "LandArea": "4557.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Nevada County, CA",
+    "District": "9",
+    "Population": "92033",
+    "LandArea": "957.61",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Placer County, CA",
+    "District": "9",
+    "Population": "248399",
+    "LandArea": "1404.37",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Plumas County, CA",
+    "District": "9",
+    "Population": "20824",
+    "LandArea": "2553.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sacramento County, CA",
+    "District": "9",
+    "Population": "1223499",
+    "LandArea": "965.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Shasta County, CA",
+    "District": "9",
+    "Population": "163256",
+    "LandArea": "3785.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sierra County, CA",
+    "District": "9",
+    "Population": "3555",
+    "LandArea": "953.38",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sutter County, CA",
+    "District": "9",
+    "Population": "78930",
+    "LandArea": "602.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tehama County, CA",
+    "District": "9",
+    "Population": "56039",
+    "LandArea": "2950.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Trinity County, CA",
+    "District": "9",
+    "Population": "13022",
+    "LandArea": "3178.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Yolo County, CA",
+    "District": "9",
+    "Population": "168660",
+    "LandArea": "1013.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Yuba County, CA",
+    "District": "9",
+    "Population": "60219",
+    "LandArea": "630.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

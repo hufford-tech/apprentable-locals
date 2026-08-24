@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Bristol County, MA",
+    "District": "2",
+    "Population": "534678",
+    "LandArea": "556.00",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Bristol County, RI",
+    "District": "2",
+    "Population": "50648",
+    "LandArea": "24.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Kent County, RI",
+    "District": "2",
+    "Population": "167090",
+    "LandArea": "170.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Newport County, RI",
+    "District": "2",
+    "Population": "85433",
+    "LandArea": "104.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Providence County, RI",
+    "District": "2",
+    "Population": "621602",
+    "LandArea": "413.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Washington County, RI",
+    "District": "2",
+    "Population": "123546",
+    "LandArea": "332.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "RI"
+  }
+]

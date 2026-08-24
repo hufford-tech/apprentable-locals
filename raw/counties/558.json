@@ -1,0 +1,254 @@
+[
+  {
+    "CountyName": "Colbert County, AL",
+    "District": "5",
+    "Population": "54984",
+    "LandArea": "594.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Colbert County, AL",
+    "District": "5",
+    "Population": "54984",
+    "LandArea": "594.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Franklin County, AL",
+    "District": "5",
+    "Population": "31223",
+    "LandArea": "635.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Franklin County, AL",
+    "District": "5",
+    "Population": "31223",
+    "LandArea": "635.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Giles County, TN",
+    "District": "10",
+    "Population": "29447",
+    "LandArea": "610.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Giles County, TN",
+    "District": "10",
+    "Population": "29447",
+    "LandArea": "610.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hardin County, TN",
+    "District": "10",
+    "Population": "25578",
+    "LandArea": "577.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hardin County, TN",
+    "District": "10",
+    "Population": "25578",
+    "LandArea": "577.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lauderdale County, AL",
+    "District": "5",
+    "Population": "87966",
+    "LandArea": "669.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lauderdale County, AL",
+    "District": "5",
+    "Population": "87966",
+    "LandArea": "669.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lawrence County, AL",
+    "District": "5",
+    "Population": "34803",
+    "LandArea": "693.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lawrence County, AL",
+    "District": "5",
+    "Population": "34803",
+    "LandArea": "693.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lawrence County, TN",
+    "District": "10",
+    "Population": "39926",
+    "LandArea": "617.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lawrence County, TN",
+    "District": "10",
+    "Population": "39926",
+    "LandArea": "617.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Limestone County, AL",
+    "District": "5",
+    "Population": "65676",
+    "LandArea": "568.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Limestone County, AL",
+    "District": "5",
+    "Population": "65676",
+    "LandArea": "568.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Madison County, AL",
+    "District": "5",
+    "Population": "276700",
+    "LandArea": "804.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Madison County, AL",
+    "District": "5",
+    "Population": "276700",
+    "LandArea": "804.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marion County, AL",
+    "District": "5",
+    "Population": "31214",
+    "LandArea": "741.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marion County, AL",
+    "District": "5",
+    "Population": "31214",
+    "LandArea": "741.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marshall County, AL",
+    "District": "5",
+    "Population": "82231",
+    "LandArea": "567.06",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marshall County, AL",
+    "District": "5",
+    "Population": "82231",
+    "LandArea": "567.06",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Morgan County, AL",
+    "District": "5",
+    "Population": "111064",
+    "LandArea": "582.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Morgan County, AL",
+    "District": "5",
+    "Population": "111064",
+    "LandArea": "582.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Wayne County, TN",
+    "District": "10",
+    "Population": "16842",
+    "LandArea": "733.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Wayne County, TN",
+    "District": "10",
+    "Population": "16842",
+    "LandArea": "733.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Winston County, AL",
+    "District": "5",
+    "Population": "24843",
+    "LandArea": "614.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Winston County, AL",
+    "District": "5",
+    "Population": "24843",
+    "LandArea": "614.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  }
+]

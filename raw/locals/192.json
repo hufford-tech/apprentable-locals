@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]316-  (u) Nashville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "192",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "316-|Nashville|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "192",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]112 Primrose Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5986",
+    "editFieldNames": "Address1",
+    "editFieldValues": "112 Primrose Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Gallatin, TN 37066[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5986",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Gallatin|TN|37066",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](615) 388-7854[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2151",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(615) 388-7854",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Hunter J. Wheeler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter|J.|Wheeler||{ \"MemberID\" : \"592\",\"luid\": \"192\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"103 Fire Oak Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Murfreesboro\",\"state\":\"TN\",\"zip\":\"37129\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Hunter J. Wheeler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3509",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter|J.|Wheeler||{ \"MemberID\" : \"3509\",\"luid\": \"192\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"103 Fire Oak Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Murfreesboro\",\"state\":\"TN\",\"zip\":\"37129\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Douglas T. Watkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "593",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Douglas|T.|Watkins||{ \"MemberID\" : \"593\",\"luid\": \"192\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"650 Webb Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clarksville\",\"state\":\"TN\",\"zip\":\"37040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Johnathan R. Dodge[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "594",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnathan|R.|Dodge||{ \"MemberID\" : \"594\",\"luid\": \"192\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"505 Cardinal Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Westmoreland\",\"state\":\"TN\",\"zip\":\"37186\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "192",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

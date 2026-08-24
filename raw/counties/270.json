@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Anderson County, TN",
+    "District": "10",
+    "Population": "71330",
+    "LandArea": "337.51",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Anderson County, TN",
+    "District": "10",
+    "Population": "71330",
+    "LandArea": "337.51",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cumberland County, TN",
+    "District": "10",
+    "Population": "46802",
+    "LandArea": "681.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cumberland County, TN",
+    "District": "10",
+    "Population": "46802",
+    "LandArea": "681.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Fentress County, TN",
+    "District": "10",
+    "Population": "16625",
+    "LandArea": "498.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Fentress County, TN",
+    "District": "10",
+    "Population": "16625",
+    "LandArea": "498.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Morgan County, TN",
+    "District": "10",
+    "Population": "19757",
+    "LandArea": "522.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Morgan County, TN",
+    "District": "10",
+    "Population": "19757",
+    "LandArea": "522.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Overton County, TN",
+    "District": "10",
+    "Population": "20118",
+    "LandArea": "433.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Overton County, TN",
+    "District": "10",
+    "Population": "20118",
+    "LandArea": "433.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Pickett County, TN",
+    "District": "10",
+    "Population": "4945",
+    "LandArea": "162.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Pickett County, TN",
+    "District": "10",
+    "Population": "4945",
+    "LandArea": "162.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Roane County, TN",
+    "District": "10",
+    "Population": "51910",
+    "LandArea": "360.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Roane County, TN",
+    "District": "10",
+    "Population": "51910",
+    "LandArea": "360.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Scott County, TN",
+    "District": "10",
+    "Population": "21127",
+    "LandArea": "532.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Scott County, TN",
+    "District": "10",
+    "Population": "21127",
+    "LandArea": "532.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  }
+]

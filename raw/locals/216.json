@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]359-  (u) Miami[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "359-|Miami|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "216",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7811 Coral Way[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "220",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7811 Coral Way",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "220",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Miami, FL 33155[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "220",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Miami|FL|33155",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](305) 458-8205[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "408",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(305) 458-8205",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew359.com\" target=\"_blank\">www.ibew359.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew359.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ivan Q. Soriano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "667",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ivan|Q.|Soriano||{ \"MemberID\" : \"667\",\"luid\": \"216\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7811 Coral Way, Suite 101\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Miami\",\"state\":\"FL\",\"zip\":\"33155\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ivan Q. Soriano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3532",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ivan|Q.|Soriano||{ \"MemberID\" : \"3532\",\"luid\": \"216\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"28423 SW 130 Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Homestead\",\"state\":\"FL\",\"zip\":\"33033\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Kristal R. Hunter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "665",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kristal|R.|Hunter||{ \"MemberID\" : \"665\",\"luid\": \"216\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"7752 Grandview Blvd.\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Miramar\",\"state\":\"FL\",\"zip\":\"33023\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]David Grubbs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "666",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David||Grubbs||{ \"MemberID\" : \"666\",\"luid\": \"216\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"19435 SW 67th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Lauderdale\",\"state\":\"FL\",\"zip\":\"33332\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]94th Aero Squadron Restaurant, 1395 NW 57th Avenue, 1st Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "Meets",
+    "editFieldValues": "94th Aero Squadron Restaurant, 1395 NW 57th Avenue, 1st Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

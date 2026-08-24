@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]613-  (em, i, o, rts, spa) Atlanta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "613-|Atlanta|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "341",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, o, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]501 Pulliam Street SW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "Address1",
+    "editFieldValues": "501 Pulliam Street SW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 250[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 250",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Atlanta, GA 30312[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Atlanta|GA|30312",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](404) 523-8107[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(404) 523-8107",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](404) 577-6990[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2080",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(404) 577-6990",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin613@ibew613.org\" target=\"_blank\">admin613@ibew613.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "329",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin613@ibew613.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew613.org\" target=\"_blank\">www.ibew613.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew613.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Ronald M. Nyberg[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4509",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald|M.|Nyberg||{ \"MemberID\" : \"4509\",\"luid\": \"341\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Manuel J. Gonzalez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1044",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Manuel|J.|Gonzalez||{ \"MemberID\" : \"1044\",\"luid\": \"341\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"501 Pulliam Street SW\",\"addr2\":\"Suite 250\",\"addr3\":\"\",\"city\":\"Atlanta\",\"state\":\"GA\",\"zip\":\"30312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jeffrey H. Manning[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1045",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|H.|Manning||{ \"MemberID\" : \"1045\",\"luid\": \"341\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"501 Pulliam Street SW\",\"addr2\":\"Suite 250\",\"addr3\":\"\",\"city\":\"Atlanta\",\"state\":\"GA\",\"zip\":\"30312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Charles L. Ravenscraft[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4508",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|L.|Ravenscraft||{ \"MemberID\" : \"4508\",\"luid\": \"341\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

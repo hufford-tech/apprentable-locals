@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Caribbean Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Collier County, FL",
+    "District": "5",
+    "Population": "251377",
+    "LandArea": "2025.34",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Dade County, FL",
+    "District": "5",
+    "Population": "2253362",
+    "LandArea": "1946.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hendry County, FL",
+    "District": "5",
+    "Population": "36210",
+    "LandArea": "1152.53",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lee County, FL",
+    "District": "5",
+    "Population": "440888",
+    "LandArea": "803.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Monroe County, FL",
+    "District": "5",
+    "Population": "79589",
+    "LandArea": "996.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

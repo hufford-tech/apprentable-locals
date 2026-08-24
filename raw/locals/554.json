@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1206  (mt) Newark[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "554",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1206|Newark|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "554",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]385 John Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4746",
+    "editFieldNames": "Address1",
+    "editFieldValues": "385 John Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Newark, OH 43055[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4746",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Newark|OH|43055",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](740) 328-7196[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2186",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 328-7196",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dcoak1963@yahoo.com\" target=\"_blank\">dcoak1963@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2065",
+    "editFieldNames": "Email",
+    "editFieldValues": "dcoak1963@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Daniel T. Coakley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1704",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|T.|Coakley||{ \"MemberID\" : \"1704\",\"luid\": \"554\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"385 John Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Newark\",\"state\":\"OH\",\"zip\":\"43055\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Daniel T. Coakley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3857",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|T.|Coakley||{ \"MemberID\" : \"3857\",\"luid\": \"554\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"385 John Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Newark\",\"state\":\"OH\",\"zip\":\"43055\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jason Santavicca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1706",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Santavicca||{ \"MemberID\" : \"1706\",\"luid\": \"554\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"25800 Township Road 8\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Warsaw\",\"state\":\"OH\",\"zip\":\"43844\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Eric A. Jones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1705",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|A.|Jones||{ \"MemberID\" : \"1705\",\"luid\": \"554\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"94571 Reynolds Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Newark\",\"state\":\"OH\",\"zip\":\"43055\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 3:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "554",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 3:15 pm",
+    "datatype": "txt"
+  }
+]

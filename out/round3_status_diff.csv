@@ -1,0 +1,16 @@
+local_union_id,lu_number,charter_city,population_current_served_inside,status_before,status_after,confidence_before,confidence_after,intake_pattern_before,intake_pattern_after,which_task_caused_it,evidence_quote,source_url
+341,613,Atlanta,7903227,expired_data,open,medium,medium,,,task3,Apprenticeship Program Applications Now OPEN! August 1st - August 31st,https://6601etc.wordpress.com/
+337,606,Orlando,4272325,unknown,rolling,low,medium,,continuous,task1,We accept applications every day through our online portal.,https://www.etacfl.org/apprenticeship/general-information
+208,349,Miami,4131766,rolling,unknown,medium,low,continuous,,task1,,
+223,369,Louisville,3427692,unknown,closed_pending,low,medium,,,task3,"Applications are reopening on SEPTEMBER 1st! They will be open for two weeks, closing on September 14th",https://www.loujatc.com/
+283,490,Dover,1541118,unknown,open,low,medium,,,task3,applications are open from June 1st to May 20th,https://ibew490.org/apprenticeship/
+62,73,Spokane,1104876,unknown,closed_pending,low,medium,,,task3,Interviews will be scheduled in the first quarter (January/February/March) each year,https://www.inlandelectrical.org/how-to-apply-2/
+67,82,Dayton,1084052,unknown,closed_pending,low,low,,,task3,Applications are accepted from September 1st to June 30th. No Applications in July or August,https://www.82jatc.com/index.cfm
+267,456,New Brunswick,907992,unknown,closed_pending,low,medium,,,task3,Monday September 14th ***** 2nd Monday of the month observe for the holiday,https://ibew456.org/training.aspx
+7,7,Springfield,837959,unknown,closed_pending,low,medium,,,task3,Informational Sessions are held several times from September through January.,https://local7jatc.com/applying-and-qualifying-for-an-apprenticeship/
+467,903,Gulfport,717020,rolling,unknown,medium,low,continuous,,task1,,
+185,305,Fort Wayne,704631,unknown,closed_pending,low,medium,,,task3,Applications will be accepted in the month of January ONLY (January 1 – January 31),https://fortwayneelectricaljatc.org/apply/
+262,449,Pocatello,672298,unknown,open,low,medium,,,task3,3rd Quarter Selection:August 30,https://www.eijatc.org/applicant-2/
+30,32,Lima,354529,rolling,rolling,medium,medium,continuous,periodic,task1,Applications are taken by appointment. Please call 419-229-2775 to schedule an appointment.,https://limajatc.com/how-to-apply/
+148,237,Niagara Falls,239334,rolling,unknown,medium,low,continuous,,task1,,
+126,197,Bloomington,114369,closed_pending,rolling,high,medium,,periodic,task1,"The Bloomington-Normal Electrical JATC will be accepting applications 1 day of each month in person and online, typically the 4th Tuesday of every month unless it's a holiday, and 1 week in January for the Telecommunication and Inside Wireman apprenticeship.",https://www.ibew197.org/apprenticeship/

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1379  (mt) Davenport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "585",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1379|Davenport|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "585",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]Arconic Corporation[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4174",
+    "editFieldNames": "Address1",
+    "editFieldValues": "Arconic Corporation",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]4879 State Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4174",
+    "editFieldNames": "Address2",
+    "editFieldValues": "4879 State Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Bettendorf, IA 52722[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4174",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bettendorf|IA|52722",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 772[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "545",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 772",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Bettendorf, IA 52722[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "545",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bettendorf|IA|52722",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](309) 714-0212[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1020",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 714-0212",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1379@gmail.com\" target=\"_blank\">ibewlocal1379@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "551",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1379@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1379.org\" target=\"_blank\">www.ibew1379.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "585",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1379.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Edward B. Dooley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4507",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|B.|Dooley||{ \"MemberID\" : \"4507\",\"luid\": \"585\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Edward B. Dooley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4506",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|B.|Dooley||{ \"MemberID\" : \"4506\",\"luid\": \"585\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Myron L Dent[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4433",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Myron|L|Dent||{ \"MemberID\" : \"4433\",\"luid\": \"585\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6:30 am, 12:30 pm & 2:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "585",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6:30 am, 12:30 pm & 2:30 pm",
+    "datatype": "txt"
+  }
+]

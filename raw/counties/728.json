@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Broward County, FL",
+    "District": "5",
+    "Population": "1623018",
+    "LandArea": "1205.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Collier County, FL",
+    "District": "5",
+    "Population": "251377",
+    "LandArea": "2025.34",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Glades County, Fl",
+    "District": "5",
+    "Population": "10576",
+    "LandArea": "773.64",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hendry County, FL",
+    "District": "5",
+    "Population": "36210",
+    "LandArea": "1152.53",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Martin County, FL",
+    "District": "5",
+    "Population": "126731",
+    "LandArea": "555.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Okeechobee County, FL",
+    "District": "5",
+    "Population": "35910",
+    "LandArea": "773.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Palm Beach County, FL",
+    "District": "5",
+    "Population": "1131184",
+    "LandArea": "1974.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "St. Lucie County, FL",
+    "District": "5",
+    "Population": "192695",
+    "LandArea": "572.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

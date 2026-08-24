@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1523  (u) Wichita[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1523|Wichita|KS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "619",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3301 W Thirteenth Street N[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3301 W Thirteenth Street N",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wichita, KS 67203[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wichita|KS|67203",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](316) 267-8741[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1075",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(316) 267-8741",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1523@sbcglobal.net\" target=\"_blank\">ibew1523@sbcglobal.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "582",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1523@sbcglobal.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Nathan A. Payne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1901",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|A.|Payne||{ \"MemberID\" : \"1901\",\"luid\": \"619\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"609 N Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67214\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Darrick W. Wilson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1902",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darrick|W.|Wilson||{ \"MemberID\" : \"1902\",\"luid\": \"619\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"609 N Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67214\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Nathan A. Payne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3921",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|A.|Payne||{ \"MemberID\" : \"3921\",\"luid\": \"619\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Sue A. Erwin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1903",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sue|A.|Erwin||{ \"MemberID\" : \"1903\",\"luid\": \"619\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"609 N Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67214\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

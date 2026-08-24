@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]429-  (em, i, lctt, o, ptc, rtb, u) Nashville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "429-|Nashville|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "251",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, lctt, o, ptc, rtb, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2001 Elm Hill Pike[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2001 Elm Hill Pike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Nashville, TN 37210[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Nashville|TN|37210",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](615) 889-4429[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "465",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(615) 889-4429",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](615) 889-5150[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2325",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(615) 889-5150",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew429@ibew429.org\" target=\"_blank\">ibew429@ibew429.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "244",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew429@ibew429.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew429.org\" target=\"_blank\">www.ibew429.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew429.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jeremy W. Butler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "773",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|W.|Butler||{ \"MemberID\" : \"773\",\"luid\": \"251\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2001 Elm Hill Pike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mark D. Poole[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "771",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Poole||{ \"MemberID\" : \"771\",\"luid\": \"251\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2001 Elm Hill Pike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jeremy W. Butler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3566",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|W.|Butler||{ \"MemberID\" : \"3566\",\"luid\": \"251\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Samuel A. Moseley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "772",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|A.|Moseley||{ \"MemberID\" : \"772\",\"luid\": \"251\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2001 Elm Hill Pike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st & 3rd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st & 3rd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

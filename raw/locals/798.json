@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2199  (uow) Buffalo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "798",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2199|Buffalo|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "798",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "uow",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]48 Gardenville Parkway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "688",
+    "editFieldNames": "Address1",
+    "editFieldValues": "48 Gardenville Parkway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 204[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "688",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 204",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]West Seneca, NY 14224[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "688",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "West Seneca|NY|14224",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 401[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "687",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 401",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]West Seneca, NY 14224[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "687",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "West Seneca|NY|14224",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](716) 220-1923[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1319",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 220-1923",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:President@IBEWLocal2199.com\" target=\"_blank\">President@IBEWLocal2199.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "737",
+    "editFieldNames": "Email",
+    "editFieldValues": "President@IBEWLocal2199.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2199.com\" target=\"_blank\">www.ibewlocal2199.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "798",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2199.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Colleen F. Ballacchino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2431",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colleen|F.|Ballacchino||{ \"MemberID\" : \"2431\",\"luid\": \"798\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"166 Enchanted Forest South\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Depew\",\"state\":\"NY\",\"zip\":\"14043\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Colleen F. Ballacchino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4120",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colleen|F.|Ballacchino||{ \"MemberID\" : \"4120\",\"luid\": \"798\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"166 Enchanted Forest South\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Depew\",\"state\":\"NY\",\"zip\":\"14043\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Margaret T Brennen, PO Box 401, West Seneca, NY  14224[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4244",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Margaret|T|Brennen||{ \"MemberID\" : \"4244\",\"luid\": \"798\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 401\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Seneca\",\"state\":\"NY\",\"zip\":\"14224\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Laquita F. Williams-Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2433",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Laquita|F.|Williams-Johnson||{ \"MemberID\" : \"2433\",\"luid\": \"798\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"82 Duluth Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Buffalo\",\"state\":\"NY\",\"zip\":\"14216\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]American Legion Francis J. Donovan Post, 3210 Genesee Street, Cheektowaga, 3rd Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "798",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion Francis J. Donovan Post, 3210 Genesee Street, Cheektowaga, 3rd Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

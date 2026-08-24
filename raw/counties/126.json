@@ -1,0 +1,353 @@
+[
+  {
+    "CountyName": "Adams County, PA",
+    "District": "3",
+    "Population": "91292",
+    "LandArea": "520.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Allegheny County, PA",
+    "District": "3",
+    "Population": "1281666",
+    "LandArea": "730.17",
+    "Percentage": "99%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Armstrong County, PA",
+    "District": "3",
+    "Population": "72392",
+    "LandArea": "653.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Beaver County, PA",
+    "District": "3",
+    "Population": "181412",
+    "LandArea": "434.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Bedford County, PA",
+    "District": "3",
+    "Population": "49984",
+    "LandArea": "1014.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Berks County, PA",
+    "District": "3",
+    "Population": "373638",
+    "LandArea": "858.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Blair County, PA",
+    "District": "3",
+    "Population": "129144",
+    "LandArea": "525.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Bucks County, PA",
+    "District": "3",
+    "Population": "597635",
+    "LandArea": "607.38",
+    "Percentage": "75%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cambria County, PA",
+    "District": "3",
+    "Population": "152598",
+    "LandArea": "688.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Centre County, PA",
+    "District": "3",
+    "Population": "135758",
+    "LandArea": "1107.53",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Chester County, PA",
+    "District": "3",
+    "Population": "433501",
+    "LandArea": "755.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clarion County, PA",
+    "District": "3",
+    "Population": "41765",
+    "LandArea": "602.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clearfield County, PA",
+    "District": "3",
+    "Population": "83382",
+    "LandArea": "1147.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cumberland County, PA",
+    "District": "3",
+    "Population": "213674",
+    "LandArea": "550.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Dauphin County, PA",
+    "District": "3",
+    "Population": "251798",
+    "LandArea": "525.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Delaware County, PA",
+    "District": "3",
+    "Population": "550864",
+    "LandArea": "184.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Fayette County, PA",
+    "District": "3",
+    "Population": "148644",
+    "LandArea": "790.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Franklin County, PA",
+    "District": "3",
+    "Population": "129313",
+    "LandArea": "771.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Fulton County, PA",
+    "District": "3",
+    "Population": "14261",
+    "LandArea": "437.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Greene County, PA",
+    "District": "3",
+    "Population": "40672",
+    "LandArea": "575.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Huntingdon County, PA",
+    "District": "3",
+    "Population": "45586",
+    "LandArea": "874.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Indiana County, PA",
+    "District": "3",
+    "Population": "89605",
+    "LandArea": "829.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Jefferson County, PA",
+    "District": "3",
+    "Population": "45932",
+    "LandArea": "655.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Juniata County, PA",
+    "District": "3",
+    "Population": "22821",
+    "LandArea": "391.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Kent County, DE",
+    "District": "3",
+    "Population": "126697",
+    "LandArea": "589.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "DE"
+  },
+  {
+    "CountyName": "Lancaster County, PA",
+    "District": "3",
+    "Population": "470658",
+    "LandArea": "949.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lebanon County, PA",
+    "District": "3",
+    "Population": "120327",
+    "LandArea": "361.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lehigh County, PA",
+    "District": "3",
+    "Population": "312090",
+    "LandArea": "346.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Mifflin County, PA",
+    "District": "3",
+    "Population": "46486",
+    "LandArea": "411.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Montgomery County, PA",
+    "District": "3",
+    "Population": "750097",
+    "LandArea": "483.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "New Castle County, DE",
+    "District": "3",
+    "Population": "500265",
+    "LandArea": "426.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "DE"
+  },
+  {
+    "CountyName": "Northampton County, PA",
+    "District": "3",
+    "Population": "267066",
+    "LandArea": "373.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Perry County, PA",
+    "District": "3",
+    "Population": "43602",
+    "LandArea": "553.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Philadelphia County, PA",
+    "District": "3",
+    "Population": "1517550",
+    "LandArea": "135.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Somerset County, PA",
+    "District": "3",
+    "Population": "80023",
+    "LandArea": "1074.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Sussex County, DE",
+    "District": "3",
+    "Population": "156638",
+    "LandArea": "937.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "DE"
+  },
+  {
+    "CountyName": "Washington County, PA",
+    "District": "3",
+    "Population": "202897",
+    "LandArea": "857.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Westmoreland County, PA",
+    "District": "3",
+    "Population": "369993",
+    "LandArea": "1025.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "York County, PA",
+    "District": "3",
+    "Population": "381751",
+    "LandArea": "904.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  }
+]

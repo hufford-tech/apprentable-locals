@@ -1,0 +1,785 @@
+[
+  {
+    "CountyName": "Aitkin County, MN",
+    "District": "6",
+    "Population": "15301",
+    "LandArea": "1819.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Anoka County, MN",
+    "District": "6",
+    "Population": "298084",
+    "LandArea": "423.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Becker County, MN",
+    "District": "6",
+    "Population": "30000",
+    "LandArea": "1310.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Beltrami County, MN",
+    "District": "6",
+    "Population": "39650",
+    "LandArea": "2505.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Benton County, MN",
+    "District": "6",
+    "Population": "34226",
+    "LandArea": "408.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Big Stone County, MN",
+    "District": "6",
+    "Population": "5820",
+    "LandArea": "496.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Blue Earth County, MN",
+    "District": "6",
+    "Population": "55941",
+    "LandArea": "752.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Brown County, MN",
+    "District": "6",
+    "Population": "26911",
+    "LandArea": "610.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Carlton County, MN",
+    "District": "6",
+    "Population": "31671",
+    "LandArea": "860.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Carver County, MN",
+    "District": "6",
+    "Population": "70205",
+    "LandArea": "357.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cass County, MN",
+    "District": "6",
+    "Population": "27150",
+    "LandArea": "2017.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Chippewa County, MN",
+    "District": "6",
+    "Population": "13088",
+    "LandArea": "582.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Chisago County, MN",
+    "District": "6",
+    "Population": "41101",
+    "LandArea": "417.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Clay County, MN",
+    "District": "6",
+    "Population": "51229",
+    "LandArea": "1045.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Clearwater County, MN",
+    "District": "6",
+    "Population": "8423",
+    "LandArea": "994.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cook County, MN",
+    "District": "6",
+    "Population": "5168",
+    "LandArea": "1450.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cottonwood County, MN",
+    "District": "6",
+    "Population": "12167",
+    "LandArea": "639.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Crow Wing County, MN",
+    "District": "6",
+    "Population": "55099",
+    "LandArea": "996.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Dakota County, MN",
+    "District": "6",
+    "Population": "355904",
+    "LandArea": "569.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Dodge County, MN",
+    "District": "6",
+    "Population": "17731",
+    "LandArea": "439.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Douglas County, MN",
+    "District": "6",
+    "Population": "32821",
+    "LandArea": "634.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Faribault County, MN",
+    "District": "6",
+    "Population": "16181",
+    "LandArea": "713.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Fillmore County, MN",
+    "District": "6",
+    "Population": "21122",
+    "LandArea": "861.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Freeborn County, MN",
+    "District": "6",
+    "Population": "32584",
+    "LandArea": "707.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Goodhue County, MN",
+    "District": "6",
+    "Population": "44127",
+    "LandArea": "758.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Grant County, MN",
+    "District": "6",
+    "Population": "6289",
+    "LandArea": "546.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Hennepin County, MN",
+    "District": "6",
+    "Population": "1116200",
+    "LandArea": "556.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Houston County, MN",
+    "District": "6",
+    "Population": "19718",
+    "LandArea": "558.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Hubbard County, MN",
+    "District": "6",
+    "Population": "18376",
+    "LandArea": "922.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Isanti County, MN",
+    "District": "6",
+    "Population": "31287",
+    "LandArea": "439.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Itasca County, MN",
+    "District": "6",
+    "Population": "43992",
+    "LandArea": "2665.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Jackson County, MN",
+    "District": "6",
+    "Population": "11268",
+    "LandArea": "701.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kanabec County, MN",
+    "District": "6",
+    "Population": "14996",
+    "LandArea": "524.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kandiyohi County, MN",
+    "District": "6",
+    "Population": "41203",
+    "LandArea": "796.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kittson County, MN",
+    "District": "6",
+    "Population": "5285",
+    "LandArea": "1097.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Koochiching County, MN",
+    "District": "6",
+    "Population": "14355",
+    "LandArea": "3102.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lac Qui Parle County, MN",
+    "District": "6",
+    "Population": "8067",
+    "LandArea": "764.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lake County, MN",
+    "District": "6",
+    "Population": "11058",
+    "LandArea": "2099.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lake of The Woods County, MN",
+    "District": "6",
+    "Population": "4522",
+    "LandArea": "1296.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Le Sueur County, MN",
+    "District": "6",
+    "Population": "25426",
+    "LandArea": "448.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lincoln County, MN",
+    "District": "6",
+    "Population": "6429",
+    "LandArea": "537.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lyon County, MN",
+    "District": "6",
+    "Population": "25425",
+    "LandArea": "714.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Mahnomen County, MN",
+    "District": "6",
+    "Population": "5190",
+    "LandArea": "556.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Marshall County, MN",
+    "District": "6",
+    "Population": "10155",
+    "LandArea": "1772.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Martin County, MN",
+    "District": "6",
+    "Population": "21802",
+    "LandArea": "709.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "McLeod County, MN",
+    "District": "6",
+    "Population": "34898",
+    "LandArea": "491.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Meeker County, MN",
+    "District": "6",
+    "Population": "22644",
+    "LandArea": "608.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Mille Lacs County, MN",
+    "District": "6",
+    "Population": "22330",
+    "LandArea": "574.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Morrison County, MN",
+    "District": "6",
+    "Population": "31712",
+    "LandArea": "1124.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Mower County, MN",
+    "District": "6",
+    "Population": "38603",
+    "LandArea": "711.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Murray County, MN",
+    "District": "6",
+    "Population": "9165",
+    "LandArea": "704.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Nicollet County, MN",
+    "District": "6",
+    "Population": "29771",
+    "LandArea": "452.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Nobles County, MN",
+    "District": "6",
+    "Population": "20832",
+    "LandArea": "715.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Norman County, MN",
+    "District": "6",
+    "Population": "7442",
+    "LandArea": "876.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Olmsted County, MN",
+    "District": "6",
+    "Population": "124277",
+    "LandArea": "653.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Otter Tail County, MN",
+    "District": "6",
+    "Population": "57159",
+    "LandArea": "1979.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pennington County, MN",
+    "District": "6",
+    "Population": "13584",
+    "LandArea": "616.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pine County, MN",
+    "District": "6",
+    "Population": "26530",
+    "LandArea": "1411.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pipestone County, MN",
+    "District": "6",
+    "Population": "9895",
+    "LandArea": "465.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Polk County, MN",
+    "District": "6",
+    "Population": "31369",
+    "LandArea": "1970.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pope County, MN",
+    "District": "6",
+    "Population": "11236",
+    "LandArea": "670.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Ramsey County, MN",
+    "District": "6",
+    "Population": "511035",
+    "LandArea": "155.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Red Lake County, MN",
+    "District": "6",
+    "Population": "4299",
+    "LandArea": "432.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Redwood County, MN",
+    "District": "6",
+    "Population": "16815",
+    "LandArea": "879.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Renville County, MN",
+    "District": "6",
+    "Population": "17154",
+    "LandArea": "982.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Rice County, MN",
+    "District": "6",
+    "Population": "56665",
+    "LandArea": "497.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Rock County, MN",
+    "District": "6",
+    "Population": "9721",
+    "LandArea": "482.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Roseau County, MN",
+    "District": "6",
+    "Population": "16338",
+    "LandArea": "1662.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Scott County, MN",
+    "District": "6",
+    "Population": "89498",
+    "LandArea": "356.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sherburne County, MN",
+    "District": "6",
+    "Population": "64417",
+    "LandArea": "436.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sibley County, MN",
+    "District": "6",
+    "Population": "15356",
+    "LandArea": "588.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "St. Louis County, MN",
+    "District": "6",
+    "Population": "200528",
+    "LandArea": "6225.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Stearns County, MN",
+    "District": "6",
+    "Population": "133166",
+    "LandArea": "1344.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Steele County, MN",
+    "District": "6",
+    "Population": "33680",
+    "LandArea": "429.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Stevens County, MN",
+    "District": "6",
+    "Population": "10053",
+    "LandArea": "562.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Swift County, MN",
+    "District": "6",
+    "Population": "11956",
+    "LandArea": "743.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Todd County, MN",
+    "District": "6",
+    "Population": "24426",
+    "LandArea": "942.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Traverse County, MN",
+    "District": "6",
+    "Population": "4134",
+    "LandArea": "574.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wabasha County, MN",
+    "District": "6",
+    "Population": "21610",
+    "LandArea": "525.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wadena County, MN",
+    "District": "6",
+    "Population": "13713",
+    "LandArea": "535.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Waseca County, MN",
+    "District": "6",
+    "Population": "19526",
+    "LandArea": "423.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Washington County, MN",
+    "District": "6",
+    "Population": "201130",
+    "LandArea": "391.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Watonwan County, MN",
+    "District": "6",
+    "Population": "11876",
+    "LandArea": "434.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wilkin County, MN",
+    "District": "6",
+    "Population": "7138",
+    "LandArea": "751.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Winona County, MN",
+    "District": "6",
+    "Population": "49985",
+    "LandArea": "626.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wright County, MN",
+    "District": "6",
+    "Population": "89986",
+    "LandArea": "660.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Yellow Medicine County, MN",
+    "District": "6",
+    "Population": "11080",
+    "LandArea": "757.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MN"
+  }
+]

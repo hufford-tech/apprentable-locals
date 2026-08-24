@@ -1,0 +1,162 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]558-  (catv, em, i, lctt, mt, o, rtb, rts, spa, u) Sheffield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "315",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "558-|Sheffield|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "315",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, i, lctt, mt, o, rtb, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1803 E Seventeenth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1803 E Seventeenth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sheffield, AL 35660[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sheffield|AL|35660",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 578[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "308",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 578",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Sheffield, AL 35660[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "308",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sheffield|AL|35660",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](256) 383-2279[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 383-2279",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](256) 383-0907[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "581",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 383-0907",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Dispatch No. [/b](256) 381-3718[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "582",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 381-3718",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew558.org\" target=\"_blank\">info@ibew558.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew558.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew558.org\" target=\"_blank\">www.ibew558.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "315",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew558.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]B.M. [/b]Darrell A. Miller[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "964",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darrell|A.|Miller||{ \"MemberID\" : \"964\",\"luid\": \"315\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 578\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sheffield\",\"state\":\"AL\",\"zip\":\"35660\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Pres. [/b]Jesse T. Atkinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "965",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|T.|Atkinson||{ \"MemberID\" : \"965\",\"luid\": \"315\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 578\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sheffield\",\"state\":\"AL\",\"zip\":\"35660\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]F.S. [/b]Darrell A. Miller[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3629",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darrell|A.|Miller||{ \"MemberID\" : \"3629\",\"luid\": \"315\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]R.S. [/b]Paul D. McDow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "966",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|D.|McDow||{ \"MemberID\" : \"966\",\"luid\": \"315\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 578\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sheffield\",\"state\":\"AL\",\"zip\":\"35660\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Meets [/b]2nd Monday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "315",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

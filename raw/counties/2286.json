@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Angelina County, TX",
+    "District": "7",
+    "Population": "80130",
+    "LandArea": "801.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Chambers County, TX",
+    "District": "7",
+    "Population": "26031",
+    "LandArea": "599.31",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hardin County, TX",
+    "District": "7",
+    "Population": "48073",
+    "LandArea": "894.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Houston County, TX",
+    "District": "7",
+    "Population": "23185",
+    "LandArea": "1230.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jasper County, TX",
+    "District": "7",
+    "Population": "35604",
+    "LandArea": "937.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jefferson County, TX",
+    "District": "7",
+    "Population": "252051",
+    "LandArea": "903.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Liberty County, TX",
+    "District": "7",
+    "Population": "70154",
+    "LandArea": "1159.68",
+    "Percentage": "55%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Newton County, TX",
+    "District": "7",
+    "Population": "15072",
+    "LandArea": "932.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Orange County, TX",
+    "District": "7",
+    "Population": "84966",
+    "LandArea": "356.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Polk County, TX",
+    "District": "7",
+    "Population": "41133",
+    "LandArea": "1057.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Sabine County, TX",
+    "District": "7",
+    "Population": "10469",
+    "LandArea": "490.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Trinity County, TX",
+    "District": "7",
+    "Population": "13779",
+    "LandArea": "692.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Tyler County, TX",
+    "District": "7",
+    "Population": "20871",
+    "LandArea": "922.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

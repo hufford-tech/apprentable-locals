@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1703  (u) El Dorado[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "675",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1703|El Dorado|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "675",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1242[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "621",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1242",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]El Dorado, AR 71730[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "621",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "El Dorado|AR|71730",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 315-0435[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1156",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 315-0435",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jtibew1703@yahoo.com\" target=\"_blank\">jtibew1703@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "Email",
+    "editFieldValues": "jtibew1703@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jacob E. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2066",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|E.|Taylor||{ \"MemberID\" : \"2066\",\"luid\": \"675\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1242\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71731\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael T. Thurlkill Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2065",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|T.|Thurlkill|Jr.|{ \"MemberID\" : \"2065\",\"luid\": \"675\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1242\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71731\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jacob E. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3983",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|E.|Taylor||{ \"MemberID\" : \"3983\",\"luid\": \"675\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jeremy B. Duncan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2064",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|B.|Duncan||{ \"MemberID\" : \"2064\",\"luid\": \"675\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1242\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71731\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]IBEW Local Union 436 Hall, 3rd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "675",
+    "editFieldNames": "Meets",
+    "editFieldValues": "IBEW Local Union 436 Hall, 3rd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

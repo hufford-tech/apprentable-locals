@@ -1,0 +1,290 @@
+[
+  {
+    "CountyName": "Bradford County, PA",
+    "District": "3",
+    "Population": "62761",
+    "LandArea": "1150.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Butler County, PA",
+    "District": "3",
+    "Population": "174083",
+    "LandArea": "788.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cameron County, PA",
+    "District": "3",
+    "Population": "5974",
+    "LandArea": "397.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Carbon County, PA",
+    "District": "3",
+    "Population": "58802",
+    "LandArea": "381.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Centre County, PA",
+    "District": "3",
+    "Population": "135758",
+    "LandArea": "1107.53",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clinton County, PA",
+    "District": "3",
+    "Population": "37914",
+    "LandArea": "890.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Columbia County, PA",
+    "District": "3",
+    "Population": "64151",
+    "LandArea": "485.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Crawford County, PA",
+    "District": "3",
+    "Population": "90366",
+    "LandArea": "1012.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Elk County, PA",
+    "District": "3",
+    "Population": "35112",
+    "LandArea": "828.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Erie County, PA",
+    "District": "3",
+    "Population": "280843",
+    "LandArea": "801.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Forest County, PA",
+    "District": "3",
+    "Population": "4946",
+    "LandArea": "428.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lackawanna County, PA",
+    "District": "3",
+    "Population": "213295",
+    "LandArea": "458.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lawrence County, PA",
+    "District": "3",
+    "Population": "94643",
+    "LandArea": "360.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Luzerne County, PA",
+    "District": "3",
+    "Population": "319250",
+    "LandArea": "890.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lycoming County, PA",
+    "District": "3",
+    "Population": "120044",
+    "LandArea": "1234.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "McKean County, PA",
+    "District": "3",
+    "Population": "45936",
+    "LandArea": "981.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Mercer County, PA",
+    "District": "3",
+    "Population": "120293",
+    "LandArea": "671.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Monroe County, PA",
+    "District": "3",
+    "Population": "138687",
+    "LandArea": "608.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Montour County, PA",
+    "District": "3",
+    "Population": "18236",
+    "LandArea": "130.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Northumberland County, PA",
+    "District": "3",
+    "Population": "94556",
+    "LandArea": "459.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Pike County, PA",
+    "District": "3",
+    "Population": "46302",
+    "LandArea": "546.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Potter County, PA",
+    "District": "3",
+    "Population": "18080",
+    "LandArea": "1081.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Schuylkill County, PA",
+    "District": "3",
+    "Population": "150336",
+    "LandArea": "778.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Snyder County, PA",
+    "District": "3",
+    "Population": "37546",
+    "LandArea": "331.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Sullivan County, PA",
+    "District": "3",
+    "Population": "6556",
+    "LandArea": "449.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Susquehanna County, PA",
+    "District": "3",
+    "Population": "42238",
+    "LandArea": "822.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Tioga County, PA",
+    "District": "3",
+    "Population": "41373",
+    "LandArea": "1133.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Union County, PA",
+    "District": "3",
+    "Population": "41624",
+    "LandArea": "316.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Venango County, PA",
+    "District": "3",
+    "Population": "57565",
+    "LandArea": "675.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Warren County, PA",
+    "District": "3",
+    "Population": "43863",
+    "LandArea": "883.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Wayne County, PA",
+    "District": "3",
+    "Population": "47722",
+    "LandArea": "729.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Wyoming County, PA",
+    "District": "3",
+    "Population": "28080",
+    "LandArea": "397.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PA"
+  }
+]

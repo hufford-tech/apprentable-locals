@@ -1,0 +1,232 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]602-  (i, o, u) Amarillo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "334",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "602-|Amarillo|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "334",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]200 S Fannin Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "331",
+    "editFieldNames": "Address1",
+    "editFieldValues": "200 S Fannin Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Amarillo, TX 79106[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "331",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Amarillo|TX|79106",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](806) 376-9945[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "618",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 376-9945",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](806) 376-9407[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 376-9407",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibew602.org\" target=\"_blank\">admin@ibew602.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "322",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibew602.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew602.org\" target=\"_blank\">www.ibew602.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "334",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew602.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Lubbock Division[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4163",
+    "editFieldNames": "Name",
+    "editFieldValues": "Lubbock Division",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]405 50th Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4163",
+    "editFieldNames": "Address1",
+    "editFieldValues": "405 50th Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Lubbock, TX 79404[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4163",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lubbock|TX|79404",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](806) 744-4062[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1773",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 744-4062",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (806) 744-7852[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1774",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 744-7852",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Midland Division[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4164",
+    "editFieldNames": "Name",
+    "editFieldValues": "Midland Division",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t]PO Box 60222[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4164",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 60222",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][t]Midland, TX 79711[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4164",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Midland|TX|79711",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][t][b](432) 563-0581[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1775",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(432) 563-0581",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][t][b]Fax [/b] (432) 563-0581[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1776",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(432) 563-0581",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]B.M. [/b]Robert L. Melton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1024",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Melton||{ \"MemberID\" : \"1024\",\"luid\": \"334\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 143\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Amarillo\",\"state\":\"TX\",\"zip\":\"79105\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][b]Pres. [/b]Joshua L. Townsend[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1025",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|L.|Townsend||{ \"MemberID\" : \"1025\",\"luid\": \"334\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 143\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Amarillo\",\"state\":\"TX\",\"zip\":\"79105\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "21",
+    "Line": "[t][b]F.S. [/b]Robert L. Melton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3646",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Melton||{ \"MemberID\" : \"3646\",\"luid\": \"334\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "22",
+    "Line": "[t][b]R.S. [/b]Bill Bray[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1023",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bill||Bray||{ \"MemberID\" : \"1023\",\"luid\": \"334\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 143\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Amarillo\",\"state\":\"TX\",\"zip\":\"79105\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "23",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "334",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

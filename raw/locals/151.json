@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]241-  (i) Ithaca[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "241-|Ithaca|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "151",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]134 Cecil A. Malone Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "Address1",
+    "editFieldValues": "134 Cecil A. Malone Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ithaca, NY 14850[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ithaca|NY|14850",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](607) 272-2809[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "288",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(607) 272-2809",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](607) 277-5623[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(607) 277-5623",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:businessmanager@ibewlocal241.com\" target=\"_blank\">businessmanager@ibewlocal241.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1886",
+    "editFieldNames": "Email",
+    "editFieldValues": "businessmanager@ibewlocal241.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal241.com\" target=\"_blank\">www.ibewlocal241.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal241.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Wayne R. Shipman II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4449",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|R.|Shipman|II|{ \"MemberID\" : \"4449\",\"luid\": \"151\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Gerald L Minster[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4451",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gerald|L|Minster||{ \"MemberID\" : \"4451\",\"luid\": \"151\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Wayne R. Shipman II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4450",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|R.|Shipman|II|{ \"MemberID\" : \"4450\",\"luid\": \"151\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Robert A. Carey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|A.|Carey||{ \"MemberID\" : \"469\",\"luid\": \"151\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"134 Cecil A Malone Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ithaca\",\"state\":\"NY\",\"zip\":\"14850\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Fraternal Order of Eagles Club, 161 Cecil A. Malone Drive, 1st Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Fraternal Order of Eagles Club, 161 Cecil A. Malone Drive, 1st Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

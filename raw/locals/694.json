@@ -1,0 +1,82 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1814  (rr) Houston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "694",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1814|Houston|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "694",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]20906 Winter Forest Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7243",
+    "editFieldNames": "Address1",
+    "editFieldValues": "20906 Winter Forest Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Spring, TX 77379[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7243",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Spring|TX|77379",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](281) 313-4332[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1181",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(281) 313-4332",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Jason M. May Sr., 2338 Cool Springs Lane, Sugar Land, TX  77498[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4002",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|M.|May|Sr.|{ \"MemberID\" : \"4002\",\"luid\": \"694\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2338 Cool Springs Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sugar Land\",\"state\":\"TX\",\"zip\":\"77498\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Shannon D. Isabell, 20906 Winter Forest Drive, Spring, TX  77379[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4003",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|D.|Isabell||{ \"MemberID\" : \"4003\",\"luid\": \"694\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20906 Winter Forest Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Spring\",\"state\":\"TX\",\"zip\":\"77379\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Meets [/b]Local Union 716 Hall, 4th Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "694",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 716 Hall, 4th Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1583  (mt, p) Palatka[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1583|Palatka|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "637",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt, p",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 2352[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2352",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Palatka, FL 32178[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Palatka|FL|32178",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](386) 546-9938[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2361",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(386) 546-9938",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:luibew1583@gmail.com\" target=\"_blank\">luibew1583@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2130",
+    "editFieldNames": "Email",
+    "editFieldValues": "luibew1583@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Donny W. Wells, PO Box 1006, Palatka, FL  32178[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1958",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donny|W.|Wells||{ \"MemberID\" : \"1958\",\"luid\": \"637\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1006\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palatka\",\"state\":\"FL\",\"zip\":\"32178\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Donny W. Wells, PO Box 1006, Palatka, FL  32178[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3938",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donny|W.|Wells||{ \"MemberID\" : \"3938\",\"luid\": \"637\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1006\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palatka\",\"state\":\"FL\",\"zip\":\"32178\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Raymond W. Barnes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4464",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Raymond|W.|Barnes||{ \"MemberID\" : \"4464\",\"luid\": \"637\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Rodney L. Carnes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1957",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|L.|Carnes||{ \"MemberID\" : \"1957\",\"luid\": \"637\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2352\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palatka\",\"state\":\"FL\",\"zip\":\"32178\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Loyal Order of Moose Lodge 184, 3875 Reid Street, 1st Monday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Loyal Order of Moose Lodge 184, 3875 Reid Street, 1st Monday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

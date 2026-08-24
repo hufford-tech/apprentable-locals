@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]14--  (i) Eau Claire[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "14--|Eau Claire|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "14",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9480 Highway 53[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9480 Highway 53",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fall Creek, WI 54742[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fall Creek|WI|54742",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](715) 878-4068[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "27",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 878-4068",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](715) 878-4158[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 878-4158",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jchermack@ibew14.org\" target=\"_blank\">jchermack@ibew14.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "Email",
+    "editFieldValues": "jchermack@ibew14.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew14.net\" target=\"_blank\">www.ibew14.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew14.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jon L. Chermack[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jon|L.|Chermack||{ \"MemberID\" : \"45\",\"luid\": \"14\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9480 Highway 53\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fall Creek\",\"state\":\"WI\",\"zip\":\"54742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Dan Gunderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dan||Gunderson||{ \"MemberID\" : \"44\",\"luid\": \"14\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9480 Highway 53\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fall Creek\",\"state\":\"WI\",\"zip\":\"54742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jon L. Chermack[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3345",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jon|L.|Chermack||{ \"MemberID\" : \"3345\",\"luid\": \"14\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Arik C. Erickson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "46",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Arik|C.|Erickson||{ \"MemberID\" : \"46\",\"luid\": \"14\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"9480 Highway 53\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fall Creek\",\"state\":\"WI\",\"zip\":\"54742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Monday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

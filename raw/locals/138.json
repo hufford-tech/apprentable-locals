@@ -1,0 +1,202 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]222-  (lctt, o, ptc, u) Orlando[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "138",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "222-|Orlando|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "138",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, o, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]17846 N US Highway 441[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7201",
+    "editFieldNames": "Address1",
+    "editFieldValues": "17846 N US Highway 441",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Reddick, FL 32686[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7201",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Reddick|FL|32686",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](787) 957-9252[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2356",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(787) 957-9252",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dispatch@ibew222.org\" target=\"_blank\">dispatch@ibew222.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "136",
+    "editFieldNames": "Email",
+    "editFieldValues": "dispatch@ibew222.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew222.org\" target=\"_blank\">www.ibew222.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "138",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew222.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]South Hall[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6044",
+    "editFieldNames": "Name",
+    "editFieldValues": "South Hall",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][t]11069 FL-80[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6044",
+    "editFieldNames": "Address1",
+    "editFieldValues": "11069 FL-80",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]Moore Haven, FL 33471[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6044",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Moore Haven|FL|33471",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t][b](863) 983-1044[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2157",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(863) 983-1044",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Puerto Rico[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6045",
+    "editFieldNames": "Name",
+    "editFieldValues": "Puerto Rico",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t]RR3 200[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6045",
+    "editFieldNames": "Address1",
+    "editFieldValues": "RR3 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t]Suite 11[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6045",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 11",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t]Toa Alta, PR 00953[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6045",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Toa Alta|PR|00953",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]B.M. [/b]John R. Harrell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|R.|Harrell||{ \"MemberID\" : \"426\",\"luid\": \"138\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17846 N US Highway 441\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Reddick\",\"state\":\"FL\",\"zip\":\"32686\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]Pres. [/b]William Dezayas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4329",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William||Dezayas||{ \"MemberID\" : \"4329\",\"luid\": \"138\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]F.S. [/b]John R. Harrell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3458",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|R.|Harrell||{ \"MemberID\" : \"3458\",\"luid\": \"138\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]R.S. [/b]Alison S. Scott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4330",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alison|S.|Scott||{ \"MemberID\" : \"4330\",\"luid\": \"138\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "138",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

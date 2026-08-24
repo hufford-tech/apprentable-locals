@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]533-  (rr) Chicago[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "533-|Chicago|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "304",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]250 Tiverton Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6969",
+    "editFieldNames": "Address1",
+    "editFieldValues": "250 Tiverton Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Steger, IL 60475[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6969",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Steger|IL|60475",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](360) 747-0243[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2241",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 747-0243",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ceaser807@yahoo.com\" target=\"_blank\">ceaser807@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1976",
+    "editFieldNames": "Email",
+    "editFieldValues": "ceaser807@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Paul F. Mayer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3619",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|F.|Mayer||{ \"MemberID\" : \"3619\",\"luid\": \"304\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3857 N Keeler Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Paul F. Mayer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "932",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|F.|Mayer||{ \"MemberID\" : \"932\",\"luid\": \"304\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"640 W Briar Place\",\"addr2\":\"Apt. 205\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60657\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Timothy D. Cowen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "931",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|D.|Cowen||{ \"MemberID\" : \"931\",\"luid\": \"304\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2205 Westover Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Riverside\",\"state\":\"IL\",\"zip\":\"60546\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Various Locations, 3rd Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Locations, 3rd Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

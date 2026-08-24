@@ -1,0 +1,317 @@
+[
+  {
+    "CountyName": "Aransas County, TX",
+    "District": "7",
+    "Population": "22497",
+    "LandArea": "251.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Aransas County, TX",
+    "District": "7",
+    "Population": "22497",
+    "LandArea": "251.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bee County, TX",
+    "District": "7",
+    "Population": "32359",
+    "LandArea": "880.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bee County, TX",
+    "District": "7",
+    "Population": "32359",
+    "LandArea": "880.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brooks County, TX",
+    "District": "7",
+    "Population": "7976",
+    "LandArea": "943.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brooks County, TX",
+    "District": "7",
+    "Population": "7976",
+    "LandArea": "943.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Calhoun County, TX",
+    "District": "7",
+    "Population": "20647",
+    "LandArea": "512.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Calhoun County, TX",
+    "District": "7",
+    "Population": "20647",
+    "LandArea": "512.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cameron County, TX",
+    "District": "7",
+    "Population": "335227",
+    "LandArea": "905.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Duval County, TX",
+    "District": "7",
+    "Population": "13120",
+    "LandArea": "1792.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Duval County, TX",
+    "District": "7",
+    "Population": "13120",
+    "LandArea": "1792.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Goliad County, TX",
+    "District": "7",
+    "Population": "6928",
+    "LandArea": "853.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Goliad County, TX",
+    "District": "7",
+    "Population": "6928",
+    "LandArea": "853.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hidalgo County, TX",
+    "District": "7",
+    "Population": "569463",
+    "LandArea": "1569.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jim Hogg County, TX",
+    "District": "7",
+    "Population": "5281",
+    "LandArea": "1136.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jim Hogg County, TX",
+    "District": "7",
+    "Population": "5281",
+    "LandArea": "1136.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jim Wells County, TX",
+    "District": "7",
+    "Population": "39326",
+    "LandArea": "864.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jim Wells County, TX",
+    "District": "7",
+    "Population": "39326",
+    "LandArea": "864.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kenedy County, TX",
+    "District": "7",
+    "Population": "414",
+    "LandArea": "1456.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kenedy County, TX",
+    "District": "7",
+    "Population": "414",
+    "LandArea": "1456.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kleberg County, TX",
+    "District": "7",
+    "Population": "31549",
+    "LandArea": "870.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kleberg County, TX",
+    "District": "7",
+    "Population": "31549",
+    "LandArea": "870.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Live Oak County, TX",
+    "District": "7",
+    "Population": "12309",
+    "LandArea": "1036.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Live Oak County, TX",
+    "District": "7",
+    "Population": "12309",
+    "LandArea": "1036.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nueces County, TX",
+    "District": "7",
+    "Population": "313645",
+    "LandArea": "835.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nueces County, TX",
+    "District": "7",
+    "Population": "313645",
+    "LandArea": "835.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Refugio County, TX",
+    "District": "7",
+    "Population": "7828",
+    "LandArea": "770.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Refugio County, TX",
+    "District": "7",
+    "Population": "7828",
+    "LandArea": "770.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Patricio County, TX",
+    "District": "7",
+    "Population": "67138",
+    "LandArea": "691.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Patricio County, TX",
+    "District": "7",
+    "Population": "67138",
+    "LandArea": "691.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Starr County, TX",
+    "District": "7",
+    "Population": "53597",
+    "LandArea": "1223.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Victoria County, TX",
+    "District": "7",
+    "Population": "84088",
+    "LandArea": "882.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Victoria County, TX",
+    "District": "7",
+    "Population": "84088",
+    "LandArea": "882.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Willacy County, TX",
+    "District": "7",
+    "Population": "20082",
+    "LandArea": "596.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Zapata County, TX",
+    "District": "7",
+    "Population": "12182",
+    "LandArea": "996.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

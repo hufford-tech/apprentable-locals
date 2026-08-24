@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]506-  (rr) St. Paul[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "292",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "506-|St. Paul|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "292",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]336 Sandhurst Drive W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5894",
+    "editFieldNames": "Address1",
+    "editFieldValues": "336 Sandhurst Drive W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Roseville, MN 55113[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5894",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Roseville|MN|55113",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](651) 488-8101[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2139",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(651) 488-8101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local506info@gmail.com\" target=\"_blank\">local506info@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "282",
+    "editFieldNames": "Email",
+    "editFieldValues": "local506info@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jeffery Hegg, 1837 Monn Avenue, White Bear Lake, MN  55110[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "894",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffery||Hegg||{ \"MemberID\" : \"894\",\"luid\": \"292\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1837 Monn Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"White Bear Lake\",\"state\":\"MN\",\"zip\":\"55110\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Matt J. Meihofer, 17628 Fair Isle Path, Farmington, MN  55024[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3607",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matt|J.|Meihofer||{ \"MemberID\" : \"3607\",\"luid\": \"292\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17628 Fair Isle Path\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Farmington\",\"state\":\"MN\",\"zip\":\"55024\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Joel R. Magnuson, 26237 150th Street NW, Zimmerman, MN  55398[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "895",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel|R.|Magnuson||{ \"MemberID\" : \"895\",\"luid\": \"292\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"26237 150th Street NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Zimmerman\",\"state\":\"MN\",\"zip\":\"55398\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Timothy L. Harkema, 19183 Ismay Path, Lakeville, MN  55044[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "896",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|L.|Harkema||{ \"MemberID\" : \"896\",\"luid\": \"292\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"19183 Ismay Path\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lakeville\",\"state\":\"MN\",\"zip\":\"55044\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Columbia Heights VFW Post #230, 446 Central Avenue, Columbia Heights, 2nd Wednesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "292",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Columbia Heights VFW Post #230, 446 Central Avenue, Columbia Heights, 2nd Wednesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

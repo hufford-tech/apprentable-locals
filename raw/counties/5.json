@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Allegheny County, PA",
+    "District": "3",
+    "Population": "1281666",
+    "LandArea": "730.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Armstrong County, PA",
+    "District": "3",
+    "Population": "72392",
+    "LandArea": "653.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Bedford County, PA",
+    "District": "3",
+    "Population": "49984",
+    "LandArea": "1014.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Blair County, PA",
+    "District": "3",
+    "Population": "129144",
+    "LandArea": "525.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Butler County, PA",
+    "District": "3",
+    "Population": "174083",
+    "LandArea": "788.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cambria County, PA",
+    "District": "3",
+    "Population": "152598",
+    "LandArea": "688.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cameron County, PA",
+    "District": "3",
+    "Population": "5974",
+    "LandArea": "397.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Centre County, PA",
+    "District": "3",
+    "Population": "135758",
+    "LandArea": "1107.53",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clarion County, PA",
+    "District": "3",
+    "Population": "41765",
+    "LandArea": "602.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clearfield County, PA",
+    "District": "3",
+    "Population": "83382",
+    "LandArea": "1147.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Elk County, PA",
+    "District": "3",
+    "Population": "35112",
+    "LandArea": "828.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Fayette County, PA",
+    "District": "3",
+    "Population": "148644",
+    "LandArea": "790.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Fulton County, PA",
+    "District": "3",
+    "Population": "14261",
+    "LandArea": "437.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Greene County, PA",
+    "District": "3",
+    "Population": "40672",
+    "LandArea": "575.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Huntingdon County, PA",
+    "District": "3",
+    "Population": "45586",
+    "LandArea": "874.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Indiana County, PA",
+    "District": "3",
+    "Population": "89605",
+    "LandArea": "829.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Jefferson County, PA",
+    "District": "3",
+    "Population": "45932",
+    "LandArea": "655.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "McKean County, PA",
+    "District": "3",
+    "Population": "45936",
+    "LandArea": "981.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Somerset County, PA",
+    "District": "3",
+    "Population": "80023",
+    "LandArea": "1074.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Venango County, PA",
+    "District": "3",
+    "Population": "57565",
+    "LandArea": "675.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Washington County, PA",
+    "District": "3",
+    "Population": "202897",
+    "LandArea": "857.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Westmoreland County, PA",
+    "District": "3",
+    "Population": "369993",
+    "LandArea": "1025.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

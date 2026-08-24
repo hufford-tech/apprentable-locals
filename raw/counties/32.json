@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Allen County, OH",
+    "District": "4",
+    "Population": "108473",
+    "LandArea": "404.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Auglaize County, OH",
+    "District": "4",
+    "Population": "46611",
+    "LandArea": "401.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hardin County, OH",
+    "District": "4",
+    "Population": "31945",
+    "LandArea": "470.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Logan County, OH",
+    "District": "4",
+    "Population": "46005",
+    "LandArea": "458.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Mercer County, OH",
+    "District": "4",
+    "Population": "40924",
+    "LandArea": "463.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Shelby County, OH",
+    "District": "4",
+    "Population": "47910",
+    "LandArea": "409.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Van Wert County, OH",
+    "District": "4",
+    "Population": "29659",
+    "LandArea": "410.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wyandot County, OH",
+    "District": "4",
+    "Population": "22908",
+    "LandArea": "405.61",
+    "Percentage": "55%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

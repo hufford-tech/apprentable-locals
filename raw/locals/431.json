@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]794-  (rr) Chicago[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "794-|Chicago|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "431",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9241 Morse Place[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7032",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9241 Morse Place",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Crown Point, IN 46307[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7032",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Crown Point|IN|46307",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](219) 201-7703[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2261",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(219) 201-7703",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:IBEW794@gmail.com\" target=\"_blank\">IBEW794@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "412",
+    "editFieldNames": "Email",
+    "editFieldValues": "IBEW794@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Thomas J. Verhoeve[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1325",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Verhoeve||{ \"MemberID\" : \"1325\",\"luid\": \"431\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"9241 Morse Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crown Point\",\"state\":\"IN\",\"zip\":\"46307\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Thomas J. Verhoeve[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3740",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Verhoeve||{ \"MemberID\" : \"3740\",\"luid\": \"431\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"9241 Morse Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crown Point\",\"state\":\"IN\",\"zip\":\"46307\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Juan A. Ramos, 5815 Edward Drive, Oak Forest, IL  60452[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1327",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Juan|A.|Ramos||{ \"MemberID\" : \"1327\",\"luid\": \"431\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5815 Edward Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oak Forest\",\"state\":\"IL\",\"zip\":\"60452\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Raymond R. Wilke, PO Box 129, Oak Forest, IL  60452[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1326",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Raymond|R.|Wilke||{ \"MemberID\" : \"1326\",\"luid\": \"431\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 129\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oak Forest\",\"state\":\"IL\",\"zip\":\"60452\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]VFW Post 5079, 3200 S May Street, Chicago, 3rd Thursday, 2:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Post 5079, 3200 S May Street, Chicago, 3rd Thursday, 2:30 pm",
+    "datatype": "txt"
+  }
+]

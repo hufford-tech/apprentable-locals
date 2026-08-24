@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Anoka County, MN",
+    "District": "6",
+    "Population": "298084",
+    "LandArea": "423.61",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Benton County, MN",
+    "District": "6",
+    "Population": "34226",
+    "LandArea": "408.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Big Stone County, MN",
+    "District": "6",
+    "Population": "5820",
+    "LandArea": "496.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Carver County, MN",
+    "District": "6",
+    "Population": "70205",
+    "LandArea": "357.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Chippewa County, MN",
+    "District": "6",
+    "Population": "13088",
+    "LandArea": "582.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Hennepin County, MN",
+    "District": "6",
+    "Population": "1116200",
+    "LandArea": "556.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kandiyohi County, MN",
+    "District": "6",
+    "Population": "41203",
+    "LandArea": "796.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lac Qui Parle County, MN",
+    "District": "6",
+    "Population": "8067",
+    "LandArea": "764.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "McLeod County, MN",
+    "District": "6",
+    "Population": "34898",
+    "LandArea": "491.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Meeker County, MN",
+    "District": "6",
+    "Population": "22644",
+    "LandArea": "608.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pope County, MN",
+    "District": "6",
+    "Population": "11236",
+    "LandArea": "670.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Scott County, MN",
+    "District": "6",
+    "Population": "89498",
+    "LandArea": "356.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sherburne County, MN",
+    "District": "6",
+    "Population": "64417",
+    "LandArea": "436.30",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Stearns County, MN",
+    "District": "6",
+    "Population": "133166",
+    "LandArea": "1344.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Stevens County, MN",
+    "District": "6",
+    "Population": "10053",
+    "LandArea": "562.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Swift County, MN",
+    "District": "6",
+    "Population": "11956",
+    "LandArea": "743.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wright County, MN",
+    "District": "6",
+    "Population": "89986",
+    "LandArea": "660.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  }
+]

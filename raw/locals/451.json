@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]859-  (rr) New York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "451",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "859-|New York|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "451",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]208 Harris Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7300",
+    "editFieldNames": "Address1",
+    "editFieldValues": "208 Harris Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit DA-7[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7300",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit DA-7",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Bedford Hills, NY 10507[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7300",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bedford Hills|NY|10507",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](203) 505-4376[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2376",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 505-4376",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jegallagher@sbcglobal.net\" target=\"_blank\">jegallagher@sbcglobal.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "430",
+    "editFieldNames": "Email",
+    "editFieldValues": "jegallagher@sbcglobal.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]John E. Gallagher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1386",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|E.|Gallagher||{ \"MemberID\" : \"1386\",\"luid\": \"451\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2326\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stamford\",\"state\":\"CT\",\"zip\":\"06906\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]John E. Gallagher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3760",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|E.|Gallagher||{ \"MemberID\" : \"3760\",\"luid\": \"451\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Mark Mieras, 208 Harris Road Unit DA-7, Bedford Hills, NY  10507[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1385",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark||Mieras||{ \"MemberID\" : \"1385\",\"luid\": \"451\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Harris Road\",\"addr2\":\"Unit DA-7\",\"addr3\":\"\",\"city\":\"Bedford Hills\",\"state\":\"NY\",\"zip\":\"10507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jason J. Felice[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1387",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|J.|Felice||{ \"MemberID\" : \"1387\",\"luid\": \"451\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2326\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stamford\",\"state\":\"CT\",\"zip\":\"06906\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Parkway Diner, 1066 High Ridge Road, Stamford, CT, 1st Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "451",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Parkway Diner, 1066 High Ridge Road, Stamford, CT, 1st Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

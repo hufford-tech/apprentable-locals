@@ -1,0 +1,227 @@
+[
+  {
+    "CountyName": "Beaverhead County, MT",
+    "District": "8",
+    "Population": "9202",
+    "LandArea": "5542.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Blaine County, MT",
+    "District": "8",
+    "Population": "7009",
+    "LandArea": "4226.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Broadwater County, MT",
+    "District": "8",
+    "Population": "4385",
+    "LandArea": "1191.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Cascade County, MT",
+    "District": "8",
+    "Population": "80357",
+    "LandArea": "2697.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Chouteau County, MT",
+    "District": "8",
+    "Population": "5970",
+    "LandArea": "3973.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Deer Lodge County, MT",
+    "District": "8",
+    "Population": "9417",
+    "LandArea": "736.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Fergus County, MT",
+    "District": "8",
+    "Population": "11893",
+    "LandArea": "4339.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Glacier County, MT",
+    "District": "8",
+    "Population": "13247",
+    "LandArea": "2994.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Granite County, MT",
+    "District": "8",
+    "Population": "2830",
+    "LandArea": "1727.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Hill County, MT",
+    "District": "8",
+    "Population": "16673",
+    "LandArea": "2896.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Jefferson County, MT",
+    "District": "8",
+    "Population": "10049",
+    "LandArea": "1656.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Judith Basin County, MT",
+    "District": "8",
+    "Population": "2329",
+    "LandArea": "1869.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Lewis and Clark County, MT",
+    "District": "8",
+    "Population": "55716",
+    "LandArea": "3460.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Liberty County, MT",
+    "District": "8",
+    "Population": "2158",
+    "LandArea": "1429.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Madison County, MT",
+    "District": "8",
+    "Population": "6851",
+    "LandArea": "3586.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Meagher County, MT",
+    "District": "8",
+    "Population": "1932",
+    "LandArea": "2391.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Petroleum County, MT",
+    "District": "8",
+    "Population": "493",
+    "LandArea": "1653.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Phillips County, MT",
+    "District": "8",
+    "Population": "4601",
+    "LandArea": "5139.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Pondera County, MT",
+    "District": "8",
+    "Population": "6424",
+    "LandArea": "1624.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Powell County, MT",
+    "District": "8",
+    "Population": "7180",
+    "LandArea": "2325.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Silver Bow County, MT",
+    "District": "8",
+    "Population": "34606",
+    "LandArea": "718.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Teton County, MT",
+    "District": "8",
+    "Population": "6445",
+    "LandArea": "2272.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Toole County, MT",
+    "District": "8",
+    "Population": "5267",
+    "LandArea": "1910.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Valley County, MT",
+    "District": "8",
+    "Population": "7675",
+    "LandArea": "4920.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Wheatland County, MT",
+    "District": "8",
+    "Population": "2259",
+    "LandArea": "1423.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  }
+]

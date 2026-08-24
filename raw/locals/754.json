@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2038  (em, i) Regina, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "754",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2038|Regina|SK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "754",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1920 McAra Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "663",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1920 McAra Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Regina, SK S4N 5R1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "663",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Regina|SK|S4N 5R1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](306) 757-0222[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1262",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(306) 757-0222",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](306) 352-6529[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2188",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(306) 352-6529",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibew2038.com\" target=\"_blank\">admin@ibew2038.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "702",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibew2038.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2038.com\" target=\"_blank\">www.ibew2038.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "754",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2038.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Christopher M. Unser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2305",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Unser||{ \"MemberID\" : \"2305\",\"luid\": \"754\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"171 Angus Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Regina\",\"state\":\"SK\",\"zip\":\"S4T 6N4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Allan J. Rakai[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2304",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Allan|J.|Rakai||{ \"MemberID\" : \"2304\",\"luid\": \"754\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2135 MacKay Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Regina\",\"state\":\"SK\",\"zip\":\"S4N 2S7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Christopher M. Unser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4071",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Unser||{ \"MemberID\" : \"4071\",\"luid\": \"754\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"171 Angus Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Regina\",\"state\":\"SK\",\"zip\":\"S4T 6N4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Brandon R. Laliberte[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4361",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|R.|Laliberte||{ \"MemberID\" : \"4361\",\"luid\": \"754\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "754",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Brant County, ON",
+    "District": "1",
+    "Population": "118485",
+    "LandArea": "1092.9364",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Brant County, ON",
+    "District": "1",
+    "Population": "118485",
+    "LandArea": "1092.9364",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Haldimand-Norfolk Regional Municipality, ON",
+    "District": "1",
+    "Population": "104670",
+    "LandArea": "2894.1974",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Haldimand-Norfolk Regional Municipality, ON",
+    "District": "1",
+    "Population": "104670",
+    "LandArea": "2894.1974",
+    "Percentage": "80%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Halton Regional Municipality, ON",
+    "District": "1",
+    "Population": "375229",
+    "LandArea": "967.0375",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Halton Regional Municipality, ON",
+    "District": "1",
+    "Population": "375229",
+    "LandArea": "967.0375",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Hamilton Division, ON",
+    "District": "1",
+    "Population": "490268",
+    "LandArea": "1117.1063",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Hamilton Division, ON",
+    "District": "1",
+    "Population": "490268",
+    "LandArea": "1117.1063",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  }
+]

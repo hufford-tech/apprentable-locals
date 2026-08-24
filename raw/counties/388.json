@@ -1,0 +1,137 @@
+[
+  {
+    "CountyName": "Adams County, WI",
+    "District": "6",
+    "Population": "18643",
+    "LandArea": "647.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Clark County, WI",
+    "District": "6",
+    "Population": "33557",
+    "LandArea": "1215.63",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Florence County, WI",
+    "District": "6",
+    "Population": "5088",
+    "LandArea": "488.03",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Forest County, WI",
+    "District": "6",
+    "Population": "10024",
+    "LandArea": "1014.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Juneau County, WI",
+    "District": "6",
+    "Population": "24316",
+    "LandArea": "767.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Langlade County, WI",
+    "District": "6",
+    "Population": "20740",
+    "LandArea": "872.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Lincoln County, WI",
+    "District": "6",
+    "Population": "29641",
+    "LandArea": "883.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marathon County, WI",
+    "District": "6",
+    "Population": "125834",
+    "LandArea": "1544.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marinette County, WI",
+    "District": "6",
+    "Population": "43384",
+    "LandArea": "1401.76",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Menominee County, WI",
+    "District": "6",
+    "Population": "4562",
+    "LandArea": "357.96",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Oneida County, WI",
+    "District": "6",
+    "Population": "36776",
+    "LandArea": "1124.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Portage County, WI",
+    "District": "6",
+    "Population": "67182",
+    "LandArea": "806.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Shawano County, WI",
+    "District": "6",
+    "Population": "40664",
+    "LandArea": "892.51",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Vilas County, WI",
+    "District": "6",
+    "Population": "21033",
+    "LandArea": "873.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Wood County, WI",
+    "District": "6",
+    "Population": "75555",
+    "LandArea": "792.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

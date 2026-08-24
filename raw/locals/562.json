@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1238  (u) Wilmington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "562",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1238|Wilmington|DE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "562",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]410 Larch Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "Address1",
+    "editFieldValues": "410 Larch Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wilmington, DE 19804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wilmington|DE|19804",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](302) 683-0660[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "976",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(302) 683-0660",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](302) 683-0661[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "977",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(302) 683-0661",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:swalker@ibew1238.org\" target=\"_blank\">swalker@ibew1238.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "529",
+    "editFieldNames": "Email",
+    "editFieldValues": "swalker@ibew1238.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1238.org\" target=\"_blank\">www.ibew1238.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "562",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1238.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Nicholas J. Baronie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4334",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|J.|Baronie||{ \"MemberID\" : \"4334\",\"luid\": \"562\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Patrick F. Leahan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1729",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|F.|Leahan||{ \"MemberID\" : \"1729\",\"luid\": \"562\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"922 Westfield Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"PA\",\"zip\":\"19064\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Nicholas J. Baronie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4335",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|J.|Baronie||{ \"MemberID\" : \"4335\",\"luid\": \"562\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Sean C. Hinkson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1730",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|C.|Hinkson||{ \"MemberID\" : \"1730\",\"luid\": \"562\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"302 Shepherd Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Townsend\",\"state\":\"DE\",\"zip\":\"19734\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Local Union 313 Hall, New Castle, 2nd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "562",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 313 Hall, New Castle, 2nd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

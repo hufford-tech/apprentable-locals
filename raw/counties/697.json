@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Lake County, IN",
+    "District": "6",
+    "Population": "484564",
+    "LandArea": "496.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Newton County, IN",
+    "District": "6",
+    "Population": "14566",
+    "LandArea": "401.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

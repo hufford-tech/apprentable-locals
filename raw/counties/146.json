@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Christian County, IL",
+    "District": "6",
+    "Population": "35372",
+    "LandArea": "709.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Coles County, IL",
+    "District": "6",
+    "Population": "53196",
+    "LandArea": "508.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Cumberland County, IL",
+    "District": "6",
+    "Population": "11253",
+    "LandArea": "346.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "De Witt County, IL",
+    "District": "6",
+    "Population": "16798",
+    "LandArea": "397.58",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Douglas County, IL",
+    "District": "6",
+    "Population": "19922",
+    "LandArea": "416.86",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Effingham County, IL",
+    "District": "6",
+    "Population": "34264",
+    "LandArea": "478.70",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fayette County, IL",
+    "District": "6",
+    "Population": "21802",
+    "LandArea": "716.49",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macon County, IL",
+    "District": "6",
+    "Population": "114706",
+    "LandArea": "580.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Montgomery County, IL",
+    "District": "6",
+    "Population": "30652",
+    "LandArea": "703.79",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Moultrie County, IL",
+    "District": "6",
+    "Population": "14287",
+    "LandArea": "335.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Piatt County, IL",
+    "District": "6",
+    "Population": "16365",
+    "LandArea": "440.02",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Shelby County, IL",
+    "District": "6",
+    "Population": "22893",
+    "LandArea": "758.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

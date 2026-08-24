@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]159-  (i) Madison[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "112",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "159-|Madison|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "112",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5303 Fen Oak Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "115",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5303 Fen Oak Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Madison, WI 53718[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "115",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Madison|WI|53718",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](608) 255-2989[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "218",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(608) 255-2989",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](608) 255-3014[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "219",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(608) 255-3014",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew159.org\" target=\"_blank\">office@ibew159.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "111",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew159.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew159.org\" target=\"_blank\">www.ibew159.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "112",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew159.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael W. Killian[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "346",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Killian||{ \"MemberID\" : \"346\",\"luid\": \"112\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4903 Commerce Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"McFarland\",\"state\":\"WI\",\"zip\":\"53558\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mitchell L. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "347",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mitchell|L.|Johnson||{ \"MemberID\" : \"347\",\"luid\": \"112\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4903 Commerce Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"McFarland\",\"state\":\"WI\",\"zip\":\"53558\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael W. Killian[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3436",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Killian||{ \"MemberID\" : \"3436\",\"luid\": \"112\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Kevin T. Klepper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "345",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|T.|Klepper||{ \"MemberID\" : \"345\",\"luid\": \"112\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4903 Commerce Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"McFarland\",\"state\":\"WI\",\"zip\":\"53558\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "112",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

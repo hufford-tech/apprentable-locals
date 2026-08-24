@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1405  (mo) Flin Flon, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1405|Flin Flon|MB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "592",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 488[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "551",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 488",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Flin Flon, MB R8A 1M6[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "551",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Flin Flon|MB|R8A 1M6",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1405@mts.net\" target=\"_blank\">ibew1405@mts.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "557",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1405@mts.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Jeff G. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1820",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff|G.|Taylor||{ \"MemberID\" : \"1820\",\"luid\": \"592\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 488\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flin Flon\",\"state\":\"MB\",\"zip\":\"R8A 1M6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Jeff G. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3894",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff|G.|Taylor||{ \"MemberID\" : \"3894\",\"luid\": \"592\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Jon G. Entwistle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1819",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jon|G.|Entwistle||{ \"MemberID\" : \"1819\",\"luid\": \"592\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 488\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flin Flon\",\"state\":\"MB\",\"zip\":\"R8A 1M6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Jamie Smalley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1821",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Smalley||{ \"MemberID\" : \"1821\",\"luid\": \"592\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 488\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flin Flon\",\"state\":\"MB\",\"zip\":\"R8A 1M6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]54 Main Street, 2nd Thursday, 8pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "Meets",
+    "editFieldValues": "54 Main Street, 2nd Thursday, 8pm",
+    "datatype": "txt"
+  }
+]

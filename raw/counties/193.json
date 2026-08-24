@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Cass County, IL",
+    "District": "6",
+    "Population": "13695",
+    "LandArea": "375.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Logan County, IL",
+    "District": "6",
+    "Population": "31183",
+    "LandArea": "618.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mason County, IL",
+    "District": "6",
+    "Population": "16038",
+    "LandArea": "538.94",
+    "Percentage": "35%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Menard County, IL",
+    "District": "6",
+    "Population": "12486",
+    "LandArea": "314.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Montgomery County, IL",
+    "District": "6",
+    "Population": "30652",
+    "LandArea": "703.79",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Morgan County, IL",
+    "District": "6",
+    "Population": "36616",
+    "LandArea": "568.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Sangamon County, IL",
+    "District": "6",
+    "Population": "188951",
+    "LandArea": "868.18",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Sangamon County, IL",
+    "District": "6",
+    "Population": "188951",
+    "LandArea": "868.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Scott County, IL",
+    "District": "6",
+    "Population": "5537",
+    "LandArea": "250.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

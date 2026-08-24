@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Blackford County, IN",
+    "District": "6",
+    "Population": "14048",
+    "LandArea": "165.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Delaware County, IN",
+    "District": "6",
+    "Population": "118769",
+    "LandArea": "393.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Fayette County, IN",
+    "District": "6",
+    "Population": "25588",
+    "LandArea": "214.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Franklin County, IN",
+    "District": "6",
+    "Population": "22151",
+    "LandArea": "386.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Henry County, IN",
+    "District": "6",
+    "Population": "48508",
+    "LandArea": "392.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jay County, IN",
+    "District": "6",
+    "Population": "21806",
+    "LandArea": "383.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Randolph County, IN",
+    "District": "6",
+    "Population": "27401",
+    "LandArea": "452.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Union County, IN",
+    "District": "6",
+    "Population": "7349",
+    "LandArea": "161.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wayne County, IN",
+    "District": "6",
+    "Population": "71097",
+    "LandArea": "403.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

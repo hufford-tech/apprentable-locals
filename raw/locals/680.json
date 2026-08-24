@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1744  (mo, u) Fort Frances, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1744|Fort Frances|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "680",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 235[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7046",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 235",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Emo, ON P0W 1E0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7046",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Emo|ON|P0W 1E0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](807) 275-8816[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2267",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(807) 275-8816",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1744@gmail.com\" target=\"_blank\">ibew1744@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "636",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1744@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jeff Cross[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2080",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff||Cross||{ \"MemberID\" : \"2080\",\"luid\": \"680\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"RR 3, Site 300-42\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Frances\",\"state\":\"ON\",\"zip\":\"P9A 0A1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jeff Cross[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3988",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff||Cross||{ \"MemberID\" : \"3988\",\"luid\": \"680\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"RR 3, Site 300-42\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Frances\",\"state\":\"ON\",\"zip\":\"P9A 0A1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Brian C. White[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2081",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|C.|White||{ \"MemberID\" : \"2081\",\"luid\": \"680\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Site 109-19\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Frances\",\"state\":\"ON\",\"zip\":\"P9A 3M2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Todd F. Wood[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2079",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|F.|Wood||{ \"MemberID\" : \"2079\",\"luid\": \"680\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 51\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Devlin\",\"state\":\"ON\",\"zip\":\"P0W 1C0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]281 2nd Street E, Fort Frances, Last Wednesday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "Meets",
+    "editFieldValues": "281 2nd Street E, Fort Frances, Last Wednesday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

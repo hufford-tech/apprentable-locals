@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]684-  (c, i, rts, st) Modesto[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "684-|Modesto|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "376",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, rts, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]519 Twelfth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "Address1",
+    "editFieldValues": "519 Twelfth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Modesto, CA 95354[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Modesto|CA|95354",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](209) 524-5171[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "691",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(209) 524-5171",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](209) 521-9664[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(209) 521-9664",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlu684.org\" target=\"_blank\">info@ibewlu684.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "361",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlu684.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu684.org\" target=\"_blank\">www.ibewlu684.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu684.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael G. Mendoza[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1153",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|Mendoza||{ \"MemberID\" : \"1153\",\"luid\": \"376\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"519 Twelfth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Modesto\",\"state\":\"CA\",\"zip\":\"95354\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Tyler C. Powell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1152",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler|C.|Powell||{ \"MemberID\" : \"1152\",\"luid\": \"376\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"519 Twelfth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Modesto\",\"state\":\"CA\",\"zip\":\"95354\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael G. Mendoza[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3686",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|Mendoza||{ \"MemberID\" : \"3686\",\"luid\": \"376\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Trevor M. Wyatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1151",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Trevor|M.|Wyatt||{ \"MemberID\" : \"1151\",\"luid\": \"376\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"519 Twelfth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Modesto\",\"state\":\"CA\",\"zip\":\"95354\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

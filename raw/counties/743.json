@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Berks County, PA",
+    "District": "3",
+    "Population": "373638",
+    "LandArea": "858.88",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Chester County, PA",
+    "District": "3",
+    "Population": "433501",
+    "LandArea": "755.97",
+    "Percentage": "35%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lancaster County, PA",
+    "District": "3",
+    "Population": "470658",
+    "LandArea": "949.06",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Montgomery County, PA",
+    "District": "3",
+    "Population": "750097",
+    "LandArea": "483.12",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Schuylkill County, PA",
+    "District": "3",
+    "Population": "150336",
+    "LandArea": "778.36",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

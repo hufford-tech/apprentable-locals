@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]767-  (mt, u) Baton Rouge[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "767-|Baton Rouge|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "417",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 638[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4338",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 638",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Zachary, LA 70791[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4338",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Zachary|LA|70791",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](225) 266-5008[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1851",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(225) 266-5008",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu767@yahoo.com\" target=\"_blank\">ibewlu767@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu767@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Page E. McClure[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1281",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Page|E.|McClure||{ \"MemberID\" : \"1281\",\"luid\": \"417\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 78099\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baton Rouge\",\"state\":\"LA\",\"zip\":\"70837\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Page E. McClure, PO Box 638, Zachary, LA  70791[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4257",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Page|E.|McClure||{ \"MemberID\" : \"4257\",\"luid\": \"417\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Page E. McClure[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3727",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Page|E.|McClure||{ \"MemberID\" : \"3727\",\"luid\": \"417\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 78099\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baton Rouge\",\"state\":\"LA\",\"zip\":\"70837\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Destiny M Landry, PO Box 638, Zachary, LA  70791[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4258",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Destiny|M|Landry||{ \"MemberID\" : \"4258\",\"luid\": \"417\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Local Union 995 Hall, 3rd Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 995 Hall, 3rd Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

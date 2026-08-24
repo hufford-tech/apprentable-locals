@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1837  (ptc, rtb, u) Manchester[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1837|Manchester|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "699",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, rtb, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]16 Old Winthrop Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5899",
+    "editFieldNames": "Address1",
+    "editFieldValues": "16 Old Winthrop Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Manchester, ME 04351[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5899",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Manchester|ME|04351",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 457[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 457",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Manchester, ME 04351[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Manchester|ME|04351",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](207) 623-1030[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1187",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 623-1030",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](207) 621-8384[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1188",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 621-8384",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:union@ibew1837.org\" target=\"_blank\">union@ibew1837.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "653",
+    "editFieldNames": "Email",
+    "editFieldValues": "union@ibew1837.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1837.org\" target=\"_blank\">www.ibew1837.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1837.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Patrick J. Moran Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2140",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Moran|Jr.|{ \"MemberID\" : \"2140\",\"luid\": \"699\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"954 Valley Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manchester\",\"state\":\"NH\",\"zip\":\"03103\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Michelle L. Crocker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2138",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michelle|L.|Crocker||{ \"MemberID\" : \"2138\",\"luid\": \"699\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"729 Vigue Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Windsor\",\"state\":\"ME\",\"zip\":\"04363\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Anthony Sapienza[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4008",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony||Sapienza||{ \"MemberID\" : \"4008\",\"luid\": \"699\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"954 Valley Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manchester\",\"state\":\"NH\",\"zip\":\"03103\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Terri A. MacDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2139",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terri|A.|MacDonald||{ \"MemberID\" : \"2139\",\"luid\": \"699\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"215 Cumberland Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cumberland\",\"state\":\"ME\",\"zip\":\"04097\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1307  (u) Salisbury[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "573",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1307|Salisbury|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "573",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]216 Castlebar Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7224",
+    "editFieldNames": "Address1",
+    "editFieldValues": "216 Castlebar Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Salisbury, MD 21804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7224",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Salisbury|MD|21804",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](443) 783-7762[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2204",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(443) 783-7762",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](410) 896-3019[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2205",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 896-3019",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu1307bs@gmail.com\" target=\"_blank\">ibewlu1307bs@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "540",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu1307bs@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Vaughn B. Horner Jr., 9095 Bi-State Boulevard, Delmar, MD  21875[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1762",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vaughn|B.|Horner|Jr.|{ \"MemberID\" : \"1762\",\"luid\": \"573\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9095 Bi-State Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Delmar\",\"state\":\"MD\",\"zip\":\"21875\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Vaughn B. Horner Jr., 9095 Bi-State Boulevard, Delmar, MD  21875[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3876",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vaughn|B.|Horner|Jr.|{ \"MemberID\" : \"3876\",\"luid\": \"573\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9095 Bi-State Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Delmar\",\"state\":\"MD\",\"zip\":\"21875\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Robert J. Weyant, 216 Castlebar Drive, Salisbury, MD  21804[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1763",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Weyant||{ \"MemberID\" : \"1763\",\"luid\": \"573\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"216 Castlebar Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Salisbury\",\"state\":\"MD\",\"zip\":\"21804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Vanessa R. Cuffee-Beaty, 1107 New Bedford Way, Salisbury, MD  21804[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1761",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vanessa|R.|Cuffee-Beaty||{ \"MemberID\" : \"1761\",\"luid\": \"573\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1107 New Bedford Way\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Salisbury\",\"state\":\"MD\",\"zip\":\"21804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "573",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

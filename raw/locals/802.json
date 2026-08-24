@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2220  (em) Lexington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "802",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2220|Lexington|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "802",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1400 N Forbes Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4391",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1400 N Forbes Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lexington, KY 40511[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4391",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lexington|KY|40511",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 13067[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "690",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 13067",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Lexington, KY 40583[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "690",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lexington|KY|40583",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](859) 233-0633[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1325",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(859) 233-0633",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](859) 243-0172[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2007",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(859) 243-0172",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal2220@gmail.com\" target=\"_blank\">ibewlocal2220@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "740",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal2220@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Kevin B. Marcum[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2442",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|B.|Marcum||{ \"MemberID\" : \"2442\",\"luid\": \"802\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4595 Bullfork Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Morehead\",\"state\":\"KY\",\"zip\":\"40351\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Kevin B. Marcum[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4125",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|B.|Marcum||{ \"MemberID\" : \"4125\",\"luid\": \"802\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4595 Bullfork Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Morehead\",\"state\":\"KY\",\"zip\":\"40351\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Kevin B. Marcum[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4126",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|B.|Marcum||{ \"MemberID\" : \"4126\",\"luid\": \"802\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4595 Bullfork Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Morehead\",\"state\":\"KY\",\"zip\":\"40351\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Teresa L. Morris[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2443",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Teresa|L.|Morris||{ \"MemberID\" : \"2443\",\"luid\": \"802\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"200 Ford Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Morehead\",\"state\":\"KY\",\"zip\":\"40456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 1st Shift, 4 pm; 2nd Shift, 2 pm; 3rd Shift, 7:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "802",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 1st Shift, 4 pm; 2nd Shift, 2 pm; 3rd Shift, 7:15 pm",
+    "datatype": "txt"
+  }
+]

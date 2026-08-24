@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Allegan County, MI",
+    "District": "6",
+    "Population": "105665",
+    "LandArea": "827.46",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Barry County, MI",
+    "District": "6",
+    "Population": "56755",
+    "LandArea": "556.13",
+    "Percentage": "45%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kalamazoo County, MI",
+    "District": "6",
+    "Population": "238603",
+    "LandArea": "561.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "St. Joseph County, MI",
+    "District": "6",
+    "Population": "62422",
+    "LandArea": "503.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Van Buren County, MI",
+    "District": "6",
+    "Population": "76263",
+    "LandArea": "610.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

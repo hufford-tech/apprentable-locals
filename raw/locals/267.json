@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]456-  (i, o) New Brunswick[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "267",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "456-|New Brunswick|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "267",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1295 Livingston Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "260",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1295 Livingston Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Brunswick, NJ 08902[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "260",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Brunswick|NJ|08902",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](732) 246-2122[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "496",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 246-2122",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](732) 246-8076[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "497",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 246-8076",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local456@ibew456.org\" target=\"_blank\">local456@ibew456.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "259",
+    "editFieldNames": "Email",
+    "editFieldValues": "local456@ibew456.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew456.org\" target=\"_blank\">www.ibew456.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "267",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew456.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Joseph V. Egan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "820",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|V.|Egan||{ \"MemberID\" : \"820\",\"luid\": \"267\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1295 Livingston Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Brunswick\",\"state\":\"NJ\",\"zip\":\"08902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Michael G. McLaughlin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "821",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|McLaughlin||{ \"MemberID\" : \"821\",\"luid\": \"267\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1295 Livingston Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Brunswick\",\"state\":\"NJ\",\"zip\":\"08902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Joseph V. Egan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3581",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|V.|Egan||{ \"MemberID\" : \"3581\",\"luid\": \"267\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Michael P. Black[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "822",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|P.|Black||{ \"MemberID\" : \"822\",\"luid\": \"267\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1295 Livingston Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Brunswick\",\"state\":\"NJ\",\"zip\":\"08902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Joyce Kilmer American Legion Post 25, 4 John F. Kennedy Drive, Milltown, 4th Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "267",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Joyce Kilmer American Legion Post 25, 4 John F. Kennedy Drive, Milltown, 4th Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,23 @@
+No-pages-collected (skipped): 2 ['43', '106']
+Batch-eligible locals: 243
+Avg pages/local BEFORE prefilter: 27.7
+Avg pages/local AFTER prefilter:  26.6
+Submitted batch msgbatch_011pehrvh2x1YiMatzmF9Ad2, status=in_progress
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=243 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=ended processing=0 succeeded=243 errored=0 canceled=0 expired=0
+
+Batch done. Succeeded: 242  Failed: 1
+  LU 306: parse error: Expecting value: line 1 column 1 (char 0)
+Token usage: input=18,302,205 output=184,704 cache_read=26,468 cache_write=466,244
+Estimated actual cost (batch, 50% rates): $29.7168
+Wrote out/extraction_v2.csv: 242 rows

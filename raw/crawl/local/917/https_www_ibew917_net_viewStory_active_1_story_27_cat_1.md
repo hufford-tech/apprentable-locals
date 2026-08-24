@@ -1,0 +1,134 @@
+https://www.ibew917.net/viewStory/?active=1&story=27&cat=1
+---
+[![](https://www.ibew917.net/images/social/facebook.png)](https://www.facebook.com/ibew917)
+
+![phone](https://www.ibew917.net/images/phone.png)[(601) 483-0486](tel:6014830486)
+
+![email](https://www.ibew917.net/images/email.png)[office@ibew917.com](mailto:office@ibew917.com)
+
+[MEMBER LOGIN![Member Login](https://www.ibew917.net/images/loginIcon.png)](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#)
+
+X
+
+### Member Login
+
+![Alert](https://www.ibew917.net/images/infoIconGray.svg)
+
+If this is your first time logging in, your _USERNAME_ is your **last name** and your _PASSWORD_ is your **card number**.
+
+[Forgot Password?](https://www.ibew917.net/loginhelp)
+
+[![IBEW 9](https://www.ibew917.net/images/logo.png)](https://www.ibew917.net/)
+
+# Ibew Local 917
+
+#### David Henley - Business Manager
+
+#### Meridian ![Lightning Bolt](https://www.ibew917.net/images/lightning-bolt-small.png) Mississippi
+
+- [Home](https://www.ibew917.net/Home/)
+- [About Local 917](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#)
+  - [About Us](https://www.ibew917.net/aboutus/)
+  - [Officers & Staff](https://www.ibew917.net/officersandstaff/)
+  - [Contact Us](https://www.ibew917.net/contactus/)
+  - [Affinity Groups](https://www.ibew917.net/affinitygroups/)
+  - [IBEW 917 News](https://www.ibew917.net/blog/)
+  - [Photo Gallery](https://www.ibew917.net/PhotoGallery/)
+- [Apprenticeship](https://www.ibew917.net/apprenticeship/)
+- [Benefits](https://www.ibew917.net/benefits/)
+- [Join IBEW Local 917](https://www.ibew917.net/joinibewlocal917/)
+- [In Memory](https://www.ibew917.net/inMemory/)
+- [Contractor Map](https://www.ibew917.net/InteractiveMap/)
+- [Member Resources](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#)
+  - [IBEW 917 Mobile App](https://www.ibew917.net/ibew917mobileapp/)
+  - [Links & Resources](https://www.ibew917.net/linksandresources/)
+- [Political Action](https://www.ibew917.net/politicalaction/)
+- [Available Jobs](https://www.ibew917.net/AvailableJobs/)
+
+[Member Login![Member Login](https://www.ibew917.net/images/loginIcon.png)](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#) [Pay Dues![Pay Dues](https://www.ibew917.net/images/payDuesIcon.png)](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#) [Secure Documents![Secure Documents](https://www.ibew917.net/images/secureDocsIcon.png)](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#) [Update Information![Demographic Updates](https://www.ibew917.net/images/demoUpdateIcon.png)](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1#)
+
+Union News
+
+### Blog
+
+[![Back To Blog Frontpage](https://www.ibew917.net/images/leftArrow.svg)Back To Blog Frontpage](https://www.ibew917.net/blog/)
+
+#### Top Stories
+
+[IBEW 917 Renew Clothing Drive Palmer Home for Children](https://www.ibew917.net/viewStory/?active=1&story=29&cat=1) July 22, 2026
+
+* * *
+
+#### Categories
+
+* * *
+
+#### Recent
+
+[IBEW 917 Renew Clothing Drive Palmer Home for Children](https://www.ibew917.net/viewStory/?active=1&story=29&cat=1) July 22, 2026
+
+[IBEW Local 917 Family Picnic](https://www.ibew917.net/viewStory/?active=1&story=28&cat=1) April 25, 2026
+
+[P.A.L.S. AND C.A.L.S.](https://www.ibew917.net/viewStory/?active=1&story=27&cat=1) April 02, 2026
+
+[IBEW Apprenticeship](https://www.ibew917.net/viewStory/?active=1&story=26&cat=1) February 24, 2026
+
+[CLOTHING DRIVE](https://www.ibew917.net/viewStory/?active=1&story=24&cat=1) February 17, 2026
+
+[Back to Blog](https://www.ibew917.net/blog/)
+
+[Member News](https://www.ibew917.net/viewCategory/?active=1&cat=1)
+
+## P.A.L.S. AND C.A.L.S.
+
+### Engaging Discussions, Networking & Free Food!
+
+April 02, 2026
+
+IBEW RENEW COMMITTEE Presents P.A.L.'s (Political Activism & Livelihood) & C.A.L.'s (Calories). Join us because WE WILL FEED YOU!
+
+Thursday, April 9th
+
+5:00PM - 7:00PM
+
+Meridian Community College
+
+Engaging discussions, networking and free food!
+
+Special guest speaker: Scott Colom, Candidate, US Senator
+
+##### Ibew 917 - International Brotherhood of Electrical Workers
+
+1620 Hwy 39 N
+
+Meridian, MS 39301
+
+phone: [(601) 483-0486](tel:6014830486)
+
+fax: [(601) 485-4225](tel:6014854225)
+
+[office@ibew917.com](mailto:office@ibew917.com)
+
+[![](https://www.ibew917.net/images/social/facebook.png)](https://www.facebook.com/ibew917)
+
+[![Muncie Training Center](https://www.ibew917.net/images/logo.png)](https://www.ibew917.net/)
+
+[Home](https://www.ibew917.net/)
+
+[About](https://www.ibew917.net/aboutus)
+
+[Join](https://www.ibew917.net/joinibewlocal917/)
+
+[Contact](https://www.ibew917.net/contactus)
+
+Website Designed, Developed & Hosted by IBEW Members -
+[Web Connectivity](https://www.webconnectivity.com/)
+
+##### News
+
+×
+
+### IBEW 917 Renew Clothing Drive Palmer Home for Children
+
+[Read All\\
+Announcements](https://www.ibew917.net/blog)

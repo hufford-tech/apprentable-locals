@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1383  (govt) Baltimore[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "586",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1383|Baltimore|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "586",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2401 Hawkins Point Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2401 Hawkins Point Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mail Stop 9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Mail Stop 9",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Baltimore, MD 21226[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Baltimore|MD|21226",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](410) 636-3891[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1021",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 636-3891",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](410) 636-3889[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1022",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 636-3889",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Matthew J. Aaron[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1800",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|J.|Aaron||{ \"MemberID\" : \"1800\",\"luid\": \"586\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"2401 Hawkins Point Road\",\"addr2\":\"Mail Stop 9\",\"addr3\":\"\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ryan A. Northcraft[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3889",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|A.|Northcraft||{ \"MemberID\" : \"3889\",\"luid\": \"586\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joe Phinny[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1801",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joe||Phinny||{ \"MemberID\" : \"1801\",\"luid\": \"586\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2401 Hawkins Point Road\",\"addr2\":\"Mail Stop 9\",\"addr3\":\"\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Matthew Aaron[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1802",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew||Aaron||{ \"MemberID\" : \"1802\",\"luid\": \"586\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2401 Hawkins Point Road\",\"addr2\":\"Mail Stop 9\",\"addr3\":\"\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]US Coast Guard Yard, 4th Thursday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "586",
+    "editFieldNames": "Meets",
+    "editFieldValues": "US Coast Guard Yard, 4th Thursday, 12 pm",
+    "datatype": "txt"
+  }
+]

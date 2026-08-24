@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1730  (u) Dryden, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "678",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1730|Dryden|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "678",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]Box 246[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "623",
+    "editFieldNames": "Address1",
+    "editFieldValues": "Box 246",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Dryden, ON P8N 2Y8[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "623",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Dryden|ON|P8N 2Y8",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](807) 221-8899[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1160",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(807) 221-8899",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu1730@gmail.com\" target=\"_blank\">ibewlu1730@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu1730@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Shawna L. Charbonneau[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2074",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawna|L.|Charbonneau||{ \"MemberID\" : \"2074\",\"luid\": \"678\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 246\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dryden\",\"state\":\"ON\",\"zip\":\"P8N 2Y8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Shawna L. Charbonneau[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3986",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawna|L.|Charbonneau||{ \"MemberID\" : \"3986\",\"luid\": \"678\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Kara Bange[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2075",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kara||Bange||{ \"MemberID\" : \"2075\",\"luid\": \"678\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 246\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dryden\",\"state\":\"ON\",\"zip\":\"P8N 2Y8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kara Bange[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2073",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kara||Bange||{ \"MemberID\" : \"2073\",\"luid\": \"678\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 246\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dryden\",\"state\":\"ON\",\"zip\":\"P8N 2Y8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Last Monday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "678",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Last Monday",
+    "datatype": "txt"
+  }
+]

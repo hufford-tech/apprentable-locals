@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1532  (u) Jamestown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "623",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1532|Jamestown|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "623",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1432 31st Avenue SE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7191",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1432 31st Avenue SE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Minot, ND 58701[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7191",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Minot|ND|58701",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](701) 833-4290[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2350",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(701) 833-4290",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mike.mcintyre@ibewscu13.org\" target=\"_blank\">mike.mcintyre@ibewscu13.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2090",
+    "editFieldNames": "Email",
+    "editFieldValues": "mike.mcintyre@ibewscu13.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Perry Stieg, 1605 Fourth Street SW, Minot, ND  58701[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1915",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Perry||Stieg||{ \"MemberID\" : \"1915\",\"luid\": \"623\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1605 Fourth Street SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Minot\",\"state\":\"ND\",\"zip\":\"58701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Perry Stieg, 1605 Fourth Street SW, Minot, ND  58701[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3925",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Perry||Stieg||{ \"MemberID\" : \"3925\",\"luid\": \"623\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1605 Fourth Street SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Minot\",\"state\":\"ND\",\"zip\":\"58701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Thomas F. Topolski, 600 22nd Street SW, Minot, ND  58701[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3926",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|F.|Topolski||{ \"MemberID\" : \"3926\",\"luid\": \"623\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"600 22nd Street SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Minot\",\"state\":\"ND\",\"zip\":\"58701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]David S. Albertson, PO Box 217, Minot, ND  58702[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1914",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|S.|Albertson||{ \"MemberID\" : \"1914\",\"luid\": \"623\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 217\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Minot\",\"state\":\"ND\",\"zip\":\"58702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b] IBEW Local Union 714, 125 35th Avenue NE, 3rd Thursday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "623",
+    "editFieldNames": "Meets",
+    "editFieldValues": " IBEW Local Union 714, 125 35th Avenue NE, 3rd Thursday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

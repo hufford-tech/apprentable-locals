@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]855-  (c, i, spa) Muncie[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "855-|Muncie|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "450",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4601 S Meeker Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4601 S Meeker Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Muncie, IN 47302[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Muncie|IN|47302",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](765) 282-6392[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "807",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(765) 282-6392",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](765) 282-6432[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "808",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(765) 282-6432",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:davidlehman@ibew855.com\" target=\"_blank\">davidlehman@ibew855.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "Email",
+    "editFieldValues": "davidlehman@ibew855.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew855.com\" target=\"_blank\">www.ibew855.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew855.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David S. Lehman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1384",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|S.|Lehman||{ \"MemberID\" : \"1384\",\"luid\": \"450\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4601 S Meeker Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Muncie\",\"state\":\"IN\",\"zip\":\"47302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Matthew T. Terhaar[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1383",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|T.|Terhaar||{ \"MemberID\" : \"1383\",\"luid\": \"450\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4601 S Meeker Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Muncie\",\"state\":\"IN\",\"zip\":\"47302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]David S. Lehman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3759",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|S.|Lehman||{ \"MemberID\" : \"3759\",\"luid\": \"450\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Gentry T. Holt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1382",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gentry|T.|Holt||{ \"MemberID\" : \"1382\",\"luid\": \"450\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4601 S Meeker Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Muncie\",\"state\":\"IN\",\"zip\":\"47302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

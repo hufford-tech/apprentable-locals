@@ -1,0 +1,254 @@
+[
+  {
+    "ClassTypes": "Alarm and Signal",
+    "Abbreviation": "as",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Atomic Research Service",
+    "Abbreviation": "ars",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Bridge Operators",
+    "Abbreviation": "bo",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Cable Splicers",
+    "Abbreviation": "cs",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Cable Television",
+    "Abbreviation": "catv",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Communications",
+    "Abbreviation": "c",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Cranemen",
+    "Abbreviation": "cr",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Electric Signs",
+    "Abbreviation": "es",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Electrical Equipment Service",
+    "Abbreviation": "ees",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Electrical Inspection",
+    "Abbreviation": "ei",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Electrical Manufacturing",
+    "Abbreviation": "em",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Electronic Technicians",
+    "Abbreviation": "et",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Fixture Mfg.",
+    "Abbreviation": "fm",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Government",
+    "Abbreviation": "govt",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Inside",
+    "Abbreviation": "i",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Instrument Technicians",
+    "Abbreviation": "it",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Lightning Protection Technician",
+    "Abbreviation": "lpt",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Line Clearance Tree Trimming",
+    "Abbreviation": "lctt",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Maintenance",
+    "Abbreviation": "mt",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Maintenance and Operation",
+    "Abbreviation": "mo",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Manufacturing Office Workers",
+    "Abbreviation": "mow",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Marine",
+    "Abbreviation": "mar",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Motion Picture Studios",
+    "Abbreviation": "mps",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Nuclear Service Technician",
+    "Abbreviation": "nst",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Outside",
+    "Abbreviation": "o",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Powerhouse",
+    "Abbreviation": "p",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Professional Engineers & Technicians",
+    "Abbreviation": "pet",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Professional Technical and Clerical",
+    "Abbreviation": "ptc",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Radio-Television Broadcasting",
+    "Abbreviation": "rtb",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Radio-Television Manufacturing",
+    "Abbreviation": "rtm",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Radio-Television Service",
+    "Abbreviation": "rts",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Railroad",
+    "Abbreviation": "rr",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Service Operation",
+    "Abbreviation": "so",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Shopmen",
+    "Abbreviation": "s",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Sign Erectors",
+    "Abbreviation": "se",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Sound and Public Address",
+    "Abbreviation": "spa",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Sound Technicians",
+    "Abbreviation": "st",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Telephone",
+    "Abbreviation": "t",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Transportation Manufacturing",
+    "Abbreviation": "tm",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Utility",
+    "Abbreviation": "u",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Utility Office Workers",
+    "Abbreviation": "uow",
+    "LU": "0",
+    "LocalUnionID": "0"
+  },
+  {
+    "ClassTypes": "Warehouse and Supply",
+    "Abbreviation": "ws",
+    "LU": "0",
+    "LocalUnionID": "0"
+  }
+]

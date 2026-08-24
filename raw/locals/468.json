@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]904-  (u) Tallassee[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "468",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "904-|Tallassee|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "468",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]32 County Road 1062[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7250",
+    "editFieldNames": "Address1",
+    "editFieldValues": "32 County Road 1062",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Clanton, AL 35045[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7250",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Clanton|AL|35045",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](205) 458-2636[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "836",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(205) 458-2636",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](205) 755-7693[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "837",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(205) 755-7693",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:robertd87@me.com\" target=\"_blank\">robertd87@me.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "Email",
+    "editFieldValues": "robertd87@me.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Robert D. Ford, 102 Myrtle Drive, Gadsden, AL  35903[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1435",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Ford||{ \"MemberID\" : \"1435\",\"luid\": \"468\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"102 Myrtle Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Gadsden\",\"state\":\"AL\",\"zip\":\"35903\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Robert D. Ford, 102 Myrtle Drive, Gadsden, AL  35903[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3776",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Ford||{ \"MemberID\" : \"3776\",\"luid\": \"468\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Timothy M. Williams, 32 County Road 1062, Clanton, AL  35045[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1436",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|M.|Williams||{ \"MemberID\" : \"1436\",\"luid\": \"468\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32 County Road 1062\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clanton\",\"state\":\"AL\",\"zip\":\"35045\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Gregory D. Pugh, 254 Greer Circle, Georgiana, AL  36033[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3777",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|D.|Pugh||{ \"MemberID\" : \"3777\",\"luid\": \"468\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"254 Greer Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Georgiana\",\"state\":\"AL\",\"zip\":\"36033\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Various Places, 1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "468",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Places, 1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

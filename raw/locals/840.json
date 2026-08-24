@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2357  (u) Clarksburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "840",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2357|Clarksburg|WV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "840",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]726 Mount Vernon Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7286",
+    "editFieldNames": "Address1",
+    "editFieldValues": "726 Mount Vernon Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fairmont, WV 26554[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7286",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fairmont|WV|26554",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](304) 374-4358[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1387",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 374-4358",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kings.trees@yahoo.com\" target=\"_blank\">kings.trees@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1950",
+    "editFieldNames": "Email",
+    "editFieldValues": "kings.trees@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jack D. King, 926 Tioga Road, Tioga, WV  26691[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2555",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jack|D.|King||{ \"MemberID\" : \"2555\",\"luid\": \"840\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"926 Tioga Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tioga\",\"state\":\"WV\",\"zip\":\"26691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jack D. King, 926 Tioga Road, Tioga, WV  26691[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4165",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jack|D.|King||{ \"MemberID\" : \"4165\",\"luid\": \"840\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"926 Tioga Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tioga\",\"state\":\"WV\",\"zip\":\"26691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Brian L. Moneypenny, 726 Mount Vernon Avenue, Fairmont, WV  26554[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2554",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|L.|Moneypenny||{ \"MemberID\" : \"2554\",\"luid\": \"840\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"726 Mount Vernon Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fairmont\",\"state\":\"WV\",\"zip\":\"26554\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Travis A. Hawley, 71 Smithtown School Road, Morgantown, WV  26508[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2556",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|A.|Hawley||{ \"MemberID\" : \"2556\",\"luid\": \"840\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"71 Smithtown School Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Morgantown\",\"state\":\"WV\",\"zip\":\"26508\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]IBEW Local 596 Union Hall, 2nd Friday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "840",
+    "editFieldNames": "Meets",
+    "editFieldValues": "IBEW Local 596 Union Hall, 2nd Friday, 12 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]971-  (u) Williston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "491",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "971-|Williston|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "491",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 90[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 90",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Williston, ND 58801[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Williston|ND|58801",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](701) 570-5048[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2242",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(701) 570-5048",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:russellc.hooks@yahoo.com\" target=\"_blank\">russellc.hooks@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2149",
+    "editFieldNames": "Email",
+    "editFieldValues": "russellc.hooks@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Justin L. Nielsen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1504",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|L.|Nielsen||{ \"MemberID\" : \"1504\",\"luid\": \"491\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 6308\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Williston\",\"state\":\"ND\",\"zip\":\"58802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Russell C. Hooks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1506",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Russell|C.|Hooks||{ \"MemberID\" : \"1506\",\"luid\": \"491\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 6308\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Williston\",\"state\":\"ND\",\"zip\":\"58802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jared Brueni[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1505",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jared||Brueni||{ \"MemberID\" : \"1505\",\"luid\": \"491\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 6308\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Williston\",\"state\":\"ND\",\"zip\":\"58802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kyle L. Daede[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1503",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|L.|Daede||{ \"MemberID\" : \"1503\",\"luid\": \"491\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 6308\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Williston\",\"state\":\"ND\",\"zip\":\"58802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]223 Main Street, 4th Tuesday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "491",
+    "editFieldNames": "Meets",
+    "editFieldValues": "223 Main Street, 4th Tuesday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

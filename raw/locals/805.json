@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2228  (c, govt, ptc, u) Ottawa, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "805",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2228|Ottawa|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "805",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, govt, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1091 Wellington Street W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "693",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1091 Wellington Street W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ottawa, ON K1Y 2Y4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "693",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ottawa|ON|K1Y 2Y4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](613) 725-3608[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1331",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(613) 725-3608",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](613) 725-3600[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2098",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(613) 725-3600",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew2228.ca\" target=\"_blank\">office@ibew2228.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "743",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew2228.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew-fioe2228.ca\" target=\"_blank\">www.ibew-fioe2228.ca</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "805",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew-fioe2228.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jeffrey M. Wendt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2452",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|M.|Wendt||{ \"MemberID\" : \"2452\",\"luid\": \"805\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1091 Wellington Street W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ottawa\",\"state\":\"ON\",\"zip\":\"K1Y 2Y4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mohammed I. Osman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2450",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mohammed|I.|Osman||{ \"MemberID\" : \"2450\",\"luid\": \"805\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1091 Wellington Street W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ottawa\",\"state\":\"ON\",\"zip\":\"K1Y 2Y4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jeffrey M. Wendt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4129",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|M.|Wendt||{ \"MemberID\" : \"4129\",\"luid\": \"805\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jordan Wagg[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2451",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jordan||Wagg||{ \"MemberID\" : \"2451\",\"luid\": \"805\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1091 Wellington Street W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ottawa\",\"state\":\"ON\",\"zip\":\"K1Y 2Y4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Monday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "805",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday",
+    "datatype": "txt"
+  }
+]

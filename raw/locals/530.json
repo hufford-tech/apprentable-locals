@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1116  (em, lctt, u) Tucson[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1116|Tucson|AZ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "530",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, lctt, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4601 S Butterfield Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "491",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4601 S Butterfield Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Tucson, AZ 85714[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "491",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tucson|AZ|85714",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](520) 792-1475[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "933",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(520) 792-1475",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](520) 882-6132[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2381",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(520) 882-6132",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:BMFE@ibew1116.com\" target=\"_blank\">BMFE@ibew1116.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "499",
+    "editFieldNames": "Email",
+    "editFieldValues": "BMFE@ibew1116.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1116.com\" target=\"_blank\">www.ibew1116.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1116.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Francisco J. Estrella[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4493",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Francisco|J.|Estrella||{ \"MemberID\" : \"4493\",\"luid\": \"530\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Greg R. Carter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1628",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Greg|R.|Carter||{ \"MemberID\" : \"1628\",\"luid\": \"530\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4601 S Butterfield Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tucson\",\"state\":\"AZ\",\"zip\":\"85714\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Francisco J. Estrella[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4494",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Francisco|J.|Estrella||{ \"MemberID\" : \"4494\",\"luid\": \"530\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jessica Reyna[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4498",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jessica||Reyna||{ \"MemberID\" : \"4498\",\"luid\": \"530\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

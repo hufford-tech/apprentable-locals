@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Black Hawk County, IA",
+    "District": "11",
+    "Population": "128012",
+    "LandArea": "567.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Bremer County, IA",
+    "District": "11",
+    "Population": "23325",
+    "LandArea": "437.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Buchanan County, IA",
+    "District": "11",
+    "Population": "21093",
+    "LandArea": "571.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Butler County, IA",
+    "District": "11",
+    "Population": "15305",
+    "LandArea": "580.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Cerro Gordo County, IA",
+    "District": "11",
+    "Population": "46447",
+    "LandArea": "568.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Chickasaw County, IA",
+    "District": "11",
+    "Population": "13095",
+    "LandArea": "504.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Fayette County, IA",
+    "District": "11",
+    "Population": "22008",
+    "LandArea": "730.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Floyd County, IA",
+    "District": "11",
+    "Population": "16900",
+    "LandArea": "500.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Franklin County, IA",
+    "District": "11",
+    "Population": "10704",
+    "LandArea": "582.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Grundy County, IA",
+    "District": "11",
+    "Population": "12369",
+    "LandArea": "502.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Hancock County, IA",
+    "District": "11",
+    "Population": "12100",
+    "LandArea": "571.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Howard County, IA",
+    "District": "11",
+    "Population": "9932",
+    "LandArea": "473.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Kossuth County, IA",
+    "District": "11",
+    "Population": "17163",
+    "LandArea": "973.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Mitchell County, IA",
+    "District": "11",
+    "Population": "10874",
+    "LandArea": "468.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Winnebago County, IA",
+    "District": "11",
+    "Population": "11723",
+    "LandArea": "400.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Worth County, IA",
+    "District": "11",
+    "Population": "7909",
+    "LandArea": "400.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  }
+]

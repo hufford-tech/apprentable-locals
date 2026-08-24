@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Albany County, NY",
+    "District": "3",
+    "Population": "294565",
+    "LandArea": "523.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Columbia County, NY",
+    "District": "3",
+    "Population": "63094",
+    "LandArea": "635.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Fulton County, NY",
+    "District": "3",
+    "Population": "55073",
+    "LandArea": "496.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Greene County, NY",
+    "District": "3",
+    "Population": "48195",
+    "LandArea": "647.75",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Hamilton County, NY",
+    "District": "3",
+    "Population": "5379",
+    "LandArea": "1720.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Montgomery County, NY",
+    "District": "3",
+    "Population": "49708",
+    "LandArea": "404.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Otsego County, NY",
+    "District": "3",
+    "Population": "61676",
+    "LandArea": "1002.79",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Rensselaer County, NY",
+    "District": "3",
+    "Population": "152538",
+    "LandArea": "653.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Saratoga County, NY",
+    "District": "3",
+    "Population": "200635",
+    "LandArea": "811.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schenectady County, NY",
+    "District": "3",
+    "Population": "146555",
+    "LandArea": "206.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schoharie County, NY",
+    "District": "3",
+    "Population": "31582",
+    "LandArea": "622.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Warren County, NY",
+    "District": "3",
+    "Population": "63303",
+    "LandArea": "869.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Washington County, NY",
+    "District": "3",
+    "Population": "61042",
+    "LandArea": "835.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

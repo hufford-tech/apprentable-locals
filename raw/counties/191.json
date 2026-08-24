@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Chelan County, WA",
+    "District": "9",
+    "Population": "66616",
+    "LandArea": "2921.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Douglas County, WA",
+    "District": "9",
+    "Population": "32603",
+    "LandArea": "1820.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Grant County, WA",
+    "District": "9",
+    "Population": "74698",
+    "LandArea": "2681.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Island County, WA",
+    "District": "9",
+    "Population": "71558",
+    "LandArea": "208.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Okanogan County, WA",
+    "District": "9",
+    "Population": "39564",
+    "LandArea": "5268.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "San Juan County, WA",
+    "District": "9",
+    "Population": "14077",
+    "LandArea": "174.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Skagit County, WA",
+    "District": "9",
+    "Population": "102979",
+    "LandArea": "1735.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Snohomish County, WA",
+    "District": "9",
+    "Population": "606024",
+    "LandArea": "2089.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Whatcom County, WA",
+    "District": "9",
+    "Population": "166814",
+    "LandArea": "2119.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  }
+]

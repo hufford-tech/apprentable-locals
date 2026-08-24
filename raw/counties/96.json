@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Middlesex County, MA",
+    "District": "2",
+    "Population": "1465396",
+    "LandArea": "823.46",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Worcester County, MA",
+    "District": "2",
+    "Population": "750963",
+    "LandArea": "1513.06",
+    "Percentage": "99%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  }
+]

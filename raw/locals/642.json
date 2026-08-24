@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1591  (em) Conway[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "642",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1591|Conway|SC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "642",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8075 Highway 701 S[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7229",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8075 Highway 701 S",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Conway, SC 29527[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7229",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Conway|SC|29527",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](843) 902-5021[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2077",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(843) 902-5021",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1591@gmail.com\" target=\"_blank\">ibew1591@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "602",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1591@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Tim Jordan, 6140 Kates Bay Highway, Conway, SC  29527[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1972",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tim||Jordan||{ \"MemberID\" : \"1972\",\"luid\": \"642\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6140 Kates Bay Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Conway\",\"state\":\"SC\",\"zip\":\"29527\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Tim Jordan, 6140 Kates Bay Highway, Conway, SC  29527[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3945",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tim||Jordan||{ \"MemberID\" : \"3945\",\"luid\": \"642\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6140 Kates Bay Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Conway\",\"state\":\"SC\",\"zip\":\"29527\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Cynthia Johnson, 8075 Highway 701 S, Conway, SC  29527[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1970",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cynthia||Johnson||{ \"MemberID\" : \"1970\",\"luid\": \"642\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"8075 Highway 701 S\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Conway\",\"state\":\"SC\",\"zip\":\"29527\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Joy Edge, 2802 Woodbury Court, Marion, SC  29571[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1971",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joy||Edge||{ \"MemberID\" : \"1971\",\"luid\": \"642\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2802 Woodbury Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion\",\"state\":\"SC\",\"zip\":\"29571\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "642",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

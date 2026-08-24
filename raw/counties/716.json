@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Austin County, TX",
+    "District": "7",
+    "Population": "23590",
+    "LandArea": "652.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brazoria County, TX",
+    "District": "7",
+    "Population": "241767",
+    "LandArea": "1386.40",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brazos County, TX",
+    "District": "7",
+    "Population": "152415",
+    "LandArea": "585.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Colorado County, TX",
+    "District": "7",
+    "Population": "20390",
+    "LandArea": "962.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Fort Bend County, TX",
+    "District": "7",
+    "Population": "354452",
+    "LandArea": "874.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Grimes County, TX",
+    "District": "7",
+    "Population": "23552",
+    "LandArea": "793.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Harris County, TX",
+    "District": "7",
+    "Population": "3400578",
+    "LandArea": "1728.82",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jackson County, TX",
+    "District": "7",
+    "Population": "14391",
+    "LandArea": "829.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lavaca County, TX",
+    "District": "7",
+    "Population": "19210",
+    "LandArea": "969.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Liberty County, TX",
+    "District": "7",
+    "Population": "70154",
+    "LandArea": "1159.68",
+    "Percentage": "55%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Madison County, TX",
+    "District": "7",
+    "Population": "12940",
+    "LandArea": "469.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Matagorda County, TX",
+    "District": "7",
+    "Population": "37957",
+    "LandArea": "1114.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Montgomery County, TX",
+    "District": "7",
+    "Population": "293768",
+    "LandArea": "1044.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Jacinto County, TX",
+    "District": "7",
+    "Population": "22246",
+    "LandArea": "570.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Walker County, TX",
+    "District": "7",
+    "Population": "61758",
+    "LandArea": "787.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Waller County, TX",
+    "District": "7",
+    "Population": "32663",
+    "LandArea": "513.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Washington County, TX",
+    "District": "7",
+    "Population": "30373",
+    "LandArea": "609.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wharton County, TX",
+    "District": "7",
+    "Population": "41188",
+    "LandArea": "1090.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  }
+]

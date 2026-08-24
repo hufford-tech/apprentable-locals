@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]283-  (u) Boise[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "173",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "283-|Boise|ID",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "173",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1570 Vanderdasson Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7269",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1570 Vanderdasson Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Emmett, ID 83617[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7269",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Emmett|ID|83617",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](208) 631-4326[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2378",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(208) 631-4326",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew283@gmail.com\" target=\"_blank\">ibew283@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "170",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew283@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Reuben J. Parker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4366",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Reuben|J.|Parker||{ \"MemberID\" : \"4366\",\"luid\": \"173\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Reuben J. Parker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4367",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Reuben|J.|Parker||{ \"MemberID\" : \"4367\",\"luid\": \"173\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Reuben J. Parker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4368",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Reuben|J.|Parker||{ \"MemberID\" : \"4368\",\"luid\": \"173\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]JOSEPH P CONLEY[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4487",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "JOSEPH|P|CONLEY||{ \"MemberID\" : \"4487\",\"luid\": \"173\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "173",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

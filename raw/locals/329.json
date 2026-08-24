@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]586-  (em, i, o) Ottawa, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "329",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "586-|Ottawa|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "329",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2460 Lancaster Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2460 Lancaster Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 103[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 103",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Ottawa, ON K1B 4S5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ottawa|ON|K1B 4S5",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](613) 741-5664[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(613) 741-5664",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](613) 741-4789[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "609",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(613) 741-4789",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bpotter@ibew586.org\" target=\"_blank\">bpotter@ibew586.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "Email",
+    "editFieldValues": "bpotter@ibew586.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew586.org\" target=\"_blank\">www.ibew586.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "329",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew586.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Braydon Potter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1007",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Braydon||Potter||{ \"MemberID\" : \"1007\",\"luid\": \"329\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1178 Rainbow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ottawa\",\"state\":\"ON\",\"zip\":\"K1J 6X7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jason Lacombe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1009",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Lacombe||{ \"MemberID\" : \"1009\",\"luid\": \"329\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1178 Rainbow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ottawa\",\"state\":\"ON\",\"zip\":\"K1J 6X7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Braydon Potter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3642",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Braydon||Potter||{ \"MemberID\" : \"3642\",\"luid\": \"329\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Philipe Tanguay[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4309",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Philipe||Tanguay||{ \"MemberID\" : \"4309\",\"luid\": \"329\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "329",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

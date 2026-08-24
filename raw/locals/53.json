@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]58--  (em, govt, i, rtb, spa, t) Detroit[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "58--|Detroit|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "53",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, i, rtb, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1358 Abbott Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1358 Abbott Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Detroit, MI 48226[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Detroit|MI|48226",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](313) 963-2130[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "103",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(313) 963-2130",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](313) 963-9348[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "104",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(313) 963-9348",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jsoosik@ibew58.org\" target=\"_blank\">jsoosik@ibew58.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "Email",
+    "editFieldValues": "jsoosik@ibew58.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal58.org\" target=\"_blank\">www.ibewlocal58.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal58.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James J. Soosik[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "164",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|J.|Soosik||{ \"MemberID\" : \"164\",\"luid\": \"53\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1358 Abbott Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Detroit\",\"state\":\"MI\",\"zip\":\"48226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kimberly L'Heureux[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "162",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kimberly||L'Heureux||{ \"MemberID\" : \"162\",\"luid\": \"53\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"1358 Abbott Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Detroit\",\"state\":\"MI\",\"zip\":\"48226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James J. Soosik[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3383",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|J.|Soosik||{ \"MemberID\" : \"3383\",\"luid\": \"53\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jeannette L. Bradshaw[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeannette|L.|Bradshaw||{ \"MemberID\" : \"163\",\"luid\": \"53\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1358 Abbott Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Detroit\",\"state\":\"MI\",\"zip\":\"48226\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "53",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

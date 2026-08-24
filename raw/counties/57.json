@@ -1,0 +1,263 @@
+[
+  {
+    "CountyName": "Beaver County, UT",
+    "District": "8",
+    "Population": "6005",
+    "LandArea": "2589.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Box Elder County, UT",
+    "District": "8",
+    "Population": "42745",
+    "LandArea": "5723.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Cache County, UT",
+    "District": "8",
+    "Population": "91391",
+    "LandArea": "1164.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Carbon County, UT",
+    "District": "8",
+    "Population": "20422",
+    "LandArea": "1478.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Daggett County, UT",
+    "District": "8",
+    "Population": "921",
+    "LandArea": "698.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Davis County, UT",
+    "District": "8",
+    "Population": "238994",
+    "LandArea": "304.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Duchesne County, UT",
+    "District": "8",
+    "Population": "14371",
+    "LandArea": "3238.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Emery County, UT",
+    "District": "8",
+    "Population": "10860",
+    "LandArea": "4451.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Garfield County, UT",
+    "District": "8",
+    "Population": "4735",
+    "LandArea": "5174.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Grand County, UT",
+    "District": "8",
+    "Population": "8485",
+    "LandArea": "3681.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Iron County, UT",
+    "District": "8",
+    "Population": "33779",
+    "LandArea": "3297.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Juab County, UT",
+    "District": "8",
+    "Population": "8238",
+    "LandArea": "3391.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Kane County, UT",
+    "District": "8",
+    "Population": "6046",
+    "LandArea": "3991.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Millard County, UT",
+    "District": "8",
+    "Population": "12405",
+    "LandArea": "6589.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Morgan County, UT",
+    "District": "8",
+    "Population": "7129",
+    "LandArea": "609.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Piute County, UT",
+    "District": "8",
+    "Population": "1435",
+    "LandArea": "757.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Rich County, UT",
+    "District": "8",
+    "Population": "1961",
+    "LandArea": "1028.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Salt Lake County, UT",
+    "District": "8",
+    "Population": "898387",
+    "LandArea": "737.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "San Juan County, UT",
+    "District": "8",
+    "Population": "14413",
+    "LandArea": "7820.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Sanpete County, UT",
+    "District": "8",
+    "Population": "22763",
+    "LandArea": "1588.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Sevier County, UT",
+    "District": "8",
+    "Population": "18842",
+    "LandArea": "1910.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Summit County, UT",
+    "District": "8",
+    "Population": "29736",
+    "LandArea": "1871.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Tooele County, UT",
+    "District": "8",
+    "Population": "40735",
+    "LandArea": "6930.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Uintah County, UT",
+    "District": "8",
+    "Population": "25224",
+    "LandArea": "4477.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Utah County, UT",
+    "District": "8",
+    "Population": "368536",
+    "LandArea": "1998.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Wasatch County, UT",
+    "District": "8",
+    "Population": "15215",
+    "LandArea": "1177.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Washington County, UT",
+    "District": "8",
+    "Population": "90354",
+    "LandArea": "2426.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Wayne County, UT",
+    "District": "8",
+    "Population": "2509",
+    "LandArea": "2460.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  },
+  {
+    "CountyName": "Weber County, UT",
+    "District": "8",
+    "Population": "196533",
+    "LandArea": "575.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "UT"
+  }
+]

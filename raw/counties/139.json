@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Allegany County, NY",
+    "District": "3",
+    "Population": "49927",
+    "LandArea": "1030.22",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chemung County, NY",
+    "District": "3",
+    "Population": "91070",
+    "LandArea": "408.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schuyler County, NY",
+    "District": "3",
+    "Population": "19224",
+    "LandArea": "328.71",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Steuben County, NY",
+    "District": "3",
+    "Population": "98726",
+    "LandArea": "1392.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tioga County, NY",
+    "District": "3",
+    "Population": "51784",
+    "LandArea": "518.69",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

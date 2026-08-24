@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]271-  (i, rts, spa) Wichita[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "167",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "271-|Wichita|KS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "167",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1040 S Broadway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "172",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1040 S Broadway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wichita, KS 67211[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "172",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wichita|KS|67211",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](316) 267-8255[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(316) 267-8255",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](316) 267-1706[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(316) 267-1706",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:IBEWLU271@hotmail.com\" target=\"_blank\">IBEWLU271@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "164",
+    "editFieldNames": "Email",
+    "editFieldValues": "IBEWLU271@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew271.com\" target=\"_blank\">www.ibew271.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "167",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew271.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jeimeson Saudino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "517",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeimeson||Saudino||{ \"MemberID\" : \"517\",\"luid\": \"167\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1040 S Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67211\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jordan J. Nolan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jordan|J.|Nolan||{ \"MemberID\" : \"519\",\"luid\": \"167\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1040 S Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67211\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jeimeson Saudino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3483",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeimeson||Saudino||{ \"MemberID\" : \"3483\",\"luid\": \"167\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Samantha J. Damman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "518",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samantha|J.|Damman||{ \"MemberID\" : \"518\",\"luid\": \"167\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1040 S Broadway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita\",\"state\":\"KS\",\"zip\":\"67211\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "167",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

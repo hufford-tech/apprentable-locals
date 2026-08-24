@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1856  (rr) Havre[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "701",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1856|Havre|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "701",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 2353[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7066",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2353",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Havre, MT 59501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7066",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Havre|MT|59501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](406) 390-6341[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2282",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 390-6341",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu1856@gmail.com\" target=\"_blank\">ibewlu1856@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2041",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu1856@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Shawn J. Riechle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2144",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|J.|Riechle||{ \"MemberID\" : \"2144\",\"luid\": \"701\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"225 Fourteenth Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Havre\",\"state\":\"MT\",\"zip\":\"59501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Ted A. Wightman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4010",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ted|A.|Wightman||{ \"MemberID\" : \"4010\",\"luid\": \"701\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2353\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Havre\",\"state\":\"MT\",\"zip\":\"59501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Brian A. Zabrocki[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2146",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Zabrocki||{ \"MemberID\" : \"2146\",\"luid\": \"701\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2353\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Havre\",\"state\":\"MT\",\"zip\":\"59501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Erik C. Olson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2145",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Erik|C.|Olson||{ \"MemberID\" : \"2145\",\"luid\": \"701\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2353\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Havre\",\"state\":\"MT\",\"zip\":\"59501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Elk's Club, 1st Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "701",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Elk's Club, 1st Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

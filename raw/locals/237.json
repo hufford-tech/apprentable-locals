@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]401-  (c, em, i, ptc, rts, st) Reno[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "401-|Reno|NV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "237",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, em, i, ptc, rts, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4635 Longley Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "233",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4635 Longley Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 109[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "233",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 109",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Reno, NV 89502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "233",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Reno|NV|89502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](775) 329-2566[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "442",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(775) 329-2566",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](775) 329-5101[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "443",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(775) 329-5101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew401@ibewlocal401.org\" target=\"_blank\">ibew401@ibewlocal401.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "231",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew401@ibewlocal401.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal401.org\" target=\"_blank\">www.ibewlocal401.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal401.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jacob D. Haas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "730",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|D.|Haas||{ \"MemberID\" : \"730\",\"luid\": \"237\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2713 E Fourth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Reno\",\"state\":\"NV\",\"zip\":\"89512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Joel Byrne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "731",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel||Byrne||{ \"MemberID\" : \"731\",\"luid\": \"237\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2713 E Fourth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Reno\",\"state\":\"NV\",\"zip\":\"89512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jacob D. Haas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3552",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|D.|Haas||{ \"MemberID\" : \"3552\",\"luid\": \"237\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Thomas C. Moxley Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "729",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|C.|Moxley|Jr.|{ \"MemberID\" : \"729\",\"luid\": \"237\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2713 E Fourth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Reno\",\"state\":\"NV\",\"zip\":\"89512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

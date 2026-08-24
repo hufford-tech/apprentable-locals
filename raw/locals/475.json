@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]934-  (catv, i, o, u) Kingsport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "475",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "934-|Kingsport|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "475",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, i, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4640 Highway 11 W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4640 Highway 11 W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Blountville, TN 37617[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Blountville|TN|37617",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 388[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 388",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Blountville, TN 37617[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Blountville|TN|37617",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](423) 323-5411[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "848",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(423) 323-5411",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](423) 323-5413[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "849",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(423) 323-5413",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew_934@yahoo.com\" target=\"_blank\">ibew_934@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew_934@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew934.com\" target=\"_blank\">www.ibew934.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "475",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew934.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Roger D. Farmer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1455",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roger|D.|Farmer||{ \"MemberID\" : \"1455\",\"luid\": \"475\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 388\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blountville\",\"state\":\"TN\",\"zip\":\"37617\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Christopher D. Lowery[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1456",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|D.|Lowery||{ \"MemberID\" : \"1456\",\"luid\": \"475\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 388\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blountville\",\"state\":\"TN\",\"zip\":\"37617\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Roger D. Farmer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3784",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roger|D.|Farmer||{ \"MemberID\" : \"3784\",\"luid\": \"475\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Christy L. Brady[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1457",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christy|L.|Brady||{ \"MemberID\" : \"1457\",\"luid\": \"475\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 388\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blountville\",\"state\":\"TN\",\"zip\":\"37617\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]2nd Saturday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "475",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Saturday, 8 pm",
+    "datatype": "txt"
+  }
+]

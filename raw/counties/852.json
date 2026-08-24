@@ -1,0 +1,479 @@
+[
+  {
+    "CountyName": "Alcorn County, MS",
+    "District": "5",
+    "Population": "34558",
+    "LandArea": "399.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Alcorn County, MS",
+    "District": "5",
+    "Population": "34558",
+    "LandArea": "399.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Attala County, MS",
+    "District": "5",
+    "Population": "19661",
+    "LandArea": "735.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Benton County, MS",
+    "District": "5",
+    "Population": "8026",
+    "LandArea": "406.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Bolivar County, MS",
+    "District": "5",
+    "Population": "40633",
+    "LandArea": "876.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Calhoun County, MS",
+    "District": "5",
+    "Population": "15069",
+    "LandArea": "586.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Carroll County, MS",
+    "District": "5",
+    "Population": "10769",
+    "LandArea": "627.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Chickasaw County, MS",
+    "District": "5",
+    "Population": "19440",
+    "LandArea": "501.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Chickasaw County, MS",
+    "District": "5",
+    "Population": "19440",
+    "LandArea": "501.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Choctaw County, MS",
+    "District": "5",
+    "Population": "9758",
+    "LandArea": "419.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Clay County, MS",
+    "District": "5",
+    "Population": "21979",
+    "LandArea": "408.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Coahoma County, MS",
+    "District": "5",
+    "Population": "30622",
+    "LandArea": "554.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "De Soto County, MS",
+    "District": "5",
+    "Population": "107199",
+    "LandArea": "477.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Grenada County, MS",
+    "District": "5",
+    "Population": "23263",
+    "LandArea": "421.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Hinds County, MS",
+    "District": "5",
+    "Population": "250800",
+    "LandArea": "869.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Holmes County, MS",
+    "District": "5",
+    "Population": "21609",
+    "LandArea": "756.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Humphreys County, MS",
+    "District": "5",
+    "Population": "11206",
+    "LandArea": "418.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Issaquena County, MS",
+    "District": "5",
+    "Population": "2274",
+    "LandArea": "413.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Itawamba County, MS",
+    "District": "5",
+    "Population": "22770",
+    "LandArea": "532.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Itawamba County, MS",
+    "District": "5",
+    "Population": "22770",
+    "LandArea": "532.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lafayette County, MS",
+    "District": "5",
+    "Population": "38744",
+    "LandArea": "631.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lee County, MS",
+    "District": "5",
+    "Population": "75755",
+    "LandArea": "449.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lee County, MS",
+    "District": "5",
+    "Population": "75755",
+    "LandArea": "449.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Leflore County, MS",
+    "District": "5",
+    "Population": "37947",
+    "LandArea": "591.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lowndes County, MS",
+    "District": "5",
+    "Population": "61586",
+    "LandArea": "502.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Madison County, MS",
+    "District": "5",
+    "Population": "74674",
+    "LandArea": "717.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Marshall County, MS",
+    "District": "5",
+    "Population": "34993",
+    "LandArea": "706.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Monroe County, MS",
+    "District": "5",
+    "Population": "38014",
+    "LandArea": "764.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Montgomery County, MS",
+    "District": "5",
+    "Population": "12189",
+    "LandArea": "406.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Oktibbeha County, MS",
+    "District": "5",
+    "Population": "42902",
+    "LandArea": "457.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Panola County, MS",
+    "District": "5",
+    "Population": "34274",
+    "LandArea": "684.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Pontotoc County, MS",
+    "District": "5",
+    "Population": "26726",
+    "LandArea": "497.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Pontotoc County, MS",
+    "District": "5",
+    "Population": "26726",
+    "LandArea": "497.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Prentiss County, MS",
+    "District": "5",
+    "Population": "25556",
+    "LandArea": "414.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Prentiss County, MS",
+    "District": "5",
+    "Population": "25556",
+    "LandArea": "414.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Quitman County, MS",
+    "District": "5",
+    "Population": "10117",
+    "LandArea": "404.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Rankin County, MS",
+    "District": "5",
+    "Population": "115327",
+    "LandArea": "774.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Sharkey County, MS",
+    "District": "5",
+    "Population": "6580",
+    "LandArea": "427.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Sunflower County, MS",
+    "District": "5",
+    "Population": "34369",
+    "LandArea": "693.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tallahatchie County, MS",
+    "District": "5",
+    "Population": "14903",
+    "LandArea": "643.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tate County, MS",
+    "District": "5",
+    "Population": "25370",
+    "LandArea": "404.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tippah County, MS",
+    "District": "5",
+    "Population": "20826",
+    "LandArea": "457.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tippah County, MS",
+    "District": "5",
+    "Population": "20826",
+    "LandArea": "457.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tishomingo County, MS",
+    "District": "5",
+    "Population": "19163",
+    "LandArea": "424.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tishomingo County, MS",
+    "District": "5",
+    "Population": "19163",
+    "LandArea": "424.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tunica County, MS",
+    "District": "5",
+    "Population": "9227",
+    "LandArea": "454.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Union County, MS",
+    "District": "5",
+    "Population": "25362",
+    "LandArea": "415.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Union County, MS",
+    "District": "5",
+    "Population": "25362",
+    "LandArea": "415.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Warren County, MS",
+    "District": "5",
+    "Population": "49644",
+    "LandArea": "586.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Washington County, MS",
+    "District": "5",
+    "Population": "62977",
+    "LandArea": "723.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Webster County, MS",
+    "District": "5",
+    "Population": "10294",
+    "LandArea": "422.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Yalobusha County, MS",
+    "District": "5",
+    "Population": "13051",
+    "LandArea": "467.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Yazoo County, MS",
+    "District": "5",
+    "Population": "28149",
+    "LandArea": "919.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MS"
+  }
+]

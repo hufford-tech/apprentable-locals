@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]692-  (i, mt, spa) Bay City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "692-|Bay City|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "379",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1300 W Thomas Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1300 W Thomas Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Bay City, MI 48706[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bay City|MI|48706",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](989) 684-4510[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "696",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(989) 684-4510",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](989) 684-1810[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "697",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(989) 684-1810",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:sholdwick@ibew692.com\" target=\"_blank\">sholdwick@ibew692.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2119",
+    "editFieldNames": "Email",
+    "editFieldValues": "sholdwick@ibew692.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew692.org\" target=\"_blank\">www.ibew692.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew692.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Ryan T. Charney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1161",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|T.|Charney||{ \"MemberID\" : \"1161\",\"luid\": \"379\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1300 W Thomas Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bay City\",\"state\":\"MI\",\"zip\":\"48706\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brian A. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1162",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Walker||{ \"MemberID\" : \"1162\",\"luid\": \"379\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1300 W Thomas Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bay City\",\"state\":\"MI\",\"zip\":\"48706\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ryan T. Charney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3689",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|T.|Charney||{ \"MemberID\" : \"3689\",\"luid\": \"379\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Kevin J. Klapish[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1160",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|J.|Klapish||{ \"MemberID\" : \"1160\",\"luid\": \"379\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1300 W Thomas Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bay City\",\"state\":\"MI\",\"zip\":\"48706\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

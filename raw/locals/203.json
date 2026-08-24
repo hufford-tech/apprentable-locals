@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]340-  (i, rts, spa) Sacramento[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "203",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "340-|Sacramento|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "203",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]10240 Systems Parkway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "206",
+    "editFieldNames": "Address1",
+    "editFieldValues": "10240 Systems Parkway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 100[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "206",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Sacramento, CA 95827[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "206",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sacramento|CA|95827",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](916) 927-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "383",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(916) 927-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](916) 927-1074[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "384",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(916) 927-1074",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal340.org\" target=\"_blank\">office@ibewlocal340.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "198",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal340.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal340.org\" target=\"_blank\">www.ibewlocal340.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "203",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal340.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Robert D. Ward[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Ward||{ \"MemberID\" : \"627\",\"luid\": \"203\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2840 El Centro Road\",\"addr2\":\"Suite 115\",\"addr3\":\"\",\"city\":\"Sacramento\",\"state\":\"CA\",\"zip\":\"95833\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Mark A. Steelman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|A.|Steelman||{ \"MemberID\" : \"625\",\"luid\": \"203\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2840 El Centro Road\",\"addr2\":\"Suite 115\",\"addr3\":\"\",\"city\":\"Sacramento\",\"state\":\"CA\",\"zip\":\"95833\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Robert D. Ward[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3520",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Ward||{ \"MemberID\" : \"3520\",\"luid\": \"203\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Hunter Canup[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "626",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter||Canup||{ \"MemberID\" : \"626\",\"luid\": \"203\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2840 El Centro Road\",\"addr2\":\"Suite 115\",\"addr3\":\"\",\"city\":\"Sacramento\",\"state\":\"CA\",\"zip\":\"95833\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "203",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

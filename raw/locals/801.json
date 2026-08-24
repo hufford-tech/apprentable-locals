@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2219  (govt) Dardanelle[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "801",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2219|Dardanelle|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "801",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1647 S Chapel Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6273",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1647 S Chapel Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Springfield, MO 65809[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6273",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Springfield|MO|65809",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](417) 230-2525[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2190",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 230-2525",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:topjimy8712@icloud.com\" target=\"_blank\">topjimy8712@icloud.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2196",
+    "editFieldNames": "Email",
+    "editFieldValues": "topjimy8712@icloud.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]James Farver[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2439",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James||Farver||{ \"MemberID\" : \"2439\",\"luid\": \"801\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"161 Hackberry Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Branson\",\"state\":\"MO\",\"zip\":\"65616\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]James Farver[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4124",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James||Farver||{ \"MemberID\" : \"4124\",\"luid\": \"801\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jesse A. Blom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2441",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|A.|Blom||{ \"MemberID\" : \"2441\",\"luid\": \"801\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"170 Bayberry Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ozark\",\"state\":\"MO\",\"zip\":\"65721\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Susan M. Henry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2440",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Susan|M.|Henry||{ \"MemberID\" : \"2440\",\"luid\": \"801\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2503 US Highway 160\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Walnut Shade\",\"state\":\"MO\",\"zip\":\"65771\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3rd Thursday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "801",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Cameron County, TX",
+    "District": "7",
+    "Population": "335227",
+    "LandArea": "905.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hidalgo County, TX",
+    "District": "7",
+    "Population": "569463",
+    "LandArea": "1569.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Starr County, TX",
+    "District": "7",
+    "Population": "53597",
+    "LandArea": "1223.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Webb County, TX",
+    "District": "7",
+    "Population": "193117",
+    "LandArea": "3356.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Willacy County, TX",
+    "District": "7",
+    "Population": "20082",
+    "LandArea": "596.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Zapata County, TX",
+    "District": "7",
+    "Population": "12182",
+    "LandArea": "996.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  }
+]

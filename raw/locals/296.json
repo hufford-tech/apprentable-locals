@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]518-  (i, rts, spa) Globe[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "296",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "518-|Globe|AZ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "296",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1383 N AZ Highway 188[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1383 N AZ Highway 188",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Globe, AZ 85501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Globe|AZ|85501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 88[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 88",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Globe, AZ 85502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Globe|AZ|85502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](928) 425-8177[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "549",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(928) 425-8177",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](928) 425-7233[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(928) 425-7233",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew518@hotmail.com\" target=\"_blank\">ibew518@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "286",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew518@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Mark D. Marcanti[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "905",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Marcanti||{ \"MemberID\" : \"905\",\"luid\": \"296\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 88\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Globe\",\"state\":\"AZ\",\"zip\":\"85502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Frank J. Struck[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4303",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Frank|J.|Struck||{ \"MemberID\" : \"4303\",\"luid\": \"296\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Mark D. Marcanti[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3612",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Marcanti||{ \"MemberID\" : \"3612\",\"luid\": \"296\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Jacob E. Jost[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4304",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|E.|Jost||{ \"MemberID\" : \"4304\",\"luid\": \"296\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "296",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]787-  (u) San Juan[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19565",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "787-|San Juan|PR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19565",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]RR3 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6274",
+    "editFieldNames": "Address1",
+    "editFieldValues": "RR3 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 11[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6274",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 11",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Toa Alta, PR 00953[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6274",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Toa Alta|PR|00953",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](787) 532-2575[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2192",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(787) 532-2575",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:robertofigueroa0812@gmail.com\" target=\"_blank\">robertofigueroa0812@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2087",
+    "editFieldNames": "Email",
+    "editFieldValues": "robertofigueroa0812@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal787.org\" target=\"_blank\">www.ibewlocal787.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19565",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal787.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Roberto J. Figueroa Dones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4222",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roberto|J.|Figueroa Dones||{ \"MemberID\" : \"4222\",\"luid\": \"*\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Roberto J. Figueroa Dones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4212",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roberto|J.|Figueroa Dones||{ \"MemberID\" : \"4212\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Urb Bosque Llano\",\"addr2\":\"419 Calle Caoba\",\"addr3\":\"\",\"city\":\"San Lorenzo\",\"state\":\"PR\",\"zip\":\"00754\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Carlos C. Miranda Rosado[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4210",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carlos|C.|Miranda Rosado||{ \"MemberID\" : \"4210\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Urb Bosque Llano \",\"addr2\":\"419 Calle Caoba\",\"addr3\":\"\",\"city\":\"San Lorenzo\",\"state\":\"PR\",\"zip\":\"00754\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nicole Cortes Ocasio[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4211",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicole||Cortes Ocasio||{ \"MemberID\" : \"4211\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"18400 Autop. Roberto Sanchez Vilella\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Canovanas\",\"state\":\"PR\",\"zip\":\"00729\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Saturday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19565",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Saturday",
+    "datatype": "txt"
+  }
+]

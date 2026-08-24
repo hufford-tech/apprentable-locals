@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2052  (rr) Sudbury, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "761",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2052|Sudbury|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "761",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]21 Power Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5830",
+    "editFieldNames": "Address1",
+    "editFieldValues": "21 Power Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]PO Box 882[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5830",
+    "editFieldNames": "Address2",
+    "editFieldValues": "PO Box 882",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Copper Cliff, ON P0M 1N0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5830",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Copper Cliff|ON|P0M 1N0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](705) 626-4595[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2122",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(705) 626-4595",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2052@gmail.com\" target=\"_blank\">ibew2052@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "707",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2052@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jamie D. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2326",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie|D.|Taylor||{ \"MemberID\" : \"2326\",\"luid\": \"761\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 882\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Copper Cliff\",\"state\":\"ON\",\"zip\":\"P0M 1N0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Christopher G. Nadon, 4636 Gatien Avenue, Hanmer, ON  P3P 1E9[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2324",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|G.|Nadon||{ \"MemberID\" : \"2324\",\"luid\": \"761\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4636 Gatien Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hanmer\",\"state\":\"ON\",\"zip\":\"P3P 1E9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Darryl R. d'Entremont, 33 Josee Place, Hanmer, ON  P3P 1X2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2325",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darryl|R.|d'Entremont||{ \"MemberID\" : \"2325\",\"luid\": \"761\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"33 Josee Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hanmer\",\"state\":\"ON\",\"zip\":\"P3P 1X2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Darryl R. d'Entremont, 33 Josee Place, Hanmer, ON  P3P 1X2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4079",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darryl|R.|d'Entremont||{ \"MemberID\" : \"4079\",\"luid\": \"761\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"33 Josee Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hanmer\",\"state\":\"ON\",\"zip\":\"P3P 1X2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

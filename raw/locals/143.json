@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]230-  (c, catv, em, govt, i, mar, u) Victoria, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "230-|Victoria|BC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "143",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, catv, em, govt, i, mar, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]21 Dallas Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "Address1",
+    "editFieldValues": "21 Dallas Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit 21[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit 21",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Victoria, BC V8V 4Z9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Victoria|BC|V8V 4Z9",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](250) 388-7374[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 388-7374",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](250) 388-6313[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "275",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 388-6313",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:phil@ibew230.org\" target=\"_blank\">phil@ibew230.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "141",
+    "editFieldNames": "Email",
+    "editFieldValues": "phil@ibew230.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew230.org\" target=\"_blank\">www.ibew230.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew230.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Philip M. Venoit[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Philip|M.|Venoit||{ \"MemberID\" : \"444\",\"luid\": \"143\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"103-2823 Jacklin Road\",\"addr2\":\"Room 103\",\"addr3\":\"\",\"city\":\"Victoria\",\"state\":\"BC\",\"zip\":\"V9B 3Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Raj P. Takhar[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "443",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Raj|P.|Takhar||{ \"MemberID\" : \"443\",\"luid\": \"143\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"103-2823 Jacklin Road\",\"addr2\":\"Room 103\",\"addr3\":\"\",\"city\":\"Victoria\",\"state\":\"BC\",\"zip\":\"V9B 3Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Philip M. Venoit[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3462",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Philip|M.|Venoit||{ \"MemberID\" : \"3462\",\"luid\": \"143\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Lauren A. Scott-Moncrieff[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "442",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lauren|A.|Scott-Moncrieff||{ \"MemberID\" : \"442\",\"luid\": \"143\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"103-2823 Jacklin Road\",\"addr2\":\"Room 103\",\"addr3\":\"\",\"city\":\"Victoria\",\"state\":\"BC\",\"zip\":\"V9B 3Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Victoria: 2nd Thursday; Nanaimo: 3rd Wednesday; Campbell River: 3rd Thursday; Marine: 2nd Wednesday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Victoria: 2nd Thursday; Nanaimo: 3rd Wednesday; Campbell River: 3rd Thursday; Marine: 2nd Wednesday",
+    "datatype": "txt"
+  }
+]

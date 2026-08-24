@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]812-  (catv, i) Williamsport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "438",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "812-|Williamsport|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "438",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]500 Jordan Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "415",
+    "editFieldNames": "Address1",
+    "editFieldValues": "500 Jordan Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Montoursville, PA 17754[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "415",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montoursville|PA|17754",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](570) 368-8984[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "787",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 368-8984",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](570) 368-3461[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "788",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 368-3461",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jbeamer@ibew812.com\" target=\"_blank\">jbeamer@ibew812.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "419",
+    "editFieldNames": "Email",
+    "editFieldValues": "jbeamer@ibew812.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew812.com\" target=\"_blank\">www.ibew812.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "438",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew812.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James E. Beamer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1348",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|E.|Beamer||{ \"MemberID\" : \"1348\",\"luid\": \"438\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"500 Jordan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montoursville\",\"state\":\"PA\",\"zip\":\"17754\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Nick T. Digan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1349",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nick|T.|Digan||{ \"MemberID\" : \"1349\",\"luid\": \"438\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"500 Jordan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montoursville\",\"state\":\"PA\",\"zip\":\"17754\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James E. Beamer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3746",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|E.|Beamer||{ \"MemberID\" : \"3746\",\"luid\": \"438\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Hugh G. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1347",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hugh|G.|Johnson||{ \"MemberID\" : \"1347\",\"luid\": \"438\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"500 Jordan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montoursville\",\"state\":\"PA\",\"zip\":\"17754\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "438",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

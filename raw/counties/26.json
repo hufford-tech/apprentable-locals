@@ -1,0 +1,668 @@
+[
+  {
+    "CountyName": "Albemarle County, VA",
+    "District": "4",
+    "Population": "79236",
+    "LandArea": "722.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Alexandria City, VA",
+    "District": "4",
+    "Population": "128283",
+    "LandArea": "15.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Alleghany County, VA",
+    "District": "4",
+    "Population": "12926",
+    "LandArea": "444.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Amherst County, VA",
+    "District": "4",
+    "Population": "31894",
+    "LandArea": "475.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Appomattox County, VA",
+    "District": "4",
+    "Population": "13705",
+    "LandArea": "333.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Arlington County, VA",
+    "District": "4",
+    "Population": "189453",
+    "LandArea": "25.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Augusta County, VA",
+    "District": "4",
+    "Population": "65615",
+    "LandArea": "970.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bath County, VA",
+    "District": "4",
+    "Population": "5048",
+    "LandArea": "531.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bedford City, VA",
+    "District": "4",
+    "Population": "6299",
+    "LandArea": "6.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bedford County, VA",
+    "District": "4",
+    "Population": "60371",
+    "LandArea": "754.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Botetourt County, VA",
+    "District": "4",
+    "Population": "30496",
+    "LandArea": "542.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Buckingham County, VA",
+    "District": "4",
+    "Population": "15623",
+    "LandArea": "580.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Buena Vista City, VA",
+    "District": "4",
+    "Population": "6349",
+    "LandArea": "6.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Calvert County, MD",
+    "District": "4",
+    "Population": "74563",
+    "LandArea": "215.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Campbell County, VA",
+    "District": "4",
+    "Population": "51078",
+    "LandArea": "504.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Charles County, MD",
+    "District": "4",
+    "Population": "120546",
+    "LandArea": "461.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Charlotte County, VA",
+    "District": "4",
+    "Population": "12472",
+    "LandArea": "474.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Charlottesville City, VA",
+    "District": "4",
+    "Population": "45049",
+    "LandArea": "10.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Clarke County, VA",
+    "District": "4",
+    "Population": "12652",
+    "LandArea": "176.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Covington City, VA",
+    "District": "4",
+    "Population": "6303",
+    "LandArea": "5.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Craig County, VA",
+    "District": "4",
+    "Population": "5091",
+    "LandArea": "330.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Danville City, VA",
+    "District": "4",
+    "Population": "48411",
+    "LandArea": "43.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "District of Columbia, DC",
+    "District": "4",
+    "Population": "572059",
+    "LandArea": "61.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "DC"
+  },
+  {
+    "CountyName": "Fairfax City, VA",
+    "District": "4",
+    "Population": "21498",
+    "LandArea": "6.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Fairfax County, VA",
+    "District": "4",
+    "Population": "969749",
+    "LandArea": "395.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Falls Church City, VA",
+    "District": "4",
+    "Population": "10377",
+    "LandArea": "1.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Fauquier County, VA",
+    "District": "4",
+    "Population": "55139",
+    "LandArea": "649.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Floyd County, VA",
+    "District": "4",
+    "Population": "13874",
+    "LandArea": "381.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Fluvanna County, VA",
+    "District": "4",
+    "Population": "20047",
+    "LandArea": "287.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Franklin County, VA",
+    "District": "4",
+    "Population": "47286",
+    "LandArea": "692.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Frederick County, VA",
+    "District": "4",
+    "Population": "59209",
+    "LandArea": "414.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Fredericksburg City, VA",
+    "District": "4",
+    "Population": "19279",
+    "LandArea": "10.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Greene County, VA",
+    "District": "4",
+    "Population": "15244",
+    "LandArea": "156.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Halifax County, VA",
+    "District": "4",
+    "Population": "37355",
+    "LandArea": "819.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Harrisonburg City, VA",
+    "District": "4",
+    "Population": "40468",
+    "LandArea": "17.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Henry County, VA",
+    "District": "4",
+    "Population": "57930",
+    "LandArea": "382.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Highland County, VA",
+    "District": "4",
+    "Population": "2536",
+    "LandArea": "415.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "King George County, VA",
+    "District": "4",
+    "Population": "16803",
+    "LandArea": "180.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lexington City, VA",
+    "District": "4",
+    "Population": "6867",
+    "LandArea": "2.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Loudoun County, VA",
+    "District": "4",
+    "Population": "169599",
+    "LandArea": "519.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Louisa County, VA",
+    "District": "4",
+    "Population": "25627",
+    "LandArea": "497.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lynchburg City, VA",
+    "District": "4",
+    "Population": "65269",
+    "LandArea": "49.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Madison County, VA",
+    "District": "4",
+    "Population": "12520",
+    "LandArea": "321.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Manassas City, VA",
+    "District": "4",
+    "Population": "35135",
+    "LandArea": "9.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Manassas Park City, VA",
+    "District": "4",
+    "Population": "10290",
+    "LandArea": "2.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Martinsville City, VA",
+    "District": "4",
+    "Population": "15416",
+    "LandArea": "10.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Montgomery County, MD",
+    "District": "4",
+    "Population": "873341",
+    "LandArea": "495.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Montgomery County, VA",
+    "District": "4",
+    "Population": "83629",
+    "LandArea": "388.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Nelson County, VA",
+    "District": "4",
+    "Population": "14445",
+    "LandArea": "472.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Orange County, VA",
+    "District": "4",
+    "Population": "25881",
+    "LandArea": "341.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Page County, VA",
+    "District": "4",
+    "Population": "23177",
+    "LandArea": "311.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Patrick County, VA",
+    "District": "4",
+    "Population": "19407",
+    "LandArea": "483.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Pittsylvania County, VA",
+    "District": "4",
+    "Population": "61745",
+    "LandArea": "970.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Prince Edward County, VA",
+    "District": "4",
+    "Population": "19720",
+    "LandArea": "352.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Prince Georges County, MD",
+    "District": "4",
+    "Population": "801515",
+    "LandArea": "485.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Prince William County, VA",
+    "District": "4",
+    "Population": "280813",
+    "LandArea": "337.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Pulaski County, VA",
+    "District": "4",
+    "Population": "35127",
+    "LandArea": "320.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Radford City, VA",
+    "District": "4",
+    "Population": "15859",
+    "LandArea": "9.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Rappahannock County, VA",
+    "District": "4",
+    "Population": "6983",
+    "LandArea": "266.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Roanoke City, VA",
+    "District": "4",
+    "Population": "94911",
+    "LandArea": "42.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Roanoke County, VA",
+    "District": "4",
+    "Population": "85778",
+    "LandArea": "250.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Rockbridge County, VA",
+    "District": "4",
+    "Population": "20808",
+    "LandArea": "599.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Rockingham County, VA",
+    "District": "4",
+    "Population": "67725",
+    "LandArea": "851.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Salem City, VA",
+    "District": "4",
+    "Population": "24747",
+    "LandArea": "14.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Shenandoah County, VA",
+    "District": "4",
+    "Population": "35075",
+    "LandArea": "512.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "South Boston City, VA",
+    "District": "4",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Spotsylvania County, VA",
+    "District": "4",
+    "Population": "90395",
+    "LandArea": "400.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "St. Marys County, MD",
+    "District": "4",
+    "Population": "86211",
+    "LandArea": "361.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Stafford County, VA",
+    "District": "4",
+    "Population": "92446",
+    "LandArea": "270.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Staunton City, VA",
+    "District": "4",
+    "Population": "23853",
+    "LandArea": "19.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Warren County, VA",
+    "District": "4",
+    "Population": "31584",
+    "LandArea": "213.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Waynesboro City, VA",
+    "District": "4",
+    "Population": "19520",
+    "LandArea": "15.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Westmoreland County, VA",
+    "District": "4",
+    "Population": "16718",
+    "LandArea": "229.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Winchester City, VA",
+    "District": "4",
+    "Population": "23585",
+    "LandArea": "9.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  }
+]

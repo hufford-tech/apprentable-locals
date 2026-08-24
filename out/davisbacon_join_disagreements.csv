@@ -1,0 +1,19 @@
+lu_number,charter_city,local_code_base_low,local_code_base_high,county_base_low,county_base_high,preferred
+3,New York,62.00,62.00,42.68,64.55,local_code
+103,Boston,66.17,66.17,48.16,66.17,local_code
+332,San Jose,91.03,91.03,49.45,91.25,local_code
+100,Fresno,50.00,50.00,49.45,91.25,local_code
+223,Brockton,50.02,50.02,48.16,66.17,local_code
+82,Dayton,38.00,38.00,37.00,48.40,local_code
+96,Worcester,48.16,48.16,48.16,66.17,local_code
+684,Modesto,45.28,52.07,49.45,91.25,local_code
+6,San Francisco,91.25,91.25,49.45,91.25,local_code
+617,San Mateo,86.00,86.00,49.45,91.25,local_code
+364,Rockford,62.61,62.61,35.00,62.61,local_code
+180,Vallejo,61.56,61.56,47.04,61.56,local_code
+34,Peoria,39.50,39.50,39.50,60.17,local_code
+388,Stevens Point,40.19,40.19,40.19,48.55,local_code
+575,Portsmouth,37.00,37.00,37.00,46.63,local_code
+688,Mansfield,32.30,32.30,32.30,46.63,local_code
+649,Alton,54.53,54.53,35.00,62.61,local_code
+538,Danville,41.00,41.00,41.00,52.14,local_code

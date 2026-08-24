@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1451  (t) York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "602",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1451|York|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "602",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1701 W Market Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "560",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1701 W Market Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "560",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 2",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]York, PA 17404[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "560",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "York|PA|17404",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](717) 873-2807[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1048",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 873-2807",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](717) 259-9775[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1049",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 259-9775",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ryan A. Herncane[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1849",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|A.|Herncane||{ \"MemberID\" : \"1849\",\"luid\": \"602\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1701 W Market Street, #2\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ryan A. Herncane[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3904",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|A.|Herncane||{ \"MemberID\" : \"3904\",\"luid\": \"602\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Dave Hivner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1850",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dave||Hivner||{ \"MemberID\" : \"1850\",\"luid\": \"602\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1701 W Market Street, #2\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Paul Garloch[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1851",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul||Garloch||{ \"MemberID\" : \"1851\",\"luid\": \"602\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1701 W Market Street, #2\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "602",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 8 pm",
+    "datatype": "txt"
+  }
+]

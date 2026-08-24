@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]457-  (u) Meriden[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "268",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "457-|Meriden|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "268",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2590 Berlin Turnpike[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "261",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2590 Berlin Turnpike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "261",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Berlin, CT 06037[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "261",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Berlin|CT|06037",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](860) 505-0948[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "498",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(860) 505-0948",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](860) 505-8859[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2116",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(860) 505-8859",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal457.org\" target=\"_blank\">office@ibewlocal457.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1823",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal457.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal457.org\" target=\"_blank\">www.ibewlocal457.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "268",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal457.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Scott M. McCoy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "824",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|M.|McCoy||{ \"MemberID\" : \"824\",\"luid\": \"268\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Tanglewood\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"East Lyme\",\"state\":\"CT\",\"zip\":\"06333\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Shamus F. Mara[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "825",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shamus|F.|Mara||{ \"MemberID\" : \"825\",\"luid\": \"268\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"26 Columbine Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wakefield\",\"state\":\"CT\",\"zip\":\"02879\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Scott M. McCoy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3582",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|M.|McCoy||{ \"MemberID\" : \"3582\",\"luid\": \"268\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Tanglewood\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"East Lyme\",\"state\":\"CT\",\"zip\":\"06333\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Aimee Halsted[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "823",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aimee||Halsted||{ \"MemberID\" : \"823\",\"luid\": \"268\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"54 Rood Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Middletown Elks, Middletown, 2nd Thursday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "268",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Middletown Elks, Middletown, 2nd Thursday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

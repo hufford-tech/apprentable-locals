@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Adams County, IL",
+    "District": "6",
+    "Population": "68277",
+    "LandArea": "856.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Brown County, IL",
+    "District": "6",
+    "Population": "6950",
+    "LandArea": "305.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fulton County, IL",
+    "District": "6",
+    "Population": "38250",
+    "LandArea": "865.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hancock County, IL",
+    "District": "6",
+    "Population": "20121",
+    "LandArea": "794.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Henderson County, IL",
+    "District": "6",
+    "Population": "8213",
+    "LandArea": "378.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Knox County, IL",
+    "District": "6",
+    "Population": "55836",
+    "LandArea": "716.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Marshall County, IL",
+    "District": "6",
+    "Population": "13180",
+    "LandArea": "386.06",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mason County, IL",
+    "District": "6",
+    "Population": "16038",
+    "LandArea": "538.94",
+    "Percentage": "65%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "McDonough County, IL",
+    "District": "6",
+    "Population": "32913",
+    "LandArea": "589.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mercer County, IL",
+    "District": "6",
+    "Population": "16957",
+    "LandArea": "561.02",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Peoria County, IL",
+    "District": "6",
+    "Population": "183433",
+    "LandArea": "619.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pike County, IL",
+    "District": "6",
+    "Population": "17384",
+    "LandArea": "830.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Schuyler County, IL",
+    "District": "6",
+    "Population": "7189",
+    "LandArea": "437.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stark County, IL",
+    "District": "6",
+    "Population": "6332",
+    "LandArea": "287.94",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Tazewell County, IL",
+    "District": "6",
+    "Population": "128485",
+    "LandArea": "648.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Warren County, IL",
+    "District": "6",
+    "Population": "18735",
+    "LandArea": "542.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Woodford County, IL",
+    "District": "6",
+    "Population": "35469",
+    "LandArea": "527.95",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

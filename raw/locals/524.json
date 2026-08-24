@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1077  (i, mt, rts, u) Bogalusa[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "524",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1077|Bogalusa|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "524",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, rts, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]305 Avenue B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "Address1",
+    "editFieldValues": "305 Avenue B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 209A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 209A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Bogalusa, LA 70427[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bogalusa|LA|70427",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 699[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 699",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Bogalusa, LA 70429[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bogalusa|LA|70429",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](985) 735-1299[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "921",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(985) 735-1299",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Fax [/b](985) 735-1273[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "922",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(985) 735-1273",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mickey_ba@ibewlu1077.com\" target=\"_blank\">mickey_ba@ibewlu1077.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "493",
+    "editFieldNames": "Email",
+    "editFieldValues": "mickey_ba@ibewlu1077.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Charles M. Fortenberry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1610",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|M.|Fortenberry||{ \"MemberID\" : \"1610\",\"luid\": \"524\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"59263 Highway 10\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bogalusa\",\"state\":\"LA\",\"zip\":\"70427\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Dustin A. Fitch[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1609",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dustin|A.|Fitch||{ \"MemberID\" : \"1609\",\"luid\": \"524\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 337\",\"addr2\":\"`\",\"addr3\":\"\",\"city\":\"Roseland\",\"state\":\"LA\",\"zip\":\"70456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Charles M. Fortenberry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3826",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|M.|Fortenberry||{ \"MemberID\" : \"3826\",\"luid\": \"524\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"59263 Highway 10\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bogalusa\",\"state\":\"LA\",\"zip\":\"70427\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Andrew D. Mitchell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1611",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|D.|Mitchell||{ \"MemberID\" : \"1611\",\"luid\": \"524\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"23 Hunters Creek Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Slidell\",\"state\":\"LA\",\"zip\":\"70458\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "524",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

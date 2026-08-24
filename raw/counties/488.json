@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Fairfield County, CT",
+    "District": "2",
+    "Population": "882567",
+    "LandArea": "625.80",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Hartford County, CT",
+    "District": "2",
+    "Population": "857183",
+    "LandArea": "735.44",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Litchfield County, CT",
+    "District": "2",
+    "Population": "182193",
+    "LandArea": "919.92",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New Haven County, CT",
+    "District": "2",
+    "Population": "824008",
+    "LandArea": "605.64",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  }
+]

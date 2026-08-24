@@ -1,0 +1,101 @@
+[
+  {
+    "CountyName": "Acadia Parish, LA",
+    "District": "5",
+    "Population": "58861",
+    "LandArea": "655.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Allen Parish, LA",
+    "District": "5",
+    "Population": "25440",
+    "LandArea": "764.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Beauregard Parish, LA",
+    "District": "5",
+    "Population": "32986",
+    "LandArea": "1160.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Calcasieu Parish, LA",
+    "District": "5",
+    "Population": "183577",
+    "LandArea": "1071.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Cameron Parish, LA",
+    "District": "5",
+    "Population": "9991",
+    "LandArea": "1312.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Iberia Parish, LA",
+    "District": "5",
+    "Population": "73266",
+    "LandArea": "575.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jefferson Davis Parish, LA",
+    "District": "5",
+    "Population": "31435",
+    "LandArea": "652.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lafayette Parish, LA",
+    "District": "5",
+    "Population": "190503",
+    "LandArea": "269.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Martin Parish, LA",
+    "District": "5",
+    "Population": "48583",
+    "LandArea": "739.85",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Mary Parish, LA",
+    "District": "5",
+    "Population": "53500",
+    "LandArea": "612.79",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Vermilion Parish, LA",
+    "District": "5",
+    "Population": "53807",
+    "LandArea": "1173.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1260  (catv, ees, lctt, mo, rtb, rts, spa, u) Honolulu[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "567",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1260|Honolulu|HI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "567",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ees, lctt, mo, rtb, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]700 Bishop Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "527",
+    "editFieldNames": "Address1",
+    "editFieldValues": "700 Bishop Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1600[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "527",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1600",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Honolulu, HI 96813[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "527",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Honolulu|HI|96813",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](808) 941-9445[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "986",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(808) 941-9445",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](808) 946-1260[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "987",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(808) 946-1260",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew1260.org\" target=\"_blank\">office@ibew1260.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew1260.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1260.org\" target=\"_blank\">www.ibew1260.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "567",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1260.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Leroy J. Chincio Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1745",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Leroy|J.|Chincio|Jr.|{ \"MemberID\" : \"1745\",\"luid\": \"567\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"700 Bishop Street\",\"addr2\":\"Suite 1600\",\"addr3\":\"\",\"city\":\"Honolulu\",\"state\":\"HI\",\"zip\":\"96813\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Russell A. Jarrett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1744",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Russell|A.|Jarrett||{ \"MemberID\" : \"1744\",\"luid\": \"567\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"700 Bishop Street\",\"addr2\":\"Suite 1600\",\"addr3\":\"\",\"city\":\"Honolulu\",\"state\":\"HI\",\"zip\":\"96813\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Leroy J. Chincio Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3870",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Leroy|J.|Chincio|Jr.|{ \"MemberID\" : \"3870\",\"luid\": \"567\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Terrie-Lyn K. Lau[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1743",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrie-Lyn|K.|Lau||{ \"MemberID\" : \"1743\",\"luid\": \"567\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"700 Bishop Street\",\"addr2\":\"Suite 1600\",\"addr3\":\"\",\"city\":\"Honolulu\",\"state\":\"HI\",\"zip\":\"96813\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Unit 1: 2nd Thursday, 6 pm; Unit 2: A&G Bar & Grill, 2nd Tuesday, 3:30 pm; Unit 3: RJ's Construction Office, 3rd Monday, 3:30 pm; Unit 4: LT Construction Office, 2nd Monday, 3:30 pm; Unit 5: 3rd Thursday, 4 pm; Unit 6: Kekaha Neighborhood Park, 3rd Wednesday, 4:30 pm; Unit 7: KIUC Li",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "567",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Unit 1: 2nd Thursday, 6 pm; Unit 2: A&G Bar & Grill, 2nd Tuesday, 3:30 pm; Unit 3: RJ's Construction Office, 3rd Monday, 3:30 pm; Unit 4: LT Construction Office, 2nd Monday, 3:30 pm; Unit 5: 3rd Thursday, 4 pm; Unit 6: Kekaha Neighborhood Park, 3rd Wednesday, 4:30 pm; Unit 7: KIUC Lihue Main Confere",
+    "datatype": "txt"
+  }
+]

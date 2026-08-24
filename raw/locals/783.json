@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2129  (mo) Prichard[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "783",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2129|Prichard|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "783",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5523 Lakewood Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6957",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5523 Lakewood Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saraland, AL 36571[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6957",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saraland|AL|36571",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](251) 656-9722[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2235",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(251) 656-9722",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]John J. Platt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2390",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Platt||{ \"MemberID\" : \"2390\",\"luid\": \"783\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5523 Lakewood Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saraland\",\"state\":\"AL\",\"zip\":\"36571\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]John J. Platt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4102",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Platt||{ \"MemberID\" : \"4102\",\"luid\": \"783\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5523 Lakewood Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saraland\",\"state\":\"AL\",\"zip\":\"36571\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Steven E. Pearson Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2391",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|E.|Pearson|Jr.|{ \"MemberID\" : \"2391\",\"luid\": \"783\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5523 Lakewood Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saraland\",\"state\":\"AL\",\"zip\":\"36571\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Christopher L. Rider[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2389",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|L.|Rider||{ \"MemberID\" : \"2389\",\"luid\": \"783\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5523 Lakewood Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saraland\",\"state\":\"AL\",\"zip\":\"36571\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]108 N Craft Highway, Chickasaw, 1st & 3rd Wednesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "783",
+    "editFieldNames": "Meets",
+    "editFieldValues": "108 N Craft Highway, Chickasaw, 1st & 3rd Wednesday, 4 pm",
+    "datatype": "txt"
+  }
+]

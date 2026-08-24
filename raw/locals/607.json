@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1466  (ptc, u) Columbus[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1466|Columbus|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "607",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]939 Goodale Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "Address1",
+    "editFieldValues": "939 Goodale Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Columbus, OH 43212[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Columbus|OH|43212",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](740) 649-7761[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1055",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 649-7761",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:businessmanager@ibew1466.com\" target=\"_blank\">businessmanager@ibew1466.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "572",
+    "editFieldNames": "Email",
+    "editFieldValues": "businessmanager@ibew1466.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://Ibew1466.com\" target=\"_blank\">Ibew1466.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "Website",
+    "editFieldValues": "Ibew1466.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jason Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1865",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Wright||{ \"MemberID\" : \"1865\",\"luid\": \"607\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"488 Fox Run Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Heath\",\"state\":\"OH\",\"zip\":\"43056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jason Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3908",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Wright||{ \"MemberID\" : \"3908\",\"luid\": \"607\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"488 Fox Run Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Heath\",\"state\":\"OH\",\"zip\":\"43056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jason Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3909",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Wright||{ \"MemberID\" : \"3909\",\"luid\": \"607\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"488 Fox Run Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Heath\",\"state\":\"OH\",\"zip\":\"43056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James T. Jette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1866",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|T.|Jette||{ \"MemberID\" : \"1866\",\"luid\": \"607\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1954 Cherokee Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"London\",\"state\":\"OH\",\"zip\":\"43140\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Columbus: 3rd Monday, 5 pm; Zanesville: 3rd Thursday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Columbus: 3rd Monday, 5 pm; Zanesville: 3rd Thursday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,246 @@
+local_union_id,lu_number,charter_city,population,journeyman_base_low,journeyman_base_high,journeyman_package_low,journeyman_package_high,apprentice_start_hourly,apprentice_start_pct,apprentice_top_pct,progression_json,effective_date,effective_date_precision,candidate_count,admitted_count,evidence_quote,source_file,consistency_check,tier
+3,3,New York,9878546,,,,,,,,[],,none,10,0,,,insufficient_data,reject
+11,11,Los Angeles,9757179,,,,,,,,[],,none,8,0,,,insufficient_data,reject
+20,20,Dallas-Fort Worth,8760827,40.65,40.65,,,20.33,50.00,80.00,"[{""year"":null,""hourly"":20.33}]",2026-03-01,day,37,4,et paid for the on-the-job training?  The rate of pay for apprentices begins at 50% of the Journeyman hourly rate at the start of the first year and progresses to 80% of the Journey,raw/crawl/jatc/ntejatc.org/https_ntejatc_org_index_php_frequently_asked_questions.md,pass,display
+26,26,Washington,8223617,62.00,62.00,,,,,,[],2026-06-01,day,3,1,ship program and becomes a journeyman electrician in Local Union 26 will be:  **$62.00/hr. plus**  **Paid Benefits**  An apprentice who completes the apprenticeship p,raw/crawl/jatc/jatc26.org/https_www_jatc26_org_program_inside_wireman_a_apprenticeship_program_.md,insufficient_data,review
+341,613,Atlanta,7903227,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+391,716,Houston,7353507,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+354,640,Phoenix,5616018,,,,,,90.00,90.00,[],,none,28,2,e:**  (Benefit levels are graduated as you progress in classification)   55% to 90% of Journeyman Wage  ##### **Construction Wireman/Electrician:**  (Benefit levels are graduate,raw/crawl/local/640/https_ibew640_com_wagesandbenefits_.md,insufficient_data,review
+472,915,Tampa,5385522,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+225,379,Charlotte,5187923,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+101,134,Chicago,5130791,25.26,53.64,,,21.46,40.00,40.00,"[{""year"":null,""hourly"":21.46},{""year"":null,""hourly"":26.82},{""year"":null,""hourly"":31.58},{""year"":null,""hourly"":32.18},{""year"":null,""hourly"":37.89},{""year"":null,""hourly"":42.91},{""year"":null,""hourly"":44.21}]",,none,65,11,"roximately nine months.  During this period the apprentice earns wages equal to 40% of Journeyman  Wireman (JW) rate ($25.26), and after six months 45% of JW rate ($28.42).  In",raw/crawl/jatc/ejatt.com/https_ejatt_com_wp_content_uploads_2026_06_A_CONSTRUCTION_PROGRAM_INFO_update_june_2026_pdf.md,fail,review
+397,728,Ft. Lauderdale,4335723,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+337,606,Orlando,4272325,,,,,,,,[],,none,13,0,,,insufficient_data,reject
+57,68,Denver,4262008,49.35,49.35,,,22.70,,,"[{""year"":null,""hourly"":22.7}]",,none,8,2,"/index.php)  # Inside Wireman Apprenticeship  **Wages for this program start at $22.70/hr., and when you are finished you will be making $37.01/hr.**  Inside Wiremen",raw/crawl/jatc/djeatc68.com/https_djeatc68_com_inside_wireman_apprenticeship_.md,insufficient_data,review
+53,58,Detroit,4250509,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+208,349,Miami,4131766,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+80,103,Boston,3876507,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+313,553,Raleigh,3613051,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+213,354,Salt Lake City,3503613,46.22,46.22,,,,,,[],,none,7,1,able jobs list is updated daily at 5:30pm.**  Inside Journeyman Wireman Rate is $46.22  Communication Technician Rate is $33.78  CE/CW Rates Vary  \*\*You will be ask,raw/crawl/local/354/https_www_ibew354_org_openjobs.md,insufficient_data,review
+24,24,Baltimore,3492142,52.50,52.50,,,23.63,,,"[{""year"":1,""hourly"":23.63}]",,none,16,3,and annuity plan.  #### Competitive Starting Pay  1st year apprentices start at $23.63/hr plus benefits. Our Journeyman currently earn $52.50/hr with increases to wag,raw/crawl/jatc/jatc24.org/https_jatc24_org_.md,insufficient_data,review
+319,569,San Diego,3480523,23.58,24.88,,,,,,[],,none,44,2,onths) | % of Journeyman Wage | Hourly Rate | | --- | --- | --- | | 1ST | 40% | $23.58 | | 2ND | 44% | $25.94 | | 3RD | 48% | $28.30 | | 4TH | 52% | $30.65 | | 5TH |,raw/crawl/jatc/etiedu.org/https_etiedu_org_applicants_inside_wireman_faq.md,insufficient_data,review
+223,369,Louisville,3427692,37.88,77.64,,,17.69,50.00,50.00,"[{""year"":null,""hourly"":17.69},{""year"":null,""hourly"":24.28},{""year"":null,""hourly"":25.14}]",2024-05-29,day,177,13,urneyman Wireman Rate |  **Apprentice Wireman-Six (6) Periods**  | 1st Period | 50% of Journeyman Wireman | | --- | --- | | 2nd Period | 52.5% of Journeyman Wireman | | 3rd Peri,raw/crawl/local/369/https_www_ibewlocal369_com_Uploads_UploadedFiles_ibew369_neca_contract_2024_2029_final_20260420163447_pdf.md,pass,display
+203,340,Sacramento,3217734,,,,,,,,[],,none,45,0,,,insufficient_data,reject
+257,441,Santa Ana,3170435,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+5,5,Pittsburgh,3086704,,,,,,,,[],,none,7,0,,,insufficient_data,reject
+54,60,San Antonio,3083960,37.45,38.80,49.64,49.64,17.05,,,"[{""year"":1,""hourly"":17.05},{""year"":1,""hourly"":19.79},{""year"":1,""hourly"":20.15},{""year"":1,""hourly"":23.67},{""year"":1,""hourly"":31.43},{""year"":2,""hourly"":23.25},{""year"":2,""hourly"":25.61},{""year"":3,""hourly"":27.55},{""year"":3,""hourly"":31.0}]",,none,17,12,T APPLICATION](https://www.sotxjatc.org/application.html)  1ST YEAR APPRENTICE  $19.79/HR  ELECTRICAL STUDENT  2ND YEAR APPRENTICE  $23.67/HR  ELECTRICAL STUDENT  3RD,raw/crawl/jatc/sotxjatc.org/https_www_sotxjatc_org_.md,insufficient_data,review
+251,429,Nashville,2978189,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+297,520,Austin,2941487,22.98,38.30,,,28.88,,,"[{""year"":4,""hourly"":33.54},{""year"":5,""hourly"":28.88},{""year"":5,""hourly"":36.49}]",,none,64,8,"65% 4th Year  $25.03, with benefits $31.46  70% 5th Year  $26.95, with benefits $33.54  75% 6th Year  $28.88, with benefits $36.49  ### Journeymen  Base Scale:  $38.5",raw/crawl/local/520/https_www_ibew520_org_join_ibew_advantage.md,insufficient_data,review
+25,25,Long Island,2928347,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+46,48,Portland,2768124,44.07,65.50,,,,,,[],2026-01-01,day,28,4,age of the current prevailing Limited Residential Construction Journeyman rate ($44.07 per hour effective 1-1-2026) in addition to benefits.  | Pay Period | OJT Hours,raw/crawl/jatc/nietc.org/https_nietc_org_applicants_apprenticeship_programs_limited_residential_electrician_.md,insufficient_data,review
+44,46,Seattle,2733533,,,,,,,,[],,none,31,0,,,insufficient_data,reject
+79,102,Paterson,2668452,33.60,50.40,,,,,,[],,none,26,7,# 5th Period | #### 6th Period | #### 7th Period | #### Journeyman Rate | | 3 | $33.60 | $36.40 | $39.20 | $42.00 | $44.80 | $47.60 | $50.40 | $56.00 | | 42 | $31.20,raw/crawl/jatc/neat1968.org/https_www_neat1968_org_apprenticeship_pay_benefits_.md,insufficient_data,review
+1,1,St. Louis,2594533,,,,,,,,[],,none,41,0,,,insufficient_data,reject
+115,164,Jersey City,2558178,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+256,440,Riverside,2529933,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+331,595,Dublin,2511673,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+553,1205,Gainesville,2493847,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+215,357,Las Vegas,2442409,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+94,124,Kansas City,2436978,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+279,481,Indianapolis,2405065,,,57.43,78.71,20.85,,,"[{""year"":null,""hourly"":20.85},{""year"":null,""hourly"":20.85},{""year"":null,""hourly"":22.9},{""year"":null,""hourly"":22.9},{""year"":null,""hourly"":37.9}]",2026-01-01,year,24,9,wage for an apprentice after being accepted into the apprenticeship program is $22.90 per hour plus benefits and the graduates of the apprenticeship program currentl,raw/crawl/jatc/eti-indy.org/https_eti_indy_org_wp_content_uploads_2026_06_NOTICE_INSIDE_JUNE_2026_pdf.md,insufficient_data,display
+534,1141,Oklahoma City,2343992,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+177,292,Minneapolis,2277751,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+276,477,San Bernardino,2245757,,,,,,,,[],,none,33,0,,,insufficient_data,reject
+76,98,Philadelphia,2234345,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+375,683,Columbus,2109117,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+102,136,Birmingham,2013161,,,,,,,,[],,none,8,0,,,insufficient_data,reject
+204,342,Winston-Salem,2003754,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+201,332,San Jose,1926325,,,,,30.00,,,"[{""year"":null,""hourly"":30.0},{""year"":null,""hourly"":40.96},{""year"":null,""hourly"":42.99}]",,none,34,3,"r becoming an apprentice.  As an inside wireman apprentice, your wages start at $40.96 per hour for the first period and go up twice per year to the top wage of $81.9",raw/crawl/local/332/https_www_ibew332_org_apprenticeships.md,insufficient_data,review
+284,494,Milwaukee,1856989,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+78,100,Fresno,1828016,51.00,51.00,,,,,,[],,none,1,1,yan Lamb - Organizer (559) 477-9773  Journeyman Electricians are currently paid $51/hr plus whole-family medical and pension contributions.  We also offer a wide v,raw/crawl/local/100/https_www_ibew100_org_zone_unionactive_view_page_cfm_page_Join20the20IBEW20.md,insufficient_data,review
+339,611,Albuquerque,1807815,42.20,54.30,43.37,43.37,23.21,,,"[{""year"":1,""hourly"":23.21},{""year"":1,""hourly"":23.21},{""year"":1,""hourly"":24.31},{""year"":1,""hourly"":25.32},{""year"":1,""hourly"":25.32},{""year"":1,""hourly"":26.52},{""year"":null,""hourly"":32.58},{""year"":null,""hourly"":35.3},{""year"":null,""hourly"":38.01}]",,none,57,14,side Apprentice Wage Structure 2026:  First Year Period - $23.21  Second Year - $25.32  Third Year - $29.34  Fourth Year - $33.76  Fifth Year - $37.98  ## Inside Appr,raw/crawl/local/611/https_www_ibew611_org_apprenticeship.md,insufficient_data,review
+118,177,Jacksonville,1791176,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+86,110,St. Paul,1789663,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+210,351,Folsom,1773172,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+275,474,Memphis,1686584,23.54,38.38,,,,,,[],2026-08-03,day,30,4,tification |  **Effective 08/03/2026 through 07/31/2027 – Journeyworker rate is $38.25** **per hour.** The Registration Agency will be notified of all changes to the,raw/crawl/jatc/memphiselectricaljatc.org/https_memphiselectricaljatc_org_apply_now_.md,insufficient_data,review
+133,212,Cincinnati,1634066,,,,,,,,[],,none,12,0,,,insufficient_data,reject
+121,191,Everett,1613631,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+328,584,Tulsa,1587403,38.38,38.38,,,,,,[],,none,10,1,ntices are paid based on a percentage of the journeyman wage which is currently $38.38.  Period advancement requires 1500 on the job training hours accrued and comple,raw/crawl/jatc/tulsajatc.org/https_www_tulsajatc_org_applications_html.md,insufficient_data,review
+320,570,Tucson,1569077,,,,,,55.00,55.00,[],,none,19,2,tuition  Must pay for your own books: average cost $950 per year  Starting pay: 55% of Journeyman Wireman rate  Pay upgrades are granted when school hours and On-the-Job Trainin,raw/crawl/jatc/tucsonjatc.org/https_www_tucsonjatc_org_.md,insufficient_data,review
+367,666,Richmond,1545425,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+283,490,Dover,1541118,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+169,275,Muskegon,1508604,,,,,37.80,65.00,65.00,"[{""year"":null,""hourly"":37.8},{""year"":null,""hourly"":42.0}]",,none,8,3,job skills and tested on each competency along the way. Wages range from 45% to 65% of the journeyman rate as you move from CW1 to CW4. Graduates of this program earn the title of J,raw/crawl/jatc/wmejatc.org/https_www_wmejatc_org_programs.md,insufficient_data,review
+63,76,Tacoma,1502901,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+219,363,New City,1457876,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+334,602,Amarillo,1451558,26.07,49.10,,,,50.00,50.00,[],2025-03-01,day,241,75,TE | | 5^{TH}$ PERIOD | 75% | OF JOURNEYMAN WIREMAN RATE |  7  ---  6 TH PERIOD 85% OF JOURNEYMAN WIREMAN RATE  ## TH 6 PERIOD 85% OF JOURNEYMAN WIREMAN RATE  ## Effective March,raw/crawl/local/602/https_www_ibew602_org_wp_content_uploads_2022_10_Approved_Lubbock_CBA_2022_2025_pdf.md,insufficient_data,display
+544,1186,Honolulu,1446065,,,,,,,,[],,none,8,0,,,insufficient_data,reject
+65,80,Norfolk,1439588,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+139,223,Brockton,1377532,,,,,,40.00,40.00,[],,none,3,1,igned to an electrical contractor signatory to IBEW Local 223. - Starting pay — 40% of the Journeyman wage. - A probationary period is 1000 hours OJT or 6 months and also successful,raw/crawl/local/223/https_www_ibew223_org_apprentices_.md,insufficient_data,review
+36,38,Cleveland,1349087,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+171,280,Salem,1335738,39.46,55.27,,,,,,[],,none,10,3,66/hr in Retirement  AND 100% paid Full Family Healthcare  ### LEA  Journeyman  $40.34 hourly  $6.66/hr in Retirement  AND 100% paid Full Family Healthcare  ![](https,raw/crawl/local/280/https_www_ibew280_org_jobs.md,insufficient_data,review
+236,400,Asbury Park,1313954,33.60,50.40,,,17.31,,,"[{""year"":null,""hourly"":17.31},{""year"":null,""hourly"":19.25},{""year"":null,""hourly"":31.09}]",,none,30,10,fits do you offer?  The starting rate for a first-year commercial apprentice is $17.31\* per hour (total package $31.09\*) 2026.  The starting rate for a first-year t,raw/crawl/local/400/https_www_ibew400_org_jatc_apprenticeship_apprenticeship_faqs.md,insufficient_data,review
+293,508,Savannah,1301091,,,,,,,,[],,none,10,0,,,insufficient_data,reject
+116,175,Chattanooga,1293730,23.54,38.38,,,16.37,,,"[{""year"":1,""hourly"":16.37},{""year"":1,""hourly"":18.19}]",,none,18,4,a raise every year.  The current apprentice wage rate for LU 175 is:  1st Year: $16.37 per hour  2nd Year: $18.19 per hour  3rd Year: $20.01 per hour  4th Year 1st Se,raw/crawl/jatc/chattanoogaelectricaljatc.com/https_www_chattanoogaelectricaljatc_com_book_online.md,insufficient_data,review
+8,8,Toledo,1284776,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+179,295,Little Rock,1259461,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+147,236,Albany,1244598,40.00,50.00,83.32,83.32,,,,[],,none,14,3,ity | $4.24 per hour | | \*JATC (Training) | $0.93 per hour | | Total Package | $83.32 per hour |  \*Employer Contributions  ### 1st – 5th Year Apprentice Wireman Hou,raw/crawl/local/236/https_www_ibew236_org_join_us_.md,insufficient_data,review
+105,143,Harrisburg,1235992,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+99,130,New Orleans,1233922,36.00,43.20,,,18.00,,,"[{""year"":null,""hourly"":18.0},{""year"":null,""hourly"":28.8}]",,none,12,4,enticeship Duration  ## 4 Years  Varies by Trade  ## Apprenticeship Pay  ## $18-$28.80/hr  +Benefits  ## Journeyman Pay  ## $36-$43.20/hr  +Benefits  ## Application P,raw/crawl/local/130/https_ibewlu130_com_apprenticeship_.md,insufficient_data,review
+327,583,El Paso,1210567,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+77,99,Providence,1200597,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+22,22,Omaha,1194060,,,,,,,,[],,none,6,0,,,insufficient_data,reject
+207,347,Des Moines,1172795,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+182,302,Martinez,1172607,26.50,27.30,,,21.27,,,"[{""year"":null,""hourly"":21.27},{""year"":null,""hourly"":21.27}]",2026-01-01,year,17,4,"CATION APPRENTICESHIP APPLICATIONS  WWW.NORCAL-JATC.COM  Wage & Fringe Benefits $21.27 to $28.42 per hour to start, depending on location, as per IBEW/NECA Collective",raw/crawl/local/302/https_www_ibewlu302_com_wp_content_uploads_2023_08_SC_Apprenticeship_Announcement_2023_pdf.md,insufficient_data,display
+282,488,Bridgeport,1166805,60.50,60.50,,,20.00,,,"[{""year"":null,""hourly"":20.0}]",2027-09-01,month,9,2,purchase of books. | | Wage Information:<br>Starting pay for new apprentices is $20.00 per hour with an aggressive wage increase schedule leading to Journeyman Wirema,raw/crawl/local/488/https_www_ibewlocal488_org_content_apprenticeship_opportunities.md,insufficient_data,review
+191,313,Wilmington,1158222,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+33,35,Hartford,1147967,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+382,700,Ft. Smith,1122196,,,42.18,42.18,,,,[],,none,18,1,total wage package of $44.29 for Licensed Journeyman Wireman - hourly wages of $42.18 plus $16.81 benefits for a total wage package of $58.99 for Licensed Journeyman,raw/crawl/local/700/https_www_ibew700_com_organizing.md,insufficient_data,review
+413,760,Knoxville,1117408,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+62,73,Spokane,1104876,,,,,,,,[],,none,6,0,,,insufficient_data,reject
+67,82,Dayton,1084052,,,,,18.12,,,"[{""year"":1,""hourly"":18.12},{""year"":1,""hourly"":18.12}]",,none,48,2,id Benefits | Total Package | | :-- | :-- | :-- | :-- | | 1st Year Apprentice | $18.12 | $5.92 | $24.04 | | 2nd Year Apprentice | $19.70 | $15.59 | $35.29 | | 3rd Yea,raw/crawl/local/82/https_ibew82_org_ibew_82_apprenticeship_.md,insufficient_data,review
+278,480,Jackson,1074199,,,,,,,,[],,none,6,0,,,insufficient_data,reject
+315,558,Sheffield,1069438,,,,,,,,[],,none,10,0,,,insufficient_data,reject
+403,743,Reading,1069018,74.41,74.41,,,,,,[],,none,1,1,"back.  - **Great Pay & Benefits** Strong wages (journeyman wireman starting at $74.41/hr), excellent healthcare, and solid retirement plans – so you can focus on you",raw/crawl/local/743/https_ibewlocal743_org_now_hiring_.md,insufficient_data,review
+312,551,Santa Rosa,1058103,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+41,43,Syracuse,1045550,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+117,176,Joliet,1039167,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+39,41,Buffalo,1025429,23.75,80.00,,,,,,[],,none,11,8,"249.00 and is the apprentice's responsibility.  **CURRENT JOURNEYWORKER RATE**  $47.50 per hour  **APPRENTICE WAGE PROGRESSION**  • 1st Period - 1,000 hrs. OJT + scho",raw/crawl/local/41/https_www_ibewlocal41_com_zone_unionactive_view_page_cfm_page_Apprentice20Information.md,insufficient_data,review
+149,238,Asheville,994573,28.41,28.59,,,,,,[],,none,95,2,nd Benefits  Apprentices will earn a percentage of the Journeyman Wireman rate ($28.41/hr) according to the number of hours of On-the-Job (OTJ) training they have acc,raw/crawl/local/238/http_ibew238_org_index_cfm_zone_unionactive_view_page_cfm_page_Join.md,insufficient_data,review
+237,401,Reno,971998,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+71,90,New Haven,966269,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+176,291,Boise,964897,45.33,45.33,,,,,,[],,none,53,4,"questing  (  1  )  Journeyman Wireman  Contractor  Rosendin  wage  Base rate of $45.33 plus $20 per hour worked incentive. $200 per day worked Travel Pay, if eligible",raw/crawl/local/291/https_www_ibew291_org_dispatch.md,insufficient_data,review
+224,375,Allentown,961463,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+69,86,Rochester,961429,44.30,47.70,,,,,,[],,none,11,2,ON JOBS. [CLICK HERE](https://ibew86.workingsystems.com/)  - Journeyman Scale:  $47.70 - Health & Welfare: $12.15 + $1.00 - Pension: $10.36 - Annuity:  $6.85 - Vacati,raw/crawl/local/86/http_ibewlu86_org_job_calls_announcements_.md,insufficient_data,review
+74,96,Worcester,955883,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+14,14,Eau Claire,945482,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+501,995,Baton Rouge,943471,23.54,38.38,,,,,,[],,none,10,2,| --- | --- | | **Wage Schedule**(All rates based off of Journeyman rates from $23.54 – $38.38 an hour) | | |     |     | | --- | --- | | **Apprentice Lineman Rate**,raw/crawl/jatc/selcat.com/https_selcat_com_apprentice_training_apprentice_benefits_.md,insufficient_data,review
+383,701,Lisle,937142,,,,,,,,[],,none,11,0,,,insufficient_data,reject
+163,265,Lincoln,932878,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+376,684,Modesto,924687,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+250,428,Bakersfield,922529,,,,,26.39,,,"[{""year"":null,""hourly"":26.39}]",,none,1,1,"Does It Pay?  The inside wireman apprenticeship program has a starting wage of $26.39 per hour. Every six months, each apprentice will receive a wage increase, provi",raw/crawl/jatc/kerncountyjatc.com/https_kerncountyjatc_com_apply_.md,insufficient_data,review
+299,527,Galveston,917088,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+258,443,Montgomery,914496,23.54,38.38,,,,,,[],,none,6,2,| --- | --- | | **Wage Schedule**(All rates based off of Journeyman rates from $23.54 – $38.38 an hour) | | |     |     | | --- | --- | | **Apprentice Lineman Rate**,raw/crawl/jatc/selcat.com/https_selcat_com_apprentice_training_apprentice_benefits_.md,insufficient_data,review
+267,456,New Brunswick,907992,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+186,306,Akron,893920,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+167,271,Wichita,884958,,,,,,,,[],,none,7,0,,,insufficient_data,reject
+88,112,Kennewick,870844,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+89,113,Colorado Springs,839722,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+7,7,Springfield,837959,,,,,,,,[],,none,33,0,,,insufficient_data,reject
+481,952,Ventura,835427,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+6,6,San Francisco,827526,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+110,153,South Bend,812566,,,,,,,,[],,none,8,0,,,insufficient_data,reject
+317,567,Portland,811094,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+264,453,Springfield,809153,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+112,159,Madison,796857,33.61,78.67,36.43,78.67,20.08,40.00,85.00,"[{""year"":null,""hourly"":20.08},{""year"":null,""hourly"":20.08},{""year"":null,""hourly"":23.27}]",2026-05-31,day,22,19,"ian in your area.**<br>**Inside Electricians**<br>Inside Journeyman hourly wage $51.70<br>Plus employer-paid fringe benefits (retirement, health insurance)<br>Total w",raw/crawl/local/159/https_www_ibew159_org_zone_unionactive_view_article_cfm_HomeID_930748_page_Careers.md,fail,review
+475,934,Kingsport,791065,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+291,505,Mobile,789955,,,,,,,,[],,none,14,0,,,insufficient_data,reject
+452,861,Lake Charles,787778,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+574,1316,Macon,774118,33.50,35.05,,,,,,[],,none,10,2,Journeyman Wiremen  Start Date: ASAP  Start Time: 7 AM  Schedule: 5-8’s  Rate: $35.05  Job Duration: Indefinite  Job Location: Plant Scherer                     Juli,raw/crawl/local/1316/https_ibew1316_org_dispatch.md,insufficient_data,review
+274,466,Charleston,773143,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+165,269,Trenton,771122,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+146,234,Castroville,767816,65.16,84.49,,,29.32,45.00,45.00,"[{""year"":null,""hourly"":29.32}]",2025-12-30,day,269,22,Hourly | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Journeyman | $70.41 | $15.25 | $15.45 | $0.95 | $0.20 | $2.11 | $0.88 | $105.25 | | Foreman(15% abo,raw/crawl/local/234/https_ibew234_org_wp_content_uploads_2025_12_Inside_Wage_Rates_25_26_pdf.md,pass,display
+205,343,Le Sueur,765174,,,,,,,,[],,none,16,0,,,insufficient_data,reject
+141,226,Topeka,759467,,,,,,,,[],,none,16,0,,,insufficient_data,reject
+372,676,Pensacola,759411,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+61,72,Waco,743337,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+343,617,San Mateo,742893,,,,,,35.00,35.00,[],,none,2,2,"th 900 hours of classroom instruction. You'll earn while you learn, starting at 35% of journeyman's wage with regular raises as you progress. As an employee and union member, yo",raw/crawl/local/617/https_www_ibew617_com_en.md,insufficient_data,review
+277,479,Beaumont,733062,34.66,47.45,,,20.51,,,"[{""year"":null,""hourly"":20.51},{""year"":null,""hourly"":39.27}]",,none,13,4,"trical field. WE WILL PAY YOU ON YOUR STRENGTHS!!  Base pay for a Journeyman is $47.45 which includes Health Insurance, Dental Insurance, and Vision Insurance at ZERO",raw/crawl/local/479/https_ibew479_com_experienced_.md,insufficient_data,review
+636,1579,Augusta,731527,,,,,,,,[],,none,9,0,,,insufficient_data,reject
+596,1426,Grand Forks,719187,36.15,41.57,,,,,,[],,none,7,2,t Wage Increase**  |     |     | | --- | --- | | Journeyman Wage - Commercial | $36.15 | | Journeyman Wage - Industrial | $41.57 | | Health & Welfare | $8.10 | | Pens,raw/crawl/local/1426/https_www_ibew1426_org_zone_unionactive_view_article_cfm_HomeID_922564_page_Wat27s20New.md,insufficient_data,review
+108,150,Waukegan,718604,52.45,64.40,83.70,109.41,12.97,,,"[{""year"":null,""hourly"":12.97}]",2027-05-31,day,113,17,*NECA Service Charge(.60 of 1% of Gross Wages)“NECA | $0.34 | | TOTAL PACKAGE | $109.41 |  DEDUCTIONS: Working Assessments for Inside Journeyman Wireman and Inside App,raw/crawl/jatc/lakecountyjatc.org/https_lakecountyjatc_org_wp_content_uploads_2026_05_Inside_wireman_wage_sheet_pdf.md,insufficient_data,review
+467,903,Gulfport,717020,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+628,1547,Anchorage,712999,43.35,57.44,42.23,76.59,,,,[],,none,90,7,ooflat: [907-777-7231](tel:+19077777231)  JOURNEYMAN TELECOM WAGE as of 4/1/26: $54.53 (plus full benefit package)  IBEW workers are highly sought after by Alaska's t,raw/crawl/local/1547/https_www_ibew1547_org_classifications_telecommunications.md,insufficient_data,review
+170,278,Corpus Christi,709797,,,32.70,51.64,,,,[],,none,7,4,"## Tuesday August 11, 2026  _INSIDE_ _CALLS-_ Journeyman Inside Wireman Scale - $32.70 Straight time. $42.32 Total package.  2 JIWs to Malek, Inc. working at Cheniere",raw/crawl/local/278/https_www_ibew278_com_dispatch_aspx_zone_dispatch_pID_7475.md,insufficient_data,review
+185,305,Fort Wayne,704631,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+262,449,Pocatello,672298,38.97,61.46,,,,60.00,90.00,[],,none,44,31,yman Wage: $47.57 (as of 9-1-26)  - 1st Step 70% of Journeyman Wage  - 2nd Step 75% of Journeyman Wage  - 3rd Step 80% of Journeyman Wage  - 4th Step 90% of Journeyman Wage   ​​,raw/crawl/jatc/mslcat.org/https_www_mslcat_org_fitter.md,insufficient_data,review
+249,426,Sioux Falls,670780,,,,,,,,[],,none,13,0,,,insufficient_data,reject
+157,252,Ann Arbor,657195,,,,,,,,[],,none,11,0,,,insufficient_data,reject
+180,300,Montpelier,648493,,,,,,,,[],,none,27,0,,,insufficient_data,reject
+220,364,Rockford,607246,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+119,180,Vallejo,587828,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+160,257,Jefferson City,580909,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+193,317,Huntington,579997,,,,,,,,[],,none,22,0,,,insufficient_data,reject
+91,117,Elgin,576184,,,,,,,,[],,none,14,0,,,insufficient_data,reject
+306,540,Canton,576010,,,,,,45.00,70.00,[],,none,7,3,"18.93 per hour for Inside, 45% of Journeyman rate; $19.64 per hour for Telecom, 70% of Journeyman rate; $19.22 per hour for Residential, 60% of Journeyman rate  **Q:** How often",raw/crawl/jatc/cantonjatc.org/https_cantonjatc_org_faqs_.md,insufficient_data,review
+32,34,Peoria,571109,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+188,309,Collinsville,559486,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+479,948,Flint,558668,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+363,659,Medford,553272,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+409,756,Daytona Beach,549247,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+187,307,Cumberland,543926,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+579,1340,Newport News,538237,,,,,,,,[],,none,19,0,,,insufficient_data,reject
+111,158,Green Bay,530871,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+16,16,Evansville,530567,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+357,648,Hamilton,527572,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+361,654,Chester,519153,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+381,697,Gary and Hammond,517086,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+100,131,Kalamazoo,516592,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+106,145,Rock Island,510968,,,,,,,,[],,none,11,0,,,insufficient_data,reject
+395,725,Terre Haute,504277,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+325,577,Appleton,497625,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+366,665,Lansing,484664,39.00,39.00,,,16.00,,,"[{""year"":1,""hourly"":16.0},{""year"":1,""hourly"":19.0}]",,none,8,3,"EW Local 665  - **Hours Per Week:**    **40**  - **Journeyman Hourly Wage:**    $39.00  - **Journeyman Annual Salary:**    $81,120  - **Journeyman Total Annual Salary",raw/crawl/local/665/https_www_ibew665_org_wage_calculator.md,insufficient_data,review
+66,81,Scranton,483870,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+152,242,Duluth,480123,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+384,702,West Frankfort,474072,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+239,405,Cedar Rapids,473634,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+123,194,Shreveport,473229,,,,,,,,[],,none,7,0,,,insufficient_data,reject
+229,388,Stevens Point,468329,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+373,681,Wichita Falls,462289,,,,,,,,[],,none,15,0,,,insufficient_data,reject
+566,1253,Augusta,461832,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+270,461,Aurora,460836,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+473,917,Meridian,460593,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+242,413,Santa Barbara,444500,,,48.14,48.14,,,,[],,none,4,1,"on Electrician?**_  In Santa BarbaraCounty, a journeyman ""inside wireman"" earns $48.14 per hour plus benefits. (last updated 1-3-2023)  _**What are the Fringe Benefit",raw/crawl/local/413/http_www_ibew413_org_index_cfm_zone_unionactive_view_page_cfm_page_Electrical20Careers.md,insufficient_data,review
+388,712,Beaver,440002,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+142,229,York,437782,,,,,,,,[],,none,5,0,,,insufficient_data,reject
+98,129,Lorain,434482,41.49,65.66,,,22.60,50.00,50.00,"[{""year"":null,""hourly"":22.6}]",2026-02-23,day,24,9,|  |  Apprentice Rates  Total Journeyman Wireman $65.66*  Unindentured worker 50% of Journeyman Wireman rate $ ^{*} $  The above rates/benefits increase will expire on October,raw/crawl/local/129/https_www_ibew129_org_Uploads_UploadedFiles_ibew_local_129_inside_wage_sheet_02_23_2026_20260220085227_pdf.md,pass,display
+144,231,Sioux City,433851,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+323,575,Portsmouth,432246,,,,,,,,[],,none,27,0,,,insufficient_data,reject
+527,1105,Newark,429153,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+303,532,Billings,427383,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+379,692,Bay City,425577,,,,,,,,[],,none,42,0,,,insufficient_data,reject
+465,890,Janesville,425061,,,40.70,40.70,,45.00,85.00,[],2025-01-01,year,31,7,e the Journeyman rate.  ## APPRENTICE WIREMAN: SIX (6) PERIODS  | 1 ST PERIOD | 45% OF JOURNEYMAN WIREMAN RATE | | --- | --- | | 2 ND PERIOD | 50% OF JOURNEYMAN WIREMAN RATE | |,raw/crawl/local/890/https_ibew890_org_wp_content_uploads_2024_08_Inside_AGREEMENT_2022_2025_signed_pdf.md,insufficient_data,display
+333,601,Champaign-Urbana,411138,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+469,910,Watertown,407609,45.00,45.00,,,,,,[],,none,11,1,| | 29 |  |  |  |  |  |  | | 30 |  |  |  |  |  |  | | 31 |  | Journeyman Wage | $45.00 |  |  |  | | 32 |  | Health & Welfare | $13.53 |  |  |  | | 33 |  | Pension | $,raw/crawl/local/910/https_ibew910_org_jobs_list_.md,insufficient_data,review
+332,596,Clarksburg,389782,,,,,,,,[],,none,25,0,,,insufficient_data,reject
+286,498,Traverse City,387942,,,,,18.00,,,"[{""year"":null,""hourly"":18.0}]",,none,2,1,jpg)  ### APPRENTICESHIP DURATION  ## 5 years  ### STARTING APPRENTICE WAGE  ## $18/hour  ### \+ benefits  ### POST GRADUATION WAGE  ## $60-100k/year  ### \+ benef,raw/crawl/local/498/https_www_ibewlocal498_com_training_.md,insufficient_data,review
+389,714,Minot,383746,,,,,,,,[],,none,7,0,,,insufficient_data,reject
+377,688,Mansfield,379940,,,41.00,64.45,,,,[],,none,9,2,hours OJT + 720 Related Instruction  Journeyman Inside Wireman  Total Package = $64.45/hr       On Check:$41.00/hr   Pension: $7.75/hr    Annuity: $3.26/hr    H&W: **,raw/crawl/local/688/https_ibew688_org_training_.md,insufficient_data,review
+73,95,Joplin,372183,,,,,13.03,50.00,85.00,"[{""year"":1,""hourly"":13.03}]",,none,7,3,"y for a first year Apprentice in Local 95 is $13.03 per hour, which is based on 50% of the Journeyman Wireman Scale.  However the wage includes some important fringe benefits, which",raw/crawl/jatc/joplinjatc.com/http_joplinjatc_com_zone_unionactive_view_page_cfm_page_FAQ.md,insufficient_data,review
+12,12,Pueblo,367985,31.90,58.53,,,,50.00,50.00,[],,none,17,5,prenticeship Program  ### Inside Wireman Apprenticeship  Wages for this program start at 50% of Journeyman Scale  The apprenticeship includes a combination of on-the-job tr,raw/crawl/jatc/pueblojatc.org/https_pueblojatc_org_programs_.md,insufficient_data,review
+174,288,Waterloo,366072,,,,,,,,[],,none,4,0,,,insufficient_data,reject
+438,812,Williamsport,361247,,,,,,,,[],,none,20,0,,,insufficient_data,reject
+197,322,Casper,360512,38.97,61.46,,,,60.00,90.00,[],,none,44,30,yman Wage: $47.57 (as of 9-1-26)  - 1st Step 70% of Journeyman Wage  - 2nd Step 75% of Journeyman Wage  - 3rd Step 80% of Journeyman Wage  - 4th Step 90% of Journeyman Wage   ​​,raw/crawl/jatc/mslcat.org/https_www_mslcat_org_fitter.md,insufficient_data,review
+418,768,Kalispell,359937,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+364,661,Hutchinson,357174,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+302,531,LaPorte,356479,,,,,,33.00,33.00,[],,none,2,2,"ed hourly wage, as provided in the collective bargaining agreement, starting at 33% of the Journeyman's hourly wage.  Advancements shall be subject to satisfactory progress in on-th",raw/crawl/local/531/https_www_ibewlocal531_org_index_cfm_zone_unionactive_view_article_cfm_HomeID_748907_page_Apprenticeship.md,insufficient_data,review
+30,32,Lima,354529,46.82,46.82,,,,,,[],,none,14,1,and CW’s are not eligible for this call at this time. Journeyman scale will be $46.82. 5-10’s + work schedule.**  ## **1 JOURNEYMEN PERMANENT for C & J Electric to s,raw/crawl/local/32/https_ibew32_com_work_outlook_.md,insufficient_data,review
+145,233,Helena,349913,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+616,1516,Jonesboro,345780,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+261,446,Monroe,342544,25.20,25.20,,,,,,[],,none,1,1,tanding benefits.  #### ﻿  #### Great Pay!  The Journeyman wage scale starts at $25.20 for maintenance positions within Local 446 jurisdiction.  #### Great Benefits!,raw/crawl/local/446/https_www_ibew446_org_who_we_are.md,insufficient_data,review
+450,855,Muncie,338114,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+114,163,Wilkes-Barre,323408,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+370,673,Painesville,319421,39.64,39.64,,,17.84,,,"[{""year"":null,""hourly"":17.84},{""year"":null,""hourly"":33.69}]",,none,15,4,"age or a dollar amount of the current hourly journeyworker wage rate, which is: $39.64.  | Period | Dollar per Hour | Minimum Accumulative OJT Hours | + | Related Tra",raw/crawl/local/673/https_ibew673_org_wp_content_uploads_2024_12_Standards_Training_2024_720_Hours_pdf.md,insufficient_data,review
+51,56,Erie,311724,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+440,816,Paducah,308124,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+198,325,Binghamton,304585,,,,,,,,[],,none,10,0,,,insufficient_data,reject
+369,668,Lafayette,303646,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+122,193,Springfield,302976,,,,,,45.00,55.00,[],,none,5,3,"power distribution, lighting, controls, motors, PLCs, and automation. Start at ~45% of journeyman scale with annual raises across six periods.  - 8,000 hours supervised on-the-j",raw/crawl/jatc/springfieldjatc193.org/https_springfieldjatc193_org_.md,insufficient_data,review
+338,607,Shamokin,300915,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+314,557,Saginaw,297810,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+107,146,Decatur,291972,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+353,639,San Luis Obispo,281843,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+460,873,Kokomo,265149,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+565,1250,Rapid City,264483,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+55,64,Youngstown,258241,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+166,270,Oak Ridge,256344,33.00,33.00,,,17.88,50.00,80.00,"[{""year"":null,""hourly"":17.88},{""year"":null,""hourly"":18.78}]",,none,167,7,every   6 months:  <u>Class One (1) and Class Two (2) apprentices shall be paid 50% of the Journeyman’s Rate:</u>  | Class #1 | 50% of Journeyman | $15.27 | | --- | --- | --- | | Cl,raw/crawl/local/270/https_www_ibewlocal270_org_files_ugd_35c563_54cc275716064b1c9bb969a47e3965f4_pdf.md,pass,review
+260,445,Battle Creek,244833,,,,,,50.00,50.00,[],,none,7,1,"hin our jurisdiction is required.  The starting wage package for Apprentices is 50% of Journeyman rate, currently $20.50 on the check with another $10+ in benefits with step rai",raw/crawl/jatc/bcejatc.com/https_www_bcejatc_com_about.md,insufficient_data,review
+13,13,Burlington,242649,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+309,545,St. Joseph,240626,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+148,237,Niagara Falls,239334,,,48.20,48.20,,,,[],,none,8,1,inal Sign Date   ###### JW Package  ​​6/1/2026-5/30/2027  ​  - Journeyman Rate: $48.20  - Health & Welfare: $15.51  - Pension: $13.66  - Annuity: $2.25  - Working Due,raw/crawl/local/237/https_www_ibew237_com_work_outlook.md,insufficient_data,review
+446,840,Geneva,237864,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+321,573,Warren,233214,,,,,,80.00,80.00,[],,none,2,1,"-4 or Construction Electrician 1-3. The starting hourly rate varies from 40% to 80% of Journeyman rate, depending on experience.  The CW or CE then takes the task-specific train",raw/crawl/local/573/https_ibew573_org_join_union_.md,insufficient_data,review
+243,415,Cheyenne,227106,,,,,,,,[],,none,16,0,,,insufficient_data,reject
+385,704,Dubuque,220905,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+103,139,Elmira,217494,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+252,430,Racine,194678,,,,,,,,[],,none,3,0,,,insufficient_data,reject
+83,106,Jamestown,188310,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+492,972,Marietta,186402,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+178,294,Hibbing,169713,43.31,43.31,,,,,,[],2023-05-28,day,6,1,ship program and becomes a journeyman electrician in Local Union 294 will be: **$43.31/hr. plus Paid Benefits**  ### Working Together  * * *  ![](https://www.ibew294-,raw/crawl/local/294/https_www_ibew294_neca_org_the_benefits.md,insufficient_data,review
+97,127,Kenosha,168754,,,,,,,,[],,none,17,0,,,insufficient_data,reject
+104,141,Wheeling,159544,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+489,968,Parkersburg,138770,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+151,241,Ithaca,124303,,,,,,,,[],,none,0,0,,,insufficient_data,reject
+358,649,Alton,117891,,,,,,,,[],,none,2,0,,,insufficient_data,reject
+126,197,Bloomington,114369,,,,,,,,[],,none,24,0,,,insufficient_data,reject
+305,538,Danville,113209,,,,,,,,[],,none,1,0,,,insufficient_data,reject
+87,111,Denver,0,,,,,,,,[],,none,14,0,,,insufficient_data,reject

@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2035  (t) Romney[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "753",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2035|Romney|WV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "753",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 11[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4494",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 11",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Romney, WV 26757[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4494",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Romney|WV|26757",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](304) 790-1055[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1925",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 790-1055",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jobemellott@gmail.com\" target=\"_blank\">jobemellott@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2185",
+    "editFieldNames": "Email",
+    "editFieldValues": "jobemellott@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2035.com\" target=\"_blank\">www.ibew2035.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "753",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2035.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Joseph B. Mellott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2302",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|B.|Mellott||{ \"MemberID\" : \"2302\",\"luid\": \"753\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 11\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romney\",\"state\":\"WV\",\"zip\":\"26757\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Joseph B. Mellott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4070",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|B.|Mellott||{ \"MemberID\" : \"4070\",\"luid\": \"753\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Kevin J. Heavner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2303",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|J.|Heavner||{ \"MemberID\" : \"2303\",\"luid\": \"753\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 11\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romney\",\"state\":\"WV\",\"zip\":\"26757\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Sheryl A. Burner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2301",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sheryl|A.|Burner||{ \"MemberID\" : \"2301\",\"luid\": \"753\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 11\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romney\",\"state\":\"WV\",\"zip\":\"26757\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]166 Garber Lane, Winchester, VA, 2nd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "753",
+    "editFieldNames": "Meets",
+    "editFieldValues": "166 Garber Lane, Winchester, VA, 2nd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

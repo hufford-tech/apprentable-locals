@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2054  (rr) Quebec, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "762",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2054|Quebec|QC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "762",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1515 Rue Du Lac-Des-Forges[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7270",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1515 Rue Du Lac-Des-Forges",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Trois-Rivieres, QC G9C 0E5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7270",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Trois-Rivieres|QC|G9C 0E5",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:fioe.sectionlocale2054@gmail.com\" target=\"_blank\">fioe.sectionlocale2054@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1939",
+    "editFieldNames": "Email",
+    "editFieldValues": "fioe.sectionlocale2054@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.council-11.com\" target=\"_blank\">www.council-11.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "762",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.council-11.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Francois Rousseau, 380 Rue Celine Rajotte, Sainte-Helene-de-Bagot, QC  J0H 1M0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2327",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Francois||Rousseau||{ \"MemberID\" : \"2327\",\"luid\": \"762\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"380 Rue Celine Rajotte\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sainte-Helene-de-Bagot\",\"state\":\"QC\",\"zip\":\"J0H 1M0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jeremie Rivet, 87 Rue De l'Amethyste, Saint-Apollinaire, QC  G0S 2E0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2329",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremie||Rivet||{ \"MemberID\" : \"2329\",\"luid\": \"762\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"87 Rue De l'Amethyste\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saint-Apollinaire\",\"state\":\"QC\",\"zip\":\"G0S 2E0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Anthony Gauthier, 1515 Rue Du Lac-Des-Forges, Trois-Rivieres, QC  G9C 0E5[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2328",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony||Gauthier||{ \"MemberID\" : \"2328\",\"luid\": \"762\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1515 Rue Du Lac-Des-Forges\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trois-Rivieres\",\"state\":\"QC\",\"zip\":\"G9C 0E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Charles C. Beniot, 40 Eugénie, Valleyfield, QC  J6S 2W3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4080",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|C.|Beniot||{ \"MemberID\" : \"4080\",\"luid\": \"762\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"40 Eugénie\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Valleyfield\",\"state\":\"QC\",\"zip\":\"J6S 2W3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

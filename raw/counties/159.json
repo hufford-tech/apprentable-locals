@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Columbia County, WI",
+    "District": "6",
+    "Population": "52468",
+    "LandArea": "773.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dane County, WI",
+    "District": "6",
+    "Population": "426526",
+    "LandArea": "1201.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dodge County, WI",
+    "District": "6",
+    "Population": "85897",
+    "LandArea": "882.28",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Green Lake County, WI",
+    "District": "6",
+    "Population": "19105",
+    "LandArea": "354.28",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Iowa County, WI",
+    "District": "6",
+    "Population": "22780",
+    "LandArea": "762.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marquette County, WI",
+    "District": "6",
+    "Population": "15832",
+    "LandArea": "455.49",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Sauk County, WI",
+    "District": "6",
+    "Population": "55225",
+    "LandArea": "837.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

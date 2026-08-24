@@ -1,0 +1,246 @@
+lu_number,local_city,local_state,match_type,rapids_ps_id,rapids_name,rapids_city,rapids_state,rapids_status,score,n_programs,selection_rule
+3,Flushing,NY,lu_number_match,135920,Jac Ibew Electrical Lu #3,Flushing,NY,Registered,100.0,3.0,unqualified_name
+11,Pasadena,CA,no_match,,,,,,58.8,,
+134,Chicago,IL,city_fuzzy_match,87948,ECWA-ECEA JATC,Chicago,IL,Registered,100.0,1.0,sole_program
+26,Lanham,MD,no_match,,,,,,26.7,,
+103,Dorchester,MA,lu_number_match,9999,ELECTRICIANS LU #103 BOSTON,BOSTON,MA,Cancelled,100.0,1.0,sole_program
+613,Atlanta,GA,no_match,,,,,,61.5,,
+48,Portland,OR,city_fuzzy_match,113170,NECA-IBEW ELECTRICAL JATC,PORTLAND,OR,Registered,100.0,1.0,sole_program
+46,Kent,WA,city_fuzzy_match,118671,Greater Puget Sound Electrical Workers Apprenticeship Committee,Kent,WA,Registered,100.0,1.0,sole_program
+369,Louisville,KY,city_fuzzy_match,42884,LOUISVILLE ELECTRICAL JATC (5YR ),LOUISVILLE,KY,Registered,100.0,1.0,sole_program
+20,Grand Prairie,TX,city_fuzzy_match,49690,North Texas Electrical JATC,GRAND PRAIRIE,TX,Registered,100.0,1.0,sole_program
+58,Detroit,MI,no_match,,,,,,31.6,,
+1,St. Louis,MO,lu_number_match,55341,IBEW/NECA LU 1 Electricians JATC,Saint Louis,MO,Registered,100.0,2.0,unqualified_name
+702,West Frankfort,IL,lu_number_match,64386,NECA-IBEW #702 J.A.T.C.,West Frankfort,IL,Registered,100.0,1.0,sole_program
+292,Brooklyn Park,MN,no_match,,,,,,27.3,,
+481,Indianapolis,IN,lu_number_match,42561,Electrical Training Institute (LU 481),Indianapolis,IN,Registered,100.0,1.0,sole_program
+124,Kansas City,MO,lu_number_match,15613,IBEW LU 124 / NECA KC ELECTRICAL JATC,Kansas City,MO,Registered,100.0,2.0,unqualified_name
+98,Philadelphia,PA,city_fuzzy_match,49224,Apprentice Training for the Electrical Industry,Philadelphia,PA,Registered,100.0,1.0,sole_program
+111,Denver,CO,city_fuzzy_match,2299,Denver Electrical JATC-Inside,DENVER,CO,Registered,100.0,4.0,live_status
+640,Phoenix,AZ,city_fuzzy_match,2188,Phoenix Electrical JATC,PHOENIX,AZ,Registered,100.0,1.0,sole_program
+1547,Anchorage,AK,city_fuzzy_match,40046,Alaska Joint Electrical Apprenticeship and Training Trust,ANCHORAGE,AK,Registered,100.0,2.0,live_status
+357,Las Vegas,NV,city_fuzzy_match,26685,Electrical JATC of Southern Nevada - WIREMAN,LAS VEGAS,NV,Registered,100.0,3.0,live_status
+683,Columbus,OH,no_match,,,,,,33.3,,
+175,Chattanooga,TN,city_fuzzy_match,59754,CHATTANOOGA ELECTRICAL JATC,Chattanooga,TN,Registered,100.0,2.0,live_status
+569,San Diego,CA,city_fuzzy_match,4495,San Diego & Imperial County Electrical JATC,San Diego,CA,Registered,100.0,3.0,unqualified_name
+332,San Jose,CA,no_match,,,,,,66.7,,
+716,Houston,TX,city_fuzzy_match,52171,Houston Electrical JATC,HOUSTON,TX,Registered,100.0,2.0,live_status
+595,Dublin,CA,no_match,,,,,,46.2,,
+5,Pittsburgh,PA,lu_number_match,55654,(PITTS) ELECTRICIANS LOCAL 5 JATC,PITTSBURGH,PA,Registered,100.0,2.0,live_status
+494,Milwaukee,WI,no_match,,,,,,25.0,,
+60,San Antonio,TX,city_fuzzy_match,49454,SOUTH TEXAS ELECTRICAL JATC ,SAN ANTONIO,TX,Registered,100.0,1.0,sole_program
+354,Salt Lake City,UT,no_match,,,,,,8.0,,
+24,Baltimore,MD,lu_number_match,762,Baltimore JATC for the Electrical Industry (IBEW 24),Baltimore,MD,Registered,100.0,1.0,sole_program
+760,Knoxville,TN,no_match,,,,,,66.7,,
+1105,Nashport,OH,no_match,,,,,,44.4,,
+102,Parsippany,NJ,lu_number_match,22019,"International Brotherhood of Electrical Workers (IBEW), Local 102, JATC",Parsippany,NJ,Registered,100.0,1.0,sole_program
+611,Albuquerque,NM,city_fuzzy_match,83836,JATC FOR THE ELECTRICAL INDUSTRY,ALBUQUERQUE,NM,Registered,100.0,3.0,live_status
+340,Sacramento,CA,city_fuzzy_match,52794,Sacramento Electrical JATC,SACRAMENTO,CA,Registered,100.0,1.0,sole_program
+1186,Honolulu,HI,city_fuzzy_match,63713,HAWAII ELECTRICIANS JOINT APPRENTICESHIP COMMITTEE,HONOLULU,HI,Registered,100.0,1.0,sole_program
+38,Cleveland,OH,no_match,,,,,,40.0,,
+164,Paramus,NJ,city_fuzzy_match,21746,"International Brotherhood of Electrical Workers (IBEW), Local Union 164, JATC",Paramus,NJ,Registered,100.0,1.0,sole_program
+659,Central Point,OR,no_match,,,,,,30.0,,
+6,San Francisco,CA,city_fuzzy_match,40542,SAN FRANCISCO JATC FOR THE ELECTRICAL INDUSTRY,SAN FRANCISCO,CA,Registered,100.0,1.0,sole_program
+441,Orange,CA,no_match,,,,,,46.2,,
+110,St. Paul,MN,lu_number_match,16707,LOCAL 110 LVSI JAC,SAINT PAUL,MN,Cancelled,100.0,1.0,sole_program
+191,Marysville,WA,no_match,,,,,,33.3,,
+22,Omaha,NE,city_fuzzy_match,46545,OMAHA ELECTRICAL JEATC,OMAHA,NE,Registered,100.0,3.0,unqualified_name
+177,Jacksonville,FL,city_fuzzy_match,42820,Jacksonville Electrical JATC,JACKSONVILLE,FL,Registered,100.0,2.0,live_status
+429,Nashville,TN,city_fuzzy_match,56396,Nashville Electrical JATC,NASHVILLE,TN,Registered,100.0,1.0,sole_program
+666,Highland Springs,VA,lu_number_match,76436,"JATC RICHMOND ELECTRICIANS, LOCAL 666",North Chesterfield,VA,Registered,100.0,1.0,sole_program
+474,Memphis,TN,city_fuzzy_match,52512,Memphis Electrical JATC,MEMPHIS,TN,Registered,100.0,1.0,sole_program
+347,Ankeny,IA,no_match,,,,,,30.8,,
+558,Sheffield,AL,city_fuzzy_match,1362,North Alabama Electrical Training Alliance,SHEFFIELD,AL,Registered,100.0,1.0,sole_program
+8,Rossford,OH,city_fuzzy_match,52322,"ELECTRICIANS JATC, TOLEDO",ROSSFORD,OH,Registered,100.0,1.0,sole_program
+68,Denver,CO,city_fuzzy_match,2299,Denver Electrical JATC-Inside,DENVER,CO,Registered,100.0,4.0,live_status
+520,Austin,TX,city_fuzzy_match,48656,AUSTIN ELECTRICAL JATC,AUSTIN,TX,Registered,100.0,1.0,sole_program
+602,Amarillo,TX,city_fuzzy_match,35962,West Texas Electrical JATC,AMARILLO,TX,Registered,100.0,1.0,sole_program
+153,South Bend,IN,city_fuzzy_match,52495,South Bend & Vicinity Electrical J.A.T.C.,SOUTH BEND,IN,Registered,100.0,1.0,sole_program
+212,Cincinnati,OH,city_fuzzy_match,26455,"ELECTRICIANS JATC, CINCINNATI AREA",CINCINNATI,OH,Registered,100.0,1.0,sole_program
+351,Hammonton,NJ,lu_number_match,21325,"International Brotherhood of Electrical Workers (IBEW), Local 351, JATC",Folsom,NJ,Registered,100.0,1.0,sole_program
+363,Harriman,NY,city_fuzzy_match,135889,Ibew Local Union 363,Harriman,NY,Registered,100.0,1.0,sole_program
+606,Orlando,FL,no_match,,,,,,55.6,,
+291,Boise,ID,city_fuzzy_match,43009,Southwestern Idaho Electrical JATC,Boise,ID,Registered,100.0,2.0,live_status
+280,Tangent,OR,city_fuzzy_match,113388,CENTRAL ELECTRICAL JATC,TANGENT,OR,Registered,100.0,1.0,sole_program
+100,Fresno,CA,city_fuzzy_match,36218,"Fresno, Madera, Kings & Tulare County Electrical JATC",FRESNO,CA,Registered,100.0,1.0,sole_program
+236,Niskayuna,NY,lu_number_match,136365,Tri-City Electricians Jatc Lu #236,Latham,NY,Registered,100.0,1.0,sole_program
+617,San Mateo,CA,no_match,,,,,,66.7,,
+34,Bartonville,IL,lu_number_match,56699,Electricians Local #34 JATC,Bartonville,IL,Registered,100.0,1.0,sole_program
+159,Madison,WI,city_fuzzy_match,84184,Racine Area Electrical JAC,Madison,WI,Registered,100.0,9.0,unqualified_name
+112,Kennewick,WA,city_fuzzy_match,118647,Columbia Basin Electrical Training Alliance Committee,Kennewick,WA,Registered,100.0,1.0,sole_program
+349,Miami,FL,city_fuzzy_match,3081,MIAMI ELECTRICAL JOINT APPRENTICESHIP AND TRAINING COMMITTEE,MIAMI,FL,Registered,100.0,1.0,sole_program
+697,Merrillville,IN,city_fuzzy_match,8747,LAKE COUNTY ELECTRICIANS J.A.T.C.,Merrillville,IN,Registered,100.0,1.0,sole_program
+1141,Oklahoma City,OK,city_fuzzy_match,29009,PONCA CITY ELECTRICAL JATC,Oklahoma City,OK,Registered,100.0,2.0,unqualified_name
+379,Charlotte,NC,city_fuzzy_match,142900,Charlotte Electrical JATC,Charlotte,NC,Registered,100.0,1.0,sole_program
+701,Warrenville,IL,city_fuzzy_match,51976,DuPage County 701 JATC,Warrenville,IL,Registered,100.0,1.0,sole_program
+915,Tampa,FL,city_fuzzy_match,59119,Tampa Area Electrical JATC,Tampa,FL,Registered,100.0,3.0,live_status
+477,San Bernardino,CA,city_fuzzy_match,44115,Riverside Area Electrical JATC,San Bernardino,CA,Registered,100.0,2.0,unqualified_name
+130,Metairie,LA,city_fuzzy_match,58474,New Orleans Electrical JATC,Metairie,LA,Registered,100.0,1.0,sole_program
+43,Clay,NY,city_fuzzy_match,135673,Central New York Electrical Training Alliance,Clay,NY,Registered,100.0,1.0,sole_program
+440,Riverside,CA,city_fuzzy_match,56892,California-Nevada JATC,Riverside,CA,Cancelled,100.0,1.0,sole_program
+41,Orchard Park,NY,lu_number_match,135769,Electricians Jac Buffalo Lu #41,Orchard Park,NY,Registered,100.0,1.0,sole_program
+176,Joliet,IL,lu_number_match,52605,IBEW-NECA LOCAL #176 JATC ,JOLIET,IL,Registered,100.0,1.0,sole_program
+309,Collinsville,IL,city_fuzzy_match,5154,Southwestern Illinois JATC - Electricians,Collinsville,IL,Registered,100.0,1.0,sole_program
+86,Rochester,NY,city_fuzzy_match,136218,Rochester Electrical Jatc #86,Rochester,NY,Registered,100.0,1.0,sole_program
+302,Martinez,CA,city_fuzzy_match,40909,Contra Costa Co. Electrical JATC,Martinez,CA,Registered,100.0,1.0,sole_program
+428,Bakersfield,CA,no_match,,,,,,50.0,,
+269,Trenton,NJ,lu_number_match,51780,"International Brotherhood of Electrical Workers (IBEW), Local 269",Lawrence Township,NJ,Registered,100.0,1.0,sole_program
+145,Moline,IL,lu_number_match,44162,QUAD CITY ELECTRICAL JATC LU 145,MOLINE,IL,Registered,100.0,1.0,sole_program
+306,Akron,OH,city_fuzzy_match,26595,"ELECTRICIANS JATC, AKRON",AKRON,OH,Registered,100.0,2.0,unqualified_name
+725,Terre Haute,IN,city_fuzzy_match,56091,Terre Haute Electrical JATC,Terre Haute,IN,Registered,100.0,1.0,sole_program
+317,Huntington,WV,city_fuzzy_match,34440,HUNTINGTON ELECTRICAL JATC,HUNTINGTON,WV,Registered,100.0,1.0,sole_program
+570,Tucson,AZ,city_fuzzy_match,59899,Tucson Electrical JATC,Tucson,AZ,Registered,100.0,1.0,sole_program
+14,Fall Creek,WI,no_match,,,,,,50.0,,
+816,Paducah,KY,city_fuzzy_match,42552,PADUCAH ELECTRICIANS JATC (5YRS) ,PADUCAH,KY,Registered,100.0,1.0,sole_program
+76,Tacoma,WA,city_fuzzy_match,118716,Southwest Washington Electrical Joint Apprenticeship and Training Committee,Tacoma,WA,Registered,100.0,2.0,live_status
+82,Dayton,OH,city_fuzzy_match,51609,"ELECTRICIANS JATC, DAYTON",DAYTON,OH,Registered,100.0,1.0,sole_program
+16,Evansville,IN,lu_number_match,4318,Evansville Electrical JATC (LU16),Evansville,IN,Registered,100.0,1.0,sole_program
+401,Reno,NV,lu_number_match,25334,ELECTRICAL LOCAL #401,RENO,NV,Registered,100.0,3.0,live_status
+553,Durham,NC,no_match,,,,,,26.7,,
+113,Colorado Springs,CO,city_fuzzy_match,44766,Colorado Springs Electrical JATC - Inside Program,Colorado Springs,CO,Registered,100.0,1.0,sole_program
+343,Rochester,MN,city_fuzzy_match,121033,SOUTH CENTRAL MN ELECTRICAL JATC,Rochester,MN,Registered,100.0,1.0,sole_program
+426,Sioux Falls,SD,no_state_candidates,,,,,,0.0,,
+271,Wichita,KS,city_fuzzy_match,74322,Wichita Electrical Joint Apprenticeship Training Committee,Wichita,KS,Registered,100.0,2.0,live_status
+99,Cranston,RI,lu_number_match,69932,IBEW 99 JATC,Cranston,RI,Registered,100.0,1.0,sole_program
+7,Springfield,MA,lu_number_match,12552,"ELECTRICIANS, LU #7 SPRINGFIELD",SPRINGFIELD,MA,Cancelled,100.0,1.0,sole_program
+252,Ann Arbor,MI,no_match,,,,,,47.1,,
+728,Ft. Lauderdale,FL,city_fuzzy_match,3090,GOLD COAST ELEC JATC,FORT LAUDERDALE,FL,Cancelled,89.7,1.0,sole_program
+300,South Burlington,VT,lu_number_match,129599,IBEW Local 300,South Burlington,VT,Registered,100.0,2.0,live_status
+1579,Augusta,GA,city_fuzzy_match,3983,CSRA ELECTRICAL JATC,AUGUSTA,GA,Registered,100.0,1.0,sole_program
+479,Beaumont,TX,no_match,,,,,,42.9,,
+1426,Grand Forks,ND,no_match,,,,,,25.0,,
+456,North Brunswick,NJ,city_fuzzy_match,55064,"International Brotherhood of Electrical Workers (IBEW), Local Union 456, JATC",North Brunswick,NJ,Registered,100.0,1.0,sole_program
+531,LaPorte,IN,no_match,,,,,,50.0,,
+80,Norfolk,VA,lu_number_match,76969,JATC Tidewater Electrical Industry - LOCAL 80,Norfolk,VA,Registered,100.0,1.0,sole_program
+995,Baton Rouge,LA,city_fuzzy_match,59491,Baton Rouge Electrical JATC,Baton Rouge,LA,Registered,100.0,2.0,live_status
+714,Minot,ND,no_match,,,,,,20.0,,
+665,Lansing,MI,city_fuzzy_match,47637,Lansing Area Electrical JATC,Lansing,MI,Registered,100.0,1.0,sole_program
+375,Allentown,PA,lu_number_match,57494,ALLENTOWN ELECTRICIANS JATC LOCAL 375,ALLENTOWN,PA,Registered,100.0,1.0,sole_program
+150,Libertyville,IL,lu_number_match,6888,"LAKE COUNTY JATC  LOCAL 150, IBEW",LIBERTYVILLE,IL,Registered,100.0,1.0,sole_program
+136,Birmingham,AL,city_fuzzy_match,44285,Birmingham Electrical JATC,Birmingham,AL,Registered,100.0,2.0,live_status
+601,Champaign,IL,lu_number_match,58554,Champaign-Urbana-Streator-Pontiac Local 601 NECA-IBEW,Champaign,IL,Registered,100.0,1.0,sole_program
+270,Oak Ridge,TN,city_fuzzy_match,66920,OAK RIDGE ELECTRIC JATC,Oak Ridge,TN,Registered,100.0,1.0,sole_program
+405,Cedar Rapids,IA,city_fuzzy_match,4666,Cedar Rapids Electrical JATC Local Union 405,Cedar Rapids,IA,Registered,100.0,2.0,live_status
+668,Lafayette,IN,city_fuzzy_match,52401,Lafayette Electrical J.A.T.C.,LAFAYETTE,IN,Registered,100.0,1.0,sole_program
+890,Janesville,WI,no_match,,,,,,30.0,,
+903,Gulfport,MS,city_fuzzy_match,48075,GULFPORT ELECTRICIANS JATC,Gulfport,MS,Registered,100.0,1.0,sole_program
+449,Pocatello,ID,city_fuzzy_match,7187,Eastern Idaho Electrical JATC,Pocatello,ID,Registered,100.0,2.0,live_status
+322,Casper,WY,city_fuzzy_match,34217,WYOMING STATEWIDE ELECTRICAL JATC,CASPER,WY,Registered,100.0,1.0,sole_program
+540,Massillon,OH,city_fuzzy_match,28929,"ELECTRICIANS JATC, CANTON",Massillon,OH,Registered,100.0,2.0,unqualified_name
+146,Decatur,IL,city_fuzzy_match,9192,Midstate Electrical Training Center,Decatur,IL,Registered,100.0,1.0,sole_program
+193,Springfield,IL,lu_number_match,9200,NECA-IBEW Local #193 JATC,Springfield,IL,Registered,100.0,1.0,sole_program
+768,Kalispell,MT,no_match,,,,,,26.7,,
+73,Spokane,WA,city_fuzzy_match,118709,Inland Empire Electrical Training Trust,Spokane,WA,Registered,100.0,2.0,live_status
+313,New Castle,DE,lu_number_match,78874,Local 313 - Electricians IBEW JATC,New Castle,DE,Registered,100.0,1.0,sole_program
+305,Fort Wayne,IN,city_fuzzy_match,52970,FORT WAYNE ELECTRICAL J.A.T.C.,Fort Wayne,IN,Registered,100.0,1.0,sole_program
+443,Montgomery,AL,city_fuzzy_match,1283,Montgomery Electrical JATC,MONTGOMERY,AL,Registered,100.0,1.0,sole_program
+257,Jefferson City,MO,lu_number_match,56591,IBEW-NECA JATC LU 257 JEFF CITY,Jefferson City,MO,Registered,100.0,1.0,sole_program
+278,Corpus Christi,TX,city_fuzzy_match,49655,TEXAS GULF COAST ELECTRICAL JATC,CORPUS CHRISTI,TX,Registered,100.0,1.0,sole_program
+681,Wichita Falls,TX,city_fuzzy_match,54601,WICHITA FALLS ELECTRICAL JATC ,WICHITA FALLS,TX,Registered,100.0,1.0,sole_program
+532,Billings,MT,no_match,,,,,,28.6,,
+648,Hamilton,OH,city_fuzzy_match,26456,BUTLER COUNTY ELECTRICAL JATC,HAMILTON,OH,Registered,100.0,2.0,live_status
+861,Lake Charles,LA,city_fuzzy_match,58204,Lake Charles Electrical JATC,Lake Charles,LA,Registered,100.0,1.0,sole_program
+400,Wall,NJ,lu_number_match,46505,"International Brotherhood of Electrical Workers (IBEW), Local 400",WALL,NJ,Registered,100.0,1.0,sole_program
+551,Santa Rosa,CA,city_fuzzy_match,52405,REDWOOD EMPIRE ELECTRICAL JATC ,SANTA ROSA,CA,Registered,100.0,2.0,unqualified_name
+194,Shreveport,LA,city_fuzzy_match,42564,LIBBEY ELECTRIC JAC,SHREVEPORT,LA,Cancelled,100.0,2.0,unqualified_name
+158,Green Bay,WI,no_match,,,,,,52.6,,
+364,Rockford,IL,city_fuzzy_match,55060,N IL Electrical 364 JATC - Electricians,ROCKFORD,IL,Registered,100.0,1.0,sole_program
+226,Topeka,KS,city_fuzzy_match,74652,Topeka Electrical JATC,Topeka,KS,Registered,100.0,1.0,sole_program
+505,Mobile,AL,city_fuzzy_match,1562,Mobile Electricians JATC,Mobile,AL,Registered,100.0,2.0,live_status
+446,Monroe,LA,city_fuzzy_match,59743,Monroe Electrical JATC,Monroe,LA,Registered,100.0,1.0,sole_program
+180,Napa,CA,city_fuzzy_match,40901,Solano - Napa Counties Electrical JATC,NAPA,CA,Registered,100.0,2.0,live_status
+952,Ventura,CA,no_match,,,,,,50.0,,
+265,Lincoln,NE,city_fuzzy_match,19315,LINCOLN ELECTRICAL JATC,LINCOLN,NE,Registered,100.0,1.0,sole_program
+712,Beaver,PA,city_fuzzy_match,48710,WESTERN PA ELECTRICIANS RESIDENTIAL PROG,BEAVER,PA,Cancelled,100.0,1.0,sole_program
+90,Wallingford,CT,no_match,,,,,,52.6,,
+583,El Paso,TX,city_fuzzy_match,25670,EL PASO ELECTRICAL JATC,EL PASO,TX,Registered,100.0,1.0,sole_program
+692,Bay City,MI,city_fuzzy_match,56076,BAY CITY ELECTRICAL JATC,BAY CITY,MI,Registered,100.0,1.0,sole_program
+1340,Newport News,VA,lu_number_match,76791,JATC Hampton Roads Electrical Industry - LOCAL 1340,Newport News,VA,Registered,100.0,1.0,sole_program
+948,Flint,MI,city_fuzzy_match,10963,Flint Electrical JATC,FLINT,MI,Registered,100.0,1.0,sole_program
+1205,Gainesville,FL,city_fuzzy_match,54394,Gainesville Electrical JATC,GAINESVILLE,FL,Registered,100.0,1.0,sole_program
+508,Savannah,GA,city_fuzzy_match,3975,Savannah Electrical Training Alliance,Savannah ,GA,Registered,100.0,1.0,sole_program
+684,Modesto,CA,city_fuzzy_match,36213,Central Valley JATC,Modesto,CA,Registered,100.0,1.0,sole_program
+242,Duluth,MN,city_fuzzy_match,120998,IRON RANGE ELECTRICAL JAC,Duluth,MN,Registered,100.0,3.0,unqualified_name
+81,Scranton,PA,no_match,,,,,,58.8,,
+35,Hartford,CT,city_fuzzy_match,44400,BATTLE CREEK ELECTRICAL JATC,HARTFORD,CT,Cancelled,100.0,1.0,sole_program
+131,Kalamazoo,MI,no_match,,,,,,35.3,,
+325,Binghamton,NY,lu_number_match,135768,Electricians Jac Binghamton Lu #325,Binghamton,NY,Registered,100.0,1.0,sole_program
+342,Greensboro,NC,city_fuzzy_match,142842,Carolinas Electrical JATC,Greensboro,NC,Registered,100.0,1.0,sole_program
+480,Jackson,MS,no_match,,,,,,42.9,,
+873,Kokomo,IN,city_fuzzy_match,43067,Marion-Kokomo Electricians J.A.T.C.,KOKOMO,IN,Registered,100.0,1.0,sole_program
+654,Boothwyn,PA,lu_number_match,61512,Chester Electricians JAC (IBEW 654) (Comm/Ind),BOOTHWYN,PA,Registered,100.0,2.0,live_status
+575,Portsmouth,OH,city_fuzzy_match,20810,"ELECTRICIANS JATC, PORTSMOUTH",Portsmouth,OH,Registered,100.0,1.0,sole_program
+275,Coopersville,MI,city_fuzzy_match,63736,West Michigan Electrical JATC,Coopersville,MI,Registered,100.0,2.0,live_status
+129,Lorain,OH,city_fuzzy_match,64432,"ELECTRICIANS JATC, LORAIN COUNTY",LORAIN,OH,Registered,100.0,1.0,sole_program
+453,Springfield,MO,lu_number_match,63751,IBEW/NECA JATC LU 453 SPFLD,SPRINGFIELD,MO,Registered,100.0,1.0,sole_program
+388,Stevens Point,WI,no_match,,,,,,26.1,,
+584,Tulsa,OK,city_fuzzy_match,51099,TULSA ELECTRICAL JATC,TULSA,OK,Registered,100.0,1.0,sole_program
+743,Leesport,PA,lu_number_match,26887,READING ELECTRICIANS JATC LOCAL 743,READING,PA,Registered,100.0,1.0,sole_program
+223,Taunton,MA,no_match,,,,,,46.2,,
+143,Harrisburg,PA,city_fuzzy_match,49884,HARRISBURG ELECTRICIANS JATC,HARRISBURG,PA,Registered,100.0,1.0,sole_program
+577,Appleton,WI,no_match,,,,,,40.0,,
+910,Watertown,NY,lu_number_match,135774,Electricians Jac-Watertown Lu #910,Watertown,NY,Registered,100.0,1.0,sole_program
+649,Alton,IL,lu_number_match,33585,IBEW LOCAL #649 JATC RESIDENTIAL,ALTON,IL,Cancelled,100.0,1.0,sole_program
+64,Youngstown,OH,city_fuzzy_match,28978,"ELECTRICIANS JATC, YOUNGSTOWN AREA",YOUNGSTOWN,OH,Registered,100.0,1.0,sole_program
+700,Ft. Smith,AR,city_fuzzy_match,42807,Fort Smith Electrical JATC,FORT SMITH,AR,Registered,84.2,1.0,sole_program
+163,Wilkes-Barre,PA,no_match,,,,,,36.4,,
+545,St. Joseph,MO,lu_number_match,15612,IBEW-NECA JATC LU 545 ST. JOSEPH,Saint Joseph,MO,Registered,100.0,1.0,sole_program
+307,Cumberland,MD,no_match,,,,,,21.1,,
+1516,Jonesboro,AR,city_fuzzy_match,2219,JONESBORO ELECTRICAL JATC,Jonesboro,AR,Registered,100.0,1.0,sole_program
+488,Monroe,CT,no_match,,,,,,28.6,,
+756,Port Orange,FL,city_fuzzy_match,3548,DAYTONA BEACH ELECTRICAL JATC,PORT ORANGE,FL,Registered,100.0,1.0,sole_program
+295,Little Rock,AR,city_fuzzy_match,2068,LITTLE ROCK ELECTRICAL JATC,LITTLE ROCK,AR,Registered,100.0,1.0,sole_program
+234,Salinas,CA,no_match,,,,,,50.0,,
+72,Waco,TX,city_fuzzy_match,52252,WACO ELECTRICAL JATC,WACO,TX,Registered,100.0,1.0,sole_program
+676,Pensacola,FL,city_fuzzy_match,3277,GULF COAST ELECTRIC JATC,Pensacola,FL,Registered,100.0,1.0,sole_program
+466,Charleston,WV,city_fuzzy_match,56296,"CHARLESTON ELECTRICAL, JATC",Charleston,WV,Registered,100.0,1.0,sole_program
+197,Bloomington,IL,city_fuzzy_match,5220,Bloomington Normal Area Electrical JATC,BLOOMINGTON,IL,Registered,100.0,1.0,sole_program
+1316,Macon,GA,city_fuzzy_match,3881,Macon Electrical JATC,MACON,GA,Registered,100.0,1.0,sole_program
+117,Crystal Lake,IL,lu_number_match,5203,I.B.E.W.  LOCAL #117  J.A.T.C.,CRYSTAL LAKE,IL,Registered,100.0,1.0,sole_program
+596,Clarksburg,WV,city_fuzzy_match,33820,Clarksburg IBEW JATC,CLARKSBURG,WV,Registered,100.0,1.0,sole_program
+231,Sioux City,IA,lu_number_match,3919,"Electrician JATC, Sioux City LU 231",Sergeant Bluff,IA,Registered,100.0,1.0,sole_program
+96,Worcester,MA,lu_number_match,56766,"ELECTRICIANS LU #96, WORCESTER",WORCESTER,MA,Cancelled,100.0,1.0,sole_program
+934,Blountville,TN,city_fuzzy_match,49332,Tri-Cities Electrical JATC,BLOUNTVILLE,TN,Registered,100.0,1.0,sole_program
+141,Wheeling,WV,city_fuzzy_match,48610,WHEELING ELECT.JATC,Wheeling,WV,Registered,100.0,1.0,sole_program
+917,Meridian,MS,city_fuzzy_match,55285,Meridian Electricians' Area JATC,MERIDIAN,MS,Registered,100.0,1.0,sole_program
+413,Buellton,CA,no_match,,,,,,55.6,,
+567,Lewiston,ME,lu_number_match,65189,IBEW Local 567,Lewiston,ME,Registered,100.0,1.0,sole_program
+229,York,PA,no_match,,,,,,33.3,,
+461,Aurora,IL,lu_number_match,54965,NECA IBEW 461 JATC,AURORA,IL,Registered,100.0,1.0,sole_program
+233,Helena,MT,city_fuzzy_match,69206,Montana Electrical JATC,Helena,MT,Registered,100.0,2.0,live_status
+13,Burlington,IA,lu_number_match,55286,SOUTHEAST IOWA ELECTRICAL JATC LU 13,BURLINGTON,IA,Registered,100.0,1.0,sole_program
+673,Mentor,OH,city_fuzzy_match,51507,MENTOR ELECTRICAL JATC,Mentor,OH,Registered,100.0,1.0,sole_program
+237,Niagara Falls,NY,lu_number_match,136072,Niagara County Electricians Lu# 237,Niagara Falls,NY,Registered,100.0,1.0,sole_program
+490,Concord,NH,city_fuzzy_match,18389,International Brotherhood of Electrical Workers (IBEW) - Local Union 490,Concord,NH,Registered,100.0,1.0,sole_program
+527,Texas City,TX,city_fuzzy_match,61317,Galveston Electrical JATC,TEXAS CITY,TX,Registered,100.0,1.0,sole_program
+688,Mansfield,OH,city_fuzzy_match,57139,"ELECTRICIANS JATC, MANSFIELD",MANSFIELD,OH,Registered,100.0,1.0,sole_program
+32,Lima,OH,lu_number_match,50502,"ELECTRICIANS JATC, LIMA AREA LU 32",LIMA,OH,Registered,100.0,1.0,sole_program
+573,Warren,OH,city_fuzzy_match,29806,"ELECTRICAL JATC, WARREN",WARREN,OH,Registered,100.0,1.0,sole_program
+1253,Newport,ME,lu_number_match,66461,IBEW Local 1253,Newport,ME,Registered,100.0,1.0,sole_program
+139,Elmira,NY,lu_number_match,135772,Electricians Jac Of Elmira Lu #139,Elmira,NY,Registered,100.0,1.0,sole_program
+12,Pueblo,CO,city_fuzzy_match,2627,Pueblo Electrical JATC,PUEBLO,CO,Registered,100.0,1.0,sole_program
+430,Racine,WI,no_match,,,,,,46.2,,
+661,Hutchinson,KS,city_fuzzy_match,74989,Hutchinson Electricians,Hutchinson,KS,Registered,100.0,2.0,live_status
+95,Joplin,MO,lu_number_match,14202,IBEW/NECA JATC LU 95 JOPLIN,Joplin,MO,Registered,100.0,1.0,sole_program
+56,Erie,PA,lu_number_match,55651,ELECTRICIANS IBEW LOCAL 56 JATC,ERIE,PA,Registered,100.0,1.0,sole_program
+445,Springfield,MI,no_match,,,,,,44.4,,
+127,Kenosha,WI,no_match,,,,,,23.5,,
+557,Saginaw,MI,city_fuzzy_match,11871,Saginaw Electrical JATC,SAGINAW,MI,Registered,100.0,1.0,sole_program
+241,Ithaca,NY,lu_number_match,135771,Electricians Jac Ithaca Lu #241,Ithaca,NY,Registered,100.0,1.0,sole_program
+415,Cheyenne,WY,no_match,,,,,,28.6,,
+972,Reno,OH,no_match,,,,,,60.0,,
+294,Nashwauk,MN,no_match,,,,,,31.6,,
+704,Dubuque,IA,lu_number_match,57005,Electrician Dubuque JATC LU 704,DUBUQUE,IA,Registered,100.0,1.0,sole_program
+639,San Luis Obispo,CA,city_fuzzy_match,60266,San Luis Obispo Electrical Workers JATC,SAN LUIS OBISPO,CA,Registered,100.0,1.0,sole_program
+840,Geneva,NY,lu_number_match,135848,Geneva Electrical Jatc Local #840,Geneva,NY,Registered,100.0,1.0,sole_program
+855,Muncie,IN,city_fuzzy_match,8227,MUNCIE ELECTRICAL JATC,Muncie,IN,Registered,100.0,1.0,sole_program
+498,Traverse City,MI,city_fuzzy_match,52109,TC ELECTRICIANS,TRAVERSE CITY,MI,Registered,100.0,1.0,sole_program
+968,Parkersburg,WV,city_fuzzy_match,34406,PARKERSBURG IBEW JATC,PARKERSBURG,WV,Registered,100.0,1.0,sole_program
+538,Danville,IL,lu_number_match,42688,Danville NECA-IBEW 538 Electrical JATC,Danville,IL,Registered,100.0,1.0,sole_program
+288,Waterloo,IA,city_fuzzy_match,42587,"Electrician JATC, Waterloo",WATERLOO,IA,Registered,100.0,2.0,unqualified_name
+238,Asheville,NC,no_match,,,,,,22.2,,
+1250,Rapid City,SD,no_state_candidates,,,,,,0.0,,
+607,Shamokin,PA,lu_number_match,32639,SHAMOKIN ELECTRICIANS IBEW LU 607,SHAMOKIN,PA,Registered,100.0,1.0,sole_program
+106,Jamestown,NY,lu_number_match,135773,Electricians Jac Of Jamestown Local #106,Jamestown,NY,Registered,100.0,1.0,sole_program
+812,Montoursville,PA,lu_number_match,32640,WILLIAMSPORT ELECTRICIANS JATC LOCAL 812,MONTOURSVILLE,PA,Registered,100.0,1.0,sole_program
+25,Hauppauge,NY,city_fuzzy_match,135921,Jatc Elec Ind Nassau/Suffolk #25,Hauppauge,NY,Registered,100.0,1.0,sole_program

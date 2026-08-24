@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Columbia County, PA",
+    "District": "3",
+    "Population": "64151",
+    "LandArea": "485.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Montour County, PA",
+    "District": "3",
+    "Population": "18236",
+    "LandArea": "130.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Northumberland County, PA",
+    "District": "3",
+    "Population": "94556",
+    "LandArea": "459.91",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Schuylkill County, PA",
+    "District": "3",
+    "Population": "150336",
+    "LandArea": "778.36",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Snyder County, PA",
+    "District": "3",
+    "Population": "37546",
+    "LandArea": "331.20",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Union County, PA",
+    "District": "3",
+    "Population": "41624",
+    "LandArea": "316.73",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "CountyName": "Alachua County, FL",
+    "District": "5",
+    "Population": "217955",
+    "LandArea": "874.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Bay County, FL",
+    "District": "5",
+    "Population": "148217",
+    "LandArea": "763.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Berrien County, GA",
+    "District": "5",
+    "Population": "16235",
+    "LandArea": "452.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bradford County, FL",
+    "District": "5",
+    "Population": "26088",
+    "LandArea": "293.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Brooks County, GA",
+    "District": "5",
+    "Population": "16450",
+    "LandArea": "493.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Calhoun County, FL",
+    "District": "5",
+    "Population": "13017",
+    "LandArea": "567.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Citrus County, FL",
+    "District": "5",
+    "Population": "118085",
+    "LandArea": "583.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Clay County, FL",
+    "District": "5",
+    "Population": "140814",
+    "LandArea": "601.11",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Columbia County, FL",
+    "District": "5",
+    "Population": "56513",
+    "LandArea": "797.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Cook County, GA",
+    "District": "5",
+    "Population": "15771",
+    "LandArea": "229.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Decatur County, GA",
+    "District": "5",
+    "Population": "28240",
+    "LandArea": "596.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dixie County, FL",
+    "District": "5",
+    "Population": "13827",
+    "LandArea": "704.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Echols County, GA",
+    "District": "5",
+    "Population": "3754",
+    "LandArea": "404.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Franklin County, Fl",
+    "District": "5",
+    "Population": "11057",
+    "LandArea": "544.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Gadsden County, FL",
+    "District": "5",
+    "Population": "45087",
+    "LandArea": "516.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Gilchrist County, FL",
+    "District": "5",
+    "Population": "14437",
+    "LandArea": "348.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Grady County, GA",
+    "District": "5",
+    "Population": "23659",
+    "LandArea": "458.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Gulf County, FL",
+    "District": "5",
+    "Population": "13332",
+    "LandArea": "554.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hamilton County, FL",
+    "District": "5",
+    "Population": "13327",
+    "LandArea": "514.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Holmes County, FL",
+    "District": "5",
+    "Population": "18564",
+    "LandArea": "482.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Jackson County, FL",
+    "District": "5",
+    "Population": "46755",
+    "LandArea": "915.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Jefferson County, FL",
+    "District": "5",
+    "Population": "12902",
+    "LandArea": "597.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lafayette County, FL",
+    "District": "5",
+    "Population": "7022",
+    "LandArea": "542.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lanier County, GA",
+    "District": "5",
+    "Population": "7241",
+    "LandArea": "186.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Leon County, FL",
+    "District": "5",
+    "Population": "239452",
+    "LandArea": "666.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Levy County, FL",
+    "District": "5",
+    "Population": "34450",
+    "LandArea": "1118.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Liberty County, FL",
+    "District": "5",
+    "Population": "7021",
+    "LandArea": "835.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lowndes County, GA",
+    "District": "5",
+    "Population": "92115",
+    "LandArea": "504.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Madison County, FL",
+    "District": "5",
+    "Population": "18733",
+    "LandArea": "691.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Marion County, FL",
+    "District": "5",
+    "Population": "258916",
+    "LandArea": "1578.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Putnam County, FL",
+    "District": "5",
+    "Population": "70423",
+    "LandArea": "721.89",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Seminole County, GA",
+    "District": "5",
+    "Population": "9369",
+    "LandArea": "238.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Sumter County, FL",
+    "District": "5",
+    "Population": "53345",
+    "LandArea": "545.73",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Suwannee County, FL",
+    "District": "5",
+    "Population": "34844",
+    "LandArea": "687.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Taylor County, FL",
+    "District": "5",
+    "Population": "19256",
+    "LandArea": "1041.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Thomas County, GA",
+    "District": "5",
+    "Population": "42737",
+    "LandArea": "548.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Union County, FL",
+    "District": "5",
+    "Population": "13442",
+    "LandArea": "240.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Wakulla County, FL",
+    "District": "5",
+    "Population": "22863",
+    "LandArea": "606.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Walton County, FL",
+    "District": "5",
+    "Population": "40601",
+    "LandArea": "1057.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Washington County, FL",
+    "District": "5",
+    "Population": "20973",
+    "LandArea": "579.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

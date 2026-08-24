@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Dodge County, WI",
+    "District": "6",
+    "Population": "85897",
+    "LandArea": "882.28",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Green County, WI",
+    "District": "6",
+    "Population": "33647",
+    "LandArea": "583.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Jefferson County, WI",
+    "District": "6",
+    "Population": "74021",
+    "LandArea": "557.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Lafayette County, WI",
+    "District": "6",
+    "Population": "16137",
+    "LandArea": "633.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Racine County, WI",
+    "District": "6",
+    "Population": "188831",
+    "LandArea": "333.10",
+    "Percentage": "2%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Rock County, WI",
+    "District": "6",
+    "Population": "152307",
+    "LandArea": "720.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Walworth County, WI",
+    "District": "6",
+    "Population": "93759",
+    "LandArea": "555.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "De Witt County, IL",
+    "District": "6",
+    "Population": "16798",
+    "LandArea": "397.58",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "McLean County, IL",
+    "District": "6",
+    "Population": "150433",
+    "LandArea": "1183.53",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Woodford County, IL",
+    "District": "6",
+    "Population": "35469",
+    "LandArea": "527.95",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

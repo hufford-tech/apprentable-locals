@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Athens County, OH",
+    "District": "4",
+    "Population": "62223",
+    "LandArea": "506.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Meigs County, OH",
+    "District": "4",
+    "Population": "23072",
+    "LandArea": "429.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Monroe County, OH",
+    "District": "4",
+    "Population": "15180",
+    "LandArea": "455.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Morgan County, OH",
+    "District": "4",
+    "Population": "14897",
+    "LandArea": "417.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Noble County, OH",
+    "District": "4",
+    "Population": "14058",
+    "LandArea": "399.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Vinton County, OH",
+    "District": "4",
+    "Population": "12806",
+    "LandArea": "414.08",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Washington County, OH",
+    "District": "4",
+    "Population": "63251",
+    "LandArea": "635.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

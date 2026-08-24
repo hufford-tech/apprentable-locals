@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]397-  (c, em, govt, u) Balboa[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "234",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "397-|Balboa|CZ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "234",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, em, govt, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 0818-00081[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "230",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 0818-00081",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Panama, Republic of Panama, FO [/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "230",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Panama, Republic of Panama|FO|",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](507) 276-7226[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "438",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(507) 276-7226",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:fng@pancanal.com\" target=\"_blank\">fng@pancanal.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2201",
+    "editFieldNames": "Email",
+    "editFieldValues": "fng@pancanal.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Felicia V. Ng K[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "720",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Felicia|V.|Ng K||{ \"MemberID\" : \"720\",\"luid\": \"234\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 0818-00081\",\"addr2\":\"Bethania, Panama\",\"addr3\":\"\",\"city\":\"Republic of Panama\",\"state\":\"CZ\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Felicia V. Ng K[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3550",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Felicia|V.|Ng K||{ \"MemberID\" : \"3550\",\"luid\": \"234\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Enrique Marin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "719",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Enrique||Marin||{ \"MemberID\" : \"719\",\"luid\": \"234\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 0818-00081\",\"addr2\":\"Bethania, Panama\",\"addr3\":\"\",\"city\":\"Republic of Panama\",\"state\":\"CZ\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Mario Padmore[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "721",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mario||Padmore||{ \"MemberID\" : \"721\",\"luid\": \"234\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 0818-00081\",\"addr2\":\"Bethania, Panama\",\"addr3\":\"\",\"city\":\"Republic of Panama\",\"state\":\"CZ\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Building 750, Apt. C, 2nd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "234",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Building 750, Apt. C, 2nd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

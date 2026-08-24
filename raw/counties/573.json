@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Ashtabula County, OH",
+    "District": "4",
+    "Population": "102728",
+    "LandArea": "702.44",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Geauga County, OH",
+    "District": "4",
+    "Population": "90895",
+    "LandArea": "403.66",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Mahoning County, OH",
+    "District": "4",
+    "Population": "257555",
+    "LandArea": "415.25",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Portage County, OH",
+    "District": "4",
+    "Population": "152061",
+    "LandArea": "492.39",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Trumbull County, OH",
+    "District": "4",
+    "Population": "225116",
+    "LandArea": "616.48",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

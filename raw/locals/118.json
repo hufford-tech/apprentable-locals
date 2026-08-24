@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]177-  (bo, ees, govt, i, mo, o, pet) Jacksonville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "118",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "177-|Jacksonville|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "118",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "bo, ees, govt, i, mo, o, pet",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]966 Liberty Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "Address1",
+    "editFieldValues": "966 Liberty Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jacksonville, FL 32206[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jacksonville|FL|32206",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](904) 355-4569[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "230",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(904) 355-4569",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](904) 353-8064[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "231",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(904) 353-8064",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew177.org\" target=\"_blank\">office@ibew177.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "116",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew177.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew177.org\" target=\"_blank\">www.ibew177.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "118",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew177.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Ross R. Mullis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4465",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ross|R.|Mullis||{ \"MemberID\" : \"4465\",\"luid\": \"118\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]David A. Higginbotham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4479",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Higginbotham||{ \"MemberID\" : \"4479\",\"luid\": \"118\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ross R. Mullis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4466",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ross|R.|Mullis||{ \"MemberID\" : \"4466\",\"luid\": \"118\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christopher M. Stovall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4477",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Stovall||{ \"MemberID\" : \"4477\",\"luid\": \"118\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "118",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

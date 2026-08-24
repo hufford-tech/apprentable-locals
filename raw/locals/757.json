@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2042  (rr) Kamloops, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "757",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2042|Kamloops|BC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "757",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]28-604 Almberg Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7272",
+    "editFieldNames": "Address1",
+    "editFieldValues": "28-604 Almberg Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Golden, BC V0A 1H2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7272",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Golden|BC|V0A 1H2",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](250) 457-3846[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1843",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 457-3846",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewroberts@gmail.com\" target=\"_blank\">ibewroberts@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1772",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewroberts@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Randy Roberts, Box 804, Ashcroft, BC  V0K 1A0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2314",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randy||Roberts||{ \"MemberID\" : \"2314\",\"luid\": \"757\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Box 804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ashcroft\",\"state\":\"BC\",\"zip\":\"V0K 1A0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Lee Hooper, Box 168, Chase, BC  V0E 1M0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2313",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lee||Hooper||{ \"MemberID\" : \"2313\",\"luid\": \"757\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Box 168\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chase\",\"state\":\"BC\",\"zip\":\"V0E 1M0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]John Collins, 28-604 Almberg Road, Golden, BC  V0A 1H2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2315",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Collins||{ \"MemberID\" : \"2315\",\"luid\": \"757\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"28-604 Almberg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Golden\",\"state\":\"BC\",\"zip\":\"V0A 1H2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John Collins, 28-604 Almberg Road, Golden, BC  V0A 1H2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4074",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Collins||{ \"MemberID\" : \"4074\",\"luid\": \"757\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"28-604 Almberg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Golden\",\"state\":\"BC\",\"zip\":\"V0A 1H2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "757",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

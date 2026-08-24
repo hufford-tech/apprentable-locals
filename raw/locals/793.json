@@ -1,0 +1,82 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2172  (rr) Bellevue[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "793",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2172|Bellevue|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "793",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]12906 River Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7260",
+    "editFieldNames": "Address1",
+    "editFieldValues": "12906 River Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Milan, OH 44846[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7260",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Milan|OH|44846",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Pres. [/b]Joe E. Robinson, 12906 River Road, Milan, OH  44846[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4115",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joe|E.|Robinson||{ \"MemberID\" : \"4115\",\"luid\": \"793\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"12906 River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milan\",\"state\":\"OH\",\"zip\":\"44846\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]F.S. [/b]Joe E. Robinson, 12906 River Road, Milan, OH  44846[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2416",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joe|E.|Robinson||{ \"MemberID\" : \"2416\",\"luid\": \"793\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"12906 River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milan\",\"state\":\"OH\",\"zip\":\"44846\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]R.S. [/b]Bryan A. Cloud, 114 Harrison Street, Bellevue, OH  44811[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2418",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|A.|Cloud||{ \"MemberID\" : \"2418\",\"luid\": \"793\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"114 Harrison Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bellevue\",\"state\":\"OH\",\"zip\":\"44811\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Meets [/b]Twin Lakes Golf Course, 100 Decker Street, 2nd Friday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "793",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Twin Lakes Golf Course, 100 Decker Street, 2nd Friday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

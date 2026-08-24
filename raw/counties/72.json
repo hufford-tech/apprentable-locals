@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Bell County, TX",
+    "District": "7",
+    "Population": "237974",
+    "LandArea": "1059.72",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bosque County, TX",
+    "District": "7",
+    "Population": "17204",
+    "LandArea": "989.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Coryell County, TX",
+    "District": "7",
+    "Population": "74978",
+    "LandArea": "1051.76",
+    "Percentage": "98%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Falls County, TX",
+    "District": "7",
+    "Population": "18576",
+    "LandArea": "769.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Freestone County, TX",
+    "District": "7",
+    "Population": "17867",
+    "LandArea": "877.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hamilton County, TX",
+    "District": "7",
+    "Population": "8229",
+    "LandArea": "835.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hill County, TX",
+    "District": "7",
+    "Population": "32321",
+    "LandArea": "962.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lampasas County, TX",
+    "District": "7",
+    "Population": "17762",
+    "LandArea": "712.04",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Leon County, TX",
+    "District": "7",
+    "Population": "15335",
+    "LandArea": "1072.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Limestone County, TX",
+    "District": "7",
+    "Population": "22051",
+    "LandArea": "908.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "McLennan County, TX",
+    "District": "7",
+    "Population": "213517",
+    "LandArea": "1041.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Milam County, TX",
+    "District": "7",
+    "Population": "24238",
+    "LandArea": "1016.71",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Mills County, TX",
+    "District": "7",
+    "Population": "5151",
+    "LandArea": "748.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Robertson County, TX",
+    "District": "7",
+    "Population": "16000",
+    "LandArea": "854.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  }
+]

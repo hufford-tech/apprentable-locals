@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1199  (rr) Albuquerque[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1199|Albuquerque|NM",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "550",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]94 Mora Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7196",
+    "editFieldNames": "Address1",
+    "editFieldValues": "94 Mora Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Belen, NM 87002[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7196",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Belen|NM|87002",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](806) 335-5891[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2352",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 335-5891",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rrjoe2010@hotmail.com\" target=\"_blank\">rrjoe2010@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "517",
+    "editFieldNames": "Email",
+    "editFieldValues": "rrjoe2010@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Joseph M. Lopez Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3853",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|M.|Lopez|Jr.|{ \"MemberID\" : \"3853\",\"luid\": \"550\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"94 Mora Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Belen\",\"state\":\"NM\",\"zip\":\"87002\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Rey A. Vigil[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1694",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rey|A.|Vigil||{ \"MemberID\" : \"1694\",\"luid\": \"550\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 572\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mountainair\",\"state\":\"NM\",\"zip\":\"87036\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Steven K. Marquez Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1692",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|K.|Marquez|Jr.|{ \"MemberID\" : \"1692\",\"luid\": \"550\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"31 Acequia Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Belen\",\"state\":\"NM\",\"zip\":\"87002\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Pete's Café, 105 N First Street, Belen, 1st Tuesday, 3:00 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Pete's Café, 105 N First Street, Belen, 1st Tuesday, 3:00 pm",
+    "datatype": "txt"
+  }
+]

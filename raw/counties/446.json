@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Caldwell Parish, LA",
+    "District": "5",
+    "Population": "10560",
+    "LandArea": "529.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Carroll Parish, LA",
+    "District": "5",
+    "Population": "9421",
+    "LandArea": "421.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Franklin Parish, LA",
+    "District": "5",
+    "Population": "21263",
+    "LandArea": "623.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jackson Parish, LA",
+    "District": "5",
+    "Population": "15397",
+    "LandArea": "569.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lincoln Parish, LA",
+    "District": "5",
+    "Population": "42509",
+    "LandArea": "471.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Madison Parish, LA",
+    "District": "5",
+    "Population": "13728",
+    "LandArea": "624.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Morehouse Parish, LA",
+    "District": "5",
+    "Population": "31021",
+    "LandArea": "794.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Ouachita Parish, LA",
+    "District": "5",
+    "Population": "147250",
+    "LandArea": "610.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Richland Parish, LA",
+    "District": "5",
+    "Population": "20981",
+    "LandArea": "558.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Tensas Parish, LA",
+    "District": "5",
+    "Population": "6618",
+    "LandArea": "602.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Union Parish, LA",
+    "District": "5",
+    "Population": "22803",
+    "LandArea": "877.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Carroll Parish, LA",
+    "District": "5",
+    "Population": "12314",
+    "LandArea": "359.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

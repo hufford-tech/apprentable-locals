@@ -1,0 +1,162 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1289  (u) Lakewood[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1289|Lakewood|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "571",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3430 Sunset Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4700",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3430 Sunset Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 25[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4700",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 25",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Wanamassa, NJ 07712[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4700",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wanamassa|NJ|07712",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 1690[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "531",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1690",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Wall, NJ 07719[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "531",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wall|NJ|07719",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](732) 918-9559[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "993",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 918-9559",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Fax [/b](732) 918-8431[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "994",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 918-8431",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jeffmunyan@ibew1289.org\" target=\"_blank\">jeffmunyan@ibew1289.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1911",
+    "editFieldNames": "Email",
+    "editFieldValues": "jeffmunyan@ibew1289.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.local1289ibew.org\" target=\"_blank\">www.local1289ibew.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.local1289ibew.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]B.M. [/b]Jeffrey R. Munyan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1757",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|R.|Munyan||{ \"MemberID\" : \"1757\",\"luid\": \"571\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1690\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Pres. [/b]Jeffrey R. Munyan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3873",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|R.|Munyan||{ \"MemberID\" : \"3873\",\"luid\": \"571\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]F.S. [/b]Monica Hines[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1756",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Monica||Hines||{ \"MemberID\" : \"1756\",\"luid\": \"571\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"587 Beach Plum Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brick\",\"state\":\"NJ\",\"zip\":\"08723\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]R.S. [/b]Domenic Lazzaro[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1758",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Domenic||Lazzaro||{ \"MemberID\" : \"1758\",\"luid\": \"571\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1690\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Meets [/b]South Unit: IBEW Local Union 400, 3rd Tuesday, 5 pm; North Unit: Clinton Fire Department, 1 New Street, Clinton, (February, June, October) 3rd Wednesday, 5 pm; North Unit: Roxbury Fire Department 2, 110 Shippenport Road, Landing, (April, August, December) 3rd Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "Meets",
+    "editFieldValues": "South Unit: IBEW Local Union 400, 3rd Tuesday, 5 pm; North Unit: Clinton Fire Department, 1 New Street, Clinton, (February, June, October) 3rd Wednesday, 5 pm; North Unit: Roxbury Fire Department 2, 110 Shippenport Road, Landing, (April, August, December) 3rd Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

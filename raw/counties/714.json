@@ -1,0 +1,506 @@
+[
+  {
+    "CountyName": "Adams County, ND",
+    "District": "11",
+    "Population": "2593",
+    "LandArea": "987.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Adams County, ND",
+    "District": "11",
+    "Population": "2593",
+    "LandArea": "987.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Billings County, ND",
+    "District": "11",
+    "Population": "888",
+    "LandArea": "1151.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Billings County, ND",
+    "District": "11",
+    "Population": "888",
+    "LandArea": "1151.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Bottineau County, ND",
+    "District": "11",
+    "Population": "7149",
+    "LandArea": "1668.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Bottineau County, ND",
+    "District": "11",
+    "Population": "7149",
+    "LandArea": "1668.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Bowman County, ND",
+    "District": "11",
+    "Population": "3242",
+    "LandArea": "1162.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Bowman County, ND",
+    "District": "11",
+    "Population": "3242",
+    "LandArea": "1162.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Burke County, ND",
+    "District": "11",
+    "Population": "2242",
+    "LandArea": "1103.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Burke County, ND",
+    "District": "11",
+    "Population": "2242",
+    "LandArea": "1103.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Burleigh County, ND",
+    "District": "11",
+    "Population": "69416",
+    "LandArea": "1633.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Burleigh County, ND",
+    "District": "11",
+    "Population": "69416",
+    "LandArea": "1633.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Divide County, ND",
+    "District": "11",
+    "Population": "2283",
+    "LandArea": "1259.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Divide County, ND",
+    "District": "11",
+    "Population": "2283",
+    "LandArea": "1259.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Dunn County, ND",
+    "District": "11",
+    "Population": "3600",
+    "LandArea": "2009.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Dunn County, ND",
+    "District": "11",
+    "Population": "3600",
+    "LandArea": "2009.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Emmons County, ND",
+    "District": "11",
+    "Population": "4331",
+    "LandArea": "1509.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Emmons County, ND",
+    "District": "11",
+    "Population": "4331",
+    "LandArea": "1509.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Golden Valley County, ND",
+    "District": "11",
+    "Population": "1924",
+    "LandArea": "1001.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Golden Valley County, ND",
+    "District": "11",
+    "Population": "1924",
+    "LandArea": "1001.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Grant County, ND",
+    "District": "11",
+    "Population": "2841",
+    "LandArea": "1659.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Grant County, ND",
+    "District": "11",
+    "Population": "2841",
+    "LandArea": "1659.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Hettinger County, ND",
+    "District": "11",
+    "Population": "2715",
+    "LandArea": "1132.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Hettinger County, ND",
+    "District": "11",
+    "Population": "2715",
+    "LandArea": "1132.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McHenry County, ND",
+    "District": "11",
+    "Population": "5987",
+    "LandArea": "1874.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McHenry County, ND",
+    "District": "11",
+    "Population": "5987",
+    "LandArea": "1874.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McKenzie County, ND",
+    "District": "11",
+    "Population": "5737",
+    "LandArea": "2742.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McKenzie County, ND",
+    "District": "11",
+    "Population": "5737",
+    "LandArea": "2742.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McLean County, ND",
+    "District": "11",
+    "Population": "9311",
+    "LandArea": "2109.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McLean County, ND",
+    "District": "11",
+    "Population": "9311",
+    "LandArea": "2109.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Mercer County, ND",
+    "District": "11",
+    "Population": "8644",
+    "LandArea": "1045.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Mercer County, ND",
+    "District": "11",
+    "Population": "8644",
+    "LandArea": "1045.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Morton County, ND",
+    "District": "11",
+    "Population": "25303",
+    "LandArea": "1926.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Morton County, ND",
+    "District": "11",
+    "Population": "25303",
+    "LandArea": "1926.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Mountrail County, ND",
+    "District": "11",
+    "Population": "6631",
+    "LandArea": "1823.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Mountrail County, ND",
+    "District": "11",
+    "Population": "6631",
+    "LandArea": "1823.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Oliver County, ND",
+    "District": "11",
+    "Population": "2065",
+    "LandArea": "723.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Oliver County, ND",
+    "District": "11",
+    "Population": "2065",
+    "LandArea": "723.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Pierce County, ND",
+    "District": "11",
+    "Population": "4675",
+    "LandArea": "1017.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Pierce County, ND",
+    "District": "11",
+    "Population": "4675",
+    "LandArea": "1017.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Renville County, ND",
+    "District": "11",
+    "Population": "2610",
+    "LandArea": "874.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Renville County, ND",
+    "District": "11",
+    "Population": "2610",
+    "LandArea": "874.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Rolette County, ND",
+    "District": "11",
+    "Population": "13674",
+    "LandArea": "902.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Rolette County, ND",
+    "District": "11",
+    "Population": "13674",
+    "LandArea": "902.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Sheridan County, ND",
+    "District": "11",
+    "Population": "1710",
+    "LandArea": "971.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Sheridan County, ND",
+    "District": "11",
+    "Population": "1710",
+    "LandArea": "971.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Sioux County, ND",
+    "District": "11",
+    "Population": "4044",
+    "LandArea": "1094.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Sioux County, ND",
+    "District": "11",
+    "Population": "4044",
+    "LandArea": "1094.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Slope County, ND",
+    "District": "11",
+    "Population": "767",
+    "LandArea": "1217.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Slope County, ND",
+    "District": "11",
+    "Population": "767",
+    "LandArea": "1217.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Stark County, ND",
+    "District": "11",
+    "Population": "22636",
+    "LandArea": "1338.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Stark County, ND",
+    "District": "11",
+    "Population": "22636",
+    "LandArea": "1338.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Ward County, ND",
+    "District": "11",
+    "Population": "58795",
+    "LandArea": "2012.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Ward County, ND",
+    "District": "11",
+    "Population": "58795",
+    "LandArea": "2012.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Williams County, ND",
+    "District": "11",
+    "Population": "19761",
+    "LandArea": "2070.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Williams County, ND",
+    "District": "11",
+    "Population": "19761",
+    "LandArea": "2070.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  }
+]

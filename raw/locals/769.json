@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2071  (govt) Portsmouth[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "769",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2071|Portsmouth|NH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "769",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 2052[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "666",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2052",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Portsmouth, NH 03804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "666",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Portsmouth|NH|03804",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](207) 994-4633[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1277",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 994-4633",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:glensell99@gmail.com\" target=\"_blank\">glensell99@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2136",
+    "editFieldNames": "Email",
+    "editFieldValues": "glensell99@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Glen D. Sell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2348",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glen|D.|Sell||{ \"MemberID\" : \"2348\",\"luid\": \"769\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2052 PNS\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"NH\",\"zip\":\"03804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Glen D. Sell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4088",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glen|D.|Sell||{ \"MemberID\" : \"4088\",\"luid\": \"769\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Tina M. Shaw[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2347",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tina|M.|Shaw||{ \"MemberID\" : \"2347\",\"luid\": \"769\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2052 PNS\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"NH\",\"zip\":\"03804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jill M. Monbleau[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2349",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jill|M.|Monbleau||{ \"MemberID\" : \"2349\",\"luid\": \"769\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2052 PNS\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"NH\",\"zip\":\"03804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Portsmouth Naval Shipyard, Building M-1, 2nd Floor, Last Thursday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "769",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Portsmouth Naval Shipyard, Building M-1, 2nd Floor, Last Thursday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

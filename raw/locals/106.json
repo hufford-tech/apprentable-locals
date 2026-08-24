@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]145-  (em, i, o, rts, se, spa, u) Rock Island[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "106",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "145-|Rock Island|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "106",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, o, rts, se, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1700 52nd Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "109",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1700 52nd Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "109",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Moline, IL 61265[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "109",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Moline|IL|61265",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](309) 736-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "208",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 736-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](309) 736-1399[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "209",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 736-1399",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal145.com\" target=\"_blank\">info@ibewlocal145.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "105",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal145.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal145.com\" target=\"_blank\">www.ibewlocal145.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "106",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal145.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Cory J. Bergfeld[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "327",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cory|J.|Bergfeld||{ \"MemberID\" : \"327\",\"luid\": \"106\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"27 S Jacob Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eldridge\",\"state\":\"IA\",\"zip\":\"52748\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Kyle P. Gibson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "326",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|P.|Gibson||{ \"MemberID\" : \"326\",\"luid\": \"106\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16 Cait Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eldridge\",\"state\":\"IL\",\"zip\":\"52748\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Cory J. Bergfeld[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3431",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cory|J.|Bergfeld||{ \"MemberID\" : \"3431\",\"luid\": \"106\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"27 S Jacob Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eldridge\",\"state\":\"IA\",\"zip\":\"52748\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Mark E. Franks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "328",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|E.|Franks||{ \"MemberID\" : \"328\",\"luid\": \"106\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5337 31st Ave Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Moline\",\"state\":\"IL\",\"zip\":\"61265\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "106",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

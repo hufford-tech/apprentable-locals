@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]753-  (u) Springfield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "407",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "753-|Springfield|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "407",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2902 E Division Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2902 E Division Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Springfield, MO 65803[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Springfield|MO|65803",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](417) 866-0044[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "743",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 866-0044",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](417) 869-1814[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "744",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 869-1814",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:brianbrawley@ibew753.org\" target=\"_blank\">brianbrawley@ibew753.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "390",
+    "editFieldNames": "Email",
+    "editFieldValues": "brianbrawley@ibew753.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew753.org\" target=\"_blank\">www.ibew753.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "407",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew753.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brian D. Brawley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1252",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|D.|Brawley||{ \"MemberID\" : \"1252\",\"luid\": \"407\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2902 E Division Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"MO\",\"zip\":\"65803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Stephanie A. Depner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1251",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephanie|A.|Depner||{ \"MemberID\" : \"1251\",\"luid\": \"407\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"2902 E Division Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"MO\",\"zip\":\"65803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Brian D. Brawley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3715",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|D.|Brawley||{ \"MemberID\" : \"3715\",\"luid\": \"407\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Michael G. Stevens[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1250",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|Stevens||{ \"MemberID\" : \"1250\",\"luid\": \"407\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2902 E Division Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"MO\",\"zip\":\"65803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "407",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

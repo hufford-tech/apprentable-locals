@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]237-  (i) Niagara Falls[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "148",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "237-|Niagara Falls|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "148",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6700 Schultz Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6700 Schultz Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Niagara Falls, NY 14304[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Niagara Falls|NY|14304",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 120[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "150",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 120",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Niagara Falls, NY 14304[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "150",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Niagara Falls|NY|14304",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](716) 297-3650[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 297-3650",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](716) 297-8471[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "285",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 297-8471",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jscherrer@ibew237.com\" target=\"_blank\">jscherrer@ibew237.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "146",
+    "editFieldNames": "Email",
+    "editFieldValues": "jscherrer@ibew237.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew237.com\" target=\"_blank\">www.ibew237.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "148",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew237.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]John J. Scherrer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "460",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Scherrer||{ \"MemberID\" : \"460\",\"luid\": \"148\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"LaSalle Station\",\"addr2\":\"PO Box 120\",\"addr3\":\"\",\"city\":\"Niagara Falls\",\"state\":\"NY\",\"zip\":\"14304\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Thomas C. Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "457",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|C.|Martin||{ \"MemberID\" : \"457\",\"luid\": \"148\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"LaSalle Station\",\"addr2\":\"PO Box 120\",\"addr3\":\"\",\"city\":\"Niagara Falls\",\"state\":\"NY\",\"zip\":\"14304\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Brian A. Mendel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Mendel||{ \"MemberID\" : \"458\",\"luid\": \"148\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"LaSalle Station\",\"addr2\":\"PO Box 120\",\"addr3\":\"\",\"city\":\"Niagara Falls\",\"state\":\"NY\",\"zip\":\"14304\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Connor J. Prenatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "459",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Connor|J.|Prenatt||{ \"MemberID\" : \"459\",\"luid\": \"148\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"LaSalle Station\",\"addr2\":\"PO Box 120\",\"addr3\":\"\",\"city\":\"Niagara Falls\",\"state\":\"NY\",\"zip\":\"14304\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Lewiston Fire Company #2, 1705 Saunders Settlement Road, 3rd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "148",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Lewiston Fire Company #2, 1705 Saunders Settlement Road, 3rd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

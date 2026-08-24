@@ -1,0 +1,470 @@
+[
+  {
+    "CountyName": "Baldwin County, GA",
+    "District": "5",
+    "Population": "44700",
+    "LandArea": "258.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Baldwin County, GA",
+    "District": "5",
+    "Population": "44700",
+    "LandArea": "258.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bibb County, GA",
+    "District": "5",
+    "Population": "153887",
+    "LandArea": "249.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bibb County, GA",
+    "District": "5",
+    "Population": "153887",
+    "LandArea": "249.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bleckley County, GA",
+    "District": "5",
+    "Population": "11666",
+    "LandArea": "217.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bleckley County, GA",
+    "District": "5",
+    "Population": "11666",
+    "LandArea": "217.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Crawford County, GA",
+    "District": "5",
+    "Population": "12495",
+    "LandArea": "325.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Crawford County, GA",
+    "District": "5",
+    "Population": "12495",
+    "LandArea": "325.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dodge County, GA",
+    "District": "5",
+    "Population": "19171",
+    "LandArea": "500.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dodge County, GA",
+    "District": "5",
+    "Population": "19171",
+    "LandArea": "500.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Hancock County, GA",
+    "District": "5",
+    "Population": "10076",
+    "LandArea": "473.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Hancock County, GA",
+    "District": "5",
+    "Population": "10076",
+    "LandArea": "473.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Houston County, GA",
+    "District": "5",
+    "Population": "110765",
+    "LandArea": "376.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Houston County, GA",
+    "District": "5",
+    "Population": "110765",
+    "LandArea": "376.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jasper County, GA",
+    "District": "5",
+    "Population": "11426",
+    "LandArea": "370.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jasper County, GA",
+    "District": "5",
+    "Population": "11426",
+    "LandArea": "370.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jeff Davis County, GA",
+    "District": "5",
+    "Population": "12684",
+    "LandArea": "333.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jeff Davis County, GA",
+    "District": "5",
+    "Population": "12684",
+    "LandArea": "333.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Johnson County, GA",
+    "District": "5",
+    "Population": "8560",
+    "LandArea": "304.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Johnson County, GA",
+    "District": "5",
+    "Population": "8560",
+    "LandArea": "304.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jones County, GA",
+    "District": "5",
+    "Population": "23639",
+    "LandArea": "393.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jones County, GA",
+    "District": "5",
+    "Population": "23639",
+    "LandArea": "393.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lamar County, GA",
+    "District": "5",
+    "Population": "15912",
+    "LandArea": "184.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lamar County, GA",
+    "District": "5",
+    "Population": "15912",
+    "LandArea": "184.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Laurens County, GA",
+    "District": "5",
+    "Population": "44874",
+    "LandArea": "812.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Laurens County, GA",
+    "District": "5",
+    "Population": "44874",
+    "LandArea": "812.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Macon County, GA",
+    "District": "5",
+    "Population": "14074",
+    "LandArea": "403.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Macon County, GA",
+    "District": "5",
+    "Population": "14074",
+    "LandArea": "403.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Monroe County, GA",
+    "District": "5",
+    "Population": "21757",
+    "LandArea": "395.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Monroe County, GA",
+    "District": "5",
+    "Population": "21757",
+    "LandArea": "395.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Montgomery County, GA",
+    "District": "5",
+    "Population": "8270",
+    "LandArea": "245.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Montgomery County, GA",
+    "District": "5",
+    "Population": "8270",
+    "LandArea": "245.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Peach County, GA",
+    "District": "5",
+    "Population": "23668",
+    "LandArea": "151.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Peach County, GA",
+    "District": "5",
+    "Population": "23668",
+    "LandArea": "151.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Pulaski County, GA",
+    "District": "5",
+    "Population": "9588",
+    "LandArea": "247.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Pulaski County, GA",
+    "District": "5",
+    "Population": "9588",
+    "LandArea": "247.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Putnam County, GA",
+    "District": "5",
+    "Population": "18812",
+    "LandArea": "344.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Putnam County, GA",
+    "District": "5",
+    "Population": "18812",
+    "LandArea": "344.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Telfair County, GA",
+    "District": "5",
+    "Population": "11794",
+    "LandArea": "441.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Telfair County, GA",
+    "District": "5",
+    "Population": "11794",
+    "LandArea": "441.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Treutlen County, GA",
+    "District": "5",
+    "Population": "6854",
+    "LandArea": "200.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Treutlen County, GA",
+    "District": "5",
+    "Population": "6854",
+    "LandArea": "200.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Twiggs County, GA",
+    "District": "5",
+    "Population": "10590",
+    "LandArea": "360.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Twiggs County, GA",
+    "District": "5",
+    "Population": "10590",
+    "LandArea": "360.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Upson County, GA",
+    "District": "5",
+    "Population": "27597",
+    "LandArea": "325.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Upson County, GA",
+    "District": "5",
+    "Population": "27597",
+    "LandArea": "325.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Washington County, GA",
+    "District": "5",
+    "Population": "21176",
+    "LandArea": "680.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Washington County, GA",
+    "District": "5",
+    "Population": "21176",
+    "LandArea": "680.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wheeler County, GA",
+    "District": "5",
+    "Population": "6179",
+    "LandArea": "297.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wheeler County, GA",
+    "District": "5",
+    "Population": "6179",
+    "LandArea": "297.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilkinson County, GA",
+    "District": "5",
+    "Population": "10220",
+    "LandArea": "446.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilkinson County, GA",
+    "District": "5",
+    "Population": "10220",
+    "LandArea": "446.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

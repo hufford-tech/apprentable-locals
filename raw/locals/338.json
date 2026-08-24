@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]607-  (i) Shamokin[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "338",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "607-|Shamokin|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "338",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]25 S Fifth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "336",
+    "editFieldNames": "Address1",
+    "editFieldValues": "25 S Fifth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Shamokin, PA 17872[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "336",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Shamokin|PA|17872",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](570) 648-9831[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 648-9831",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](570) 648-0176[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "626",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 648-0176",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:anthonygratti@ibew607.com\" target=\"_blank\">anthonygratti@ibew607.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2183",
+    "editFieldNames": "Email",
+    "editFieldValues": "anthonygratti@ibew607.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew607.com\" target=\"_blank\">www.ibew607.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "338",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew607.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Anthony G. Gratti Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1035",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony|G.|Gratti|Jr.|{ \"MemberID\" : \"1035\",\"luid\": \"338\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"417 East North Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion Heights\",\"state\":\"PA\",\"zip\":\"17872\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Robert F. Phillips[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1037",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|F.|Phillips||{ \"MemberID\" : \"1037\",\"luid\": \"338\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"404 S Polplar Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Coal Township\",\"state\":\"PA\",\"zip\":\"17866\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Anthony G. Gratti Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3650",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony|G.|Gratti|Jr.|{ \"MemberID\" : \"3650\",\"luid\": \"338\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"417 East North Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion Heights\",\"state\":\"PA\",\"zip\":\"17872\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Gabrielle R. Golomb[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1036",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gabrielle|R.|Golomb||{ \"MemberID\" : \"1036\",\"luid\": \"338\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1420 Pulaski Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Coal Township\",\"state\":\"PA\",\"zip\":\"17866\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "338",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

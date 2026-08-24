@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]483-  (catv, lctt, o, u) Tacoma[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "280",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "483-|Tacoma|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "280",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, lctt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3525 S Alder Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3525 S Alder Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Tacoma, WA 98409[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tacoma|WA|98409",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](253) 565-3232[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "520",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(253) 565-3232",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](253) 565-3436[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "521",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(253) 565-3436",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:general@ibew483.org\" target=\"_blank\">general@ibew483.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1958",
+    "editFieldNames": "Email",
+    "editFieldValues": "general@ibew483.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew483.org\" target=\"_blank\">www.ibew483.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "280",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew483.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Roselynn M. Mitchell, 3525 S Alder Street, Tacoma, WA  98409[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4268",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roselynn|M.|Mitchell||{ \"MemberID\" : \"4268\",\"luid\": \"280\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"3525 S Alder Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"98409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Matt D. Cline[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "860",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matt|D.|Cline||{ \"MemberID\" : \"860\",\"luid\": \"280\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3525 S Alder Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"98409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Roselynn M. Mitchell, 3525 S Alder Street, Tacoma, WA  98409[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4269",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roselynn|M.|Mitchell||{ \"MemberID\" : \"4269\",\"luid\": \"280\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"3525 S Alder Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"98409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Patrick S. Welcher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "861",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|S.|Welcher||{ \"MemberID\" : \"861\",\"luid\": \"280\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3525 S Alder Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"98409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "280",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

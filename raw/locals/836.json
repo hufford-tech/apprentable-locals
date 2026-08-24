@@ -1,0 +1,162 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2337  (t, u) Fairfield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "836",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2337|Fairfield|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "836",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]450 W Sterling Price Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "717",
+    "editFieldNames": "Address1",
+    "editFieldValues": "450 W Sterling Price Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]FM 1797[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "717",
+    "editFieldNames": "Address2",
+    "editFieldValues": "FM 1797",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Tatum, TX 75691[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "717",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tatum|TX|75691",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 840[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "716",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 840",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Tatum, TX 75691[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "716",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tatum|TX|75691",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](903) 947-6451[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1381",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 947-6451",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Fax [/b](903) 947-6200[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1382",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 947-6200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibew2337.com\" target=\"_blank\">admin@ibew2337.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "768",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibew2337.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2337.org\" target=\"_blank\">www.ibew2337.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "836",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2337.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]B.M. [/b]Jeffery C. Stinnett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2545",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffery|C.|Stinnett||{ \"MemberID\" : \"2545\",\"luid\": \"836\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 840\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tatum\",\"state\":\"TX\",\"zip\":\"75691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Pres. [/b]Austin C. Wall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2543",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Austin|C.|Wall||{ \"MemberID\" : \"2543\",\"luid\": \"836\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 840\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tatum\",\"state\":\"TX\",\"zip\":\"75691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]F.S. [/b]Jeffery C. Stinnett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4160",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffery|C.|Stinnett||{ \"MemberID\" : \"4160\",\"luid\": \"836\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]R.S. [/b]Debra A. Christy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2544",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Debra|A.|Christy||{ \"MemberID\" : \"2544\",\"luid\": \"836\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 840\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tatum\",\"state\":\"TX\",\"zip\":\"75691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Meets [/b]Tatum Hall, 450 W Sterling Price Road, Tatum, 3rd Thursday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "836",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Tatum Hall, 450 W Sterling Price Road, Tatum, 3rd Thursday",
+    "datatype": "txt"
+  }
+]

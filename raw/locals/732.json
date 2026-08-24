@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1984  (rr) Waycross[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "732",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1984|Waycross|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "732",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 950[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4231",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 950",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Waycross, GA 31503[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4231",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Waycross|GA|31503",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](912) 614-1204[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1827",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(912) 614-1204",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bigpapaphasemode@gmail.com\" target=\"_blank\">bigpapaphasemode@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "684",
+    "editFieldNames": "Email",
+    "editFieldValues": "bigpapaphasemode@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Justin D. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2239",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|D.|Richardson||{ \"MemberID\" : \"2239\",\"luid\": \"732\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1364 Chance Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blackshear\",\"state\":\"GA\",\"zip\":\"31516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Justin D. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4048",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|D.|Richardson||{ \"MemberID\" : \"4048\",\"luid\": \"732\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1364 Chance Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blackshear\",\"state\":\"GA\",\"zip\":\"31516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Dustin B. Lewis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2240",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dustin|B.|Lewis||{ \"MemberID\" : \"2240\",\"luid\": \"732\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1604 Seminole Springs Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waycross\",\"state\":\"GA\",\"zip\":\"31501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Reggie Lee[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2238",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Reggie||Lee||{ \"MemberID\" : \"2238\",\"luid\": \"732\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 950\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waycross\",\"state\":\"GA\",\"zip\":\"31503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Union Hall, Lee Avenue, 2nd Monday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "732",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Union Hall, Lee Avenue, 2nd Monday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

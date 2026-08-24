@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Calhoun County, IL",
+    "District": "6",
+    "Population": "5084",
+    "LandArea": "253.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Calhoun County, IL",
+    "District": "6",
+    "Population": "5084",
+    "LandArea": "253.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Greene County, IL",
+    "District": "6",
+    "Population": "14761",
+    "LandArea": "543.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Greene County, IL",
+    "District": "6",
+    "Population": "14761",
+    "LandArea": "543.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jersey County, IL",
+    "District": "6",
+    "Population": "21668",
+    "LandArea": "369.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jersey County, IL",
+    "District": "6",
+    "Population": "21668",
+    "LandArea": "369.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Madison County, IL",
+    "District": "6",
+    "Population": "258941",
+    "LandArea": "725.02",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Madison County, IL",
+    "District": "6",
+    "Population": "258941",
+    "LandArea": "725.02",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

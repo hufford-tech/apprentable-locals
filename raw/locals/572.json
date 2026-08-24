@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1293  (u) Cape May Court House[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "572",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1293|Cape May Court House|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "572",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 616[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "532",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 616",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ocean View, NJ 08230[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "532",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ocean View|NJ|08230",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](609) 412-6725[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "995",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 412-6725",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](609) 927-5206[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "996",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 927-5206",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bobkimble@comcast.net\" target=\"_blank\">bobkimble@comcast.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "539",
+    "editFieldNames": "Email",
+    "editFieldValues": "bobkimble@comcast.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Robert W. Kimble[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1759",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Kimble||{ \"MemberID\" : \"1759\",\"luid\": \"572\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 616\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ocean View\",\"state\":\"NJ\",\"zip\":\"08230\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Robert W. Kimble[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3874",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Kimble||{ \"MemberID\" : \"3874\",\"luid\": \"572\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Suzanne Freitag[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1760",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Suzanne||Freitag||{ \"MemberID\" : \"1760\",\"luid\": \"572\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 616\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ocean View\",\"state\":\"NJ\",\"zip\":\"08230\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Suzanne Freitag[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3875",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Suzanne||Freitag||{ \"MemberID\" : \"3875\",\"luid\": \"572\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "572",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

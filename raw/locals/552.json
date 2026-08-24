@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1204  (u) Hattiesburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "552",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1204|Hattiesburg|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "552",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]547 Sunrise Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6939",
+    "editFieldNames": "Address1",
+    "editFieldValues": "547 Sunrise Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Petal, MS 39465[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6939",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Petal|MS|39465",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](601) 596-6427[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2226",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(601) 596-6427",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:johngmcleod@gmail.com\" target=\"_blank\">johngmcleod@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "Email",
+    "editFieldValues": "johngmcleod@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]John G. McLeod[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1698",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|G.|McLeod||{ \"MemberID\" : \"1698\",\"luid\": \"552\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"547 Sunrise Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Petal\",\"state\":\"MS\",\"zip\":\"39465\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]John G. McLeod[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3855",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|G.|McLeod||{ \"MemberID\" : \"3855\",\"luid\": \"552\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"547 Sunrise Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Petal\",\"state\":\"MS\",\"zip\":\"39465\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Stephen G. Adams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1700",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|G.|Adams||{ \"MemberID\" : \"1700\",\"luid\": \"552\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"547 Sunrise Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Petal\",\"state\":\"MS\",\"zip\":\"39465\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Stephen G. Adams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1699",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|G.|Adams||{ \"MemberID\" : \"1699\",\"luid\": \"552\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"547 Sunrise Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Petal\",\"state\":\"MS\",\"zip\":\"39465\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]408 Hemphill Street, 2nd Thursday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "552",
+    "editFieldNames": "Meets",
+    "editFieldValues": "408 Hemphill Street, 2nd Thursday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Coshocton County, OH",
+    "District": "4",
+    "Population": "36655",
+    "LandArea": "564.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Guernsey County, OH",
+    "District": "4",
+    "Population": "40792",
+    "LandArea": "521.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Knox County, OH",
+    "District": "4",
+    "Population": "54500",
+    "LandArea": "527.12",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Licking County, OH",
+    "District": "4",
+    "Population": "145491",
+    "LandArea": "686.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Muskingum County, OH",
+    "District": "4",
+    "Population": "84585",
+    "LandArea": "664.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Perry County, OH",
+    "District": "4",
+    "Population": "34078",
+    "LandArea": "409.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Tuscarawas County, OH",
+    "District": "4",
+    "Population": "90914",
+    "LandArea": "567.58",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

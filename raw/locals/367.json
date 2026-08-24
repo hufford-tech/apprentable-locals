@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]666-  (i, mt, o, ptc) Richmond[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "367",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "666-|Richmond|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "367",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, o, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1400 E Nine Mile Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5536",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1400 E Nine Mile Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Highland Springs, VA 23075[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5536",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Highland Springs|VA|23075",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 467[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "363",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 467",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Sandston, VA 23150[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "363",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sandston|VA|23150",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](804) 353-9666[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(804) 353-9666",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](804) 353-9611[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "675",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(804) 353-9611",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal666.com\" target=\"_blank\">info@ibewlocal666.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "352",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal666.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal666.com\" target=\"_blank\">www.ibewlocal666.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "367",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal666.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Charles C. Skelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1125",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|C.|Skelly||{ \"MemberID\" : \"1125\",\"luid\": \"367\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 467\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandston\",\"state\":\"VA\",\"zip\":\"23150\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Christopher B. Ball[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1126",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|B.|Ball||{ \"MemberID\" : \"1126\",\"luid\": \"367\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 467\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandston\",\"state\":\"VA\",\"zip\":\"23150\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Luther B. Dunn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1124",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Luther|B.|Dunn||{ \"MemberID\" : \"1124\",\"luid\": \"367\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 467\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandston\",\"state\":\"VA\",\"zip\":\"23150\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Jason D. Jenkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1123",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|D.|Jenkins||{ \"MemberID\" : \"1123\",\"luid\": \"367\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 467\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sandston\",\"state\":\"VA\",\"zip\":\"23150\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1390 E Nine Mile Road, Highland Springs, 2nd Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "367",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1390 E Nine Mile Road, Highland Springs, 2nd Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

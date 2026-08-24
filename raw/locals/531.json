@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1131  (mar) Halifax, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "531",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1131|Halifax|NS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "531",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mar",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]62 Creighton Harnish Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7289",
+    "editFieldNames": "Address1",
+    "editFieldValues": "62 Creighton Harnish Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]RR #1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7289",
+    "editFieldNames": "Address2",
+    "editFieldValues": "RR #1",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Hubbards, NS B0J 1T0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7289",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hubbards|NS|B0J 1T0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](902) 981-8813[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2018",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 981-8813",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1131pba@gmail.com\" target=\"_blank\">ibew1131pba@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "500",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1131pba@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Christopher A. Johnson, 14 Blainedale Drive, Truro, NS  B2N 6M3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1631",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|A.|Johnson||{ \"MemberID\" : \"1631\",\"luid\": \"531\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14 Blainedale Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Truro\",\"state\":\"NS\",\"zip\":\"B2N 6M3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Christopher A. Johnson, 14 Blainedale Drive, Truro, NS  B2N 6M3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3834",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|A.|Johnson||{ \"MemberID\" : \"3834\",\"luid\": \"531\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14 Blainedale Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Truro\",\"state\":\"NS\",\"zip\":\"B2N 6M3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jody Stevens, 62 Creighton Harnish Lane RR #1, Hubbards, NS  B0J 1T0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1629",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jody||Stevens||{ \"MemberID\" : \"1629\",\"luid\": \"531\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"62 Creighton Harnish Lane\",\"addr2\":\"RR #1\",\"addr3\":\"\",\"city\":\"Hubbards\",\"state\":\"NS\",\"zip\":\"B0J 1T0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Douglas S. Rice, 77 Pinetree Crescent, Hammonds Plains, NS  B3Z 1K4[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1630",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Douglas|S.|Rice||{ \"MemberID\" : \"1630\",\"luid\": \"531\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"77 Pinetree Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hammonds Plains\",\"state\":\"NS\",\"zip\":\"B3Z 1K4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Fleet Club, Barrington Street, 3rd Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "531",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Fleet Club, Barrington Street, 3rd Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

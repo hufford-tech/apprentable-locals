@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1573  (rr) New York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1573|New York|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "634",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]37 Ridge Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6570",
+    "editFieldNames": "Address1",
+    "editFieldValues": "37 Ridge Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Farmingdale, NY 11735[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6570",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Farmingdale|NY|11735",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](917) 682-2870[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2221",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(917) 682-2870",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kruger5681@gmail.com\" target=\"_blank\">kruger5681@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2142",
+    "editFieldNames": "Email",
+    "editFieldValues": "kruger5681@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Matthew Kruger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1950",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew||Kruger||{ \"MemberID\" : \"1950\",\"luid\": \"634\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4 Hickory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wappingers Falls\",\"state\":\"NY\",\"zip\":\"12590\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael F. Kozak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1949",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|F.|Kozak||{ \"MemberID\" : \"1949\",\"luid\": \"634\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4 Hickory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wappingers Falls\",\"state\":\"NY\",\"zip\":\"12590\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Joseph I. Mejia Jiminian[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3935",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|I.|Mejia Jiminian||{ \"MemberID\" : \"3935\",\"luid\": \"634\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"37 Ridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Farmingdale\",\"state\":\"NY\",\"zip\":\"11735\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]David A. Hulford[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1948",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Hulford||{ \"MemberID\" : \"1948\",\"luid\": \"634\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"26 Renee Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Haven\",\"state\":\"CT\",\"zip\":\"06473\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Multiple Locations, Last Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Multiple Locations, Last Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

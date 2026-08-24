@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]993-  (catv, em, i) Kamloops, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "500",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "993-|Kamloops|BC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "500",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]873 Desmond Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "470",
+    "editFieldNames": "Address1",
+    "editFieldValues": "873 Desmond Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kamloops, BC V2B 5K3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "470",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kamloops|BC|V2B 5K3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](250) 376-8755[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "888",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 376-8755",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](250) 376-8136[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "889",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 376-8136",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew993.org\" target=\"_blank\">office@ibew993.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "474",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew993.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew993.org\" target=\"_blank\">www.ibew993.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "500",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew993.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]William Currams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4338",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William||Currams||{ \"MemberID\" : \"4338\",\"luid\": \"500\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James A. Olson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4345",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|A.|Olson||{ \"MemberID\" : \"4345\",\"luid\": \"500\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]William Currams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4339",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William||Currams||{ \"MemberID\" : \"4339\",\"luid\": \"500\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Mollie C. Routledge[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1534",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mollie|C.|Routledge||{ \"MemberID\" : \"1534\",\"luid\": \"500\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"873 Desmond Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kamloops\",\"state\":\"BC\",\"zip\":\"V2B 5K3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Kamloops: 1st Thursday Following 1st Tuesday, 7 pm; Terrace: 4614 Lazelle Avenue, 2nd Thursday Following 1st Tuesday, 7 pm; Prince George: 1055 20th Avenue, 2nd Wednesday Following 1st Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "500",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Kamloops: 1st Thursday Following 1st Tuesday, 7 pm; Terrace: 4614 Lazelle Avenue, 2nd Thursday Following 1st Tuesday, 7 pm; Prince George: 1055 20th Avenue, 2nd Wednesday Following 1st Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

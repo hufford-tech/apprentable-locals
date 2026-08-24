@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]193-  (i, lctt, o, rts, spa, u) Springfield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "122",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "193-|Springfield|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "122",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, o, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3150 Wide Track Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "124",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3150 Wide Track Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Springfield, IL 62703[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "124",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Springfield|IL|62703",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](217) 544-3479[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 544-3479",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](217) 544-0193[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "238",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 544-0193",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew193.com\" target=\"_blank\">office@ibew193.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "120",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew193.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew193.com\" target=\"_blank\">www.ibew193.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "122",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew193.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David E. Wells[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "377",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|E.|Wells||{ \"MemberID\" : \"377\",\"luid\": \"122\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3020 Selkirk Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"IL\",\"zip\":\"62702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Mac Broglin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mac||Broglin||{ \"MemberID\" : \"376\",\"luid\": \"122\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"120 Blue Springs Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sherman\",\"state\":\"IL\",\"zip\":\"62684\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]David E. Wells[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3445",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|E.|Wells||{ \"MemberID\" : \"3445\",\"luid\": \"122\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3020 Selkirk Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"IL\",\"zip\":\"62702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Susan Solon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "378",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Susan||Solon||{ \"MemberID\" : \"378\",\"luid\": \"122\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1056 N. 6th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Springfield\",\"state\":\"IL\",\"zip\":\"62702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "122",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

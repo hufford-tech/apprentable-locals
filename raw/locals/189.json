@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]311-  (rr) Chattanooga[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "189",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "311-|Chattanooga|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "189",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1297 Greenbrook Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5005",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1297 Greenbrook Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hixson, TN 37343[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5005",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hixson|TN|37343",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](423) 667-2011[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2016",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(423) 667-2011",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal311@gmail.com\" target=\"_blank\">ibewlocal311@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "186",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal311@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Scott Tripp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "583",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott||Tripp||{ \"MemberID\" : \"583\",\"luid\": \"189\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"185 Wyman Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jasper\",\"state\":\"TN\",\"zip\":\"37347\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Scott Tripp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3506",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott||Tripp||{ \"MemberID\" : \"3506\",\"luid\": \"189\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"185 Wyman Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jasper\",\"state\":\"TN\",\"zip\":\"37347\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Mike Stacks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "584",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mike||Stacks||{ \"MemberID\" : \"584\",\"luid\": \"189\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"733 Hargis Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Signal Mountain\",\"state\":\"TN\",\"zip\":\"37377\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Mike Stacks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3507",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mike||Stacks||{ \"MemberID\" : \"3507\",\"luid\": \"189\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"733 Hargis Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Signal Mountain\",\"state\":\"TN\",\"zip\":\"37377\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Southern Credit Union, 512 National Avenue, Chattanooga, 2nd Monday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "189",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Southern Credit Union, 512 National Avenue, Chattanooga, 2nd Monday, 3 pm",
+    "datatype": "txt"
+  }
+]

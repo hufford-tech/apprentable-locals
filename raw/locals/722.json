@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1933  (u) Ft. Myers[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "722",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1933|Ft. Myers|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "722",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1133 Bal Harbor Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6956",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1133 Bal Harbor Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 207[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6956",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 207",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Punta Gorda, FL 33950[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6956",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Punta Gorda|FL|33950",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](239) 980-1922[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2234",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(239) 980-1922",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:gekrumm@gmail.com\" target=\"_blank\">gekrumm@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "Email",
+    "editFieldValues": "gekrumm@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Gregory E. Krumm[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2209",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|E.|Krumm||{ \"MemberID\" : \"2209\",\"luid\": \"722\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1133 Bal Harbor Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Punta Gorda\",\"state\":\"FL\",\"zip\":\"33950\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Gregory E. Krumm[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4036",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|E.|Krumm||{ \"MemberID\" : \"4036\",\"luid\": \"722\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1133 Bal Harbor Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Punta Gorda\",\"state\":\"FL\",\"zip\":\"33950\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Susan Rowe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2208",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Susan||Rowe||{ \"MemberID\" : \"2208\",\"luid\": \"722\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 3007\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Fort Myers\",\"state\":\"FL\",\"zip\":\"33918\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Johnny L. Speirs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2207",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnny|L.|Speirs||{ \"MemberID\" : \"2207\",\"luid\": \"722\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 3007\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Ft. Myers\",\"state\":\"FL\",\"zip\":\"33918\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Bayshore Fire 131, 17350 Nalle Road, N Ft. Myers, 3rd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "722",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Bayshore Fire 131, 17350 Nalle Road, N Ft. Myers, 3rd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

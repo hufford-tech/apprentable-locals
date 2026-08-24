@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Bond County, IL",
+    "District": "6",
+    "Population": "17633",
+    "LandArea": "380.20",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Bond County, IL",
+    "District": "6",
+    "Population": "17633",
+    "LandArea": "380.20",
+    "Percentage": "80%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clinton County, IL",
+    "District": "6",
+    "Population": "35535",
+    "LandArea": "474.23",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clinton County, IL",
+    "District": "6",
+    "Population": "35535",
+    "LandArea": "474.23",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "65%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "65%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Madison County, IL",
+    "District": "6",
+    "Population": "258941",
+    "LandArea": "725.02",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Madison County, IL",
+    "District": "6",
+    "Population": "258941",
+    "LandArea": "725.02",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Monroe County, IL",
+    "District": "6",
+    "Population": "27619",
+    "LandArea": "388.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Monroe County, IL",
+    "District": "6",
+    "Population": "27619",
+    "LandArea": "388.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Montgomery County, IL",
+    "District": "6",
+    "Population": "30652",
+    "LandArea": "703.79",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Montgomery County, IL",
+    "District": "6",
+    "Population": "30652",
+    "LandArea": "703.79",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Randolph County, IL",
+    "District": "6",
+    "Population": "33893",
+    "LandArea": "578.42",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Randolph County, IL",
+    "District": "6",
+    "Population": "33893",
+    "LandArea": "578.42",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "St. Clair County, IL",
+    "District": "6",
+    "Population": "256082",
+    "LandArea": "663.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "St. Clair County, IL",
+    "District": "6",
+    "Population": "256082",
+    "LandArea": "663.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Washington County, IL",
+    "District": "6",
+    "Population": "15148",
+    "LandArea": "562.61",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Washington County, IL",
+    "District": "6",
+    "Population": "15148",
+    "LandArea": "562.61",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

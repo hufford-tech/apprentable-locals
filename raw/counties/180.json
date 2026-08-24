@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Napa County, CA",
+    "District": "9",
+    "Population": "124279",
+    "LandArea": "753.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Solano County, CA",
+    "District": "9",
+    "Population": "394542",
+    "LandArea": "829.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

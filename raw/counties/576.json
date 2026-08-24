@@ -1,0 +1,101 @@
+[
+  {
+    "CountyName": "Avoyelles Parish, LA",
+    "District": "5",
+    "Population": "41481",
+    "LandArea": "832.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Catahoula Parish, LA",
+    "District": "5",
+    "Population": "10920",
+    "LandArea": "703.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Concordia Parish, LA",
+    "District": "5",
+    "Population": "20247",
+    "LandArea": "695.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Evangeline Parish, LA",
+    "District": "5",
+    "Population": "35434",
+    "LandArea": "664.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Grant Parish, LA",
+    "District": "5",
+    "Population": "18698",
+    "LandArea": "645.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "La Salle Parish, LA",
+    "District": "5",
+    "Population": "14282",
+    "LandArea": "623.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Natchitoches Parish, LA",
+    "District": "5",
+    "Population": "39080",
+    "LandArea": "1255.45",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Rapides Parish, LA",
+    "District": "5",
+    "Population": "126337",
+    "LandArea": "1322.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Sabine Parish, LA",
+    "District": "5",
+    "Population": "23459",
+    "LandArea": "865.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Vernon Parish, LA",
+    "District": "5",
+    "Population": "52531",
+    "LandArea": "1328.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Winn Parish, LA",
+    "District": "5",
+    "Population": "16894",
+    "LandArea": "950.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

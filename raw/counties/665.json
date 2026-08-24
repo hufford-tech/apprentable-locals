@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Clinton County, MI",
+    "District": "6",
+    "Population": "64753",
+    "LandArea": "571.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Eaton County, MI",
+    "District": "6",
+    "Population": "103655",
+    "LandArea": "576.41",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Gratiot County, MI",
+    "District": "6",
+    "Population": "42285",
+    "LandArea": "570.13",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ingham County, MI",
+    "District": "6",
+    "Population": "279320",
+    "LandArea": "559.19",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ionia County, MI",
+    "District": "6",
+    "Population": "61518",
+    "LandArea": "573.21",
+    "Percentage": "35%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Livingston County, MI",
+    "District": "6",
+    "Population": "156951",
+    "LandArea": "568.40",
+    "Percentage": "34%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Shiawassee County, MI",
+    "District": "6",
+    "Population": "71687",
+    "LandArea": "538.73",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

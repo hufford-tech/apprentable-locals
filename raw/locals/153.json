@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]244-  (u) Lincoln[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "244-|Lincoln|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "153",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4625 Y Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6225",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4625 Y Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lincoln, NE 68503[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6225",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lincoln|NE|68503",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]4625 Y Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7225",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4625 Y Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Lincoln, NE 68503[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7225",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lincoln|NE|68503",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](402) 640-3599[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2329",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 640-3599",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:richardibew244@gmail.com\" target=\"_blank\">richardibew244@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2179",
+    "editFieldNames": "Email",
+    "editFieldValues": "richardibew244@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Richard D. Reed, 54749 854 Road, Pierce, NE  68767[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "474",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|D.|Reed||{ \"MemberID\" : \"474\",\"luid\": \"153\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"54749 854 Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pierce\",\"state\":\"NE\",\"zip\":\"68767\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Richard D. Reed, 54749 854 Road, Pierce, NE  68767[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3470",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|D.|Reed||{ \"MemberID\" : \"3470\",\"luid\": \"153\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"54749 854 Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pierce\",\"state\":\"NE\",\"zip\":\"68767\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Charlie D. Ware, 1120 W Custer Street, Lincoln, NE  68521[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "476",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charlie|D.|Ware||{ \"MemberID\" : \"476\",\"luid\": \"153\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1120 W Custer Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln\",\"state\":\"NE\",\"zip\":\"68521\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jesse J. Juricek, 2340 County Road C, Crete, NE  68333[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "475",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|J.|Juricek||{ \"MemberID\" : \"475\",\"luid\": \"153\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2340 County Road C\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crete\",\"state\":\"NE\",\"zip\":\"68333\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "153",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

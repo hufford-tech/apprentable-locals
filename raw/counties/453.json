@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Christian County, MO",
+    "District": "11",
+    "Population": "54285",
+    "LandArea": "563.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Dallas County, MO",
+    "District": "11",
+    "Population": "15661",
+    "LandArea": "541.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Douglas County, MO",
+    "District": "11",
+    "Population": "13084",
+    "LandArea": "814.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Greene County, MO",
+    "District": "11",
+    "Population": "240391",
+    "LandArea": "674.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Hickory County, MO",
+    "District": "11",
+    "Population": "8940",
+    "LandArea": "398.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Howell County, MO",
+    "District": "11",
+    "Population": "37238",
+    "LandArea": "927.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Laclede County, MO",
+    "District": "11",
+    "Population": "32513",
+    "LandArea": "765.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Oregon County, MO",
+    "District": "11",
+    "Population": "10344",
+    "LandArea": "791.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ozark County, MO",
+    "District": "11",
+    "Population": "9542",
+    "LandArea": "742.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Polk County, MO",
+    "District": "11",
+    "Population": "26992",
+    "LandArea": "637.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Pulaski County, MO",
+    "District": "11",
+    "Population": "41165",
+    "LandArea": "547.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Shannon County, MO",
+    "District": "11",
+    "Population": "8324",
+    "LandArea": "1003.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Stone County, MO",
+    "District": "11",
+    "Population": "28658",
+    "LandArea": "463.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Taney County, MO",
+    "District": "11",
+    "Population": "39703",
+    "LandArea": "632.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Texas County, MO",
+    "District": "11",
+    "Population": "23003",
+    "LandArea": "1178.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Webster County, MO",
+    "District": "11",
+    "Population": "31045",
+    "LandArea": "593.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Wright County, MO",
+    "District": "11",
+    "Population": "17955",
+    "LandArea": "682.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  }
+]

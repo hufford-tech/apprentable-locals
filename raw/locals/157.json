@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]252-  (ees, i, rts, spa) Ann Arbor[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "157",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "252-|Ann Arbor|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "157",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7920 Jackson Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "159",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7920 Jackson Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "159",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Ann Arbor, MI 48103[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "159",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ann Arbor|MI|48103",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](734) 424-0978[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "297",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(734) 424-0978",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](734) 424-9575[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "298",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(734) 424-9575",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew252.org\" target=\"_blank\">info@ibew252.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew252.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew252.org\" target=\"_blank\">www.ibew252.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "157",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew252.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Ryan M. Husse[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|M.|Husse||{ \"MemberID\" : \"488\",\"luid\": \"157\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7920 Jackson Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Ann Arbor\",\"state\":\"MI\",\"zip\":\"48103\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Michael Cox[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "486",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael||Cox||{ \"MemberID\" : \"486\",\"luid\": \"157\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7920 Jackson Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Ann Arbor\",\"state\":\"MI\",\"zip\":\"48103\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Ryan M. Husse[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3474",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|M.|Husse||{ \"MemberID\" : \"3474\",\"luid\": \"157\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Mary L. Grove[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mary|L.|Grove||{ \"MemberID\" : \"487\",\"luid\": \"157\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"7920 Jackson Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Ann Arbor\",\"state\":\"MI\",\"zip\":\"48103\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "157",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

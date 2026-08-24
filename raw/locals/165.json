@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]269-  (i, o) Trenton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "165",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "269-|Trenton|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "165",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]670 Whitehead Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "169",
+    "editFieldNames": "Address1",
+    "editFieldValues": "670 Whitehead Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Trenton, NJ 08648[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "169",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Trenton|NJ|08648",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](609) 394-8129[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 394-8129",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](609) 599-2998[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "314",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 599-2998",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:saldrich@ibew269.com\" target=\"_blank\">saldrich@ibew269.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "162",
+    "editFieldNames": "Email",
+    "editFieldValues": "saldrich@ibew269.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew269.com\" target=\"_blank\">www.ibew269.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "165",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew269.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stephen M. Aldrich[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "512",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|M.|Aldrich||{ \"MemberID\" : \"512\",\"luid\": \"165\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"670 Whitehead Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trenton\",\"state\":\"NJ\",\"zip\":\"08648\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Wayne P. DeAngelo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "513",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|P.|DeAngelo||{ \"MemberID\" : \"513\",\"luid\": \"165\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"670 Whitehead Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trenton\",\"state\":\"NJ\",\"zip\":\"08648\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Stephen M. Aldrich[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3481",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|M.|Aldrich||{ \"MemberID\" : \"3481\",\"luid\": \"165\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Guy J. Miliziano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "511",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Guy|J.|Miliziano||{ \"MemberID\" : \"511\",\"luid\": \"165\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"670 Whitehead Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trenton\",\"state\":\"NJ\",\"zip\":\"08648\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "165",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 8 pm",
+    "datatype": "txt"
+  }
+]

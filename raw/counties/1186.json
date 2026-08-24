@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Guam",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GU"
+  },
+  {
+    "CountyName": "Guam",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GU"
+  },
+  {
+    "CountyName": "Hawaii County, HI",
+    "District": "9",
+    "Population": "148677",
+    "LandArea": "4028.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Hawaii County, HI",
+    "District": "9",
+    "Population": "148677",
+    "LandArea": "4028.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Honolulu County, HI",
+    "District": "9",
+    "Population": "876156",
+    "LandArea": "599.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Honolulu County, HI",
+    "District": "9",
+    "Population": "876156",
+    "LandArea": "599.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Kauai County, HI",
+    "District": "9",
+    "Population": "58463",
+    "LandArea": "622.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Kauai County, HI",
+    "District": "9",
+    "Population": "58463",
+    "LandArea": "622.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Maui County, HI",
+    "District": "9",
+    "Population": "128094",
+    "LandArea": "1159.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Maui County, HI",
+    "District": "9",
+    "Population": "128094",
+    "LandArea": "1159.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "HI"
+  },
+  {
+    "CountyName": "Pacific Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PI"
+  },
+  {
+    "CountyName": "Pacific Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "PI"
+  }
+]

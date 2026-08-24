@@ -1,0 +1,43 @@
+{
+  "definition": "O*NET-SOC 47-2111.00 Electricians",
+  "data_as_of": "2026-08-17",
+  "all_historical_electrician_rows": 778173,
+  "official_fy2025": {
+    "new_electricians": 48418,
+    "active_electricians": 128662,
+    "electrician_exiters": 34638,
+    "completed_exiters": 15744,
+    "cancelled_exiters": 18894,
+    "share_of_all_new_apprentices": 0.15392783341281197
+  },
+  "program_structure_fy2025": {
+    "Other multi-employer program": 17163,
+    "Multi-employer union/CBA or joint-training signal": 18354,
+    "Single-employer program": 10220,
+    "USMAP": 2346,
+    "Other or unknown": 335
+  },
+  "union_flag_fy2025": {
+    "0": 26829,
+    "1": 19449
+  },
+  "cba_flag_fy2025": {
+    "0": 26829,
+    "1": 19449
+  },
+  "single_employer_flag_fy2025": {
+    "1": 10220,
+    "0": 575
+  },
+  "multi_employer_flag_fy2025": {
+    "1": 37907,
+    "0": 111
+  },
+  "future_electrician_start_dates": 81,
+  "notes": [
+    "Line maintainers (49-9051.00) are excluded.",
+    "Program categories are descriptive heuristics, not audited IBEW classifications.",
+    "Outcome shares are exploratory and are not official completion rates.",
+    "Hourly wage summaries use only records explicitly marked H."
+  ]
+}

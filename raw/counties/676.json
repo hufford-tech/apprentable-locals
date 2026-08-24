@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Escambia County, FL",
+    "District": "5",
+    "Population": "294410",
+    "LandArea": "662.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Okaloosa County, FL",
+    "District": "5",
+    "Population": "170498",
+    "LandArea": "935.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Santa Rosa County, FL",
+    "District": "5",
+    "Population": "117743",
+    "LandArea": "1016.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

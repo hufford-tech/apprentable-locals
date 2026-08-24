@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Addison County, VT",
+    "District": "2",
+    "Population": "35974",
+    "LandArea": "770.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Bennington County, VT",
+    "District": "2",
+    "Population": "36994",
+    "LandArea": "676.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Caledonia County, VT",
+    "District": "2",
+    "Population": "29702",
+    "LandArea": "650.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Chittenden County, VT",
+    "District": "2",
+    "Population": "146571",
+    "LandArea": "539.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Essex County, VT",
+    "District": "2",
+    "Population": "6459",
+    "LandArea": "665.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Franklin County, VT",
+    "District": "2",
+    "Population": "45417",
+    "LandArea": "637.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Grand Isle County, VT",
+    "District": "2",
+    "Population": "6901",
+    "LandArea": "82.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Lamoille County, VT",
+    "District": "2",
+    "Population": "23233",
+    "LandArea": "460.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Orange County, VT",
+    "District": "2",
+    "Population": "28226",
+    "LandArea": "688.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Orleans County, VT",
+    "District": "2",
+    "Population": "26277",
+    "LandArea": "697.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Rutland County, VT",
+    "District": "2",
+    "Population": "63400",
+    "LandArea": "932.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Washington County, VT",
+    "District": "2",
+    "Population": "58039",
+    "LandArea": "689.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Windham County, VT",
+    "District": "2",
+    "Population": "44216",
+    "LandArea": "788.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Windsor County, VT",
+    "District": "2",
+    "Population": "57418",
+    "LandArea": "970.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VT"
+  }
+]

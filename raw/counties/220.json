@@ -1,0 +1,380 @@
+[
+  {
+    "CountyName": "Anderson County, TX",
+    "District": "7",
+    "Population": "55109",
+    "LandArea": "1070.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bell County, TX",
+    "District": "7",
+    "Population": "237974",
+    "LandArea": "1059.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bosque County, TX",
+    "District": "7",
+    "Population": "17204",
+    "LandArea": "989.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cherokee County, TX",
+    "District": "7",
+    "Population": "46659",
+    "LandArea": "1052.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Collin County, TX",
+    "District": "7",
+    "Population": "491675",
+    "LandArea": "847.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Comanche County, TX",
+    "District": "7",
+    "Population": "14026",
+    "LandArea": "937.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cooke County, TX",
+    "District": "7",
+    "Population": "36363",
+    "LandArea": "873.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Coryell County, TX",
+    "District": "7",
+    "Population": "74978",
+    "LandArea": "1051.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Dallas County, TX",
+    "District": "7",
+    "Population": "2218899",
+    "LandArea": "879.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Delta County, TX",
+    "District": "7",
+    "Population": "5327",
+    "LandArea": "277.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Denton County, TX",
+    "District": "7",
+    "Population": "432976",
+    "LandArea": "888.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Ellis County, TX",
+    "District": "7",
+    "Population": "111360",
+    "LandArea": "939.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Erath County, TX",
+    "District": "7",
+    "Population": "33001",
+    "LandArea": "1086.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Falls County, TX",
+    "District": "7",
+    "Population": "18576",
+    "LandArea": "769.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Fannin County, TX",
+    "District": "7",
+    "Population": "31242",
+    "LandArea": "891.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Freestone County, TX",
+    "District": "7",
+    "Population": "17867",
+    "LandArea": "877.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Grayson County, TX",
+    "District": "7",
+    "Population": "110595",
+    "LandArea": "933.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hamilton County, TX",
+    "District": "7",
+    "Population": "8229",
+    "LandArea": "835.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Henderson County, TX",
+    "District": "7",
+    "Population": "73277",
+    "LandArea": "874.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hill County, TX",
+    "District": "7",
+    "Population": "32321",
+    "LandArea": "962.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hood County, TX",
+    "District": "7",
+    "Population": "41100",
+    "LandArea": "421.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hunt County, TX",
+    "District": "7",
+    "Population": "76596",
+    "LandArea": "841.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jack County, TX",
+    "District": "7",
+    "Population": "8763",
+    "LandArea": "916.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Johnson County, TX",
+    "District": "7",
+    "Population": "126811",
+    "LandArea": "729.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kaufman County, TX",
+    "District": "7",
+    "Population": "71313",
+    "LandArea": "786.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lamar County, TX",
+    "District": "7",
+    "Population": "48499",
+    "LandArea": "916.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lampasas County, TX",
+    "District": "7",
+    "Population": "17762",
+    "LandArea": "712.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Leon County, TX",
+    "District": "7",
+    "Population": "15335",
+    "LandArea": "1072.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Limestone County, TX",
+    "District": "7",
+    "Population": "22051",
+    "LandArea": "908.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "McLennan County, TX",
+    "District": "7",
+    "Population": "213517",
+    "LandArea": "1041.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Milam County, TX",
+    "District": "7",
+    "Population": "24238",
+    "LandArea": "1016.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Mills County, TX",
+    "District": "7",
+    "Population": "5151",
+    "LandArea": "748.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Navarro County, TX",
+    "District": "7",
+    "Population": "45124",
+    "LandArea": "1007.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Palo Pinto County, TX",
+    "District": "7",
+    "Population": "27026",
+    "LandArea": "952.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Parker County, TX",
+    "District": "7",
+    "Population": "88495",
+    "LandArea": "903.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Robertson County, TX",
+    "District": "7",
+    "Population": "16000",
+    "LandArea": "854.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Rockwall County, TX",
+    "District": "7",
+    "Population": "43080",
+    "LandArea": "128.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Smith County, TX",
+    "District": "7",
+    "Population": "174706",
+    "LandArea": "928.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Somervell County, TX",
+    "District": "7",
+    "Population": "6809",
+    "LandArea": "187.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Tarrant County, TX",
+    "District": "7",
+    "Population": "1446219",
+    "LandArea": "863.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Van Zandt County, TX",
+    "District": "7",
+    "Population": "48140",
+    "LandArea": "848.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wise County, TX",
+    "District": "7",
+    "Population": "48793",
+    "LandArea": "904.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

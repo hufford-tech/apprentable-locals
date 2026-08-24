@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1666  (em) Lancaster[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "666",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1666|Lancaster|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "666",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]316 S Market Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "Address1",
+    "editFieldValues": "316 S Market Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mount Joy, PA 17552[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mount Joy|PA|17552",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](717) 940-7579[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1145",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 940-7579",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kibew1666@gmail.com\" target=\"_blank\">kibew1666@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "623",
+    "editFieldNames": "Email",
+    "editFieldValues": "kibew1666@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Karen M. Stine[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2040",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Karen|M.|Stine||{ \"MemberID\" : \"2040\",\"luid\": \"666\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"1066 New Holland Avenue\",\"addr2\":\"2nd Floor\",\"addr3\":\"\",\"city\":\"Lancaster\",\"state\":\"PA\",\"zip\":\"17601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Karen M. Stine[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3972",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Karen|M.|Stine||{ \"MemberID\" : \"3972\",\"luid\": \"666\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Katherine A. Regester, 822 Prangley Avenue, Lancaster, PA  17603[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2041",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Katherine|A.|Regester||{ \"MemberID\" : \"2041\",\"luid\": \"666\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"822 Prangley Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lancaster\",\"state\":\"PA\",\"zip\":\"17603\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kim S. Brenner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2039",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kim|S.|Brenner||{ \"MemberID\" : \"2039\",\"luid\": \"666\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1066 New Holland Avenue\",\"addr2\":\"2nd Floor\",\"addr3\":\"\",\"city\":\"Lancaster\",\"state\":\"PA\",\"zip\":\"17601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1st Saturday, 11 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "666",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Saturday, 11 am",
+    "datatype": "txt"
+  }
+]

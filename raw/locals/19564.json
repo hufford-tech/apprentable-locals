@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]911-  (u) Chattanooga[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19564",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "911-|Chattanooga|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19564",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3200 Highway 157[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6981",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3200 Highway 157",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Leighton, AL 35646[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6981",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Leighton|AL|35646",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](256) 810-0333[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2244",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 810-0333",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:srdawson157@gmail.com\" target=\"_blank\">srdawson157@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2123",
+    "editFieldNames": "Email",
+    "editFieldValues": "srdawson157@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew911.org\" target=\"_blank\">www.ibew911.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19564",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew911.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Stacey R. Dawson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4203",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|R.|Dawson||{ \"MemberID\" : \"4203\",\"luid\": \"*\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3200 Highway 157\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leighton\",\"state\":\"AL\",\"zip\":\"35646\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Stacey R. Dawson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4204",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|R.|Dawson||{ \"MemberID\" : \"4204\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3200 Highway 157\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leighton\",\"state\":\"AL\",\"zip\":\"35646\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Robert L. Donaldson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4205",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Donaldson||{ \"MemberID\" : \"4205\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3200 Highway 157\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leighton\",\"state\":\"AL\",\"zip\":\"35646\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Brenda L. Guss[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4206",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brenda|L.|Guss||{ \"MemberID\" : \"4206\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"3200 Highway 157\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leighton\",\"state\":\"AL\",\"zip\":\"35646\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

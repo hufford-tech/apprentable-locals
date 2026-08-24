@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1805  (em) Baltimore[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1805|Baltimore|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "692",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]898 Airport Park Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "Address1",
+    "editFieldValues": "898 Airport Park Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Glen Burnie, MD 21061[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Glen Burnie|MD|21061",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](410) 761-7780[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1179",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 761-7780",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](410) 768-2248[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1180",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 768-2248",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Admin@IBEW1805.com\" target=\"_blank\">Admin@IBEW1805.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "Email",
+    "editFieldValues": "Admin@IBEW1805.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.IBEW1805.com\" target=\"_blank\">www.IBEW1805.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.IBEW1805.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jeffrey L. Stinchcomb[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2118",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|L.|Stinchcomb||{ \"MemberID\" : \"2118\",\"luid\": \"692\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"898 Airport Park Road\",\"addr2\":\"Suite 207\",\"addr3\":\"\",\"city\":\"Glen Burnie\",\"state\":\"MD\",\"zip\":\"21061\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jeffrey L. Stinchcomb[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4000",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|L.|Stinchcomb||{ \"MemberID\" : \"4000\",\"luid\": \"692\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Gary L. Keels[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2120",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gary|L.|Keels||{ \"MemberID\" : \"2120\",\"luid\": \"692\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"898 Airport Park Road\",\"addr2\":\"Suite 207\",\"addr3\":\"\",\"city\":\"Glen Burnie\",\"state\":\"MD\",\"zip\":\"21061\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Sabrina M. Wagener[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2119",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sabrina|M.|Wagener||{ \"MemberID\" : \"2119\",\"luid\": \"692\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"898 Airport Park Road\",\"addr2\":\"Suite 207\",\"addr3\":\"\",\"city\":\"Glen Burnie\",\"state\":\"MD\",\"zip\":\"21061\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday",
+    "datatype": "txt"
+  }
+]

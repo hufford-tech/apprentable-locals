@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2089  (t) Meadville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "777",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2089|Meadville|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "777",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1145[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1145",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Meadville, PA 16335[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Meadville|PA|16335",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](814) 350-4217[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1290",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 350-4217",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2089president@gmail.com\" target=\"_blank\">ibew2089president@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "721",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2089president@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Steve Stallsmith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2371",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steve||Stallsmith||{ \"MemberID\" : \"2371\",\"luid\": \"777\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1145\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Meadville\",\"state\":\"PA\",\"zip\":\"16335\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Steve Stallsmith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4096",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steve||Stallsmith||{ \"MemberID\" : \"4096\",\"luid\": \"777\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Robert J. Potts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2372",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Potts||{ \"MemberID\" : \"2372\",\"luid\": \"777\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1145\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Meadville\",\"state\":\"PA\",\"zip\":\"16335\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Dacia M. Stallsmith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2373",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dacia|M.|Stallsmith||{ \"MemberID\" : \"2373\",\"luid\": \"777\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1145\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Meadville\",\"state\":\"PA\",\"zip\":\"16335\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]AFL-CIO Labor Temple, 287 1/2 Chestnut Street, 3rd Thursday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "777",
+    "editFieldNames": "Meets",
+    "editFieldValues": "AFL-CIO Labor Temple, 287 1/2 Chestnut Street, 3rd Thursday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

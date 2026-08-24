@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Cuyahoga County, OH",
+    "District": "4",
+    "Population": "1393978",
+    "LandArea": "458.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Geauga County, OH",
+    "District": "4",
+    "Population": "90895",
+    "LandArea": "403.66",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lorain County, OH",
+    "District": "4",
+    "Population": "284664",
+    "LandArea": "492.50",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

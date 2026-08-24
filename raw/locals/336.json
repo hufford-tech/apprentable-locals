@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]605-  (u) Jackson[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "336",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "605-|Jackson|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "336",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]210 E Georgetown Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4732",
+    "editFieldNames": "Address1",
+    "editFieldValues": "210 E Georgetown Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Crystal Springs, MS 39059[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4732",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Crystal Springs|MS|39059",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 226[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 226",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Crystal Springs, MS 39059[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Crystal Springs|MS|39059",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](601) 892-5162[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "621",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(601) 892-5162",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal605@bellsouth.net\" target=\"_blank\">ibewlocal605@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal605@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David K. Killingsworth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1030",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|K.|Killingsworth||{ \"MemberID\" : \"1030\",\"luid\": \"336\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"210 E Georgetown Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crystal Springs\",\"state\":\"MS\",\"zip\":\"39059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Thomas C. Parsons[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1031",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|C.|Parsons||{ \"MemberID\" : \"1031\",\"luid\": \"336\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 226\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crystal Springs\",\"state\":\"MS\",\"zip\":\"39059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]David K. Killingsworth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3648",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|K.|Killingsworth||{ \"MemberID\" : \"3648\",\"luid\": \"336\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christopher L. Berch[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1029",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|L.|Berch||{ \"MemberID\" : \"1029\",\"luid\": \"336\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"210 E Georgetown Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crystal Springs\",\"state\":\"MS\",\"zip\":\"39059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Local Union 480 Hall, 1st Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "336",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 480 Hall, 1st Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

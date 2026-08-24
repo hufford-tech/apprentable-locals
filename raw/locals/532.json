@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1133  (mar) Halifax, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "532",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1133|Halifax|NS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "532",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mar",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8 Inverary Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6323",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8 Inverary Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Dartmouth, NS B2X 1H2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6323",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Dartmouth|NS|B2X 1H2",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](902) 830-4856[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2202",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 830-4856",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](902) 405-2638[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2203",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 405-2638",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1133@hotmail.com\" target=\"_blank\">ibew1133@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "501",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1133@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Tim A. Bunker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1635",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tim|A.|Bunker||{ \"MemberID\" : \"1635\",\"luid\": \"532\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8 Inverary Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dartmouth\",\"state\":\"NS\",\"zip\":\"B2X 1H2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Tim A. Bunker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3835",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tim|A.|Bunker||{ \"MemberID\" : \"3835\",\"luid\": \"532\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8 Inverary Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dartmouth\",\"state\":\"NS\",\"zip\":\"B2X 1H2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jacob B Graham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4276",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|B|Graham||{ \"MemberID\" : \"4276\",\"luid\": \"532\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Thaine E Bednar[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4275",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thaine|E|Bednar||{ \"MemberID\" : \"4275\",\"luid\": \"532\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Fleet Club Stadacona, CFB Halifax, 2nd Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "532",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Fleet Club Stadacona, CFB Halifax, 2nd Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

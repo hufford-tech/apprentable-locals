@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Clayton County, IA",
+    "District": "11",
+    "Population": "18678",
+    "LandArea": "778.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Delaware County, IA",
+    "District": "11",
+    "Population": "18404",
+    "LandArea": "577.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Dubuque County, IA",
+    "District": "11",
+    "Population": "89143",
+    "LandArea": "608.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Grant County, WI",
+    "District": "6",
+    "Population": "49597",
+    "LandArea": "1147.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Jo Daviess County, IL",
+    "District": "6",
+    "Population": "22289",
+    "LandArea": "601.08",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Winneshiek County, IA",
+    "District": "11",
+    "Population": "21310",
+    "LandArea": "689.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Belmont County, OH",
+    "District": "4",
+    "Population": "70226",
+    "LandArea": "537.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Brooke County, WV",
+    "District": "4",
+    "Population": "25447",
+    "LandArea": "88.85",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Brooke County, WV",
+    "District": "4",
+    "Population": "25447",
+    "LandArea": "88.85",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Marshall County, WV",
+    "District": "4",
+    "Population": "35519",
+    "LandArea": "306.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Marshall County, WV",
+    "District": "4",
+    "Population": "35519",
+    "LandArea": "306.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Ohio County, WV",
+    "District": "4",
+    "Population": "47427",
+    "LandArea": "106.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Ohio County, WV",
+    "District": "4",
+    "Population": "47427",
+    "LandArea": "106.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wetzel County, WV",
+    "District": "4",
+    "Population": "17693",
+    "LandArea": "359.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wetzel County, WV",
+    "District": "4",
+    "Population": "17693",
+    "LandArea": "359.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  }
+]

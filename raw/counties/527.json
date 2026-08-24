@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Brazoria County, TX",
+    "District": "7",
+    "Population": "241767",
+    "LandArea": "1386.40",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Chambers County, TX",
+    "District": "7",
+    "Population": "26031",
+    "LandArea": "599.31",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Galveston County, TX",
+    "District": "7",
+    "Population": "250158",
+    "LandArea": "398.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Harris County, TX",
+    "District": "7",
+    "Population": "3400578",
+    "LandArea": "1728.82",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  }
+]

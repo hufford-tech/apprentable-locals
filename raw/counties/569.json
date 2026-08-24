@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Imperial County, CA",
+    "District": "9",
+    "Population": "142361",
+    "LandArea": "4174.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Diego County, CA",
+    "District": "9",
+    "Population": "2813833",
+    "LandArea": "4199.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

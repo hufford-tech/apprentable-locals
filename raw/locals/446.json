@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]840-  (i) Geneva[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "840-|Geneva|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "446",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 851[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "422",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 851",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Geneva, NY 14456[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "422",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Geneva|NY|14456",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](315) 789-3330[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "801",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 789-3330",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew840@ibew840.org\" target=\"_blank\">ibew840@ibew840.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew840@ibew840.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew840.org\" target=\"_blank\">www.ibew840.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew840.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Michael L. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1372",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|L.|Davis||{ \"MemberID\" : \"1372\",\"luid\": \"446\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 851\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Geneva\",\"state\":\"NY\",\"zip\":\"14456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Patrick J. Connor III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1371",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Connor|III|{ \"MemberID\" : \"1371\",\"luid\": \"446\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 851\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Geneva\",\"state\":\"NY\",\"zip\":\"14456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Michael L. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3754",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|L.|Davis||{ \"MemberID\" : \"3754\",\"luid\": \"446\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Nathan Stockton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1373",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan||Stockton||{ \"MemberID\" : \"1373\",\"luid\": \"446\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 851\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Geneva\",\"state\":\"NY\",\"zip\":\"14456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

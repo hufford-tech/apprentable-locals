@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "De Kalb County, IL",
+    "District": "6",
+    "Population": "88969",
+    "LandArea": "634.16",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kane County, IL",
+    "District": "6",
+    "Population": "404119",
+    "LandArea": "520.44",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kendall County, IL",
+    "District": "6",
+    "Population": "54544",
+    "LandArea": "320.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

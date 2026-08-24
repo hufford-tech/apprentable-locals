@@ -1,0 +1,506 @@
+[
+  {
+    "CountyName": "Andrew County, MO",
+    "District": "11",
+    "Population": "16492",
+    "LandArea": "435.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Atchison County, KS",
+    "District": "7",
+    "Population": "16774",
+    "LandArea": "432.34",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Atchison County, MO",
+    "District": "11",
+    "Population": "6430",
+    "LandArea": "544.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Barry County, MO",
+    "District": "11",
+    "Population": "34010",
+    "LandArea": "779.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Barton County, MO",
+    "District": "11",
+    "Population": "12541",
+    "LandArea": "594.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Bates County, MO",
+    "District": "11",
+    "Population": "16653",
+    "LandArea": "848.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Benton County, MO",
+    "District": "11",
+    "Population": "17180",
+    "LandArea": "705.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Buchanan County, MO",
+    "District": "11",
+    "Population": "85998",
+    "LandArea": "409.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Caldwell County, MO",
+    "District": "11",
+    "Population": "8969",
+    "LandArea": "429.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Carroll County, MO",
+    "District": "11",
+    "Population": "10285",
+    "LandArea": "694.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cass County, MO",
+    "District": "11",
+    "Population": "82092",
+    "LandArea": "698.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cedar County, MO",
+    "District": "11",
+    "Population": "13733",
+    "LandArea": "475.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cherokee County, KS",
+    "District": "7",
+    "Population": "22605",
+    "LandArea": "587.11",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Christian County, MO",
+    "District": "11",
+    "Population": "54285",
+    "LandArea": "563.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Clay County, MO",
+    "District": "11",
+    "Population": "184006",
+    "LandArea": "396.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Clinton County, MO",
+    "District": "11",
+    "Population": "18979",
+    "LandArea": "418.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Dade County, MO",
+    "District": "11",
+    "Population": "7923",
+    "LandArea": "490.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Dallas County, MO",
+    "District": "11",
+    "Population": "15661",
+    "LandArea": "541.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Daviess County, MO",
+    "District": "11",
+    "Population": "8016",
+    "LandArea": "566.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "De Kalb County, MO",
+    "District": "11",
+    "Population": "11597",
+    "LandArea": "424.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Doniphan County, KS",
+    "District": "7",
+    "Population": "8249",
+    "LandArea": "392.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Douglas County, MO",
+    "District": "11",
+    "Population": "13084",
+    "LandArea": "814.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Gentry County, MO",
+    "District": "11",
+    "Population": "6861",
+    "LandArea": "491.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Greene County, MO",
+    "District": "11",
+    "Population": "240391",
+    "LandArea": "674.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Grundy County, MO",
+    "District": "11",
+    "Population": "10432",
+    "LandArea": "435.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Harrison County, MO",
+    "District": "11",
+    "Population": "8850",
+    "LandArea": "725.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Henry County, MO",
+    "District": "11",
+    "Population": "21997",
+    "LandArea": "702.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Hickory County, MO",
+    "District": "11",
+    "Population": "8940",
+    "LandArea": "398.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Holt County, MO",
+    "District": "11",
+    "Population": "5351",
+    "LandArea": "461.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Jackson County, MO",
+    "District": "11",
+    "Population": "654880",
+    "LandArea": "604.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Jasper County, MO",
+    "District": "11",
+    "Population": "104686",
+    "LandArea": "639.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Johnson County, KS",
+    "District": "7",
+    "Population": "451086",
+    "LandArea": "476.78",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Johnson County, MO",
+    "District": "11",
+    "Population": "48258",
+    "LandArea": "830.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Laclede County, MO",
+    "District": "11",
+    "Population": "32513",
+    "LandArea": "765.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Lafayette County, MO",
+    "District": "11",
+    "Population": "32960",
+    "LandArea": "629.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Lawrence County, MO",
+    "District": "11",
+    "Population": "35204",
+    "LandArea": "613.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Leavenworth County, KS",
+    "District": "7",
+    "Population": "68691",
+    "LandArea": "463.27",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Livingston County, MO",
+    "District": "11",
+    "Population": "14558",
+    "LandArea": "534.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "McDonald County, MO",
+    "District": "11",
+    "Population": "21681",
+    "LandArea": "539.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Mercer County, MO",
+    "District": "11",
+    "Population": "3757",
+    "LandArea": "454.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Newton County, MO",
+    "District": "11",
+    "Population": "52636",
+    "LandArea": "626.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Nodaway County, MO",
+    "District": "11",
+    "Population": "21912",
+    "LandArea": "876.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ozark County, MO",
+    "District": "11",
+    "Population": "9542",
+    "LandArea": "742.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Pettis County, MO",
+    "District": "11",
+    "Population": "39403",
+    "LandArea": "684.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Platte County, MO",
+    "District": "11",
+    "Population": "73781",
+    "LandArea": "420.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Polk County, MO",
+    "District": "11",
+    "Population": "26992",
+    "LandArea": "637.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ray County, MO",
+    "District": "11",
+    "Population": "23354",
+    "LandArea": "569.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Saline County, MO",
+    "District": "11",
+    "Population": "23756",
+    "LandArea": "755.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Clair County, MO",
+    "District": "11",
+    "Population": "9652",
+    "LandArea": "676.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Stone County, MO",
+    "District": "11",
+    "Population": "28658",
+    "LandArea": "463.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Taney County, MO",
+    "District": "11",
+    "Population": "39703",
+    "LandArea": "632.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Vernon County, MO",
+    "District": "11",
+    "Population": "20454",
+    "LandArea": "833.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Webster County, MO",
+    "District": "11",
+    "Population": "31045",
+    "LandArea": "593.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Worth County, MO",
+    "District": "11",
+    "Population": "2382",
+    "LandArea": "266.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Wright County, MO",
+    "District": "11",
+    "Population": "17955",
+    "LandArea": "682.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Wyandotte County, KS",
+    "District": "7",
+    "Population": "157882",
+    "LandArea": "151.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KS"
+  }
+]

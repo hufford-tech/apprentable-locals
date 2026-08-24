@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]80--  (i, o) Norfolk[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "65",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "80--|Norfolk|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "65",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5307 E Virginia Beach Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5307 E Virginia Beach Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Norfolk, VA 23502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Norfolk|VA|23502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](757) 480-1740[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "127",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(757) 480-1740",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](757) 480-3038[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "128",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(757) 480-3038",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dennisfloyd@ibew80.com\" target=\"_blank\">dennisfloyd@ibew80.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "Email",
+    "editFieldValues": "dennisfloyd@ibew80.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew80.com\" target=\"_blank\">www.ibew80.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "65",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew80.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]William D. Floyd[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "200",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Floyd||{ \"MemberID\" : \"200\",\"luid\": \"65\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"828 Providence Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chesapeake\",\"state\":\"VA\",\"zip\":\"23325\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Scott A. Blankenburg[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "198",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|A.|Blankenburg||{ \"MemberID\" : \"198\",\"luid\": \"65\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"828 Providence Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chesapeake\",\"state\":\"VA\",\"zip\":\"23325\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]William D. Floyd[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3395",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Floyd||{ \"MemberID\" : \"3395\",\"luid\": \"65\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Tyler J. Whitley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler|J.|Whitley||{ \"MemberID\" : \"199\",\"luid\": \"65\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"828 Providence Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chesapeake\",\"state\":\"VA\",\"zip\":\"23325\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "65",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

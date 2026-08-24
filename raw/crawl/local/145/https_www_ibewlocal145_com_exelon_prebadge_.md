@@ -1,0 +1,188 @@
+https://www.ibewlocal145.com/exelon-prebadge/
+---
+[1700 52nd Ave Ste A, Moline, IL 61265](https://goo.gl/maps/w1T4yjkfLVNfh6rC9)
+
+### [1700 52nd Ave Ste A, Moline, IL 61265](https://goo.gl/maps/w1T4yjkfLVNfh6rC9)
+
+[309.736.4239](tel:3097364239)
+
+### [309.736.4239](tel:3097364239)
+
+[Contact Us](https://www.ibewlocal145.com/contact/)
+
+### [Contact Us](https://www.ibewlocal145.com/contact/)
+
+### Mon to Fri 7:30am - 4:30pm
+
+[![IBEW-NEW-Logo](https://www.ibewlocal145.com/wp-content/uploads/elementor/thumbs/IBEW-NEW-Logo-qrmt8nw2j57zjoiiptyd2rknlb3vwqty7qx1q8dmy6.png)](https://www.ibewlocal145.com/)
+
+- [Members](https://www.ibewlocal145.com/members/)
+  - [Pay Dues](https://www.ibewlocal145.com/pay-dues/)
+  - [COLLECTIVE BARGAINING AGREEMENTS](https://www.ibewlocal145.com/cbas/)
+  - [Benefits](https://www.ibew145benefits.com/)
+    - [Inside 145 Benefits](https://www.ibew145benefits.com/)
+    - [Merrill Lynch](https://www.benefits.ml.com/login/login)
+    - [LineCo](https://www.lineco.org/)
+    - [NEBF](https://www.nebf.com/)
+    - [NEAP](https://www.nebf.com/neap/)
+    - [Legal Advice](https://wkclawfirm.com/)
+  - [Local 145 Events](https://www.ibewlocal145.com/events/)
+  - [Officers & Committees](https://www.ibewlocal145.com/officers-committees/)
+  - [In Memoriam](https://www.ibewlocal145.com/in-memoriam/)
+  - [Retirees](https://www.ibewlocal145.com/retireers/)
+  - [Referral & Re-Sign Procedures](https://www.ibewlocal145.com/procedures/)
+- [Jobs](https://www.ibewlocal145.com/#jobs)
+- [Careers](https://www.ibewlocal145.com/careers/)
+  - [Apprenticeships](https://www.ibewlocal145.com/careers/)
+  - [Continuing Education Classes](https://www.ibewlocal145.com/continuing-education-classes/)
+  - [Join Local 145](https://www.ibewlocal145.com/join-local-145/)
+  - [10-Hour OSHA Certificate](https://www.careersafeonline.com/)
+- [Contractors](https://www.lightingtheqca.com/)
+- [About](https://www.ibewlocal145.com/about/)
+  - [General Union Info](https://www.ibewlocal145.com/general-union-information/)
+  - [145 Jurisdiction Map](https://www.ibewlocal145.com/wp-content/uploads/2021/07/jursidiction-map.pdf)
+  - [Political Action](https://www.ibewlocal145.com/political-action/)
+  - [Exelon PreBadge](https://www.ibewlocal145.com/exelon-prebadge/)
+  - [IBEW Logo History](https://www.ibewlocal145.com/ibew-logo-history/)
+
+- [Members](https://www.ibewlocal145.com/members/)
+  - [Pay Dues](https://www.ibewlocal145.com/pay-dues/)
+  - [COLLECTIVE BARGAINING AGREEMENTS](https://www.ibewlocal145.com/cbas/)
+  - [Benefits](https://www.ibew145benefits.com/)
+    - [Inside 145 Benefits](https://www.ibew145benefits.com/)
+    - [Merrill Lynch](https://www.benefits.ml.com/login/login)
+    - [LineCo](https://www.lineco.org/)
+    - [NEBF](https://www.nebf.com/)
+    - [NEAP](https://www.nebf.com/neap/)
+    - [Legal Advice](https://wkclawfirm.com/)
+  - [Local 145 Events](https://www.ibewlocal145.com/events/)
+  - [Officers & Committees](https://www.ibewlocal145.com/officers-committees/)
+  - [In Memoriam](https://www.ibewlocal145.com/in-memoriam/)
+  - [Retirees](https://www.ibewlocal145.com/retireers/)
+  - [Referral & Re-Sign Procedures](https://www.ibewlocal145.com/procedures/)
+- [Jobs](https://www.ibewlocal145.com/#jobs)
+- [Careers](https://www.ibewlocal145.com/careers/)
+  - [Apprenticeships](https://www.ibewlocal145.com/careers/)
+  - [Continuing Education Classes](https://www.ibewlocal145.com/continuing-education-classes/)
+  - [Join Local 145](https://www.ibewlocal145.com/join-local-145/)
+  - [10-Hour OSHA Certificate](https://www.careersafeonline.com/)
+- [Contractors](https://www.lightingtheqca.com/)
+- [About](https://www.ibewlocal145.com/about/)
+  - [General Union Info](https://www.ibewlocal145.com/general-union-information/)
+  - [145 Jurisdiction Map](https://www.ibewlocal145.com/wp-content/uploads/2021/07/jursidiction-map.pdf)
+  - [Political Action](https://www.ibewlocal145.com/political-action/)
+  - [Exelon PreBadge](https://www.ibewlocal145.com/exelon-prebadge/)
+  - [IBEW Logo History](https://www.ibewlocal145.com/ibew-logo-history/)
+
+- [Home](https://www.ibewlocal145.com/)
+- [Jobs](https://www.ibewlocal145.com/exelon-prebadge/#jobs)
+- [Call IBEW 309.736.4239](tel:3097364239)
+- [Members](https://www.ibewlocal145.com/members/)
+  - [Pay Dues](https://www.ibewlocal145.com/pay-dues/)
+  - [COLLECTIVE BARGAINING AGREEMENTS](https://www.ibewlocal145.com/cbas/)
+  - [Benefits](https://www.ibew145benefits.com/)
+    - [Inside 145 Benefits](https://www.ibew145benefits.com/)
+    - [Merrill Lynch](https://www.benefits.ml.com/login/login)
+    - [Lineco](https://www.lineco.org/)
+    - [NEBF](https://www.nebf.com/)
+    - [NEAP](https://www.nebf.com/neap/)
+    - [Legal Advice](https://wkclawfirm.com/)
+  - [Local 145 Events](https://www.ibewlocal145.com/events/)
+  - [Officers & Committees](https://www.ibewlocal145.com/officers-committees/)
+  - [In Memoriam](https://www.ibewlocal145.com/in-memoriam/)
+  - [Retirees](https://www.ibewlocal145.com/retireers/)
+  - [Referral & Re-Sign\\
+    \\
+    Procedures](https://www.ibewlocal145.com/procedures/)
+- [Careers](https://www.ibewlocal145.com/careers/)
+  - [Apprenticeships](https://www.ibewlocal145.com/careers/)
+  - [Continuing Education Classes](https://www.ibewlocal145.com/continuing-education-classes/)
+  - [Join Local 145](https://www.ibewlocal145.com/join-local-145/)
+  - [10-Hour OSHA Certificate](https://www.careersafeonline.com/)
+- [Contractors](https://www.lightingtheqca.com/)
+- [About](https://www.ibewlocal145.com/about/)
+  - [General Union Information](https://www.ibewlocal145.com/general-union-information/)
+  - [145 Jurisdiction Map](https://www.ibewlocal145.com/wp-content/uploads/2021/07/jursidiction-map.pdf)
+  - [Political Action](https://www.ibewlocal145.com/political-action/)
+  - [Exelon PreBadge](https://www.ibewlocal145.com/exelon-prebadge/)
+  - [IBEW Logo History](https://www.ibewlocal145.com/ibew-logo-history/)
+- [Contact](https://www.ibewlocal145.com/contact/)
+
+- [Home](https://www.ibewlocal145.com/)
+- [Jobs](https://www.ibewlocal145.com/exelon-prebadge/#jobs)
+- [Call IBEW 309.736.4239](tel:3097364239)
+- [Members](https://www.ibewlocal145.com/members/)
+  - [Pay Dues](https://www.ibewlocal145.com/pay-dues/)
+  - [COLLECTIVE BARGAINING AGREEMENTS](https://www.ibewlocal145.com/cbas/)
+  - [Benefits](https://www.ibew145benefits.com/)
+    - [Inside 145 Benefits](https://www.ibew145benefits.com/)
+    - [Merrill Lynch](https://www.benefits.ml.com/login/login)
+    - [Lineco](https://www.lineco.org/)
+    - [NEBF](https://www.nebf.com/)
+    - [NEAP](https://www.nebf.com/neap/)
+    - [Legal Advice](https://wkclawfirm.com/)
+  - [Local 145 Events](https://www.ibewlocal145.com/events/)
+  - [Officers & Committees](https://www.ibewlocal145.com/officers-committees/)
+  - [In Memoriam](https://www.ibewlocal145.com/in-memoriam/)
+  - [Retirees](https://www.ibewlocal145.com/retireers/)
+  - [Referral & Re-Sign\\
+    \\
+    Procedures](https://www.ibewlocal145.com/procedures/)
+- [Careers](https://www.ibewlocal145.com/careers/)
+  - [Apprenticeships](https://www.ibewlocal145.com/careers/)
+  - [Continuing Education Classes](https://www.ibewlocal145.com/continuing-education-classes/)
+  - [Join Local 145](https://www.ibewlocal145.com/join-local-145/)
+  - [10-Hour OSHA Certificate](https://www.careersafeonline.com/)
+- [Contractors](https://www.lightingtheqca.com/)
+- [About](https://www.ibewlocal145.com/about/)
+  - [General Union Information](https://www.ibewlocal145.com/general-union-information/)
+  - [145 Jurisdiction Map](https://www.ibewlocal145.com/wp-content/uploads/2021/07/jursidiction-map.pdf)
+  - [Political Action](https://www.ibewlocal145.com/political-action/)
+  - [Exelon PreBadge](https://www.ibewlocal145.com/exelon-prebadge/)
+  - [IBEW Logo History](https://www.ibewlocal145.com/ibew-logo-history/)
+- [Contact](https://www.ibewlocal145.com/contact/)
+
+[Member Login](https://members.ibewlocal145.com/Members/JobRef.dll/)
+
+# Exelon Prebadge
+
+### Exelon Nuclear Facility Materials
+
+- In-Processing Checklist
+
+[Download](https://www.ibewlocal145.com/wp-content/uploads/2021/07/ExelonIn-Processingchecklist.pdf)
+
+- Radiation Worker Training
+
+[Download](https://www.ibewlocal145.com/wp-content/uploads/2021/07/NGET-RWT.pdf)
+
+- Fitness-for Duty & Behavior
+
+[Download](https://www.ibewlocal145.com/wp-content/uploads/2021/07/Fitness-for-Duty-and-Behavior-Observation.pdf)
+
+- Plant Access Training
+
+[Download](https://www.ibewlocal145.com/wp-content/uploads/2021/07/NGET-PAT.pdf)
+
+- Industrial Nuclear Safety
+
+[Download](https://www.ibewlocal145.com/wp-content/uploads/2021/07/Exelon_Industrial-_Nuclear_Safety_and_Security_Rev04.pdf)
+
+## Contact Us
+
+[1700 52nd Ave Ste A\\
+\\
+Moline, Illinois 61265](https://goo.gl/maps/aHYZW4DWfrTTyyEJ6)
+
+- [309.736.4239](tel:3097364239)
+- 309.736.1399
+
+- Mon - Fri: 7:30 am - 4:30 pm
+
+[![](https://www.ibewlocal145.com/wp-content/uploads/elementor/thumbs/cropped-IBEW-BUG-72ppi-p7qyvzqjthaoch1i4s9mwfsuwcstz3hc3xd2l6y4fc.png)](https://www.ibewlocal145.com/)
+
+@ 2026 IBEW Local 145 - All rights reserved.
+
+[Created by Twin State Technical Services](https://www.tsts.com/web-mobile-development/)
+
+Thanks for uploading a new file.

@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Alameda County, CA",
+    "District": "9",
+    "Population": "1443741",
+    "LandArea": "737.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Calaveras County, CA",
+    "District": "9",
+    "Population": "40554",
+    "LandArea": "1020.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Joaquin County, CA",
+    "District": "9",
+    "Population": "563598",
+    "LandArea": "1399.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Bronx County, NY",
+    "District": "3",
+    "Population": "1332650",
+    "LandArea": "42.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Bronx County, NY",
+    "District": "3",
+    "Population": "1332650",
+    "LandArea": "42.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Fairfield County, CT",
+    "District": "2",
+    "Population": "882567",
+    "LandArea": "625.80",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Kings County, NY",
+    "District": "3",
+    "Population": "2465326",
+    "LandArea": "70.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Kings County, NY",
+    "District": "3",
+    "Population": "2465326",
+    "LandArea": "70.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "New York County, NY",
+    "District": "3",
+    "Population": "1537195",
+    "LandArea": "22.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "New York County, NY",
+    "District": "3",
+    "Population": "1537195",
+    "LandArea": "22.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Queens County, NY",
+    "District": "3",
+    "Population": "2229379",
+    "LandArea": "109.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Queens County, NY",
+    "District": "3",
+    "Population": "2229379",
+    "LandArea": "109.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Richmond County, NY",
+    "District": "3",
+    "Population": "443728",
+    "LandArea": "58.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Richmond County, NY",
+    "District": "3",
+    "Population": "443728",
+    "LandArea": "58.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Westchester County, NY",
+    "District": "3",
+    "Population": "923459",
+    "LandArea": "432.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

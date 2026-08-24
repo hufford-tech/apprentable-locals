@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2049  (rr) Edmonton, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "759",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2049|Edmonton|AB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "759",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]524 Griesbach Parade[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7293",
+    "editFieldNames": "Address1",
+    "editFieldValues": "524 Griesbach Parade",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit 221[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7293",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit 221",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Edmonton, AB T5E 6X2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7293",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Edmonton|AB|T5E 6X2",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](780) 340-4900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2017",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(780) 340-4900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:seth.j@me.com\" target=\"_blank\">seth.j@me.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2135",
+    "editFieldNames": "Email",
+    "editFieldValues": "seth.j@me.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Seth Falk, 1747 Westerra Loop, Stony Plain, AB  T7Z 0K7[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2319",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Seth||Falk||{ \"MemberID\" : \"2319\",\"luid\": \"759\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1747 Westerra Loop\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stony Plain\",\"state\":\"AB\",\"zip\":\"T7Z 0K7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Daniel M. Keates, 16022 93 Avenue NW, Edmonton, AB  T5R 5H8[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4076",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|M.|Keates||{ \"MemberID\" : \"4076\",\"luid\": \"759\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16022 93 Avenue NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T5R 5H8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jennifer L. Pearce, 524 Griesbach Parade Unit 221, Edmonton, AB  T5E 6X2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4077",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jennifer|L.|Pearce||{ \"MemberID\" : \"4077\",\"luid\": \"759\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"524 Griesbach Parade\",\"addr2\":\"Unit 221\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T5E 6X2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jennifer L. Pearce, 524 Griesbach Parade Unit 221, Edmonton, AB  T5E 6X2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2320",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jennifer|L.|Pearce||{ \"MemberID\" : \"2320\",\"luid\": \"759\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"524 Griesbach Parade\",\"addr2\":\"Unit 221\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T5E 6X2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

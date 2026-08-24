@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2271  (rr) Philadelphia[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "817",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2271|Philadelphia|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "817",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]723 Forrest Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6959",
+    "editFieldNames": "Address1",
+    "editFieldValues": "723 Forrest Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jenkintown, PA 19046[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6959",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jenkintown|PA|19046",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](267) 253-9001[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2237",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(267) 253-9001",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Pearse P. Kerr[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2488",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Pearse|P.|Kerr||{ \"MemberID\" : \"2488\",\"luid\": \"817\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"723 Forrest Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jenkintown\",\"state\":\"PA\",\"zip\":\"19046\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Pearse P. Kerr[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4141",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Pearse|P.|Kerr||{ \"MemberID\" : \"4141\",\"luid\": \"817\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"723 Forrest Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jenkintown\",\"state\":\"PA\",\"zip\":\"19046\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]John J. Regardi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2487",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Regardi||{ \"MemberID\" : \"2487\",\"luid\": \"817\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9215 1/2 Pine Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Philadelphia\",\"state\":\"PA\",\"zip\":\"19115\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Dennis E. Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2486",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dennis|E.|Brown||{ \"MemberID\" : \"2486\",\"luid\": \"817\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"10 Dalton Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sickerville\",\"state\":\"NJ\",\"zip\":\"08081\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]New Deck Tavern, 3408 Sansom Street, Last Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "817",
+    "editFieldNames": "Meets",
+    "editFieldValues": "New Deck Tavern, 3408 Sansom Street, Last Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

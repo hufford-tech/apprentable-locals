@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Adams County, IA",
+    "District": "11",
+    "Population": "4482",
+    "LandArea": "423.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Burt County, NE",
+    "District": "11",
+    "Population": "7791",
+    "LandArea": "492.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Cass County, IA",
+    "District": "11",
+    "Population": "14684",
+    "LandArea": "564.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Cass County, NE",
+    "District": "11",
+    "Population": "24334",
+    "LandArea": "559.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Colfax County, NE",
+    "District": "11",
+    "Population": "10441",
+    "LandArea": "413.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Cuming County, NE",
+    "District": "11",
+    "Population": "10203",
+    "LandArea": "572.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Dodge County, NE",
+    "District": "11",
+    "Population": "36160",
+    "LandArea": "534.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Douglas County, NE",
+    "District": "11",
+    "Population": "463585",
+    "LandArea": "330.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Fremont County, IA",
+    "District": "11",
+    "Population": "8010",
+    "LandArea": "511.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Harrison County, IA",
+    "District": "11",
+    "Population": "15666",
+    "LandArea": "696.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Madison County, NE",
+    "District": "11",
+    "Population": "35226",
+    "LandArea": "572.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Mills County, IA",
+    "District": "11",
+    "Population": "14547",
+    "LandArea": "436.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Montgomery County, IA",
+    "District": "11",
+    "Population": "11771",
+    "LandArea": "423.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Page County, IA",
+    "District": "11",
+    "Population": "16976",
+    "LandArea": "534.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Platte County, NE",
+    "District": "11",
+    "Population": "31662",
+    "LandArea": "678.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Pottawattamie County, IA",
+    "District": "11",
+    "Population": "87704",
+    "LandArea": "954.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Sarpy County, NE",
+    "District": "11",
+    "Population": "122595",
+    "LandArea": "240.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Saunders County, NE",
+    "District": "11",
+    "Population": "19830",
+    "LandArea": "753.89",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Shelby County, IA",
+    "District": "11",
+    "Population": "13173",
+    "LandArea": "590.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Stanton County, NE",
+    "District": "11",
+    "Population": "6455",
+    "LandArea": "429.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Taylor County, IA",
+    "District": "11",
+    "Population": "6958",
+    "LandArea": "533.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Washington County, NE",
+    "District": "11",
+    "Population": "18780",
+    "LandArea": "390.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  }
+]

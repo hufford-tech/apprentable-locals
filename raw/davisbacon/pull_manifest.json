@@ -1,0 +1,377 @@
+{
+  "method": "bounded_sequential_history_probe",
+  "requests": 400,
+  "pages_cached": 186,
+  "failures": [
+    {
+      "wd": "CA20260003",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "CA20260006",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "CA20260010",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "TX20260008",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "FL20260001",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "OH20260002",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "NC20260001",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "PA20260007",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "PA20260009",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "PA20260010",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "NJ20260004",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "TN20260001",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260004",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260005",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260006",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260007",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260008",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260009",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260010",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260011",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "WA20260012",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "CT20260005",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "MI20260002",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "AZ20260008",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "AZ20260009",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "MA20260005",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "MO20260003",
+      "reason": "history_without_revision"
+    },
+    {
+      "wd": "MO20260006",
+      "reason": "history_without_revision"
+    }
+  ],
+  "states": [
+    {
+      "state": "CA",
+      "probes": 12,
+      "documents": 9,
+      "new_locals": 11,
+      "cumulative_locals": 11
+    },
+    {
+      "state": "TX",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 1,
+      "cumulative_locals": 12
+    },
+    {
+      "state": "FL",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 15
+    },
+    {
+      "state": "NY",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 15,
+      "cumulative_locals": 30
+    },
+    {
+      "state": "OH",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 22,
+      "cumulative_locals": 52
+    },
+    {
+      "state": "NC",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 55
+    },
+    {
+      "state": "PA",
+      "probes": 12,
+      "documents": 9,
+      "new_locals": 15,
+      "cumulative_locals": 70
+    },
+    {
+      "state": "NJ",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 4,
+      "cumulative_locals": 74
+    },
+    {
+      "state": "TN",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 0,
+      "cumulative_locals": 74
+    },
+    {
+      "state": "WA",
+      "probes": 12,
+      "documents": 3,
+      "new_locals": 6,
+      "cumulative_locals": 80
+    },
+    {
+      "state": "CT",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 83
+    },
+    {
+      "state": "IL",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 23,
+      "cumulative_locals": 106
+    },
+    {
+      "state": "GA",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 0,
+      "cumulative_locals": 106
+    },
+    {
+      "state": "MI",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 13,
+      "cumulative_locals": 119
+    },
+    {
+      "state": "AZ",
+      "probes": 12,
+      "documents": 10,
+      "new_locals": 3,
+      "cumulative_locals": 122
+    },
+    {
+      "state": "MA",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 7,
+      "cumulative_locals": 129
+    },
+    {
+      "state": "MO",
+      "probes": 12,
+      "documents": 10,
+      "new_locals": 9,
+      "cumulative_locals": 138
+    },
+    {
+      "state": "MN",
+      "probes": 10,
+      "documents": 10,
+      "new_locals": 2,
+      "cumulative_locals": 140
+    }
+  ],
+  "request_cap": 400,
+  "state_curve": [
+    {
+      "state": "CA",
+      "probes": 12,
+      "documents": 9,
+      "new_locals": 11,
+      "cumulative_locals": 11
+    },
+    {
+      "state": "TX",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 1,
+      "cumulative_locals": 12
+    },
+    {
+      "state": "FL",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 15
+    },
+    {
+      "state": "NY",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 15,
+      "cumulative_locals": 30
+    },
+    {
+      "state": "OH",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 22,
+      "cumulative_locals": 52
+    },
+    {
+      "state": "NC",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 55
+    },
+    {
+      "state": "PA",
+      "probes": 12,
+      "documents": 9,
+      "new_locals": 15,
+      "cumulative_locals": 70
+    },
+    {
+      "state": "NJ",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 4,
+      "cumulative_locals": 74
+    },
+    {
+      "state": "TN",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 0,
+      "cumulative_locals": 74
+    },
+    {
+      "state": "WA",
+      "probes": 12,
+      "documents": 3,
+      "new_locals": 6,
+      "cumulative_locals": 80
+    },
+    {
+      "state": "CT",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 3,
+      "cumulative_locals": 83
+    },
+    {
+      "state": "IL",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 23,
+      "cumulative_locals": 106
+    },
+    {
+      "state": "GA",
+      "probes": 12,
+      "documents": 12,
+      "new_locals": 0,
+      "cumulative_locals": 106
+    },
+    {
+      "state": "MI",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 13,
+      "cumulative_locals": 119
+    },
+    {
+      "state": "AZ",
+      "probes": 12,
+      "documents": 10,
+      "new_locals": 3,
+      "cumulative_locals": 122
+    },
+    {
+      "state": "MA",
+      "probes": 12,
+      "documents": 11,
+      "new_locals": 7,
+      "cumulative_locals": 129
+    },
+    {
+      "state": "MO",
+      "probes": 12,
+      "documents": 10,
+      "new_locals": 9,
+      "cumulative_locals": 138
+    },
+    {
+      "state": "MN",
+      "probes": 10,
+      "documents": 10,
+      "new_locals": 2,
+      "cumulative_locals": 140
+    }
+  ],
+  "stop_reason": "request_cap"
+}

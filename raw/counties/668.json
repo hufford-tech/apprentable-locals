@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Benton County, IN",
+    "District": "6",
+    "Population": "9421",
+    "LandArea": "406.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Carroll County, IN",
+    "District": "6",
+    "Population": "20165",
+    "LandArea": "372.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Cass County, IN",
+    "District": "6",
+    "Population": "40930",
+    "LandArea": "412.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Fulton County, IN",
+    "District": "6",
+    "Population": "20511",
+    "LandArea": "368.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Tippecanoe County, IN",
+    "District": "6",
+    "Population": "148955",
+    "LandArea": "499.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "White County, IN",
+    "District": "6",
+    "Population": "25267",
+    "LandArea": "505.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

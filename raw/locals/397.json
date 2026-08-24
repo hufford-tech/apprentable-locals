@@ -1,0 +1,192 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]728-  (em, i, rts, spa) Ft. Lauderdale[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "728-|Ft. Lauderdale|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "397",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]South Hall[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "Address1",
+    "editFieldValues": "South Hall",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]201 SE 24th Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "Address2",
+    "editFieldValues": "201 SE 24th Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Ft. Lauderdale, FL 33316[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ft. Lauderdale|FL|33316",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](954) 525-3106[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "726",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(954) 525-3106",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](954) 525-5742[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "727",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(954) 525-5742",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew728.org\" target=\"_blank\">info@ibew728.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "382",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew728.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew728.org\" target=\"_blank\">www.ibew728.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew728.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]North Hall[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4165",
+    "editFieldNames": "Name",
+    "editFieldValues": "North Hall",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]4620 Summit Boulevard[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4165",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4620 Summit Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t]West Palm Beach, FL 33415[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4165",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "West Palm Beach|FL|33415",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b](561) 966-2224[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1777",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(561) 966-2224",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t][b]Fax [/b] (561) 966-2231[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1778",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(561) 966-2231",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]B.M. [/b]Zachary T. Cassidy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1215",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|T.|Cassidy||{ \"MemberID\" : \"1215\",\"luid\": \"397\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4620 Summit Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Palm Beach\",\"state\":\"FL\",\"zip\":\"33415\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Pres. [/b]Justin S. McIntosh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1216",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|S.|McIntosh||{ \"MemberID\" : \"1216\",\"luid\": \"397\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4620 Summit Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Palm Beach\",\"state\":\"FL\",\"zip\":\"33415\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]F.S. [/b]Zachary T. Cassidy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3706",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|T.|Cassidy||{ \"MemberID\" : \"3706\",\"luid\": \"397\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4620 Summit Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Palm Beach\",\"state\":\"FL\",\"zip\":\"33415\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]R.S. [/b]Adam Campbell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1217",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam||Campbell||{ \"MemberID\" : \"1217\",\"luid\": \"397\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4620 Summit Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Palm Beach\",\"state\":\"FL\",\"zip\":\"33415\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]Meets [/b]Odd Months, South Hall; Even Months, North Hall; 1st Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Odd Months, South Hall; Even Months, North Hall; 1st Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

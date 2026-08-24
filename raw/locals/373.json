@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]681-  (i, o, spa) Wichita Falls[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "681-|Wichita Falls|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "373",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6111 Old Jacksboro Highway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "370",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6111 Old Jacksboro Highway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wichita Falls, TX 76302[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "370",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wichita Falls|TX|76302",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](940) 322-1661[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(940) 322-1661",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](940) 723-9301[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(940) 723-9301",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:cgilley@ibew681.org\" target=\"_blank\">cgilley@ibew681.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "358",
+    "editFieldNames": "Email",
+    "editFieldValues": "cgilley@ibew681.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew681.org\" target=\"_blank\">www.ibew681.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew681.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Dallas W. Nunn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1142",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dallas|W.|Nunn||{ \"MemberID\" : \"1142\",\"luid\": \"373\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6111 Jacksboro Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita Falls\",\"state\":\"TX\",\"zip\":\"76302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Matthew I. Wachsmann[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1144",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|I.|Wachsmann||{ \"MemberID\" : \"1144\",\"luid\": \"373\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6111 Jacksboro Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita Falls\",\"state\":\"TX\",\"zip\":\"76302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Dallas W. Nunn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3683",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dallas|W.|Nunn||{ \"MemberID\" : \"3683\",\"luid\": \"373\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jacob Heis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1143",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob||Heis||{ \"MemberID\" : \"1143\",\"luid\": \"373\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"6111 Jacksboro Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wichita Falls\",\"state\":\"TX\",\"zip\":\"76302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

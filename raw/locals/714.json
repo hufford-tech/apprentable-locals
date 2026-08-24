@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1919  (lctt) Pittsburgh[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "714",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1919|Pittsburgh|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "714",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]986 Greentree Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4552",
+    "editFieldNames": "Address1",
+    "editFieldValues": "986 Greentree Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pittsburgh, PA 15220[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4552",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pittsburgh|PA|15220",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](412) 921-5757[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1942",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(412) 921-5757",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](412) 920-1661[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1943",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(412) 920-1661",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:richard.layhew@verizon.net\" target=\"_blank\">richard.layhew@verizon.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "668",
+    "editFieldNames": "Email",
+    "editFieldValues": "richard.layhew@verizon.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1919.org\" target=\"_blank\">www.ibew1919.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "714",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1919.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Richard A. Layhew[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2180",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Layhew||{ \"MemberID\" : \"2180\",\"luid\": \"714\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"986 Greentree Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15220\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Richard A. Layhew[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4028",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Layhew||{ \"MemberID\" : \"4028\",\"luid\": \"714\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael L. Coughenour[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2179",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|L.|Coughenour||{ \"MemberID\" : \"2179\",\"luid\": \"714\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"986 Greentree Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15220\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Harlan E. Gross[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2181",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Harlan|E.|Gross||{ \"MemberID\" : \"2181\",\"luid\": \"714\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"986 Greentree Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15220\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "714",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

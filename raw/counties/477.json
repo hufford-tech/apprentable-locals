@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Inyo County, CA",
+    "District": "9",
+    "Population": "17945",
+    "LandArea": "10203.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mono County, CA",
+    "District": "9",
+    "Population": "12853",
+    "LandArea": "3044.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Bernardino County, CA",
+    "District": "9",
+    "Population": "1709434",
+    "LandArea": "20052.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Clallam County, WA",
+    "District": "9",
+    "Population": "64525",
+    "LandArea": "1739.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Jefferson County, WA",
+    "District": "9",
+    "Population": "25953",
+    "LandArea": "1814.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "King County, WA",
+    "District": "9",
+    "Population": "1737034",
+    "LandArea": "2126.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Kitsap County, WA",
+    "District": "9",
+    "Population": "231969",
+    "LandArea": "395.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  }
+]

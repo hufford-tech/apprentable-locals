@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1323  (u) Rockwood[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "578",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1323|Rockwood|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "578",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 796[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7221",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 796",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Decatur, TN 37322[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7221",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Decatur|TN|37322",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](423) 618-0712[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1007",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(423) 618-0712",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Nathan A. Baker, 13430 McGill Road, Soddy Daisy, TN  37379[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1777",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|A.|Baker||{ \"MemberID\" : \"1777\",\"luid\": \"578\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13430 McGill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Soddy Daisy\",\"state\":\"TN\",\"zip\":\"37379\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Nathan A. Baker, 13430 McGill Road, Soddy Daisy, TN  37379[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3881",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|A.|Baker||{ \"MemberID\" : \"3881\",\"luid\": \"578\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Christopher W. King, PO Box 796, Decatur, TN  37322[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1778",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|W.|King||{ \"MemberID\" : \"1778\",\"luid\": \"578\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 796\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Decatur\",\"state\":\"TN\",\"zip\":\"37322\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Austin P. Hasty, 5475 Blair Road, Cohutta, GA  30710[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1776",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Austin|P.|Hasty||{ \"MemberID\" : \"1776\",\"luid\": \"578\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5475 Blair Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cohutta\",\"state\":\"GA\",\"zip\":\"30710\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Wolf Creek Fire Hall, 4793 Wolf Creek Road, Spring City, 2nd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "578",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Wolf Creek Fire Hall, 4793 Wolf Creek Road, Spring City, 2nd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

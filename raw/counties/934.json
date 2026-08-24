@@ -1,0 +1,290 @@
+[
+  {
+    "CountyName": "Bristol City, VA",
+    "District": "4",
+    "Population": "17367",
+    "LandArea": "12.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bristol City, VA",
+    "District": "4",
+    "Population": "17367",
+    "LandArea": "12.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Carter County, TN",
+    "District": "10",
+    "Population": "56742",
+    "LandArea": "341.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Carter County, TN",
+    "District": "10",
+    "Population": "56742",
+    "LandArea": "341.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Dickenson County, VA",
+    "District": "4",
+    "Population": "16395",
+    "LandArea": "331.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Dickenson County, VA",
+    "District": "4",
+    "Population": "16395",
+    "LandArea": "331.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Greene County, TN",
+    "District": "10",
+    "Population": "62909",
+    "LandArea": "621.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Greene County, TN",
+    "District": "10",
+    "Population": "62909",
+    "LandArea": "621.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hamblen County, TN",
+    "District": "10",
+    "Population": "58128",
+    "LandArea": "161.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hamblen County, TN",
+    "District": "10",
+    "Population": "58128",
+    "LandArea": "161.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hancock County, TN",
+    "District": "10",
+    "Population": "6786",
+    "LandArea": "222.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hancock County, TN",
+    "District": "10",
+    "Population": "6786",
+    "LandArea": "222.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hawkins County, TN",
+    "District": "10",
+    "Population": "53563",
+    "LandArea": "486.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hawkins County, TN",
+    "District": "10",
+    "Population": "53563",
+    "LandArea": "486.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Johnson County, TN",
+    "District": "10",
+    "Population": "17499",
+    "LandArea": "298.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Johnson County, TN",
+    "District": "10",
+    "Population": "17499",
+    "LandArea": "298.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lee County, VA",
+    "District": "4",
+    "Population": "23589",
+    "LandArea": "437.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lee County, VA",
+    "District": "4",
+    "Population": "23589",
+    "LandArea": "437.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Russell County, VA",
+    "District": "4",
+    "Population": "30308",
+    "LandArea": "474.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Russell County, VA",
+    "District": "4",
+    "Population": "30308",
+    "LandArea": "474.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Scott County, VA",
+    "District": "4",
+    "Population": "23403",
+    "LandArea": "536.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Scott County, VA",
+    "District": "4",
+    "Population": "23403",
+    "LandArea": "536.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Sullivan County, TN",
+    "District": "10",
+    "Population": "153048",
+    "LandArea": "413.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sullivan County, TN",
+    "District": "10",
+    "Population": "153048",
+    "LandArea": "413.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Unicoi County, TN",
+    "District": "10",
+    "Population": "17667",
+    "LandArea": "186.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Unicoi County, TN",
+    "District": "10",
+    "Population": "17667",
+    "LandArea": "186.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Washington County, TN",
+    "District": "10",
+    "Population": "107198",
+    "LandArea": "326.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Washington County, TN",
+    "District": "10",
+    "Population": "107198",
+    "LandArea": "326.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Washington County, VA",
+    "District": "4",
+    "Population": "51103",
+    "LandArea": "562.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Washington County, VA",
+    "District": "4",
+    "Population": "51103",
+    "LandArea": "562.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Wise County, VA",
+    "District": "4",
+    "Population": "40123",
+    "LandArea": "404.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Wise County, VA",
+    "District": "4",
+    "Population": "40123",
+    "LandArea": "404.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  }
+]

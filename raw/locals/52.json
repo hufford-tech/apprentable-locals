@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]57--  (lctt, mo, o, t, u) Salt Lake City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "57--|Salt Lake City|UT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "52",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, mo, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3400 W 2100 S[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3400 W 2100 S",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Salt Lake City, UT 84119[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Salt Lake City|UT|84119",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](801) 270-5757[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "101",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(801) 270-5757",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](801) 270-5758[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "102",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(801) 270-5758",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local57@ibew57.com\" target=\"_blank\">local57@ibew57.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "Email",
+    "editFieldValues": "local57@ibew57.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew57.com\" target=\"_blank\">www.ibew57.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew57.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Joseph A. Carrillo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4377",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Carrillo||{ \"MemberID\" : \"4377\",\"luid\": \"52\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Thomas M. Boyack[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4381",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|M.|Boyack||{ \"MemberID\" : \"4381\",\"luid\": \"52\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Joseph A. Carrillo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4378",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Carrillo||{ \"MemberID\" : \"4378\",\"luid\": \"52\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Elizabeth M. Nielson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "160",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Elizabeth|M.|Nielson||{ \"MemberID\" : \"160\",\"luid\": \"52\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"4551 S Atherton Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Salt Lake City\",\"state\":\"UT\",\"zip\":\"84123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "52",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

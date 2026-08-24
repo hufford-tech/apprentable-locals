@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]351-  (c, cs, i, it, lctt, mt, o, se, spa, t) Folsom[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "210",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "351-|Folsom|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "210",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, cs, i, it, lctt, mt, o, se, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1113 Black Horse Pike[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "215",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1113 Black Horse Pike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hammonton, NJ 08037[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "215",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hammonton|NJ|08037",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1118[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "214",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1118",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Hammonton, NJ 08037[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "214",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hammonton|NJ|08037",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](609) 704-8351[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 704-8351",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](609) 704-0621[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "398",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 704-0621",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kcohen@ibew351.org\" target=\"_blank\">kcohen@ibew351.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1961",
+    "editFieldNames": "Email",
+    "editFieldValues": "kcohen@ibew351.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew351.org\" target=\"_blank\">www.ibew351.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "210",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew351.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Daniel P. Cosner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "646",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|P.|Cosner||{ \"MemberID\" : \"646\",\"luid\": \"210\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1113 Black Horse Pike\",\"addr2\":\"PO Box 1118\",\"addr3\":\"\",\"city\":\"Hammonton\",\"state\":\"NJ\",\"zip\":\"08037\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Steven DiMatteo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "648",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven||DiMatteo||{ \"MemberID\" : \"648\",\"luid\": \"210\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1118\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hammonton\",\"state\":\"NJ\",\"zip\":\"08037\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Daniel P. Cosner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3527",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|P.|Cosner||{ \"MemberID\" : \"3527\",\"luid\": \"210\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1113 Black Horse Pike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hammonton\",\"state\":\"NJ\",\"zip\":\"08037\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Ryck W. Signor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryck|W.|Signor||{ \"MemberID\" : \"647\",\"luid\": \"210\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1118\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hammonton\",\"state\":\"NJ\",\"zip\":\"08037\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]109 N Black Horse Pike, Blackwood, 3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "210",
+    "editFieldNames": "Meets",
+    "editFieldValues": "109 N Black Horse Pike, Blackwood, 3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

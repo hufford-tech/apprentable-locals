@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1517  (rr) Alliance[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1517|Alliance|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "617",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]523 Sweetwater Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7274",
+    "editFieldNames": "Address1",
+    "editFieldValues": "523 Sweetwater Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Alliance, NE 69301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7274",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Alliance|NE|69301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](308) 760-0144[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2382",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(308) 760-0144",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Zapataethand@gmail.com\" target=\"_blank\">Zapataethand@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1943",
+    "editFieldNames": "Email",
+    "editFieldValues": "Zapataethand@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal1517.com\" target=\"_blank\">www.ibewlocal1517.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal1517.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ethan D Zapata[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4425",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ethan|D|Zapata||{ \"MemberID\" : \"4425\",\"luid\": \"617\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ethan D Zapata[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4418",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ethan|D|Zapata||{ \"MemberID\" : \"4418\",\"luid\": \"617\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joseph Mascher, 202 W Ninth Street, Bayard, NE  69334[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1894",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph||Mascher||{ \"MemberID\" : \"1894\",\"luid\": \"617\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"202 W Ninth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bayard\",\"state\":\"NE\",\"zip\":\"69334\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]AnnAlyssa M Konopnicki[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4420",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "AnnAlyssa|M|Konopnicki||{ \"MemberID\" : \"4420\",\"luid\": \"617\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]CLC Meeting Hall, 723 Flack Avenue, 3rd Tuesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "Meets",
+    "editFieldValues": "CLC Meeting Hall, 723 Flack Avenue, 3rd Tuesday, 4 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,479 @@
+[
+  {
+    "CountyName": "Allendale County, SC",
+    "District": "10",
+    "Population": "11211",
+    "LandArea": "408.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Appling County, GA",
+    "District": "5",
+    "Population": "17419",
+    "LandArea": "508.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Appling County, GA",
+    "District": "5",
+    "Population": "17419",
+    "LandArea": "508.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Atkinson County, GA",
+    "District": "5",
+    "Population": "7609",
+    "LandArea": "338.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Atkinson County, GA",
+    "District": "5",
+    "Population": "7609",
+    "LandArea": "338.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bacon County, GA",
+    "District": "5",
+    "Population": "10103",
+    "LandArea": "284.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bacon County, GA",
+    "District": "5",
+    "Population": "10103",
+    "LandArea": "284.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Beaufort County, SC",
+    "District": "10",
+    "Population": "120937",
+    "LandArea": "586.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Brantley County, GA",
+    "District": "5",
+    "Population": "14629",
+    "LandArea": "444.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Brantley County, GA",
+    "District": "5",
+    "Population": "14629",
+    "LandArea": "444.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bryan County, GA",
+    "District": "5",
+    "Population": "23417",
+    "LandArea": "441.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bryan County, GA",
+    "District": "5",
+    "Population": "23417",
+    "LandArea": "441.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bulloch County, GA",
+    "District": "5",
+    "Population": "55983",
+    "LandArea": "682.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Bulloch County, GA",
+    "District": "5",
+    "Population": "55983",
+    "LandArea": "682.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Camden County, GA",
+    "District": "5",
+    "Population": "43664",
+    "LandArea": "629.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Camden County, GA",
+    "District": "5",
+    "Population": "43664",
+    "LandArea": "629.91",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Candler County, GA",
+    "District": "5",
+    "Population": "9577",
+    "LandArea": "246.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Candler County, GA",
+    "District": "5",
+    "Population": "9577",
+    "LandArea": "246.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Charlton County, GA",
+    "District": "5",
+    "Population": "10282",
+    "LandArea": "780.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Chatham County, GA",
+    "District": "5",
+    "Population": "232048",
+    "LandArea": "438.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Chatham County, GA",
+    "District": "5",
+    "Population": "232048",
+    "LandArea": "438.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Clinch County, GA",
+    "District": "5",
+    "Population": "6878",
+    "LandArea": "809.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Clinch County, GA",
+    "District": "5",
+    "Population": "6878",
+    "LandArea": "809.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Coffee County, GA",
+    "District": "5",
+    "Population": "37413",
+    "LandArea": "598.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Coffee County, GA",
+    "District": "5",
+    "Population": "37413",
+    "LandArea": "598.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Effingham County, GA",
+    "District": "5",
+    "Population": "37535",
+    "LandArea": "479.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Effingham County, GA",
+    "District": "5",
+    "Population": "37535",
+    "LandArea": "479.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Emanuel County, GA",
+    "District": "5",
+    "Population": "21837",
+    "LandArea": "685.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Emanuel County, GA",
+    "District": "5",
+    "Population": "21837",
+    "LandArea": "685.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Evans County, GA",
+    "District": "5",
+    "Population": "10495",
+    "LandArea": "184.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Evans County, GA",
+    "District": "5",
+    "Population": "10495",
+    "LandArea": "184.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Glynn County, GA",
+    "District": "5",
+    "Population": "67568",
+    "LandArea": "422.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Glynn County, GA",
+    "District": "5",
+    "Population": "67568",
+    "LandArea": "422.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Hampton County, SC",
+    "District": "10",
+    "Population": "21386",
+    "LandArea": "559.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Jasper County, SC",
+    "District": "10",
+    "Population": "20678",
+    "LandArea": "656.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Liberty County, GA",
+    "District": "5",
+    "Population": "61610",
+    "LandArea": "519.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Liberty County, GA",
+    "District": "5",
+    "Population": "61610",
+    "LandArea": "519.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Long County, GA",
+    "District": "5",
+    "Population": "10304",
+    "LandArea": "400.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Long County, GA",
+    "District": "5",
+    "Population": "10304",
+    "LandArea": "400.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "McIntosh County, GA",
+    "District": "5",
+    "Population": "10847",
+    "LandArea": "433.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "McIntosh County, GA",
+    "District": "5",
+    "Population": "10847",
+    "LandArea": "433.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Pierce County, GA",
+    "District": "5",
+    "Population": "15636",
+    "LandArea": "343.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Pierce County, GA",
+    "District": "5",
+    "Population": "15636",
+    "LandArea": "343.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Screven County, GA",
+    "District": "5",
+    "Population": "15374",
+    "LandArea": "648.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Screven County, GA",
+    "District": "5",
+    "Population": "15374",
+    "LandArea": "648.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Tattnall County, GA",
+    "District": "5",
+    "Population": "22305",
+    "LandArea": "483.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Tattnall County, GA",
+    "District": "5",
+    "Population": "22305",
+    "LandArea": "483.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Toombs County, GA",
+    "District": "5",
+    "Population": "26067",
+    "LandArea": "366.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Toombs County, GA",
+    "District": "5",
+    "Population": "26067",
+    "LandArea": "366.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Ware County, GA",
+    "District": "5",
+    "Population": "35483",
+    "LandArea": "902.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Ware County, GA",
+    "District": "5",
+    "Population": "35483",
+    "LandArea": "902.29",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wayne County, GA",
+    "District": "5",
+    "Population": "26565",
+    "LandArea": "644.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wayne County, GA",
+    "District": "5",
+    "Population": "26565",
+    "LandArea": "644.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

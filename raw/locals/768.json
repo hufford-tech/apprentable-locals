@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2067  (em, o, u) Regina, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "768",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2067|Regina|SK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "768",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1810 McAra Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "665",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1810 McAra Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Regina, SK S4N 6C4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "665",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Regina|SK|S4N 6C4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](306) 352-1433[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1275",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(306) 352-1433",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](306) 352-1472[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1276",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(306) 352-1472",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@ibew2067.com\" target=\"_blank\">ibew@ibew2067.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "712",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@ibew2067.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2067.com\" target=\"_blank\">www.ibew2067.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "768",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2067.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Tyler Holmen, 6514 Rush Place, Regina, SK  S4X 3J1[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2345",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler||Holmen||{ \"MemberID\" : \"2345\",\"luid\": \"768\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6514 Rush Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Regina\",\"state\":\"SK\",\"zip\":\"S4X 3J1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Trent McClement, 30 Paradise Circle, White City, SK  S0G 3Z0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2344",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Trent||McClement||{ \"MemberID\" : \"2344\",\"luid\": \"768\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"30 Paradise Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"White City\",\"state\":\"SK\",\"zip\":\"S0G 3Z0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Tyler Holmen, 6514 Rush Place, Regina, SK  S4X 3J1[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4087",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler||Holmen||{ \"MemberID\" : \"4087\",\"luid\": \"768\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6514 Rush Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Regina\",\"state\":\"SK\",\"zip\":\"S4X 3J1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Douglas F. Kaip, Box 312, Humboldt, SK  S0K 2A0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2346",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Douglas|F.|Kaip||{ \"MemberID\" : \"2346\",\"luid\": \"768\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"Box 312\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Humboldt\",\"state\":\"SK\",\"zip\":\"S0K 2A0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 9 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "768",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 9 am",
+    "datatype": "txt"
+  }
+]

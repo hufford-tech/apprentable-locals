@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1288  (u) Memphis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "570",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1288|Memphis|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "570",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4000 Clearpool Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4000 Clearpool Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Memphis, TN 38118[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Memphis|TN|38118",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](901) 363-1563[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "991",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(901) 363-1563",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](901) 363-3289[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "992",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(901) 363-3289",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewbookeeper@ibewlocal1288.org\" target=\"_blank\">ibewbookeeper@ibewlocal1288.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "537",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewbookeeper@ibewlocal1288.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal1288.net\" target=\"_blank\">www.ibewlocal1288.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "570",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal1288.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Corey Hester[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1755",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Corey||Hester||{ \"MemberID\" : \"1755\",\"luid\": \"570\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4000 Clearpool Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Memphis\",\"state\":\"TN\",\"zip\":\"38118\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John W. Jones Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1753",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|W.|Jones|Jr.|{ \"MemberID\" : \"1753\",\"luid\": \"570\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4000 Clearpool Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Memphis\",\"state\":\"TN\",\"zip\":\"38118\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Cynthia A. Newson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1754",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cynthia|A.|Newson||{ \"MemberID\" : \"1754\",\"luid\": \"570\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"4000 Clearpool Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Memphis\",\"state\":\"TN\",\"zip\":\"38118\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Shemicka O. Wiley-Clemons[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1752",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shemicka|O.|Wiley-Clemons||{ \"MemberID\" : \"1752\",\"luid\": \"570\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"4000 Clearpool Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Memphis\",\"state\":\"TN\",\"zip\":\"38118\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "570",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

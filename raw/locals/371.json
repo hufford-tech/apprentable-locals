@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]674-  (rr) Boston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "674-|Boston|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "371",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 410152[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7239",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 410152",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cambridge, MA 02141[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7239",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cambridge|MA|02141",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](617) 777-7468[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "682",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(617) 777-7468",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewmannion@gmail.com\" target=\"_blank\">ibewmannion@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "356",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewmannion@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Andrew T. Mannion, 67 Cynthia Road, Dedham, MA  02026[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1137",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|T.|Mannion||{ \"MemberID\" : \"1137\",\"luid\": \"371\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"67 Cynthia Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dedham\",\"state\":\"MA\",\"zip\":\"02026\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Andrew T. Mannion, 67 Cynthia Road, Dedham, MA  02026[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3681",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|T.|Mannion||{ \"MemberID\" : \"3681\",\"luid\": \"371\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Sean R. Sutherland, PO Box 410152, Cambridge, MA  02141[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1136",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|R.|Sutherland||{ \"MemberID\" : \"1136\",\"luid\": \"371\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 410152\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"02141\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kenneth F. Pelton, PO Box 410152, Cambridge, MA  02141[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1138",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kenneth|F.|Pelton||{ \"MemberID\" : \"1138\",\"luid\": \"371\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 410152\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"02141\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Alternating Between Somerville & Dedham, 1st Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Alternating Between Somerville & Dedham, 1st Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

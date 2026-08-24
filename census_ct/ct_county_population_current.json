@@ -1,0 +1,16 @@
+{
+  "county_pop": {
+    "Tolland": 154356,
+    "New Haven": 878587,
+    "Windham": 118351,
+    "Hartford": 911877,
+    "Litchfield": 188143,
+    "Fairfield": 985068,
+    "New London": 271289,
+    "Middlesex": 167398
+  },
+  "unmatched_towns": [],
+  "statewide_pop": 3675069,
+  "delta": 0,
+  "pct_delta": 0.0
+}

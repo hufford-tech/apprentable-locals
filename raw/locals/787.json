@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2150  (em, lctt, o, rtb, u) Milwaukee[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "787",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2150|Milwaukee|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "787",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, lctt, o, rtb, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]N56 W13777 Silver Spring Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "Address1",
+    "editFieldValues": "N56 W13777 Silver Spring Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Menomonee Falls, WI 53051[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Menomonee Falls|WI|53051",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](262) 252-2552[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1302",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(262) 252-2552",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](262) 703-3520[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1303",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(262) 703-3520",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@ibewlocal2150.com\" target=\"_blank\">ibew@ibewlocal2150.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "730",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@ibewlocal2150.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2150.org\" target=\"_blank\">www.ibewlocal2150.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "787",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2150.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James W. Meyer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2401",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|W.|Meyer||{ \"MemberID\" : \"2401\",\"luid\": \"787\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"N56 W13777 Silver Spring Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Menomonee Falls\",\"state\":\"WI\",\"zip\":\"53051\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Wayne A. Fillinger Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2400",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|A.|Fillinger|Jr.|{ \"MemberID\" : \"2400\",\"luid\": \"787\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"N56 W13777 Silver Spring Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Menomonee Falls\",\"state\":\"WI\",\"zip\":\"53051\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James W. Meyer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4107",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|W.|Meyer||{ \"MemberID\" : \"4107\",\"luid\": \"787\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jaime R. Walls[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2402",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jaime|R.|Walls||{ \"MemberID\" : \"2402\",\"luid\": \"787\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"N56 W13777 Silver Spring Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Menomonee Falls\",\"state\":\"WI\",\"zip\":\"53051\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "787",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

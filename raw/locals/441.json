@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]817-  (rr) New York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "441",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "817-|New York|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "441",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]21 Old Main Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "Address1",
+    "editFieldValues": "21 Old Main Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 202[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 202",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Fishkill, NY 12524[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "417",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fishkill|NY|12524",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](845) 765-2073[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "792",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(845) 765-2073",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](845) 765-2074[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "793",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(845) 765-2074",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew817@ibew817.org\" target=\"_blank\">ibew817@ibew817.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1944",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew817@ibew817.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew817.org\" target=\"_blank\">www.ibew817.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "441",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew817.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Michael G. Allen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1357",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|Allen||{ \"MemberID\" : \"1357\",\"luid\": \"441\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1668 Route 9\",\"addr2\":\"Unit 6E\",\"addr3\":\"\",\"city\":\"Wappingers Falls\",\"state\":\"NY\",\"zip\":\"12590\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Michael G. Allen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1358",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|G.|Allen||{ \"MemberID\" : \"1358\",\"luid\": \"441\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1668 Route 9\",\"addr2\":\"Unit 6E\",\"addr3\":\"\",\"city\":\"Wappingers Falls\",\"state\":\"NY\",\"zip\":\"12590\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Michael J. Cavuoto[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3749",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Cavuoto||{ \"MemberID\" : \"3749\",\"luid\": \"441\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Carl V. Pantaleo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1356",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carl|V.|Pantaleo||{ \"MemberID\" : \"1356\",\"luid\": \"441\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"8 Depot Square\",\"addr2\":\"Suite 3\",\"addr3\":\"\",\"city\":\"Tuckahoe\",\"state\":\"NY\",\"zip\":\"10707\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "441",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

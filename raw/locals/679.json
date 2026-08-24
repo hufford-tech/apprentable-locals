@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1737  (u) Manassas[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "679",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1737|Manassas|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "679",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7542 Diplomat Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7542 Diplomat Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Manassas, VA 20109[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Manassas|VA|20109",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 4013[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "624",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 4013",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Manassas, VA 20108[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "624",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Manassas|VA|20108",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](703) 361-8027[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1161",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(703) 361-8027",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1737@gmail.com\" target=\"_blank\">ibewlocal1737@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "635",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1737@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]John B. Cleveland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2078",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|B.|Cleveland||{ \"MemberID\" : \"2078\",\"luid\": \"679\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 4013\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manassas\",\"state\":\"VA\",\"zip\":\"20108\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]John B. Cleveland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3987",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|B.|Cleveland||{ \"MemberID\" : \"3987\",\"luid\": \"679\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Elizabeth Gooden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2076",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Elizabeth||Gooden||{ \"MemberID\" : \"2076\",\"luid\": \"679\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"12143 Nokesville Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bristow\",\"state\":\"VA\",\"zip\":\"20136\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Corina Daw[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2077",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Corina||Daw||{ \"MemberID\" : \"2077\",\"luid\": \"679\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 4013\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manassas\",\"state\":\"VA\",\"zip\":\"20108\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "679",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

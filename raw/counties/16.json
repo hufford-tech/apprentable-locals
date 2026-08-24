@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Crawford County, IN",
+    "District": "6",
+    "Population": "10743",
+    "LandArea": "305.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Daviess County, IN",
+    "District": "6",
+    "Population": "29820",
+    "LandArea": "430.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Dubois County, IN",
+    "District": "6",
+    "Population": "39674",
+    "LandArea": "430.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Gibson County, IN",
+    "District": "6",
+    "Population": "32500",
+    "LandArea": "488.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lawrence County, IN",
+    "District": "6",
+    "Population": "45922",
+    "LandArea": "448.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Martin County, IN",
+    "District": "6",
+    "Population": "10369",
+    "LandArea": "336.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Orange County, IN",
+    "District": "6",
+    "Population": "19306",
+    "LandArea": "399.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Perry County, IN",
+    "District": "6",
+    "Population": "18899",
+    "LandArea": "381.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pike County, IN",
+    "District": "6",
+    "Population": "12837",
+    "LandArea": "336.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Posey County, IN",
+    "District": "6",
+    "Population": "27061",
+    "LandArea": "408.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Spencer County, IN",
+    "District": "6",
+    "Population": "20391",
+    "LandArea": "398.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Vanderburgh County, IN",
+    "District": "6",
+    "Population": "171922",
+    "LandArea": "234.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wabash County, IL",
+    "District": "6",
+    "Population": "12937",
+    "LandArea": "223.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Warrick County, IN",
+    "District": "6",
+    "Population": "52383",
+    "LandArea": "384.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

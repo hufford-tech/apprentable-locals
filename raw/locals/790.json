@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2159  (u) Montrose[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "790",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2159|Montrose|CO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "790",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 757[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "682",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 757",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Montrose, CO 81402[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "682",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montrose|CO|81402",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](970) 596-1296[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2099",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(970) 596-1296",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:IBEW2159@gmail.com\" target=\"_blank\">IBEW2159@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "733",
+    "editFieldNames": "Email",
+    "editFieldValues": "IBEW2159@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]J Morris Carroll[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4310",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "J Morris||Carroll||{ \"MemberID\" : \"4310\",\"luid\": \"790\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]J Morris Carroll[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4311",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "J Morris||Carroll||{ \"MemberID\" : \"4311\",\"luid\": \"790\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Mitchell V. Trounce[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2409",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mitchell|V.|Trounce||{ \"MemberID\" : \"2409\",\"luid\": \"790\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 757\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montrose\",\"state\":\"CO\",\"zip\":\"81402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Andrew J. Price[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4316",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Price||{ \"MemberID\" : \"4316\",\"luid\": \"790\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]All Employees Room of WAPA 2, 2nd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "790",
+    "editFieldNames": "Meets",
+    "editFieldValues": "All Employees Room of WAPA 2, 2nd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

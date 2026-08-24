@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]774-  (rr) Cincinnati[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "423",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "774-|Cincinnati|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "423",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1684 Petersburg Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7099",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1684 Petersburg Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hebron, KY 41048[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7099",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hebron|KY|41048",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 187[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7098",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 187",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Hebron, KY 41048[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7098",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hebron|KY|41048",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](859) 816-4518[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2295",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(859) 816-4518",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:hmorg96@gmail.com\" target=\"_blank\">hmorg96@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "Email",
+    "editFieldValues": "hmorg96@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Henry A. Morgan, 2647 Sterling Trace, Burlington, KY  41005[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3732",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Henry|A.|Morgan||{ \"MemberID\" : \"3732\",\"luid\": \"423\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2647 Sterling Trace\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Burlington\",\"state\":\"KY\",\"zip\":\"41005\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Tom R. Conrad, 2001 Bunker Hill Woods Road, Oxford, OH  45056[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1298",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tom|R.|Conrad||{ \"MemberID\" : \"1298\",\"luid\": \"423\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2001 Bunker Hill Woods Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oxford\",\"state\":\"OH\",\"zip\":\"45056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Josh R. Arlinghaus, 3016 St. Brendan Place, Union, KY  41091[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1299",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Josh|R.|Arlinghaus||{ \"MemberID\" : \"1299\",\"luid\": \"423\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3016 St. Brendan Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Union\",\"state\":\"KY\",\"zip\":\"41091\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Iron Workers Local 44 Union Hall, 1125 Victory Place, 3rd Wednesday, 9 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "423",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Iron Workers Local 44 Union Hall, 1125 Victory Place, 3rd Wednesday, 9 am",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]948-  (catv, em, i, rts, spa) Flint[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "479",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "948-|Flint|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "479",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1251 W Hill Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1251 W Hill Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Flint, MI 48507[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Flint|MI|48507",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](810) 767-3308[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "853",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(810) 767-3308",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](810) 767-5907[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "854",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(810) 767-5907",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jwallace@local948.org\" target=\"_blank\">jwallace@local948.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "Email",
+    "editFieldValues": "jwallace@local948.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.local948.org\" target=\"_blank\">www.local948.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "479",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.local948.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Kellogg V. Dipzinski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1467",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kellogg|V.|Dipzinski||{ \"MemberID\" : \"1467\",\"luid\": \"479\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1251 W Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flint\",\"state\":\"MI\",\"zip\":\"48507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Matthew S. Almasy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1468",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|S.|Almasy||{ \"MemberID\" : \"1468\",\"luid\": \"479\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1251 W Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flint\",\"state\":\"MI\",\"zip\":\"48507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Kellogg V. Dipzinski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3789",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kellogg|V.|Dipzinski||{ \"MemberID\" : \"3789\",\"luid\": \"479\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Michael A. Forsyth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1466",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Forsyth||{ \"MemberID\" : \"1466\",\"luid\": \"479\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1251 W Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flint\",\"state\":\"MI\",\"zip\":\"48507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "479",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]40--  (em, i, mps) Hollywood[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "40--|Hollywood|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "38",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, mps",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5643 Vineland Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "37",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5643 Vineland Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Hollywood, CA 91601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "37",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Hollywood|CA|91601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](818) 762-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(818) 762-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](818) 762-4379[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(818) 762-4379",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:unionhall@ibew40.org\" target=\"_blank\">unionhall@ibew40.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "Email",
+    "editFieldValues": "unionhall@ibew40.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew40.org\" target=\"_blank\">www.ibew40.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew40.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stephan R. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "119",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephan|R.|Davis||{ \"MemberID\" : \"119\",\"luid\": \"38\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5643 Vineland Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Hollywood\",\"state\":\"CA\",\"zip\":\"91601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Juan M. Rodriguez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "118",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Juan|M.|Rodriguez||{ \"MemberID\" : \"118\",\"luid\": \"38\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5643 Vineland Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Hollywood\",\"state\":\"CA\",\"zip\":\"91601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Stephan R. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3367",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephan|R.|Davis||{ \"MemberID\" : \"3367\",\"luid\": \"38\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Lane L. Stewart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "120",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lane|L.|Stewart||{ \"MemberID\" : \"120\",\"luid\": \"38\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5643 Vineland Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Hollywood\",\"state\":\"CA\",\"zip\":\"91601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

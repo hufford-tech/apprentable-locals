@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]64--  (i, rtb) Youngstown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "64--|Youngstown|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "55",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]350 E Western Reserve Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "Address1",
+    "editFieldValues": "350 E Western Reserve Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Youngstown, OH 44514[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Youngstown|OH|44514",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](330) 758-8654[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "107",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 758-8654",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](330) 758-5562[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "108",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 758-5562",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew64.org\" target=\"_blank\">info@ibew64.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew64.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew64.org\" target=\"_blank\">www.ibew64.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew64.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Cody L. Hilliard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "170",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cody|L.|Hilliard||{ \"MemberID\" : \"170\",\"luid\": \"55\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"291 McClurg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Youngstown\",\"state\":\"OH\",\"zip\":\"44512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kenneth D. Lucas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "169",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kenneth|D.|Lucas||{ \"MemberID\" : \"169\",\"luid\": \"55\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"291 McClurg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Youngstown\",\"state\":\"OH\",\"zip\":\"44512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Cody L. Hilliard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3385",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cody|L.|Hilliard||{ \"MemberID\" : \"3385\",\"luid\": \"55\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Zachary D. Zarbaugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "168",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|D.|Zarbaugh||{ \"MemberID\" : \"168\",\"luid\": \"55\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"291 McClurg Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Youngstown\",\"state\":\"OH\",\"zip\":\"44512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "55",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

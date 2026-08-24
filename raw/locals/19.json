@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]19--  (ptc, u) Aurora[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "19--|Aurora|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1585 Beverly Court[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "20",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1585 Beverly Court",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 109[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "20",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 109",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Aurora, IL 60502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "20",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Aurora|IL|60502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](630) 820-3950[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "37",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 820-3950",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](630) 820-3925[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 820-3925",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew19.org\" target=\"_blank\">office@ibew19.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew19.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew19.org\" target=\"_blank\">www.ibew19.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew19.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Andrew J. Nacke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Nacke||{ \"MemberID\" : \"59\",\"luid\": \"19\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1885 N Farnsworth Avenue\",\"addr2\":\"Suite 8\",\"addr3\":\"\",\"city\":\"Aurora\",\"state\":\"IL\",\"zip\":\"60505\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Andrew J. Nacke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3351",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Nacke||{ \"MemberID\" : \"3351\",\"luid\": \"19\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Andrew J. Nacke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3352",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Nacke||{ \"MemberID\" : \"3352\",\"luid\": \"19\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Terrance J. Haggerty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "58",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrance|J.|Haggerty||{ \"MemberID\" : \"58\",\"luid\": \"19\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1885 N Farnsworth Avenue\",\"addr2\":\"Suite 8\",\"addr3\":\"\",\"city\":\"Aurora\",\"state\":\"IL\",\"zip\":\"60505\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Places, 4th Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Places, 4th Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

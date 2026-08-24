@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Berkshire County, MA",
+    "District": "2",
+    "Population": "134953",
+    "LandArea": "931.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Fairfield County, CT",
+    "District": "2",
+    "Population": "882567",
+    "LandArea": "625.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Franklin County, MA",
+    "District": "2",
+    "Population": "71535",
+    "LandArea": "702.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Hampden County, MA",
+    "District": "2",
+    "Population": "456228",
+    "LandArea": "618.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Hampshire County, MA",
+    "District": "2",
+    "Population": "152251",
+    "LandArea": "529.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Hartford County, CT",
+    "District": "2",
+    "Population": "857183",
+    "LandArea": "735.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Litchfield County, CT",
+    "District": "2",
+    "Population": "182193",
+    "LandArea": "919.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Middlesex County, CT",
+    "District": "2",
+    "Population": "155071",
+    "LandArea": "369.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New Haven County, CT",
+    "District": "2",
+    "Population": "824008",
+    "LandArea": "605.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New London County, CT",
+    "District": "2",
+    "Population": "259088",
+    "LandArea": "665.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Tolland County, CT",
+    "District": "2",
+    "Population": "136364",
+    "LandArea": "410.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Windham County, CT",
+    "District": "2",
+    "Population": "109091",
+    "LandArea": "512.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CT"
+  }
+]

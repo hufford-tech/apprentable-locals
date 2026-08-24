@@ -1,0 +1,272 @@
+[
+  {
+    "CountyName": "Ashland County, WI",
+    "District": "6",
+    "Population": "16866",
+    "LandArea": "1043.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Barron County, WI",
+    "District": "6",
+    "Population": "44963",
+    "LandArea": "862.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Bayfield County, WI",
+    "District": "6",
+    "Population": "15013",
+    "LandArea": "1476.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Buffalo County, WI",
+    "District": "6",
+    "Population": "13804",
+    "LandArea": "684.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Burnett County, WI",
+    "District": "6",
+    "Population": "15674",
+    "LandArea": "821.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Chippewa County, WI",
+    "District": "6",
+    "Population": "55195",
+    "LandArea": "1010.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Clark County, WI",
+    "District": "6",
+    "Population": "33557",
+    "LandArea": "1215.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Crawford County, WI",
+    "District": "6",
+    "Population": "17243",
+    "LandArea": "572.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Douglas County, WI",
+    "District": "6",
+    "Population": "43287",
+    "LandArea": "1309.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dunn County, WI",
+    "District": "6",
+    "Population": "39858",
+    "LandArea": "852.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Eau Claire County, WI",
+    "District": "6",
+    "Population": "93142",
+    "LandArea": "637.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Grant County, WI",
+    "District": "6",
+    "Population": "49597",
+    "LandArea": "1147.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Iowa County, WI",
+    "District": "6",
+    "Population": "22780",
+    "LandArea": "762.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Iron County, WI",
+    "District": "6",
+    "Population": "6861",
+    "LandArea": "757.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Jackson County, WI",
+    "District": "6",
+    "Population": "19100",
+    "LandArea": "987.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "La Crosse County, WI",
+    "District": "6",
+    "Population": "107120",
+    "LandArea": "452.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Lafayette County, WI",
+    "District": "6",
+    "Population": "16137",
+    "LandArea": "633.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Monroe County, WI",
+    "District": "6",
+    "Population": "40899",
+    "LandArea": "900.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Pepin County, WI",
+    "District": "6",
+    "Population": "7213",
+    "LandArea": "232.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Pierce County, WI",
+    "District": "6",
+    "Population": "36804",
+    "LandArea": "576.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Polk County, WI",
+    "District": "6",
+    "Population": "41319",
+    "LandArea": "917.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Price County, WI",
+    "District": "6",
+    "Population": "15822",
+    "LandArea": "1252.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Richland County, WI",
+    "District": "6",
+    "Population": "17924",
+    "LandArea": "586.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Rusk County, WI",
+    "District": "6",
+    "Population": "15347",
+    "LandArea": "913.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Sawyer County, WI",
+    "District": "6",
+    "Population": "16196",
+    "LandArea": "1256.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "St. Croix County, WI",
+    "District": "6",
+    "Population": "63155",
+    "LandArea": "721.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Taylor County, WI",
+    "District": "6",
+    "Population": "19680",
+    "LandArea": "974.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Trempealeau County, WI",
+    "District": "6",
+    "Population": "27010",
+    "LandArea": "734.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Vernon County, WI",
+    "District": "6",
+    "Population": "28056",
+    "LandArea": "794.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Washburn County, WI",
+    "District": "6",
+    "Population": "16036",
+    "LandArea": "809.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  }
+]

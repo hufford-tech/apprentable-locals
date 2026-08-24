@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]557-  (i, mt, rts, spa) Saginaw[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "314",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "557-|Saginaw|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "314",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7303 Gratiot Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7303 Gratiot Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saginaw, MI 48609[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saginaw|MI|48609",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](989) 781-0516[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "578",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(989) 781-0516",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](989) 781-0563[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "579",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(989) 781-0563",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:renee@ibew557.org\" target=\"_blank\">renee@ibew557.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "Email",
+    "editFieldValues": "renee@ibew557.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew557.org\" target=\"_blank\">www.ibew557.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "314",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew557.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Evan H. Allardyce[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "962",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Evan|H.|Allardyce||{ \"MemberID\" : \"962\",\"luid\": \"314\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7303 Gratiot Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saginaw\",\"state\":\"MI\",\"zip\":\"48609\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher R. Scharich[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "963",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|R.|Scharich||{ \"MemberID\" : \"963\",\"luid\": \"314\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7303 Gratiot Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saginaw\",\"state\":\"MI\",\"zip\":\"48609\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Evan H. Allardyce[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3628",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Evan|H.|Allardyce||{ \"MemberID\" : \"3628\",\"luid\": \"314\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Joshua T. Iles[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "961",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|T.|Iles||{ \"MemberID\" : \"961\",\"luid\": \"314\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"7303 Gratiot Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saginaw\",\"state\":\"MI\",\"zip\":\"48609\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "314",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]574-  (govt) Bremerton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "322",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "574-|Bremerton|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "322",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]11871 Silverdale Way NW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "Address1",
+    "editFieldValues": "11871 Silverdale Way NW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 111[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Silverdale, WA 98383[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Silverdale|WA|98383",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](360) 692-3789[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "594",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 692-3789",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](360) 692-3896[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2164",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 692-3896",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew574@qwestoffice.net\" target=\"_blank\">ibew574@qwestoffice.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew574@qwestoffice.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]William D. Tyler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "986",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Tyler||{ \"MemberID\" : \"986\",\"luid\": \"322\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10049 Kitsap Mall Boulevard\",\"addr2\":\"Suite 105\",\"addr3\":\"\",\"city\":\"Silverdale\",\"state\":\"WA\",\"zip\":\"98383\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]William D. Tyler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3636",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Tyler||{ \"MemberID\" : \"3636\",\"luid\": \"322\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Daniel E. Mjelde[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "985",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|E.|Mjelde||{ \"MemberID\" : \"985\",\"luid\": \"322\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10049 Kitsap Mall Boulevard\",\"addr2\":\"Suite 105\",\"addr3\":\"\",\"city\":\"Silverdale\",\"state\":\"WA\",\"zip\":\"98383\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Samuel W. Smith, 1329 Corbet Drive NW, Bremerton, WA  98312[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "987",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|W.|Smith||{ \"MemberID\" : \"987\",\"luid\": \"322\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1329 Corbet Drive NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bremerton\",\"state\":\"WA\",\"zip\":\"98312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "322",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

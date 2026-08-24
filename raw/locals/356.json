@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]647-  (u) Little Rock[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "356",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "647-|Little Rock|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "356",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1303 N Church Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5636",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1303 N Church Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5636",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Atkins, AR 72823[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5636",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Atkins|AR|72823",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 127[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "353",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 127",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Conway, AR 72033[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "353",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Conway|AR|72033",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](501) 590-2104[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "656",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(501) 590-2104",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew647@gmail.com\" target=\"_blank\">ibew647@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "343",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew647@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew647.org\" target=\"_blank\">www.ibew647.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "356",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew647.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Brian C. Erwin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1089",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|C.|Erwin||{ \"MemberID\" : \"1089\",\"luid\": \"356\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1303 N Church Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Atkins\",\"state\":\"AR\",\"zip\":\"72823\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Jonathan L Duncan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4442",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|L|Duncan||{ \"MemberID\" : \"4442\",\"luid\": \"356\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Brian C. Erwin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3669",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|C.|Erwin||{ \"MemberID\" : \"3669\",\"luid\": \"356\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Robert A. Wood[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4436",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|A.|Wood||{ \"MemberID\" : \"4436\",\"luid\": \"356\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Local Union 295 Hall, 7320 S University Avenue, 3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "356",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 295 Hall, 7320 S University Avenue, 3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1629  (mt, p, so) Childersburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "656",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1629|Childersburg|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "656",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt, p, so",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 407[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4487",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 407",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Childersburg, AL 35044[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4487",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Childersburg|AL|35044",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](256) 872-4301[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1921",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 872-4301",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mizzell.nathan@gmail.com\" target=\"_blank\">mizzell.nathan@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "615",
+    "editFieldNames": "Email",
+    "editFieldValues": "mizzell.nathan@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Nathan D. Mizzell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2010",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|D.|Mizzell||{ \"MemberID\" : \"2010\",\"luid\": \"656\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 407\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Childersburg\",\"state\":\"AL\",\"zip\":\"35044\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Nathan D. Mizzell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3961",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|D.|Mizzell||{ \"MemberID\" : \"3961\",\"luid\": \"656\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Howard K. Cooper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2012",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Howard|K.|Cooper||{ \"MemberID\" : \"2012\",\"luid\": \"656\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 407\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Childersburg\",\"state\":\"AL\",\"zip\":\"35044\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]David P. Guy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2011",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|P.|Guy||{ \"MemberID\" : \"2011\",\"luid\": \"656\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 407\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Childersburg\",\"state\":\"AL\",\"zip\":\"35044\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]USW Union Hall, Childersburg, 2nd Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "656",
+    "editFieldNames": "Meets",
+    "editFieldValues": "USW Union Hall, Childersburg, 2nd Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

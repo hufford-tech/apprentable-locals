@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]866-  (rr) Kansas City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "456",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "866-|Kansas City|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "456",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]631 Miami Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7257",
+    "editFieldNames": "Address1",
+    "editFieldValues": "631 Miami Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Leavenworth, KS 66048[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7257",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Leavenworth|KS|66048",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](816) 944-6138[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2341",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(816) 944-6138",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew866pres@gmail.com\" target=\"_blank\">ibew866pres@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1918",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew866pres@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Robert Ayala, 14429 South Chalet Street, Olathe, KS  66062[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1401",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert||Ayala||{ \"MemberID\" : \"1401\",\"luid\": \"456\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14429 South Chalet Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Olathe\",\"state\":\"KS\",\"zip\":\"66062\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Robert Ayala, 14429 South Chalet Street, Olathe, KS  66062[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3766",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert||Ayala||{ \"MemberID\" : \"3766\",\"luid\": \"456\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14429 South Chalet Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Olathe\",\"state\":\"KS\",\"zip\":\"66062\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Kevin WIlliams, 631 Miami Street, Leavenworth, KS  66048[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1400",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin||WIlliams||{ \"MemberID\" : \"1400\",\"luid\": \"456\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"631 Miami Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leavenworth\",\"state\":\"KS\",\"zip\":\"66048\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Marc Rodriguez, 2565 Espenlaub Lane, Kansas City, KS  66106[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1399",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Marc||Rodriguez||{ \"MemberID\" : \"1399\",\"luid\": \"456\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2565 Espenlaub Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kansas City\",\"state\":\"KS\",\"zip\":\"66106\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Roeland Park Community Center, 4850 Rosewood Drive, Room 6, Roeland Park, 2nd Thursday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "456",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Roeland Park Community Center, 4850 Rosewood Drive, Room 6, Roeland Park, 2nd Thursday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

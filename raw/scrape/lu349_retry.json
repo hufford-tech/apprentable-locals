@@ -1,0 +1,63 @@
+{
+  "has_apprenticeship": true,
+  "program_name": "Inside Wireman Apprenticeship Program",
+  "jatc_name": "Miami Electrical JATC",
+  "jatc_domain": "www.ibew349.net",
+  "application_url": "https://www.ibew349.net/applicant.html",
+  "windows": [
+    {
+      "precision": "relative",
+      "open_date": "",
+      "close_date": "",
+      "open_month": null,
+      "open_day": null,
+      "close_month": null,
+      "close_day": null,
+      "is_recurring_annual": false,
+      "relative_description": "Applications will be accepted for employment",
+      "time_of_day": "",
+      "method": "in_person",
+      "cap": "",
+      "evidence_quote": "Applications will be accepted for employment.",
+      "source_url": "https://www.ibew349.net/apprentice.html"
+    }
+  ],
+  "status_statements": [
+    {
+      "verbatim_text": "Applications will be accepted for employment.",
+      "statement_type": "rolling",
+      "stated_effective_date": null,
+      "source_url": "https://www.ibew349.net/apprentice.html"
+    }
+  ],
+  "occupations": [
+    "Inside Wireman",
+    "Apprentice Electrician",
+    "Helper",
+    "Journeyman Electrician"
+  ],
+  "min_age": null,
+  "min_education": "",
+  "citizenship_required": false,
+  "aptitude_test": "Aptitude test including reading comprehension and mathematics sections",
+  "interview_required": true,
+  "math_requirement": "Algebra requirement; NJATC Tech Math course will satisfy the algebra requirement for applicants",
+  "other_requirements": [
+    "Valid driver's license at time of application",
+    "Social Security Card at time of application",
+    "30 days from date of application to provide any additional information needed",
+    "Applicants can stay on the ranking list for a maximum of two years"
+  ],
+  "contact_email": "adrian_llanes@ibew349.org",
+  "contact_phone": "239-482-1700",
+  "application_method": "online",
+  "has_notification_list": false,
+  "notification_instructions": "",
+  "state_dol_url": "",
+  "website_corrected": false,
+  "original_website": "www.ibew349.net",
+  "page_last_updated": null,
+  "content_year": 2011,
+  "is_stale": true,
+  "confidence": "medium"
+}

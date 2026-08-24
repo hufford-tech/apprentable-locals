@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Chatham-Kent Division, ON",
+    "District": "1",
+    "Population": "107709",
+    "LandArea": "2470.7616",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Chatham-Kent Division, ON",
+    "District": "1",
+    "Population": "107709",
+    "LandArea": "2470.7616",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Essex County, ON",
+    "District": "1",
+    "Population": "374975",
+    "LandArea": "1851.5907",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Essex County, ON",
+    "District": "1",
+    "Population": "374975",
+    "LandArea": "1851.5907",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  }
+]

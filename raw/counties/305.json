@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Adams County, IN",
+    "District": "6",
+    "Population": "33625",
+    "LandArea": "339.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Allen County, IN",
+    "District": "6",
+    "Population": "331849",
+    "LandArea": "657.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "De Kalb County, IN",
+    "District": "6",
+    "Population": "40285",
+    "LandArea": "362.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Huntington County, IN",
+    "District": "6",
+    "Population": "38075",
+    "LandArea": "382.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lagrange County, IN",
+    "District": "6",
+    "Population": "34909",
+    "LandArea": "379.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Noble County, IN",
+    "District": "6",
+    "Population": "46275",
+    "LandArea": "411.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Steuben County, IN",
+    "District": "6",
+    "Population": "33214",
+    "LandArea": "308.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wells County, IN",
+    "District": "6",
+    "Population": "27600",
+    "LandArea": "369.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Whitley County, IN",
+    "District": "6",
+    "Population": "30707",
+    "LandArea": "335.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

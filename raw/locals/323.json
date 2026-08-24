@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]575-  (i) Portsmouth[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "323",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "575-|Portsmouth|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "323",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]110 Offnere Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "Address1",
+    "editFieldValues": "110 Offnere Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Portsmouth, OH 45662[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Portsmouth|OH|45662",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1544[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1544",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Portsmouth, OH 45662[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Portsmouth|OH|45662",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](740) 353-8000[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "596",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 353-8000",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](740) 353-6671[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "597",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 353-6671",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew575.com\" target=\"_blank\">office@ibew575.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew575.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew575.org\" target=\"_blank\">www.ibew575.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "323",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew575.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Joseph P. Dillow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "988",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|P.|Dillow||{ \"MemberID\" : \"988\",\"luid\": \"323\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1544\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"OH\",\"zip\":\"45662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Rod A. Hensley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "989",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rod|A.|Hensley||{ \"MemberID\" : \"989\",\"luid\": \"323\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1544\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"OH\",\"zip\":\"45662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Joseph P. Dillow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3637",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|P.|Dillow||{ \"MemberID\" : \"3637\",\"luid\": \"323\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Bryan L. Pitts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "990",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|L.|Pitts||{ \"MemberID\" : \"990\",\"luid\": \"323\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1544\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Portsmouth\",\"state\":\"OH\",\"zip\":\"45662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1st Friday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "323",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

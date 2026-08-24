@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]35--  (i) Hartford[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "33",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "35--|Hartford|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "33",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]961 Wethersfield Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "Address1",
+    "editFieldValues": "961 Wethersfield Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hartford, CT 06114[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hartford|CT|06114",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](860) 525-5438[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "63",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(860) 525-5438",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](860) 278-4373[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(860) 278-4373",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal35.org\" target=\"_blank\">info@ibewlocal35.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "33",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal35.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal35.org\" target=\"_blank\">www.ibewlocal35.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "33",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal35.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael L. Nealy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "105",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|L.|Nealy||{ \"MemberID\" : \"105\",\"luid\": \"33\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Murphy Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John M. Bowen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "104",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Bowen||{ \"MemberID\" : \"104\",\"luid\": \"33\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Murphy Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael L. Nealy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3361",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|L.|Nealy||{ \"MemberID\" : \"3361\",\"luid\": \"33\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Harley D. Fontaine[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4491",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Harley|D.|Fontaine||{ \"MemberID\" : \"4491\",\"luid\": \"33\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "33",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

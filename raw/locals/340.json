@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]612-  (u) Wheatland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "612-|Wheatland|WY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "340",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1401 Ninth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1401 Ninth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wheatland, WY 82201[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wheatland|WY|82201",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 612[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "338",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 612",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Wheatland, WY 82201[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "338",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wheatland|WY|82201",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](307) 575-3753[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "629",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 575-3753",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](307) 322-4264[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 322-4264",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Gordon.noggle@icloud.com \" target=\"_blank\">Gordon.noggle@icloud.com </a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "328",
+    "editFieldNames": "Email",
+    "editFieldValues": "Gordon.noggle@icloud.com ",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew612.net\" target=\"_blank\">www.ibew612.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew612.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Gordon D. Noggle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1042",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gordon|D.|Noggle||{ \"MemberID\" : \"1042\",\"luid\": \"340\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 612\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wheatland\",\"state\":\"WY\",\"zip\":\"82201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Gordon D. Noggle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3652",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gordon|D.|Noggle||{ \"MemberID\" : \"3652\",\"luid\": \"340\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 106\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wheatland\",\"state\":\"WY\",\"zip\":\"82201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Paul I. May[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1041",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|I.|May||{ \"MemberID\" : \"1041\",\"luid\": \"340\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 612\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wheatland\",\"state\":\"WY\",\"zip\":\"82201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Robert J. Murray[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1043",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Murray||{ \"MemberID\" : \"1043\",\"luid\": \"340\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 612\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wheatland\",\"state\":\"WY\",\"zip\":\"82201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Last Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Last Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

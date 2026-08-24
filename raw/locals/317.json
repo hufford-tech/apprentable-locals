@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]567-  (i, mt) Portland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "567-|Portland|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "317",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]238 Goddard Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "Address1",
+    "editFieldValues": "238 Goddard Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lewiston, ME 04240[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lewiston|ME|04240",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](207) 786-9770[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "584",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 786-9770",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](207) 786-9773[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2214",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 786-9773",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dlehouillier@ibew567.com\" target=\"_blank\">dlehouillier@ibew567.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "306",
+    "editFieldNames": "Email",
+    "editFieldValues": "dlehouillier@ibew567.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew567.com\" target=\"_blank\">www.ibew567.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew567.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Denis F. Lehouillier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "972",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Denis|F.|Lehouillier||{ \"MemberID\" : \"972\",\"luid\": \"317\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"345 County Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Turner\",\"state\":\"ME\",\"zip\":\"04282\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Justin C. Walsh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3631",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|C.|Walsh||{ \"MemberID\" : \"3631\",\"luid\": \"317\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Denis F. Lehouillier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "970",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Denis|F.|Lehouillier||{ \"MemberID\" : \"970\",\"luid\": \"317\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"345 County Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Turner\",\"state\":\"ME\",\"zip\":\"04282\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Mark D. Gardiner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "971",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Gardiner||{ \"MemberID\" : \"971\",\"luid\": \"317\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"17 Richardson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Auburn\",\"state\":\"ME\",\"zip\":\"04210\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "317",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

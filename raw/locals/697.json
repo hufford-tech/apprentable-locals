@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1832  (rr) Kansas City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "697",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1832|Kansas City|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "697",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5653 N Manchester Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7220",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5653 N Manchester Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kansas City, MO 64119[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7220",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kansas City|MO|64119",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](712) 309-5899[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1185",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(712) 309-5899",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Troy W. Nirschl, 16523 150th Street, Bonner Springs, KS  66012[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4238",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|W.|Nirschl||{ \"MemberID\" : \"4238\",\"luid\": \"697\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16523 150th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bonner Springs\",\"state\":\"KS\",\"zip\":\"66012\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Troy W. Nirschl, 16523 150th Street, Bonner Springs, MO  66012[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4227",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|W.|Nirschl||{ \"MemberID\" : \"4227\",\"luid\": \"697\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16523 150th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bonner Springs\",\"state\":\"MO\",\"zip\":\"66012\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Edward H. Kuennen, 5653 N Manchester Avenue, Kansas City, MO  64119[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2132",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|H.|Kuennen||{ \"MemberID\" : \"2132\",\"luid\": \"697\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5653 N Manchester Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kansas City\",\"state\":\"MO\",\"zip\":\"64119\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]Chappell's Restaurant, 323 Armour Road, 3rd Tuesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "697",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Chappell's Restaurant, 323 Armour Road, 3rd Tuesday, 4 pm",
+    "datatype": "txt"
+  }
+]

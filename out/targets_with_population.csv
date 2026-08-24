@@ -1,0 +1,246 @@
+local_union_id,lu_number,website,olms_members,charter_city,charter_state,trade_classes,has_email,meets,population_2000_served_inside,population_current_served_inside,pct_change_served,rank_2000,rank_current,rank_change
+3,3,www.local3.com,21379.0,New York,NY,"catv,em,govt,i,lctt,mo,o,ptc,t,u",yes,"Electrical Industry Center, 67-35 Parsons Boulevard, Flushing, 2nd Thursday, 5 pm",9284764,9878546,6.4,2,1,1
+11,11,www.ibew11.org,12401.0,Los Angeles,CA,"em,i,rts,spa",yes,"3rd Thursday, 5 pm",9519338,9757179,2.5,1,2,-1
+20,20,www.ibew20.org,5192.0,Dallas-Fort Worth,TX,"i,mt,spa,u",yes,"1st Tuesday, 7 pm",5470469,8760827,60.1,4,3,1
+26,26,www.ibewlocal26.org,12078.0,Washington,DC,"ees,em,es,govt,i,mt",yes,"2nd Friday, 7 pm",6296037,8223617,30.6,3,4,-1
+341,613,www.ibew613.org,6125.0,Atlanta,GA,"em,i,o,rts,spa",yes,"3rd Tuesday, 6 pm",5415983,7903227,45.9,5,5,0
+391,716,www.ibew716.net,3462.0,Houston,TX,"em,i,lctt,rts,spa",yes,"1st Wednesday, 6 pm",4469677,7353507,64.5,7,6,1
+354,640,https://ibew640.com/,4410.0,Phoenix,AZ,"em,govt,i,it,mo,mt,ptc,rts,spa,u",yes,"3rd Monday, 6 pm",3628601,5616018,54.8,10,7,3
+472,915,www.ibew915.org,1378.0,Tampa,FL,"i,mt",yes,"2nd Friday, 7 pm",3632506,5385522,48.3,9,8,1
+225,379,www.ibew379.org,1407.0,Charlotte,NC,"i,lctt,o,rtb",yes,"2nd Monday, 6 pm",3581032,5187923,44.9,11,9,2
+101,134,www.lu134.org,12161.0,Chicago,IL,"catv,em,govt,i,mt,rtb,rts,spa,t",yes,"1st Thursday, 6 pm",5322974,5130791,-3.6,6,10,-4
+397,728,www.ibew728.org,982.0,Ft. Lauderdale,FL,"em,i,rts,spa",yes,"Odd Months, South Hall; Even Months, North Hall; 1st Monday, 7 pm",3186827,4335723,36.1,14,11,3
+337,606,www.ibew606.org,1851.0,Orlando,FL,"em,es,govt,i,rtb,spa,u",yes,"1st Tuesday, 7 pm",2548499,4272325,67.6,22,12,10
+57,68,www.ibewlu68.com,2119.0,Denver,CO,i,yes,"1st Tuesday, 6 pm",3003786,4262008,41.9,16,13,3
+53,58,www.ibewlocal58.org,5028.0,Detroit,MI,"em,govt,i,rtb,spa,t",yes,"3rd Tuesday, 6:30 pm",4340122,4250509,-2.1,8,14,-6
+208,349,www.ibew349.net,1554.0,Miami,FL,"em,es,i,mps,ptc,rtb,rts,spa,u",yes,"1st Thursday, 7 pm",2989425,4131766,38.2,17,15,2
+80,103,www.the103advantage.com,7646.0,Boston,MA,"cs,i,ptc",yes,"2nd Tuesday, 5 pm",3396522,3876507,14.1,12,16,-4
+313,553,www.ibew553.org,1067.0,Raleigh,NC,"govt,i,lctt,mt,o,t",yes,"3rd Monday, 6 pm",2464612,3613051,46.6,24,17,7
+213,354,www.ibew354.org,3065.0,Salt Lake City,UT,"i,lpt,mo,mt,rts,spa,t",yes,"1st Wednesday, 7 pm",2233169,3503613,56.9,28,18,10
+24,24,www.ibewlocal24.org,3033.0,Baltimore,MD,"es,i,spa,u",yes,"4th Tuesday, 7 pm",3043359,3492142,14.7,15,19,-4
+319,569,www.ibew569.org,3602.0,San Diego,CA,"i,mar,mt,rts,spa",yes,"2nd Wednesday, 5:30 pm",2956194,3480523,17.7,18,20,-2
+223,369,www.ibewlocal369.com,5280.0,Louisville,KY,"em,es,i,lctt,o,ptc,rtb,rts,spa,u",yes,"4th Monday, 7 pm",2909790,3427692,17.8,19,21,-2
+203,340,www.ibewlocal340.org,2826.0,Sacramento,CA,"i,rts,spa",yes,"1st Wednesday, 6 pm",2502638,3217734,28.6,23,22,1
+257,441,www.ibewoc.com,2490.0,Santa Ana,CA,"as,i,rts",yes,"1st Wednesday, 5 pm",2846289,3170435,11.4,20,23,-3
+5,5,www.ibew5.org,3166.0,Pittsburgh,PA,"catv,ees,em,i,rtb,spa,u",yes,"2nd Friday, 8 pm",3235093,3086704,-4.6,13,24,-11
+54,60,www.ibewlu60.org,3125.0,San Antonio,TX,i,yes,"2nd Wednesday, 5:30 pm",2001741,3083960,54.1,33,25,8
+251,429,www.ibew429.org,2312.0,Nashville,TN,"em,i,lctt,o,ptc,rtb,u",yes,"1st & 3rd Monday, 7 pm",1991998,2978189,49.5,34,26,8
+297,520,www.ibew520.org,2083.0,Austin,TX,"em,i,spa",yes,"3rd Friday, 6 pm",1513399,2941487,94.4,50,27,23
+25,25,www.ibew25.org,,Long Island,NY,"c,catv,es,i,ptc,rts",yes,"2nd Tuesday, 5 pm",2753913,2928347,6.3,21,28,-7
+46,48,www.ibew48.com,5998.0,Portland,OR,"c,em,i,ptc,rtb,rts,st,tm",yes,"4th Wednesday, 6 pm",2124344,2768124,30.3,29,29,0
+44,46,www.ibew46.org,5620.0,Seattle,WA,"as,c,cs,em,es,et,i,mar,mo,mt,rtb,rts,st",yes,"2nd Wednesday, 5:30 pm",2059481,2733533,32.7,31,30,1
+79,102,www.ibew102.org,2896.0,Paterson,NJ,"em,govt,i,mt,o,ptc,ws",yes,"Barnyard & Carriage House, 754 Totowa Road, Totowa, 1st Tuesday, 5 pm",2381493,2668452,12.0,26,31,-5
+1,1,www.ibewlocal1.org,4985.0,St. Louis,MO,"as,c,ees,ei,em,es,et,fm,i,mt,ptc,rts,s,se,spa,st,ws",yes,"1st Wednesday, 5 pm or 7 pm; 3rd Friday, 5 pm",2458721,2594533,5.5,25,32,-7
+115,164,www.ibew164.org,2651.0,Jersey City,NJ,"c,em,i,o,t",yes,"65 W Century Road, Paramus, 1st Thursday, 7 pm",2252266,2558178,13.6,27,33,-6
+256,440,www.ibew440.org,1318.0,Riverside,CA,"i,rts,spa",yes,"1st Friday, 6 pm",1545387,2529933,63.7,49,34,15
+331,595,www.ibew595.org,3327.0,Dublin,CA,"c,cs,govt,i,mt,se,st",yes,"Alameda County JATC, 14600 Catalina Street, San Leandro, 2nd Thursday, 6 pm",2047893,2511673,22.6,32,35,-3
+553,1205,www.ibew1205.org,569.0,Gainesville,FL,"em,govt,i,ptc,u",yes,"2nd Friday, 7 pm",1832357,2493847,36.1,39,36,3
+215,357,www.ibew357.net,4061.0,Las Vegas,NV,"c,i,mt,se",yes,"3rd Thursday, 7:30 pm",1402670,2442409,74.1,56,37,19
+94,124,www.ibew124.org,4547.0,Kansas City,MO,"ees,em,i,mar,ptc,rts,se,spa,t",yes,"2nd Wednesday, 7 pm",1980164,2436978,23.1,35,38,-3
+279,481,www.ibew481.org,4671.0,Indianapolis,IN,"c,ees,em,i,mt,ptc,rtb,rts,s,spa,ws",yes,"1st Wednesday, 7 pm",1849462,2405065,30.0,38,39,-1
+534,1141,www.ibew1141.org,1417.0,Oklahoma City,OK,"em,i,it,mow,rts,spa",yes,"1st Friday, 7 pm",1899272,2343992,23.4,36,40,-4
+177,292,www.ibew292.org,4680.0,Minneapolis,MN,"em,govt,i,rtb,rts,spa",yes,"Union Hall, Henry Miller Conference Rooms, 2nd Tuesday, 5 pm",1857392,2277751,22.6,37,41,-4
+276,477,www.ibew477.org,1369.0,San Bernardino,CA,"i,rts",yes,"2nd Friday, 6 pm",1740232,2245757,29.0,42,42,0
+76,98,www.ibew98.org,4544.0,Philadelphia,PA,"as,catv,em,i,it",yes,"4th Tuesday, 6 pm",2104714,2234345,6.2,30,43,-13
+375,683,www.ibew683.org,3909.0,Columbus,OH,"i,ptc",yes,"2nd Thursday, 6 pm",1613934,2109117,30.7,46,44,2
+102,136,www.ibew136.org,835.0,Birmingham,AL,"ees,em,i,rtb,u",yes,"3rd Thursday, 7 pm",1772089,2013161,13.6,40,45,-5
+204,342,www.ibew342.org,548.0,Winston-Salem,NC,"i,lctt,o",yes,"3rd Monday, 6:30 pm",1624636,2003754,23.3,45,46,-1
+201,332,www.ibew332.org,3484.0,San Jose,CA,"c,ees,i,st",yes,"1st Tuesday, 5:30 pm",1682585,1926325,14.5,43,47,-4
+284,494,www.ibew494.com,3135.0,Milwaukee,WI,"em,govt,i,mt,rts,spa,t",yes,"1st Thursday, 6 pm",1768397,1856989,5.0,41,48,-7
+78,100,www.ibew100.org,1748.0,Fresno,CA,"c,em,i,ptc,rts,st",yes,"2nd Tuesday, 6 pm",1419998,1828016,28.7,54,49,5
+339,611,www.ibew611.org,2836.0,Albuquerque,NM,"catv,es,govt,i,it,lctt,o,rtb,spa,t,u",yes,"3rd Saturday, 10 am",1558060,1807815,16.0,48,50,-2
+118,177,www.ibew177.org,2365.0,Jacksonville,FL,"bo,ees,govt,i,mo,o,pet",yes,"4th Thursday, 7 pm",1156016,1791176,54.9,70,51,19
+86,110,www.ibew110.org,2469.0,St. Paul,MN,"em,i,rts,spa,u",yes,"3rd Tuesday, 6 pm",1457762,1789663,22.8,53,52,1
+210,351,www.ibew351.org,1933.0,Folsom,NJ,"c,cs,i,it,lctt,mt,o,se,spa,t",yes,"109 N Black Horse Pike, Blackwood, 3rd Tuesday, 7 pm",1625582,1773172,9.1,44,53,-9
+275,474,www.ibewlocal474.com,2247.0,Memphis,TN,"em,i,lctt,o,rtb,rts,spa,u",yes,"4th Monday, 6 pm",1596349,1686584,5.7,47,54,-7
+133,212,www.local212.com,1943.0,Cincinnati,OH,i,yes,"1st & 3rd Tuesday, 7:30 pm",1505356,1634066,8.6,51,55,-4
+121,191,www.ibew191.com,2461.0,Everett,WA,"c,i,mo,rtb,st",yes,"Marysville Office, 2nd Monday, 5:30 pm",1174933,1613631,37.3,67,56,11
+328,584,www.ibew584.com,519.0,Tulsa,OK,"ees,em,es,i,rts,spa,u",yes,"1st Friday, 7 pm",1377103,1587403,15.3,57,57,0
+320,570,www.ibew570.org,1178.0,Tucson,AZ,"i,mo,spa,u",yes,"1st Tuesday, 5 pm",1230645,1569077,27.5,64,58,6
+367,666,www.ibewlocal666.com,2300.0,Richmond,VA,"i,mt,o,ptc",yes,"1390 E Nine Mile Road, Highland Springs, 2nd Friday, 7 pm",1163973,1545425,32.8,68,59,9
+283,490,www.ibew490.org,326.0,Dover,NH,"i,mt",yes,"1st Thursday, 6 pm",1347831,1541118,14.3,58,60,-2
+169,275,www.ibew275.org,535.0,Muskegon,MI,"i,ptc",yes,"3rd Tuesday, 6 pm",1309973,1508604,15.2,59,61,-2
+63,76,www.ibew76.org,1122.0,Tacoma,WA,"c,i,rts,st",yes,"Tacoma: Union Hall, 1st Tuesday, 6 pm; Grays Harbor/Pacific: 624 K Street, Hoquiam, 1st Wednesday, 6 pm; Lewis: 217 E Main Street, Centralia, 2nd Wednesday, 6 pm; Thurston/Mason: 906 Columbia Street SW, Olympia, 3rd Wednesday, 6 pm",1114358,1502901,34.9,74,62,12
+219,363,www.ibewlu363.org,1905.0,New City,NY,"catv,em,govt,i,mt,ptc,t,u,ws",yes,"4th Tuesday, 5 pm",1294216,1457876,12.6,62,63,-1
+334,602,www.ibew602.org,2050.0,Amarillo,TX,"i,o,u",yes,"2nd Wednesday, 7:30 pm",1229706,1451558,18.0,65,64,1
+544,1186,www.ibew1186.org,2823.0,Honolulu,HI,"as,catv,ees,govt,i,mar,mt,o,ptc,rts,spa",yes,"3rd Wednesday, 6 pm",1211390,1446065,19.4,66,65,1
+65,80,www.ibew80.com,905.0,Norfolk,VA,"i,o",yes,"1st Tuesday, 7 pm",1300004,1439588,10.7,61,66,-5
+139,223,www.ibew223.org,507.0,Brockton,MA,"em,govt,i",yes,"2nd Wednesday, 6 pm",1233174,1377532,11.7,63,67,-4
+36,38,www.ibew38.org,2651.0,Cleveland,OH,i,yes,"Laborers' Hall 310, 3250 Euclid Avenue, 1st Tuesday, 4:30 pm",1495160,1349087,-9.8,52,68,-16
+171,280,www.ibew280.org,1812.0,Salem,OR,"c,ees,em,es,i,mo,mt,rts,st",yes,Various Times & Places,1014303,1335738,31.7,83,69,14
+236,400,www.ibew400.org,713.0,Asbury Park,NJ,"es,i,o",yes,"4th Wednesday, 6 pm",1126217,1313954,16.7,73,70,3
+293,508,www.ibewlocal508.org,567.0,Savannah,GA,"i,it,mo,t",yes,"2nd Thursday, 7 pm",964555,1301091,34.9,86,71,15
+116,175,www.ibew175.org,3738.0,Chattanooga,TN,"c,em,i,lctt,mt,o,u",yes,"1st & 3rd Monday, 7 pm",1060783,1293730,22.0,78,72,6
+8,8,www.ibew8.org,2161.0,Toledo,OH,"as,em,i,mar,mt,rts,s,spa",yes,"1st & 3rd Monday, 7 pm",1305237,1284776,-1.6,60,73,-13
+179,295,www.ibew295.org,429.0,Little Rock,AR,"em,i,lctt,o,rtb,rts,spa,u",yes,"1st Tuesday, 7 pm",1111922,1259461,13.3,75,74,1
+147,236,www.ibew236.org,1682.0,Albany,NY,"catv,ees,govt,i,mo,rtb,t",yes,"Albany Labor Temple, 890 Third Street, 1st Tuesday, 5 pm",1163378,1244598,7.0,69,75,-6
+105,143,www.ibewlocal143.org,503.0,Harrisburg,PA,"i,spa",yes,"1st Monday, 7:30 pm",1034584,1235992,19.5,80,76,4
+99,130,www.ibewlu130.com,1364.0,New Orleans,LA,"i,ptc,rtb,rts",yes,"2nd Thursday, 6 pm",1410723,1233922,-12.5,55,77,-22
+327,583,www.ibew583.com,578.0,El Paso,TX,"em,i,mo,o,rts,spa",yes,"2nd Wednesday, 6:30 pm",953869,1210567,26.9,87,78,9
+77,99,www.ibew99.org,1011.0,Providence,RI,"govt,i",yes,"4th Monday, 6 pm",1128521,1200597,6.4,72,79,-7
+22,22,www.ibew22.org,2457.0,Omaha,NE,"i,lpt,rts,spa",yes,"1st Thursday, 7 pm",969135,1194060,23.2,85,80,5
+207,347,www.ibewlu347.org,2238.0,Des Moines,IA,"em,i,mt,rtb,rts,spa",yes,"2nd Thursday, 5 pm",932867,1172795,25.7,90,81,9
+182,302,www.ibewlu302.com,1250.0,Martinez,CA,"i,rts,spa",yes,"4th Wednesday, 6 pm",948816,1172607,23.6,89,82,7
+282,488,www.ibewlocal488.org,436.0,Bridgeport,CT,"i,mt",yes,"3rd Monday, 6 pm",1075086,1166805,8.5,76,83,-7
+191,313,www.ibew313.org,756.0,Wilmington,DE,"i,spa",yes,"1st Wednesday, 8 pm",869551,1158222,33.2,95,84,11
+33,35,www.ibewlocal35.org,552.0,Hartford,CT,i,yes,"4th Wednesday, 7 pm",1070813,1147967,7.2,77,85,-8
+382,700,www.ibew700.com,457.0,Ft. Smith,AR,"em,i,o,ptc,spa",yes,"1st Tuesday, 5:30 pm",794424,1122196,41.3,109,86,23
+413,760,www.ibew760.org,3001.0,Knoxville,TN,"i,lctt,o,rts,spa,u",yes,"4th Monday, 6 pm",858779,1117408,30.1,97,87,10
+62,73,www.ibew73.org,756.0,Spokane,WA,"c,em,i",yes,"2nd Monday, 6 pm",823215,1104876,34.2,103,88,15
+67,82,www.ibew82.org,1120.0,Dayton,OH,"em,i,mt,rtb",yes,"1st Monday, 5 pm",1021196,1084052,6.2,82,89,-7
+278,480,www.ibew480.org,547.0,Jackson,MS,"em,i,mt",yes,"2nd Thursday, 6 pm",1144245,1074199,-6.1,71,90,-19
+315,558,www.ibew558.org,2212.0,Sheffield,AL,"catv,em,i,lctt,mt,o,rtb,rts,spa,u",yes,"2nd Monday, 7:30 pm",834378,1069438,28.2,100,91,9
+403,743,www.ibewlocal743.org,517.0,Reading,PA,"em,govt,i",yes,"4th Wednesday, 7 pm",889403,1069018,20.2,93,92,1
+312,551,www.ibewlocal551.org,702.0,Santa Rosa,CA,"c,i,st",yes,"2nd Thursday, 6 pm",1004502,1058103,5.3,84,93,-9
+41,43,www.ibew43.org,1340.0,Syracuse,NY,"em,i,rts",yes,"Training Center, 1st Tuesday, 6 pm",1058186,1045550,-1.2,79,94,-15
+117,176,www.ibewlocal176.org,1262.0,Joliet,IL,"es,i,rts,spa",yes,"2nd Thursday, 7 pm",826675,1039167,25.7,102,95,7
+39,41,www.ibewlocal41.com,1268.0,Buffalo,NY,"em,es,govt,i,se,spa",yes,"3rd Tuesday, 7 pm",1031402,1025429,-0.6,81,96,-15
+149,238,www.ibew238.org,218.0,Asheville,NC,"i,lctt,mo,o,u",yes,"3rd Saturday, 10 am",821316,994573,21.1,105,97,8
+237,401,www.ibewlocal401.org,1088.0,Reno,NV,"c,em,i,ptc,rts,st",yes,"2nd Thursday, 7 pm",696249,971998,39.6,123,98,25
+71,90,www.ibewlocal90.org,594.0,New Haven,CT,i,yes,"1st Tuesday, 6 pm",906639,966269,6.6,91,99,-8
+176,291,www.ibew291.org,1848.0,Boise,ID,"c,i,mo,o,rtb,rts",yes,"1st Thursday, 6 pm",567267,964897,70.1,150,100,50
+224,375,www.ibew375.org,862.0,Allentown,PA,"catv,ees,et,govt,i,mo",no,"1st Wednesday, 7 pm",811455,961463,18.5,108,101,7
+69,86,www.ibewlu86.org,1251.0,Rochester,NY,"ees,em,es,i,rts,spa",no,"2nd Wednesday, 5:30 pm",950337,961429,1.2,88,102,-14
+74,96,www.ibewlocal96.org,374.0,Worcester,MA,i,yes,"1st Monday, 6 pm",816723,955883,17.0,106,103,3
+14,14,www.ibew14.net,1149.0,Eau Claire,WI,i,yes,"2nd Monday, 6:30 pm",833498,945482,13.4,101,104,-3
+501,995,www.lu995.com,882.0,Baton Rouge,LA,"i,lctt,o,rts,spa",yes,"1st Tuesday, 7 pm",793673,943471,18.9,110,105,5
+383,701,www.ibew701.org,1398.0,Lisle,IL,"es,govt,i,mt,spa",yes,"3rd Tuesday, 6 pm",904161,937142,3.6,92,106,-14
+163,265,www.ibew265.org,626.0,Lincoln,NE,"i,mt,rts,spa",yes,"1st Wednesday, 6 pm",865639,932878,7.8,96,107,-11
+376,684,www.ibewlu684.org,560.0,Modesto,CA,"c,i,rts,st",yes,"2nd Tuesday, 5:30 pm",729182,924687,26.8,118,108,10
+250,428,www.ibew428.org,1220.0,Bakersfield,CA,"govt,i,rts,spa",yes,"2nd Thursday, 7:30 pm",661645,922529,39.4,130,109,21
+299,527,www.ibew527.com,326.0,Galveston,TX,"i,rts,spa",yes,"2nd Wednesday, 7 pm",615320,917088,49.0,138,110,28
+258,443,www.ibew443.org,743.0,Montgomery,AL,"i,lctt,mo,o",yes,"2nd Saturday, 6 pm",857772,914496,6.6,98,111,-13
+267,456,www.ibew456.org,928.0,New Brunswick,NJ,"i,o",yes,"Joyce Kilmer American Legion Post 25, 4 John F. Kennedy Drive, Milltown, 4th Tuesday, 7 pm",765036,907992,18.7,113,112,1
+186,306,www.ibew306.org,1205.0,Akron,OH,i,yes,"3rd Friday, 5 pm",856315,893920,4.4,99,113,-14
+167,271,www.ibew271.com,1017.0,Wichita,KS,"i,rts,spa",yes,"1st Monday, 5 pm",815333,884958,8.5,107,114,-7
+88,112,www.ibewlu112.com,1560.0,Kennewick,WA,"c,i,st",yes,"Tri-City: 114 N Edison Street, 1st Thursday, 7 pm;  Hermiston: 245 N First Street, 2nd Thursday, 7 pm; Yakima: 507 S Third Street, 3rd Thursday, 7 pm",671394,870844,29.7,126,115,11
+89,113,www.ibew113.com,1051.0,Colorado Springs,CO,"ees,em,i,mo,o,ptc",yes,"1st & 3rd Wednesday, 6 pm",588208,839722,42.8,146,116,30
+7,7,www.ibewlocal7.com,1006.0,Springfield,MA,"i,mt,tm",yes,"1st Monday, 6 pm",822477,837959,1.9,104,117,-13
+481,952,www.ibew952.org,631.0,Ventura,CA,i,yes,"2nd Tuesday, 6:30 pm",753197,835427,10.9,114,118,-4
+6,6,www.ibew6.org,2532.0,San Francisco,CA,"c,i,st,u",yes,"2nd Wednesday, 4:30 pm",776733,827526,6.5,112,119,-7
+110,153,www.ibew153.com,2048.0,South Bend,IN,"em,i,mt,rtb,rts,se,spa,st",yes,"4th Thursday, 7 pm",781092,812566,4.0,111,120,-9
+317,567,www.ibew567.com,360.0,Portland,ME,"i,mt",yes,"4th Wednesday, 6 pm",731419,811094,10.9,117,121,-4
+264,453,www.ibew453.com,533.0,Springfield,MO,"govt,i,rtb,rts,spa",yes,"2nd Thursday, 6:30 pm",638843,809153,26.7,133,122,11
+112,159,www.ibew159.org,1590.0,Madison,WI,i,yes,"2nd Thursday, 5:30 pm",615958,796857,29.4,137,123,14
+475,934,www.ibew934.com,369.0,Kingsport,TN,"catv,i,o,u",yes,"2nd Saturday, 8 pm",735828,791065,7.5,115,124,-9
+291,505,www.ibew505.org,655.0,Mobile,AL,i,yes,"1st Tuesday, 6 pm",678997,789955,16.3,125,125,0
+452,861,www.ibewlu861.org,715.0,Lake Charles,LA,i,yes,"1st Monday, 7 pm",715549,787778,10.1,119,126,-7
+574,1316,www.ibew1316.com,400.0,Macon,GA,"i,o",yes,"1st Monday, 6:30 pm",670434,774118,15.5,127,127,0
+274,466,www.ibew466.org,418.0,Charleston,WV,"em,es,i,rts",yes,"1st Tuesday, 6:30 pm",876495,773143,-11.8,94,128,-34
+165,269,www.ibew269.com,1219.0,Trenton,NJ,"i,o",yes,"1st Monday, 8 pm",690725,771122,11.6,124,129,-5
+146,234,www.ibew234.org,427.0,Castroville,CA,"i,mt",yes,"2nd Wednesday, 6:30 pm",710598,767816,8.1,120,130,-10
+205,343,www.ibewlocal343.org,1050.0,Le Sueur,MN,"i,spa,st",yes,"Eagles, Owatonna, 2nd Wednesday, 6 pm",707905,765174,8.1,121,131,-10
+141,226,www.ibew226.com,666.0,Topeka,KS,"em,i,it,rtb,rts,spa",yes,"3rd Wednesday, 7 pm",732830,759467,3.6,116,132,-16
+372,676,www.ibewlocal676.com,423.0,Pensacola,FL,"i,o,t",yes,"1st Thursday, 6:30 pm",582651,759411,30.3,147,133,14
+61,72,www.ibewlu72.com,423.0,Waco,TX,"i,u",yes,"2nd Wednesday, 7:30 pm",577293,743337,28.8,148,134,14
+343,617,www.ibew617.com,1651.0,San Mateo,CA,"c,i,mo,st",yes,"1st Tuesday, 5 pm",707161,742893,5.1,122,135,-13
+277,479,www.ibew479.com,946.0,Beaumont,TX,"i,it",yes,"1st Tuesday, 7 pm",669918,733062,9.4,128,136,-8
+636,1579,www.ibew1579.org,960.0,Augusta,GA,"i,o",yes,"3rd Monday, 7:30 pm",603371,731527,21.2,142,137,5
+596,1426,www.ibew1426.org,943.0,Grand Forks,ND,"govt,i,lctt,o,rtb,spa,u",yes,"Grand Forks: 1st Tuesday, 7 pm; Fargo: 2nd Tuesday, 7 pm",629284,719187,14.3,134,138,-4
+108,150,www.ibew150.org,855.0,Waukegan,IL,"es,i,rts,spa",no,"Gurnee American Legion Hall,  Route 21 & 132, 1st Wednesday, 6 pm",644356,718604,11.5,131,139,-8
+467,903,www.lu903.com,798.0,Gulfport,MS,"ees,i,lctt,o",yes,"2nd Tuesday, 7 pm",622043,717020,15.3,135,140,-5
+628,1547,www.ibew1547.org,4233.0,Anchorage,AK,"c,em,i,lctt,o,ptc,t,u",yes,"1st Wednesday, 7 pm",609067,712999,17.1,140,141,-1
+170,278,www.ibew278.com,731.0,Corpus Christi,TX,"em,govt,i,o",yes,"3rd Tuesday, 6:30 pm",665105,709797,6.7,129,142,-13
+185,305,www.ibew305.org,744.0,Fort Wayne,IN,"em,i,spa",yes,"1st Monday, 6 pm",616539,704631,14.3,136,143,-7
+262,449,www.ibewlocal449.org,791.0,Pocatello,ID,"catv,em,i,lctt,mt,o,rtb,rts,spa,u",yes,"1st Thursday, 7:30 pm",479435,672298,40.2,165,144,21
+249,426,www.ibew426.com,1048.0,Sioux Falls,SD,"i,lctt,o,spa,t,u",yes,"3rd Thursday, 7 pm",550228,670780,21.9,152,145,7
+157,252,www.ibew252.org,990.0,Ann Arbor,MI,"ees,i,rts,spa",yes,"2nd Wednesday, 6 pm",588975,657195,11.6,145,146,-1
+180,300,www.ibewlocal300.org,969.0,Montpelier,VT,"govt,i,lctt,mo,u",yes,"1st Monday, 4:30 pm",608827,648493,6.5,141,147,-6
+220,364,www.ibew364.org,672.0,Rockford,IL,"catv,ees,em,es,i,mt,rts,spa",yes,"4th Thursday, 7 pm",591099,607246,2.7,144,148,-4
+119,180,www.ibewlu180.org,635.0,Vallejo,CA,"c,i,st",yes,"2nd Thursday, 5:30 pm",518821,587828,13.3,153,149,4
+160,257,www.ibew257.org,736.0,Jefferson City,MO,"em,i,rtb,rts,spa,t",yes,"2nd Wednesday, 6 pm",501917,580909,15.7,158,150,8
+193,317,www.ibew317.net,1181.0,Huntington,WV,"i,lctt,o,rts,t,u",yes,"1st & 3rd Tuesday, 7 pm",642635,579997,-9.7,132,151,-19
+91,117,www.ibew117.com,393.0,Elgin,IL,"em,i,rts",yes,"1st Wednesday, 7 pm",475492,576184,21.2,168,152,16
+306,540,www.ibew540.org,777.0,Canton,OH,i,yes,"3rd Tuesday, 7 pm",574966,576010,0.2,149,153,-4
+32,34,www.ibew34.org,1629.0,Peoria,IL,"em,i,mt,rts,spa",yes,"2nd Wednesday, 6 pm",612135,571109,-6.7,139,154,-15
+188,309,www.ibew309.com,1258.0,Collinsville,IL,"i,lctt,mo,mt,o,rts,spa,u",yes,"1st Monday, 7 pm",559711,559486,-0.0,151,155,-4
+479,948,www.local948.org,571.0,Flint,MI,"catv,em,i,rts,spa",yes,"2nd Monday, 6 pm",595061,558668,-6.1,143,156,-13
+363,659,www.ibew659.org,2541.0,Medford,OR,"c,catv,em,i,lctt,o,st,t,u",yes,Various Times & Places,484930,553272,14.1,163,157,6
+409,756,www.ibew756.org,431.0,Daytona Beach,FL,"es,i",yes,"2nd Wednesday, 7 pm",349973,549247,56.9,199,158,41
+187,307,www.ibew307.org,442.0,Cumberland,MD,"ees,es,i,mo,o,u",yes,"31 Thomas Street, 4th Wednesday, 8 pm",440986,543926,23.3,176,159,17
+579,1340,www.ibew1340.com,577.0,Newport News,VA,"i,o",yes,"4th Wednesday, 7 pm",510732,538237,5.4,156,160,-4
+111,158,www.ibew158.com,673.0,Green Bay,WI,"i,it,mar,mt,spa,u",yes,"2nd Tuesday, 6 pm",479205,530871,10.8,166,161,5
+16,16,www.ibewlocal16.com,1097.0,Evansville,IN,i,yes,"3rd Friday, 7 pm",504764,530567,5.1,157,162,-5
+357,648,www.ibew648.org,715.0,Hamilton,OH,"em,i,spa,u",yes,"1st Wednesday, 6 pm",411998,527572,28.1,182,163,19
+361,654,www.ibew654.com,546.0,Chester,PA,i,no,"2nd Tuesday, 5 pm",460569,519153,12.7,170,164,6
+381,697,www.ibew697.org,1539.0,Gary and Hammond,IN,"c,es,i,mt,se",yes,"3rd Monday, 6 pm",499130,517086,3.6,160,165,-5
+100,131,www.ibew131.com,552.0,Kalamazoo,MI,"i,rtb,rts,se,spa",yes,"1st Monday, 6 pm",476793,516592,8.3,167,166,1
+106,145,www.ibewlocal145.com,1215.0,Rock Island,IL,"em,i,o,rts,se,spa,u",yes,"1st Thursday, 6 pm",511177,510968,-0.0,155,167,-12
+395,725,www.ibew725.org,1195.0,Terre Haute,IN,"i,rts,spa",yes,"2nd Friday, 7:30 pm",499997,504277,0.9,159,168,-9
+325,577,www.ibewlu577.com,492.0,Appleton,WI,"em,i",yes,"Appleton Labor Temple, 3rd Monday, 5 pm",432965,497625,14.9,178,169,9
+366,665,www.ibew665.org,863.0,Lansing,MI,"i,rts,spa",no,"3rd Monday, 6:30 pm",441361,484664,9.8,175,170,5
+66,81,www.ibew81.org,554.0,Scranton,PA,i,yes,"2nd Tuesday, 7 pm",462668,483870,4.6,169,171,-2
+152,242,www.ibew242.org,559.0,Duluth,MN,"catv,em,es,i,mar,rtb,rts,spa",yes,"Duluth: 4th Wednesday, 6 pm; Brainerd: 708 Front Street, 1st Monday, 6 pm",444158,480123,8.1,173,172,1
+384,702,www.ibew702.org,4973.0,West Frankfort,IL,"as,c,catv,cs,em,es,et,govt,i,it,lctt,mo,mt,o,p,pet,ptc,rtb,rts,se,spa,st,t,u,uow,ws",yes,"1st Friday, 7:30 pm",518628,474072,-8.6,154,173,-19
+239,405,www.ibew405.org,814.0,Cedar Rapids,IA,"em,i,rtb,spa",yes,"3rd Wednesday, 6 pm",382722,473634,23.8,187,174,13
+123,194,www.ibew194.org,698.0,Shreveport,LA,"i,spa,u",yes,"1st Monday (Except September), 6 pm",483469,473229,-2.1,164,175,-11
+229,388,www.ibewlocal388.org,530.0,Stevens Point,WI,"em,i,rts,spa",yes,"1st Thursday, 7:30 pm",445615,468329,5.1,172,176,-4
+373,681,www.ibew681.org,727.0,Wichita Falls,TX,"i,o,spa",yes,"2nd Monday, 6 pm",448638,462289,3.0,171,177,-6
+566,1253,www.ibew1253.org,316.0,Augusta,ME,"i,mo",yes,"Last Tuesday, 6 pm",431459,461832,7.0,179,178,1
+270,461,www.ibew461.org,345.0,Aurora,IL,"i,rts,spa",yes,"1st Tuesday, 6 pm",301464,460836,52.9,216,179,37
+473,917,www.ibew917.net,365.0,Meridian,MS,i,yes,"2nd Tuesday & 4th Thursday (Except November & December), 6 pm",495007,460593,-7.0,161,180,-19
+242,413,www.ibew413.org,364.0,Santa Barbara,CA,"i,mo",yes,"3rd Thursday, 6 pm",399347,444500,11.3,184,181,3
+388,712,www.ibew712.org,616.0,Beaver,PA,"c,i",yes,"2nd Wednesday, 7 pm",486714,440002,-9.6,162,182,-20
+142,229,www.ibew229.org,352.0,York,PA,"em,i",yes,"3rd Thursday, 7 pm",358518,437782,22.1,195,183,12
+98,129,www.ibew129.org,534.0,Lorain,OH,"i,mt,spa",yes,"American Slovak Club, 2915 Broadway, 2nd Monday, 6 pm",404396,434482,7.4,183,184,-1
+144,231,www.ibew231.com,386.0,Sioux City,IA,"i,rtb,spa,u",yes,"1st Thursday, 7 pm",431197,433851,0.6,180,185,-5
+323,575,www.ibew575.org,538.0,Portsmouth,OH,i,yes,"1st Friday, 7:30 pm",434848,432246,-0.6,177,186,-9
+527,1105,www.ibewlocal1105.org,2943.0,Newark,OH,i,yes,"1st Friday, 6:30 pm",385225,429153,11.4,186,187,-1
+303,532,www.ibew532.com,719.0,Billings,MT,"i,lctt,mt,o,ptc,spa,t,u",yes,"2nd Wednesday, 7 pm",321429,427383,33.0,205,188,17
+379,692,www.ibew692.org,578.0,Bay City,MI,"i,mt,spa",yes,"1st Monday, 6 pm",442299,425577,-3.8,174,189,-15
+465,890,www.ibew890.org,803.0,Janesville,WI,i,yes,"1st Thursday, 6 pm",382237,425061,11.2,188,190,-2
+333,601,www.ibew601.org,829.0,Champaign-Urbana,IL,"i,rtb",yes,"1st Tuesday, 7 pm",374023,411138,9.9,191,191,0
+469,910,www.ibew910.org,488.0,Watertown,NY,"ees,i,ptc,t",yes,"1st Tuesday, 6 pm",420492,407609,-3.1,181,192,-11
+332,596,www.ibew596.com,392.0,Clarksburg,WV,"i,o,u",yes,"2nd Thursday, 7 pm",368732,389782,5.7,192,193,-1
+286,498,www.ibewlocal498.com,240.0,Traverse City,MI,"c,catv,em,i,spa",yes,"2nd Monday, 7 pm",352521,387942,10.0,198,194,4
+389,714,www.local714.com,881.0,Minot,ND,"c,i,lctt,o,ptc,rtb,t,u",yes,"Minot: Last Tuesday, 7 pm; Bismarck: Last Wednesday, 7 pm; Williston: Last Thursday, 7 pm",295574,383746,29.8,217,195,22
+377,688,www.ibew688.org,326.0,Mansfield,OH,"em,i,t,u",yes,"2nd Tuesday, 7 pm",380593,379940,-0.2,189,196,-7
+73,95,www.ibewlocal95.com,297.0,Joplin,MO,"em,i,lctt,spa,u",yes,"3rd Wednesday, 6 pm",333902,372183,11.5,200,197,3
+12,12,www.ibew12.org,308.0,Pueblo,CO,"i,o,se",yes,"1st Wednesday, 6:30 pm",333051,367985,10.5,201,198,3
+174,288,www.ibew288.org,224.0,Waterloo,IA,"i,ptc,rts,spa,u",yes,"2nd Monday, 6 pm",378959,366072,-3.4,190,199,-9
+438,812,www.ibew812.com,125.0,Williamsport,PA,"catv,i",yes,"1st Wednesday, 7 pm",360230,361247,0.3,194,200,-6
+197,322,www.ibew322.org,790.0,Casper,WY,"govt,i,it,lctt,o,ptc,u",yes,"Casper: 2nd Tuesday, 6:30 pm; Jackson: 3rd Wednesday, 6 pm",310180,360512,16.2,213,201,12
+418,768,www.ibew768.com,761.0,Kalispell,MT,"c,i,lctt,o,t,u",yes,2nd Tuesday,265798,359937,35.4,220,202,18
+364,661,www.ibew661.com,298.0,Hutchinson,KS,"i,rts,spa",yes,"3rd Tuesday, 6:30 pm",386658,357174,-7.6,185,203,-18
+302,531,www.ibewlocal531.org,916.0,LaPorte,IN,i,yes,"1st Friday, 7 pm",324258,356479,9.9,204,204,0
+30,32,www.ibew32.com,324.0,Lima,OH,"i,u",yes,"3rd Monday, 6:30 pm",364126,354529,-2.6,193,205,-12
+145,233,www.ibew233.org,342.0,Helena,MT,"as,em,es,govt,i,mt,ptc,spa",yes,"110 N Warren Street, Helena, 2nd Tuesday, 6 pm; 156 W Granite Street, Butte, 2nd Wednesday, 6 pm; 1112 Seventh Street S, Great Falls, 2nd Thursday, 6 pm",314968,349913,11.1,210,206,4
+616,1516,www.ibew1516.com,439.0,Jonesboro,AR,"i,o",yes,"1st Friday, 7 pm",320420,345780,7.9,206,207,-1
+261,446,www.ibew446.com,645.0,Monroe,LA,i,yes,"1st Friday, 6 pm",353865,342544,-3.2,197,208,-11
+450,855,www.ibew855.com,244.0,Muncie,IN,"c,i,spa",yes,"1st Tuesday, 6:30 pm",356717,338114,-5.2,196,209,-13
+114,163,www.ibew163.org,455.0,Wilkes-Barre,PA,"ees,i",yes,"2nd Friday, 7 pm",314766,323408,2.7,211,210,1
+370,673,www.ibew673.org,335.0,Painesville,OH,"i,rts,spa,t,u",yes,"1st Wednesday, 7 pm",318783,319421,0.2,208,211,-3
+51,56,www.ibewlocal56.org,295.0,Erie,PA,"ees,em,i",yes,"2nd Wednesday, 6:30 pm",329652,311724,-5.4,202,212,-10
+440,816,www.ibewlocal816.org,1123.0,Paducah,KY,"i,o,spa,t,u",yes,"1st Friday, 7 pm",302732,308124,1.8,215,213,2
+198,325,www.ibew325.net,548.0,Binghamton,NY,"i,rts",yes,"3rd Monday, 5 pm",317274,304585,-4.0,209,214,-5
+369,668,www.ibew668.org,810.0,Lafayette,IN,"i,rts,spa",yes,"2nd Monday, 5:30 pm",265249,303646,14.5,221,215,6
+122,193,www.ibew193.com,761.0,Springfield,IL,"i,lctt,o,rts,spa,u",yes,"3rd Tuesday, 5:30 pm",310320,302976,-2.4,212,216,-4
+338,607,www.ibew607.com,195.0,Shamokin,PA,i,yes,"2nd Wednesday, 7 pm",306672,300915,-1.9,214,217,-3
+314,557,www.ibew557.org,270.0,Saginaw,MI,"i,mt,rts,spa",yes,"1st Tuesday, 5:30 pm",325559,297810,-8.5,203,218,-15
+107,146,www.ibew146.com,765.0,Decatur,IL,"ei,i,rts",yes,"2nd Tuesday, 6 pm",319823,291972,-8.7,207,219,-12
+353,639,www.ibew639.org,249.0,San Luis Obispo,CA,"i,rts",yes,"3rd Thursday, 6 pm",246681,281843,14.3,226,220,6
+460,873,www.ibew873.com,547.0,Kokomo,IN,"em,i",yes,"4th Monday, 7 pm",279852,265149,-5.3,219,221,-2
+565,1250,www.ibewlocal1250.org,196.0,Rapid City,SD,"c,em,i,o,t,u",yes,"1st Wednesday, 7 pm",222419,264483,18.9,230,222,8
+55,64,www.ibew64.org,457.0,Youngstown,OH,"i,rtb",yes,"1st Tuesday, 6 pm",293634,258241,-12.1,218,223,-5
+166,270,www.ibewlocal270.org,825.0,Oak Ridge,TN,"i,o",yes,"4th Monday, 4:30 pm",216949,256344,18.2,231,224,7
+260,445,www.ibew445.com,280.0,Battle Creek,MI,"catv,i,spa",yes,"2nd Monday, 5 pm",243246,244833,0.7,227,225,2
+13,13,www.ibewlocal13.com,336.0,Burlington,IA,"em,i",yes,"3rd Wednesday, 7 pm",257646,242649,-5.8,222,226,-4
+309,545,www.ibewlocal545.net,446.0,St. Joseph,MO,i,yes,"1st Thursday, 7 pm",247220,240626,-2.7,225,227,-2
+148,237,www.ibew237.com,330.0,Niagara Falls,NY,i,yes,"Lewiston Fire Company #2, 1705 Saunders Settlement Road, 3rd Thursday, 6 pm",252974,239334,-5.4,224,228,-4
+446,840,www.ibew840.org,248.0,Geneva,NY,i,yes,"1st Wednesday, 5 pm",236248,237864,0.7,229,229,0
+321,573,www.ibew573.org,318.0,Warren,OH,"as,i",yes,"2nd Friday, 7:30 pm",253018,233214,-7.8,223,230,-7
+243,415,www.ibew415.org,264.0,Cheyenne,WY,"c,govt,i",yes,"1st Wednesday, 6 pm",183602,227106,23.7,236,231,5
+385,704,www.ibew704.com,253.0,Dubuque,IA,"catv,em,i,ptc",yes,"Dubuque Labor Temple, 3rd Thursday, 4:30 pm",212734,220905,3.8,232,232,0
+103,139,www.ibew139.com,315.0,Elmira,NY,"i,u",yes,"4th Monday, 7 pm",237210,217494,-8.3,228,233,-5
+252,430,www.ibewlu430.org,300.0,Racine,WI,i,yes,"1st Thursday, 6 pm",185054,194678,5.2,235,234,1
+83,106,www.ibew106.org,194.0,Jamestown,NY,"catv,govt,i,spa",yes,"4th Tuesday, 7:30 pm",210094,188310,-10.4,233,235,-2
+492,972,www.ibew972.com,262.0,Marietta,OH,i,yes,"1st Wednesday, 7 pm",195242,186402,-4.5,234,236,-2
+178,294,www.ibew294-neca.org,257.0,Hibbing,MN,"ees,i,rts,spa,u",yes,"Bemidji, 3rd Thursday Quarterly, 7 pm; Nashwauk Hall, 4th Thursday, 7:30 pm",163278,169713,3.9,238,237,1
+97,127,www.ibew127.org,277.0,Kenosha,WI,"i,rts,spa",yes,"2nd Thursday, 5 pm",149577,168754,12.8,239,238,1
+104,141,www.ibew141.org,367.0,Wheeling,WV,"ees,i,o,u",yes,"1st Friday, 7 pm",183588,159544,-13.1,237,239,-2
+489,968,www.ibew968.com,240.0,Parkersburg,WV,"catv,i,mt,o,rts,spa,t",yes,"3rd Thursday, 7 pm",149308,138770,-7.1,240,240,0
+151,241,www.ibewlocal241.com,268.0,Ithaca,NY,i,yes,"Fraternal Order of Eagles Club, 161 Cecil A. Malone Drive, 1st Wednesday, 5:30 pm",118997,124303,4.5,243,241,2
+358,649,www.ibew649.org,468.0,Alton,IL,"i,lctt,o,rts,spa,u",yes,"2nd Tuesday, 6 pm",121646,117891,-3.1,242,242,0
+126,197,www.ibew197.org,408.0,Bloomington,IL,"em,i",yes,"4th Wednesday, 6 pm",101725,114369,12.4,244,243,1
+305,538,www.ibew538.org,235.0,Danville,IL,"em,i,ptc",yes,"3rd Tuesday, 6 pm",128647,113209,-12.0,241,244,-3
+87,111,www.ibew111.org,4541.0,Denver,CO,"em,govt,i,lctt,mt,o,ptc,rtb,spa,u",yes,Various Times & Places,0,0,,245,245,0

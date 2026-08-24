@@ -1,0 +1,182 @@
+lu_number,match_type,ps_id,prog_name,active_apprentices,new_apprentices,exiters,total_apprentices_served,period_start,period_end
+3,lu_number_match,135920,Jac Ibew Electrical Lu #3,1246,315,228,1474,2024-10-01,2025-09-30
+134,city_fuzzy_match,87948,ECWA-ECEA JATC,8,5,0,8,2024-10-01,2025-09-30
+48,city_fuzzy_match,113170,NECA-IBEW ELECTRICAL JATC,805,34,158,963,2024-10-01,2025-09-30
+46,city_fuzzy_match,118671,Greater Puget Sound Electrical Workers Apprenticeship Committee,16,6,0,16,2024-10-01,2025-09-30
+369,city_fuzzy_match,42884,LOUISVILLE ELECTRICAL JATC (5YR ),671,155,152,823,2024-10-01,2025-09-30
+20,city_fuzzy_match,49690,North Texas Electrical JATC,621,284,148,769,2024-10-01,2025-09-30
+1,lu_number_match,55341,IBEW/NECA LU 1 Electricians JATC,678,101,166,844,2024-10-01,2025-09-30
+702,lu_number_match,64386,NECA-IBEW #702 J.A.T.C.,107,36,11,118,2024-10-01,2025-09-30
+481,lu_number_match,42561,Electrical Training Institute (LU 481),966,374,265,1231,2024-10-01,2025-09-30
+124,lu_number_match,15613,IBEW LU 124 / NECA KC ELECTRICAL JATC,713,213,93,806,2024-10-01,2025-09-30
+98,city_fuzzy_match,49224,Apprentice Training for the Electrical Industry,422,100,76,498,2024-10-01,2025-09-30
+111,city_fuzzy_match,2299,Denver Electrical JATC-Inside,336,146,147,483,2024-10-01,2025-09-30
+640,city_fuzzy_match,2188,Phoenix Electrical JATC,1102,376,148,1250,2024-10-01,2025-09-30
+1547,city_fuzzy_match,40046,Alaska Joint Electrical Apprenticeship and Training Trust,378,96,93,471,2024-10-01,2025-09-30
+357,city_fuzzy_match,26685,Electrical JATC of Southern Nevada - WIREMAN,439,43,100,539,2024-10-01,2025-09-30
+175,city_fuzzy_match,59754,CHATTANOOGA ELECTRICAL JATC,471,127,102,573,2024-10-01,2025-09-30
+569,city_fuzzy_match,4495,San Diego & Imperial County Electrical JATC,683,89,173,856,2024-10-01,2025-09-30
+716,city_fuzzy_match,52171,Houston Electrical JATC,615,231,128,743,2024-10-01,2025-09-30
+5,lu_number_match,55654,(PITTS) ELECTRICIANS LOCAL 5 JATC,630,204,81,711,2024-10-01,2025-09-30
+60,city_fuzzy_match,49454,SOUTH TEXAS ELECTRICAL JATC ,686,315,183,869,2024-10-01,2025-09-30
+24,lu_number_match,762,Baltimore JATC for the Electrical Industry (IBEW 24),161,10,69,230,2024-10-01,2025-09-30
+102,lu_number_match,22019,"International Brotherhood of Electrical Workers (IBEW), Local 102, JATC",385,86,79,464,2024-10-01,2025-09-30
+611,city_fuzzy_match,83836,JATC FOR THE ELECTRICAL INDUSTRY,335,17,11,346,2024-10-01,2025-09-30
+340,city_fuzzy_match,52794,Sacramento Electrical JATC,467,128,99,566,2024-10-01,2025-09-30
+1186,city_fuzzy_match,63713,HAWAII ELECTRICIANS JOINT APPRENTICESHIP COMMITTEE,412,60,75,487,2024-10-01,2025-09-30
+164,city_fuzzy_match,21746,"International Brotherhood of Electrical Workers (IBEW), Local Union 164, JATC",273,73,34,307,2024-10-01,2025-09-30
+6,city_fuzzy_match,40542,SAN FRANCISCO JATC FOR THE ELECTRICAL INDUSTRY,100,27,91,191,2024-10-01,2025-09-30
+22,city_fuzzy_match,46545,OMAHA ELECTRICAL JEATC,420,108,106,526,2024-10-01,2025-09-30
+177,city_fuzzy_match,42820,Jacksonville Electrical JATC,423,211,135,558,2024-10-01,2025-09-30
+429,city_fuzzy_match,56396,Nashville Electrical JATC,261,86,158,419,2024-10-01,2025-09-30
+666,lu_number_match,76436,"JATC RICHMOND ELECTRICIANS, LOCAL 666",375,179,81,456,2024-10-01,2025-09-30
+474,city_fuzzy_match,52512,Memphis Electrical JATC,428,104,106,534,2024-10-01,2025-09-30
+558,city_fuzzy_match,1362,North Alabama Electrical Training Alliance,295,94,92,387,2024-10-01,2025-09-30
+8,city_fuzzy_match,52322,"ELECTRICIANS JATC, TOLEDO",476,201,88,564,2024-10-01,2025-09-30
+68,city_fuzzy_match,2299,Denver Electrical JATC-Inside,336,146,147,483,2024-10-01,2025-09-30
+520,city_fuzzy_match,48656,AUSTIN ELECTRICAL JATC,578,289,207,785,2024-10-01,2025-09-30
+602,city_fuzzy_match,35962,West Texas Electrical JATC,167,76,55,222,2024-10-01,2025-09-30
+153,city_fuzzy_match,52495,South Bend & Vicinity Electrical J.A.T.C.,325,186,35,360,2024-10-01,2025-09-30
+212,city_fuzzy_match,26455,"ELECTRICIANS JATC, CINCINNATI AREA",494,145,92,586,2024-10-01,2025-09-30
+351,lu_number_match,21325,"International Brotherhood of Electrical Workers (IBEW), Local 351, JATC",257,80,57,314,2024-10-01,2025-09-30
+363,city_fuzzy_match,135889,Ibew Local Union 363,236,46,0,236,2024-10-01,2025-09-30
+291,city_fuzzy_match,43009,Southwestern Idaho Electrical JATC,303,146,58,361,2024-10-01,2025-09-30
+280,city_fuzzy_match,113388,CENTRAL ELECTRICAL JATC,327,104,87,414,2024-10-01,2025-09-30
+100,city_fuzzy_match,36218,"Fresno, Madera, Kings & Tulare County Electrical JATC",234,83,46,280,2024-10-01,2025-09-30
+236,lu_number_match,136365,Tri-City Electricians Jatc Lu #236,234,77,46,280,2024-10-01,2025-09-30
+34,lu_number_match,56699,Electricians Local #34 JATC,202,53,29,231,2024-10-01,2025-09-30
+159,city_fuzzy_match,84184,Racine Area Electrical JAC,54,23,9,63,2024-10-01,2025-09-30
+112,city_fuzzy_match,118647,Columbia Basin Electrical Training Alliance Committee,402,91,45,447,2024-10-01,2025-09-30
+349,city_fuzzy_match,3081,MIAMI ELECTRICAL JOINT APPRENTICESHIP AND TRAINING COMMITTEE,228,74,62,290,2024-10-01,2025-09-30
+697,city_fuzzy_match,8747,LAKE COUNTY ELECTRICIANS J.A.T.C.,252,64,53,305,2024-10-01,2025-09-30
+1141,city_fuzzy_match,29009,PONCA CITY ELECTRICAL JATC,18,7,6,24,2024-10-01,2025-09-30
+379,city_fuzzy_match,142900,Charlotte Electrical JATC,350,279,67,417,2024-10-01,2025-09-30
+701,city_fuzzy_match,51976,DuPage County 701 JATC,211,56,24,235,2024-10-01,2025-09-30
+915,city_fuzzy_match,59119,Tampa Area Electrical JATC,305,134,75,380,2024-10-01,2025-09-30
+477,city_fuzzy_match,44115,Riverside Area Electrical JATC,248,49,127,375,2024-10-01,2025-09-30
+130,city_fuzzy_match,58474,New Orleans Electrical JATC,154,31,45,199,2024-10-01,2025-09-30
+43,city_fuzzy_match,135673,Central New York Electrical Training Alliance,256,53,36,292,2024-10-01,2025-09-30
+41,lu_number_match,135769,Electricians Jac Buffalo Lu #41,199,56,27,226,2024-10-01,2025-09-30
+176,lu_number_match,52605,IBEW-NECA LOCAL #176 JATC ,234,59,29,263,2024-10-01,2025-09-30
+309,city_fuzzy_match,5154,Southwestern Illinois JATC - Electricians,103,23,0,103,2024-10-01,2025-09-30
+86,city_fuzzy_match,136218,Rochester Electrical Jatc #86,187,47,34,221,2024-10-01,2025-09-30
+302,city_fuzzy_match,40909,Contra Costa Co. Electrical JATC,104,43,11,115,2024-10-01,2025-09-30
+269,lu_number_match,51780,"International Brotherhood of Electrical Workers (IBEW), Local 269",236,73,33,269,2024-10-01,2025-09-30
+145,lu_number_match,44162,QUAD CITY ELECTRICAL JATC LU 145,225,45,28,253,2024-10-01,2025-09-30
+306,city_fuzzy_match,26595,"ELECTRICIANS JATC, AKRON",156,42,16,172,2024-10-01,2025-09-30
+725,city_fuzzy_match,56091,Terre Haute Electrical JATC,229,53,26,255,2024-10-01,2025-09-30
+317,city_fuzzy_match,34440,HUNTINGTON ELECTRICAL JATC,78,21,19,97,2024-10-01,2025-09-30
+570,city_fuzzy_match,59899,Tucson Electrical JATC,209,80,53,262,2024-10-01,2025-09-30
+816,city_fuzzy_match,42552,PADUCAH ELECTRICIANS JATC (5YRS) ,123,22,18,141,2024-10-01,2025-09-30
+76,city_fuzzy_match,118716,Southwest Washington Electrical Joint Apprenticeship and Training Committee,249,67,63,312,2024-10-01,2025-09-30
+82,city_fuzzy_match,51609,"ELECTRICIANS JATC, DAYTON",221,56,37,258,2024-10-01,2025-09-30
+16,lu_number_match,4318,Evansville Electrical JATC (LU16),231,66,74,305,2024-10-01,2025-09-30
+401,lu_number_match,25334,ELECTRICAL LOCAL #401,386,227,47,433,2024-10-01,2025-09-30
+113,city_fuzzy_match,44766,Colorado Springs Electrical JATC - Inside Program,84,18,4,88,2024-10-01,2025-09-30
+343,city_fuzzy_match,121033,SOUTH CENTRAL MN ELECTRICAL JATC,214,64,34,248,2024-10-01,2025-09-30
+271,city_fuzzy_match,74322,Wichita Electrical Joint Apprenticeship Training Committee,170,58,36,206,2024-10-01,2025-09-30
+99,lu_number_match,69932,IBEW 99 JATC,199,46,37,236,2024-10-01,2025-09-30
+300,lu_number_match,129599,IBEW Local 300,51,17,10,61,2024-10-01,2025-09-30
+1579,city_fuzzy_match,3983,CSRA ELECTRICAL JATC,257,124,69,326,2024-10-01,2025-09-30
+456,city_fuzzy_match,55064,"International Brotherhood of Electrical Workers (IBEW), Local Union 456, JATC",96,21,17,113,2024-10-01,2025-09-30
+80,lu_number_match,76969,JATC Tidewater Electrical Industry - LOCAL 80,177,68,42,219,2024-10-01,2025-09-30
+995,city_fuzzy_match,59491,Baton Rouge Electrical JATC,73,25,23,96,2024-10-01,2025-09-30
+665,city_fuzzy_match,47637,Lansing Area Electrical JATC,196,70,59,255,2024-10-01,2025-09-30
+375,lu_number_match,57494,ALLENTOWN ELECTRICIANS JATC LOCAL 375,98,14,19,117,2024-10-01,2025-09-30
+150,lu_number_match,6888,"LAKE COUNTY JATC  LOCAL 150, IBEW",105,28,23,128,2024-10-01,2025-09-30
+136,city_fuzzy_match,44285,Birmingham Electrical JATC,107,5,31,138,2024-10-01,2025-09-30
+601,lu_number_match,58554,Champaign-Urbana-Streator-Pontiac Local 601 NECA-IBEW,87,25,24,111,2024-10-01,2025-09-30
+270,city_fuzzy_match,66920,OAK RIDGE ELECTRIC JATC,161,77,71,232,2024-10-01,2025-09-30
+405,city_fuzzy_match,4666,Cedar Rapids Electrical JATC Local Union 405,219,77,46,265,2024-10-01,2025-09-30
+668,city_fuzzy_match,52401,Lafayette Electrical J.A.T.C.,114,42,38,152,2024-10-01,2025-09-30
+903,city_fuzzy_match,48075,GULFPORT ELECTRICIANS JATC,242,76,52,294,2024-10-01,2025-09-30
+449,city_fuzzy_match,7187,Eastern Idaho Electrical JATC,90,32,17,107,2024-10-01,2025-09-30
+322,city_fuzzy_match,34217,WYOMING STATEWIDE ELECTRICAL JATC,121,51,31,152,2024-10-01,2025-09-30
+540,city_fuzzy_match,28929,"ELECTRICIANS JATC, CANTON",120,53,26,146,2024-10-01,2025-09-30
+146,city_fuzzy_match,9192,Midstate Electrical Training Center,160,64,25,185,2024-10-01,2025-09-30
+193,lu_number_match,9200,NECA-IBEW Local #193 JATC,113,18,19,132,2024-10-01,2025-09-30
+73,city_fuzzy_match,118709,Inland Empire Electrical Training Trust,174,30,31,205,2024-10-01,2025-09-30
+313,lu_number_match,78874,Local 313 - Electricians IBEW JATC,105,25,22,127,2024-10-01,2025-09-30
+305,city_fuzzy_match,52970,FORT WAYNE ELECTRICAL J.A.T.C.,139,47,30,169,2024-10-01,2025-09-30
+443,city_fuzzy_match,1283,Montgomery Electrical JATC,45,8,23,68,2024-10-01,2025-09-30
+257,lu_number_match,56591,IBEW-NECA JATC LU 257 JEFF CITY,183,60,4,187,2024-10-01,2025-09-30
+278,city_fuzzy_match,49655,TEXAS GULF COAST ELECTRICAL JATC,154,56,33,187,2024-10-01,2025-09-30
+681,city_fuzzy_match,54601,WICHITA FALLS ELECTRICAL JATC ,100,48,24,124,2024-10-01,2025-09-30
+648,city_fuzzy_match,26456,BUTLER COUNTY ELECTRICAL JATC,152,69,40,192,2024-10-01,2025-09-30
+861,city_fuzzy_match,58204,Lake Charles Electrical JATC,38,2,4,42,2024-10-01,2025-09-30
+400,lu_number_match,46505,"International Brotherhood of Electrical Workers (IBEW), Local 400",79,26,24,103,2024-10-01,2025-09-30
+551,city_fuzzy_match,52405,REDWOOD EMPIRE ELECTRICAL JATC ,89,39,26,115,2024-10-01,2025-09-30
+364,city_fuzzy_match,55060,N IL Electrical 364 JATC - Electricians,126,2,19,145,2024-10-01,2025-09-30
+226,city_fuzzy_match,74652,Topeka Electrical JATC,104,34,23,127,2024-10-01,2025-09-30
+505,city_fuzzy_match,1562,Mobile Electricians JATC,112,1,2,114,2024-10-01,2025-09-30
+446,city_fuzzy_match,59743,Monroe Electrical JATC,243,104,59,302,2024-10-01,2025-09-30
+180,city_fuzzy_match,40901,Solano - Napa Counties Electrical JATC,87,2,7,94,2024-10-01,2025-09-30
+265,city_fuzzy_match,19315,LINCOLN ELECTRICAL JATC,95,43,41,136,2024-10-01,2025-09-30
+583,city_fuzzy_match,25670,EL PASO ELECTRICAL JATC,193,76,54,247,2024-10-01,2025-09-30
+692,city_fuzzy_match,56076,BAY CITY ELECTRICAL JATC,112,20,24,136,2024-10-01,2025-09-30
+1340,lu_number_match,76791,JATC Hampton Roads Electrical Industry - LOCAL 1340,80,23,54,134,2024-10-01,2025-09-30
+948,city_fuzzy_match,10963,Flint Electrical JATC,121,49,38,159,2024-10-01,2025-09-30
+1205,city_fuzzy_match,54394,Gainesville Electrical JATC,159,77,57,216,2024-10-01,2025-09-30
+508,city_fuzzy_match,3975,Savannah Electrical Training Alliance,164,76,46,210,2024-10-01,2025-09-30
+684,city_fuzzy_match,36213,Central Valley JATC,98,34,32,130,2024-10-01,2025-09-30
+242,city_fuzzy_match,120998,IRON RANGE ELECTRICAL JAC,47,12,5,52,2024-10-01,2025-09-30
+325,lu_number_match,135768,Electricians Jac Binghamton Lu #325,61,14,9,70,2024-10-01,2025-09-30
+342,city_fuzzy_match,142842,Carolinas Electrical JATC,92,14,27,119,2024-10-01,2025-09-30
+873,city_fuzzy_match,43067,Marion-Kokomo Electricians J.A.T.C.,105,23,19,124,2024-10-01,2025-09-30
+654,lu_number_match,61512,Chester Electricians JAC (IBEW 654) (Comm/Ind),96,20,33,129,2024-10-01,2025-09-30
+575,city_fuzzy_match,20810,"ELECTRICIANS JATC, PORTSMOUTH",124,20,19,143,2024-10-01,2025-09-30
+275,city_fuzzy_match,63736,West Michigan Electrical JATC,120,41,20,140,2024-10-01,2025-09-30
+129,city_fuzzy_match,64432,"ELECTRICIANS JATC, LORAIN COUNTY",66,17,28,94,2024-10-01,2025-09-30
+453,lu_number_match,63751,IBEW/NECA JATC LU 453 SPFLD,89,25,13,102,2024-10-01,2025-09-30
+584,city_fuzzy_match,51099,TULSA ELECTRICAL JATC,79,36,26,105,2024-10-01,2025-09-30
+743,lu_number_match,26887,READING ELECTRICIANS JATC LOCAL 743,117,41,20,137,2024-10-01,2025-09-30
+143,city_fuzzy_match,49884,HARRISBURG ELECTRICIANS JATC,123,29,0,123,2024-10-01,2025-09-30
+910,lu_number_match,135774,Electricians Jac-Watertown Lu #910,73,13,19,92,2024-10-01,2025-09-30
+64,city_fuzzy_match,28978,"ELECTRICIANS JATC, YOUNGSTOWN AREA",63,17,21,84,2024-10-01,2025-09-30
+700,city_fuzzy_match,42807,Fort Smith Electrical JATC,45,17,21,66,2024-10-01,2025-09-30
+545,lu_number_match,15612,IBEW-NECA JATC LU 545 ST. JOSEPH,77,30,12,89,2024-10-01,2025-09-30
+1516,city_fuzzy_match,2219,JONESBORO ELECTRICAL JATC,270,85,148,418,2024-10-01,2025-09-30
+756,city_fuzzy_match,3548,DAYTONA BEACH ELECTRICAL JATC,92,26,33,125,2024-10-01,2025-09-30
+295,city_fuzzy_match,2068,LITTLE ROCK ELECTRICAL JATC,43,23,19,62,2024-10-01,2025-09-30
+72,city_fuzzy_match,52252,WACO ELECTRICAL JATC,81,21,15,96,2024-10-01,2025-09-30
+676,city_fuzzy_match,3277,GULF COAST ELECTRIC JATC,83,38,45,128,2024-10-01,2025-09-30
+466,city_fuzzy_match,56296,"CHARLESTON ELECTRICAL, JATC",95,24,12,107,2024-10-01,2025-09-30
+197,city_fuzzy_match,5220,Bloomington Normal Area Electrical JATC,98,31,17,115,2024-10-01,2025-09-30
+1316,city_fuzzy_match,3881,Macon Electrical JATC,89,40,17,106,2024-10-01,2025-09-30
+117,lu_number_match,5203,I.B.E.W.  LOCAL #117  J.A.T.C.,59,12,8,67,2024-10-01,2025-09-30
+596,city_fuzzy_match,33820,Clarksburg IBEW JATC,38,0,19,57,2024-10-01,2025-09-30
+231,lu_number_match,3919,"Electrician JATC, Sioux City LU 231",90,22,21,111,2024-10-01,2025-09-30
+934,city_fuzzy_match,49332,Tri-Cities Electrical JATC,34,8,11,45,2024-10-01,2025-09-30
+141,city_fuzzy_match,48610,WHEELING ELECT.JATC,26,0,9,35,2024-10-01,2025-09-30
+917,city_fuzzy_match,55285,Meridian Electricians' Area JATC,149,119,9,158,2024-10-01,2025-09-30
+567,lu_number_match,65189,IBEW Local 567,181,29,35,216,2024-10-01,2025-09-30
+461,lu_number_match,54965,NECA IBEW 461 JATC,66,18,7,73,2024-10-01,2025-09-30
+233,city_fuzzy_match,69206,Montana Electrical JATC,191,46,41,232,2024-10-01,2025-09-30
+13,lu_number_match,55286,SOUTHEAST IOWA ELECTRICAL JATC LU 13,74,19,16,90,2024-10-01,2025-09-30
+673,city_fuzzy_match,51507,MENTOR ELECTRICAL JATC,47,16,16,63,2024-10-01,2025-09-30
+237,lu_number_match,136072,Niagara County Electricians Lu# 237,82,16,0,82,2024-10-01,2025-09-30
+490,city_fuzzy_match,18389,International Brotherhood of Electrical Workers (IBEW) - Local Union 490,93,40,36,129,2024-10-01,2025-09-30
+527,city_fuzzy_match,61317,Galveston Electrical JATC,55,19,21,76,2024-10-01,2025-09-30
+688,city_fuzzy_match,57139,"ELECTRICIANS JATC, MANSFIELD",72,37,19,91,2024-10-01,2025-09-30
+32,lu_number_match,50502,"ELECTRICIANS JATC, LIMA AREA LU 32",70,13,10,80,2024-10-01,2025-09-30
+573,city_fuzzy_match,29806,"ELECTRICAL JATC, WARREN",71,13,14,85,2024-10-01,2025-09-30
+1253,lu_number_match,66461,IBEW Local 1253,108,13,33,141,2024-10-01,2025-09-30
+139,lu_number_match,135772,Electricians Jac Of Elmira Lu #139,65,19,9,74,2024-10-01,2025-09-30
+12,city_fuzzy_match,2627,Pueblo Electrical JATC,32,16,19,51,2024-10-01,2025-09-30
+661,city_fuzzy_match,74989,Hutchinson Electricians,66,25,13,79,2024-10-01,2025-09-30
+95,lu_number_match,14202,IBEW/NECA JATC LU 95 JOPLIN,43,10,9,52,2024-10-01,2025-09-30
+56,lu_number_match,55651,ELECTRICIANS IBEW LOCAL 56 JATC,49,10,10,59,2024-10-01,2025-09-30
+557,city_fuzzy_match,11871,Saginaw Electrical JATC,72,28,9,81,2024-10-01,2025-09-30
+241,lu_number_match,135771,Electricians Jac Ithaca Lu #241,61,9,12,73,2024-10-01,2025-09-30
+704,lu_number_match,57005,Electrician Dubuque JATC LU 704,40,11,13,53,2024-10-01,2025-09-30
+639,city_fuzzy_match,60266,San Luis Obispo Electrical Workers JATC,53,11,9,62,2024-10-01,2025-09-30
+840,lu_number_match,135848,Geneva Electrical Jatc Local #840,46,12,6,52,2024-10-01,2025-09-30
+855,city_fuzzy_match,8227,MUNCIE ELECTRICAL JATC,53,21,10,63,2024-10-01,2025-09-30
+498,city_fuzzy_match,52109,TC ELECTRICIANS,53,28,12,65,2024-10-01,2025-09-30
+968,city_fuzzy_match,34406,PARKERSBURG IBEW JATC,53,13,13,66,2024-10-01,2025-09-30
+538,lu_number_match,42688,Danville NECA-IBEW 538 Electrical JATC,37,12,9,46,2024-10-01,2025-09-30
+288,city_fuzzy_match,42587,"Electrician JATC, Waterloo",26,9,5,31,2024-10-01,2025-09-30
+607,lu_number_match,32639,SHAMOKIN ELECTRICIANS IBEW LU 607,53,13,4,57,2024-10-01,2025-09-30
+106,lu_number_match,135773,Electricians Jac Of Jamestown Local #106,41,9,8,49,2024-10-01,2025-09-30
+812,lu_number_match,32640,WILLIAMSPORT ELECTRICIANS JATC LOCAL 812,19,5,6,25,2024-10-01,2025-09-30
+25,city_fuzzy_match,135921,Jatc Elec Ind Nassau/Suffolk #25,4,1,0,4,2024-10-01,2025-09-30

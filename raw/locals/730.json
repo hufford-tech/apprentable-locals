@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1976  (em) Plymouth[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "730",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1976|Plymouth|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "730",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 40[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7216",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 40",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Plymouth, IN 46563[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7216",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Plymouth|IN|46563",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](574) 952-1338[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1969",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(574) 952-1338",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Glenn E. Brodbelt Jr., PO Box 40, Plymouth, IN  46563[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2234",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glenn|E.|Brodbelt|Jr.|{ \"MemberID\" : \"2234\",\"luid\": \"730\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 40\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Plymouth\",\"state\":\"IN\",\"zip\":\"46563\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Glenn E. Brodbelt Jr., PO Box 40, Plymouth, IN  46563[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4045",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glenn|E.|Brodbelt|Jr.|{ \"MemberID\" : \"4045\",\"luid\": \"730\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Glenn E. Brodbelt Jr., PO Box 40, Plymouth, IN  46563[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4046",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glenn|E.|Brodbelt|Jr.|{ \"MemberID\" : \"4046\",\"luid\": \"730\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]Plymouth Library, 201 N Center Street, 1st Tuesday, 10 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "730",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Plymouth Library, 201 N Center Street, 1st Tuesday, 10 am",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]688-  (em, i, t, u) Mansfield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "377",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "688-|Mansfield|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "377",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]67 S Walnut Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "Address1",
+    "editFieldValues": "67 S Walnut Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mansfield, OH 44902[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mansfield|OH|44902",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](419) 526-4688[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "693",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 526-4688",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](419) 522-0705[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "694",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 522-0705",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:resign688@hotmail.com\" target=\"_blank\">resign688@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "362",
+    "editFieldNames": "Email",
+    "editFieldValues": "resign688@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew688.org\" target=\"_blank\">www.ibew688.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "377",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew688.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brian H. McPeek II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1155",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|H.|McPeek|II|{ \"MemberID\" : \"1155\",\"luid\": \"377\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"67 S Walnut Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mansfield\",\"state\":\"OH\",\"zip\":\"44902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Donnie L. Hankins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1156",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donnie|L.|Hankins||{ \"MemberID\" : \"1156\",\"luid\": \"377\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"67 S Walnut Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mansfield\",\"state\":\"OH\",\"zip\":\"44902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Brian H. McPeek II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3687",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|H.|McPeek|II|{ \"MemberID\" : \"3687\",\"luid\": \"377\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]David A. Carnes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1154",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Carnes||{ \"MemberID\" : \"1154\",\"luid\": \"377\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"67 S Walnut Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mansfield\",\"state\":\"OH\",\"zip\":\"44902\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "377",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

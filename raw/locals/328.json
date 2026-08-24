@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]584-  (ees, em, es, i, rts, spa, u) Tulsa[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "328",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "584-|Tulsa|OK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "328",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, em, es, i, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]584 S Lewis Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "322",
+    "editFieldNames": "Address1",
+    "editFieldValues": "584 S Lewis Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Tulsa, OK 74104[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "322",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tulsa|OK|74104",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](918) 592-2989[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "606",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(918) 592-2989",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](918) 599-0584[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(918) 599-0584",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew584.com\" target=\"_blank\">office@ibew584.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew584.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew584.com\" target=\"_blank\">www.ibew584.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "328",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew584.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Dustin B. Phelan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1004",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dustin|B.|Phelan||{ \"MemberID\" : \"1004\",\"luid\": \"328\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"584 S Lewis Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tulsa\",\"state\":\"OK\",\"zip\":\"74104\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Joseph D. Burnside[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1006",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|D.|Burnside||{ \"MemberID\" : \"1006\",\"luid\": \"328\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"584 S Lewis Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tulsa\",\"state\":\"OK\",\"zip\":\"74104\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Dustin B. Phelan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3641",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dustin|B.|Phelan||{ \"MemberID\" : \"3641\",\"luid\": \"328\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Kristen K. Carroll[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1005",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kristen|K.|Carroll||{ \"MemberID\" : \"1005\",\"luid\": \"328\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"584 S Lewis Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tulsa\",\"state\":\"OK\",\"zip\":\"74104\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "328",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]731-  (mt) International Falls[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "398",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "731-|International Falls|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "398",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1198[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5382",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1198",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]International Falls, MN 56649[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5382",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "International Falls|MN|56649",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](218) 324-0591[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2057",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(218) 324-0591",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew731@gmail.com\" target=\"_blank\">ibew731@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "383",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew731@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Adam D. Gustafson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1219",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|D.|Gustafson||{ \"MemberID\" : \"1219\",\"luid\": \"398\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2862 County Road 69\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"International Falls\",\"state\":\"MN\",\"zip\":\"56649\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Adam D. Gustafson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3707",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|D.|Gustafson||{ \"MemberID\" : \"3707\",\"luid\": \"398\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2862 County Road 69\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"International Falls\",\"state\":\"MN\",\"zip\":\"56649\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Benjamin J. Wendt, PO Box 292, Littlefork, MN  56653[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1218",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Benjamin|J.|Wendt||{ \"MemberID\" : \"1218\",\"luid\": \"398\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 292\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Littlefork\",\"state\":\"MN\",\"zip\":\"56653\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Brent K. Bacon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1220",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brent|K.|Bacon||{ \"MemberID\" : \"1220\",\"luid\": \"398\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1674\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"International Falls\",\"state\":\"MN\",\"zip\":\"56649\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 3:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "398",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 3:45 pm",
+    "datatype": "txt"
+  }
+]

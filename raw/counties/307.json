@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Allegany County, MD",
+    "District": "4",
+    "Population": "74930",
+    "LandArea": "425.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Allegany County, MD",
+    "District": "4",
+    "Population": "74930",
+    "LandArea": "425.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Berkeley County, WV",
+    "District": "4",
+    "Population": "75905",
+    "LandArea": "321.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Berkeley County, WV",
+    "District": "4",
+    "Population": "75905",
+    "LandArea": "321.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Garrett County, MD",
+    "District": "4",
+    "Population": "29846",
+    "LandArea": "647.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Garrett County, MD",
+    "District": "4",
+    "Population": "29846",
+    "LandArea": "647.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Grant County, WV",
+    "District": "4",
+    "Population": "11299",
+    "LandArea": "477.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Grant County, WV",
+    "District": "4",
+    "Population": "11299",
+    "LandArea": "477.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Hampshire County, WV",
+    "District": "4",
+    "Population": "20203",
+    "LandArea": "641.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Hampshire County, WV",
+    "District": "4",
+    "Population": "20203",
+    "LandArea": "641.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Hardy County, WV",
+    "District": "4",
+    "Population": "12669",
+    "LandArea": "583.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Jefferson County, WV",
+    "District": "4",
+    "Population": "42190",
+    "LandArea": "209.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mineral County, WV",
+    "District": "4",
+    "Population": "27078",
+    "LandArea": "327.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mineral County, WV",
+    "District": "4",
+    "Population": "27078",
+    "LandArea": "327.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Morgan County, WV",
+    "District": "4",
+    "Population": "14943",
+    "LandArea": "228.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Morgan County, WV",
+    "District": "4",
+    "Population": "14943",
+    "LandArea": "228.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Washington County, MD",
+    "District": "4",
+    "Population": "131923",
+    "LandArea": "458.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Washington County, MD",
+    "District": "4",
+    "Population": "131923",
+    "LandArea": "458.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MD"
+  }
+]

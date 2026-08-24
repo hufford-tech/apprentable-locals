@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]398-  (u) Charleston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "398-|Charleston|SC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "235",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]112 Deer Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7256",
+    "editFieldNames": "Address1",
+    "editFieldValues": "112 Deer Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Summerville, SC 20485[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7256",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Summerville|SC|20485",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](843) 270-2316[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(843) 270-2316",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:tfmiller4@gmail.com\" target=\"_blank\">tfmiller4@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "229",
+    "editFieldNames": "Email",
+    "editFieldValues": "tfmiller4@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Timothy F. Miller, 112 Deer Street, Summerville, SC  29485[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "722",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|F.|Miller||{ \"MemberID\" : \"722\",\"luid\": \"235\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"112 Deer Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Summerville\",\"state\":\"SC\",\"zip\":\"29485\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Eric M. Bassi, 1809 Mallard Circle, Moncks Corner, SC  29461[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "724",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|M.|Bassi||{ \"MemberID\" : \"724\",\"luid\": \"235\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1809 Mallard Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Moncks Corner\",\"state\":\"SC\",\"zip\":\"29461\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Chaz A. Campbell, 112 Deer Street, Summerville, SC  20485[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "723",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chaz|A.|Campbell||{ \"MemberID\" : \"723\",\"luid\": \"235\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"112 Deer Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Summerville\",\"state\":\"SC\",\"zip\":\"20485\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Billy J. Hoover Jr., 109 Cypress View Road, Goose Creek, SC  29445[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "725",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Billy|J.|Hoover|Jr.|{ \"MemberID\" : \"725\",\"luid\": \"235\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"109 Cypress View Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Goose Creek\",\"state\":\"SC\",\"zip\":\"29445\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3345 Seiberling Road, 1st Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3345 Seiberling Road, 1st Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

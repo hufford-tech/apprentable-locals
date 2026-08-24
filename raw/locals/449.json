@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]852-  (em, i, lctt, o, u) Corinth and Tupelo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "449",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "852-|Corinth and Tupelo|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "449",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, lctt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]192 County Road 509[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "425",
+    "editFieldNames": "Address1",
+    "editFieldValues": "192 County Road 509",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Corinth, MS 38834[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "425",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Corinth|MS|38834",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1027[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "424",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1027",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Corinth, MS 38835[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "424",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Corinth|MS|38835",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](662) 286-2897[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "805",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(662) 286-2897",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](662) 287-5959[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "806",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(662) 287-5959",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal852@bellsouth.net\" target=\"_blank\">ibewlocal852@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "428",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal852@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]David C. Murrah[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1381",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|C.|Murrah||{ \"MemberID\" : \"1381\",\"luid\": \"449\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1027\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Corinth\",\"state\":\"MS\",\"zip\":\"38835\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Tony L. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1380",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tony|L.|Johnson||{ \"MemberID\" : \"1380\",\"luid\": \"449\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1027\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Corinth\",\"state\":\"MS\",\"zip\":\"38835\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]David C. Murrah[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3758",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|C.|Murrah||{ \"MemberID\" : \"3758\",\"luid\": \"449\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Kathrine H. Yarber[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1379",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kathrine|H.|Yarber||{ \"MemberID\" : \"1379\",\"luid\": \"449\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1027\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Corinth\",\"state\":\"MS\",\"zip\":\"38835\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Saturday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "449",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Saturday, 7 pm",
+    "datatype": "txt"
+  }
+]

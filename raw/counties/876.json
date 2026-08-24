@@ -1,0 +1,686 @@
+[
+  {
+    "CountyName": "Alcona County, MI",
+    "District": "6",
+    "Population": "11719",
+    "LandArea": "674.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Alger County, MI",
+    "District": "6",
+    "Population": "9862",
+    "LandArea": "917.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Allegan County, MI",
+    "District": "6",
+    "Population": "105665",
+    "LandArea": "827.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Alpena County, MI",
+    "District": "6",
+    "Population": "31314",
+    "LandArea": "574.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Antrim County, MI",
+    "District": "6",
+    "Population": "23110",
+    "LandArea": "476.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Arenac County, MI",
+    "District": "6",
+    "Population": "17269",
+    "LandArea": "366.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Baraga County, MI",
+    "District": "6",
+    "Population": "8746",
+    "LandArea": "904.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Barry County, MI",
+    "District": "6",
+    "Population": "56755",
+    "LandArea": "556.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Bay County, MI",
+    "District": "6",
+    "Population": "110157",
+    "LandArea": "444.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Benzie County, MI",
+    "District": "6",
+    "Population": "15998",
+    "LandArea": "321.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Berrien County, MI",
+    "District": "6",
+    "Population": "162453",
+    "LandArea": "571.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Branch County, MI",
+    "District": "6",
+    "Population": "45787",
+    "LandArea": "507.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Calhoun County, MI",
+    "District": "6",
+    "Population": "137985",
+    "LandArea": "708.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Cass County, MI",
+    "District": "6",
+    "Population": "51104",
+    "LandArea": "492.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Charlevoix County, MI",
+    "District": "6",
+    "Population": "26090",
+    "LandArea": "416.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Cheboygan County, MI",
+    "District": "6",
+    "Population": "26448",
+    "LandArea": "715.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Chippewa County, MI",
+    "District": "6",
+    "Population": "38543",
+    "LandArea": "1561.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Clare County, MI",
+    "District": "6",
+    "Population": "31252",
+    "LandArea": "566.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Clinton County, MI",
+    "District": "6",
+    "Population": "64753",
+    "LandArea": "571.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Crawford County, MI",
+    "District": "6",
+    "Population": "14273",
+    "LandArea": "558.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Delta County, MI",
+    "District": "6",
+    "Population": "38520",
+    "LandArea": "1170.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Dickinson County, MI",
+    "District": "6",
+    "Population": "27472",
+    "LandArea": "766.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Eaton County, MI",
+    "District": "6",
+    "Population": "103655",
+    "LandArea": "576.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Emmet County, MI",
+    "District": "6",
+    "Population": "31437",
+    "LandArea": "467.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Genesee County, MI",
+    "District": "6",
+    "Population": "436141",
+    "LandArea": "639.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Gladwin County, MI",
+    "District": "6",
+    "Population": "26023",
+    "LandArea": "506.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Gogebic County, MI",
+    "District": "6",
+    "Population": "17370",
+    "LandArea": "1101.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Grand Traverse County, MI",
+    "District": "6",
+    "Population": "77654",
+    "LandArea": "465.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Gratiot County, MI",
+    "District": "6",
+    "Population": "42285",
+    "LandArea": "570.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Hillsdale County, MI",
+    "District": "6",
+    "Population": "46527",
+    "LandArea": "598.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Houghton County, MI",
+    "District": "6",
+    "Population": "36016",
+    "LandArea": "1011.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ingham County, MI",
+    "District": "6",
+    "Population": "279320",
+    "LandArea": "559.19",
+    "Percentage": "60%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ionia County, MI",
+    "District": "6",
+    "Population": "61518",
+    "LandArea": "573.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Iosco County, MI",
+    "District": "6",
+    "Population": "27339",
+    "LandArea": "549.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Iron County, MI",
+    "District": "6",
+    "Population": "13138",
+    "LandArea": "1166.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Isabella County, MI",
+    "District": "6",
+    "Population": "63351",
+    "LandArea": "574.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Jackson County, MI",
+    "District": "6",
+    "Population": "158422",
+    "LandArea": "706.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kalamazoo County, MI",
+    "District": "6",
+    "Population": "238603",
+    "LandArea": "561.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kalkaska County, MI",
+    "District": "6",
+    "Population": "16571",
+    "LandArea": "561.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kent County, MI",
+    "District": "6",
+    "Population": "574335",
+    "LandArea": "856.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Keweenaw County, MI",
+    "District": "6",
+    "Population": "2301",
+    "LandArea": "540.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lake County, MI",
+    "District": "6",
+    "Population": "11333",
+    "LandArea": "567.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Leelanau County, MI",
+    "District": "6",
+    "Population": "21119",
+    "LandArea": "348.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lenawee County, MI",
+    "District": "6",
+    "Population": "98890",
+    "LandArea": "750.50",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Livingston County, MI",
+    "District": "6",
+    "Population": "156951",
+    "LandArea": "568.40",
+    "Percentage": "20%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Luce County, MI",
+    "District": "6",
+    "Population": "7024",
+    "LandArea": "903.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mackinac County, MI",
+    "District": "6",
+    "Population": "11943",
+    "LandArea": "1021.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Manistee County, MI",
+    "District": "6",
+    "Population": "24527",
+    "LandArea": "543.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Marquette County, MI",
+    "District": "6",
+    "Population": "64634",
+    "LandArea": "1821.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mason County, MI",
+    "District": "6",
+    "Population": "28274",
+    "LandArea": "495.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mecosta County, MI",
+    "District": "6",
+    "Population": "40553",
+    "LandArea": "555.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Menominee County, MI",
+    "District": "6",
+    "Population": "25326",
+    "LandArea": "1043.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Midland County, MI",
+    "District": "6",
+    "Population": "82874",
+    "LandArea": "521.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Missaukee County, MI",
+    "District": "6",
+    "Population": "14478",
+    "LandArea": "566.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Monroe County, MI",
+    "District": "6",
+    "Population": "145945",
+    "LandArea": "551.10",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Montcalm County, MI",
+    "District": "6",
+    "Population": "61266",
+    "LandArea": "708.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Montmorency County, MI",
+    "District": "6",
+    "Population": "10315",
+    "LandArea": "547.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Muskegon County, MI",
+    "District": "6",
+    "Population": "170200",
+    "LandArea": "509.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Newaygo County, MI",
+    "District": "6",
+    "Population": "47874",
+    "LandArea": "842.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oakland County, MI",
+    "District": "6",
+    "Population": "1194156",
+    "LandArea": "872.51",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oceana County, MI",
+    "District": "6",
+    "Population": "26873",
+    "LandArea": "540.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ogemaw County, MI",
+    "District": "6",
+    "Population": "21645",
+    "LandArea": "564.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ontonagon County, MI",
+    "District": "6",
+    "Population": "7818",
+    "LandArea": "1311.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Osceola County, MI",
+    "District": "6",
+    "Population": "23197",
+    "LandArea": "565.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oscoda County, MI",
+    "District": "6",
+    "Population": "9418",
+    "LandArea": "565.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Otsego County, MI",
+    "District": "6",
+    "Population": "23301",
+    "LandArea": "514.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ottawa County, MI",
+    "District": "6",
+    "Population": "238314",
+    "LandArea": "565.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Presque Isle County, MI",
+    "District": "6",
+    "Population": "14411",
+    "LandArea": "660.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Roscommon County, MI",
+    "District": "6",
+    "Population": "25469",
+    "LandArea": "521.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Saginaw County, MI",
+    "District": "6",
+    "Population": "210039",
+    "LandArea": "808.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Schoolcraft County, MI",
+    "District": "6",
+    "Population": "8903",
+    "LandArea": "1178.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Shiawassee County, MI",
+    "District": "6",
+    "Population": "71687",
+    "LandArea": "538.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "St. Joseph County, MI",
+    "District": "6",
+    "Population": "62422",
+    "LandArea": "503.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Van Buren County, MI",
+    "District": "6",
+    "Population": "76263",
+    "LandArea": "610.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Washtenaw County, MI",
+    "District": "6",
+    "Population": "322895",
+    "LandArea": "709.94",
+    "Percentage": "20%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Wexford County, MI",
+    "District": "6",
+    "Population": "30484",
+    "LandArea": "565.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "CountyName": "Aiken County, SC",
+    "District": "10",
+    "Population": "142552",
+    "LandArea": "1072.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Allendale County, SC",
+    "District": "10",
+    "Population": "11211",
+    "LandArea": "408.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Bamberg County, SC",
+    "District": "10",
+    "Population": "16658",
+    "LandArea": "393.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Bamberg County, SC",
+    "District": "10",
+    "Population": "16658",
+    "LandArea": "393.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Barnwell County, SC",
+    "District": "10",
+    "Population": "23478",
+    "LandArea": "548.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Beaufort County, SC",
+    "District": "10",
+    "Population": "120937",
+    "LandArea": "586.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Berkeley County, SC",
+    "District": "10",
+    "Population": "142651",
+    "LandArea": "1097.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Berkeley County, SC",
+    "District": "10",
+    "Population": "142651",
+    "LandArea": "1097.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Calhoun County, SC",
+    "District": "10",
+    "Population": "15185",
+    "LandArea": "380.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Calhoun County, SC",
+    "District": "10",
+    "Population": "15185",
+    "LandArea": "380.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Charleston County, SC",
+    "District": "10",
+    "Population": "309969",
+    "LandArea": "918.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Charleston County, SC",
+    "District": "10",
+    "Population": "309969",
+    "LandArea": "918.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Clarendon County, SC",
+    "District": "10",
+    "Population": "32502",
+    "LandArea": "607.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Clarendon County, SC",
+    "District": "10",
+    "Population": "32502",
+    "LandArea": "607.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Colleton County, SC",
+    "District": "10",
+    "Population": "38264",
+    "LandArea": "1056.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Colleton County, SC",
+    "District": "10",
+    "Population": "38264",
+    "LandArea": "1056.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Darlington County, SC",
+    "District": "10",
+    "Population": "67394",
+    "LandArea": "561.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Darlington County, SC",
+    "District": "10",
+    "Population": "67394",
+    "LandArea": "561.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Dillon County, SC",
+    "District": "10",
+    "Population": "30722",
+    "LandArea": "404.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Dillon County, SC",
+    "District": "10",
+    "Population": "30722",
+    "LandArea": "404.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Dorchester County, SC",
+    "District": "10",
+    "Population": "96413",
+    "LandArea": "574.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Dorchester County, SC",
+    "District": "10",
+    "Population": "96413",
+    "LandArea": "574.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Edgefield County, SC",
+    "District": "10",
+    "Population": "24595",
+    "LandArea": "501.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Fairfield County, SC",
+    "District": "10",
+    "Population": "23454",
+    "LandArea": "686.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Fairfield County, SC",
+    "District": "10",
+    "Population": "23454",
+    "LandArea": "686.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Florence County, SC",
+    "District": "10",
+    "Population": "125761",
+    "LandArea": "799.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Florence County, SC",
+    "District": "10",
+    "Population": "125761",
+    "LandArea": "799.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Georgetown County, SC",
+    "District": "10",
+    "Population": "55797",
+    "LandArea": "814.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Georgetown County, SC",
+    "District": "10",
+    "Population": "55797",
+    "LandArea": "814.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Hampton County, SC",
+    "District": "10",
+    "Population": "21386",
+    "LandArea": "559.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Horry County, SC",
+    "District": "10",
+    "Population": "196629",
+    "LandArea": "1133.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Horry County, SC",
+    "District": "10",
+    "Population": "196629",
+    "LandArea": "1133.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Jasper County, SC",
+    "District": "10",
+    "Population": "20678",
+    "LandArea": "656.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Kershaw County, SC",
+    "District": "10",
+    "Population": "52647",
+    "LandArea": "726.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Kershaw County, SC",
+    "District": "10",
+    "Population": "52647",
+    "LandArea": "726.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lee County, SC",
+    "District": "10",
+    "Population": "20119",
+    "LandArea": "410.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lee County, SC",
+    "District": "10",
+    "Population": "20119",
+    "LandArea": "410.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lexington County, SC",
+    "District": "10",
+    "Population": "216014",
+    "LandArea": "699.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Lexington County, SC",
+    "District": "10",
+    "Population": "216014",
+    "LandArea": "699.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Marion County, SC",
+    "District": "10",
+    "Population": "35466",
+    "LandArea": "489.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Marion County, SC",
+    "District": "10",
+    "Population": "35466",
+    "LandArea": "489.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Marlboro County, SC",
+    "District": "10",
+    "Population": "28818",
+    "LandArea": "479.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Marlboro County, SC",
+    "District": "10",
+    "Population": "28818",
+    "LandArea": "479.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "McCormick County, SC",
+    "District": "10",
+    "Population": "9958",
+    "LandArea": "359.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Newberry County, SC",
+    "District": "10",
+    "Population": "36108",
+    "LandArea": "630.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Newberry County, SC",
+    "District": "10",
+    "Population": "36108",
+    "LandArea": "630.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Orangeburg County, SC",
+    "District": "10",
+    "Population": "91582",
+    "LandArea": "1106.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Orangeburg County, SC",
+    "District": "10",
+    "Population": "91582",
+    "LandArea": "1106.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Richland County, SC",
+    "District": "10",
+    "Population": "320677",
+    "LandArea": "756.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Richland County, SC",
+    "District": "10",
+    "Population": "320677",
+    "LandArea": "756.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Saluda County, SC",
+    "District": "10",
+    "Population": "19181",
+    "LandArea": "452.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Saluda County, SC",
+    "District": "10",
+    "Population": "19181",
+    "LandArea": "452.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Sumter County, SC",
+    "District": "10",
+    "Population": "104646",
+    "LandArea": "665.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Sumter County, SC",
+    "District": "10",
+    "Population": "104646",
+    "LandArea": "665.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Williamsburg County, SC",
+    "District": "10",
+    "Population": "37217",
+    "LandArea": "933.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Williamsburg County, SC",
+    "District": "10",
+    "Population": "37217",
+    "LandArea": "933.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SC"
+  }
+]

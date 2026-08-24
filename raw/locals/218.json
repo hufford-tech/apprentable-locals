@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]362-  (rr) Washington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "218",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "362-|Washington|DC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "218",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6811 Riverdale Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7097",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6811 Riverdale Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Apt. 104[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7097",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Apt. 104",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Riverdale, MD 20737[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7097",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Riverdale|MD|20737",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](347) 452-0447[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2294",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(347) 452-0447",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:BusinessManager@ibew362.com\" target=\"_blank\">BusinessManager@ibew362.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "213",
+    "editFieldNames": "Email",
+    "editFieldValues": "BusinessManager@ibew362.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ansylem P. Bartholomew Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "673",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ansylem|P.|Bartholomew|Sr.|{ \"MemberID\" : \"673\",\"luid\": \"218\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6811 Riverdale Road\",\"addr2\":\"Apt. 104\",\"addr3\":\"\",\"city\":\"Riverdale\",\"state\":\"MD\",\"zip\":\"20737\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Robert Hnatiuk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert||Hnatiuk||{ \"MemberID\" : \"671\",\"luid\": \"218\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2113 Searles Rd\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Ansylem P. Bartholomew Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "672",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ansylem|P.|Bartholomew|Sr.|{ \"MemberID\" : \"672\",\"luid\": \"218\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"111 Westview Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Thurmont\",\"state\":\"MD\",\"zip\":\"21788\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Sidney Simmons[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4376",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sidney||Simmons||{ \"MemberID\" : \"4376\",\"luid\": \"218\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]American Legion Colmar Manor 131, 2nd Thursday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "218",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion Colmar Manor 131, 2nd Thursday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

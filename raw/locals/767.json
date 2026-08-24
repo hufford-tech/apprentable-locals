@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2064  (em) Valdosta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "767",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2064|Valdosta|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "767",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 97[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "664",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 97",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Valdosta, GA 31601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "664",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Valdosta|GA|31601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](229) 460-1262[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1274",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 460-1262",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Leroy Godfrey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2342",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Leroy||Godfrey||{ \"MemberID\" : \"2342\",\"luid\": \"767\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5100\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Valdosta\",\"state\":\"GA\",\"zip\":\"31601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Leroy Godfrey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4086",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Leroy||Godfrey||{ \"MemberID\" : \"4086\",\"luid\": \"767\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Rodney Hall, 2741 Tyndall Drive, Valdosta, GA  31602[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2341",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney||Hall||{ \"MemberID\" : \"2341\",\"luid\": \"767\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"2741 Tyndall Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Valdosta\",\"state\":\"GA\",\"zip\":\"31602\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Raqueal D. Nevels[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2343",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Raqueal|D.|Nevels||{ \"MemberID\" : \"2343\",\"luid\": \"767\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 5100\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Valdosta\",\"state\":\"GA\",\"zip\":\"31601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "767",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

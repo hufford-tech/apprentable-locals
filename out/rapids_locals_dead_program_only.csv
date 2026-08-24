@@ -1,0 +1,11 @@
+lu_number,local_city,local_state,match_type,rapids_ps_id,rapids_name,rapids_city,rapids_state,rapids_status,score,n_programs,selection_rule
+103,Dorchester,MA,lu_number_match,9999,ELECTRICIANS LU #103 BOSTON,BOSTON,MA,Cancelled,100.0,1.0,sole_program
+110,St. Paul,MN,lu_number_match,16707,LOCAL 110 LVSI JAC,SAINT PAUL,MN,Cancelled,100.0,1.0,sole_program
+440,Riverside,CA,city_fuzzy_match,56892,California-Nevada JATC,Riverside,CA,Cancelled,100.0,1.0,sole_program
+7,Springfield,MA,lu_number_match,12552,"ELECTRICIANS, LU #7 SPRINGFIELD",SPRINGFIELD,MA,Cancelled,100.0,1.0,sole_program
+728,Ft. Lauderdale,FL,city_fuzzy_match,3090,GOLD COAST ELEC JATC,FORT LAUDERDALE,FL,Cancelled,89.7,1.0,sole_program
+194,Shreveport,LA,city_fuzzy_match,42564,LIBBEY ELECTRIC JAC,SHREVEPORT,LA,Cancelled,100.0,2.0,unqualified_name
+712,Beaver,PA,city_fuzzy_match,48710,WESTERN PA ELECTRICIANS RESIDENTIAL PROG,BEAVER,PA,Cancelled,100.0,1.0,sole_program
+35,Hartford,CT,city_fuzzy_match,44400,BATTLE CREEK ELECTRICAL JATC,HARTFORD,CT,Cancelled,100.0,1.0,sole_program
+649,Alton,IL,lu_number_match,33585,IBEW LOCAL #649 JATC RESIDENTIAL,ALTON,IL,Cancelled,100.0,1.0,sole_program
+96,Worcester,MA,lu_number_match,56766,"ELECTRICIANS LU #96, WORCESTER",WORCESTER,MA,Cancelled,100.0,1.0,sole_program

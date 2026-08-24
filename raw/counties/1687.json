@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Algoma District, ON",
+    "District": "1",
+    "Population": "118567",
+    "LandArea": "48737.2237",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Algoma District, ON",
+    "District": "1",
+    "Population": "118567",
+    "LandArea": "48737.2237",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Cochrane District, ON",
+    "District": "1",
+    "Population": "85247",
+    "LandArea": "141243.9683",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Cochrane District, ON",
+    "District": "1",
+    "Population": "85247",
+    "LandArea": "141243.9683",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Manitoulin District, ON",
+    "District": "1",
+    "Population": "12679",
+    "LandArea": "4759.6306",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Manitoulin District, ON",
+    "District": "1",
+    "Population": "12679",
+    "LandArea": "4759.6306",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Nipissing District, ON",
+    "District": "1",
+    "Population": "82910",
+    "LandArea": "17064.6457",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Nipissing District, ON",
+    "District": "1",
+    "Population": "82910",
+    "LandArea": "17064.6457",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Parry Sound District, ON",
+    "District": "1",
+    "Population": "39665",
+    "LandArea": "9222.2548",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Parry Sound District, ON",
+    "District": "1",
+    "Population": "39665",
+    "LandArea": "9222.2548",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Sudbury District, ON",
+    "District": "1",
+    "Population": "22894",
+    "LandArea": "38350.5281",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Sudbury District, ON",
+    "District": "1",
+    "Population": "22894",
+    "LandArea": "38350.5281",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Timiskaming District, ON",
+    "District": "1",
+    "Population": "34442",
+    "LandArea": "13280.0606",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Timiskaming District, ON",
+    "District": "1",
+    "Population": "34442",
+    "LandArea": "13280.0606",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  }
+]

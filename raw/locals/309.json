@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]545-  (i) St. Joseph[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "545-|St. Joseph|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "309",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5804 Corporate Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5804 Corporate Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]St. Joseph, MO 64507[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. Joseph|MO|64507",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](816) 232-3578[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "570",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(816) 232-3578",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](816) 232-5481[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(816) 232-5481",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kimknipp@ibewlocal545.net\" target=\"_blank\">kimknipp@ibewlocal545.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "299",
+    "editFieldNames": "Email",
+    "editFieldValues": "kimknipp@ibewlocal545.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal545.net\" target=\"_blank\">www.ibewlocal545.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal545.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Daniel J. Robinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "945",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|J.|Robinson||{ \"MemberID\" : \"945\",\"luid\": \"309\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"421 S Eighth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Joseph\",\"state\":\"MO\",\"zip\":\"64501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brandon S. Osteen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "946",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|S.|Osteen||{ \"MemberID\" : \"946\",\"luid\": \"309\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"421 S Eighth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Joseph\",\"state\":\"MO\",\"zip\":\"64501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Daniel J. Robinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3624",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|J.|Robinson||{ \"MemberID\" : \"3624\",\"luid\": \"309\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Brett K. Finney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "947",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|K.|Finney||{ \"MemberID\" : \"947\",\"luid\": \"309\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"421 S Eighth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Joseph\",\"state\":\"MO\",\"zip\":\"64501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

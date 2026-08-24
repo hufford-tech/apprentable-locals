@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Albert County, NB",
+    "District": "1",
+    "Population": "26749",
+    "LandArea": "1806.1160",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Kent County, NB",
+    "District": "1",
+    "Population": "31383",
+    "LandArea": "4551.0452",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Westmorland County, NB",
+    "District": "1",
+    "Population": "124688",
+    "LandArea": "3659.5633",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  }
+]

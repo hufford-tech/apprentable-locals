@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1503  (u) Frankfort[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "613",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1503|Frankfort|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "613",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]755 E Boone Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7247",
+    "editFieldNames": "Address1",
+    "editFieldValues": "755 E Boone Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Frankfort, IN 46041[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7247",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Frankfort|IN|46041",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](765) 654-4424[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1065",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(765) 654-4424",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](765) 654-5413[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1066",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(765) 654-5413",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1503@yahoo.com\" target=\"_blank\">ibew1503@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "578",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1503@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jason Earl, 755 E Boone Street, Frankfort, IN  46041[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1882",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Earl||{ \"MemberID\" : \"1882\",\"luid\": \"613\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"755 E Boone Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frankfort\",\"state\":\"IN\",\"zip\":\"46041\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Gregory M. Patchett, 1000 Washington Avenue, Frankfort, IN  46041[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3915",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|M.|Patchett||{ \"MemberID\" : \"3915\",\"luid\": \"613\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1000 Washington Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frankfort\",\"state\":\"IN\",\"zip\":\"46041\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jason Earl, 755 E Boone Street, Frankfort, IN  46041[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1884",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Earl||{ \"MemberID\" : \"1884\",\"luid\": \"613\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"755 E Boone Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frankfort\",\"state\":\"IN\",\"zip\":\"46041\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Darin Wright, 842 N State Road 29, Michigantown, IN  46057[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1883",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darin||Wright||{ \"MemberID\" : \"1883\",\"luid\": \"613\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"842 N State Road 29\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Michigantown\",\"state\":\"IN\",\"zip\":\"46057\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]CLP Breakroom, 4th Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "613",
+    "editFieldNames": "Meets",
+    "editFieldValues": "CLP Breakroom, 4th Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2011  (rr) Calgary, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "744",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2011|Calgary|AB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "744",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1292 Lake Sylvan Drive SE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7029",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1292 Lake Sylvan Drive SE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Calgary, AB T2J 3C8[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7029",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Calgary|AB|T2J 3C8",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](403) 835-7177[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2260",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(403) 835-7177",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:MatKloiber@gmail.com\" target=\"_blank\">MatKloiber@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2134",
+    "editFieldNames": "Email",
+    "editFieldValues": "MatKloiber@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Matthew R. Kloiber[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2274",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|R.|Kloiber||{ \"MemberID\" : \"2274\",\"luid\": \"744\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"128 Strathcona Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Strathmore\",\"state\":\"AB\",\"zip\":\"T1P 0B1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jacob Cove[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4271",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob||Cove||{ \"MemberID\" : \"4271\",\"luid\": \"744\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Matthew R. Kloiber[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2275",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|R.|Kloiber||{ \"MemberID\" : \"2275\",\"luid\": \"744\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"147 Midcrest Crescent SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Calgary\",\"state\":\"AB\",\"zip\":\"T2X 1B4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Matthew R. Kloiber[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4062",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|R.|Kloiber||{ \"MemberID\" : \"4062\",\"luid\": \"744\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"147 Midcrest Crescent SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Calgary\",\"state\":\"AB\",\"zip\":\"T2X 1B4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "744",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]412-  (u) Kansas City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "412-|Kansas City|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "241",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1760 Universal Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1760 Universal Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kansas City, MO 64120[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "237",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kansas City|MO|64120",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 33743[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 33743",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Kansas City, MO 64120[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kansas City|MO|64120",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](816) 231-4530[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "448",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(816) 231-4530",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](816) 231-5515[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "449",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(816) 231-5515",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:business.manager@ibew412.org\" target=\"_blank\">business.manager@ibew412.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "234",
+    "editFieldNames": "Email",
+    "editFieldValues": "business.manager@ibew412.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Christopher D. Wilson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "741",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|D.|Wilson||{ \"MemberID\" : \"741\",\"luid\": \"241\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 33743\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kansas City\",\"state\":\"MO\",\"zip\":\"64120\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jeremy S. Blanchard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "743",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|S.|Blanchard||{ \"MemberID\" : \"743\",\"luid\": \"241\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 33743\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kansas City\",\"state\":\"MO\",\"zip\":\"64120\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Christopher D. Wilson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3556",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|D.|Wilson||{ \"MemberID\" : \"3556\",\"luid\": \"241\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Daniel L. Vandendaele[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "742",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|L.|Vandendaele||{ \"MemberID\" : \"742\",\"luid\": \"241\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 33743\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kansas City\",\"state\":\"MO\",\"zip\":\"64120\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Local Union 124's Hall, 301 E 103rd Terrace, 3rd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 124's Hall, 301 E 103rd Terrace, 3rd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

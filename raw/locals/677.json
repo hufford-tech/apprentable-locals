@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1718  (u) Waldorf[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "677",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1718|Waldorf|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "677",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1401[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5672",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1401",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Leonardtown, MD 20650[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5672",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Leonardtown|MD|20650",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](240) 346-5159[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2211",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(240) 346-5159",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:1718pres@gmail.com\" target=\"_blank\">1718pres@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "Email",
+    "editFieldValues": "1718pres@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal1718.org\" target=\"_blank\">www.ibewlocal1718.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "677",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal1718.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Lindsay S. Grinder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2072",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lindsay|S.|Grinder||{ \"MemberID\" : \"2072\",\"luid\": \"677\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"36730 Dog Park Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mechanicsville\",\"state\":\"MD\",\"zip\":\"20659\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Lindsay S. Grinder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3985",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lindsay|S.|Grinder||{ \"MemberID\" : \"3985\",\"luid\": \"677\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"36730 Dog Park Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mechanicsville\",\"state\":\"MD\",\"zip\":\"20659\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jessica M. Hickman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2071",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jessica|M.|Hickman||{ \"MemberID\" : \"2071\",\"luid\": \"677\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1401\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Leonardtown\",\"state\":\"MD\",\"zip\":\"20650\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Brett Worrell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2070",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett||Worrell||{ \"MemberID\" : \"2070\",\"luid\": \"677\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"46474 Midway Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lexington Park\",\"state\":\"MD\",\"zip\":\"20653\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Moose Lodge #495, 2nd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "677",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Moose Lodge #495, 2nd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1318  (rtb) Halifax, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1318|Halifax|NS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "576",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 31356[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "538",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 31356",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Halifax, NS B3K 5Z1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "538",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Halifax|NS|B3K 5Z1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](902) 453-4000[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1003",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 453-4000",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](902) 454-3202[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1004",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 454-3202",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1318@outlook.com\" target=\"_blank\">local1318@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2128",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1318@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Daryll D. Cowper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1771",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daryll|D.|Cowper||{ \"MemberID\" : \"1771\",\"luid\": \"576\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 31356\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Halifax\",\"state\":\"NS\",\"zip\":\"B3K 5Z1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Daryll D. Cowper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3879",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daryll|D.|Cowper||{ \"MemberID\" : \"3879\",\"luid\": \"576\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Aaron J. MacDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1772",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|J.|MacDonald||{ \"MemberID\" : \"1772\",\"luid\": \"576\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 31356\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Halifax\",\"state\":\"NS\",\"zip\":\"B3K 5Z1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Aaron J. MacDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1770",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|J.|MacDonald||{ \"MemberID\" : \"1770\",\"luid\": \"576\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 31356\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Halifax\",\"state\":\"NS\",\"zip\":\"B3K 5Z1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

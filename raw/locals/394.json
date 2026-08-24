@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]723-  (govt, rtb, t) Fort Wayne[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "723-|Fort Wayne|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "394",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt, rtb, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "389",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 9",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Huntertown, IN 46748[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "389",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Huntertown|IN|46748",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](260) 484-0373[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "721",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(260) 484-0373",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](260) 484-0609[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "722",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(260) 484-0609",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew723@ibew723.org\" target=\"_blank\">ibew723@ibew723.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew723@ibew723.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew723.org\" target=\"_blank\">www.ibew723.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew723.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Zachary P. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1206",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|P.|Taylor||{ \"MemberID\" : \"1206\",\"luid\": \"394\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5401 Keystone Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Wayne\",\"state\":\"IN\",\"zip\":\"46825\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Zachary P. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4323",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|P.|Taylor||{ \"MemberID\" : \"4323\",\"luid\": \"394\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Zachary P. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3703",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|P.|Taylor||{ \"MemberID\" : \"3703\",\"luid\": \"394\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nicholas McCool[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1207",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas||McCool||{ \"MemberID\" : \"1207\",\"luid\": \"394\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"5401 Keystone Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Wayne\",\"state\":\"IN\",\"zip\":\"46825\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Thursday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday",
+    "datatype": "txt"
+  }
+]

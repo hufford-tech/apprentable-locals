@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]13--  (em, i) Burlington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "13",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "13--|Burlington|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "13",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1205 N Central Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1205 N Central Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Burlington, IA 52601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Burlington|IA|52601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](319) 752-0452[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 752-0452",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](319) 752-0842[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2306",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 752-0842",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu13@ibewlocal13.com\" target=\"_blank\">ibewlu13@ibewlocal13.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "13",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu13@ibewlocal13.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal13.com\" target=\"_blank\">www.ibewlocal13.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "13",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal13.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jacob W. Nye[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|W.|Nye||{ \"MemberID\" : \"43\",\"luid\": \"13\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2564 Meadow Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New London\",\"state\":\"IA\",\"zip\":\"52645\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Erik A. Fenton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "41",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Erik|A.|Fenton||{ \"MemberID\" : \"41\",\"luid\": \"13\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1601 South 13th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Burlington\",\"state\":\"IA\",\"zip\":\"52601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jacob W. Nye[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3344",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|W.|Nye||{ \"MemberID\" : \"3344\",\"luid\": \"13\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2564 Meadow Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New London\",\"state\":\"IA\",\"zip\":\"52645\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Justin J. Philipp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "42",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|J.|Philipp||{ \"MemberID\" : \"42\",\"luid\": \"13\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2814 Herblo Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Burlington\",\"state\":\"IA\",\"zip\":\"52601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "13",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

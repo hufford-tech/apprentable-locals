@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]648-  (em, i, spa, u) Hamilton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "648-|Hamilton|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "357",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4300 Millikin Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "354",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4300 Millikin Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hamilton, OH 45011[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "354",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hamilton|OH|45011",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](513) 863-6515[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "658",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(513) 863-6515",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](513) 863-2785[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "659",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(513) 863-2785",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local648@ibew648.org\" target=\"_blank\">local648@ibew648.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "344",
+    "editFieldNames": "Email",
+    "editFieldValues": "local648@ibew648.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew648.org\" target=\"_blank\">www.ibew648.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew648.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robert C. Angst[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1092",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|C.|Angst||{ \"MemberID\" : \"1092\",\"luid\": \"357\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4300 Millikin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hamilton\",\"state\":\"OH\",\"zip\":\"45011\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Andrew T. Hudson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1093",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|T.|Hudson||{ \"MemberID\" : \"1093\",\"luid\": \"357\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4300 Millikin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hamilton\",\"state\":\"OH\",\"zip\":\"45011\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Matt R. VonStein[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1094",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matt|R.|VonStein||{ \"MemberID\" : \"1094\",\"luid\": \"357\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4300 Millikin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hamilton\",\"state\":\"OH\",\"zip\":\"45011\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Richard M. Holderbach[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1091",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|M.|Holderbach||{ \"MemberID\" : \"1091\",\"luid\": \"357\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4300 Millikin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hamilton\",\"state\":\"OH\",\"zip\":\"45011\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

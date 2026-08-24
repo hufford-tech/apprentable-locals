@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]768-  (c, i, lctt, o, t, u) Kalispell[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "418",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "768-|Kalispell|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "418",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, lctt, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]347 Second Avenue W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "Address1",
+    "editFieldValues": "347 Second Avenue W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kalispell, MT 59901[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kalispell|MT|59901",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1095[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "404",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1095",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Kalispell, MT 59903[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "404",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kalispell|MT|59903",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](406) 752-7680[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "759",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 752-7680",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](406) 752-7687[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "760",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 752-7687",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew768.com\" target=\"_blank\">office@ibew768.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "400",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew768.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew768.com\" target=\"_blank\">www.ibew768.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "418",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew768.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]George A. Bland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1283",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|A.|Bland||{ \"MemberID\" : \"1283\",\"luid\": \"418\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1095\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kalispell\",\"state\":\"MT\",\"zip\":\"59903\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Drew P. Meehan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4380",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Drew|P.|Meehan||{ \"MemberID\" : \"4380\",\"luid\": \"418\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]George A. Bland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3728",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|A.|Bland||{ \"MemberID\" : \"3728\",\"luid\": \"418\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Pennie Olson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1284",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Pennie||Olson||{ \"MemberID\" : \"1284\",\"luid\": \"418\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1095\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kalispell\",\"state\":\"MT\",\"zip\":\"59903\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]2nd Tuesday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "418",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday",
+    "datatype": "txt"
+  }
+]

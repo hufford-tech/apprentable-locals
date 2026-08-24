@@ -1,0 +1,15 @@
+{
+  "method": "known_url_direct_fetch",
+  "requests": 12,
+  "pages_cached": 7,
+  "failures": [],
+  "documents": [
+    "OH20260074/1",
+    "CA20260018/6",
+    "IN20260002/1",
+    "WI20260011/1",
+    "GA20260304/2",
+    "KY20260082/1",
+    "TX20260241/1"
+  ]
+}

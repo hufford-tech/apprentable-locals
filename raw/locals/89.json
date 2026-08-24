@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]113-  (ees, em, i, mo, o, ptc) Colorado Springs[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "89",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "113-|Colorado Springs|CO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "89",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, em, i, mo, o, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2150 Naegele Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "92",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2150 Naegele Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Colorado Springs, CO 80904[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "92",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Colorado Springs|CO|80904",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](719) 633-3872[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "175",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(719) 633-3872",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew113.com\" target=\"_blank\">info@ibew113.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1897",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew113.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew113.com\" target=\"_blank\">www.ibew113.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "89",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew113.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Daniel J. Mondragon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "275",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|J.|Mondragon||{ \"MemberID\" : \"275\",\"luid\": \"89\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2150 Naegele Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Colorado Springs\",\"state\":\"CO\",\"zip\":\"80904\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Anthony M. Henderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony|M.|Henderson||{ \"MemberID\" : \"274\",\"luid\": \"89\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6640 Balance Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Colorado Springs\",\"state\":\"CO\",\"zip\":\"80923\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Daniel J. Mondragon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3415",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|J.|Mondragon||{ \"MemberID\" : \"3415\",\"luid\": \"89\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Justin C. McMahon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "276",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|C.|McMahon||{ \"MemberID\" : \"276\",\"luid\": \"89\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2150 Naegele Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Colorado Springs\",\"state\":\"CO\",\"zip\":\"80904\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st & 3rd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "89",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st & 3rd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

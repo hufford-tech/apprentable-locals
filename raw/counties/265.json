@@ -1,0 +1,677 @@
+[
+  {
+    "CountyName": "Adams County, NE",
+    "District": "11",
+    "Population": "31151",
+    "LandArea": "563.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Antelope County, NE",
+    "District": "11",
+    "Population": "7452",
+    "LandArea": "857.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Arthur County, NE",
+    "District": "11",
+    "Population": "444",
+    "LandArea": "715.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Banner County, NE",
+    "District": "11",
+    "Population": "819",
+    "LandArea": "746.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Blaine County, NE",
+    "District": "11",
+    "Population": "583",
+    "LandArea": "710.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Boone County, NE",
+    "District": "11",
+    "Population": "6259",
+    "LandArea": "686.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Box Butte County, NE",
+    "District": "11",
+    "Population": "12158",
+    "LandArea": "1075.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Boyd County, NE",
+    "District": "11",
+    "Population": "2438",
+    "LandArea": "540.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Brown County, NE",
+    "District": "11",
+    "Population": "3525",
+    "LandArea": "1221.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Buffalo County, NE",
+    "District": "11",
+    "Population": "42259",
+    "LandArea": "967.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Butler County, NE",
+    "District": "11",
+    "Population": "8767",
+    "LandArea": "583.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Chase County, NE",
+    "District": "11",
+    "Population": "4068",
+    "LandArea": "894.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Cherry County, NE",
+    "District": "11",
+    "Population": "6148",
+    "LandArea": "5960.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Cheyenne County, NE",
+    "District": "11",
+    "Population": "9830",
+    "LandArea": "1196.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Clay County, NE",
+    "District": "11",
+    "Population": "7039",
+    "LandArea": "573.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Custer County, NE",
+    "District": "11",
+    "Population": "11793",
+    "LandArea": "2575.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Dawes County, NE",
+    "District": "11",
+    "Population": "9060",
+    "LandArea": "1396.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Dawson County, NE",
+    "District": "11",
+    "Population": "24365",
+    "LandArea": "1012.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Deuel County, NE",
+    "District": "11",
+    "Population": "2098",
+    "LandArea": "439.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Dundy County, NE",
+    "District": "11",
+    "Population": "2292",
+    "LandArea": "919.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Fillmore County, NE",
+    "District": "11",
+    "Population": "6634",
+    "LandArea": "576.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Franklin County, NE",
+    "District": "11",
+    "Population": "3574",
+    "LandArea": "575.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Frontier County, NE",
+    "District": "11",
+    "Population": "3099",
+    "LandArea": "974.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Furnas County, NE",
+    "District": "11",
+    "Population": "5324",
+    "LandArea": "718.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Gage County, NE",
+    "District": "11",
+    "Population": "22993",
+    "LandArea": "855.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Garden County, NE",
+    "District": "11",
+    "Population": "2292",
+    "LandArea": "1704.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Garfield County, NE",
+    "District": "11",
+    "Population": "1902",
+    "LandArea": "570.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Gosper County, NE",
+    "District": "11",
+    "Population": "2143",
+    "LandArea": "458.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Grant County, NE",
+    "District": "11",
+    "Population": "747",
+    "LandArea": "776.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Greeley County, NE",
+    "District": "11",
+    "Population": "2714",
+    "LandArea": "569.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Hall County, NE",
+    "District": "11",
+    "Population": "53534",
+    "LandArea": "546.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Hamilton County, NE",
+    "District": "11",
+    "Population": "9403",
+    "LandArea": "543.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Harlan County, NE",
+    "District": "11",
+    "Population": "3786",
+    "LandArea": "552.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Hayes County, NE",
+    "District": "11",
+    "Population": "1068",
+    "LandArea": "713.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Hitchcock County, NE",
+    "District": "11",
+    "Population": "3111",
+    "LandArea": "710.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Holt County, NE",
+    "District": "11",
+    "Population": "11551",
+    "LandArea": "2412.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Hooker County, NE",
+    "District": "11",
+    "Population": "783",
+    "LandArea": "721.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Howard County, NE",
+    "District": "11",
+    "Population": "6567",
+    "LandArea": "569.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Jefferson County, NE",
+    "District": "11",
+    "Population": "8333",
+    "LandArea": "573.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Johnson County, NE",
+    "District": "11",
+    "Population": "4488",
+    "LandArea": "376.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Kearney County, NE",
+    "District": "11",
+    "Population": "6882",
+    "LandArea": "516.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Keith County, NE",
+    "District": "11",
+    "Population": "8875",
+    "LandArea": "1061.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Keya Paha County, NE",
+    "District": "11",
+    "Population": "983",
+    "LandArea": "773.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Kimball County, NE",
+    "District": "11",
+    "Population": "4089",
+    "LandArea": "951.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Lancaster County, NE",
+    "District": "11",
+    "Population": "250291",
+    "LandArea": "838.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Lincoln County, NE",
+    "District": "11",
+    "Population": "34632",
+    "LandArea": "2563.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Logan County, NE",
+    "District": "11",
+    "Population": "774",
+    "LandArea": "570.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Loup County, NE",
+    "District": "11",
+    "Population": "712",
+    "LandArea": "569.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "McPherson County, NE",
+    "District": "11",
+    "Population": "533",
+    "LandArea": "858.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Merrick County, NE",
+    "District": "11",
+    "Population": "8204",
+    "LandArea": "484.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Morrill County, NE",
+    "District": "11",
+    "Population": "5440",
+    "LandArea": "1423.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Nance County, NE",
+    "District": "11",
+    "Population": "4038",
+    "LandArea": "441.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Nemaha County, NE",
+    "District": "11",
+    "Population": "7576",
+    "LandArea": "409.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Nuckolls County, NE",
+    "District": "11",
+    "Population": "5057",
+    "LandArea": "575.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Otoe County, NE",
+    "District": "11",
+    "Population": "15396",
+    "LandArea": "615.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Pawnee County, NE",
+    "District": "11",
+    "Population": "3087",
+    "LandArea": "431.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Perkins County, NE",
+    "District": "11",
+    "Population": "3200",
+    "LandArea": "883.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Phelps County, NE",
+    "District": "11",
+    "Population": "9747",
+    "LandArea": "539.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Polk County, NE",
+    "District": "11",
+    "Population": "5639",
+    "LandArea": "438.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Red Willow County, NE",
+    "District": "11",
+    "Population": "11448",
+    "LandArea": "716.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Richardson County, NE",
+    "District": "11",
+    "Population": "9531",
+    "LandArea": "553.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Rock County, NE",
+    "District": "11",
+    "Population": "1756",
+    "LandArea": "1008.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Saline County, NE",
+    "District": "11",
+    "Population": "13843",
+    "LandArea": "575.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Saunders County, NE",
+    "District": "11",
+    "Population": "19830",
+    "LandArea": "753.89",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Scotts Bluff County, NE",
+    "District": "11",
+    "Population": "36951",
+    "LandArea": "739.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Seward County, NE",
+    "District": "11",
+    "Population": "16496",
+    "LandArea": "574.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Sheridan County, NE",
+    "District": "11",
+    "Population": "6198",
+    "LandArea": "2441.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Sherman County, NE",
+    "District": "11",
+    "Population": "3318",
+    "LandArea": "565.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Sioux County, NE",
+    "District": "11",
+    "Population": "1475",
+    "LandArea": "2066.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Thayer County, NE",
+    "District": "11",
+    "Population": "6055",
+    "LandArea": "574.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Thomas County, NE",
+    "District": "11",
+    "Population": "729",
+    "LandArea": "712.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Valley County, NE",
+    "District": "11",
+    "Population": "4647",
+    "LandArea": "568.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Webster County, NE",
+    "District": "11",
+    "Population": "4061",
+    "LandArea": "574.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "Wheeler County, NE",
+    "District": "11",
+    "Population": "886",
+    "LandArea": "575.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  },
+  {
+    "CountyName": "York County, NE",
+    "District": "11",
+    "Population": "14598",
+    "LandArea": "575.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NE"
+  }
+]

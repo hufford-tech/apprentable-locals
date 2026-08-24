@@ -1,0 +1,344 @@
+[
+  {
+    "CountyName": "Albany County, WY",
+    "District": "8",
+    "Population": "32014",
+    "LandArea": "4272.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Big Horn County, WY",
+    "District": "8",
+    "Population": "11461",
+    "LandArea": "3136.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Big Horn County, WY",
+    "District": "8",
+    "Population": "11461",
+    "LandArea": "3136.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Campbell County, WY",
+    "District": "8",
+    "Population": "33698",
+    "LandArea": "4796.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Carbon County, WY",
+    "District": "8",
+    "Population": "15639",
+    "LandArea": "7896.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Carbon County, WY",
+    "District": "8",
+    "Population": "15639",
+    "LandArea": "7896.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Converse County, WY",
+    "District": "8",
+    "Population": "12052",
+    "LandArea": "4254.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Converse County, WY",
+    "District": "8",
+    "Population": "12052",
+    "LandArea": "4254.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Crook County, WY",
+    "District": "8",
+    "Population": "5887",
+    "LandArea": "2858.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Fremont County, WY",
+    "District": "8",
+    "Population": "35804",
+    "LandArea": "9182.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Fremont County, WY",
+    "District": "8",
+    "Population": "35804",
+    "LandArea": "9182.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Goshen County, WY",
+    "District": "8",
+    "Population": "12538",
+    "LandArea": "2225.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Hot Springs County, WY",
+    "District": "8",
+    "Population": "4882",
+    "LandArea": "2003.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Hot Springs County, WY",
+    "District": "8",
+    "Population": "4882",
+    "LandArea": "2003.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Johnson County, WY",
+    "District": "8",
+    "Population": "7075",
+    "LandArea": "4166.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Johnson County, WY",
+    "District": "8",
+    "Population": "7075",
+    "LandArea": "4166.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Laramie County, WY",
+    "District": "8",
+    "Population": "81607",
+    "LandArea": "2686.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Lincoln County, WY",
+    "District": "8",
+    "Population": "14573",
+    "LandArea": "4069.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Lincoln County, WY",
+    "District": "8",
+    "Population": "14573",
+    "LandArea": "4069.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Natrona County, WY",
+    "District": "8",
+    "Population": "66533",
+    "LandArea": "5339.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Natrona County, WY",
+    "District": "8",
+    "Population": "66533",
+    "LandArea": "5339.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Niobrara County, WY",
+    "District": "8",
+    "Population": "2407",
+    "LandArea": "2625.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Park County, WY",
+    "District": "8",
+    "Population": "25786",
+    "LandArea": "6942.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Park County, WY",
+    "District": "8",
+    "Population": "25786",
+    "LandArea": "6942.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Platte County, WY",
+    "District": "8",
+    "Population": "8807",
+    "LandArea": "2084.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sheridan County, WY",
+    "District": "8",
+    "Population": "26560",
+    "LandArea": "2523.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sheridan County, WY",
+    "District": "8",
+    "Population": "26560",
+    "LandArea": "2523.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sublette County, WY",
+    "District": "8",
+    "Population": "5920",
+    "LandArea": "4882.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sublette County, WY",
+    "District": "8",
+    "Population": "5920",
+    "LandArea": "4882.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sweetwater County, WY",
+    "District": "8",
+    "Population": "37613",
+    "LandArea": "10425.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Sweetwater County, WY",
+    "District": "8",
+    "Population": "37613",
+    "LandArea": "10425.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Teton County, WY",
+    "District": "8",
+    "Population": "18251",
+    "LandArea": "4007.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Teton County, WY",
+    "District": "8",
+    "Population": "18251",
+    "LandArea": "4007.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Uinta County, WY",
+    "District": "8",
+    "Population": "19742",
+    "LandArea": "2081.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Uinta County, WY",
+    "District": "8",
+    "Population": "19742",
+    "LandArea": "2081.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Washakie County, WY",
+    "District": "8",
+    "Population": "8289",
+    "LandArea": "2240.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Washakie County, WY",
+    "District": "8",
+    "Population": "8289",
+    "LandArea": "2240.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  },
+  {
+    "CountyName": "Weston County, WY",
+    "District": "8",
+    "Population": "6644",
+    "LandArea": "2397.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WY"
+  }
+]

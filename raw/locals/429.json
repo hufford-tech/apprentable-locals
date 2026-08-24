@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]784-  (rr) Indianapolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "784-|Indianapolis|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "429",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2014 N Galeston Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5700",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2014 N Galeston Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Indianapolis, IN 46229[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5700",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Indianapolis|IN|46229",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](317) 431-6427[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2105",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(317) 431-6427",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:gjnnd@sbcglobal.net\" target=\"_blank\">gjnnd@sbcglobal.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2036",
+    "editFieldNames": "Email",
+    "editFieldValues": "gjnnd@sbcglobal.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Gary A. Jennings[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1320",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gary|A.|Jennings||{ \"MemberID\" : \"1320\",\"luid\": \"429\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2014 N Galeston Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46229\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Gary A. Jennings[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1321",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gary|A.|Jennings||{ \"MemberID\" : \"1321\",\"luid\": \"429\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2014 N Galeston Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46229\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Michael S. Wann[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1319",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|S.|Wann||{ \"MemberID\" : \"1319\",\"luid\": \"429\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5842 Sable Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46221\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Amber K. Gooley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3738",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Amber|K.|Gooley||{ \"MemberID\" : \"3738\",\"luid\": \"429\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"6191 E Newberry Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Camby\",\"state\":\"IN\",\"zip\":\"46113\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Hornet Park Community Center, 5245 Hornet Avenue, Beech Grove, 1st Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Hornet Park Community Center, 5245 Hornet Avenue, Beech Grove, 1st Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

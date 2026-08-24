@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]30--  (govt) Trenton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "30--|Trenton|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "28",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]212 W State Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4902",
+    "editFieldNames": "Address1",
+    "editFieldValues": "212 W State Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Trenton, NJ 08608[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4902",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Trenton|NJ|08608",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](609) 695-1960[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1995",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 695-1960",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](609) 392-6347[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1996",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 392-6347",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal30.org\" target=\"_blank\">info@ibewlocal30.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal30.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal30.org\" target=\"_blank\">www.ibewlocal30.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal30.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Alfred C. Laubsch Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "87",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alfred|C.|Laubsch|Jr.|{ \"MemberID\" : \"87\",\"luid\": \"28\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32 Seeley Cohansey Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bridgeton\",\"state\":\"NJ\",\"zip\":\"08302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]William F. Lowry IV[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "88",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|F.|Lowry|IV|{ \"MemberID\" : \"88\",\"luid\": \"28\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1443 Garrett Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Thomas MacDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "90",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas||MacDonald||{ \"MemberID\" : \"90\",\"luid\": \"28\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5585 Stony Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Hope\",\"state\":\"PA\",\"zip\":\"18938\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Paula J. Howard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "89",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paula|J.|Howard||{ \"MemberID\" : \"89\",\"luid\": \"28\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"10 Cynwyd Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Burlington\",\"state\":\"NJ\",\"zip\":\"08016\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Local Union 269 Hall, 670 Whitehead Road, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 269 Hall, 670 Whitehead Road, 6 pm",
+    "datatype": "txt"
+  }
+]

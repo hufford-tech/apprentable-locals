@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1066  (u) Daytona Beach[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "522",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1066|Daytona Beach|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "522",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]54 Whispering Pine Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7271",
+    "editFieldNames": "Address1",
+    "editFieldValues": "54 Whispering Pine Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Palm Coast, FL 32164[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7271",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Palm Coast|FL|32164",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]B.M. [/b]James B. Levi, 897 Mercers Fernery Road, DeLand, FL  32720[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1603",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|B.|Levi||{ \"MemberID\" : \"1603\",\"luid\": \"522\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"897 Mercers Fernery Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"DeLand\",\"state\":\"FL\",\"zip\":\"32720\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]James B. Levi, 897 Mercers Fernery Road, DeLand, FL  32720[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3825",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|B.|Levi||{ \"MemberID\" : \"3825\",\"luid\": \"522\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"897 Mercers Fernery Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"DeLand\",\"state\":\"FL\",\"zip\":\"32720\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Wayne B. Elenbaum, 54 Whispering Pine Drive, Palm Coast, FL  32164[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1605",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|B.|Elenbaum||{ \"MemberID\" : \"1605\",\"luid\": \"522\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"54 Whispering Pine Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palm Coast\",\"state\":\"FL\",\"zip\":\"32164\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Joseph W. Davis, PO Box 1945, De Leon Springs, FL  32130[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1604",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|W.|Davis||{ \"MemberID\" : \"1604\",\"luid\": \"522\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1945\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"De Leon Springs\",\"state\":\"FL\",\"zip\":\"32130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]Elks Lodge 2193, 285 Wilmette Avenue, Ormond Beach, 1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "522",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Elks Lodge 2193, 285 Wilmette Avenue, Ormond Beach, 1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

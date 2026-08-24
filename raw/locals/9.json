@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]9---  (catv, govt, lctt, o, u) Chicago[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "9---|Chicago|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "9",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, govt, lctt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7840 Graphics Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7840 Graphics Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 100[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Tinley Park, IL 60477[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tinley Park|IL|60477",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](708) 449-9000[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "17",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(708) 449-9000",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](708) 449-9001[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(708) 449-9001",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mail@ibew9.org\" target=\"_blank\">mail@ibew9.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "Email",
+    "editFieldValues": "mail@ibew9.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew9.org\" target=\"_blank\">www.ibew9.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew9.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]William W. Niesman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "31",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|W.|Niesman||{ \"MemberID\" : \"31\",\"luid\": \"9\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"High Point Plaza Office Center\",\"addr2\":\"4415 W Harrison Street, #330\",\"addr3\":\"\",\"city\":\"Hillside\",\"state\":\"IL\",\"zip\":\"60162\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Todd Pierson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "29",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd||Pierson||{ \"MemberID\" : \"29\",\"luid\": \"9\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"High Point Plaza Office Center\",\"addr2\":\"4415 W Harrison Street, #330\",\"addr3\":\"\",\"city\":\"Hillside\",\"state\":\"IL\",\"zip\":\"60162\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Bryan Nieciak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "28",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan||Nieciak||{ \"MemberID\" : \"28\",\"luid\": \"9\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"High Point Plaza Office Center\",\"addr2\":\"4415 W Harrison Street, #330\",\"addr3\":\"\",\"city\":\"Hillside\",\"state\":\"IL\",\"zip\":\"60162\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Thomas C. Fitzgerald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "30",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|C.|Fitzgerald||{ \"MemberID\" : \"30\",\"luid\": \"9\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"High Point Plaza Office Center\",\"addr2\":\"4415 W Harrison Street, #330\",\"addr3\":\"\",\"city\":\"Hillside\",\"state\":\"IL\",\"zip\":\"60162\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

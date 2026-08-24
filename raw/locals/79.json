@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]102-  (em, govt, i, mt, o, ptc, ws) Paterson[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "102-|Paterson|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "79",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, i, mt, o, ptc, ws",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]50 Parsippany Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "Address1",
+    "editFieldValues": "50 Parsippany Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Parsippany, NJ 07054[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Parsippany|NJ|07054",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](973) 887-1718[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(973) 887-1718",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](973) 887-1976[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "155",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(973) 887-1976",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew102.org\" target=\"_blank\">info@ibew102.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "78",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew102.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew102.org\" target=\"_blank\">www.ibew102.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew102.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David Fiore[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David||Fiore||{ \"MemberID\" : \"242\",\"luid\": \"79\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5355\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parsippany\",\"state\":\"NJ\",\"zip\":\"07054\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Bernard Corrigan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "244",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bernard||Corrigan||{ \"MemberID\" : \"244\",\"luid\": \"79\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5355\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parsippany\",\"state\":\"NJ\",\"zip\":\"07054\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Mark A. Battagliese[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "243",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|A.|Battagliese||{ \"MemberID\" : \"243\",\"luid\": \"79\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5355\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parsippany\",\"state\":\"NJ\",\"zip\":\"07054\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Eric Tscherne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric||Tscherne||{ \"MemberID\" : \"245\",\"luid\": \"79\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5355\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parsippany\",\"state\":\"NJ\",\"zip\":\"07054\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Barnyard & Carriage House, 754 Totowa Road, Totowa, 1st Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Barnyard & Carriage House, 754 Totowa Road, Totowa, 1st Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

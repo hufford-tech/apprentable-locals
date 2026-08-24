@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]663-  (em, mt) Milwaukee[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "365",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "663-|Milwaukee|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "365",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 341863[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4243",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 341863",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Milwaukee, WI 53234[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4243",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Milwaukee|WI|53234",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](262) 424-9836[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1835",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(262) 424-9836",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew663@wi.rr.com\" target=\"_blank\">ibew663@wi.rr.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "350",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew663@wi.rr.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jason S. Olson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1119",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|S.|Olson||{ \"MemberID\" : \"1119\",\"luid\": \"365\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"W350 S7905 Prairie Farms Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eagle\",\"state\":\"WI\",\"zip\":\"53119\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jason S. Olson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3676",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|S.|Olson||{ \"MemberID\" : \"3676\",\"luid\": \"365\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Andrew J. Crowbridge, N68W27749 Steeple View Lane, Hartland, WI  53029[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1118",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Crowbridge||{ \"MemberID\" : \"1118\",\"luid\": \"365\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"N68W27749 Steeple View Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hartland\",\"state\":\"WI\",\"zip\":\"53029\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Trevor M. Thome[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1117",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Trevor|M.|Thome||{ \"MemberID\" : \"1117\",\"luid\": \"365\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"806 Sutton Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eagle\",\"state\":\"WI\",\"zip\":\"53119\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Club Paragon, 3578 S 108th Street, Greenfield, 3rd Wednesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "365",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Club Paragon, 3578 S 108th Street, Greenfield, 3rd Wednesday, 4 pm",
+    "datatype": "txt"
+  }
+]

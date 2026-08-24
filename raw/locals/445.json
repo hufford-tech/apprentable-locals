@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]833-  (u) Jasper[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "833-|Jasper|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "445",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]96 20th Street E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "421",
+    "editFieldNames": "Address1",
+    "editFieldValues": "96 20th Street E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jasper, AL 35501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "421",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jasper|AL|35501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 811[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "420",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 811",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Jasper, AL 35502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "420",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jasper|AL|35502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jimmy R. Perrin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1368",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jimmy|R.|Perrin||{ \"MemberID\" : \"1368\",\"luid\": \"445\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 833\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jasper\",\"state\":\"AL\",\"zip\":\"35502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Will R. Gurganus[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1369",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Will|R.|Gurganus||{ \"MemberID\" : \"1369\",\"luid\": \"445\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2530 County Highway 21\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Guin\",\"state\":\"AL\",\"zip\":\"35563\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Daniel H. Dutton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1370",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|H.|Dutton||{ \"MemberID\" : \"1370\",\"luid\": \"445\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6540 Holly Grove Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jasper\",\"state\":\"AL\",\"zip\":\"35502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Daniel D. Earnest[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1367",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|D.|Earnest||{ \"MemberID\" : \"1367\",\"luid\": \"445\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2530 County Highway 21\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Guin\",\"state\":\"AL\",\"zip\":\"35563\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]4th Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

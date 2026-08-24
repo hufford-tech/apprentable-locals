@@ -1,0 +1,1921 @@
+Expected local union number: LU 113 (Colorado Springs).
+Current year (for is_stale comparison ONLY -- never use this to fill in a missing year on a date): 2026
+website_corrected fact: False
+original_website fact: www.ibew113.com
+state_dol_url fact (if known): 
+Below are one or more scraped pages (homepage, crawled subpages, and JATC/training-partner pages) for this local.
+Extract into exactly this JSON schema (all keys required, use null/empty string/empty array/"unknown" where a fact is absent):
+{
+  "has_apprenticeship": "bool",
+  "program_name": "string",
+  "jatc_name": "string",
+  "jatc_domain": "string",
+  "application_url": "string",
+  "windows": [
+    {
+      "precision": "absolute | recurring | relative | none",
+      "open_date": "ISO date or empty (absolute only)",
+      "close_date": "ISO date or empty (absolute only)",
+      "open_month": "int 1-12 or null",
+      "open_day": "int 1-31 or null",
+      "close_month": "int 1-12 or null",
+      "close_day": "int 1-31 or null",
+      "is_recurring_annual": "bool",
+      "relative_description": "verbatim phrase or empty",
+      "time_of_day": "string or empty",
+      "method": "online | mail | email | in_person | phone | unknown",
+      "cap": "string, e.g. 'first 2000 registered letters', empty if none",
+      "evidence_quote": "verbatim, under 15 words",
+      "source_url": "string, one of the page URLs below"
+    }
+  ],
+  "status_statements": [
+    {
+      "verbatim_text": "copied exactly from source, under 25 words",
+      "statement_type": "rolling | open | closed | reopening | unknown",
+      "stated_effective_date": "ISO date or null",
+      "source_url": "string, one of the page URLs below"
+    }
+  ],
+  "occupations": [
+    "array of strings"
+  ],
+  "min_age": "int or null",
+  "min_education": "string",
+  "citizenship_required": "bool",
+  "aptitude_test": "string",
+  "interview_required": "bool",
+  "math_requirement": "string",
+  "other_requirements": [
+    "array of strings"
+  ],
+  "contact_email": "string",
+  "contact_phone": "string",
+  "application_method": "online | mail | email | in_person | phone | unknown",
+  "has_notification_list": "bool",
+  "notification_instructions": "string",
+  "state_dol_url": "string, pass through the supplied fact or empty",
+  "website_corrected": "bool, pass through the supplied fact",
+  "original_website": "string, pass through the supplied fact",
+  "page_last_updated": "ISO date or null",
+  "content_year": "int or null",
+  "is_stale": "bool",
+  "confidence": "high | medium | low"
+}
+
+CANDIDATE EVIDENCE (found by keyword scan, verify each against full text below; these may be false positives from unrelated boilerplate):
+  [https://ibew113.com/] ...Federal laws and boards safeguard your right to establish a union in your workplace. [Interested in Joining a Union?](https://ibew113.com/organizing) ![IBEW electrical worker](https://ibew113.com/_next/image?url=%2Fimages%2Fportrait.jpg&w=1920&q=75) ## QUICK LINKS [**Job Dispatch** \\ View current job calls and dispatch information](https://ibew113.com/dispatch) [**Apprenticeship** \\ Start your c...
+  [https://ibew113.com/about] ...Through partnering, we provide the best quality product and value to the customer, utilizing the highest trained and most productive workforce. ## IBEW LOCAL 113 OFFICERS & STAFF Executive BoardBusiness ManagerContact ### EXECUTIVE BOARD #### Daniel Mondragon Business Manager/Financial Secretary #### Anthony Henderson President #### Jeff Pressel Vice President #### Ken Schauer Treasurer #### Justi...
+  [https://ibew113.com/agreements] ...[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\ \\ IBEW Local 113\\ \\ Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch) Join Resources [About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/) # AGREEMENTS & WAGE SCALES IBEW Local 113 nego...
+  [https://ibew113.com/apprenticeship] ...[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\ \\ IBEW Local 113\\ \\ Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch) Join Resources [About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/) # APPRENTICESHIP & TRAINING Earn while you lea...
+  [https://ibew113.com/apprenticeship] ...Choose your path below to learn how to get started. ## CHOOSE YOUR PATH There are two apprenticeship programs. Pick the one that fits the career you want....
+  [https://ibew113.com/apprenticeship] ...Pick the one that fits the career you want. Each is run by its own training center — that's who you apply to. [Inside\\ **Apprentice Wireman** \\ Commercial, industrial and residential electrical work — the electricians who wire buildings.\\ Learn how to apply](https://ibew113.com/apprenticeship#inside) [Outside\\ **Apprentice Lineman** \\ Overhead and underground power lines — the linemen who bui...
+  [https://ibew113.com/apprenticeship] ...Each is run by its own training center — that's who you apply to. [Inside\\ **Apprentice Wireman** \\ Commercial, industrial and residential electrical work — the electricians who wire buildings.\\ Learn how to apply](https://ibew113.com/apprenticeship#inside) [Outside\\ **Apprentice Lineman** \\ Overhead and underground power lines — the linemen who build and maintain the electrical grid.\\ Learn...
+  [https://ibew113.com/apprenticeship] ...[Inside\\ **Apprentice Wireman** \\ Commercial, industrial and residential electrical work — the electricians who wire buildings.\\ Learn how to apply](https://ibew113.com/apprenticeship#inside) [Outside\\ **Apprentice Lineman** \\ Overhead and underground power lines — the linemen who build and maintain the electrical grid.\\ Learn how to apply](https://ibew113.com/apprenticeship#outside) Inside ...
+  [https://ibew113.com/apprenticeship] ...The Inside apprenticeship is a paid, earn-while-you-learn program combining on-the-job training with classroom instruction, run by the Colorado Springs Electrical JATC. ![Colorado Springs Electrical JATC](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fcsejatc-logo.webp&w=640&q=75) ### Classifications Trades you can train for through this apprenticeship. - Inside Wireman Install a...
+  [https://ibew113.com/apprenticeship] ...![Colorado Springs Electrical JATC](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fcsejatc-logo.webp&w=640&q=75) ### Classifications Trades you can train for through this apprenticeship. - Inside Wireman Install and maintain the wiring, controls and electrical systems in commercial, industrial and residential buildings. - VDV / Telecommunications Installer Technician Install and ...
+  [https://ibew113.com/apprenticeship] ...- VDV / Telecommunications Installer Technician Install and service low-voltage voice, data and video systems — structured cabling, networks and fiber. ### How to Apply Applications are handled by the training center below — not the union hall. Contact them directly to get started....
+  [https://ibew113.com/apprenticeship] ...Contact them directly to get started. Colorado Springs Electrical JATC 414 West Pikes Peak Ave, Colorado Springs, CO 80905 [(719) 473-1781](tel:7194731781) [John@CSEJATC.org](mailto:John@CSEJATC.org) [csejatc.org](https://www.csejatc.org/) Monday – Friday, 8:00 AM – 5:00 PM (closed 12:00 – 1:00 PM) The JATC is a partnership between IBEW Local 113 and NECA. Contact John DeLuke, Training Director, t...
+  [https://ibew113.com/apprenticeship] ...Colorado Springs Electrical JATC 414 West Pikes Peak Ave, Colorado Springs, CO 80905 [(719) 473-1781](tel:7194731781) [John@CSEJATC.org](mailto:John@CSEJATC.org) [csejatc.org](https://www.csejatc.org/) Monday – Friday, 8:00 AM – 5:00 PM (closed 12:00 – 1:00 PM) The JATC is a partnership between IBEW Local 113 and NECA. Contact John DeLuke, Training Director, to apply directly through the JATC offi...
+  [https://ibew113.com/apprenticeship] ...Contact John DeLuke, Training Director, to apply directly through the JATC office or website during open enrollment. [Visit csejatc.org](https://www.csejatc.org/) Outside — Lineman ## Apprentice Lineman Outside Linemen build and maintain the overhead and underground power lines that make up the electrical grid. The Outside apprenticeship is run by MSLCAT — the Mountain States Line Constructors App...
+  [https://ibew113.com/apprenticeship] ...[Visit csejatc.org](https://www.csejatc.org/) Outside — Lineman ## Apprentice Lineman Outside Linemen build and maintain the overhead and underground power lines that make up the electrical grid. The Outside apprenticeship is run by MSLCAT — the Mountain States Line Constructors Apprenticeship & Training program — serving a multi-state region. The closest training center to Colorado Springs is in ...
+  [https://ibew113.com/apprenticeship] ...The Outside apprenticeship is run by MSLCAT — the Mountain States Line Constructors Apprenticeship & Training program — serving a multi-state region. The closest training center to Colorado Springs is in the Denver area (Brighton, CO). ![MSLCAT — Mountain States Line Constructors Apprenticeship & Training](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fmslcat-logo.avif&w=640&q=75...
+  [https://ibew113.com/apprenticeship] ...The closest training center to Colorado Springs is in the Denver area (Brighton, CO). ![MSLCAT — Mountain States Line Constructors Apprenticeship & Training](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fmslcat-logo.avif&w=640&q=75) ### Classifications Trades you can train for through this apprenticeship. - Journeyman Lineman Build and maintain overhead and underground power lin...
+  [https://ibew113.com/apprenticeship] ...- Traffic Signal Technician Install and service traffic signals, street lighting and intelligent transportation systems. ### How to Apply Applications are handled by the training center below — not the union hall. Contact them directly to get started....
+  [https://ibew113.com/apprenticeship] ...Contact them directly to get started. MSLCAT — Mountain States Line Constructors Apprenticeship & Training Colorado Training Center: 19565 County Road 2, Brighton, CO 80603 · Admin Office: 8781 S. Redwood Rd, Suite 150, West Jordan, UT 84088 [(801) 562-2929](tel:8015622929) [office@mslcat.org](mailto:office@mslcat.org) [mslcat.org](https://www.mslcat.org/) Monday – Friday, 7:30 AM – 4:00 PM Mounta...
+  [https://ibew113.com/apprenticeship] ...Redwood Rd, Suite 150, West Jordan, UT 84088 [(801) 562-2929](tel:8015622929) [office@mslcat.org](mailto:office@mslcat.org) [mslcat.org](https://www.mslcat.org/) Monday – Friday, 7:30 AM – 4:00 PM Mountain Time MSLCAT is Utah-based and serves a multi-state area within the IBEW 8th District. Apply directly through MSLCAT — the closest facility to Colorado Springs is the Denver-area (Brighton) train...
+  [https://ibew113.com/apprenticeship] ...Apply directly through MSLCAT — the closest facility to Colorado Springs is the Denver-area (Brighton) training center. [Visit mslcat.org](https://www.mslcat.org/) ## HELMETS TO HARD HATS Helmets to Hard Hats is a national program that connects transitioning active-duty military, veterans, National Guard and Reserve members with career training in the building and construction trades — including t...
+  [https://ibew113.com/apprenticeship] ...It's free to join, and the skills and discipline you built in the service translate directly to a career in the trade. Veterans interested in an electrical career are encouraged to explore Helmets to Hard Hats, then apply through the JATC (Inside — Wireman) or MSLCAT (Outside — Lineman) as described above. [Visit helmetstohardhats.org](https://www.helmetstohardhats.org/) ![IBEW Local 113](https://...
+  [https://ibew113.com/contractors] ...## WHY PARTNER WITH IBEW? ### World-Class Training Access workers with up-to-date skills and certifications. ### Safety Record Lower your EMR with a safety-conscious workforce....
+  [https://ibew113.com/contractors] ...### Scalable Workforce Access qualified workers when you need them. ### Reduced HR Burden Benefits and training handled through the union. ### Project Labor Agreements Access PLA work and government contracts....
+  [https://ibew113.com/contractors] ...### GET STARTED TODAY Contact our office to learn more about becoming a signatory contractor. [1.719.633.3872](tel:7196333872) [info@ibew113.com](mailto:info@ibew113.com) ## OUR SIGNATORY CONTRACTORS IBEW Local 113 proudly partners with the following signatory contractors across inside (Wireman) and line (Lineman) work. ### INSIDE CONTRACTORS(19) ### ACTS Electric, LLC 523 S Cascade Ave., Suite 14...
+  [https://ibew113.com/dispatch] ...Lineman Number of Jobs 1 Job Location Peyton Hours - Starting Date 8/11/2026 Wage $61.46/hr Starting Time - Sub - Special Qualifications OSHA 30 Agreement Outside JL CompanyC&D ELECTRIC, INC ClassJour. Lineman Job LocationPeyton Starting Date8/11/2026 Starting Time- Special QualificationsOSHA 30 Date of Request08/10/2026 Number of Jobs1 Hours- Wage$61.46/hr Sub- AgreementOutside JL ### JOURNEYMAN ...
+  [https://ibew113.com/dispatch] ...Please check back tomorrow. ### RESIDENTIAL WIREMAN (0) There are no calls for Residential Wireman today. Please check back tomorrow....
+  [https://ibew113.com/members] ...[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\ \\ IBEW Local 113\\ \\ Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch) Join Resources [About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/) # MEMBER RESOURCES Access your benefits, train...
+  [https://ibew113.com/members] ...[Access Member Portal](https://ibew113.workingsystems.com/) ## MEMBER PORTAL Pay dues, re-sign or refine, bid on jobs, and update your information — all through the Working Systems member portal. [**Pay Dues** \\ Pay dues and manage your account online.](https://ibew113.workingsystems.com/) [**Re-Sign / Refine** \\ Re-sign or refine your position on the books.](https://ibew113.workingsystems.com/)...
+  [https://ibew113.com/members] ...Pension and annuity cover both. Select a provider to learn more or apply. ### HEALTH & WELFARE [Health & Welfare — Inside (Wireman)\\ **8th District Electrical Benefit Fund** \\ Medical, dental, and vision benefits for inside members.\\ \\ 844-989-2321\\ \\ ourbenefitoffice.com\\ \\ Dental: MetLife · Prescription: Sav-Rx](https://www.ourbenefitoffice.com/8thDistrictBenefits/Benefits/) [Health & We...
+  [https://ibew113.com/members] ...Select a provider to learn more or apply. ### HEALTH & WELFARE [Health & Welfare — Inside (Wireman)\\ **8th District Electrical Benefit Fund** \\ Medical, dental, and vision benefits for inside members.\\ \\ 844-989-2321\\ \\ ourbenefitoffice.com\\ \\ Dental: MetLife · Prescription: Sav-Rx](https://www.ourbenefitoffice.com/8thDistrictBenefits/Benefits/) [Health & Welfare — Outside (Lineman)\\ **LI...
+  [https://ibew113.com/members] ...### HEALTH & WELFARE [Health & Welfare — Inside (Wireman)\\ **8th District Electrical Benefit Fund** \\ Medical, dental, and vision benefits for inside members.\\ \\ 844-989-2321\\ \\ ourbenefitoffice.com\\ \\ Dental: MetLife · Prescription: Sav-Rx](https://www.ourbenefitoffice.com/8thDistrictBenefits/Benefits/) [Health & Welfare — Outside (Lineman)\\ **LINECO** \\ Line Construction Benefit Fund —...
+  [https://ibew113.com/members] ...Beyond inexpensive insurance, helping one another in times of need is what the Brotherhood Fund is truly about. Contribution and join amounts are set by member vote and are listed on the current application. Contact the hall to confirm today's figures....
+  [https://ibew113.com/members] ...Immediate Support Provides beneficiaries with cash quickly in a time of need. ### Join the Brotherhood Fund Download and complete the application, then return it to the union office with your payment. For any questions about the Brotherhood Fund, contact Mickey at the union hall at [(719) 633-3872](tel:17196333872)....
+  [https://ibew113.com/members] ...For any questions about the Brotherhood Fund, contact Mickey at the union hall at [(719) 633-3872](tel:17196333872). [Download Application (PDF)](https://ibew113.com/pdf/brotherhood_fund.pdf) ### NEED HELP? Contact the union hall with questions about your benefits, dues, or membership....
+  [https://ibew113.com/news] ...[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\ \\ IBEW Local 113\\ \\ Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch) Join Resources [About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/) # NEWS & EVENTS Stay connected with IBEW Local...
+  [https://ibew113.com/news] ...## EVENTS CALENDAR lu113ibew@gmail.com Today Monday, August 10 Previous month Next month August 2026 August 2026 Aug 2026 Send feedback to Google Month - Schedule - Week - Month - Schedule - Week - Month - Send feedback to Google SundaySun MondayMon TuesdayTue WednesdayWed ThursdayThu FridayFri SaturdaySat ## 26 ## 27 ## 28 ## 29 ## 30 ## 31 ## Aug 1 ## No events, Sunday, July 26 ## No events, Mon...
+  [https://ibew113.com/organizing] ...### Comprehensive Benefits Health insurance, dental, vision, and retirement plans that protect you and your family. ### Ongoing Training Access to world-class training programs and continuing education at no cost. ### Job Security Collective bargaining agreements protect your employment rights....
+
+PAGES:
+
+=== SOURCE URL: https://ibew113.com/ ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+![IBEW electrical workers](https://ibew113.com/_next/image?url=%2Fimages%2Fhero.jpg&w=1920&q=75)
+
+# IBEW LOCAL 113
+
+COLORADO SPRINGS
+
+[Member Portal](https://ibew113.workingsystems.com/) [View Job Calls](https://ibew113.com/dispatch)
+
+![IBEW electrical workers teamwork](https://ibew113.com/_next/image?url=%2Fimages%2Fteamwork.jpg&w=1920&q=75)
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=256&q=75)
+
+WHO WE ARE
+
+## POWERING THE PIKES PEAK REGION
+
+Local Union 113, of the International Brotherhood of Electrical Workers, has been proudly representing the skilled electrical workers of Colorado Springs and the Pikes Peak region for over 125 years.
+
+[Learn about our history](https://ibew113.com/about) [View our officers & staff](https://ibew113.com/about#leadership)
+
+## ORGANIZE YOUR  WORK PLACE
+
+IBEW, Local Union 113 is a labor union committed to advancing the ideals of the Labor Movement. Our members uphold the belief that every working individual deserves equal wages and benefits. Without collective action, both wages and working conditions are likely to persist unchanged. Federal laws and boards safeguard your right to establish a union in your workplace.
+
+[Interested in Joining a Union?](https://ibew113.com/organizing)
+
+![IBEW electrical worker](https://ibew113.com/_next/image?url=%2Fimages%2Fportrait.jpg&w=1920&q=75)
+
+## QUICK LINKS
+
+[**Job Dispatch** \\
+View current job calls and dispatch information](https://ibew113.com/dispatch)
+
+[**Apprenticeship** \\
+Start your career with our training program](https://ibew113.com/apprenticeship)
+
+[**Member Resources** \\
+Benefits, training, and member portal access](https://ibew113.com/members)
+
+[**Agreements** \\
+Wage scales and collective bargaining info](https://ibew113.com/agreements)
+
+[**Contractors** \\
+Partner with skilled union electricians](https://ibew113.com/contractors)
+
+[**News & Events** \\
+Stay updated with union activities](https://ibew113.com/news)
+
+## GET IN TOUCH
+
+[1.719.633.3872](tel:7196333872) [Info@IBEW113.com](mailto:info@ibew113.com)
+
+IBEW #113, 2150 Naegele Rd,
+
+Colorado Springs, CO 80904
+
+Questions? Ready to join? Contact us today.
+
+[Contact Us](https://ibew113.com/contact)
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/about ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+![IBEW electrical workers](https://ibew113.com/_next/image?url=%2Fimages%2Fgroup.jpg&w=1920&q=75)
+
+# IBEW LOCAL 113
+
+ABOUT US
+
+## NEED HELP? LOOK NO FURTHER THAN IBEW
+
+Together with the Southern Colorado Chapter of NECA, IBEW Local 113 delivers the region's highest-trained, most productive electrical workforce — committed to quality, value, and safety on every job.
+
+### Partnership for the Future
+
+IBEW Local Union #113 and the Southern Colorado Chapter of the National Electrical Contractors Association (NECA) are dedicated to creating an environment in which our partnership can flourish — built on a shared vision, shared risk taking, common objectives, mutual respect, trust, and a team approach. Partnering helps us create avenues to accommodate the needs of our customers and community.
+
+### Our Vision
+
+IBEW Local Union #113 and the Southern Colorado Chapter of NECA shall lead the electrical industry by excelling in all future opportunities. This cooperative effort is committed to customer satisfaction and safety.
+
+### Our Mission
+
+To be recognized as the leader in the electrical industry. Through partnering, we provide the best quality product and value to the customer, utilizing the highest trained and most productive workforce.
+
+## IBEW LOCAL 113
+
+OFFICERS & STAFF
+
+Executive BoardBusiness ManagerContact
+
+### EXECUTIVE BOARD
+
+#### Daniel Mondragon
+
+Business Manager/Financial Secretary
+
+#### Anthony Henderson
+
+President
+
+#### Jeff Pressel
+
+Vice President
+
+#### Ken Schauer
+
+Treasurer
+
+#### Justin McMahon
+
+Recording Secretary
+
+#### Robert Luerssen
+
+Executive Board
+
+#### Kiel Henderson
+
+Executive Board
+
+#### James Irsik
+
+Executive Board
+
+#### Kevin Kilbane
+
+Executive Board
+
+#### Travis Knox
+
+Executive Board
+
+#### Les Thompson
+
+Executive Board
+
+#### Eddie Nelson
+
+Executive Board
+
+## 126 YEARS OF SERVICE
+
+A proud tradition of excellence in the electrical trade
+
+1900
+
+IBEW Local 113 founded in Colorado Springs
+
+1930s
+
+Survived the Great Depression, maintained member benefits
+
+1950s
+
+Post-war expansion, growth in residential and commercial work
+
+1970s
+
+Major infrastructure projects across the Pikes Peak region
+
+2000s
+
+Expanded training programs and JATC partnership
+
+2025
+
+Celebrating 125 years of service to Colorado Springs
+
+![IBEW Local 113 history](https://ibew113.com/_next/image?url=%2Fimages%2Fhero.jpg&w=1920&q=75)
+
+## OUR JURISDICTION
+
+IBEW Local 113 proudly serves the electrical workers of the Pikes Peak region, including El Paso, Teller, and surrounding counties.
+
+[Maps](about:invalid#zClosurez "Maps (opens in new tab)")
+
+### UNION HALL
+
+IBEW Local 113
+
+2150 Naegele Rd
+
+Colorado Springs, CO 80904
+
+[1.719.633.3872](tel:7196333872)
+
+[Info@IBEW113.com](mailto:info@ibew113.com)
+
+Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/agreements ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# AGREEMENTS & WAGE SCALES
+
+IBEW Local 113 negotiates fair wages and working conditions for electrical workers.
+
+## WAGE CLASSIFICATIONS
+
+### Journeyman Wireman (Inside)
+
+Commercial and industrial electrical work
+
+- Full journeyman rate
+- Health & welfare
+- Pension
+- Annuity
+
+### Journeyman Lineman
+
+Outside line construction and maintenance
+
+- Full journeyman rate
+- Health & welfare
+- Pension
+- Annuity
+
+### Residential Wireman
+
+Residential electrical construction
+
+- Competitive rate
+- Health & welfare
+- Pension
+- Training
+
+### VDV Technician
+
+Voice, data, and video installation
+
+- Competitive rate
+- Health & welfare
+- Pension
+- Training
+
+### Apprentice
+
+Percentage of journeyman rate based on year
+
+- Progressive increases
+- Health & welfare
+- Training provided
+- Book costs covered
+
+For specific wage rates, contact the union hall at [(719) 633-3872](tel:7196333872)
+
+## COLLECTIVE BARGAINING AGREEMENTS
+
+### Inside Agreement
+
+Commercial and industrial electrical construction.
+
+IBEW Local 113 & NECA Colorado Springs
+
+### Residential Agreement
+
+Residential electrical construction.
+
+IBEW Local 113 & NECA Colorado Springs
+
+### Outside Line Agreement
+
+Outside line construction and maintenance.
+
+IBEW Local 113 & Signatory Contractors
+
+### VDV Agreement
+
+Voice, data, and video installation.
+
+IBEW Local 113 & Signatory Contractors
+
+### NEED AGREEMENT DOCUMENTS?
+
+Full agreements are available through the Member Portal or by contacting the hall.
+
+[Member Portal](https://ibew113.workingsystems.com/) [(719) 633-3872](tel:7196333872)
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/apprenticeship ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# APPRENTICESHIP & TRAINING
+
+Earn while you learn. IBEW Local 113 represents two apprenticeship paths — Inside (Wireman) and Outside (Lineman). Choose your path below to learn how to get started.
+
+## CHOOSE YOUR PATH
+
+There are two apprenticeship programs. Pick the one that fits the career you want. Each is run by its own training center — that's who you apply to.
+
+[Inside\\
+**Apprentice Wireman** \\
+Commercial, industrial and residential electrical work — the electricians who wire buildings.\\
+Learn how to apply](https://ibew113.com/apprenticeship#inside) [Outside\\
+**Apprentice Lineman** \\
+Overhead and underground power lines — the linemen who build and maintain the electrical grid.\\
+Learn how to apply](https://ibew113.com/apprenticeship#outside)
+
+Inside — Wireman
+
+## Apprentice Wireman
+
+Inside Wiremen are the electricians who install and maintain the wiring, controls and electrical systems in commercial, industrial and residential buildings. The Inside apprenticeship is a paid, earn-while-you-learn program combining on-the-job training with classroom instruction, run by the Colorado Springs Electrical JATC.
+
+![Colorado Springs Electrical JATC](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fcsejatc-logo.webp&w=640&q=75)
+
+### Classifications
+
+Trades you can train for through this apprenticeship.
+
+- Inside Wireman
+
+
+
+Install and maintain the wiring, controls and electrical systems in commercial, industrial and residential buildings.
+
+- VDV / Telecommunications Installer Technician
+
+
+
+Install and service low-voltage voice, data and video systems — structured cabling, networks and fiber.
+
+
+### How to Apply
+
+Applications are handled by the training center below — not the union hall. Contact them directly to get started.
+
+Colorado Springs Electrical JATC
+
+414 West Pikes Peak Ave, Colorado Springs, CO 80905
+
+[(719) 473-1781](tel:7194731781) [John@CSEJATC.org](mailto:John@CSEJATC.org) [csejatc.org](https://www.csejatc.org/)
+
+Monday – Friday, 8:00 AM – 5:00 PM (closed 12:00 – 1:00 PM)
+
+The JATC is a partnership between IBEW Local 113 and NECA. Contact John DeLuke, Training Director, to apply directly through the JATC office or website during open enrollment.
+
+[Visit csejatc.org](https://www.csejatc.org/)
+
+Outside — Lineman
+
+## Apprentice Lineman
+
+Outside Linemen build and maintain the overhead and underground power lines that make up the electrical grid. The Outside apprenticeship is run by MSLCAT — the Mountain States Line Constructors Apprenticeship & Training program — serving a multi-state region. The closest training center to Colorado Springs is in the Denver area (Brighton, CO).
+
+![MSLCAT — Mountain States Line Constructors Apprenticeship & Training](https://ibew113.com/_next/image?url=%2Fimages%2Fapprenticeship%2Fmslcat-logo.avif&w=640&q=75)
+
+### Classifications
+
+Trades you can train for through this apprenticeship.
+
+- Journeyman Lineman
+
+
+
+Build and maintain overhead and underground power lines — the backbone of the electrical grid.
+
+- Line Equipment Operator
+
+
+
+Operate the cranes, diggers and heavy equipment used in line construction.
+
+- Substation Technician
+
+
+
+Construct, wire and maintain the substations that step power up and down across the grid.
+
+- Traffic Signal Technician
+
+
+
+Install and service traffic signals, street lighting and intelligent transportation systems.
+
+
+### How to Apply
+
+Applications are handled by the training center below — not the union hall. Contact them directly to get started.
+
+MSLCAT — Mountain States Line Constructors Apprenticeship & Training
+
+Colorado Training Center: 19565 County Road 2, Brighton, CO 80603 · Admin Office: 8781 S. Redwood Rd, Suite 150, West Jordan, UT 84088
+
+[(801) 562-2929](tel:8015622929) [office@mslcat.org](mailto:office@mslcat.org) [mslcat.org](https://www.mslcat.org/)
+
+Monday – Friday, 7:30 AM – 4:00 PM Mountain Time
+
+MSLCAT is Utah-based and serves a multi-state area within the IBEW 8th District. Apply directly through MSLCAT — the closest facility to Colorado Springs is the Denver-area (Brighton) training center.
+
+[Visit mslcat.org](https://www.mslcat.org/)
+
+## HELMETS TO HARD HATS
+
+Helmets to Hard Hats is a national program that connects transitioning active-duty military, veterans, National Guard and Reserve members with career training in the building and construction trades — including the IBEW/NECA electrical apprenticeship. It's free to join, and the skills and discipline you built in the service translate directly to a career in the trade.
+
+Veterans interested in an electrical career are encouraged to explore Helmets to Hard Hats, then apply through the JATC (Inside — Wireman) or MSLCAT (Outside — Lineman) as described above.
+
+[Visit helmetstohardhats.org](https://www.helmetstohardhats.org/)
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/contact ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# CONTACT US
+
+Get in touch with IBEW Local 113. We're here to help.
+
+[1.719.633.3872](tel:7196333872) [Info@IBEW113.com](mailto:info@ibew113.com)
+
+### SEND US A MESSAGE
+
+Don't fill this out if you're human:
+
+Name \*
+
+Email \*
+
+Phone
+
+Subject \*
+
+Message \*
+
+Send Message
+
+### UNION HALL
+
+Address
+
+2150 Naegele Rd
+
+Colorado Springs, CO 80904
+
+Phone
+
+[(719) 633-3872](tel:7196333872)
+
+Email
+
+[info@ibew113.com](mailto:info@ibew113.com)
+
+Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Union Meetings
+
+1st & 3rd Wednesday of each month
+
+6:30 PM at the union hall
+
+Follow Us
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+[Maps](about:invalid#zClosurez "Maps (opens in new tab)")
+
+IBEW Local 113 — 2150 Naegele Rd, Colorado Springs, CO 80904
+
+[Get Directions](https://www.google.com/maps/dir//2150+Naegele+Rd,+Colorado+Springs,+CO+80904)
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/contractors ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# PARTNER WITH IBEW LOCAL 113
+
+Access the most skilled, safety-trained workforce in the electrical industry.
+
+## WHY PARTNER WITH IBEW?
+
+### World-Class Training
+
+Access workers with up-to-date skills and certifications.
+
+### Safety Record
+
+Lower your EMR with a safety-conscious workforce.
+
+### On-Time Completion
+
+Skilled workers get the job done right the first time.
+
+### Scalable Workforce
+
+Access qualified workers when you need them.
+
+### Reduced HR Burden
+
+Benefits and training handled through the union.
+
+### Project Labor Agreements
+
+Access PLA work and government contracts.
+
+## BECOME A SIGNATORY
+
+1
+
+### Contact Us
+
+Discuss your business needs and partnership benefits.
+
+2
+
+### Review Agreement
+
+We'll walk you through the collective bargaining agreement.
+
+3
+
+### Sign & Start
+
+Immediate access to our hiring hall and skilled workforce.
+
+### GET STARTED TODAY
+
+Contact our office to learn more about becoming a signatory contractor.
+
+[1.719.633.3872](tel:7196333872) [info@ibew113.com](mailto:info@ibew113.com)
+
+## OUR SIGNATORY CONTRACTORS
+
+IBEW Local 113 proudly partners with the following signatory contractors across inside (Wireman) and line (Lineman) work.
+
+### INSIDE CONTRACTORS(19)
+
+### ACTS Electric, LLC
+
+523 S Cascade Ave., Suite 140, Colorado Springs, CO 80903
+
+[719-627-5299](tel:7196275299)
+
+Fax: 719-627-5701
+
+### B W Electric
+
+4305 North Park Dr., Colorado Springs, CO 80907
+
+[719-633-0718](tel:7196330718)
+
+Fax: 719-633-8351
+
+### Colorado Springs Motor Repair Shop
+
+316 Juanita, Colorado Springs, CO 80909
+
+[719-473-7744](tel:7194737744)
+
+### Dynalectric Company of Colorado
+
+7927 Red Granite Loop, Colorado Springs, CO 80939
+
+[719-597-9777](tel:7195979777)
+
+Fax: 719-597-6050
+
+### Electric Power and Process, Inc.
+
+P.O. Box 2022, Buena Vista, CO 81211
+
+[719-395-2233](tel:7193952233)
+
+Fax: 719-395-4913
+
+### Faith Enterprises
+
+1410 Ford Street, Colorado Springs, CO 80970
+
+[719-578-8281](tel:7195788281)
+
+### Green Electric
+
+637 Winter Drive, Colorado Springs, CO 80907
+
+[719-630-3352](tel:7196303352)
+
+Fax: 719-630-3424
+
+### Guarantee Electric
+
+4630 Forge Road, Colorado Springs, CO 80907
+
+[719-632-7683](tel:7196327683)
+
+Fax: 719-471-9660
+
+### Integrity Power Services
+
+2695 Holden Road, Woodland Park, CO 80863
+
+[719-640-5156](tel:7196405156)
+
+### Lenz Electric
+
+3514 E. St. Vrain St., Unit A, Colorado Springs, CO 80909
+
+[719-573-2700](tel:7195732700)
+
+Fax: 719-573-2703
+
+### Main Electric
+
+1115 N. Erie Ave., Pueblo, CO 81001
+
+[719-524-4114](tel:7195244114)
+
+### McDade-Woodcock
+
+P.O. Box 7349, Colorado Springs, CO 80933
+
+[719-264-1236](tel:7192641236)
+
+### PLS Electrical
+
+5090 Centennial Blvd, Colorado Springs, CO 80919
+
+[719-232-0185](tel:7192320185)
+
+### Pueblo Electric, Inc.
+
+300 Santa Fe Drive, P.O. Box 3246, Pueblo, CO 81002
+
+[719-584-2080](tel:7195842080)
+
+Fax: 719-584-3247
+
+### Rigdon Electric
+
+1130 Glenrock Drive, Colorado Springs, CO 80926
+
+[719-491-9940](tel:7194919940)
+
+### Rockhill Electrical Systems
+
+1410 W. Vermijo, Colorado Springs, CO 80904
+
+[719-634-2276](tel:7196342276)
+
+Fax: 719-634-1150
+
+### Sedlak Electric Co.
+
+833-1 East Platte Ave., Colorado Springs, CO 80903
+
+[719-635-1647](tel:7196351647)
+
+### Sturgeon Electric
+
+12150 East 112th Avenue, Henderson, CO 80640
+
+[303-286-8000](tel:3032868000)
+
+Fax: 303-286-1811
+
+### Wild Electric
+
+P.O. Box 2743, Monument, CO
+
+[719-243-2255](tel:7192432255)
+
+### LINE CONTRACTORS(9)
+
+### C&D Electric
+
+2875 Akers Drive, Colorado Springs, CO 80922
+
+[719-667-1200](tel:7196671200)
+
+### Hooper
+
+4475 E 74th Ave, Suite 100, Commerce City, CO 80022
+
+[303-243-5967](tel:3032435967)
+
+### Main Electric
+
+1115 N. Erie Ave., Pueblo, CO 81001
+
+[719-524-4114](tel:7195244114)
+
+### Miller Pipeline
+
+421 E. Industrial Blvd., Pueblo, CO 81007
+
+[719-547-0242](tel:7195470242)
+
+Fax: 719-547-9297
+
+### PAR Electrical Contractors, Inc.
+
+725 Tower Road, Aurora, CO 80011
+
+[303-366-0127](tel:3033660127)
+
+### PLS Electrical
+
+5090 Centennial Blvd., Colorado Springs, CO 80919
+
+[719-232-0185](tel:7192320185)
+
+### Static Line
+
+8338 Cessna Drive, Peyton, CO 80831
+
+[719-500-9474](tel:7195009474)
+
+### Sturgeon Electric
+
+12150 E. 112th Ave., Henderson, CO 80640
+
+[303-286-8000](tel:3032868000)
+
+Fax: 303-286-1811
+
+### Ward Electric Company
+
+P.O. Box 1057, Longmont, CO 80502
+
+[303-682-0066](tel:3036820066)
+
+Fax: 303-682-6443
+
+Looking for a union electrical contractor? [Contact us](https://ibew113.com/contact) for referrals.
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/dispatch ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# JOB DISPATCH
+
+Current job calls available for IBEW Local 113 members.
+
+Online job bidding opens daily at 5:00 PM Mountain Time and remains open until 8:00 AM the following day. Bidding is open all day on weekends and holidays.
+
+[Member Portal](https://ibew113.workingsystems.com/)
+
+### JOURNEYMAN LINEMAN (1)
+
+1
+
+Company
+
+C&D ELECTRIC, INC
+
+Date of Request
+
+08/10/2026
+
+Class
+
+Jour. Lineman
+
+Number of Jobs
+
+1
+
+Job Location
+
+Peyton
+
+Hours
+
+-
+
+Starting Date
+
+8/11/2026
+
+Wage
+
+$61.46/hr
+
+Starting Time
+
+-
+
+Sub
+
+-
+
+Special Qualifications
+
+OSHA 30
+
+Agreement
+
+Outside JL
+
+CompanyC&D ELECTRIC, INC
+
+ClassJour. Lineman
+
+Job LocationPeyton
+
+Starting Date8/11/2026
+
+Starting Time-
+
+Special QualificationsOSHA 30
+
+Date of Request08/10/2026
+
+Number of Jobs1
+
+Hours-
+
+Wage$61.46/hr
+
+Sub-
+
+AgreementOutside JL
+
+### JOURNEYMAN WIREMAN (0)
+
+There are no calls for Journeyman Wireman today. Please check back tomorrow.
+
+### LINE EQUIPMENT OPERATOR (0)
+
+There are no calls for Line Equipment Operator today. Please check back tomorrow.
+
+### RESIDENTIAL WIREMAN (0)
+
+There are no calls for Residential Wireman today. Please check back tomorrow.
+
+### VDV TECHNICIAN (0)
+
+There are no calls for VDV Technician today. Please check back tomorrow.
+
+### TRAFFIC TECHNICIAN (0)
+
+There are no calls for Traffic Technician today. Please check back tomorrow.
+
+### GROUNDMAN (0)
+
+There are no calls for Groundman today. Please check back tomorrow.
+
+### OTHER (0)
+
+There are no calls for Other today. Please check back tomorrow.
+
+To sign the books or bid on available jobs, please contact dispatch:
+
+[Call Dispatch: (719) 633-3872](tel:7196333872)
+
+## HOW TO RE-SIGN
+
+You must re-sign the out-of-work list each calendar quarter to keep your position on the books. How you re-sign depends on which book you're on.
+
+### Book 1
+
+Re-sign online through the Working Systems member portal.
+
+[Re-Sign on the Member Portal](https://ibew113.workingsystems.com/)
+
+### Books 2, 3 & 4
+
+Email your information to dispatch (Book 1 may also re-sign this way if preferred). Include:
+
+- Your name
+- Your Local #
+- Book #
+- Your email (optional)
+
+[dispatch@ibew113.com](mailto:dispatch@ibew113.com)
+
+### Quarterly Schedule
+
+Re-sign on the first working day of each new calendar quarter — January, April, July, and October. There is a 15-day grace period: mailed re-signs must be received between the 1st and close of business on the 15th of the quarter.
+
+### In Person or by Mail
+
+You may also re-sign by walk-in during regular office hours, or by mail to:
+
+IBEW Local 113
+
+2150 Naegele Rd
+
+Colorado Springs, CO 80904
+
+## HOW DISPATCH WORKS
+
+### Sign the Books
+
+Register at the union hall.
+
+### Bid on the Call You Would Like to Take
+
+Review the open calls and bid on the jobs you want. Calls are awarded based on your position on the books.
+
+### Respond Promptly
+
+When called, respond within 15 minutes to accept or decline the job.
+
+## DISPATCH OFFICE
+
+Questions about dispatch or job calls? Contact the dispatch office.
+
+[1.719.633.3872](tel:7196333872)
+
+Dispatch Hours
+
+Monday - Friday: 8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+### Maintenance Contracts
+
+We represent multiple maintenance contracts at the Air Force Academy, Ft. Carson, Peterson, and Schriever. If you are interested in learning more, please call the hall.
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/members ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# MEMBER RESOURCES
+
+Access your benefits, training resources, and the member portal.
+
+[Access Member Portal](https://ibew113.workingsystems.com/)
+
+## MEMBER PORTAL
+
+Pay dues, re-sign or refine, bid on jobs, and update your information — all through the Working Systems member portal.
+
+[**Pay Dues** \\
+Pay dues and manage your account online.](https://ibew113.workingsystems.com/) [**Re-Sign / Refine** \\
+Re-sign or refine your position on the books.](https://ibew113.workingsystems.com/) [**Bid on Jobs** \\
+View job requests and bid on open calls.](https://ibew113.workingsystems.com/) [**Update Your Info** \\
+Change your address, email, or password.](https://ibew113.workingsystems.com/)
+
+[Access Member Portal](https://ibew113.workingsystems.com/)
+
+## BENEFITS & FUNDS
+
+Health care differs for inside (Wireman) and outside (Lineman) members. Pension and annuity cover both. Select a provider to learn more or apply.
+
+### HEALTH & WELFARE
+
+[Health & Welfare — Inside (Wireman)\\
+**8th District Electrical Benefit Fund** \\
+Medical, dental, and vision benefits for inside members.\\
+\\
+844-989-2321\\
+\\
+ourbenefitoffice.com\\
+\\
+Dental: MetLife · Prescription: Sav-Rx](https://www.ourbenefitoffice.com/8thDistrictBenefits/Benefits/)
+
+[Health & Welfare — Outside (Lineman)\\
+**LINECO** \\
+Line Construction Benefit Fund — portable health & welfare benefits for outside members.\\
+\\
+800-323-7268\\
+\\
+lineco.org](https://lineco.org/)
+
+### PENSION, ANNUITY & NATIONAL FUNDS
+
+[Pension — Inside & Outside\\
+**8th District Pension Fund** \\
+Defined-benefit pension for both inside and outside members.\\
+\\
+844-989-2321\\
+\\
+ourbenefitoffice.com](https://www.ourbenefitoffice.com/8thDistrictBenefits/Benefits/)
+
+[Annuity — Inside & Outside\\
+**Empower** \\
+Manage your annuity account and retirement savings.\\
+\\
+empower.com](https://www.empower.com/)
+
+[National — Inside & Outside\\
+**National Electrical Benefit Fund (NBF)** \\
+National retirement benefit for IBEW electrical workers.\\
+\\
+nebf.com](https://www.nebf.com/)
+
+### SUPPORT & NATIONAL UNION
+
+[Mental Health & EAP\\
+**Blomquist Hale** \\
+Confidential mental-health and employee-assistance support for members and their families.\\
+\\
+801-262-9619\\
+\\
+blomquisthale.com](https://www.blomquisthale.com/)
+
+[National Union\\
+**IBEW International** \\
+The International Brotherhood of Electrical Workers.\\
+\\
+ibew.org](https://www.ibew.org/)
+
+[Regional\\
+**IBEW 8th District — Colorado** \\
+Colorado falls within the IBEW 8th District. News, resources, and locals across the state.\\
+\\
+ibew.org/8thdistrict](https://www.ibew.org/8thdistrict/Colorado)
+
+### RELATED LINKS
+
+#### Colorado IBEW Locals
+
+- [IBEW Local 12 — Pueblo, CO](https://ibew12.org/)
+- IBEW Local 667 — Pueblo, CO
+- [IBEW Local 68 — Denver, CO](https://www.ibewlu68.com/)
+- IBEW Local 2159 — Montrose, CO
+- [IBEW Local 111 — Statewide](https://ibew111.org/)
+- [IBEW Local Union Directory](https://www.ibew.org/Tools/Local-Union-Directory)
+
+#### Member Services
+
+- [113 Credit Union](https://www.113creditunion.com/)
+- [Colorado Springs Electrical JATC](https://www.csejatc.org/)
+- [Mountain States Line Constructors (MSLCAT)](https://www.mslcat.org/)
+- [Southern Colorado Chapter, NECA](https://www.sccneca.org/)
+
+## BROTHERHOOD FUND
+
+A voluntary, members-only fund that provides a beneficiary with immediate cash in a member's time of need. Open to all brother and sister members in good standing of IBEW Local 113.
+
+### A Little History
+
+In 1961, a group of Local 113 members began working toward a way to protect their brothers' and sisters' beneficiaries in their time of need — something that would provide immediate cash within roughly 48 hours. In late October 1962 a plan was approved and the Brotherhood Fund was born as a voluntary fund.
+
+As the needs of the membership grew, the by-laws were amended over the years by member vote to keep the fund sustainable and cover administrative costs. Beyond inexpensive insurance, helping one another in times of need is what the Brotherhood Fund is truly about.
+
+Contribution and join amounts are set by member vote and are listed on the current application. Contact the hall to confirm today's figures.
+
+Members Only
+
+Open to members in good standing of Local 113.
+
+Immediate Support
+
+Provides beneficiaries with cash quickly in a time of need.
+
+### Join the Brotherhood Fund
+
+Download and complete the application, then return it to the union office with your payment. For any questions about the Brotherhood Fund, contact Mickey at the union hall at [(719) 633-3872](tel:17196333872).
+
+[Download Application (PDF)](https://ibew113.com/pdf/brotherhood_fund.pdf)
+
+### NEED HELP?
+
+Contact the union hall with questions about your benefits, dues, or membership.
+
+[1.719.633.3872](tel:7196333872) [Info@IBEW113.com](mailto:info@ibew113.com)
+
+### OFFICE HOURS
+
+Monday - Friday
+
+8:00 AM - 12:00 PM
+
+1:00 PM - 5:00 PM
+
+2150 Naegele Rd
+
+Colorado Springs, CO 80904
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/news ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# NEWS & EVENTS
+
+Stay connected with IBEW Local 113. Check out upcoming meetings, training classes, and events.
+
+## EVENTS CALENDAR
+
+lu113ibew@gmail.com
+
+Today
+
+Monday, August 10
+
+Previous month
+
+Next month
+
+August 2026
+
+August 2026
+
+Aug 2026
+
+Send feedback to Google
+
+Month
+
+- Schedule
+- Week
+- Month
+
+- Schedule
+- Week
+- Month
+- Send feedback to Google
+
+SundaySun
+
+MondayMon
+
+TuesdayTue
+
+WednesdayWed
+
+ThursdayThu
+
+FridayFri
+
+SaturdaySat
+
+## 26
+
+## 27
+
+## 28
+
+## 29
+
+## 30
+
+## 31
+
+## Aug 1
+
+## No events, Sunday, July 26
+
+## No events, Monday, July 27
+
+## No events, Tuesday, July 28
+
+## No events, Wednesday, July 29
+
+## No events, Thursday, July 30
+
+## No events, Friday, July 31
+
+## No events, Saturday, August 1
+
+## 2
+
+## 3
+
+## 4
+
+## 5
+
+## 6
+
+## 7
+
+## 8
+
+## No events, Sunday, August 2
+
+## No events, Monday, August 3
+
+## No events, Tuesday, August 4
+
+## No events, Wednesday, August 5
+
+## No events, Thursday, August 6
+
+## No events, Friday, August 7
+
+## No events, Saturday, August 8
+
+## 9
+
+## 10
+
+## 11
+
+## 12
+
+## 13
+
+## 14
+
+## 15
+
+## No events, Sunday, August 9
+
+## No events, Monday, August 10, today
+
+## No events, Tuesday, August 11
+
+## No events, Wednesday, August 12
+
+## No events, Thursday, August 13
+
+## No events, Friday, August 14
+
+## No events, Saturday, August 15
+
+## 16
+
+## 17
+
+## 18
+
+## 19
+
+## 20
+
+## 21
+
+## 22
+
+## No events, Sunday, August 16
+
+## No events, Monday, August 17
+
+## No events, Tuesday, August 18
+
+## No events, Wednesday, August 19
+
+## No events, Thursday, August 20
+
+## No events, Friday, August 21
+
+## No events, Saturday, August 22
+
+## 23
+
+## 24
+
+## 25
+
+## 26
+
+## 27
+
+## 28
+
+## 29
+
+## No events, Sunday, August 23
+
+## No events, Monday, August 24
+
+## No events, Tuesday, August 25
+
+## No events, Wednesday, August 26
+
+## No events, Thursday, August 27
+
+## No events, Friday, August 28
+
+## No events, Saturday, August 29
+
+## 30
+
+## 31
+
+## Sep 1
+
+## 2
+
+## 3
+
+## 4
+
+## 5
+
+## No events, Sunday, August 30
+
+## No events, Monday, August 31
+
+## No events, Tuesday, September 1
+
+## No events, Wednesday, September 2
+
+## No events, Thursday, September 3
+
+## No events, Friday, September 4
+
+## No events, Saturday, September 5
+
+Add to Google Calendar
+
+Add to Google Calendar (opens a new tab)
+
+![](https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_60x24px.svg) Calendar
+
+[Add to your Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=lu113ibew@gmail.com)
+
+## LATEST ANNOUNCEMENTS
+
+No recent announcements at this time.
+
+Check back soon for updates on union meetings, training opportunities, and events.
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.
+
+=== SOURCE URL: https://ibew113.com/organizing ===
+[![IBEW Local 113 Logo](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)\\
+\\
+IBEW Local 113\\
+\\
+Colorado Springs, CO](https://ibew113.com/) [Members](https://ibew113.com/members) [Dispatch](https://ibew113.com/dispatch)
+
+Join
+
+Resources
+
+[About](https://ibew113.com/about) [Member Portal](https://ibew113.workingsystems.com/)
+
+# ORGANIZE YOUR WORKPLACE
+
+Are you a non-union electrical worker who wants better wages, benefits, and working conditions? Bring IBEW Local 113 to your shop. We'll help you and your coworkers organize — confidentially and at no cost to you.
+
+## WHY JOIN THE IBEW?
+
+### Better Wages
+
+Union electricians earn significantly more than their non-union counterparts.
+
+### Comprehensive Benefits
+
+Health insurance, dental, vision, and retirement plans that protect you and your family.
+
+### Ongoing Training
+
+Access to world-class training programs and continuing education at no cost.
+
+### Job Security
+
+Collective bargaining agreements protect your employment rights.
+
+### Brotherhood
+
+Join a community of skilled professionals who support each other.
+
+### Fair Treatment
+
+Grievance procedures ensure workplace disputes are resolved fairly.
+
+## HOW ORGANIZING WORKS
+
+### Initial Contact
+
+Reach out to our organizing team. All conversations are confidential.
+
+### Build Support
+
+Connect with coworkers who share your interest in better conditions.
+
+### Authorization Cards
+
+Employees sign cards indicating their desire for union representation.
+
+### NLRB Election
+
+The National Labor Relations Board conducts a secret ballot election.
+
+### Negotiate Contract
+
+After winning, we negotiate a collective bargaining agreement.
+
+## READY TO ORGANIZE?
+
+Contact our organizing team today. All inquiries are kept strictly confidential.
+
+100% Confidential
+
+[1.719.633.3872](tel:7196333872) [info@ibew113.com](mailto:info@ibew113.com)
+
+Your right to organize is protected by the National Labor Relations Act.
+
+![IBEW Local 113](https://ibew113.com/_next/image?url=%2Fimages%2Fibew113_logo.png&w=1920&q=75)
+
+IBEW Local 113
+
+Est. 1900
+
+The International Brotherhood of Electrical Workers Local 113 proudly serves electrical workers in the Colorado Springs area.
+
+[Facebook](https://www.facebook.com/ibew.onethirteen/ "Facebook")[Instagram](https://www.instagram.com/ibew113/ "Instagram")[X (Twitter)](https://twitter.com/ibew113 "X (Twitter)")[YouTube](https://www.youtube.com/@ibew113 "YouTube")
+
+### Quick Links
+
+- [About Us](https://ibew113.com/about)
+- [Job Dispatch](https://ibew113.com/dispatch)
+- [Member Resources](https://ibew113.com/members)
+- [Contact Us](https://ibew113.com/contact)
+
+### Contact
+
+- 2150 Naegele Rd
+
+Colorado Springs, CO 80904
+- [(719) 633-3872](tel:7196333872)
+- [info@ibew113.com](mailto:info@ibew113.com)
+
+### Office Hours
+
+Monday - Friday
+
+8:00 AM - 12:00 PM & 1:00 PM - 5:00 PM
+
+Closed Saturday & Sunday
+
+© 2026 IBEW Local 113. All rights reserved.

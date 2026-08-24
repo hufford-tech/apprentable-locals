@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Allegan County, MI",
+    "District": "6",
+    "Population": "105665",
+    "LandArea": "827.46",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Barry County, MI",
+    "District": "6",
+    "Population": "56755",
+    "LandArea": "556.13",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ionia County, MI",
+    "District": "6",
+    "Population": "61518",
+    "LandArea": "573.21",
+    "Percentage": "65%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Isabella County, MI",
+    "District": "6",
+    "Population": "63351",
+    "LandArea": "574.27",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kent County, MI",
+    "District": "6",
+    "Population": "574335",
+    "LandArea": "856.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lake County, MI",
+    "District": "6",
+    "Population": "11333",
+    "LandArea": "567.43",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mason County, MI",
+    "District": "6",
+    "Population": "28274",
+    "LandArea": "495.17",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mecosta County, MI",
+    "District": "6",
+    "Population": "40553",
+    "LandArea": "555.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Montcalm County, MI",
+    "District": "6",
+    "Population": "61266",
+    "LandArea": "708.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Muskegon County, MI",
+    "District": "6",
+    "Population": "170200",
+    "LandArea": "509.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Newaygo County, MI",
+    "District": "6",
+    "Population": "47874",
+    "LandArea": "842.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oceana County, MI",
+    "District": "6",
+    "Population": "26873",
+    "LandArea": "540.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Osceola County, MI",
+    "District": "6",
+    "Population": "23197",
+    "LandArea": "565.98",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ottawa County, MI",
+    "District": "6",
+    "Population": "238314",
+    "LandArea": "565.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

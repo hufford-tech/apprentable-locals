@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1920  (rr) North Platte[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1920|North Platte|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "715",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 54[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4770",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 54",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Platte, NE 69103[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4770",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Platte|NE|69103",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](308) 530-4443[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1973",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(308) 530-4443",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1920sec@gmail.com\" target=\"_blank\">ibew1920sec@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "669",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1920sec@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1920.org\" target=\"_blank\">www.ibew1920.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1920.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Cosme F. Barron[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2182",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cosme|F.|Barron||{ \"MemberID\" : \"2182\",\"luid\": \"715\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3321 Cosme Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Platte\",\"state\":\"NE\",\"zip\":\"69101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Lawrence E. Marquette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4029",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lawrence|E.|Marquette||{ \"MemberID\" : \"4029\",\"luid\": \"715\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3321 Cosme Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Platte\",\"state\":\"NE\",\"zip\":\"69101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Jonathan J. Gaedke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2183",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|J.|Gaedke||{ \"MemberID\" : \"2183\",\"luid\": \"715\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"321 Baytree Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Platte\",\"state\":\"NE\",\"zip\":\"69101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Latisha R. Dunton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2184",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Latisha|R.|Dunton||{ \"MemberID\" : \"2184\",\"luid\": \"715\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"914 E 5th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Platte\",\"state\":\"NE\",\"zip\":\"69101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]North Platte Eagles Hall, 620 N Chestnut Street, 2nd Tuesday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "Meets",
+    "editFieldValues": "North Platte Eagles Hall, 620 N Chestnut Street, 2nd Tuesday",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1057  (mo, u) Woodland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "521",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1057|Woodland|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "521",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 640[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4473",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 640",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Baileyville, ME 04694[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4473",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Baileyville|ME|04694",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](207) 214-0455[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2197",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 214-0455",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:brian.boomer@igic.com\" target=\"_blank\">brian.boomer@igic.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2203",
+    "editFieldNames": "Email",
+    "editFieldValues": "brian.boomer@igic.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Joshua M. Curtis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1600",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|M.|Curtis||{ \"MemberID\" : \"1600\",\"luid\": \"521\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 640\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baileyville\",\"state\":\"ME\",\"zip\":\"04694\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Joshua M. Curtis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3824",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|M.|Curtis||{ \"MemberID\" : \"3824\",\"luid\": \"521\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Steve M. Putnam[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1601",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steve|M.|Putnam||{ \"MemberID\" : \"1601\",\"luid\": \"521\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1105 River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Calais\",\"state\":\"ME\",\"zip\":\"04619\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Ryan A. Sprague[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1602",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|A.|Sprague||{ \"MemberID\" : \"1602\",\"luid\": \"521\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 640\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baileyville\",\"state\":\"ME\",\"zip\":\"04694\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Baileyville Fire Hall, 2nd Tuesday, 3:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "521",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Baileyville Fire Hall, 2nd Tuesday, 3:15 pm",
+    "datatype": "txt"
+  }
+]

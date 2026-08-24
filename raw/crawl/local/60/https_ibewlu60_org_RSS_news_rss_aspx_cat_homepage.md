@@ -1,0 +1,3 @@
+https://ibewlu60.org/RSS/news-rss.aspx?cat=homepage
+---
+homepage Newshttp://ibewlu60.org&copy; 2010, Union Labor Works. All rights reserved.20TRAINING CLASS REIMBURSEMENThttp://ibewlu60.org/news.aspx?zone=homepage&nID=18296#n18296Wed, 01 Feb 2023 00:00:00 GMTSan Antonio Local Election 2023http://ibewlu60.org/news.aspx?zone=homepage&nID=18316#n18316Wed, 03 May 2023 00:00:00 GMTCIR Decisionhttp://ibewlu60.org/news.aspx?zone=homepage&nID=18346#n18346Thu, 25 May 2023 00:00:00 GMTRecently Deceased members and Service Noticeshttp://ibewlu60.org/news.aspx?zone=homepage&nID=18494#n18494Wed, 02 Aug 2023 00:00:00 GMT

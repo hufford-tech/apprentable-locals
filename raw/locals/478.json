@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]946-  (rr) Los Angeles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "478",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "946-|Los Angeles|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "478",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1619 E Imperial Highway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7233",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1619 E Imperial Highway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Los Angeles, CA 90059[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7233",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Los Angeles|CA|90059",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](323) 822-6174[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "852",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 822-6174",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:sxy2@aol.com\" target=\"_blank\">sxy2@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1798",
+    "editFieldNames": "Email",
+    "editFieldValues": "sxy2@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jaime Morales, 13264 Woodcock Avenue, Sylmar, CA  91342[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1464",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jaime||Morales||{ \"MemberID\" : \"1464\",\"luid\": \"478\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13264 Woodcock Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sylmar\",\"state\":\"CA\",\"zip\":\"91342\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jaime Morales, 13264 Woodcock Avenue, Sylmar, CA  91342[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3787",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jaime||Morales||{ \"MemberID\" : \"3787\",\"luid\": \"478\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Thomas Co, 1619 E Imperial Highway, Los Angeles, CA  90059[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1465",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas||Co||{ \"MemberID\" : \"1465\",\"luid\": \"478\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1619 E Imperial Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Los Angeles\",\"state\":\"CA\",\"zip\":\"90059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Thomas Co, 1619 E Imperial Highway, Los Angeles, CA  90059[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3788",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas||Co||{ \"MemberID\" : \"3788\",\"luid\": \"478\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

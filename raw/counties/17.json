@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Huron County, MI",
+    "District": "6",
+    "Population": "36079",
+    "LandArea": "836.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ingham County, MI",
+    "District": "6",
+    "Population": "279320",
+    "LandArea": "559.19",
+    "Percentage": "40%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lapeer County, MI",
+    "District": "6",
+    "Population": "87904",
+    "LandArea": "654.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lenawee County, MI",
+    "District": "6",
+    "Population": "98890",
+    "LandArea": "750.50",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Livingston County, MI",
+    "District": "6",
+    "Population": "156951",
+    "LandArea": "568.40",
+    "Percentage": "80%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Macomb County, MI",
+    "District": "6",
+    "Population": "788149",
+    "LandArea": "480.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Monroe County, MI",
+    "District": "6",
+    "Population": "145945",
+    "LandArea": "551.10",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oakland County, MI",
+    "District": "6",
+    "Population": "1194156",
+    "LandArea": "872.51",
+    "Percentage": "95%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Sanilac County, MI",
+    "District": "6",
+    "Population": "44547",
+    "LandArea": "963.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "St. Clair County, MI",
+    "District": "6",
+    "Population": "164235",
+    "LandArea": "724.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Tuscola County, MI",
+    "District": "6",
+    "Population": "58266",
+    "LandArea": "812.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Washtenaw County, MI",
+    "District": "6",
+    "Population": "322895",
+    "LandArea": "709.94",
+    "Percentage": "80%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Wayne County, MI",
+    "District": "6",
+    "Population": "2061162",
+    "LandArea": "614.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MI"
+  }
+]

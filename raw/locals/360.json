@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]653-  (u) Miles City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "360",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "653-|Miles City|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "360",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]814 Bridge Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "358",
+    "editFieldNames": "Address1",
+    "editFieldValues": "814 Bridge Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Miles City, MT 59301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "358",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Miles City|MT|59301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 3",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Miles City, MT 59301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Miles City|MT|59301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](406) 951-2182[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "663",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 951-2182",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Rob Donnelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1103",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rob||Donnelly||{ \"MemberID\" : \"1103\",\"luid\": \"360\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Miles City\",\"state\":\"MT\",\"zip\":\"59301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Rob Donnelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3672",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rob||Donnelly||{ \"MemberID\" : \"3672\",\"luid\": \"360\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Olaf A. Borge[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1101",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Olaf|A.|Borge||{ \"MemberID\" : \"1101\",\"luid\": \"360\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Miles City\",\"state\":\"MT\",\"zip\":\"59301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jesse J. Burman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1102",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jesse|J.|Burman||{ \"MemberID\" : \"1102\",\"luid\": \"360\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Miles City\",\"state\":\"MT\",\"zip\":\"59301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]MDU Warehouse, 1st Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "360",
+    "editFieldNames": "Meets",
+    "editFieldValues": "MDU Warehouse, 1st Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

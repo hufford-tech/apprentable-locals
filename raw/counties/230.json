@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Alberni-Clayoquot Regional District, BC",
+    "District": "1",
+    "Population": "30345",
+    "LandArea": "6630.4602",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Capital Regional District, BC",
+    "District": "1",
+    "Population": "325754",
+    "LandArea": "2341.1127",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Comox-Strathcona Regional District, BC",
+    "District": "1",
+    "Population": "96131",
+    "LandArea": "20015.4512",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Cowichan Valley Regional District, BC",
+    "District": "1",
+    "Population": "71998",
+    "LandArea": "3473.1153",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Mount Waddington Regional District, BC",
+    "District": "1",
+    "Population": "13111",
+    "LandArea": "20288.3998",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Nanaimo Regional District, BC",
+    "District": "1",
+    "Population": "127016",
+    "LandArea": "2034.9412",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  }
+]

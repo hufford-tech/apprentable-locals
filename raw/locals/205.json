@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]343-  (i, spa, st) Le Sueur[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "205",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "343-|Le Sueur|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "205",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, spa, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9 80th Street SE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "208",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9 80th Street SE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rochester, MN 55904[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "208",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rochester|MN|55904",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](507) 282-7081[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "387",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(507) 282-7081",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](507) 282-1562[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(507) 282-1562",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bob@ibewlocal343.org\" target=\"_blank\">bob@ibewlocal343.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "200",
+    "editFieldNames": "Email",
+    "editFieldValues": "bob@ibewlocal343.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal343.org\" target=\"_blank\">www.ibewlocal343.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "205",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal343.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robert P. Ernst[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|P.|Ernst||{ \"MemberID\" : \"633\",\"luid\": \"205\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9 80th Street SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"MN\",\"zip\":\"55904\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Sean E. Sannes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "632",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|E.|Sannes||{ \"MemberID\" : \"632\",\"luid\": \"205\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9 80th Street SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"MN\",\"zip\":\"55904\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Robert P. Ernst[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3522",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|P.|Ernst||{ \"MemberID\" : \"3522\",\"luid\": \"205\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Brandon A. Benson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|A.|Benson||{ \"MemberID\" : \"631\",\"luid\": \"205\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"9 80th Street SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"MN\",\"zip\":\"55904\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Eagles, Owatonna, 2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "205",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Eagles, Owatonna, 2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

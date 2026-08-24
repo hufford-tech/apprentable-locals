@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2032  (u) Massena[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "750",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2032|Massena|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "750",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]56 Willow Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "660",
+    "editFieldNames": "Address1",
+    "editFieldValues": "56 Willow Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Massena, NY 13662[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "660",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Massena|NY|13662",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](315) 764-1778[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1255",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 764-1778",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal2032@gmail.com\" target=\"_blank\">ibewlocal2032@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal2032@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2032.org\" target=\"_blank\">www.ibewlocal2032.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "750",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2032.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]William Brown Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2292",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William||Brown|Jr.|{ \"MemberID\" : \"2292\",\"luid\": \"750\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"56 Willow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Massena\",\"state\":\"NY\",\"zip\":\"13662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Benjamin Murtagh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2293",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Benjamin||Murtagh||{ \"MemberID\" : \"2293\",\"luid\": \"750\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"56 Willow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Massena\",\"state\":\"NY\",\"zip\":\"13662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]John J. Gray III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2291",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Gray|III|{ \"MemberID\" : \"2291\",\"luid\": \"750\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"56 Willow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Massena\",\"state\":\"NY\",\"zip\":\"13662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Millicent G. Hopper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2294",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Millicent|G.|Hopper||{ \"MemberID\" : \"2294\",\"luid\": \"750\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"56 Willow Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Massena\",\"state\":\"NY\",\"zip\":\"13662\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]24 Woodlawn Avenue, 1st Monday, 4pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "750",
+    "editFieldNames": "Meets",
+    "editFieldValues": "24 Woodlawn Avenue, 1st Monday, 4pm",
+    "datatype": "txt"
+  }
+]

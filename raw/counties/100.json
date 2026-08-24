@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Fresno County, CA",
+    "District": "9",
+    "Population": "799407",
+    "LandArea": "5962.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Kings County, CA",
+    "District": "9",
+    "Population": "129461",
+    "LandArea": "1390.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Madera County, CA",
+    "District": "9",
+    "Population": "123109",
+    "LandArea": "2135.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tulare County, CA",
+    "District": "9",
+    "Population": "368021",
+    "LandArea": "4823.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

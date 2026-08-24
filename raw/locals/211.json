@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]352-  (u) Lansing[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "211",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "352-|Lansing|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "211",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3315 S Pennsylvania Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3315 S Pennsylvania Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lansing, MI 48910[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lansing|MI|48910",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](517) 881-9920[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(517) 881-9920",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](517) 881-9930[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "400",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(517) 881-9930",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal352@msn.com\" target=\"_blank\">ibewlocal352@msn.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "206",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal352@msn.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Steven R. Perry Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "651",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|R.|Perry|Jr.|{ \"MemberID\" : \"651\",\"luid\": \"211\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3315 S Pennsylvania\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lansing\",\"state\":\"MI\",\"zip\":\"48910\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Travis W. Dickinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "649",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|W.|Dickinson||{ \"MemberID\" : \"649\",\"luid\": \"211\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3315 S Pennsylvania\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lansing\",\"state\":\"MI\",\"zip\":\"48910\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Paula Hatcher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "650",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paula||Hatcher||{ \"MemberID\" : \"650\",\"luid\": \"211\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"3315 S Pennsylvania\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lansing\",\"state\":\"MI\",\"zip\":\"48910\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Melissa Chavez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "652",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Melissa||Chavez||{ \"MemberID\" : \"652\",\"luid\": \"211\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"3315 S Pennsylvania\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lansing\",\"state\":\"MI\",\"zip\":\"48910\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Federated Polish Home, 103 W Mount Hope Avenue, 2nd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "211",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Federated Polish Home, 103 W Mount Hope Avenue, 2nd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

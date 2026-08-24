@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1950  (t) Waynesboro[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "727",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1950|Waynesboro|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "727",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1134[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "652",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1134",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Waynesboro, VA 22980[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "652",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Waynesboro|VA|22980",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](540) 241-0004[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1229",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(540) 241-0004",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:shull.wes2@gmail.com\" target=\"_blank\">shull.wes2@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "679",
+    "editFieldNames": "Email",
+    "editFieldValues": "shull.wes2@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Wes Shull[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2222",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wes||Shull||{ \"MemberID\" : \"2222\",\"luid\": \"727\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1134\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waynesboro\",\"state\":\"VA\",\"zip\":\"22980\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Wes Shull[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4040",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wes||Shull||{ \"MemberID\" : \"4040\",\"luid\": \"727\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Stephen W. Shull[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2223",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|W.|Shull||{ \"MemberID\" : \"2223\",\"luid\": \"727\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1134\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waynesboro\",\"state\":\"VA\",\"zip\":\"22980\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Charlotte A. Lecter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4041",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charlotte|A.|Lecter||{ \"MemberID\" : \"4041\",\"luid\": \"727\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Masonic Lodge No. 209, 1600 W Main Street, 3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "727",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Masonic Lodge No. 209, 1600 W Main Street, 3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

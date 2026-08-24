@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1768  (mo) Waterville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1768|Waterville|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "686",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 29[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 29",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hinckley, ME 04944[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hinckley|ME|04944",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mplap@roadrunner.com\" target=\"_blank\">mplap@roadrunner.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1932",
+    "editFieldNames": "Email",
+    "editFieldValues": "mplap@roadrunner.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Michael E. Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2097",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|E.|Brown||{ \"MemberID\" : \"2097\",\"luid\": \"686\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"174 Marvel Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Farmington\",\"state\":\"ME\",\"zip\":\"04938\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Michael E. Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3994",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|E.|Brown||{ \"MemberID\" : \"3994\",\"luid\": \"686\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"174 Marvel Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Farmington\",\"state\":\"ME\",\"zip\":\"04938\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Michael F. Spooner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2098",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|F.|Spooner||{ \"MemberID\" : \"2098\",\"luid\": \"686\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"787 Bigelow Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Skowhegan\",\"state\":\"ME\",\"zip\":\"04976\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Paul J. Griffin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2099",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|J.|Griffin||{ \"MemberID\" : \"2099\",\"luid\": \"686\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"86 E Benton Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albion\",\"state\":\"ME\",\"zip\":\"04910\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]USW Union Hall, Route 201, Skowhegan, 1st Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "Meets",
+    "editFieldValues": "USW Union Hall, Route 201, Skowhegan, 1st Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

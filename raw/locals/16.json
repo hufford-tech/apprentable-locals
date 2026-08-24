@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]16--  (i) Evansville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "16--|Evansville|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "16",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9001 N Kentucky Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "17",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9001 N Kentucky Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Evansville, IN 47725[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "17",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Evansville|IN|47725",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](812) 867-9670[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "31",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(812) 867-9670",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](812) 867-9673[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2275",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(812) 867-9673",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dispatch@ibewlocal16.com\" target=\"_blank\">dispatch@ibewlocal16.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2153",
+    "editFieldNames": "Email",
+    "editFieldValues": "dispatch@ibewlocal16.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal16.com\" target=\"_blank\">www.ibewlocal16.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal16.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Ryan P. McRoberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "49",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|P.|McRoberts||{ \"MemberID\" : \"49\",\"luid\": \"16\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9001 N Kentucky Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Evansville\",\"state\":\"IN\",\"zip\":\"47725\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jerrad W. Sprinkle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "51",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerrad|W.|Sprinkle||{ \"MemberID\" : \"51\",\"luid\": \"16\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9001 N Kentucky Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Evansville\",\"state\":\"IN\",\"zip\":\"47725\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ryan P. McRoberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3348",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|P.|McRoberts||{ \"MemberID\" : \"3348\",\"luid\": \"16\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Bryan A. Diehl[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "50",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|A.|Diehl||{ \"MemberID\" : \"50\",\"luid\": \"16\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"9001 N Kentucky Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Evansville\",\"state\":\"IN\",\"zip\":\"47725\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

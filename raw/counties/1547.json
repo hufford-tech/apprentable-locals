@@ -1,0 +1,398 @@
+[
+  {
+    "CountyName": "Aleutian Islands West, AK",
+    "District": "9",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Aleutian Islands West, AK",
+    "District": "9",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Aleutian Islands West, AK",
+    "District": "9",
+    "Population": "5465",
+    "LandArea": "4396.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Aleutian Islands West, AK",
+    "District": "9",
+    "Population": "5465",
+    "LandArea": "4396.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Anchorage Division, AK",
+    "District": "9",
+    "Population": "260283",
+    "LandArea": "1697.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Anchorage Division, AK",
+    "District": "9",
+    "Population": "260283",
+    "LandArea": "1697.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Bethel Census Area, AK",
+    "District": "9",
+    "Population": "16006",
+    "LandArea": "40633.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Bethel Census Area, AK",
+    "District": "9",
+    "Population": "16006",
+    "LandArea": "40633.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Bristol Bay Borough, AK",
+    "District": "9",
+    "Population": "1258",
+    "LandArea": "504.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Bristol Bay Borough, AK",
+    "District": "9",
+    "Population": "1258",
+    "LandArea": "504.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Dillingham Area, AK",
+    "District": "9",
+    "Population": "4922",
+    "LandArea": "18674.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Dillingham Area, AK",
+    "District": "9",
+    "Population": "4922",
+    "LandArea": "18674.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Fairbanks Division, AK",
+    "District": "9",
+    "Population": "82840",
+    "LandArea": "7366.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Fairbanks Division, AK",
+    "District": "9",
+    "Population": "82840",
+    "LandArea": "7366.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Haines Division, AK",
+    "District": "9",
+    "Population": "2392",
+    "LandArea": "2343.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Haines Division, AK",
+    "District": "9",
+    "Population": "2392",
+    "LandArea": "2343.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Juneau Division, AK",
+    "District": "9",
+    "Population": "30711",
+    "LandArea": "2716.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Juneau Division, AK",
+    "District": "9",
+    "Population": "30711",
+    "LandArea": "2716.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Kenai Peninsula, AK",
+    "District": "9",
+    "Population": "49691",
+    "LandArea": "16013.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Kenai Peninsula, AK",
+    "District": "9",
+    "Population": "49691",
+    "LandArea": "16013.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Ketchikan Division, AK",
+    "District": "9",
+    "Population": "14070",
+    "LandArea": "1233.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Ketchikan Division, AK",
+    "District": "9",
+    "Population": "14070",
+    "LandArea": "1233.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Kodiak Division, AK",
+    "District": "9",
+    "Population": "13913",
+    "LandArea": "6559.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Kodiak Division, AK",
+    "District": "9",
+    "Population": "13913",
+    "LandArea": "6559.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Mantanuska-Susitna Division, AK",
+    "District": "9",
+    "Population": "59322",
+    "LandArea": "24681.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Mantanuska-Susitna Division, AK",
+    "District": "9",
+    "Population": "59322",
+    "LandArea": "24681.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Nome Division, AK",
+    "District": "9",
+    "Population": "9196",
+    "LandArea": "23000.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Nome Division, AK",
+    "District": "9",
+    "Population": "9196",
+    "LandArea": "23000.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "North Slope Division, AK",
+    "District": "9",
+    "Population": "7385",
+    "LandArea": "88817.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "North Slope Division, AK",
+    "District": "9",
+    "Population": "7385",
+    "LandArea": "88817.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Prince of Wales, AK",
+    "District": "9",
+    "Population": "6146",
+    "LandArea": "7410.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Prince of Wales, AK",
+    "District": "9",
+    "Population": "6146",
+    "LandArea": "7410.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Sitka Division, AK",
+    "District": "9",
+    "Population": "8835",
+    "LandArea": "2873.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Sitka Division, AK",
+    "District": "9",
+    "Population": "8835",
+    "LandArea": "2873.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Southeast Fairbanks Division, AK",
+    "District": "9",
+    "Population": "6174",
+    "LandArea": "24814.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Southeast Fairbanks Division, AK",
+    "District": "9",
+    "Population": "6174",
+    "LandArea": "24814.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Valdez-Cordova, AK",
+    "District": "9",
+    "Population": "10195",
+    "LandArea": "34319.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Valdez-Cordova, AK",
+    "District": "9",
+    "Population": "10195",
+    "LandArea": "34319.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Wade Hampton Area",
+    "District": "9",
+    "Population": "7028",
+    "LandArea": "17193.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Wade Hampton Area",
+    "District": "9",
+    "Population": "7028",
+    "LandArea": "17193.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Wrangell-Petersburg Division, AK",
+    "District": "9",
+    "Population": "6684",
+    "LandArea": "5834.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Wrangell-Petersburg Division, AK",
+    "District": "9",
+    "Population": "6684",
+    "LandArea": "5834.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Yukon-Koyukuk Area",
+    "District": "9",
+    "Population": "6551",
+    "LandArea": "145899.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AK"
+  },
+  {
+    "CountyName": "Yukon-Koyukuk Area",
+    "District": "9",
+    "Population": "6551",
+    "LandArea": "145899.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AK"
+  }
+]

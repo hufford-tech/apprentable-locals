@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]257-  (em, i, rtb, rts, spa, t) Jefferson City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "160",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "257-|Jefferson City|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "160",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, rtb, rts, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]209 Flora Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "Address1",
+    "editFieldValues": "209 Flora Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jefferson City, MO 65101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jefferson City|MO|65101",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](573) 635-2133[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(573) 635-2133",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](573) 659-8460[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(573) 659-8460",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew257@ibew257.org\" target=\"_blank\">ibew257@ibew257.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2077",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew257@ibew257.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew257.org\" target=\"_blank\">www.ibew257.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "160",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew257.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Joel N. Vanderslice[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "496",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel|N.|Vanderslice||{ \"MemberID\" : \"496\",\"luid\": \"160\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"209 Flora Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jefferson City\",\"state\":\"MO\",\"zip\":\"65101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Shawn J. Hillen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "497",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|J.|Hillen||{ \"MemberID\" : \"497\",\"luid\": \"160\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"209 Flora Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jefferson City\",\"state\":\"MO\",\"zip\":\"65101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Joel N. Vanderslice[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3476",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel|N.|Vanderslice||{ \"MemberID\" : \"3476\",\"luid\": \"160\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Scott A. Herod[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "498",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|A.|Herod||{ \"MemberID\" : \"498\",\"luid\": \"160\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"209 Flora Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jefferson City\",\"state\":\"MO\",\"zip\":\"65101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "160",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

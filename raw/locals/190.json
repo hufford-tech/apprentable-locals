@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]312-  (rr) Spencer[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "190",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "312-|Spencer|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "190",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]716 South NC Highway 150[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7051",
+    "editFieldNames": "Address1",
+    "editFieldValues": "716 South NC Highway 150",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lexington, NC 27295[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7051",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lexington|NC|27295",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](704) 791-8434[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2272",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(704) 791-8434",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Jason A. Johnson, 28272 Austin Road, Albemarle, NC  28001[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "586",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|A.|Johnson||{ \"MemberID\" : \"586\",\"luid\": \"190\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"28272 Austin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albemarle\",\"state\":\"NC\",\"zip\":\"28001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Jason A. Johnson, 28272 Austin Road, Albemarle, NC  28001[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3508",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|A.|Johnson||{ \"MemberID\" : \"3508\",\"luid\": \"190\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"28272 Austin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albemarle\",\"state\":\"NC\",\"zip\":\"28001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]David Hess[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "585",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David||Hess||{ \"MemberID\" : \"585\",\"luid\": \"190\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"455 Menius Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"China Grove\",\"state\":\"NC\",\"zip\":\"28023\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Brian East, 113 Windstar Court, Troutman, NC  28166[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "587",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||East||{ \"MemberID\" : \"587\",\"luid\": \"190\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"113 Windstar Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Troutman\",\"state\":\"NC\",\"zip\":\"28166\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]4th Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "190",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

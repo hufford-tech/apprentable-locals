@@ -1,0 +1,101 @@
+[
+  {
+    "CountyName": "Cayuga County, NY",
+    "District": "3",
+    "Population": "81963",
+    "LandArea": "693.18",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chenango County, NY",
+    "District": "3",
+    "Population": "51401",
+    "LandArea": "894.36",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Cortland County, NY",
+    "District": "3",
+    "Population": "48599",
+    "LandArea": "499.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Herkimer County, NY",
+    "District": "3",
+    "Population": "64427",
+    "LandArea": "1411.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Madison County, NY",
+    "District": "3",
+    "Population": "69441",
+    "LandArea": "655.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Oneida County, NY",
+    "District": "3",
+    "Population": "235469",
+    "LandArea": "1212.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Onondaga County, NY",
+    "District": "3",
+    "Population": "458336",
+    "LandArea": "780.29",
+    "Percentage": "97%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Oswego County, NY",
+    "District": "3",
+    "Population": "122377",
+    "LandArea": "953.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Otsego County, NY",
+    "District": "3",
+    "Population": "61676",
+    "LandArea": "1002.79",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tompkins County, NY",
+    "District": "3",
+    "Population": "96501",
+    "LandArea": "476.05",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wayne County, NY",
+    "District": "3",
+    "Population": "93765",
+    "LandArea": "604.21",
+    "Percentage": "12%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

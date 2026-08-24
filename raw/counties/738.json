@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Gregg County, TX",
+    "District": "7",
+    "Population": "111379",
+    "LandArea": "274.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Gregg County, TX",
+    "District": "7",
+    "Population": "111379",
+    "LandArea": "274.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Harrison County, TX",
+    "District": "7",
+    "Population": "62110",
+    "LandArea": "898.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Harrison County, TX",
+    "District": "7",
+    "Population": "62110",
+    "LandArea": "898.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Marion County, TX",
+    "District": "7",
+    "Population": "10941",
+    "LandArea": "381.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Marion County, TX",
+    "District": "7",
+    "Population": "10941",
+    "LandArea": "381.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nacogdoches County, TX",
+    "District": "7",
+    "Population": "59203",
+    "LandArea": "946.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nacogdoches County, TX",
+    "District": "7",
+    "Population": "59203",
+    "LandArea": "946.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Panola County, TX",
+    "District": "7",
+    "Population": "22756",
+    "LandArea": "800.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Panola County, TX",
+    "District": "7",
+    "Population": "22756",
+    "LandArea": "800.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Rains County, TX",
+    "District": "7",
+    "Population": "9139",
+    "LandArea": "232.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Rains County, TX",
+    "District": "7",
+    "Population": "9139",
+    "LandArea": "232.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Rusk County, TX",
+    "District": "7",
+    "Population": "47372",
+    "LandArea": "923.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Rusk County, TX",
+    "District": "7",
+    "Population": "47372",
+    "LandArea": "923.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Augustine County, TX",
+    "District": "7",
+    "Population": "8946",
+    "LandArea": "527.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Augustine County, TX",
+    "District": "7",
+    "Population": "8946",
+    "LandArea": "527.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Shelby County, TX",
+    "District": "7",
+    "Population": "25224",
+    "LandArea": "794.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Shelby County, TX",
+    "District": "7",
+    "Population": "25224",
+    "LandArea": "794.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Upshur County, TX",
+    "District": "7",
+    "Population": "35291",
+    "LandArea": "587.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Upshur County, TX",
+    "District": "7",
+    "Population": "35291",
+    "LandArea": "587.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wood County, TX",
+    "District": "7",
+    "Population": "36752",
+    "LandArea": "650.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wood County, TX",
+    "District": "7",
+    "Population": "36752",
+    "LandArea": "650.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

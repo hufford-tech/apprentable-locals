@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1023  (rr) Barstow[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "510",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1023|Barstow|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "510",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 2548[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6991",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2548",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Barstow, CA 92312[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6991",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Barstow|CA|92312",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](760) 713-4608[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2250",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(760) 713-4608",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:wmarkleyibew1023@gmail.com\" target=\"_blank\">wmarkleyibew1023@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2150",
+    "editFieldNames": "Email",
+    "editFieldValues": "wmarkleyibew1023@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]William D. Markley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1564",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Markley||{ \"MemberID\" : \"1564\",\"luid\": \"510\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10625 Goss Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Victorville\",\"state\":\"CA\",\"zip\":\"92392\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]William D. Markley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3814",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Markley||{ \"MemberID\" : \"3814\",\"luid\": \"510\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10625 Goss Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Victorville\",\"state\":\"CA\",\"zip\":\"92392\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Larry L. Chavez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1566",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Larry|L.|Chavez||{ \"MemberID\" : \"1566\",\"luid\": \"510\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2548\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Barstow\",\"state\":\"CA\",\"zip\":\"92312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jared A. Jaramillo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1565",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jared|A.|Jaramillo||{ \"MemberID\" : \"1565\",\"luid\": \"510\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2548\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Barstow\",\"state\":\"CA\",\"zip\":\"92312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]VFW Post 2143, 25190 Main Street, 2nd Tuesday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "510",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Post 2143, 25190 Main Street, 2nd Tuesday, 3 pm",
+    "datatype": "txt"
+  }
+]

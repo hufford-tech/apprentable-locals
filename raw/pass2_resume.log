@@ -1,0 +1,31 @@
+Starting credits: 7579
+Total locals: 245
+Resuming: 75 already crawled
+  [progress] 25 requests issued, 7323 credits remaining
+  [progress] 50 requests issued, 7217 credits remaining
+  [checkpoint] 25 processed this run, 100 total, credits remaining: 7115
+  [progress] 75 requests issued, 7056 credits remaining
+  [progress] 100 requests issued, 6827 credits remaining
+  [progress] 125 requests issued, 6523 credits remaining
+  [checkpoint] 50 processed this run, 125 total, credits remaining: 6437
+  [progress] 150 requests issued, 6370 credits remaining
+  [progress] 175 requests issued, 6238 credits remaining
+  [progress] 200 requests issued, 6092 credits remaining
+  [checkpoint] 75 processed this run, 150 total, credits remaining: 6090
+  [progress] 225 requests issued, 5880 credits remaining
+  [progress] 250 requests issued, 5714 credits remaining
+  [progress] 275 requests issued, 5546 credits remaining
+  [checkpoint] 100 processed this run, 175 total, credits remaining: 5543
+  [progress] 300 requests issued, 5288 credits remaining
+  [progress] 325 requests issued, 5041 credits remaining
+  [checkpoint] 125 processed this run, 200 total, credits remaining: 4847
+  [progress] 350 requests issued, 4677 credits remaining
+  [progress] 375 requests issued, 4351 credits remaining
+  [checkpoint] 150 processed this run, 225 total, credits remaining: 4316
+  [progress] 400 requests issued, 4232 credits remaining
+  [progress] 425 requests issued, 4121 credits remaining
+
+Done. Processed this run: 170  Credits used this run: 3539
+Total pages collected: 3453
+Distinct external domains found: 205
+Locals with errors: 2

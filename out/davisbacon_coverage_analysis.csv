@@ -1,0 +1,163 @@
+local_union_id,lu_number,charter_city,state,population,is_right_to_work_state,determinations_cached_for_state,elec_codes_seen_in_state,local_code_seen_anywhere,verdict
+11,11,Los Angeles,CA,9757179,false,11,43,false,local_code_absent
+20,20,Dallas-Fort Worth,TX,8760827,true,288,31,true,no_union_rate_published
+26,26,Washington,DC,8223617,false,0,0,false,not_pulled
+354,640,Phoenix,AZ,5616018,true,10,5,true,not_pulled
+472,915,Tampa,FL,5385522,true,11,3,true,not_pulled
+337,606,Orlando,FL,4272325,true,11,3,false,local_code_absent
+57,68,Denver,CO,4262008,false,0,0,false,not_pulled
+53,58,Detroit,MI,4250509,true,11,30,true,not_pulled
+208,349,Miami,FL,4131766,true,11,3,false,local_code_absent
+213,354,Salt Lake City,UT,3503613,true,0,0,false,not_pulled
+24,24,Baltimore,MD,3492142,false,0,0,false,not_pulled
+223,369,Louisville,KY,3427692,true,1,2,true,not_pulled
+203,340,Sacramento,CA,3217734,false,11,43,true,not_pulled
+257,441,Santa Ana,CA,3170435,false,11,43,false,local_code_absent
+251,429,Nashville,TN,2978189,true,11,0,false,not_pulled
+46,48,Portland,OR,2768124,false,0,0,true,not_pulled
+44,46,Seattle,WA,2733533,false,3,9,true,not_pulled
+79,102,Paterson,NJ,2668452,false,45,35,true,not_pulled
+256,440,Riverside,CA,2529933,false,11,43,false,local_code_absent
+215,357,Las Vegas,NV,2442409,false,0,0,false,not_pulled
+534,1141,Oklahoma City,OK,2343992,true,0,0,false,not_pulled
+177,292,Minneapolis,MN,2277751,false,10,2,true,not_pulled
+276,477,San Bernardino,CA,2245757,false,11,43,false,local_code_absent
+375,683,Columbus,OH,2109117,false,105,77,true,not_pulled
+102,136,Birmingham,AL,2013161,true,0,0,false,not_pulled
+339,611,Albuquerque,NM,1807815,false,0,0,false,not_pulled
+118,177,Jacksonville,FL,1791176,true,11,3,false,local_code_absent
+86,110,St. Paul,MN,1789663,false,10,2,false,local_code_absent
+210,351,Folsom,NJ,1773172,false,45,35,true,not_pulled
+275,474,Memphis,TN,1686584,true,11,0,false,not_pulled
+121,191,Everett,WA,1613631,false,3,9,true,not_pulled
+328,584,Tulsa,OK,1587403,true,0,0,false,not_pulled
+320,570,Tucson,AZ,1569077,true,10,5,true,not_pulled
+367,666,Richmond,VA,1545425,true,0,0,false,not_pulled
+283,490,Dover,NH,1541118,false,0,0,false,not_pulled
+169,275,Muskegon,MI,1508604,true,11,30,false,local_code_absent
+63,76,Tacoma,WA,1502901,false,3,9,true,not_pulled
+219,363,New City,NY,1457876,false,12,28,true,not_pulled
+544,1186,Honolulu,HI,1446065,false,0,0,false,not_pulled
+65,80,Norfolk,VA,1439588,true,0,0,false,not_pulled
+171,280,Salem,OR,1335738,false,0,0,false,not_pulled
+236,400,Asbury Park,NJ,1313954,false,45,35,true,not_pulled
+293,508,Savannah,GA,1301091,true,13,2,false,local_code_absent
+116,175,Chattanooga,TN,1293730,true,11,0,false,not_pulled
+179,295,Little Rock,AR,1259461,true,0,0,false,not_pulled
+105,143,Harrisburg,PA,1235992,false,9,30,true,not_pulled
+99,130,New Orleans,LA,1233922,true,0,0,false,not_pulled
+22,22,Omaha,NE,1194060,true,0,0,false,not_pulled
+207,347,Des Moines,IA,1172795,true,0,0,false,not_pulled
+282,488,Bridgeport,CT,1166805,false,11,13,true,not_pulled
+191,313,Wilmington,DE,1158222,false,0,0,true,not_pulled
+33,35,Hartford,CT,1147967,false,11,13,true,not_pulled
+382,700,Ft. Smith,AR,1122196,true,0,0,false,not_pulled
+413,760,Knoxville,TN,1117408,true,11,0,false,not_pulled
+62,73,Spokane,WA,1104876,false,3,9,true,not_pulled
+278,480,Jackson,MS,1074199,true,0,0,false,not_pulled
+315,558,Sheffield,AL,1069438,true,0,0,false,not_pulled
+403,743,Reading,PA,1069018,false,9,30,true,not_pulled
+39,41,Buffalo,NY,1025429,false,12,28,true,not_pulled
+149,238,Asheville,NC,994573,true,11,3,false,local_code_absent
+71,90,New Haven,CT,966269,false,11,13,true,not_pulled
+176,291,Boise,ID,964897,true,0,0,false,not_pulled
+224,375,Allentown,PA,961463,false,9,30,true,not_pulled
+14,14,Eau Claire,WI,945482,true,1,10,true,not_pulled
+501,995,Baton Rouge,LA,943471,true,0,0,false,not_pulled
+383,701,Lisle,IL,937142,false,12,73,true,not_pulled
+163,265,Lincoln,NE,932878,true,0,0,false,not_pulled
+250,428,Bakersfield,CA,922529,false,11,43,true,not_pulled
+258,443,Montgomery,AL,914496,true,0,0,false,not_pulled
+167,271,Wichita,KS,884958,true,0,0,false,not_pulled
+88,112,Kennewick,WA,870844,false,3,9,true,not_pulled
+89,113,Colorado Springs,CO,839722,false,0,0,false,not_pulled
+481,952,Ventura,CA,835427,false,11,43,false,local_code_absent
+110,153,South Bend,IN,812566,true,1,8,false,not_pulled
+317,567,Portland,ME,811094,false,0,0,false,not_pulled
+264,453,Springfield,MO,809153,false,10,17,true,not_pulled
+112,159,Madison,WI,796857,true,1,10,true,not_pulled
+475,934,Kingsport,TN,791065,true,11,0,false,not_pulled
+291,505,Mobile,AL,789955,true,0,0,false,not_pulled
+452,861,Lake Charles,LA,787778,true,0,0,false,not_pulled
+574,1316,Macon,GA,774118,true,13,2,false,local_code_absent
+274,466,Charleston,WV,773143,true,0,0,false,not_pulled
+165,269,Trenton,NJ,771122,false,45,35,true,not_pulled
+205,343,Le Sueur,MN,765174,false,10,2,true,not_pulled
+141,226,Topeka,KS,759467,true,0,0,false,not_pulled
+372,676,Pensacola,FL,759411,true,11,3,false,local_code_absent
+636,1579,Augusta,GA,731527,true,13,2,false,local_code_absent
+596,1426,Grand Forks,ND,719187,true,0,0,false,not_pulled
+467,903,Gulfport,MS,717020,true,0,0,false,not_pulled
+628,1547,Anchorage,AK,712999,false,0,0,false,not_pulled
+262,449,Pocatello,ID,672298,true,0,0,false,not_pulled
+249,426,Sioux Falls,SD,670780,true,0,0,false,not_pulled
+157,252,Ann Arbor,MI,657195,true,11,30,false,local_code_absent
+180,300,Montpelier,VT,648493,false,0,0,false,not_pulled
+479,948,Flint,MI,558668,true,11,30,true,not_pulled
+363,659,Medford,OR,553272,false,0,0,true,not_pulled
+409,756,Daytona Beach,FL,549247,true,11,3,false,local_code_absent
+187,307,Cumberland,MD,543926,false,0,0,false,not_pulled
+579,1340,Newport News,VA,538237,true,0,0,false,not_pulled
+111,158,Green Bay,WI,530871,true,1,10,true,not_pulled
+16,16,Evansville,IN,530567,true,1,8,true,not_pulled
+361,654,Chester,PA,519153,false,9,30,true,not_pulled
+381,697,Gary and Hammond,IN,517086,true,1,8,false,not_pulled
+100,131,Kalamazoo,MI,516592,true,11,30,true,not_pulled
+395,725,Terre Haute,IN,504277,true,1,8,true,not_pulled
+325,577,Appleton,WI,497625,true,1,10,true,not_pulled
+366,665,Lansing,MI,484664,true,11,30,true,not_pulled
+66,81,Scranton,PA,483870,false,9,30,false,local_code_absent
+152,242,Duluth,MN,480123,false,10,2,false,local_code_absent
+239,405,Cedar Rapids,IA,473634,true,0,0,false,not_pulled
+123,194,Shreveport,LA,473229,true,0,0,false,not_pulled
+566,1253,Augusta,ME,461832,false,0,0,false,not_pulled
+473,917,Meridian,MS,460593,true,0,0,false,not_pulled
+242,413,Santa Barbara,CA,444500,false,11,43,false,local_code_absent
+388,712,Beaver,PA,440002,false,9,30,true,not_pulled
+142,229,York,PA,437782,false,9,30,false,local_code_absent
+144,231,Sioux City,IA,433851,true,0,0,false,not_pulled
+527,1105,Newark,OH,429153,false,105,77,true,not_pulled
+303,532,Billings,MT,427383,false,0,0,false,not_pulled
+379,692,Bay City,MI,425577,true,11,30,true,not_pulled
+465,890,Janesville,WI,425061,true,1,10,true,not_pulled
+469,910,Watertown,NY,407609,false,12,28,true,not_pulled
+332,596,Clarksburg,WV,389782,true,0,0,false,not_pulled
+286,498,Traverse City,MI,387942,true,11,30,true,not_pulled
+389,714,Minot,ND,383746,true,0,0,false,not_pulled
+73,95,Joplin,MO,372183,false,10,17,true,not_pulled
+12,12,Pueblo,CO,367985,false,0,0,false,not_pulled
+174,288,Waterloo,IA,366072,true,0,0,false,not_pulled
+438,812,Williamsport,PA,361247,false,9,30,true,not_pulled
+197,322,Casper,WY,360512,true,0,0,false,not_pulled
+418,768,Kalispell,MT,359937,false,0,0,false,not_pulled
+364,661,Hutchinson,KS,357174,true,0,0,false,not_pulled
+302,531,LaPorte,IN,356479,true,1,8,false,not_pulled
+30,32,Lima,OH,354529,false,105,77,true,not_pulled
+145,233,Helena,MT,349913,false,0,0,false,not_pulled
+616,1516,Jonesboro,AR,345780,true,0,0,false,not_pulled
+261,446,Monroe,LA,342544,true,0,0,false,not_pulled
+114,163,Wilkes-Barre,PA,323408,false,9,30,false,local_code_absent
+51,56,Erie,PA,311724,false,9,30,true,not_pulled
+440,816,Paducah,KY,308124,true,1,2,false,not_pulled
+122,193,Springfield,IL,302976,false,12,73,true,not_pulled
+338,607,Shamokin,PA,300915,false,9,30,false,local_code_absent
+314,557,Saginaw,MI,297810,true,11,30,true,not_pulled
+353,639,San Luis Obispo,CA,281843,false,11,43,true,not_pulled
+565,1250,Rapid City,SD,264483,true,0,0,false,not_pulled
+166,270,Oak Ridge,TN,256344,true,11,0,false,not_pulled
+260,445,Battle Creek,MI,244833,true,11,30,true,not_pulled
+13,13,Burlington,IA,242649,true,0,0,false,not_pulled
+309,545,St. Joseph,MO,240626,false,10,17,true,not_pulled
+148,237,Niagara Falls,NY,239334,false,12,28,true,not_pulled
+446,840,Geneva,NY,237864,false,12,28,false,local_code_absent
+321,573,Warren,OH,233214,false,105,77,true,not_pulled
+243,415,Cheyenne,WY,227106,true,0,0,false,not_pulled
+385,704,Dubuque,IA,220905,true,0,0,true,not_pulled
+252,430,Racine,WI,194678,true,1,10,false,not_pulled
+83,106,Jamestown,NY,188310,false,12,28,true,not_pulled
+178,294,Hibbing,MN,169713,false,10,2,false,local_code_absent
+97,127,Kenosha,WI,168754,true,1,10,false,not_pulled
+489,968,Parkersburg,WV,138770,true,0,0,false,not_pulled
+151,241,Ithaca,NY,124303,false,12,28,true,not_pulled
+126,197,Bloomington,IL,114369,false,12,73,true,not_pulled
+87,111,Denver,CO,0,false,0,0,false,not_pulled

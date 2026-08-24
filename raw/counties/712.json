@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Beaver County, PA",
+    "District": "3",
+    "Population": "181412",
+    "LandArea": "434.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Crawford County, PA",
+    "District": "3",
+    "Population": "90366",
+    "LandArea": "1012.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lawrence County, PA",
+    "District": "3",
+    "Population": "94643",
+    "LandArea": "360.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Mercer County, PA",
+    "District": "3",
+    "Population": "120293",
+    "LandArea": "671.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

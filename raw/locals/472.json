@@ -1,0 +1,182 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]915-  (i, mt) Tampa[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "915-|Tampa|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "472",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5621 Harney Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5621 Harney Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Tampa, FL 33610[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tampa|FL|33610",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](813) 621-6451[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "842",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(813) 621-6451",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](813) 623-1623[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "843",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(813) 623-1623",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew915.org\" target=\"_blank\">info@ibew915.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "449",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew915.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew915.org\" target=\"_blank\">www.ibew915.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew915.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]St. Petersburg[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4166",
+    "editFieldNames": "Name",
+    "editFieldValues": "St. Petersburg",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]1409 Ninth Avenue N[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4166",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1409 Ninth Avenue N",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]St. Petersburg, FL 33705[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4166",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. Petersburg|FL|33705",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](727) 898-2802[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1779",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(727) 898-2802",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (727) 898-6015[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1780",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(727) 898-6015",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]B.M. [/b]Jonathan L. Fielder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1447",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|L.|Fielder||{ \"MemberID\" : \"1447\",\"luid\": \"472\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5621 Harney Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tampa\",\"state\":\"FL\",\"zip\":\"33610\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Pres. [/b]Brian Nathan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1448",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||Nathan||{ \"MemberID\" : \"1448\",\"luid\": \"472\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5621 Harney Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tampa\",\"state\":\"FL\",\"zip\":\"33610\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]F.S. [/b]Randall K. King[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3781",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randall|K.|King||{ \"MemberID\" : \"3781\",\"luid\": \"472\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]R.S. [/b]Theresa L. King[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1446",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Theresa|L.|King||{ \"MemberID\" : \"1446\",\"luid\": \"472\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"5621 Harney Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tampa\",\"state\":\"FL\",\"zip\":\"33610\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]Meets [/b]2nd Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]568-  (c, ees, em, i, o) Montreal, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "568-|Montreal|QC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "318",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, ees, em, i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4881 Jarry Street E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4881 Jarry Street E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 228[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 228",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Montreal, QC H1R 1Y1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montreal|QC|H1R 1Y1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](514) 329-0568[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "586",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 329-0568",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](514) 329-5249[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "587",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 329-5249",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@fioe568.com\" target=\"_blank\">info@fioe568.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2081",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@fioe568.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.fioe568.com\" target=\"_blank\">www.fioe568.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.fioe568.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Guy Fournier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "975",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Guy||Fournier||{ \"MemberID\" : \"975\",\"luid\": \"318\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4881 Jarry Street E\",\"addr2\":\"Suite 270\",\"addr3\":\"\",\"city\":\"St. Leonard\",\"state\":\"QC\",\"zip\":\"H1R 1Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Carolanne Pare[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "973",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carolanne||Pare||{ \"MemberID\" : \"973\",\"luid\": \"318\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4881 Jarry Street E\",\"addr2\":\"Suite 270\",\"addr3\":\"\",\"city\":\"St. Leonard\",\"state\":\"QC\",\"zip\":\"H1R 1Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Guy Fournier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3632",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Guy||Fournier||{ \"MemberID\" : \"3632\",\"luid\": \"318\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Marc Boissonneault[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "974",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Marc||Boissonneault||{ \"MemberID\" : \"974\",\"luid\": \"318\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4881 Jarry Street E\",\"addr2\":\"Suite 270\",\"addr3\":\"\",\"city\":\"St. Leonard\",\"state\":\"QC\",\"zip\":\"H1R 1Y1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "318",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

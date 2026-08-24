@@ -1,0 +1,765 @@
+local_union_id,lu_number,charter_city,charter_state,lu_sc,meets,website,primary_address1,primary_address_name,primary_city,primary_state,primary_zip,primary_phone,primary_email,olms_members,olms_ttl_receipts,olms_ttl_assets,olms_dues_per_member,olms_city,olms_state,olms_form_type
+1,1,St. Louis,MO,1---,"1st Wednesday, 5 pm or 7 pm; 3rd Friday, 5 pm",www.ibewlocal1.org,5850 Elizabeth Avenue,,St. Louis,MO,63110,(314) 647-5900,office@ibewlocal1.org,4985.0,15443275,27398083,3098.0,ST LOUIS,MO,LM-2
+2,2,St. Louis,MO,2---,"2nd Monday, 6 pm",www.ibew2.org,940 Biltmore Drive,,Fenton,MO,63026,(314) 645-2236,info@ibew2.org,2074.0,5144914,15438866,2481.0,Fenton,MO,LM-2
+3,3,New York,NY,3---,"Electrical Industry Center, 67-35 Parsons Boulevard, Flushing, 2nd Thursday, 5 pm",www.local3.com,158-11 Harry Van Arsdale Jr. Avenue,,Flushing,NY,11365,(718) 591-4000,mail@local3ibew.org,21379.0,95337193,79803164,4459.0,FLUSHING,NY,LM-2
+4,4,St. Louis,MO,4---,"1st Thursday, 6:45 pm",www.ibewlocal4.com,5850 Elizabeth Avenue,,St. Louis,MO,63110,(314) 664-0202,broadcast@ibewlocal4.com,284.0,638685,3040326,2249.0,ST LOUIS,MO,LM-2
+5,5,Pittsburgh,PA,5---,"2nd Friday, 8 pm",www.ibew5.org,5 Hot Metal Street,,Pittsburgh,PA,15203,(412) 432-1400,jelkanich@ibew5.org,3166.0,16597694,62026017,5242.0,PITTSBURGH,PA,LM-2
+6,6,San Francisco,CA,6---,"2nd Wednesday, 4:30 pm",www.ibew6.org,55 Fillmore Street,,San Francisco,CA,94117,(415) 861-5752,ibew6@ibew6.org,2532.0,7661851,14091149,3026.0,SAN FRANCISCO,CA,LM-2
+7,7,Springfield,MA,7---,"1st Monday, 6 pm",www.ibewlocal7.com,95 Liberty Street,,Springfield,MA,01103,(413) 734-7137,mmccaffrey@ibewlocal7.com,1006.0,4313551,13581909,4288.0,SPRINGFIELD,MA,LM-2
+8,8,Toledo,OH,8---,"1st & 3rd Monday, 7 pm",www.ibew8.org,807 Lime City Road,,Rossford,OH,43460,(419) 666-8920,Finance@ibew8.org,2161.0,6587211,11550839,3048.0,ROSSFORD,OH,LM-2
+9,9,Chicago,IL,9---,"2nd Thursday, 7 pm",www.ibew9.org,7840 Graphics Drive,,Tinley Park,IL,60477,(708) 449-9000,mail@ibew9.org,5282.0,7191517,16645588,1362.0,Tinley Park,IL,LM-2
+10,10,Johnson City,NY,10--,Various Times & Places,www.ibewlocal10.org,271 Main Street,,Johnson City,NY,13790,(607) 798-9718,ibewlocal10@stny.twcbc.com,1634.0,2013187,3014074,1232.0,JOHNSON CITY,NY,LM-2
+11,11,Los Angeles,CA,11--,"3rd Thursday, 5 pm",www.ibew11.org,297 N Marengo Avenue,,Pasadena,CA,91101,(626) 243-9700,businessmanager@ibew11.org,12401.0,63582199,60481319,5127.0,PASADENA,CA,LM-2
+12,12,Pueblo,CO,12--,"1st Wednesday, 6:30 pm",www.ibew12.org,2901 Farabaugh Lane,,Pueblo,CO,81005,(719) 561-8000,local12@ibew12.org,308.0,8269146,6493922,26848.0,PUEBLO,CO,LM-2
+13,13,Burlington,IA,13--,"3rd Wednesday, 7 pm",www.ibewlocal13.com,1205 N Central Avenue,,Burlington,IA,52601,(319) 752-0452,ibewlu13@ibewlocal13.com,336.0,996411,1662666,2966.0,BURLINGTON,IA,LM-2
+14,14,Eau Claire,WI,14--,"2nd Monday, 6:30 pm",www.ibew14.net,9480 Highway 53,,Fall Creek,WI,54742,(715) 878-4068,jchermack@ibew14.org,1149.0,3584192,7973327,3119.0,FALL CREEK,WI,LM-2
+15,15,Downers Grove,IL,15--,Various Times & Places,www.ibewlocal15.org,6330 Belmont Road,,Downers Grove,IL,60516,(630) 515-0381,riser@ibew15.org,5176.0,8426550,15449613,1628.0,DOWNERS GROVE,IL,LM-2
+16,16,Evansville,IN,16--,"3rd Friday, 7 pm",www.ibewlocal16.com,9001 N Kentucky Avenue,,Evansville,IN,47725,(812) 867-9670,dispatch@ibewlocal16.com,1097.0,4034141,5901446,3677.0,EVANSVILLE,IN,LM-2
+17,17,Detroit,MI,17--,"1st Monday, 6 pm",www.ibewlocal17.org,17000 W 12 Mile Road,,Southfield,MI,48076,(248) 423-4540,james.shaw@ibewlocal17.org,4629.0,8773575,17354851,1895.0,SOUTHFIELD,MI,LM-2
+18,18,Los Angeles,CA,18--,"4th Thursday, 8 pm",www.ibewlocal18.org,4189 W Second Street,,Los Angeles,CA,90004,(213) 387-8274,ibew18@ibewlocal18.org,,,,,,,
+19,19,Aurora,IL,19--,"Various Places, 4th Wednesday, 7 pm",www.ibew19.org,1585 Beverly Court,,Aurora,IL,60502,(630) 820-3950,office@ibew19.org,1515.0,1692067,1889452,1117.0,AURORA,IL,LM-2
+20,20,Dallas-Fort Worth,TX,20--,"1st Tuesday, 7 pm",www.ibew20.org,684 W Tarrant Road,,Grand Prairie,TX,75050,(972) 263-1122,ibew20@ibew20.org,5192.0,10960442,33584966,2111.0,GRAND PRAIRIE,TX,LM-2
+21,21,Downers Grove,IL,21--,Various Times & Places,www.ibew21.org,4701 Auvergne Avenue,,Lisle,IL,60532,(630) 960-4466,power@ibew21.org,2575.0,4638988,12806167,1802.0,Lisle,IL,LM-2
+22,22,Omaha,NE,22--,"1st Thursday, 7 pm",www.ibew22.org,8946 L Street,,Omaha,NE,68127,(402) 331-8147,22@ibew22.org,2457.0,16070903,34680144,6541.0,OMAHA,NE,LM-2
+23,23,St. Paul,MN,23--,"2nd Thursday, 5 pm",www.ibew23.org,445 Etna Street,,St. Paul,MN,55106,(651) 774-6011,lu23@ibew23.org,567.0,1045545,1737050,1844.0,St. Paul,MN,LM-2
+24,24,Baltimore,MD,24--,"4th Tuesday, 7 pm",www.ibewlocal24.org,2701 W Patapsco Avenue,,Baltimore,MD,21230,(410) 247-5511,jtmiller@ibewlocal24.org,3033.0,8223223,16072800,2711.0,BALTIMORE,MD,LM-2
+25,25,Long Island,NY,25--,"2nd Tuesday, 5 pm",www.ibew25.org,370 Vanderbilt Motor Parkway,,Hauppauge,NY,11788,(631) 273-4567,info@ibew25.org,,7111217,14663996,,HAUPPAUGE,NY,LM-2
+26,26,Washington,DC,26--,"2nd Friday, 7 pm",www.ibewlocal26.org,4371 Parliament Place,,Lanham,MD,20706,(301) 459-2900,contactus@ibewlocal26.org,12078.0,37782123,98101849,3128.0,LANHAM,MD,LM-2
+27,29,Pittsburgh,PA,29--,"Eastern Atlantic States Regional Council of Carpenters, 650 Ridge Road, 2nd Wednesday, 7:30 pm",www.ibew29.org,986 Greentree Road,,Pittsburgh,PA,15220,(412) 922-6969,ibew29@ibew29.org,1542.0,2104869,2029784,1365.0,PITTSBURGH,PA,LM-2
+28,30,Trenton,NJ,30--,"Local Union 269 Hall, 670 Whitehead Road, 6 pm",www.ibewlocal30.org,212 W State Street,,Trenton,NJ,08608,(609) 695-1960,info@ibewlocal30.org,,,,,,,
+29,31,Duluth,MN,31--,"1st Wednesday, 6 pm",www.ibew31.com,2002 London Road,,Duluth,MN,55812,(218) 728-4248,ibew31@ibew31.com,988.0,1508034,1238177,1526.0,DULUTH,MN,LM-2
+30,32,Lima,OH,32--,"3rd Monday, 6:30 pm",www.ibew32.com,1975 N West Street,,Lima,OH,45801,(419) 229-2774,mike@ibew32.com,324.0,1135715,1403212,3505.0,LIMA,OH,LM-2
+31,33,Trenton,NJ,33--,"2nd Wednesday, 12 pm",https://ibew33.org,19 Embassy Drive,,Cherry Hill,NJ,08002,(609) 334-9717,njdagunion@gmail.com,,,,,,,
+32,34,Peoria,IL,34--,"2nd Wednesday, 6 pm",www.ibew34.org,4322 Ricketts Avenue,,Bartonville,IL,61607,(309) 673-3691,contactus@ibew34.org,1629.0,4165095,7521000,2557.0,Bartonville,IL,LM-2
+33,35,Hartford,CT,35--,"4th Wednesday, 7 pm",www.ibewlocal35.org,961 Wethersfield Avenue,,Hartford,CT,06114,(860) 525-5438,info@ibewlocal35.org,552.0,2185657,5568291,3960.0,HARTFORD,CT,LM-2
+34,36,Rochester,NY,36--,"1st Thursday, 4:30 pm",www.ibew36.org,595 Blossom Road,,Rochester,NY,14610,(585) 654-8828,info@ibew36.org,379.0,593716,1345210,1567.0,ROCHESTER,NY,LM-2
+35,37,Fredericton,NB,37--,Various Times & Places,www.ibew37.com,138 Neill Street,,Fredericton,NB,E3A 2Z6,(506) 455-0037,info@ibew37.com,,,,,,,
+36,38,Cleveland,OH,38--,"Laborers' Hall 310, 3250 Euclid Avenue, 1st Tuesday, 4:30 pm",www.ibew38.org,1590 E 23rd Street,,Cleveland,OH,44114,(216) 621-3090,local38@ibew38.org,2651.0,12064911,20677803,4551.0,CLEVELAND,OH,LM-2
+37,39,Cleveland,OH,39--,"Cleveland: 1590 E 23rd Street, 4th Wednesday, 5:30 pm; Oberlin: 89 S Pleasant Street, 1st Wednesday, 5:30 pm",,4483 Broadview Road,,Cleveland,OH,44109,(216) 741-1625,ibew9225@att.net,187.0,181459,348295,970.0,CLEVELAND,OH,LM-3
+38,40,Hollywood,CA,40--,"4th Wednesday, 5 pm",www.ibew40.org,5643 Vineland Avenue,,North Hollywood,CA,91601,(818) 762-4239,unionhall@ibew40.org,963.0,2975482,1564345,3090.0,NORTH HOLLYWOOD,CA,LM-2
+39,41,Buffalo,NY,41--,"3rd Tuesday, 7 pm",www.ibewlocal41.com,S-3546 California Road,,Orchard Park,NY,14127,(716) 662-6111,lu41@ibewlocal41.com,1268.0,4250802,7195118,3352.0,ORCHARD PARK,NY,LM-2
+40,42,Hartford,CT,42--,"2nd Thursday, 7 pm",www.ibewlocal42.com,20 Craftsman Road,,East Windsor,CT,06088,(860) 646-7297,,1546.0,12120821,32952921,7840.0,EAST WINDSOR,CT,LM-2
+41,43,Syracuse,NY,43--,"Training Center, 1st Tuesday, 6 pm",www.ibew43.org,4568 Waterhouse Road,,Clay,NY,13041,(315) 422-0435,local43info@ibew43.org,1340.0,6086470,22148697,4542.0,CLAY,NY,LM-2
+42,44,Butte,MT,44--,Various Times & Places,www.ibew44.org,1901 S Montana Street,,Butte,MT,59701,(406) 723-3203,ibew@ibew44.org,1283.0,3437285,4338475,2679.0,BUTTE,MT,LM-2
+43,45,Hollywood,CA,45--,"4th Monday, 5 pm",www.ibew45.org,6350 Laurel Canyon Boulevard,,North Hollywood,CA,91606,(323) 851-5515,info@ibew45.org,1437.0,1733036,1387316,1206.0,North Hollywood,CA,LM-2
+44,46,Seattle,WA,46--,"2nd Wednesday, 5:30 pm",www.ibew46.org,19802 62nd Avenue S,,Kent,WA,98032,(253) 395-6500,markd@ibew46.com,5620.0,21062369,20456973,3748.0,KENT,WA,LM-2
+45,47,Diamond Bar,CA,47--,"2nd Tuesday, 6 pm",www.ibew47.org,600 N Diamond Bar Boulevard,,Diamond Bar,CA,91765,(909) 860-4239,info@ibew47.org,14942.0,34076365,24185780,2281.0,DIAMOND BAR,CA,LM-2
+46,48,Portland,OR,48--,"4th Wednesday, 6 pm",www.ibew48.com,15937 NE Airport Way,,Portland,OR,97230,(503) 256-4848,info@ibew48.com,5998.0,22812675,73282405,3803.0,PORTLAND,OR,LM-2
+47,50,Richmond,VA,50--,Various Times & Places,www.ibew50.org,1400 E Nine Mile Road,,Highland Springs,VA,23075,(804) 328-2972,luadmin@ibew50.org,2282.0,2997753,829528,1314.0,HIGHLAND SPRINGS,VA,LM-2
+48,51,Springfield,IL,51--,Various Times & Places,www.ibew51.org,3171 Greenhead Drive,,Springfield,IL,62711,(217) 726-8481,ibew51@ibew51.org,2810.0,4425328,3996013,1575.0,SPRINGFIELD,IL,LM-2
+49,53,Kansas City,MO,53--,"3rd Wednesday, 7 pm",www.ibewlocal53.org,1100 Admiral Boulevard,,Kansas City,MO,64106,(816) 421-5464,localrep@ibewlocal53.org,3803.0,10780657,31257295,2835.0,KANSAS CITY,MO,LM-2
+50,55,Des Moines,IA,55--,"Union Hall, 3rd Friday, 7:30 pm",www.ibew55.org,1435 NE 54th Avenue,,Des Moines,IA,50313,(515) 265-6193,ibew55@ibew55.org,1107.0,15213786,17994255,13743.0,DES MOINES,IA,LM-2
+51,56,Erie,PA,56--,"2nd Wednesday, 6:30 pm",www.ibewlocal56.org,185 Pennbriar Drive,,Erie,PA,16509,(814) 825-5505,admin_assist@ibew56.org,295.0,1079833,2953537,3660.0,ERIE,PA,LM-2
+52,57,Salt Lake City,UT,57--,Various Times & Places,www.ibew57.com,3400 W 2100 S,,Salt Lake City,UT,84119,(801) 270-5757,local57@ibew57.com,2596.0,5870367,9585542,2261.0,SALT LAKE CITY,UT,LM-2
+53,58,Detroit,MI,58--,"3rd Tuesday, 6:30 pm",www.ibewlocal58.org,1358 Abbott Street,,Detroit,MI,48226,(313) 963-2130,jsoosik@ibew58.org,5028.0,28243534,58259041,5617.0,DETROIT,MI,LM-2
+54,60,San Antonio,TX,60--,"2nd Wednesday, 5:30 pm",www.ibewlu60.org,3518 N Loop 1604 E,,San Antonio,TX,78247,(210) 337-1741,admin@ibewlu60.org,3125.0,8917584,25870266,2854.0,SAN ANTONIO,TX,LM-2
+55,64,Youngstown,OH,64--,"1st Tuesday, 6 pm",www.ibew64.org,350 E Western Reserve Road,,Youngstown,OH,44514,(330) 758-8654,info@ibew64.org,457.0,1213005,2957329,2654.0,YOUNGSTOWN,OH,LM-2
+56,66,Houston,TX,66--,"3rd Thursday, 8 pm",www.ibew66.com,4345 Allen Genoa Road,,Pasadena,TX,77504,(713) 943-0716,local66@ibew66.com,5049.0,17584574,26471426,3483.0,PASADENA,TX,LM-2
+57,68,Denver,CO,68--,"1st Tuesday, 6 pm",www.ibewlu68.com,5660 Logan Street,,Denver,CO,80216,(303) 297-0229,ibew@ibewlu68.com,2119.0,12086217,29363350,5704.0,DENVER,CO,LM-2
+58,69,Dallas,TX,69--,"4th Tuesday, 5 pm",www.ibewlocal69.com,1408 N Washington,,Dallas,TX,75204,(214) 821-4700,ibewloc69@aol.com,548.0,770934,864336,1407.0,DALLAS,TX,LM-2
+59,70,Washington,DC,70--,"Knights of Columbus Across From the Union Hall, 4th Tuesday, 7 pm",www.ibew70.us,3606 Stewart Road,,Forestville,MD,20747,(301) 516-7730,office@ibew70.us,1920.0,5985560,19876156,3117.0,FORESTVILLE,MD,LM-2
+60,71,Columbus,OH,71--,"Eldorado Gaming Scioto Downs, 6000 S High Street, 3rd Tuesday, 7 pm",www.ibew71.org,2280 Citygate Drive,,Columbus,OH,43219,(614) 539-1394,office@ibew71.org,3380.0,10191472,35916958,3015.0,Columbus,OH,LM-2
+61,72,Waco,TX,72--,"2nd Wednesday, 7:30 pm",www.ibewlu72.com,1813 Orchard Lane,,Waco,TX,76705,(254) 754-3121,ibewlu72@yahoo.com,423.0,4212241,5908591,9958.0,WACO,TX,LM-2
+62,73,Spokane,WA,73--,"2nd Monday, 6 pm",www.ibew73.org,1616 N Washington Street,,Spokane,WA,99205,(509) 326-2182,info@ibew73.org,756.0,2319893,2568905,3069.0,SPOKANE,WA,LM-2
+63,76,Tacoma,WA,76--,"Tacoma: Union Hall, 1st Tuesday, 6 pm; Grays Harbor/Pacific: 624 K Street, Hoquiam, 1st Wednesday, 6 pm; Lewis: 217 E Main Street, Centralia, 2nd Wednesday, 6 pm; Thurston/Mason: 906 Columbia Street SW, Olympia, 3rd Wednesday, 6 pm",www.ibew76.org,3049 S 36th Street,,Tacoma,WA,98409,(253) 475-1190,president@ibew76.org,1122.0,4091437,6678118,3647.0,TACOMA,WA,LM-2
+64,77,Seattle,WA,77--,Various Times & Places,www.ibew77.com,19415 International Boulevard,,SeaTac,WA,98188,(206) 323-4505,ibew77@ibew77.com,8455.0,16776825,13461529,1984.0,SEATAC,WA,LM-2
+65,80,Norfolk,VA,80--,"1st Tuesday, 7 pm",www.ibew80.com,5307 E Virginia Beach Boulevard,,Norfolk,VA,23502,(757) 480-1740,dennisfloyd@ibew80.com,905.0,1870917,3739881,2067.0,NORFOLK,VA,LM-2
+66,81,Scranton,PA,81--,"2nd Tuesday, 7 pm",www.ibew81.org,431 Wyoming Avenue,,Scranton,PA,18503,(570) 344-5711,mmcdermott@ibew81.org,554.0,1554686,3282586,2806.0,SCRANTON,PA,LM-2
+67,82,Dayton,OH,82--,"1st Monday, 5 pm",www.ibew82.org,6550 Poe Avenue,,Dayton,OH,45414,(937) 898-4239,info@ibew82.org,1120.0,4168054,7801233,3721.0,DAYTON,OH,LM-2
+68,84,Atlanta,GA,84--,Various Times & Places,www.ibewlocal84.org,2791 Woodland Terrace,,Smyrna,GA,30080,(770) 801-5352,admin@ibewlocal84.org,3622.0,5606325,6373389,1548.0,SMYRNA,GA,LM-2
+69,86,Rochester,NY,86--,"2nd Wednesday, 5:30 pm",www.ibewlu86.org,2300 E River Road,,Rochester,NY,14623,(585) 235-1510,,1251.0,12332950,7527155,9858.0,ROCHESTER,NY,LM-2
+70,89,Seattle,WA,89--,"Labor Temple, Everett, 2nd Wednesday, 6 pm",www.ibew89.org,1125 S Second Street,,Mount Vernon,WA,98273,(360) 755-6900,local89@ibew89.com,803.0,984741,374741,1226.0,MOUNT VERNON,WA,LM-2
+71,90,New Haven,CT,90--,"1st Tuesday, 6 pm",www.ibewlocal90.org,2 N Plains Industrial Road,,Wallingford,CT,06492,(203) 265-9533,info@ibewlocal90.org,594.0,3762822,5088735,6335.0,WALLINGFORD,CT,LM-2
+72,94,Cranbury,NJ,94--,"2nd Thursday, 6 pm",www.ibew94.org,299 Ward Street,,East Windsor,NJ,08520,(609) 426-9702,info@ibew94.org,3871.0,8205208,6006202,2120.0,EAST WINDSOR,NJ,LM-2
+73,95,Joplin,MO,95--,"3rd Wednesday, 6 pm",www.ibewlocal95.com,3316 S Main Street,,Joplin,MO,64804,(417) 623-2025,donny.lampen@ibewlocal95.com,297.0,578593,2344289,1948.0,JOPLIN,MO,LM-2
+74,96,Worcester,MA,96--,"1st Monday, 6 pm",www.ibewlocal96.org,242 Mill Street,,Worcester,MA,01602,(508) 753-8635,info@ibewlocal96.org,374.0,1660124,4534588,4439.0,WORCESTER,MA,LM-2
+75,97,Syracuse,NY,97--,"Albany: 2nd Wednesday, 6 pm; Buffalo: 2nd Tuesday, 6 pm; Syracuse: 2nd Thursday, 6 pm",www.ibewlocal97.org,713 Erie Boulevard W,,Syracuse,NY,13204,(315) 476-9797,local97@ibewlocal97.org,4540.0,6803004,9430622,1498.0,SYRACUSE,NY,LM-2
+76,98,Philadelphia,PA,98--,"4th Tuesday, 6 pm",www.ibew98.org,4960 S Twelfth Street,,Philadelphia,PA,19112,(215) 563-5592,ionews@ibew98.org,4544.0,33312227,119744306,7331.0,PHILADELPHIA,PA,LM-2
+77,99,Providence,RI,99--,"4th Monday, 6 pm",www.ibew99.org,22 Amflex Drive,,Cranston,RI,02921,(401) 946-9900,info@ibew99.org,1011.0,9278628,19652238,9178.0,CRANSTON,RI,LM-2
+78,100,Fresno,CA,100-,"2nd Tuesday, 6 pm",www.ibew100.org,5434 E Lamona Avenue,,Fresno,CA,93727,(559) 251-8241,info@ibew100.org,1748.0,5620159,14646222,3215.0,FRESNO,CA,LM-2
+79,102,Paterson,NJ,102-,"Barnyard & Carriage House, 754 Totowa Road, Totowa, 1st Tuesday, 5 pm",www.ibew102.org,50 Parsippany Road,,Parsippany,NJ,07054,(973) 887-1718,info@ibew102.org,2896.0,12956404,29176589,4474.0,PARSIPPANY,NJ,LM-2
+80,103,Boston,MA,103-,"2nd Tuesday, 5 pm",www.the103advantage.com,256 Freeport Street,,Dorchester,MA,02122,(617) 436-3710,lantonellis@ibew103.com,7646.0,30933148,28896970,4046.0,DORCHESTER,MA,LM-2
+81,104,Boston,MA,104-,"All 3 Halls, 3rd Thursday, 7 pm",www.ibew104.org,900 S Main Street,,Mansfield,MA,02048,(508) 660-3900,info@ibew104.org,2116.0,22688770,53970653,10722.0,Mansfield,MA,LM-2
+82,105,Hamilton,ON,105-,"3rd Tuesday, 7 pm",www.ibew105.com,685 Nebo Road,,Hannon,ON,L0R 1P0,(905) 387-1721,frontdesk@ibewlu105.com,,,,,,,
+83,106,Jamestown,NY,106-,"4th Tuesday, 7:30 pm",www.ibew106.org,322 James Avenue,,Jamestown,NY,14701,(716) 484-9449,general.info@ibew106.org,194.0,930684,3259260,4797.0,JAMESTOWN,NY,LM-2
+84,108,Tampa,FL,108-,Various Times & Places,www.ibew108.org,10108 US Highway 92 E,,Tampa,FL,33610,(813) 621-2418,cparsels@ibew108.org,1042.0,1379973,1165821,1324.0,TAMPA,FL,LM-2
+85,109,Rock Island,IL,109-,Various Times & Places,www.ibew109.com,2271 First Street E,,Milan,IL,61264,(309) 792-9200,kholub@ibew109.com,382.0,754586,1475019,1975.0,MILAN,IL,LM-2
+86,110,St. Paul,MN,110-,"3rd Tuesday, 6 pm",www.ibew110.org,1330 Conway Street,,St. Paul,MN,55106,(651) 776-4239,info@ibew110.org,2469.0,10019840,12045159,4058.0,ST. PAUL,MN,LM-2
+87,111,Denver,CO,111-,Various Times & Places,www.ibew111.org,5965 E 39th Avenue,,Denver,CO,80207,(303) 744-7171,mail@ibew111.org,4541.0,12289909,13214168,2706.0,DENVER,CO,LM-2
+88,112,Kennewick,WA,112-,"Tri-City: 114 N Edison Street, 1st Thursday, 7 pm;  Hermiston: 245 N First Street, 2nd Thursday, 7 pm; Yakima: 507 S Third Street, 3rd Thursday, 7 pm",www.ibewlu112.com,114 N Edison Street,,Kennewick,WA,99336,(509) 735-0512,lorij@ibew112.com,1560.0,9980412,26166764,6398.0,KENNEWICK,WA,LM-2
+89,113,Colorado Springs,CO,113-,"1st & 3rd Wednesday, 6 pm",www.ibew113.com,2150 Naegele Road,,Colorado Springs,CO,80904,(719) 633-3872,info@ibew113.com,1051.0,3291560,7017192,3132.0,COLORADO SPRINGS,CO,LM-2
+90,115,Kingston,ON,115-,"Belleville: Quinte Sports & Recreation Centre, 1st Tuesday, 7 pm; Brockville: Days Inn, 1st Wednesday, 7 pm; Kingston: Union Hall, 1st Thursday, 6:30 pm; Cornwall: Parkway Inn, 2nd Monday, 6:30 pm",www.ibew115.com,44 Binnington Court,,Kingston,ON,K7M 8S3,(613) 547-4115,unionadmin@ibew115.com,,,,,,,
+91,117,Elgin,IL,117-,"1st Wednesday, 7 pm",www.ibew117.com,765 Munshaw Lane,,Crystal Lake,IL,60014,(847) 854-7200,office@ibew117.com,393.0,2160895,6036727,5498.0,CRYSTAL LAKE,IL,LM-2
+92,120,London,ON,120-,"3rd Tuesday, 7 pm",www.ibew120.ca,6688 Tempo Road,,London,ON,N6L 1P9,(519) 652-2929,bm@ibew120.ca,,,,,,,
+94,124,Kansas City,MO,124-,"2nd Wednesday, 7 pm",www.ibew124.org,301 E 103rd Terrace,,Kansas City,MO,64114,(816) 942-7500,ibew124@ibewlocal124.org,4547.0,23735923,56062629,5220.0,KANSAS CITY,MO,LM-2
+95,125,Portland,OR,125-,Various Times & Places,www.ibew125.com,17200 NE Sacramento Street,,Portland,OR,97230,(503) 262-9125,generald@ibew125.com,4520.0,8201697,6807002,1815.0,PORTLAND,OR,LM-2
+96,126,Philadelphia,PA,126-,"1st Tuesday, 7 pm",www.ibewlu126.com,3455 Germantown Pike,,Collegeville,PA,19426,(610) 489-1185,local126@ibewlu126.com,3352.0,17091627,57631471,5099.0,COLLEGEVILLE,PA,LM-2
+97,127,Kenosha,WI,127-,"2nd Thursday, 5 pm",www.ibew127.org,3030 39th Avenue,,Kenosha,WI,53144,(262) 654-0912,ibew127@gmail.com,277.0,862237,1257410,3113.0,KENOSHA,WI,LM-2
+98,129,Lorain,OH,129-,"American Slovak Club, 2915 Broadway, 2nd Monday, 6 pm",www.ibew129.org,6100 S Broadway,,Lorain,OH,44053,(440) 233-7156,info@ibew129.org,534.0,2964363,4998383,5551.0,LORAIN,OH,LM-2
+99,130,New Orleans,LA,130-,"2nd Thursday, 6 pm",www.ibewlu130.com,3200 Ridgelake Drive,,Metairie,LA,70002,(504) 831-1372,Rodney@ibewlu130.com,1364.0,2203381,7027237,1615.0,METAIRIE,LA,LM-2
+100,131,Kalamazoo,MI,131-,"1st Monday, 6 pm",www.ibew131.com,3641 E Cork Street,,Kalamazoo,MI,49001,(269) 382-1762,office@ibew131.com,552.0,1661441,5307867,3010.0,KALAMAZOO,MI,LM-2
+101,134,Chicago,IL,134-,"1st Thursday, 6 pm",www.lu134.org,2722 S Martin Luther King Drive,,Chicago,IL,60616,(312) 454-1340,info@local134.org,12161.0,32500046,85108203,2672.0,CHICAGO,IL,LM-2
+102,136,Birmingham,AL,136-,"3rd Thursday, 7 pm",www.ibew136.org,845 Gadsden Highway,,Birmingham,AL,35235,(205) 833-0909,ibew136@ibew136.org,835.0,1568943,1332072,1879.0,Birmingham,AL,LM-2
+103,139,Elmira,NY,139-,"4th Monday, 7 pm",www.ibew139.com,415 W Second Street,,Elmira,NY,14901,(607) 732-1237,businessmanager@ibewlocal139.org,315.0,1277252,3405009,4055.0,ELMIRA,NY,LM-2
+104,141,Wheeling,WV,141-,"1st Friday, 7 pm",www.ibew141.org,82 Burkham Court,,Wheeling,WV,26003,(304) 242-3870,info@ibew141.org,367.0,1221144,3685048,3327.0,WHEELING,WV,LM-2
+105,143,Harrisburg,PA,143-,"1st Monday, 7:30 pm",www.ibewlocal143.org,1501 Revere Street,,Harrisburg,PA,17104,(717) 232-7093,gyinger@ibew143.org,503.0,3067618,4539740,6099.0,HARRISBURG,PA,LM-2
+106,145,Rock Island,IL,145-,"1st Thursday, 6 pm",www.ibewlocal145.com,1700 52nd Avenue,,Moline,IL,61265,(309) 736-4239,info@ibewlocal145.com,1215.0,4378099,6638148,3603.0,MOLINE,IL,LM-2
+107,146,Decatur,IL,146-,"2nd Tuesday, 6 pm",www.ibew146.com,3390 N Woodford Street,,Decatur,IL,62526,(217) 877-4604,jennifer@ibew146.com,765.0,2984444,3661973,3901.0,DECATUR,IL,LM-2
+108,150,Waukegan,IL,150-,"Gurnee American Legion Hall,  Route 21 & 132, 1st Wednesday, 6 pm",www.ibew150.org,31290 N US Highway 45,,Libertyville,IL,60048,(847) 680-1504,,855.0,3863146,8329980,4518.0,LIBERTYVILLE,IL,LM-2
+110,153,South Bend,IN,153-,"4th Thursday, 7 pm",www.ibew153.com,56475 Peppermint Road,,South Bend,IN,46619,(574) 287-8655,ibew@ibew153.com,2048.0,16002337,22398839,7814.0,SOUTH BEND,IN,LM-2
+111,158,Green Bay,WI,158-,"2nd Tuesday, 6 pm",www.ibew158.com,2970 Greenbrier Road,,Green Bay,WI,54311,(920) 432-0158,busmgr@ibew158.com,673.0,1845357,4701467,2742.0,GREEN BAY,WI,LM-2
+112,159,Madison,WI,159-,"2nd Thursday, 5:30 pm",www.ibew159.org,5303 Fen Oak Drive,,Madison,WI,53718,(608) 255-2989,office@ibew159.org,1590.0,4495440,10296264,2827.0,MADISON,WI,LM-2
+113,160,Minneapolis,MN,160-,"1st Thursday, 6 pm",www.ibew160.org,13220 County Road 6,,Plymouth,MN,55441,(612) 781-3126,160@ibew160.org,4209.0,8953219,21441258,2127.0,PLYMOUTH,MN,LM-2
+114,163,Wilkes-Barre,PA,163-,"2nd Friday, 7 pm",www.ibew163.org,1269 Sans Souci Parkway,,Wilkes-Barre,PA,18706,(570) 823-4028,electricians@ibew163.org,455.0,2622725,3200073,5764.0,HANOVER TOWNSHIP,PA,LM-2
+115,164,Jersey City,NJ,164-,"65 W Century Road, Paramus, 1st Thursday, 7 pm",www.ibew164.org,205 Robin Road,,Paramus,NJ,07652,(201) 265-1700,ibew164@ibew164.org,2651.0,14095627,54879985,5317.0,PARAMUS,NJ,LM-2
+116,175,Chattanooga,TN,175-,"1st & 3rd Monday, 7 pm",www.ibew175.org,3922 Volunteer Drive,,Chattanooga,TN,37416,(423) 894-3557,office@ibew175.org,3738.0,5089168,7938341,1361.0,CHATTANOOGA,TN,LM-2
+117,176,Joliet,IL,176-,"2nd Thursday, 7 pm",www.ibewlocal176.org,1100 NE Frontage Road,,Joliet,IL,60431,(815) 729-1240,office@ibewlocal176.org,1262.0,4996327,10169771,3959.0,JOLIET,IL,LM-2
+118,177,Jacksonville,FL,177-,"4th Thursday, 7 pm",www.ibew177.org,966 Liberty Street,,Jacksonville,FL,32206,(904) 355-4569,office@ibew177.org,2365.0,5278187,13330078,2232.0,JACKSONVILLE,FL,LM-2
+119,180,Vallejo,CA,180-,"2nd Thursday, 5:30 pm",www.ibewlu180.org,720 Technology Way-B,,Napa,CA,94558,(707) 251-9180,jeremyp@ibewlu180.org,635.0,2440922,4315182,3844.0,NAPA,CA,LM-2
+121,191,Everett,WA,191-,"Marysville Office, 2nd Monday, 5:30 pm",www.ibew191.com,3100 164th Street NE,,Marysville,WA,98271,(425) 259-3195,randy.curry@ibew191.com,2461.0,11245374,14675752,4569.0,MARYSVILLE,WA,LM-2
+122,193,Springfield,IL,193-,"3rd Tuesday, 5:30 pm",www.ibew193.com,3150 Wide Track Drive,,Springfield,IL,62703,(217) 544-3479,office@ibew193.com,761.0,1927929,3183255,2533.0,SPRINGFIELD,IL,LM-2
+123,194,Shreveport,LA,194-,"1st Monday (Except September), 6 pm",www.ibew194.org,5510 Buncombe Road,,Shreveport,LA,71129,(318) 688-0194,mandy@ibew194.com,698.0,2299424,7046729,3294.0,SHREVEPORT,LA,LM-2
+125,196,Rockford,IL,196-,"Various Locations, 4th Thursday, 7 pm",www.ibew196.com,13300 IL Route 47,,Huntley,IL,60142,(630) 761-1829,office@ibew196.com,1632.0,6392411,13130910,3917.0,HUNTLEY,IL,LM-2
+126,197,Bloomington,IL,197-,"4th Wednesday, 6 pm",www.ibew197.org,2407 Beich Road,,Bloomington,IL,61705,(309) 827-4868,info@ibew197.org,408.0,1458197,4173190,3574.0,BLOOMINGTON,IL,LM-2
+128,201,Beaver,PA,201-,"2nd Sunday, 11:30 am",www.ibewlocal201.org,217 Sassafras Lane,,Beaver,PA,15009,(724) 774-6958,ibewlocal201president@gmail.com,360.0,202139,174554,561.0,BEAVER,PA,LM-3
+129,203,Devils Lake,ND,203-,"VFW Club, 2nd Thursday, 7 pm",,621 Seventh Street NE,,Devils Lake,ND,58301,,ibewlocal203@gmail.com,50.0,31541,32984,631.0,DEVILS LAKE,ND,LM-3
+130,204,Cedar Rapids,IA,204-,Various Times & Places,www.ibew204.com,1009 Longfellow Drive,,Hiawatha,IA,52233,(319) 366-3434,jvanzante@ibew204.org,1060.0,2127756,4435583,2007.0,Hiawatha,IA,LM-2
+131,206,Helena,MT,206-,"110 N Warren Avenue, 1st Thursday, 6 pm",www.ibew206.org,110 N Warren Avenue,,Helena,MT,59601,(406) 443-7475,office@ibew206.org,170.0,389436,364846,2291.0,HELENA,MT,LM-2
+132,210,Atlantic City,NJ,210-,"1940 N Blackhorse Pike, Williamstown, 2nd Tuesday, 6 pm",www.ibewlocal210.com,308 New Jersey Avenue,,Absecon,NJ,08201,(609) 484-7540,zstory@ibewlu210.com,597.0,1491700,1467267,2499.0,TUCKERTON,NJ,LM-2
+133,212,Cincinnati,OH,212-,"1st & 3rd Tuesday, 7:30 pm",www.local212.com,212 Crowne Point Place,,Cincinnati,OH,45241,(513) 559-0200,office@local212.com,1943.0,6185941,16193368,3184.0,CINCINNATI,OH,LM-2
+134,213,Vancouver,BC,213-,Various Times & Places,www.ibew213.org,1424 Broadway Street,,Port Coquitlam,BC,V3C 5W2,(604) 571-6500,ibew213@ibew213.org,,,,,,,
+135,214,Chicago,IL,214-,"3rd Monday, 5:30 pm",,4701 Auvergne Avenue,,Lisle,IL,60532,(773) 716-9488,rdiaz515@comcast.net,82.0,123201,34175,1502.0,Lisle,IL,LM-3
+137,220,Arlington,TX,220-,Various Times & Places,www.ibewlu220.com,2804 SE Loop 820,,Fort Worth,TX,76140,(817) 551-1885,ibewlu220@ibewlu220.com,1716.0,1556182,740484,907.0,FORT WORTH,TX,LM-2
+138,222,Orlando,FL,222-,"3rd Thursday, 7 pm",www.ibew222.org,17846 N US Highway 441,,Reddick,FL,32686,(787) 957-9252,dispatch@ibew222.org,3252.0,28280583,62240632,8696.0,REDDICK,FL,LM-2
+139,223,Brockton,MA,223-,"2nd Wednesday, 6 pm",www.ibew223.org,475 Myles Standish Boulevard,,Taunton,MA,02780,(508) 880-2690,sbarry@ibew223.org,507.0,1604095,5038655,3164.0,TAUNTON,MA,LM-2
+141,226,Topeka,KS,226-,"3rd Wednesday, 7 pm",www.ibew226.com,1620 NW Gage Boulevard,,Topeka,KS,66618,(785) 232-1761,Tonyc@ibew226.com,666.0,2761451,7721199,4146.0,TOPEKA,KS,LM-2
+142,229,York,PA,229-,"3rd Thursday, 7 pm",www.ibew229.org,555 Willow Springs Lane,,York,PA,17406,(717) 843-8368,ibew229@comcast.net,352.0,1636976,4590141,4650.0,YORK,PA,LM-2
+143,230,Victoria,BC,230-,Victoria: 2nd Thursday; Nanaimo: 3rd Wednesday; Campbell River: 3rd Thursday; Marine: 2nd Wednesday,www.ibew230.org,21 Dallas Road,,Victoria,BC,V8V 4Z9,(250) 388-7374,phil@ibew230.org,,,,,,,
+144,231,Sioux City,IA,231-,"1st Thursday, 7 pm",www.ibew231.com,5001 Harbor Drive,,Sioux City,IA,51111,(712) 255-8138,office@ibew231.com,386.0,1071061,1909759,2775.0,SIOUX CITY,IA,LM-2
+145,233,Helena,MT,233-,"110 N Warren Street, Helena, 2nd Tuesday, 6 pm; 156 W Granite Street, Butte, 2nd Wednesday, 6 pm; 1112 Seventh Street S, Great Falls, 2nd Thursday, 6 pm",www.ibew233.org,110 N Warren Street,,Helena,MT,59601,(406) 442-3185,office@ibew233.org,342.0,1664917,1501031,4868.0,HELENA,MT,LM-2
+146,234,Castroville,CA,234-,"2nd Wednesday, 6:30 pm",www.ibew234.org,747 El Camino Real N,,Salinas,CA,93907,(831) 633-2311,thehall@ibew234.org,427.0,2962451,5503478,6938.0,SALINAS,CA,LM-2
+147,236,Albany,NY,236-,"Albany Labor Temple, 890 Third Street, 1st Tuesday, 5 pm",www.ibew236.org,3000 Troy Schenectady Road,,Niskayuna,NY,12309,(518) 783-9957,mmastropietro@ibew236.org,1682.0,5166445,50176046,3072.0,SCHENECTADY,NY,LM-2
+148,237,Niagara Falls,NY,237-,"Lewiston Fire Company #2, 1705 Saunders Settlement Road, 3rd Thursday, 6 pm",www.ibew237.com,6700 Schultz Street,,Niagara Falls,NY,14304,(716) 297-3650,jscherrer@ibew237.com,330.0,1470453,2912988,4456.0,NIAGARA FALLS,NY,LM-2
+149,238,Asheville,NC,238-,"3rd Saturday, 10 am",www.ibew238.org,46 New Leicester Highway,,Asheville,NC,28806,(828) 505-0216,ibew238@gmail.com,218.0,1786559,2464293,8195.0,ASHEVILLE,NC,LM-2
+150,239,Jamestown,ND,239-,"Various Places, 5:15 pm",,PO Box 1122,,Jamestown,ND,58402,,bbruner70@hotmail.com,27.0,16922,15700,627.0,JAMESTOWN,ND,LM-3
+151,241,Ithaca,NY,241-,"Fraternal Order of Eagles Club, 161 Cecil A. Malone Drive, 1st Wednesday, 5:30 pm",www.ibewlocal241.com,134 Cecil A. Malone Drive,,Ithaca,NY,14850,(607) 272-2809,businessmanager@ibewlocal241.com,268.0,1575499,2382777,5879.0,ITHACA,NY,LM-2
+152,242,Duluth,MN,242-,"Duluth: 4th Wednesday, 6 pm; Brainerd: 708 Front Street, 1st Monday, 6 pm",www.ibew242.org,2002 London Road,,Duluth,MN,55812,(218) 728-6895,dsmithlcl242@gmail.com,559.0,1979363,4752977,3541.0,DULUTH,MN,LM-2
+153,244,Lincoln,NE,244-,"3rd Tuesday, 7 pm",,4625 Y Street,,Lincoln,NE,68503,(402) 640-3599,richardibew244@gmail.com,71.0,44738,55586,630.0,Lincoln,NE,LM-3
+154,245,Toledo,OH,245-,"2nd Thursday, 7:30 pm",www.ibew245.com,705 Lime City Road,,Rossford,OH,43460,(419) 666-3350,justin@ibew245.com,788.0,2370054,3362778,3008.0,ROSSFORD,OH,LM-2
+155,246,Steubenville,OH,246-,"4th Wednesday, 8 pm",,626 N Fourth Street,,Steubenville,OH,43952,(740) 282-7572,office@ibew246.org,252.0,1061842,2238255,4214.0,STEUBENVILLE,OH,LM-2
+157,252,Ann Arbor,MI,252-,"2nd Wednesday, 6 pm",www.ibew252.org,7920 Jackson Road,,Ann Arbor,MI,48103,(734) 424-0978,info@ibew252.org,990.0,5232355,5887832,5285.0,ANN ARBOR,MI,LM-2
+159,254,Calgary,AB,254-,"1st Monday, 6:30 pm",www.ibew254.ca,3615 29th Street NE,,Calgary,AB,T1Y 5W4,(403) 250-5558,admin@ibew254.ca,,,,,,,
+160,257,Jefferson City,MO,257-,"2nd Wednesday, 6 pm",www.ibew257.org,209 Flora Drive,,Jefferson City,MO,65101,(573) 635-2133,ibew257@ibew257.org,736.0,2073382,6891563,2817.0,JEFFERSON CITY,MO,LM-2
+161,258,Vancouver,BC,258-,Various Times & Places,www.ibew258.bc.ca,8029 199 Street,,Langley,BC,V2Y 0E2,(604) 520-3305,info@ibew258.bc.ca,,,,,,,
+162,261,Groton,CT,261-,"2nd Tuesday, 2:45 pm",,18 Pleasant Street,,Groton,CT,06340,(860) 445-2224,ibew261@gmail.com,677.0,259690,43922,384.0,GROTON,CT,LM-2
+163,265,Lincoln,NE,265-,"1st Wednesday, 6 pm",www.ibew265.org,1409 Old Farm Road,,Lincoln,NE,68512,(402) 423-4497,info@ibew265.org,626.0,3255932,5054175,5201.0,LINCOLN,NE,LM-2
+164,266,Phoenix,AZ,266-,"1st Tuesday, 5:30 pm",www.ibewlocal266.org,1650 N 36th Street,,Phoenix,AZ,85008,(602) 275-6222,ibew@ibewlocal266.org,1531.0,2590618,6352108,1692.0,PHOENIX,AZ,LM-2
+165,269,Trenton,NJ,269-,"1st Monday, 8 pm",www.ibew269.com,670 Whitehead Road,,Trenton,NJ,08648,(609) 394-8129,saldrich@ibew269.com,1219.0,6248780,12579642,5126.0,TRENTON,NJ,LM-2
+166,270,Oak Ridge,TN,270-,"4th Monday, 4:30 pm",www.ibewlocal270.org,138 N Lincoln Circle,,Oak Ridge,TN,37830,(865) 483-1354,ibew270@comcast.net,825.0,4682572,13818734,5676.0,OAK RIDGE,TN,LM-2
+167,271,Wichita,KS,271-,"1st Monday, 5 pm",www.ibew271.com,1040 S Broadway,,Wichita,KS,67211,(316) 267-8255,IBEWLU271@hotmail.com,1017.0,2505729,4210919,2464.0,WICHITA,KS,LM-2
+169,275,Muskegon,MI,275-,"3rd Tuesday, 6 pm",www.ibew275.org,140 N 64th Avenue,,Coopersville,MI,49404,(616) 837-7149,info@ibew275.org,535.0,2186019,3284733,4086.0,COOPERSVILLE,MI,LM-2
+170,278,Corpus Christi,TX,278-,"3rd Tuesday, 6:30 pm",www.ibew278.com,2301 Saratoga Boulevard,,Corpus Christi,TX,78417,(361) 855-1084,office@ibew278.com,731.0,1676574,4746357,2294.0,CORPUS CHRISTI,TX,LM-2
+171,280,Salem,OR,280-,Various Times & Places,www.ibew280.org,32969 Highway 99 E,,Tangent,OR,97389,(541) 812-1771,info@ibew280.org,1812.0,7155593,9324312,3949.0,TANGENT,OR,LM-2
+172,281,Anderson,IN,281-,"3rd Tuesday, 3:15 pm",,550 Dale Keith Jones Road,,Anderson,IN,46011,(765) 442-1066,ibew281@gmail.com,,,,,,,
+173,283,Boise,ID,283-,"4th Tuesday, 7:30 pm",,1570 Vanderdasson Road,,Emmett,ID,83617,(208) 631-4326,ibew283@gmail.com,27.0,33965,158513,1258.0,Emmett,ID,LM-3
+174,288,Waterloo,IA,288-,"2nd Monday, 6 pm",www.ibew288.org,1695 Burton Avenue,,Waterloo,IA,50703,(319) 233-8050,chuck@ibew288.org,224.0,686515,911261,3065.0,WATERLOO,IA,LM-2
+176,291,Boise,ID,291-,"1st Thursday, 6 pm",www.ibew291.org,225 N Sixteenth Street,,Boise,ID,83702,(208) 343-4861,office@ibew291.org,1848.0,17793563,18453462,9629.0,BOISE,ID,LM-2
+177,292,Minneapolis,MN,292-,"Union Hall, Henry Miller Conference Rooms, 2nd Tuesday, 5 pm",www.ibew292.org,6700 W Broadway Avenue,,Brooklyn Park,MN,55428,(612) 379-1292,office@ibew292.org,4680.0,14458187,29290526,3089.0,BROOKLYN PARK,MN,LM-2
+178,294,Hibbing,MN,294-,"Bemidji, 3rd Thursday Quarterly, 7 pm; Nashwauk Hall, 4th Thursday, 7:30 pm",www.ibew294-neca.org,832 First Street,,Nashwauk,MN,55769,(218) 263-6895,ibewlocalunion294@gmail.com,257.0,1005134,1550554,3911.0,NASHWAUK,MN,LM-2
+179,295,Little Rock,AR,295-,"1st Tuesday, 7 pm",www.ibew295.org,7320 S University Avenue,,Little Rock,AR,72209,(501) 562-2244,ibew295@ibew295.org,429.0,1008809,2923984,2352.0,LITTLE ROCK,AR,LM-2
+180,300,Montpelier,VT,300-,"1st Monday, 4:30 pm",www.ibewlocal300.org,3 Gregory Drive,,South Burlington,VT,05403,(802) 864-5864,info@ibewlocal300.org,969.0,1243732,973059,1284.0,SO BURLINGTON,VT,LM-2
+181,301,Texarkana,TX,301-,"4th Tuesday, 7 pm",,114 Elm Street,,Nash,TX,75569,(903) 838-8531,chris@ibew301.com,396.0,729186,1235713,1841.0,NASH,TX,LM-2
+182,302,Martinez,CA,302-,"4th Wednesday, 6 pm",www.ibewlu302.com,1875 Arnold Drive,,Martinez,CA,94553,(925) 228-2302,ibinfo@ibewlu302.com,1250.0,5222804,11545144,4178.0,MARTINEZ,CA,LM-2
+183,303,St. Catharines,ON,303-,"1st Wednesday, 7 pm",www.ibewlocal303.com,4485 Kent Avenue,,Niagara Falls,ON,L2H 1J1,(905) 354-4303,mark@ibewlocal303.com,,,,,,,
+184,304,Topeka,KS,304-,"2nd Thursday, 7:30 pm",www.ibew304.org,3906 NW Sixteenth Street,,Topeka,KS,66618,(785) 235-2301,lu304@ibew304.org,2309.0,3587477,2521054,1554.0,TOPEKA,KS,LM-2
+185,305,Fort Wayne,IN,305-,"1st Monday, 6 pm",www.ibew305.org,136 Chambeau Road,,Fort Wayne,IN,46805,(260) 484-9714,local305@ibew305.org,744.0,4825408,5447464,6486.0,FORT WAYNE,IN,LM-2
+186,306,Akron,OH,306-,"3rd Friday, 5 pm",www.ibew306.org,2650 S Main Street,,Akron,OH,44319,(330) 245-2240,info@ibew306.org,1205.0,2349089,2512084,1949.0,AKRON,OH,LM-2
+187,307,Cumberland,MD,307-,"31 Thomas Street, 4th Wednesday, 8 pm",www.ibew307.org,401 Decatur Street,,Cumberland,MD,21502,(301) 724-3403,administrator@ibew307.org,442.0,1585141,3634993,3586.0,CUMBERLAND,MD,LM-2
+188,309,Collinsville,IL,309-,"1st Monday, 7 pm",www.ibew309.com,2000A Mall Street,,Collinsville,IL,62234,(618) 345-5112,electricians@ibew309.org,1258.0,4808212,6280520,3822.0,COLLINSVILLE,IL,LM-2
+189,311,Chattanooga,TN,311-,"Southern Credit Union, 512 National Avenue, Chattanooga, 2nd Monday, 3 pm",,1297 Greenbrook Lane,,Hixson,TN,37343,(423) 667-2011,ibewlocal311@gmail.com,143.0,172796,40737,1208.0,Ringgold,GA,LM-3
+190,312,Spencer,NC,312-,"4th Monday, 5 pm",,716 South NC Highway 150,,Lexington,NC,27295,(704) 791-8434,,20.0,19966,6206,998.0,LEXINGTON,NC,LM-3
+191,313,Wilmington,DE,313-,"1st Wednesday, 8 pm",www.ibew313.org,814 W Basin Road,,New Castle,DE,19720,(302) 328-0773,info@ibew313.org,756.0,2939366,6564628,3888.0,NEW CASTLE,DE,LM-2
+192,316,Nashville,TN,316-,"3rd Thursday, 3:30 pm",,112 Primrose Lane,,Gallatin,TN,37066,(615) 388-7854,,,,,,,,
+193,317,Huntington,WV,317-,"1st & 3rd Tuesday, 7 pm",www.ibew317.net,1848 Madison Avenue,,Huntington,WV,25704,(304) 429-5013,office@ibew317.com,1181.0,6717152,24737395,5688.0,HUNTINGTON,WV,LM-2
+195,319,Saskatoon,SK,319-,"322 Brand Road, 2nd Tuesday, 7 pm",,PO Box 23053,,Saskatoon,SK,S7J 5H3,(306) 222-3906,peter.wright@saskatoon.ca,,,,,,,
+196,320,Poughkeepsie,NY,320-,"Highland: American Legion Hall, Grand Street, 2nd Thursday of January, April, May, August, September & December, 5:30 pm; Glenham: Slater Chemical Firehouse, 76 Old Glenham Road, 3rd Thursday of March, July & November, 5:30 pm; Kingston: VFW Hall, E Chester Street, 3rd Thursday of February, June & O",www.ibewlocal320.org,80 Washington Street,,Poughkeepsie,NY,12601,(845) 471-3232,ibew320@verizon.net,690.0,1071185,2317433,1552.0,Poughkeepsie,NY,LM-2
+197,322,Casper,WY,322-,"Casper: 2nd Tuesday, 6:30 pm; Jackson: 3rd Wednesday, 6 pm",www.ibew322.org,691 English Drive,,Casper,WY,82601,(307) 265-1060,office@ibew322.org,790.0,2219060,8172038,2809.0,CASPER,WY,LM-2
+198,325,Binghamton,NY,325-,"3rd Monday, 5 pm",www.ibew325.net,142 Corporate Drive,,Binghamton,NY,13904,(607) 729-6171,businessmanager@ibew325.net,548.0,1403525,2363032,2561.0,BINGHAMTON,NY,LM-2
+199,326,Lawrence,MA,326-,"Lawrence Elks Hall, 652 Andover Street, Lawrence, 1st Tuesday, 4:30 pm",ibewlocal326.com,40 Bayfield Drive,,North Andover,MA,01845,(978) 686-4792,billylepelley@yahoo.com,493.0,565709,425658,1147.0,NORTH ANDOVER,MA,LM-2
+200,329,Shreveport,LA,329-,"5500 Buncombe Road, 2nd Tuesday, 6:30 pm",,PO Box 8446,,Shreveport,LA,71108,(318) 655-0625,ibewlu329@gmail.com,174.0,180711,504553,1039.0,SHREVEPORT,LA,LM-3
+201,332,San Jose,CA,332-,"1st Tuesday, 5:30 pm",www.ibew332.org,2125 Canoas Garden Avenue,,San Jose,CA,95125,(408) 269-4332,info@ibew332.org,3484.0,82445493,115027263,23664.0,SAN JOSE,CA,LM-2
+202,339,Thunder Bay,ON,339-,"1st Monday, 7 pm",www.ibew339.com,975 Alloy Drive,,Thunder Bay,ON,P7B 5Z8,(807) 625-4339,info@ibew339.com,,,,,,,
+203,340,Sacramento,CA,340-,"1st Wednesday, 6 pm",www.ibewlocal340.org,10240 Systems Parkway,,Sacramento,CA,95827,(916) 927-4239,office@ibewlocal340.org,2826.0,8773379,11924528,3105.0,SACRAMENTO,CA,LM-2
+204,342,Winston-Salem,NC,342-,"3rd Monday, 6:30 pm",www.ibew342.org,7874 Thorndike Road,,Greensboro,NC,27409,(336) 285-7781,ibew342@att.net,548.0,5182311,4786438,9457.0,GREENSBORO,NC,LM-2
+205,343,Le Sueur,MN,343-,"Eagles, Owatonna, 2nd Wednesday, 6 pm",www.ibewlocal343.org,9 80th Street SE,,Rochester,MN,55904,(507) 282-7081,bob@ibewlocal343.org,1050.0,4248975,9437327,4047.0,ROCHESTER,MN,LM-2
+206,345,Mobile,AL,345-,"IBEW Local Union 505, 2244 Halls Mill Road, 2nd & 4th Tuesday",,9551 Amethyst Drive,,Daphne,AL,36526,(251) 680-9300,seanmckeever223@gmail.com,281.0,236893,199058,843.0,DAPHNE,AL,LM-3
+207,347,Des Moines,IA,347-,"2nd Thursday, 5 pm",www.ibewlu347.org,6809 SE Bellagio Court,,Ankeny,IA,50021,(515) 243-1924,info@ibewlu347.org,2238.0,9908243,23821411,4427.0,ANKENY,IA,LM-2
+208,349,Miami,FL,349-,"1st Thursday, 7 pm",www.ibew349.net,1657 NW Seventeenth Avenue,,Miami,FL,33125,(305) 325-1330,info@ibew349.org,1554.0,2992446,3168706,1926.0,Miami,FL,LM-2
+209,350,Hannibal,MO,350-,"2nd Monday, 7 pm",,801 Church Street,,Hannibal,MO,63401,(573) 221-2648,ibew350@outlook.com,78.0,343900,1074564,4409.0,HANNIBAL,MO,LM-2
+210,351,Folsom,NJ,351-,"109 N Black Horse Pike, Blackwood, 3rd Tuesday, 7 pm",www.ibew351.org,1113 Black Horse Pike,,Hammonton,NJ,08037,(609) 704-8351,kcohen@ibew351.org,1933.0,8098524,19371199,4190.0,HAMMONTON,NJ,LM-2
+211,352,Lansing,MI,352-,"Federated Polish Home, 103 W Mount Hope Avenue, 2nd Wednesday, 5:30 pm",,3315 S Pennsylvania Avenue,,Lansing,MI,48910,(517) 881-9920,ibewlocal352@msn.com,473.0,593041,958800,1254.0,LANSING,MI,LM-2
+212,353,Toronto,ON,353-,"South Unit: 1377 Lawrence Avenue E, 2nd Thursday, 7 pm; North Unit: 2 Saunders Road, Barrie, Tuesday Before 2nd Thursday, 7 pm; East Unit: 1001 Ritson Road S, Oshawa, Wednesday Before 2nd Thursday, 7 pm",www.ibew353.org,1377 Lawrence Avenue E,,Toronto,ON,M3A 3P8,(416) 510-3530,inquiries@ibew353.org,,,,,,,
+213,354,Salt Lake City,UT,354-,"1st Wednesday, 7 pm",www.ibew354.org,3400 W 2100 S,,Salt Lake City,UT,84119,(801) 972-9354,office@ibew354.org,3065.0,12884134,33189598,4204.0,WEST VALLEY CITY,UT,LM-2
+215,357,Las Vegas,NV,357-,"3rd Thursday, 7:30 pm",www.ibew357.net,808 N Lamb Boulevard,,Las Vegas,NV,89110,(702) 452-9357,ibew357@ibew357.net,4061.0,12851375,39506348,3165.0,Las Vegas,NV,LM-2
+216,359,Miami,FL,359-,"94th Aero Squadron Restaurant, 1395 NW 57th Avenue, 1st Tuesday, 7 pm",www.ibew359.com,7811 Coral Way,,Miami,FL,33155,(305) 458-8205,,627.0,744075,824189,1187.0,MIAMI,FL,LM-2
+217,360,Oakland,CA,360-,"99 Hegenberger Road, 3rd Thursday, 4 pm",,2003 Story Road #400 #280,,San Jose,CA,95122,(408) 608-9720,cesardiazibew360@gmail.com,63.0,32812,3525,521.0,SAN JOSE,CA,LM-3
+218,362,Washington,DC,362-,"American Legion Colmar Manor 131, 2nd Thursday, 4:30 pm",,6811 Riverdale Road,,Riverdale,MD,20737,(347) 452-0447,BusinessManager@ibew362.com,198.0,136903,33027,691.0,RIVERDALE,MD,LM-3
+219,363,New City,NY,363-,"4th Tuesday, 5 pm",www.ibewlu363.org,67 Commerce Drive S,,Harriman,NY,10926,(845) 783-3500,office363@ibewlu363.org,1905.0,16712045,25054238,8773.0,HARRIMAN,NY,LM-2
+220,364,Rockford,IL,364-,"4th Thursday, 7 pm",www.ibew364.org,6820 Mill Road,,Rockford,IL,61108,(815) 398-6282,office@ibew364.net,672.0,4690597,15303418,6980.0,ROCKFORD,IL,LM-2
+221,365,Knoxville,TN,365-,"IBEW Local Union 760 Union Hall, 1530 Bill Williams Avenue, 1st Tuesday, 7 pm",www.ibew365.org,610 Center Street,,Morristown,TN,37813,(865) 399-4396,paulproffitt77@outlook.com,187.0,136152,350675,728.0,Knoxville,TN,LM-3
+222,366,Proctor,MN,366-,"Moose Lodge, 415 Third Avenue, 3rd Thursday, 5 pm",,2621 W Skyline Parkway,,Duluth,MN,55806,(218) 213-8143,rirrganglu0366@gmail.com,55.0,84214,24963,1531.0,SAGINAW,MN,LM-3
+223,369,Louisville,KY,369-,"4th Monday, 7 pm",www.ibewlocal369.com,4315 Preston Highway,,Louisville,KY,40213,(502) 368-2568,ehall@ibewlocal369.com,5280.0,14559628,27709718,2758.0,LOUISVILLE,KY,LM-2
+224,375,Allentown,PA,375-,"1st Wednesday, 7 pm",www.ibew375.org,101 S Seventh Street,,Allentown,PA,18101,(610) 432-9762,,862.0,3119060,7655085,3618.0,ALLENTOWN,PA,LM-2
+225,379,Charlotte,NC,379-,"2nd Monday, 6 pm",www.ibew379.org,1900 Cross Beam Drive,,Charlotte,NC,28217,(704) 455-4595,ibewlu379@ibew379.org,1407.0,4952616,8519770,3520.0,CHARLOTTE,NC,LM-2
+227,386,Texarkana,AR,386-,"Silver Star Smokehouse, 2nd Thursday, 7 pm",,16212 Highway 196,,Fouke,AR,71837,(870) 648-6095,bm.lu386ibew@outlook.com,200.0,203495,123660,1017.0,TEXARKANA,AR,LM-3
+228,387,Phoenix,AZ,387-,"2nd Wednesday, 5 pm",www.ibew387.com,3060 W Deer Valley Road,,Phoenix,AZ,85027,(602) 264-1846,dcarpenter@ibew387.com,1181.0,2421830,4544363,2051.0,PHOENIX,AZ,LM-2
+229,388,Stevens Point,WI,388-,"1st Thursday, 7:30 pm",www.ibewlocal388.org,5224 Heffron Court,,Stevens Point,WI,54481,(715) 341-2696,info@ibewlocal388.org,530.0,1689726,4376583,3188.0,STEVENS POINT,WI,LM-2
+230,391,Gadsden,AL,391-,"3rd Tuesday, 7:30 pm",,3803 W Meighan Boulevard,,Gadsden,AL,35904,(256) 404-3134,jmimsc1960@gmail.com,208.0,229861,405457,1105.0,Gadsden,AL,LM-3
+232,395,Dickinson,ND,395-,"St. Anthony Club, 2nd Monday",,1155 Main S,,Dickinson,ND,58601,(406) 480-1676,ibew1519@gmail.com,20.0,24116,3240,1206.0,DICKINSON,ND,LM-3
+233,396,Las Vegas,NV,396-,"4th Thursday, 6:30 pm",www.ibew396.org,3520 Boulder Highway,,Las Vegas,NV,89121,(702) 457-3011,office@ibew396.org,1014.0,1785055,1182731,1760.0,LAS VEGAS,NV,LM-2
+234,397,Balboa,CZ,397-,"Building 750, Apt. C, 2nd Tuesday, 5 pm",,PO Box 0818-00081,,"Panama, Republic of Panama",FO,,(507) 276-7226,fng@pancanal.com,,,,,,,
+235,398,Charleston,SC,398-,"3345 Seiberling Road, 1st Monday, 5 pm",,112 Deer Street,,Summerville,SC,20485,(843) 270-2316,tfmiller4@gmail.com,241.0,150738,204111,625.0,AWENDAW,SC,LM-3
+236,400,Asbury Park,NJ,400-,"4th Wednesday, 6 pm",www.ibew400.org,3301 Highway 138 E,,Wall,NJ,07719,(732) 681-7111,robert@ibew400.org,713.0,4705370,3673588,6599.0,WALL,NJ,LM-2
+237,401,Reno,NV,401-,"2nd Thursday, 7 pm",www.ibewlocal401.org,4635 Longley Lane,,Reno,NV,89502,(775) 329-2566,ibew401@ibewlocal401.org,1088.0,4176463,5345315,3839.0,RENO,NV,LM-2
+238,402,Thunder Bay,ON,402-,"3rd Tuesday, 7 pm",www.ibew402.ca,103-910 Cobalt Crescent,,Thunder Bay,ON,P7B 5W3,(807) 623-5759,office@ibew402.ca,,,,,,,
+239,405,Cedar Rapids,IA,405-,"3rd Wednesday, 6 pm",www.ibew405.org,1211 Wiley Boulevard SW,,Cedar Rapids,IA,52404,(319) 396-8241,ibew405@ibew405.org,814.0,3777859,6740231,4641.0,CEDAR RAPIDS,IA,LM-2
+19560,410,Baltimore,MD,410-,"3rd Wednesday, 5:30 pm",www.ibew410.com,913 Ridgebrook Road,,Sparks Glencoe,MD,21152,(410) 819-2230,officemanager@local410.com,1477.0,2593509,4616304,1756.0,Sparks Glencoe,MD,LM-2
+241,412,Kansas City,MO,412-,"Local Union 124's Hall, 301 E 103rd Terrace, 3rd Tuesday, 6 pm",,1760 Universal Avenue,,Kansas City,MO,64120,(816) 231-4530,business.manager@ibew412.org,408.0,799685,1816803,1960.0,KANSAS CITY,MO,LM-2
+242,413,Santa Barbara,CA,413-,"3rd Thursday, 6 pm",www.ibew413.org,100 Thomas Road,,Buellton,CA,93427,(805) 688-8083,bill@ibew413.org,364.0,1669776,4409343,4587.0,BUELLTON,CA,LM-2
+243,415,Cheyenne,WY,415-,"1st Wednesday, 6 pm",www.ibew415.org,810 Fremont Avenue,,Cheyenne,WY,82001,(307) 632-5944,info@ibew415.org,264.0,1124736,3193587,4260.0,CHEYENNE,WY,LM-2
+245,418,Cleburne,TX,418-,"Los Tres Magueyes Cantina & Grill, 2801 S General Bruce Drive, Temple, 2nd Tuesday, 3:30  pm",,108 Fairway Drive,,Gatesville,TX,76528,(254) 223-4172,carsongerdel1988@gmail.com,71.0,89763,25558,1264.0,BELTON,TX,LM-3
+246,420,Waterbury,CT,420-,"American Italian Civic Club, 476 Boyden Street, 4th Friday, 5:30 pm",www.ibewlocal420.com,550 Wolcott Street,,Waterbury,CT,06705,(203) 757-9639,ibew@snet.net,747.0,1446544,885146,1936.0,WATERBURY,CT,LM-2
+247,423,Mobridge,SD,423-,"Moose Lodge, 4th Friday, 7:30 pm",,1717 N Main Street,,Mobridge,SD,57601,(701) 226-2658,,20.0,21640,21402,1082.0,MOBRIDGE,SD,LM-3
+248,424,Edmonton,AB,424-,"Edmonton: 4th Wednesday, 7 pm; Fort McMurray: 4th Tuesday, 8 pm; Calgary: 4th Thursday, 7 pm",www.ibew424.net,4232-93 Street,,Edmonton,AB,T6E 5P5,(780) 462-5076,ibew424@ibew424.net,,,,,,,
+249,426,Sioux Falls,SD,426-,"3rd Thursday, 7 pm",www.ibew426.com,3725 N Fourth Avenue,,Sioux Falls,SD,57104,(605) 336-0370,office@ibew426.com,1048.0,2204657,6332695,2104.0,SIOUX FALLS,SD,LM-2
+250,428,Bakersfield,CA,428-,"2nd Thursday, 7:30 pm",www.ibew428.org,3921 N Sillect Avenue,,Bakersfield,CA,93308,(661) 323-2979,mail@ibew428.org,1220.0,7010465,22929797,5746.0,BAKERSFIELD,CA,LM-2
+251,429,Nashville,TN,429-,"1st & 3rd Monday, 7 pm",www.ibew429.org,2001 Elm Hill Pike,,Nashville,TN,37210,(615) 889-4429,ibew429@ibew429.org,2312.0,6356895,13746056,2750.0,NASHVILLE,TN,LM-2
+252,430,Racine,WI,430-,"1st Thursday, 6 pm",www.ibewlu430.org,1840 Sycamore Avenue,,Racine,WI,53406,(262) 633-2844,info@ibewlu430.org,300.0,5887451,5713829,19625.0,RACINE,WI,LM-2
+253,433,Inglis,FL,433-,"1st Monday, 7 pm",www.ibew433.org,5396 N Lecanto Highway,,Beverly Hills,FL,34465,(352) 746-4239,brad.bennett@ibew433.org,166.0,201365,114946,1213.0,CITRUS SPRINGS,FL,LM-3
+254,435,Winnipeg,MB,435-,As Notified,www.ibew435.com,214-301 Weston Street,,Winnipeg,MB,R3E 3H4,(204) 985-4239,union@ibew435.ca,,,,,,,
+255,436,El Dorado,AR,436-,"3rd Thursday, 6 pm",,810 N Newton Street,,El Dorado,AR,71730,(870) 863-9181,ibewl436@sbcglobal.net,280.0,570065,980457,2036.0,EL DORADO,AR,LM-2
+256,440,Riverside,CA,440-,"1st Friday, 6 pm",www.ibew440.org,1605 Spruce Street,,Riverside,CA,92507,(951) 684-5665,contact@ibew440.org,1318.0,6976911,13038442,5294.0,RIVERSIDE,CA,LM-2
+257,441,Santa Ana,CA,441-,"1st Wednesday, 5 pm",www.ibewoc.com,309 N Rampart Street,,Orange,CA,92868,(714) 939-3131,admin@ibewoc.com,2490.0,11903596,13271771,4781.0,ORANGE,CA,LM-2
+258,443,Montgomery,AL,443-,"2nd Saturday, 6 pm",www.ibew443.org,1469 Jean Street,,Montgomery,AL,36107,(334) 272-8830,info@ibew443.org,743.0,1855670,2083780,2498.0,MONTGOMERY,AL,LM-2
+259,444,Ponca City,OK,444-,"1st Thursday, 7:30 pm",,200 N Second Street,,Ponca City,OK,74601,(580) 762-4441,ibew444@sbcglobal.net,118.0,308797,1004329,2617.0,PONCA CITY,OK,LM-2
+260,445,Battle Creek,MI,445-,"2nd Monday, 5 pm",www.ibew445.com,4071 W Dickman Road,,Springfield,MI,49037,(269) 964-4545,info@ibew445.com,280.0,2278582,2481986,8138.0,SPRINGFIELD,MI,LM-2
+261,446,Monroe,LA,446-,"1st Friday, 6 pm",www.ibew446.com,805 N 30th Street,,Monroe,LA,71201,(318) 323-3350,ibew446@gmail.com,645.0,1179861,1328726,1829.0,MONROE,LA,LM-2
+262,449,Pocatello,ID,449-,"1st Thursday, 7:30 pm",www.ibewlocal449.org,1537 Baldy Avenue,,Pocatello,ID,83201,(208) 232-5263,office@ibewlocal449.org,791.0,2488664,4660652,3146.0,POCATELLO,ID,LM-2
+263,452,Burlington,IA,452-,"Pizza Hut, 896 W Fremont Street, Galesburg, IL, 2nd Thursday, 4 pm",,248 E Burch Street,,Watega,IL,61488,(309) 221-2989,fdut67@yahoo.com,41.0,54293,14595,1324.0,Galesburg,IL,LM-3
+264,453,Springfield,MO,453-,"2nd Thursday, 6:30 pm",www.ibew453.com,2902 E Division Street,,Springfield,MO,65803,(417) 869-7251,ibewlocal453@gmail.com,533.0,1233624,2724459,2314.0,SPRINGFIELD,MO,LM-2
+265,454,Orange,NJ,454-,"Sun Tavern, 600 Westfield Avenue W, Roselle Park, 4th Tuesday, 5 pm",,804 Madaline Drive,,Avenel,NJ,07001,(201) 209-8776,ibewlocal454@gmail.com,45.0,20367,4541,453.0,Lincoln Park,NJ,LM-3
+266,455,Springfield,MA,455-,"4th Tuesday, 4:30 pm",www.ibew455.org,474 Page Boulevard,,Springfield,MA,01104,(413) 733-7398,office@ibew455.org,585.0,769015,856593,1315.0,SPRINGFIELD,MA,LM-2
+267,456,New Brunswick,NJ,456-,"Joyce Kilmer American Legion Post 25, 4 John F. Kennedy Drive, Milltown, 4th Tuesday, 7 pm",www.ibew456.org,1295 Livingston Avenue,,North Brunswick,NJ,08902,(732) 246-2122,local456@ibew456.org,928.0,9573866,25789510,10317.0,NORTH BRUNSWICK,NJ,LM-2
+268,457,Meriden,CT,457-,"Middletown Elks, Middletown, 2nd Thursday, 5:30 pm",www.ibewlocal457.org,2590 Berlin Turnpike,,Berlin,CT,06037,(860) 505-0948,office@ibewlocal457.org,1234.0,2594319,2625795,2102.0,Berlin,CT,LM-2
+269,459,Johnstown,PA,459-,"Northwest District (Erie, Jamestown, NY, Warren): 2nd Monday, 5 PM; Erie (January, April, July & October; 5 PM Jamestown (March, June, September & December) 6 PM Warren (February, May, August & November): 2nd Monday, 6 PM; Central District (Clearfield): 2nd Wednesday, 6 PM; Northeast District (Sayre",www.ibew459.org,408 Broad Street,,Johnstown,PA,15906,(814) 535-7655,ibew.local459@gmail.com,1372.0,2053409,3113269,1497.0,JOHNSTOWN,PA,LM-2
+270,461,Aurora,IL,461-,"1st Tuesday, 6 pm",www.ibew461.org,591 Sullivan Road,,Aurora,IL,60506,(630) 897-0461,adminoffice@ibew461.com,345.0,2379891,4939622,6898.0,AURORA,IL,LM-2
+271,463,Glasgow,KY,463-,"Adair County Courthouse Annex, Columbia",,434 College Street,,Somerset,KY,42501,(606) 383-1021,shaun.campbell.ibew463@gmail.com,180.0,94299,239070,524.0,Somerset,KY,LM-3
+272,464,Covington,VA,464-,"Fincastle Baptist Church, 230 E Oak Street, 3rd Monday, 5 pm",,PO Box 472,,Covington,VA,24426,(540) 620-2025,ibew464@gmail.com,77.0,124846,73238,1621.0,COVINGTON,VA,LM-3
+273,465,San Diego,CA,465-,"1st Wednesday, 5 pm",www.ibew465.org,7444 Trade Street,,San Diego,CA,92121,(858) 536-7444,kristen@ibew465.org,2701.0,3535599,1256425,1309.0,SAN DIEGO,CA,LM-2
+274,466,Charleston,WV,466-,"1st Tuesday, 6:30 pm",www.ibew466.org,800 Indiana Avenue,,Charleston,WV,25302,(304) 342-0800,christ@ibew466.org,418.0,1996756,2998117,4777.0,CHARLESTON,WV,LM-2
+275,474,Memphis,TN,474-,"4th Monday, 6 pm",www.ibewlocal474.com,1870 Madison Avenue,,Memphis,TN,38104,(901) 726-4060,info@ibewlocal474.com,2247.0,5906433,15139758,2629.0,MEMPHIS,TN,LM-2
+276,477,San Bernardino,CA,477-,"2nd Friday, 6 pm",www.ibew477.org,1875  Business Center Drive,,San Bernardino,CA,92408,(909) 890-0607,jason@ibew477.org,1369.0,5222583,11011258,3815.0,SAN BERNARDINO,CA,LM-2
+277,479,Beaumont,TX,479-,"1st Tuesday, 7 pm",www.ibew479.com,1430 Spindletop Road,,Beaumont,TX,77705,(409) 833-8252,justin@ibew479.com,946.0,2079107,3786970,2198.0,BEAUMONT,TX,LM-2
+278,480,Jackson,MS,480-,"2nd Thursday, 6 pm",www.ibew480.org,4767 I-55 S,,Jackson,MS,39212,(601) 373-8434,ibew480@ibew480.org,547.0,1319484,1682145,2412.0,BYRAM,MS,LM-2
+279,481,Indianapolis,IN,481-,"1st Wednesday, 7 pm",www.ibew481.org,1828 N Meridian Street,,Indianapolis,IN,46202,(317) 923-2596,info@ibew481.org,4671.0,12622801,15628637,2702.0,INDIANAPOLIS,IN,LM-2
+280,483,Tacoma,WA,483-,"2nd Thursday, 6 pm",www.ibew483.org,3525 S Alder Street,,Tacoma,WA,98409,(253) 565-3232,general@ibew483.org,1132.0,2161513,3220383,1909.0,TACOMA,WA,LM-2
+281,486,Worcester,MA,486-,"242 Mill Street, Worcester, Last Thursday, 7 pm",,250 Hampton Street,,Auburn,MA,01501,(508) 407-8444,localunion486@gmail.com,356.0,531514,454386,1493.0,Auburn,MA,LM-2
+282,488,Bridgeport,CT,488-,"3rd Monday, 6 pm",www.ibewlocal488.org,721 Main Street,,Monroe,CT,06468,(203) 452-7679,office@ibewlocal488.org,436.0,1873795,6743018,4298.0,MONROE,CT,LM-2
+283,490,Dover,NH,490-,"1st Thursday, 6 pm",www.ibew490.org,48 Airport Road,,Concord,NH,03301,(603) 224-4239,info@ibew490.org,326.0,1030600,2187017,3161.0,CONCORD,NH,LM-2
+284,494,Milwaukee,WI,494-,"1st Thursday, 6 pm",www.ibew494.com,3303 S 103rd Street,,Milwaukee,WI,53227,(414) 327-5202,amy@ibew494.com,3135.0,10225058,14008979,3262.0,MILWAUKEE,WI,LM-2
+285,495,Wilmington,NC,495-,"1st Friday, 8 pm",,2725 Old Wrightsboro Road,,Wilmington,NC,28405,(910) 660-8630,ibewunion495@gmail.com,382.0,402347,195273,1053.0,Wilmington,NC,LM-2
+286,498,Traverse City,MI,498-,"2nd Monday, 7 pm",www.ibewlocal498.com,3912 Blair Townhall Road W,,Traverse City,MI,49685,(231) 943-4980,ibew@local498.net,240.0,633021,1185630,2638.0,TRAVERSE CITY,MI,LM-2
+287,499,Des Moines,IA,499-,Various Dates & Times,www.ibew499.com,10174 Hickman Court,,Clive,IA,50325,(515) 334-0499,secretary@ibew499.com,939.0,1437642,2434874,1531.0,CLIVE,IA,LM-2
+288,500,San Antonio,TX,500-,"1st Wednesday, 5:30 pm",www.ibew500.org,PO Box 23023,,San Antonio,TX,78223,(210) 337-1988,ibew500@satx.rr.com,,,,,,,
+289,502,Saint John,NB,502-,"4th Wednesday, 7 pm",www.ibew502.org,26 Kiwanis Court,,Saint John,NB,E2K 4L2,(506) 635-1221,info@ibew502.ca,,,,,,,
+290,503,Monroe,NY,503-,"2nd Monday, 5 pm",www.ibew503.org,2657 Route 17M,,Goshen,NY,10924,(845) 294-1337,ibew503@ibew503.com,678.0,1126060,1028756,1661.0,Goshen,NY,LM-2
+291,505,Mobile,AL,505-,"1st Tuesday, 6 pm",www.ibew505.org,2244 Halls Mill Road,,Mobile,AL,36606,(251) 476-0275,info@ibew505.org,655.0,948490,2181259,1448.0,MOBILE,AL,LM-2
+292,506,St. Paul,MN,506-,"Columbia Heights VFW Post #230, 446 Central Avenue, Columbia Heights, 2nd Wednesday, 3:30 pm",,336 Sandhurst Drive W,,Roseville,MN,55113,(651) 488-8101,local506info@gmail.com,61.0,84593,22978,1387.0,ROSEVILLE,MN,LM-3
+293,508,Savannah,GA,508-,"2nd Thursday, 7 pm",www.ibewlocal508.org,1526 Dean Forest Road,,Savannah,GA,31408,(912) 964-5080,officemanager@ibewlocal508.org,567.0,1537566,2050686,2712.0,SAVANNAH,GA,LM-2
+294,510,Houghton,MI,510-,"Rotating Monthly: Eagles Club South Range & American Legion Marquette, 2nd Thursday, 7 pm",,1020 W Riverview Drive,,Ishpeming,MI,49849,(906) 204-8175,ibew510@gmail.com,168.0,229764,363808,1368.0,ISHPEMING,MI,LM-3
+295,513,Decatur,IL,513-,"Doherty's Pub and Pins, 242 E Williams Street, 3rd Wednesday, 6 pm",,1634 N 1250 East Road,,Taylorville,IL,62568,(217) 827-2355,513financialsecretary@gmail.com,92.0,84818,31420,922.0,Mount Zion,IL,LM-3
+296,518,Globe,AZ,518-,"1st Thursday, 6:30 pm",,1383 N AZ Highway 188,,Globe,AZ,85501,(928) 425-8177,ibew518@hotmail.com,114.0,415735,412640,3647.0,GLOBE,AZ,LM-2
+297,520,Austin,TX,520-,"3rd Friday, 6 pm",www.ibew520.org,4818 E Ben White Boulevard,,Austin,TX,78741,(512) 326-9540,info@ibew520.org,2083.0,7112663,8878929,3415.0,AUSTIN,TX,LM-2
+298,524,Wahpeton,ND,524-,"Wahpeton Community Center, 304 Fifth Street N, 3rd Wednesday, 7:30 pm",,605 Seventeenth Avenue N,,Wahpeton,ND,58075,(701) 640-5858,ibewlocal524@gmail.com,51.0,27842,40837,546.0,Mapleton,ND,LM-3
+299,527,Galveston,TX,527-,"2nd Wednesday, 7 pm",www.ibew527.com,2509 FM 2004 Road,,Texas City,TX,77591,(409) 933-9800,LU@ibew527.com,326.0,687929,2241763,2110.0,Texas City,TX,LM-2
+300,529,Saskatoon,SK,529-,"4th Tuesday, 7 pm",www.ibew529.com,10-3703 Kochar Avenue,,Saskatoon,SK,S7P 0B8,(306) 384-0529,admin@ibew529.com,,,,,,,
+301,530,Sarnia,ON,530-,"UNIFOR Hall, 900 Devine Street, 1st Tuesday, 7 pm",www.lu530.com,128 Kendall Street,,Point Edward,ON,N7V 4G5,(519) 344-4154,IBEW@LU530.com,,,,,,,
+302,531,LaPorte,IN,531-,"1st Friday, 7 pm",www.ibewlocal531.org,2751 N State Road 39,,LaPorte,IN,46350,(219) 362-2119,jim@ibewlocal531.org,916.0,2713177,4292808,2962.0,LA PORTE,IN,LM-2
+303,532,Billings,MT,532-,"2nd Wednesday, 7 pm",www.ibew532.com,5200 Midland Road,,Billings,MT,59101,(406) 248-9119,office@ibew532.com,719.0,1518313,3951677,2112.0,BILLINGS,MT,LM-2
+304,533,Chicago,IL,533-,"Various Locations, 3rd Monday, 4 pm",,250 Tiverton Lane,,Steger,IL,60475,(360) 747-0243,ceaser807@yahoo.com,83.0,114447,21649,1379.0,PLAINFIELD,IL,LM-3
+305,538,Danville,IL,538-,"3rd Tuesday, 6 pm",www.ibew538.org,1290 N Michigan Avenue,,Danville,IL,61834,(217) 442-0996,ibew@ibew538.com,235.0,706861,489209,3008.0,DANVILLE,IL,LM-2
+306,540,Canton,OH,540-,"3rd Tuesday, 7 pm",www.ibew540.org,2333 Nave Road SE,,Massillon,OH,44646,(330) 837-4239,ehann@ibew540.org,777.0,2721530,3934167,3503.0,MASSILLON,OH,LM-2
+307,543,San Bernardino,CA,543-,Various Times & Places,www.ibew543.org,16519 Victor Street,,Victorville,CA,92395,(760) 245-8147,jorge.Lugo@ibew543.org,284.0,431292,133543,1519.0,VICTORVILLE,CA,LM-2
+308,544,Hornell,NY,544-,"Super 8, Henrietta, 3rd Friday, 6:30 pm",,90 Woodell Avenue,,Buffalo,NY,14211,(716) 480-8820,ibewlocalunion544@gmail.com,30.0,32697,27622,1090.0,BUFFALO,NY,LM-3
+309,545,St. Joseph,MO,545-,"1st Thursday, 7 pm",www.ibewlocal545.net,5804 Corporate Drive,,St. Joseph,MO,64507,(816) 232-3578,kimknipp@ibewlocal545.net,446.0,2097627,2259005,4703.0,ST JOSEPH,MO,LM-2
+310,547,Galesburg,IL,547-,Various Times & Places,www.facebook.com/groups/398895581178805,PO Box 213,,Rayville,MO,64084,(817) 235-9357,president.ibew547@gmail.com,154.0,189145,58404,1228.0,Oskaloosa,IA,LM-3
+311,549,Huntington,WV,549-,"Huntington C&O Railway FCU, 901 Sixth Avenue, 2nd Tuesday, 3:30 pm",,United Steelworkers Hall,,Huntington,WV,25703,(606) 571-5414,andycogar4848@gmail.com,81.0,115033,36315,1420.0,HUNTINGTON,WV,LM-3
+312,551,Santa Rosa,CA,551-,"2nd Thursday, 6 pm",www.ibewlocal551.org,2525 Cleveland Avenue,,Santa Rosa,CA,95403,(707) 542-3505,ibew551@ibewlocal551.org,702.0,2491987,3901377,3550.0,SANTA ROSA,CA,LM-2
+313,553,Raleigh,NC,553-,"3rd Monday, 6 pm",www.ibew553.org,3300 New Raleigh Highway,,Durham,NC,27703,(919) 596-8220,office@ibew553.org,1067.0,1905803,2424129,1786.0,RESEARCH TRIANGLE PARK,NC,LM-2
+314,557,Saginaw,MI,557-,"1st Tuesday, 5:30 pm",www.ibew557.org,7303 Gratiot Road,,Saginaw,MI,48609,(989) 781-0516,renee@ibew557.org,270.0,4314972,4420285,15981.0,SAGINAW,MI,LM-2
+315,558,Sheffield,AL,558-,"2nd Monday, 7:30 pm",www.ibew558.org,1803 E Seventeenth Street,,Sheffield,AL,35660,(256) 383-2279,info@ibew558.org,2212.0,5101654,11101761,2306.0,SHEFFIELD,AL,LM-2
+316,559,Kenora,ON,559-,"Monthly, TBD",,PO Box 443,,Kenora,ON,P9N 3X4,(807) 464-0944,ibew559@gmail.com,,,,,,,
+317,567,Portland,ME,567-,"4th Wednesday, 6 pm",www.ibew567.com,238 Goddard Road,,Lewiston,ME,04240,(207) 786-9770,dlehouillier@ibew567.com,360.0,1235564,3110418,3432.0,LEWISTON,ME,LM-2
+318,568,Montreal,QC,568-,Various Times & Places,www.fioe568.com,4881 Jarry Street E,,Montreal,QC,H1R 1Y1,(514) 329-0568,info@fioe568.com,,,,,,,
+319,569,San Diego,CA,569-,"2nd Wednesday, 5:30 pm",www.ibew569.org,4545 Viewridge Avenue,,San Diego,CA,92123,(858) 569-8900,jabrams@ibew569.org,3602.0,11430236,15493824,3173.0,SAN DIEGO,CA,LM-2
+320,570,Tucson,AZ,570-,"1st Tuesday, 5 pm",www.ibew570.org,750 S Tucson Boulevard,,Tucson,AZ,85716,(520) 622-6745,joshd@ibew570.org,1178.0,2001061,2040643,1699.0,TUCSON,AZ,LM-2
+321,573,Warren,OH,573-,"2nd Friday, 7:30 pm",www.ibew573.org,4550 Research Parkway NW,,Warren,OH,44483,(330) 394-3606,electricians573@gmail.com,318.0,1268814,4672528,3990.0,WARREN,OH,LM-2
+322,574,Bremerton,WA,574-,"2nd Tuesday, 5:30 pm",,11871 Silverdale Way NW,,Silverdale,WA,98383,(360) 692-3789,ibew574@qwestoffice.net,128.0,164096,102028,1282.0,SILVERDALE,WA,LM-3
+323,575,Portsmouth,OH,575-,"1st Friday, 7:30 pm",www.ibew575.org,110 Offnere Street,,Portsmouth,OH,45662,(740) 353-8000,office@ibew575.com,538.0,5192462,7364744,9651.0,PORTSMOUTH,OH,LM-2
+324,576,Alexandria,LA,576-,"2nd Thursday, 6 pm",,6703 Masonic Drive,,Alexandria,LA,71301,(318) 443-5811,office@ibewlocal576.com,350.0,745040,746393,2129.0,ALEXANDRIA,LA,LM-2
+325,577,Appleton,WI,577-,"Appleton Labor Temple, 3rd Monday, 5 pm",www.ibewlu577.com,1024 S Lawe Street,,Appleton,WI,54915,(920) 739-9408,admin@ibewlu577.com,492.0,1561497,2933110,3174.0,APPLETON,WI,LM-2
+326,578,Chillicothe,OH,578-,"FOP Union Hall, 290 S McArthur Street, 1st Tuesday, 4:30 pm",,PO Box 351,,Chillicothe,OH,45601,(740) 703-8598,kirkkellis@gmail.com,56.0,25906,44465,463.0,CHILLICOTHE,OH,LM-3
+327,583,El Paso,TX,583-,"2nd Wednesday, 6:30 pm",www.ibew583.com,311 W Borderland Road,,El Paso,TX,79932,(915) 877-9166,ibew@ibew583.com,578.0,1690661,4679214,2925.0,El Paso,TX,LM-2
+328,584,Tulsa,OK,584-,"1st Friday, 7 pm",www.ibew584.com,584 S Lewis Avenue,,Tulsa,OK,74104,(918) 592-2989,office@ibew584.com,519.0,2244977,2206486,4326.0,TULSA,OK,LM-2
+329,586,Ottawa,ON,586-,"3rd Monday, 7 pm",www.ibew586.org,2460 Lancaster Road,,Ottawa,ON,K1B 4S5,(613) 741-5664,bpotter@ibew586.org,,,,,,,
+330,589,Jamaica,NY,589-,"27 Locust Avenue, Babylon, 3rd Monday, 5:30 pm",,38B Church Street,,Patchogue,NY,11772,(631) 569-4008,unionoffice@ibew589.org,1209.0,1203718,2109709,996.0,PATCHOGUE,NY,LM-2
+331,595,Dublin,CA,595-,"Alameda County JATC, 14600 Catalina Street, San Leandro, 2nd Thursday, 6 pm",www.ibew595.org,6850 Regional Street,,Dublin,CA,94568,(925) 556-0595,info@ibew595.org,3327.0,21169336,42532655,6363.0,DUBLIN,CA,LM-2
+332,596,Clarksburg,WV,596-,"2nd Thursday, 7 pm",www.ibew596.com,1001 N Twelfth Street,,Clarksburg,WV,26301,(304) 622-0151,ibew596@ibew596.com,392.0,1467040,2111625,3742.0,CLARKSBURG,WV,LM-2
+333,601,Champaign-Urbana,IL,601-,"1st Tuesday, 7 pm",www.ibew601.org,3301 N Boardwalk Drive,,Champaign,IL,61822,(217) 352-1741,office@ibew601.org,829.0,2162888,3896056,2609.0,CHAMPAIGN,IL,LM-2
+334,602,Amarillo,TX,602-,"2nd Wednesday, 7:30 pm",www.ibew602.org,200 S Fannin Street,,Amarillo,TX,79106,(806) 376-9945,admin@ibew602.org,2050.0,3410671,3260035,1664.0,AMARILLO,TX,LM-2
+335,604,Hoboken,NJ,604-,"Mulligan's Hall, First Street, 1st Thursday, 5 pm",www.ibewlocal604.com,45 Huyler Road,,Branchburg,NJ,08876,(848) 702-1423,ibewlocal604president@gmail.com,175.0,67407,3796,385.0,Branchburg,NJ,LM-3
+336,605,Jackson,MS,605-,"Local Union 480 Hall, 1st Tuesday, 6:30 pm",,210 E Georgetown Street,,Crystal Springs,MS,39059,(601) 892-5162,ibewlocal605@bellsouth.net,330.0,678391,1220538,2056.0,CRYSTAL SPRINGS,MS,LM-2
+337,606,Orlando,FL,606-,"1st Tuesday, 7 pm",www.ibew606.org,820 Virginia Drive,,Orlando,FL,32803,(407) 896-7271,info@ibew606.org,1851.0,3092380,5750545,1671.0,ORLANDO,FL,LM-2
+338,607,Shamokin,PA,607-,"2nd Wednesday, 7 pm",www.ibew607.com,25 S Fifth Street,,Shamokin,PA,17872,(570) 648-9831,anthonygratti@ibew607.com,195.0,716801,2110039,3676.0,SHAMOKIN,PA,LM-2
+339,611,Albuquerque,NM,611-,"3rd Saturday, 10 am",www.ibew611.org,4921 Alexander Boulevard NE,,Albuquerque,NM,87107,(505) 343-0611,alfonso@ibew611.org,2836.0,9429968,14249908,3325.0,ALBUQUERQUE,NM,LM-2
+340,612,Wheatland,WY,612-,"Last Thursday, 4 pm",www.ibew612.net,1401 Ninth Street,,Wheatland,WY,82201,(307) 575-3753,Gordon.noggle@icloud.com ,202.0,207682,394170,1028.0,WHEATLAND,WY,LM-3
+341,613,Atlanta,GA,613-,"3rd Tuesday, 6 pm",www.ibew613.org,501 Pulliam Street SW,,Atlanta,GA,30312,(404) 523-8107,admin613@ibew613.org,6125.0,14287880,20639249,2333.0,ATLANTA,GA,LM-2
+342,614,Philadelphia,PA,614-,"2nd Wednesday, 7:30 pm",www.614ibew.com,4613 West Chester Pike,,Newtown Square,PA,19073,(610) 359-1015,info@614ibew.com,1612.0,2980125,1311080,1849.0,NEWTOWN SQUARE,PA,LM-2
+343,617,San Mateo,CA,617-,"1st Tuesday, 5 pm",www.ibew617.com,1701 Leslie Street,,San Mateo,CA,94402,(650) 574-4239,information@ibew617.com,1651.0,9112904,43378615,5520.0,SAN MATEO,CA,LM-2
+344,618,Omaha,NE,618-,"Local Union 22 Hall, 3rd Wednesday, 5:30 pm",,PO Box 3246,,Omaha,NE,68103,(402) 339-2817,,51.0,78812,61201,1545.0,OMAHA,NE,LM-3
+345,622,Lake City,FL,622-,"1st Wednesday, 6 pm",,509 NW Brook Loop,,Lake City,FL,32055,(205) 352-7736,lu622president@outlook.com,70.0,76697,17376,1096.0,LAKE CITY,FL,LM-3
+347,625,Halifax,NS,625-,"2nd Monday, 7 pm",https://ibew625.ca,24 Beechville Park Drive,,Beechville,NS,B3T 1L1,(902) 450-5625,info@ibew625.ca,,,,,,,
+348,626,Avon Park,FL,626-,"Babson Park Women's Club, 1300 N Scenic Highway, Babson Park, 2nd Monday, 6:30 pm",www.ibew626.org,228 Mandolin Drive,,Winter Haven,FL,33884,(863) 528-2970,willteti@ibew626.org,136.0,164024,42044,1206.0,Winter Haven,FL,LM-3
+349,627,Fort Pierce,FL,627-,"2nd Monday, 7 pm",www.ibew627.com,613 SW Millard Drive,,Port St. Lucie,FL,34953,(772) 248-1109,kevinscu4@gmail.com,382.0,534599,275951,1399.0,PORT ST. LUCIE,FL,LM-2
+350,632,Atlanta,GA,632-,"Electrical Plaza, 501 Pulliam Street, 1st Tuesday, 3:30 pm",,PO Box 538,,Lithia Springs,GA,30122,(678) 523-3954,ibewlu632@gmail.com,42.0,0,4718,0.0,Lithia Springs,GA,LM-3
+351,633,St. Louis,MO,633-,"Sawmill BBQ Restaurant, 4060 Mississippi Avenue, Cahokia, IL, 2nd Monday, 4 pm",,505 Ashford Drive,,Saint Peters,MO,63376,(636) 922-7880,canadian4@msn.com,15.0,18249,16087,1217.0,SAINT LOUIS,MO,LM-3
+352,636,Toronto,ON,636-,1st Wednesday,www.ibewlocal636.com,1001 Ritson Road S,,Oshawa,ON,L1H 4G5,(905) 286-0330,officeibew636@gmail.com,,,,,,,
+353,639,San Luis Obispo,CA,639-,"3rd Thursday, 6 pm",www.ibew639.org,6363 Edna Road,,San Luis Obispo,CA,93401,(805) 543-5693,admin@ibew639.org,249.0,1596481,3399190,6412.0,SAN LUIS OBISPO,CA,LM-2
+354,640,Phoenix,AZ,640-,"3rd Monday, 6 pm",https://ibew640.com/,5808 N Seventh Street,,Phoenix,AZ,85014,(602) 264-4506,info@ibew640.com,4410.0,15606836,34649288,3539.0,PHOENIX,AZ,LM-2
+355,641,Punta Gorda,FL,641-,"17221 Alico Center Road, Fort Myers, 1st Wednesday, 6:30 pm",www.ibew641.org,2453 Nature Point Loop,,Fort Myers,FL,33905,(239) 289-3166,stevenccarroll@comcast.net,172.0,260080,139691,1512.0,Fort Myers,FL,LM-2
+356,647,Little Rock,AR,647-,"Local Union 295 Hall, 7320 S University Avenue, 3rd Tuesday, 7 pm",www.ibew647.org,1303 N Church Street,,Atkins,AR,72823,(501) 590-2104,ibew647@gmail.com,819.0,822434,1108924,1004.0,CONWAY,AR,LM-2
+357,648,Hamilton,OH,648-,"1st Wednesday, 6 pm",www.ibew648.org,4300 Millikin Road,,Hamilton,OH,45011,(513) 863-6515,local648@ibew648.org,715.0,2275088,3073264,3182.0,HAMILTON,OH,LM-2
+358,649,Alton,IL,649-,"2nd Tuesday, 6 pm",www.ibew649.org,3945 Humbert Road,,Alton,IL,62002,(618) 462-1627,info@ibew649.org,468.0,1716978,1845005,3669.0,ALTON,IL,LM-2
+359,650,Salt Lake City,UT,650-,"3400 W 2100 S, 2nd Thursday, 4 pm",,3400 W 2100 S,,Salt Lake City,UT,84119,(208) 244-0959,president@ibew650.org,38.0,55936,47980,1472.0,Salt Lake City,UT,LM-3
+360,653,Miles City,MT,653-,"MDU Warehouse, 1st Tuesday, 5 pm",,814 Bridge Street,,Miles City,MT,59301,(406) 951-2182,,11.0,7233,6423,658.0,MILES CITY,MT,LM-4
+361,654,Chester,PA,654-,"2nd Tuesday, 5 pm",www.ibew654.com,3729 Chichester Avenue,,Boothwyn,PA,19061,(610) 494-2820,,546.0,3099857,8355768,5677.0,BOOTHWYN,PA,LM-2
+362,656,Birmingham,AL,656-,Various Times & Places,,3539 Mary Taylor Road,,Birmingham,AL,35235,(256) 338-6318, jeremybeasley13@gmail.com,32.0,46200,15204,1444.0,BIRMINGHAM,AL,LM-3
+363,659,Medford,OR,659-,Various Times & Places,www.ibew659.org,4480 Rogue Valley Highway,,Central Point,OR,97502,(541) 664-0800,info@ibew659.org,2541.0,5820212,5674769,2291.0,CENTRAL POINT,OR,LM-2
+364,661,Hutchinson,KS,661-,"3rd Tuesday, 6:30 pm",www.ibew661.com,200 W Second Avenue,,Hutchinson,KS,67501,(620) 663-3431,info@ibew661.com,298.0,1320170,983936,4430.0,HUTCHINSON,KS,LM-2
+365,663,Milwaukee,WI,663-,"Club Paragon, 3578 S 108th Street, Greenfield, 3rd Wednesday, 4 pm",,PO Box 341863,,Milwaukee,WI,53234,(262) 424-9836,ibew663@wi.rr.com,62.0,64495,142131,1040.0,MUKWONAGO,WI,LM-3
+366,665,Lansing,MI,665-,"3rd Monday, 6:30 pm",www.ibew665.org,5710 Ivan Drive,,Lansing,MI,48917,(517) 393-5530,,863.0,3420404,5864420,3963.0,LANSING,MI,LM-2
+367,666,Richmond,VA,666-,"1390 E Nine Mile Road, Highland Springs, 2nd Friday, 7 pm",www.ibewlocal666.com,1400 E Nine Mile Road,,Highland Springs,VA,23075,(804) 353-9666,info@ibewlocal666.com,2300.0,7036189,13247328,3059.0,HIGHLAND SPRINGS,VA,LM-2
+368,667,Pueblo,CO,667-,"1st Thursday, 7 pm",,2901 Farabaugh Lane,,Pueblo,CO,81005,(719) 470-3480,businessmanageribew667@gmail.com,204.0,340012,184769,1667.0,PUEBLO,CO,LM-2
+369,668,Lafayette,IN,668-,"2nd Monday, 5:30 pm",www.ibew668.org,2535 S 30th Street,,Lafayette,IN,47909,(765) 474-1021,ibew668@ibew668.org,810.0,3443874,3919294,4252.0,LAFAYETTE,IN,LM-2
+370,673,Painesville,OH,673-,"1st Wednesday, 7 pm",www.ibew673.org,8356 Munson Road,,Mentor,OH,44060,(440) 255-3414,ehovlik@ibew673.org,335.0,1043696,1537103,3116.0,MENTOR,OH,LM-2
+371,674,Boston,MA,674-,"Alternating Between Somerville & Dedham, 1st Wednesday, 4:30 pm",,PO Box 410152,,Cambridge,MA,02141,(617) 777-7468,ibewmannion@gmail.com,203.0,110071,24194,542.0,Cambridge,MA,LM-3
+372,676,Pensacola,FL,676-,"1st Thursday, 6:30 pm",www.ibewlocal676.com,7830 N Palafox Street,,Pensacola,FL,32534,(850) 477-8767,ibewlu676@yahoo.com,423.0,373358,193138,883.0,PENSACOLA,FL,LM-2
+373,681,Wichita Falls,TX,681-,"2nd Monday, 6 pm",www.ibew681.org,6111 Old Jacksboro Highway,,Wichita Falls,TX,76302,(940) 322-1661,cgilley@ibew681.org,727.0,2884256,3895637,3967.0,WICHITA FALLS,TX,LM-2
+374,682,St. Petersburg,FL,682-,"Dunedin Elks Lodge 1525, 1240 San Christopher Drive, Dunedin, 2nd Monday, 7 pm",www.ibew682.org,305 Arbor Drive W,,Palm Harbor,FL,34683,(727) 243-6086,rommelt2012@gmail.com,534.0,637140,93175,1193.0,New Port Richey,FL,LM-2
+375,683,Columbus,OH,683-,"2nd Thursday, 6 pm",www.ibew683.org,939 Goodale Boulevard,,Columbus,OH,43212,(614) 294-4786,Hiringhall@ibew683.org,3909.0,17333168,39665346,4434.0,COLUMBUS,OH,LM-2
+376,684,Modesto,CA,684-,"2nd Tuesday, 5:30 pm",www.ibewlu684.org,519 Twelfth Street,,Modesto,CA,95354,(209) 524-5171,info@ibewlu684.org,560.0,5332860,8475766,9523.0,MODESTO,CA,LM-2
+377,688,Mansfield,OH,688-,"2nd Tuesday, 7 pm",www.ibew688.org,67 S Walnut Street,,Mansfield,OH,44902,(419) 526-4688,resign688@hotmail.com,326.0,853131,438423,2617.0,MANSFIELD,OH,LM-2
+379,692,Bay City,MI,692-,"1st Monday, 6 pm",www.ibew692.org,1300 W Thomas Street,,Bay City,MI,48706,(989) 684-4510,sholdwick@ibew692.com,578.0,1788283,1939195,3094.0,BAY CITY,MI,LM-2
+380,696,Bellaire,OH,696-,"Manfred's, 4152 Sunset Boulevard, Steubenville, 2nd Thursday, 7:30 pm",,63 Grafton Extension,,Steubenville,OH,43952,(740) 381-5409,ibew696@gmail.com,84.0,89239,70372,1062.0,WELLSVILLE,OH,LM-3
+381,697,Gary and Hammond,IN,697-,"3rd Monday, 6 pm",www.ibew697.org,7200 Mississippi Street,,Merrillville,IN,46410,(219) 945-0697,info@ibew697.org,1539.0,3617489,12413437,2351.0,MERRILLVILLE,IN,LM-2
+382,700,Ft. Smith,AR,700-,"1st Tuesday, 5:30 pm",www.ibew700.com,2914 Midland Boulevard,,Ft. Smith,AR,72904,(479) 783-1149,ibew700@ibew700.com,457.0,1039038,1809350,2274.0,FORT SMITH,AR,LM-2
+383,701,Lisle,IL,701-,"3rd Tuesday, 6 pm",www.ibew701.org,28600 Bella Vista Parkway,,Warrenville,IL,60555,(630) 393-1701,fgravina@ibew701.org,1398.0,4695709,7352327,3359.0,WARRENVILLE,IL,LM-2
+384,702,West Frankfort,IL,702-,"1st Friday, 7:30 pm",www.ibew702.org,106 N Monroe Street,,West Frankfort,IL,62896,(618) 932-2102,ibew702@ibew702.org,4973.0,9718723,15795219,1954.0,WEST FRANKFORT,IL,LM-2
+385,704,Dubuque,IA,704-,"Dubuque Labor Temple, 3rd Thursday, 4:30 pm",www.ibew704.com,1610 Garfield Avenue,,Dubuque,IA,52001,(563) 582-5947,ibew704@live.com,253.0,796787,556362,3149.0,DUBUQUE,IA,LM-2
+388,712,Beaver,PA,712-,"2nd Wednesday, 7 pm",www.ibew712.org,Edwin D. Hill Complex,,Beaver,PA,15009,(724) 775-0969,local712@ibew712.org,616.0,4908351,35331193,7968.0,BEAVER,PA,LM-2
+389,714,Minot,ND,714-,"Minot: Last Tuesday, 7 pm; Bismarck: Last Wednesday, 7 pm; Williston: Last Thursday, 7 pm",www.local714.com,125 35th Avenue NE,,Minot,ND,58703,(701) 852-3025,office@local714.com,881.0,5259980,28617310,5970.0,MINOT,ND,LM-2
+391,716,Houston,TX,716-,"1st Wednesday, 6 pm",www.ibew716.net,1475 N Loop W,,Houston,TX,77008,(713) 869-8900,ibew716@ibew716.net,3462.0,8226531,11505529,2376.0,HOUSTON,TX,LM-2
+392,717,Boston,MA,717-,"VFW 1012, 114 Mystic Avenue, Medford, 1st Wednesday After the 2nd Tuesday, 2 pm",https://ibewlocal717.com,80 Broadway,,Everett,MA,02149,(603) 913-3345,ibewlocal717@gmail.com,,,,,,,
+393,721,Chattanooga,TN,721-,"3922 Volunteer Drive, 1st Tuesday, 7:30 pm",,1901 Payne Road,,Chattanooga,TN,37421,(423) 443-1663,251williams@epbfi.com,,,,,,,
+394,723,Fort Wayne,IN,723-,3rd Thursday,www.ibew723.org,PO Box 9,,Huntertown,IN,46748,(260) 484-0373,ibew723@ibew723.org,274.0,323779,48416,1182.0,Huntertown,IN,LM-2
+19568,724,Monaca,PA,724-,,,217 Sassafras Lane,,Beaver,PA,15009,,,210.0,47024,47024,224.0,BEAVER,PA,LM-3
+395,725,Terre Haute,IN,725-,"2nd Friday, 7:30 pm",www.ibew725.org,5675 Hulman Street,,Terre Haute,IN,47803,(812) 877-4239,unionhall@ibew725.org,1195.0,3327863,6707468,2785.0,TERRE HAUTE,IN,LM-2
+396,726,El Paso,TX,726-,"311 W Borderland Road, 2nd Thursday, 6 pm",,14580 Ava Leigh Avenue,,El Paso,TX,79938,(915) 731-7537,cesar.romero67@sbcglobal.net,20.0,23290,47870,1164.0,EL PASO,TX,LM-3
+397,728,Ft. Lauderdale,FL,728-,"Odd Months, South Hall; Even Months, North Hall; 1st Monday, 7 pm",www.ibew728.org,South Hall,,Ft. Lauderdale,FL,33316,(954) 525-3106,info@ibew728.org,982.0,4371146,6775108,4451.0,FORT LAUDERDALE,FL,LM-2
+398,731,International Falls,MN,731-,"1st Tuesday, 3:45 pm",,PO Box 1198,,International Falls,MN,56649,(218) 324-0591,ibew731@gmail.com,18.0,23109,13942,1284.0,International Falls,MN,LM-3
+399,733,Pascagoula,MS,733-,"2nd Tuesday, 3:30 pm",,2510 Market Street,,Pascagoula,MS,39567,(228) 762-2155,office@ibewlocal733.org,1253.0,836745,796838,668.0,PASCAGOULA,MS,LM-2
+401,736,Princeton,WV,736-,"316 Mercer Street, 2nd Tuesday, 6 pm",,1005 Virginia Avenue,,Bluefield,VA,24605,(304) 961-6126,chrismann@hotmail.com,10.0,9526,3039,953.0,BLUEFIELD,VA,LM-3
+402,738,Longview,TX,738-,"Last Tuesday, 7 pm",,2914 E Marshall Avenue,,Longview,TX,75601,(903) 753-7646,ibew738@swbell.net,372.0,395662,235545,1064.0,LONGVIEW,TX,LM-2
+403,743,Reading,PA,743-,"4th Wednesday, 7 pm",www.ibewlocal743.org,1022 James Drive,,Leesport,PA,19533,(610) 777-3100,info@local743ibew.org,517.0,1980293,3084452,3830.0,READING,PA,LM-2
+404,744,Philadelphia,PA,744-,"Curran's Irish Inn, 6900 State Road, 2nd Floor, 1st Thursday, 5:30 pm",www.ibew744.org,260 Elbow Lane,,Yardley,PA,19067,(267) 994-9233,ibew744@gmail.com,215.0,145697,45087,678.0,CONSHOHOCKEN,PA,LM-3
+405,747,New Haven,CT,747-,"Brazi's Italian Restaurant, 201 Food Terminal Plaza, 1st Monday, 5:30 pm",www.ibew747.org,9 Princess Pine Lane,,Clinton,CT,06413,(203) 668-7477,seanroberts747@gmail.com,435.0,329931,81604,758.0,Prospect,CT,LM-2
+407,753,Springfield,MO,753-,"3rd Thursday, 5:30 pm",www.ibew753.org,2902 E Division Street,,Springfield,MO,65803,(417) 866-0044,brianbrawley@ibew753.org,514.0,759163,448273,1477.0,SPRINGFIELD,MO,LM-2
+409,756,Daytona Beach,FL,756-,"2nd Wednesday, 7 pm",www.ibew756.org,5901 S Williamson Boulevard,,Port Orange,FL,32128,(386) 756-2756,ibew756@msn.com,431.0,962500,815590,2233.0,PORT ORANGE,FL,LM-2
+410,757,Joliet,IL,757-,"American Legion Post 1070, 109 N Williams Street, Thornton, 4th Monday, 6 pm",www.ibewlocal757.org,PO Box 1099,,Homewood,IL,60430,(708) 259-9145,localibew757@yahoo.com,123.0,165290,153238,1344.0,Hammond,IN,LM-3
+411,758,Glasgow,MT,758-,"Various Places, 4th Thursday, 8 pm",,301 W Laurel Avenue,,Plentywood,MT,59254,(406) 650-8365,ibewlocal758@gmail.com,70.0,45986,29775,657.0,PLENTYWOOD,MT,LM-3
+412,759,Ft. Lauderdale,FL,759-,"1st Thursday, 4 pm",,301 NE First Street,,Pompano Beach,FL,33060,(954) 830-4183,president@ibew759.org,237.0,474710,340617,2003.0,Pompano Beach,FL,LM-2
+413,760,Knoxville,TN,760-,"4th Monday, 6 pm",www.ibew760.org,1530 Bill Williams Avenue,,Knoxville,TN,37917,(865) 524-8638,info@ibew760.org,3001.0,3190242,4898975,1063.0,KNOXVILLE,TN,LM-2
+414,763,Omaha,NE,763-,"1st Thursday, 7 pm",www.ibewlu763members.com,13306 Stevens Street,,Omaha,NE,68137,(402) 551-1004,ibewlu763@yahoo.com,,,,,,,
+415,765,Sheffield,AL,765-,"Limestone County Rodeo Arena, 1st Thursday, 7 pm",www.ibew765.org,PO Box 868,,Rogersville,AL,35652,(256) 980-9606,ibew765@gmail.com,297.0,204424,207353,688.0,ATHENS,AL,LM-3
+417,767,Baton Rouge,LA,767-,"Local Union 995 Hall, 3rd Tuesday, 6:30 pm",,PO Box 638,,Zachary,LA,70791,(225) 266-5008,ibewlu767@yahoo.com,168.0,78363,97410,466.0,Zachary,LA,LM-3
+418,768,Kalispell,MT,768-,2nd Tuesday,www.ibew768.com,347 Second Avenue W,,Kalispell,MT,59901,(406) 752-7680,office@ibew768.com,761.0,1473189,2265462,1936.0,KALISPELL,MT,LM-2
+419,769,Phoenix,AZ,769-,"1st Sunday, 12 pm",www.ibew769.com,220 N William Dillard Drive,,Gilbert,AZ,85233,(480) 423-9769,dispatch@ibew769.com,1621.0,10541547,27746237,6503.0,GILBERT,AZ,LM-2
+420,770,Albany,NY,770-,"Orchard Tavern, 68 N Manning Boulevard, 2nd Wednesday, 8 pm",,27 Manorville Road,,Saugerties,NY,12477,(518) 590-4060,,95.0,20015,30439,211.0,Troy,NY,LM-3
+421,772,Columbia,SC,772-,"2nd Thursday, 7 pm",,2871 Dogwood Trail,,Lexington,SC,29072,(803) 518-3369,jtj772@aol.com,287.0,203439,176061,709.0,LEXINGTON,SC,LM-3
+422,773,Windsor,ON,773-,"2nd Thursday, 7 pm",www.ibew773.ca,4050 N Service Road E,,Windsor,ON,N8W 5X2,(519) 948-2221,admin@ibew773.ca,,,,,,,
+423,774,Cincinnati,OH,774-,"Iron Workers Local 44 Union Hall, 1125 Victory Place, 3rd Wednesday, 9 am",,1684 Petersburg Road,,Hebron,KY,41048,(859) 816-4518,hmorg96@gmail.com,45.0,58230,26061,1294.0,Oxford,OH,LM-3
+425,776,Charleston,SC,776-,"1st Tuesday, 6:30 pm",,3345 Seiberling Road,,North Charleston,SC,29418,(843) 554-1080,local776@ibew776.com,645.0,2080774,3871973,3226.0,CHARLESTON,SC,LM-2
+426,777,Reading,PA,777-,Various Times & Places,,75 Pike Street,,Middletown,PA,17057,(717) 944-0638,ibewadmin@ibew777.org,1065.0,1421405,2060508,1335.0,MIDDLETOWN,PA,LM-2
+427,778,Springfield,MO,778-,"American Legion Post 639, 2660 S Scenic Avenue, 3rd Tuesday, 5 pm",,PO Box 873,,Springfield,MO,65801,(417) 229-5324,localunion778@gmail.com,79.0,93236,2752,1180.0,NIXA,MO,LM-3
+428,783,St. Paul,MN,783-,"American Legion, 708 Front Street, Brainerd, 2nd Tuesday, 4 pm",,34910 383rd Place,,Aitkin,MN,56431,(218) 838-6576,bdonnelly01.bd@gmail.com,55.0,64432,31782,1171.0,AITKIN,MN,LM-3
+429,784,Indianapolis,IN,784-,"Hornet Park Community Center, 5245 Hornet Avenue, Beech Grove, 1st Thursday, 4 pm",,2014 N Galeston Drive,,Indianapolis,IN,46229,(317) 431-6427,gjnnd@sbcglobal.net,152.0,173635,36856,1142.0,Franklin,IN,LM-3
+19565,787,San Juan,PR,787-,2nd Saturday,www.ibewlocal787.org,RR3 200,,Toa Alta,PR,00953,(787) 532-2575,robertofigueroa0812@gmail.com,,,,,,,
+431,794,Chicago,IL,794-,"VFW Post 5079, 3200 S May Street, Chicago, 3rd Thursday, 2:30 pm",,9241 Morse Place,,Crown Point,IN,46307,(219) 201-7703,IBEW794@gmail.com,145.0,127880,103866,882.0,Chicago,IL,LM-3
+432,796,Dothan,AL,796-,"Dothan: 1st Thursday, 7:30 pm; Eufaula: 2nd Thursday, 6 pm",,330 Ross Clark Circle,,Dothan,AL,36303,(334) 796-6816,dlrichardson796@gmail.com,420.0,371594,697923,885.0,ASHFORD,AL,LM-2
+433,799,Portland,OR,799-,"Sam Cook Building, 435 SE Newport Avenue, 3rd Wednesday, 3:30 pm",,1645 Reagan Street,,Umatilla,OR,97887,(541) 571-3718,kierind@yahoo.com,29.0,39074,11699,1347.0,UMATILLA,OR,LM-3
+435,801,Montgomery,AL,801-,"Local Union 443, 1st Thursday, 7 pm",,340 Country Place Drive,,Deatsville,AL,36022,(205) 396-0251,wdwelch78@gmail.com,177.0,149876,147617,847.0,DEATSVILLE,AL,LM-3
+436,804,Kitchener,ON,804-,"3rd Wednesday, 7 pm",www.ibew804.ca,5158 Fountain Street N,,Breslau,ON,N0B 1M0,(519) 648-3993,office@ibew804.ca,,,,,,,
+437,807,Little Rock,AR,807-,"American Pie Pizza, 4830 N Hills Boulevard, North Little Rock, 3rd Tuesday, 3:30 pm",,1399 Summerhill Drive,,Hensley,AR,72065,(501) 230-4153,ibew807lc@gmail.com,158.0,216870,22320,1373.0,Hensley,AR,LM-3
+438,812,Williamsport,PA,812-,"1st Wednesday, 7 pm",www.ibew812.com,500 Jordan Avenue,,Montoursville,PA,17754,(570) 368-8984,jbeamer@ibew812.com,125.0,402016,425486,3216.0,MONTOURSVILLE,PA,LM-2
+439,813,Roanoke,VA,813-,"6306 Peters Creek Road, 2nd Monday, 4 pm",,231 Family Farm Lane NE,,Copper Hill,VA,24079,,,71.0,103726,43064,1461.0,Copper Hill,VA,LM-3
+440,816,Paducah,KY,816-,"1st Friday, 7 pm",www.ibewlocal816.org,4515 Clarks River Road,,Paducah,KY,42003,(270) 898-2456,ibewlocal816@ibewlocal816.org,1123.0,1861515,4939533,1658.0,PADUCAH,KY,LM-2
+441,817,New York,NY,817-,"2nd Tuesday, 5:30 pm",www.ibew817.org,21 Old Main Street,,Fishkill,NY,12524,(845) 765-2073,ibew817@ibew817.org,570.0,409199,61635,718.0,FISHKILL,NY,LM-2
+442,820,Sarasota,FL,820-,"NALC Hall, 4350 Seventeenth Street, 2nd Tuesday, 6:30 pm",,1201 Underwood Drive,,Venice,FL,34292,(941) 219-8520,lu820president@gmail.com,188.0,263735,69001,1403.0,Palmetto,FL,LM-2
+443,824,Tampa,FL,824-,"1st Thursday, 7:30 pm",www.ibew824.org,6603 E Chelsea Street,,Tampa,FL,33610,(813) 626-5136,jglye@ibew824.org,1028.0,1022614,298844,995.0,TAMPA,FL,LM-2
+444,827,East Windsor,NJ,827-,1st & 3rd Tuesday,www.ibew827.com,263 Ward Street,,East Windsor,NJ,08520,(609) 443-4100,tkelly@ibew827.com,2772.0,6134727,5360332,2213.0,EAST WINDSOR,NJ,LM-2
+445,833,Jasper,AL,833-,"4th Monday, 7 pm",,96 20th Street E,,Jasper,AL,35501,,,274.0,224045,278006,818.0,TOWNLEY,AL,LM-3
+446,840,Geneva,NY,840-,"1st Wednesday, 5 pm",www.ibew840.org,PO Box 851,,Geneva,NY,14456,(315) 789-3330,ibew840@ibew840.org,248.0,1210895,2922969,4883.0,GENEVA,NY,LM-2
+447,841,Birmingham,AL,841-,"Local Union 136, 2nd Thursday, 7 pm",www.ibew841.com,15 Pleasant Valley Circle,,Hayden,AL,35079,(205) 396-0799,,578.0,444850,370348,770.0,PELL CITY,AL,LM-2
+448,843,Scottsbluff,NE,843-,"Labor Temple, 19 E Fifteenth Street, 1st Wednesday, 7 pm",,122 W Ninth Street,,Bayard,NE,69334,(308) 672-0023,local843@outlook.com,5.0,2413,20526,483.0,SCOTTSBLUFF,NE,LM-4
+449,852,Corinth and Tupelo,MS,852-,"1st Saturday, 7 pm",,192 County Road 509,,Corinth,MS,38834,(662) 286-2897,ibewlocal852@bellsouth.net,563.0,990192,1791281,1759.0,CORINTH,MS,LM-2
+450,855,Muncie,IN,855-,"1st Tuesday, 6:30 pm",www.ibew855.com,4601 S Meeker Avenue,,Muncie,IN,47302,(765) 282-6392,davidlehman@ibew855.com,244.0,900815,3438687,3692.0,MUNCIE,IN,LM-2
+451,859,New York,NY,859-,"Parkway Diner, 1066 High Ridge Road, Stamford, CT, 1st Wednesday, 4:30 pm",,208 Harris Road,,Bedford Hills,NY,10507,(203) 505-4376,jegallagher@sbcglobal.net,136.0,89793,4789,660.0,STAMFORD,CT,LM-3
+452,861,Lake Charles,LA,861-,"1st Monday, 7 pm",www.ibewlu861.org,3000 Highway 90 E,,Lake Charles,LA,70615,(337) 436-3324,lcorner@ibew861.com,715.0,774753,1552798,1084.0,LAKE CHARLES,LA,LM-2
+453,862,Jacksonville,FL,862-,"966 Liberty Street, 2nd Thursday, 5 pm",,6624 Pony Lane,,St. Augustine,FL,32095,(904) 633-1005,ibew862@gmail.com,65.0,73742,36765,1134.0,SAINT AUGUSTINE,FL,LM-3
+454,864,Jersey City,NJ,864-,"Elks Lodge 2326, 406-408 Harrison Avenue, Harrison, 1st Wednesday, 3:30 pm",www.ibew864.org,120 Academy Street,,Jersey City,NJ,07302,(732) 788-0144,Etter.David1@gmail.com,164.0,102677,59007,626.0,JERSEY CITY,NJ,LM-3
+455,865,Baltimore,MD,865-,"Southside Diner, Locust Point, 3rd Thursday, 7:30 am",,4257 Federal Hill Road,,Street,MD,21154,(410) 622-7598,rcmauk70@gmail.com,34.0,25700,15334,756.0,BALTIMORE,MD,LM-3
+456,866,Kansas City,MO,866-,"Roeland Park Community Center, 4850 Rosewood Drive, Room 6, Roeland Park, 2nd Thursday, 3:30 pm",,631 Miami Street,,Leavenworth,KS,66048,(816) 944-6138,ibew866pres@gmail.com,236.0,318761,51539,1351.0,KANSAS CITY,MO,LM-2
+457,869,Iroquois Falls,ON,869-,"Knights of Columbus Hall, 1st Monday, 4 pm",,743 Highway 67,,Iroquois Falls,ON,P0K 1E0,(705) 347-2595,aylevesque@hotmail.com,,,,,,,
+458,870,Cumberland,MD,870-,"3rd Monday, 3 pm",,8097 Fort Ashby Road,,Keyser,WV,26726,,,53.0,71185,6609,1343.0,Keyser,WV,LM-3
+459,871,St. Augustine,FL,871-,"Local Union 756 Hall, 5901 S Williamson Boulevard, Port Orange, 3rd Monday, 6 pm",,303 Warwick Avenue,,Ormond Beach,FL,32174,(904) 392-5233,871local@gmail.com,188.0,185004,49778,984.0,SATSUMA,FL,LM-3
+460,873,Kokomo,IN,873-,"4th Monday, 7 pm",www.ibew873.com,1931 South Elizabeth Street,,Kokomo,IN,46902,(765) 457-5371,ibew873@ibew873.com,547.0,2704030,9872726,4943.0,KOKOMO,IN,LM-2
+461,876,Grand Rapids,MI,876-,"1st Wednesday, 7 pm",www.ibew876.com,5000 E Airport Road,,Mount Pleasant,MI,48858,(616) 784-1133,ibew876@gmail.com,2841.0,7334242,10938502,2582.0,MOUNT PLEASANT,MI,LM-2
+462,881,Memphis,TN,881-,,,2836 N Crockett Road,,Sarah,MS,38665,(901) 734-5984,joshbrooks@bellsouth.net,91.0,102303,3508,1124.0,SOUTHAVEN,MS,LM-3
+463,886,Minneapolis,MN,886-,"OBB's Sports Bar & Grill, 1347 Burns Avenue, St. Paul, 1st Wednesday, 3 pm",,1445 150th Avenue,,Ogilvie,MN,56358,,woody.vann@yahoo.com,42.0,48633,6961,1158.0,OGILVIE,MN,LM-3
+464,889,Los Angeles,CA,889-,"Casa Blanca, 15922 Gale Avenue, Hacienda Heights, 4th Tuesday, 3 pm",,1129 N Van Pelt Avenue,,Los Angeles,CA,90063,(213) 446-1900,,104.0,134857,-26379,1297.0,Los Angeles,CA,LM-3
+465,890,Janesville,WI,890-,"1st Thursday, 6 pm",www.ibew890.org,1900 Reuther Way,,Janesville,WI,53546,(608) 752-0321,local890@ibew890.org,803.0,2793130,6658268,3478.0,JANESVILLE,WI,LM-2
+467,903,Gulfport,MS,903-,"2nd Tuesday, 7 pm",www.lu903.com,2417 32nd Street,,Gulfport,MS,39501,(228) 863-9881,lu903@lu903.com,798.0,3744173,2965647,4692.0,GULFPORT,MS,LM-2
+468,904,Tallassee,AL,904-,"Various Places, 1st Thursday, 7 pm",,32 County Road 1062,,Clanton,AL,35045,(205) 458-2636,robertd87@me.com,395.0,295380,420785,748.0,MONTGOMERY,AL,LM-2
+1081,906,Upper Peninsula,MI,906-,"Marquette Unit: 1st Tuesday, 7 pm EST; Iron Mountain Unit: 205 E Fleshiem Street,  2nd Tuesday, 7 pm CST; Escanaba Unit: 1219 First Avenue S,  2nd Wednesday, 7 pm EST",www.ibew906.org,119 S Front Street,,Marquette,MI,49855,(906) 226-7497,kmonroeibew906@gmail.com,,,,,,,
+469,910,Watertown,NY,910-,"1st Tuesday, 6 pm",www.ibew910.org,25001 Water Street,,Watertown,NY,13601,(315) 782-5630,tf@ibew910.org,488.0,2437346,4074268,4995.0,WATERTOWN,NY,LM-2
+19564,911,Chattanooga,TN,911-,,www.ibew911.org,3200 Highway 157,,Leighton,AL,35646,(256) 810-0333,srdawson157@gmail.com,,,,,,,
+471,914,Thorold,ON,914-,"AbitibiBowater Inc. Division, Electrical Instrumentation Lunchroom, 3rd Tuesday, 4 pm",,69 Redwood Court,,Welland,ON,L3C 7G7,(905) 931-3602,p.cimato02@gmail.com,,,,,,,
+472,915,Tampa,FL,915-,"2nd Friday, 7 pm",www.ibew915.org,5621 Harney Road,,Tampa,FL,33610,(813) 621-6451,info@ibew915.org,1378.0,3523318,6044820,2557.0,TAMPA,FL,LM-2
+473,917,Meridian,MS,917-,"2nd Tuesday & 4th Thursday (Except November & December), 6 pm",www.ibew917.net,1620 Highway 39 N,,Meridian,MS,39301,(601) 483-0486,office@ibew917.com,365.0,1965235,2858028,5384.0,MERIDIAN,MS,LM-2
+474,932,Coos Bay,OR,932-,"Bay Area Labor Center, 2nd Monday, 6 pm",,3427 Ash Street,,North Bend,OR,97459,(541) 756-3907,office@ibew932.com,160.0,636565,493142,3979.0,NORTH BEND,OR,LM-2
+475,934,Kingsport,TN,934-,"2nd Saturday, 8 pm",www.ibew934.com,4640 Highway 11 W,,Blountville,TN,37617,(423) 323-5411,ibew_934@yahoo.com,369.0,1017655,1346258,2758.0,BLOUNTVILLE,TN,LM-2
+477,942,Fort Worth,TX,942-,"Rogers Roundhouse, 1616 Rogers Road, 2nd Wednesday, 2:30 pm",,8153 CR 1206,,Rio Vista,TX,76093,(817) 240-5593,joetgilbert73@gmail.com,78.0,103832,26131,1331.0,FORT WORTH,TX,LM-3
+478,946,Los Angeles,CA,946-,,,1619 E Imperial Highway,,Los Angeles,CA,90059,(323) 822-6174,sxy2@aol.com,86.0,64846,22840,754.0,Los Angeles,CA,LM-3
+479,948,Flint,MI,948-,"2nd Monday, 6 pm",www.local948.org,1251 W Hill Road,,Flint,MI,48507,(810) 767-3308,jwallace@local948.org,571.0,2186681,5467394,3830.0,FLINT,MI,LM-2
+480,949,Burnsville,MN,949-,"2nd Thursday, 7 pm",www.ibewlocal949.org,12908 Nicollet Avenue,,Burnsville,MN,55337,(952) 890-8484,rbartz@ibewlocal949.org,1941.0,2659732,5248549,1370.0,BURNSVILLE,MN,LM-2
+481,952,Ventura,CA,952-,"2nd Tuesday, 6:30 pm",www.ibew952.org,3994 E Main Street,,Ventura,CA,93003,(805) 642-2149,ibewoffice@ibewlu952.org,631.0,2181533,1056893,3457.0,VENTURA,CA,LM-2
+482,953,Eau Claire,WI,953-,Various Times & Places,www.ibew953.org,4205 Southtowne Drive,,Eau Claire,WI,54701,(715) 834-4911,info@ibew953.org,1867.0,2551178,2661040,1366.0,EAU CLAIRE,WI,LM-2
+483,956,Espanola,ON,956-,"Espanola Recreation Centre, 3rd Monday, 4:15 pm",,PO Box 5111,,Espanola,ON,P5E 1S1,(705) 692-0444,,,,,,,,
+484,958,Baker,MT,958-,"Thee Garage, 2nd Wednesday, 6 pm",,PO Box 958,,Baker,MT,59313,(406) 978-5646,ibew958@gmail.com,25.0,23407,36512,936.0,Baker,MT,LM-3
+485,959,Topeka,KS,959-,"Local Union 226 Hall, 1620 NW Gage Boulevard, 3rd Wednesday, 3:30 pm",,1620 NW Gage Boulevard,,Topeka,KS,66618,(785) 213-0693,959pres@gmail.com,91.0,143372,27628,1576.0,Topeka,KS,LM-3
+486,960,El Paso,TX,960-,"1st Thursday, 7 pm",www.ibew960.com,311 W Borderland Road,,El Paso,TX,79932,(915) 246-7504,eddie.trevizo.ibew960@gmail.com,392.0,216398,389451,552.0,EL PASO,TX,LM-2
+487,962,Charlotte,NC,962-,"2nd Thursday, 7 pm",,1327 Beaman Place,,Greensboro,NC,27408,(336) 274-6826,local962@aol.com,639.0,314297,366001,492.0,GREENSBORO,NC,LM-2
+488,965,Madison,WI,965-,"3rd Wednesday, 12 pm",www.ibew965.com,701 Watson Avenue,,Madison,WI,53713,(608) 274-5600,ibew965@ibew965.com,1009.0,1229359,1508039,1218.0,MADISON,WI,LM-2
+489,968,Parkersburg,WV,968-,"3rd Thursday, 7 pm",www.ibew968.com,1845 Seventh Street,,Parkersburg,WV,26101,(304) 485-7412,ibew968@ibew968.com,240.0,928266,1269210,3868.0,PARKERSBURG,WV,LM-2
+491,971,Williston,ND,971-,"223 Main Street, 4th Tuesday, 4:15 pm",,PO Box 90,,Williston,ND,58801,(701) 570-5048,russellc.hooks@yahoo.com,21.0,20518,22873,977.0,WILLISTON,ND,LM-3
+492,972,Marietta,OH,972-,"1st Wednesday, 7 pm",www.ibew972.com,50 Sandhill Road,,Reno,OH,45773,(740) 373-5054,local@ibew972.org,262.0,962092,3082128,3672.0,RENO,OH,LM-2
+493,975,Bismarck,ND,975-,"Bismarck Labor Temple, 1323 E Front Avenue, Suite 6, 4th Thursday, 7 pm",,1323 E Front Avenue,,Bismarck,ND,58504,(701) 640-5406,Braun2008@hotmail.com,59.0,56660,50809,960.0,BISMARCK,ND,LM-3
+494,978,Charleston,WV,978-,Various Times & Places,,PO Box 9335,,Huntington,WV,25704,(304) 542-3723,ibew978@outlook.com,489.0,476801,90326,975.0,Charleston,WV,LM-2
+497,984,Richland,WA,984-,"3rd Wednesday, 6 pm",www.ibew984.org,1305 Knight Street,,Richland,WA,99352,(509) 943-4646,tom@ibew984.net,641.0,906946,3481226,1415.0,RICHLAND,WA,LM-2
+498,985,Cleveland,MS,985-,"2nd Tuesday, 7 pm",,817 N Chrisman Avenue,,Cleveland,MS,38732,(601) 892-5162,ibewlocal605@bellsouth.net,66.0,114909,192729,1741.0,CLEVELAND,MS,LM-3
+499,988,Sidney,MT,988-,"VFW Club, 1st Thursday, 7 pm",,12776 Highway 200,,Sidney,MT,59270,(406) 480-0952,domradke@outlook.com,24.0,12407,37650,517.0,SIDNEY,MT,LM-3
+500,993,Kamloops,BC,993-,"Kamloops: 1st Thursday Following 1st Tuesday, 7 pm; Terrace: 4614 Lazelle Avenue, 2nd Thursday Following 1st Tuesday, 7 pm; Prince George: 1055 20th Avenue, 2nd Wednesday Following 1st Tuesday, 7 pm",www.ibew993.org,873 Desmond Street,,Kamloops,BC,V2B 5K3,(250) 376-8755,office@ibew993.org,,,,,,,
+501,995,Baton Rouge,LA,995-,"1st Tuesday, 7 pm",www.lu995.com,8181 Tom Drive,,Baton Rouge,LA,70815,(225) 927-6462,ibew@lu995.com,882.0,4644771,16622042,5266.0,BATON ROUGE,LA,LM-2
+502,997,Port Angeles,WA,997-,"VFW Hall, 216 S Francis Street, 1st Wednesday, 7:30 pm",,216 S Francis Street,,Port Angeles,WA,98362,(360) 460-4295,rgrayibew997@gmail.com,,,,,,,
+503,1000,Marion,IN,1000,"Marion Public Library, 600 S Washington Street, Meeting Room A, 2nd Thursday, 3:15 pm",,PO Box 523,,Marion,IN,46952,(765) 506-6868,,133.0,67721,18858,509.0,VAN BUREN,IN,LM-3
+504,1002,Tulsa,OK,1002,"2nd Friday, 6 pm",www.ibew1002.com,12510 E 21st Street,,Tulsa,OK,74129,(918) 438-7344,ibew@ibew1002.com,1148.0,2429166,2582640,2116.0,TULSA,OK,LM-2
+505,1003,Nelson,BC,1003,"2nd Tuesday, 7 pm",www.ibew1003.org,101 Baker Street,,Nelson,BC,V1L 4H1,(250) 354-4177,info@ibew1003.org,,,,,,,
+506,1007,Edmonton,AB,1007,"4th Monday, 1 pm",www.ibew1007.org,11007 84th Street,,Edmonton,AB,T5H 1M9,(780) 429-1007,admin@ibew1007.org,,,,,,,
+508,1015,Weslaco,TX,1015,"2nd Thursday, 6 pm",,224 N McColl Road,,McAllen,TX,78501,(956) 630-3108,ibewlu1015@att.net,1178.0,1024076,908152,869.0,MCALLEN,TX,LM-2
+509,1022,Lincoln,NE,1022,"Labor Temple, 4625 Y Street, 1st Tuesday, 9 am",,3730 Wildbriar Lane,,Lincoln,NE,68516,(402) 540-1768,stain474@gmail.com,78.0,95022,16208,1218.0,LINCOLN,NE,LM-3
+510,1023,Barstow,CA,1023,"VFW Post 2143, 25190 Main Street, 2nd Tuesday, 3 pm",,PO Box 2548,,Barstow,CA,92312,(760) 713-4608,wmarkleyibew1023@gmail.com,134.0,174517,9131,1302.0,BARSTOW,CA,LM-3
+511,1024,Pittsburgh,PA,1024,"Croatian Club, Conway, 1st Tuesday, 7:30 pm",,320 Everest Circle,,Houston,PA,15342,(724) 695-3399,local1024pres@gmail.com,64.0,74628,9268,1166.0,Houston,PA,LM-3
+514,1042,Sanford,FL,1042,"Fleet Reserve, 3040 W State Road 46, 1st Tuesday, 4 pm",,3040 W State Road 46,,Sanford,FL,32771,(954) 294-6786,ibew.lu1042@gmail.com,56.0,95072,36023,1698.0,LAKE MONROE,FL,LM-3
+515,1047,Toledo,OH,1047,"807 Lime City Road, Rossford, 2nd Thursday, 4 pm",,17355 W Walbridge East Road,,Graytown,OH,43432,,ibewlocal1047@outlook.com,35.0,40896,27326,1168.0,Northwood,OH,LM-3
+516,1048,Indianapolis,IN,1048,Crawfordsville: 1st Monday; Muncie: 2nd Tuesday; Indianapolis: 2nd Thursday,,1770 S US Highway 231,,Crawfordsville,IN,47933,(765) 366-8400,ibew1048@yahoo.com,343.0,192236,1356,560.0,CRAWFORDSVILLE,IN,LM-3
+517,1049,Long Island,NY,1049,"3rd Tuesday, 10 am & 7 pm",www.ibew1049.org,100 Corporate Drive,,Holtsville,NY,11742,(631) 234-1800,sgasparik@ibew1049.com,3942.0,6194714,7746659,1571.0,HOLTSVILLE,NY,LM-2
+519,1053,Demopolis,AL,1053,"2nd Monday, 6:30 pm",,PO Box 835,,Demopolis,AL,36732,(334) 341-3786,rmstokes1053@gmail.com,52.0,40115,55188,771.0,DEMOPOLIS,AL,LM-3
+520,1055,Pensacola,FL,1055,"IBEW Local Union 676, 780 N Palafox Street, 1st Tuesday, 5:30 pm",www.ibew1055.org,PO Box 846,,Gonzalez,FL,32560,(850) 382-8474,Local1055BA@outlook.com,252.0,253333,165691,1005.0,Gonzalez,FL,LM-2
+521,1057,Woodland,ME,1057,"Baileyville Fire Hall, 2nd Tuesday, 3:15 pm",,PO Box 640,,Baileyville,ME,04694,(207) 214-0455,brian.boomer@igic.com,52.0,37147,51243,714.0,BAILEYVILLE,ME,LM-3
+522,1066,Daytona Beach,FL,1066,"Elks Lodge 2193, 285 Wilmette Avenue, Ormond Beach, 1st Tuesday, 6 pm",,54 Whispering Pine Drive,,Palm Coast,FL,32164,,,90.0,155011,63038,1722.0,Palm Coast,FL,LM-3
+524,1077,Bogalusa,LA,1077,"1st Thursday, 7:30 pm",,305 Avenue B,,Bogalusa,LA,70427,(985) 735-1299,mickey_ba@ibewlu1077.com,223.0,262064,179818,1175.0,BOGALUSA,LA,LM-2
+526,1096,Blairsville,PA,1096,"VFW Post 5821, 9626 US-22, 2nd Wednesday, 4:20 pm",,410 Rushwood Road,,New Alexandria,PA,15670,(724) 875-3962,burnsjb39@gmail.com,177.0,97483,222010,551.0,Bolivar,PA,LM-3
+527,1105,Newark,OH,1105,"1st Friday, 6:30 pm",www.ibewlocal1105.org,5805 Frazeysburg Road,,Nashport,OH,43830,(740) 454-2304,info@ibewlocal1105.org,2943.0,16711306,20350609,5678.0,NASHPORT,OH,LM-2
+528,1106,Mason,MI,1106,"1st Monday, 7:30 pm",www.ibew1106.org,419 S Washington Square,,Lansing,MI,48933,(517) 374-0919,ibew1106@sbcglobal.net,289.0,665834,885915,2304.0,LANSING,MI,LM-2
+529,1108,Willard,OH,1108,"202 Woodland Avenue, Willard, 3rd Thursday, 4 pm",,5322 State Highway 67,,Upper Sandusky,OH,43351,(419) 927-5464,ibew1108@outlook.com,13.0,14300,11688,1100.0,UPPER SANDUSKY,OH,LM-3
+530,1116,Tucson,AZ,1116,"1st Thursday, 4:30 pm",www.ibew1116.com,4601 S Butterfield Drive,,Tucson,AZ,85714,(520) 792-1475,BMFE@ibew1116.com,815.0,1373901,1412698,1686.0,TUCSON,AZ,LM-2
+531,1131,Halifax,NS,1131,"Fleet Club, Barrington Street, 3rd Wednesday, 4:30 pm",,62 Creighton Harnish Lane,,Hubbards,NS,B0J 1T0,(902) 981-8813,ibew1131pba@gmail.com,,,,,,,
+532,1133,Halifax,NS,1133,"Fleet Club Stadacona, CFB Halifax, 2nd Wednesday, 4:30 pm",,8 Inverary Drive,,Dartmouth,NS,B2X 1H2,(902) 830-4856,ibew1133@hotmail.com,,,,,,,
+534,1141,Oklahoma City,OK,1141,"1st Friday, 7 pm",www.ibew1141.org,1700 SE Fifteenth Street,,Oklahoma City,OK,73129,(405) 670-4777,office.ibew1141@gmail.com,1417.0,3773257,5772476,2663.0,OKLAHOMA CITY,OK,LM-2
+535,1142,Norfolk,VA,1142,"Norfolk Firefighters Hall, 5691 E Virginia Beach Boulevard, 3rd Thursday, 4:15 pm",,161 Greenview Road,,Moyock,NC,27958,(757) 818-0905,rabrown1142ibew@gmail.com,36.0,60250,9254,1674.0,MOYOCK,NC,LM-3
+536,1146,Amarillo,TX,1146,"200 S Fannin Street, 4th Wednesday, 6:30 pm",,3 Hooper Drive,,Canyon,TX,79015,(806) 236-1844,Correa.Marcus@outlook.com,27.0,33694,27182,1248.0,CANYON,TX,LM-3
+537,1147,Wisconsin Rapids,WI,1147,"1st Wednesday, 7 pm",,220 Johnson Street,,Wisconsin Rapids,WI,54495,(715) 423-1147,ibew1147@wctc.net,67.0,133535,319830,1993.0,WISCONSIN RAPIDS,WI,LM-3
+538,1149,Kapuskasing,ON,1149,"2nd Thursday, 7 pm",,PO Box 251,,Kapuskasing,ON,P5N 2X2,(705) 347-0703,gabriel_blouin@hotmail.com,,,,,,,
+541,1158,Newark,NJ,1158,"3rd Tuesday, 8 pm",www.ibew1158.com,1149 Bloomfield Avenue,,Clifton,NJ,07012,(973) 773-3336,ibew1158@ibew1158.com,2816.0,2805811,6931469,996.0,CLIFTON,NJ,LM-2
+542,1181,Charlottesville,VA,1181,"1st Wednesday, 7 pm",www.ibew1181.com,1701 Allied Street,,Charlottesville,VA,22903,(434) 987-3950,ibew1181@hotmail.com,68.0,78592,181551,1156.0,Gordonsville,VA,LM-3
+543,1183,Plymouth,NC,1183,"USW Union Hall, 100 Old Roper Loop, 3rd Wednesday, 4:45 pm",,PO Box 1083,,Plymouth,NC,27962,,,17.0,17947,15473,1056.0,PLYMOUTH,NC,LM-3
+544,1186,Honolulu,HI,1186,"3rd Wednesday, 6 pm",www.ibew1186.org,1935 Hau Street,,Honolulu,HI,96819,(808) 847-5341,ibew1186@ibew1186.org,2823.0,8655218,29715576,3066.0,HONOLULU,HI,LM-2
+545,1189,Fulton,NY,1189,"Fulton Polish Home, 3rd Wednesday, 5:30 pm",,PO Box 417,,Fulton,NY,13069,(315) 559-3452,ibew1189@gmail.com,29.0,20946,73483,722.0,FULTON,NY,LM-3
+546,1191,West Palm Beach,FL,1191,"2nd Wednesday, 6:30 pm",http://scu4ibew.unionactive.com,1003 Belvedere Road,,West Palm Beach,FL,33405,(845) 849-6053,JRHarris1191@outlook.com,386.0,567314,467523,1470.0,WEST PALM BEACH,FL,LM-2
+548,1194,Sandusky,OH,1194,"37 First Street SW, Massillon, 2nd Tuesday, 4:15 pm",,PO Box 101,,Brewster,OH,44613,(330) 327-1940,blongibew1194@gmail.com,274.0,417299,383649,1523.0,Brewster,OH,LM-2
+549,1196,Ashton,RI,1196,"Columbus Club of Lincoln, 171 Jenckes Hill Road, Lincoln, 3rd Sunday, 9 am",,158 Hope Street,,Cumberland,RI,02864,(401) 626-1793,ibew1196pres@gmail.com,68.0,57887,37238,851.0,CUMBERLAND,RI,LM-3
+550,1199,Albuquerque,NM,1199,"Pete's Café, 105 N First Street, Belen, 1st Tuesday, 3:00 pm",,94 Mora Drive,,Belen,NM,87002,(806) 335-5891,rrjoe2010@hotmail.com,47.0,56187,17238,1195.0,BELEN,NM,LM-3
+551,1200,Washington,DC,1200,"1st Wednesday, 8 pm",https://ibew1200.org,6500 Seven Locks Road,,Cabin John,MD,20818,(301) 661-8544,office@ibew1200.org,648.0,888117,1123147,1371.0,Cabin John,MD,LM-2
+552,1204,Hattiesburg,MS,1204,"408 Hemphill Street, 2nd Thursday, 6:30 pm",,547 Sunrise Road,,Petal,MS,39465,(601) 596-6427,johngmcleod@gmail.com,50.0,47501,57714,950.0,PETAL,MS,LM-3
+553,1205,Gainesville,FL,1205,"2nd Friday, 7 pm",www.ibew1205.org,2510 NW Sixth Street,,Gainesville,FL,32609,(352) 376-7701,info@ibew1205.org,569.0,1450616,1032098,2549.0,GAINESVILLE,FL,LM-2
+554,1206,Newark,OH,1206,"4th Tuesday, 3:15 pm",,385 John Street,,Newark,OH,43055,(740) 328-7196,dcoak1963@yahoo.com,37.0,28295,46802,765.0,NEWARK,OH,LM-3
+555,1209,Meridian,MS,1209,"1620 Highway 39, Meridian, 1st Tuesday, 6 pm",,5348 Trick Talbert Road,,Bailey,MS,39320,(601) 513-1313,ibew1209@gmail.com,42.0,34598,49955,824.0,MERIDIAN,MS,LM-3
+556,1211,Gulfport,MS,1211,"1st Tuesday, 6 pm",,2411 32nd Street,,Gulfport,MS,39502,(228) 860-7434,ibew1211@gmail.com,135.0,125390,412490,929.0,GULFPORT,MS,LM-3
+557,1212,New York,NY,1212,"2nd Monday, 4:30 pm",www.ibew1212.org,225 W 34th Street,,New York,NY,10122,(212) 354-6770,ra@ibew1212.org,1467.0,2347029,3116480,1600.0,NEW YORK,NY,LM-2
+558,1220,Chicago,IL,1220,"1st Wednesday, 7 pm",www.ibew1220.com,1315 Butterfield Road,,Downers Grove,IL,60515,(773) 714-1220,info@ibew1220.org,955.0,1270123,320173,1330.0,DOWNERS GROVE,IL,LM-2
+561,1228,Boston,MA,1228,"3rd Wednesday, 8 pm, via Zoom",www.ibew1228.org,77 Access Road,,Norwood,MA,02062,(860) 281-4185,ibew1228@gmail.com,517.0,716112,389606,1385.0,SIMSBURY,CT,LM-2
+562,1238,Wilmington,DE,1238,"Local Union 313 Hall, New Castle, 2nd Tuesday, 7 pm",www.ibew1238.org,410 Larch Circle,,Wilmington,DE,19804,(302) 683-0660,swalker@ibew1238.org,745.0,2174754,2440493,2919.0,WILMINGTON,DE,LM-2
+563,1245,Vacaville,CA,1245,Various Times & Places,www.ibew1245.com,30 Orange Tree Circle,,Vacaville,CA,95687,(707) 452-2700,rldj@ibew1245.com,27835.0,74998821,120116735,2694.0,VACAVILLE,CA,LM-2
+564,1249,Syracuse,NY,1249,"1st Friday, 8 pm",www.ibew1249.org,8531 Brewerton Road,,Cicero,NY,13039,(315) 656-7253,office@ibew1249.org,3730.0,38246192,87019571,10254.0,CICERO,NY,LM-2
+565,1250,Rapid City,SD,1250,"1st Wednesday, 7 pm",www.ibewlocal1250.org,922 1/2 E Saint Patrick Street,,Rapid City,SD,57701,(605) 343-0954,ibew1250ba@gmail.com,196.0,385479,193087,1967.0,RAPID CITY,SD,LM-2
+566,1253,Augusta,ME,1253,"Last Tuesday, 6 pm",www.ibew1253.org,142 Elm Street,,Newport,ME,04953,(207) 453-1301,nick@ibew1253.org,316.0,1273271,2123388,4029.0,Newport,ME,LM-2
+567,1260,Honolulu,HI,1260,"Unit 1: 2nd Thursday, 6 pm; Unit 2: A&G Bar & Grill, 2nd Tuesday, 3:30 pm; Unit 3: RJ's Construction Office, 3rd Monday, 3:30 pm; Unit 4: LT Construction Office, 2nd Monday, 3:30 pm; Unit 5: 3rd Thursday, 4 pm; Unit 6: Kekaha Neighborhood Park, 3rd Wednesday, 4:30 pm; Unit 7: KIUC Lihue Main Confere",www.ibew1260.org,700 Bishop Street,,Honolulu,HI,96813,(808) 941-9445,office@ibew1260.org,2650.0,7601564,13411967,2869.0,HONOLULU,HI,LM-2
+568,1263,Palatka,FL,1263,"Putnam County Shriners Club, 2nd Wednesday, 6 pm",,PO Box 243,,San Mateo,FL,32167,(352) 478-9388,ibew1263pres@ymail.com,50.0,85060,34126,1701.0,SAN MATEO,FL,LM-3
+570,1288,Memphis,TN,1288,"1st Thursday, 5:30 pm",www.ibewlocal1288.net,4000 Clearpool Circle,,Memphis,TN,38118,(901) 363-1563,ibewbookeeper@ibewlocal1288.org,1200.0,1032188,456335,860.0,MEMPHIS,TN,LM-2
+571,1289,Lakewood,NJ,1289,"South Unit: IBEW Local Union 400, 3rd Tuesday, 5 pm; North Unit: Clinton Fire Department, 1 New Street, Clinton, (February, June, October) 3rd Wednesday, 5 pm; North Unit: Roxbury Fire Department 2, 110 Shippenport Road, Landing, (April, August, December) 3rd Wednesday, 5 pm",www.local1289ibew.org,3430 Sunset Avenue,,Wanamassa,NJ,07712,(732) 918-9559,jeffmunyan@ibew1289.org,1046.0,1548997,2654028,1481.0,WALL,NJ,LM-2
+572,1293,Cape May Court House,NJ,1293,"3rd Wednesday, 7 pm",,PO Box 616,,Ocean View,NJ,08230,(609) 412-6725,bobkimble@comcast.net,45.0,21182,46397,471.0,OCEAN VIEW,NJ,LM-3
+573,1307,Salisbury,MD,1307,"2nd Thursday, 7:30 pm",,216 Castlebar Drive,,Salisbury,MD,21804,(443) 783-7762,ibewlu1307bs@gmail.com,490.0,435831,587021,889.0,DELMAR,MD,LM-2
+574,1316,Macon,GA,1316,"1st Monday, 6:30 pm",www.ibew1316.com,1046 Patterson Street,,Macon,GA,31204,(478) 743-7017,admin@ibew1316.org,400.0,925444,668898,2314.0,MACON,GA,LM-2
+575,1317,Laurel,MS,1317,"2nd Tuesday, 1 pm",,3171 Ellisville Boulevard,,Laurel,MS,39442,(601) 428-4575,ibewlocal1317@bellsouth.net,350.0,182249,10483,521.0,LAUREL,MS,LM-3
+576,1318,Halifax,NS,1318,"1st Thursday, 7:30 pm",,PO Box 31356,,Halifax,NS,B3K 5Z1,(902) 453-4000,local1318@outlook.com,,,,,,,
+577,1319,Wilkes-Barre,PA,1319,"3rd Tuesday, 7 pm",www.ibew1319.org,225 Division Street,,Kingston,PA,18704,(570) 714-1352,info@ibew1319.org,957.0,9329926,32200766,9749.0,KINGSTON,PA,LM-2
+578,1323,Rockwood,TN,1323,"Wolf Creek Fire Hall, 4793 Wolf Creek Road, Spring City, 2nd Tuesday, 6 pm",,PO Box 796,,Decatur,TN,37322,(423) 618-0712,,237.0,173006,574992,730.0,SODDY DAISY,TN,LM-3
+579,1340,Newport News,VA,1340,"4th Wednesday, 7 pm",www.ibew1340.com,552 Industrial Park Drive,,Newport News,VA,23608,(757) 875-1340,jeff@ibew1340.com,577.0,1319943,1881076,2288.0,NEWPORT NEWS,VA,LM-2
+580,1346,Miami,FL,1346,"SEIU, 14645 NW 77th Avenue, Miami Lakes, 2nd Wednesday, 3:30 pm",,7750 NW 31st Street,,Hollywood,FL,33024,(954) 658-8418,roerudy@bellsouth.net,41.0,18613,21219,454.0,Miami,FL,LM-3
+581,1347,Cincinnati,OH,1347,"2nd Tuesday, 7 pm",www.ibew1347.com,2100 Oak Road,,Cincinnati,OH,45241,(513) 541-6200,ibew1347@yahoo.com,803.0,866961,1211716,1080.0,CINCINNATI,OH,LM-2
+582,1357,Honolulu,HI,1357,"Executive Boardroom, 1st Friday, 2 pm",www.ibew1357.org,1103 Ninth Avenue,,Honolulu,HI,96816,(808) 941-7761,troy.benevides@ibew1357.org,392.0,1041486,451884,2657.0,HONOLULU,HI,LM-2
+583,1362,Cedar Rapids,IA,1362,"2nd Wednesday, 2 pm & 3:45 pm",,362 IBEW Court NE,,Cedar Rapids,IA,52402,(319) 377-7354,scott.ibew1362@yahoo.com,815.0,776674,1404446,953.0,CEDAR RAPIDS,IA,LM-2
+584,1377,Cleveland,OH,1377,"UAW Local 1250 Union Hall, 3rd Tuesday, 4:30 pm",,38454 Terrell Drive,,North Ridgeville,OH,44039,(216) 651-1377,ibewlocal1377@neohio.twcbc.com,231.0,287181,99201,1243.0,NORTH RIDGEVILLE,OH,LM-2
+585,1379,Davenport,IA,1379,"2nd Wednesday, 6:30 am, 12:30 pm & 2:30 pm",www.ibew1379.org,Arconic Corporation,,Bettendorf,IA,52722,(309) 714-0212,ibewlocal1379@gmail.com,94.0,94378,128127,1004.0,BETTENDORF,IA,LM-3
+586,1383,Baltimore,MD,1383,"US Coast Guard Yard, 4th Thursday, 12 pm",,2401 Hawkins Point Road,,Baltimore,MD,21226,(410) 636-3891,,,,,,,,
+588,1392,Fort Wayne,IN,1392,Various Times & Places,,56436 Strasser Lane,,South Bend,IN,46619,(574) 287-0636,ibew1392@aol.com,458.0,748741,373448,1635.0,SOUTH BEND,IN,LM-2
+589,1393,Indianapolis,IN,1393,"3rd Thursday, 6 pm",www.ibewlocal1393.com,3645 S East Street,,Indianapolis,IN,46227,(317) 791-1362,info@ibewlocal1393.org,4166.0,6583844,4690919,1580.0,INDIANAPOLIS,IN,LM-2
+590,1395,Indianapolis,IN,1395,"4th Wednesday, 12:30 pm & 5 pm",www.ibew1395.org,5140 Madison Avenue,,Indianapolis,IN,46227,(317) 784-9234,dawnbreedlove1395@att.net,914.0,1084059,2233998,1186.0,INDIANAPOLIS,IN,LM-2
+591,1400,Indianapolis,IN,1400,"4th Tuesday, 4:45 pm",,5144 Madison Avenue,,Indianapolis,IN,46227,(317) 784-4444,paulalleyibew1400@yahoo.com,331.0,349018,220080,1054.0,INDIANAPOLIS,IN,LM-2
+592,1405,Flin Flon,MB,1405,"54 Main Street, 2nd Thursday, 8pm",,PO Box 488,,Flin Flon,MB,R8A 1M6,,ibew1405@mts.net,,,,,,,
+593,1412,Orlando,FL,1412,"Bear Lake Clubhouse, 3324 Holliday Avenue, Apopka, 1st Wednesday, 7 pm",www.ibew1412.org,51 Virginia Avenue,,DeLand,FL,32724,(386) 748-4095,jnahoun@yahoo.com,237.0,319881,167709,1350.0,TAVARES,FL,LM-2
+594,1413,Toledo,OH,1413,"1224 West Street, Genoa, 2nd Wednesday, 6:45 am & 6:45 pm",www.ibew1413.com,PO Box 1276,,Perrysburg,OH,43551,(419) 205-2191,contact@ibew1413.com,121.0,127945,97225,1057.0,Perrysburg,OH,LM-3
+596,1426,Grand Forks,ND,1426,"Grand Forks: 1st Tuesday, 7 pm; Fargo: 2nd Tuesday, 7 pm",www.ibew1426.org,1714 N Washington Street,,Grand Forks,ND,58203,(701) 775-7601,businessmanager@ibew1426.org,943.0,2185846,5089848,2318.0,GRAND FORKS,ND,LM-2
+597,1430,New York,NY,1430,"2nd Thursday, 6 pm",www.ibew1430.com,84 Business Park Drive,,Armonk,NY,10504,(914) 948-3771,office@1430ibew.com,,1255703,358020,,ARMONK,NY,LM-2
+598,1431,Sumter,SC,1431,"Quality Inn, 2390 Broad Street, 2nd Tuesday, 8 pm",,PO Box 84,,North Myrtle Beach,SC,29597,(843) 655-5770,ibew1431@hotmail.com,44.0,39566,130350,899.0,MYRTLE BEACH,SC,LM-3
+599,1434,Richmond,VA,1434,"Tobacco Workers Union Hall, 231 E Belt Boulevard, 1st Tuesday, 4:30 pm",,PO Box 34804,,Richmond,VA,23234,(804) 475-6279,local1434@gmail.com,73.0,105813,133812,1449.0,RICHMOND,VA,LM-3
+600,1436,Perris,CA,1436,"EWMD Board Room, 3rd Tuesday or Thursday, 12 pm",,PO Box 1291,,Romoland,CA,92585,(951) 953-2396,IBEWLocal1436Board@emwd.org,,,,,,,
+601,1439,St. Louis,MO,1439,"1st Tuesday, 5 pm",www.ibew1439.com,2121 59th Street,,St. Louis,MO,63110,(314) 644-6111,local.1439@ibew1439.com,828.0,1753732,2888061,2118.0,ST LOUIS,MO,LM-2
+602,1451,York,PA,1451,"3rd Wednesday, 8 pm",,1701 W Market Street,,York,PA,17404,(717) 873-2807,,40.0,46396,94359,1160.0,YORK,PA,LM-3
+603,1455,St. Louis,MO,1455,"3rd Thursday, 5 pm",,2121 59th Street,,St. Louis,MO,63110,(314) 351-6300,local1455@ibew1455.org,593.0,1009294,1438689,1702.0,ST LOUIS,MO,LM-2
+605,1464,Kansas City,MO,1464,"Local Union 53 Hall, 1100 Admiral Boulevard, 2nd Thursday, 6 pm",,1760 Universal Avenue,,Kansas City,MO,64120,(816) 231-1464,mail@ibew1464.org,730.0,1242448,1174347,1702.0,KANSAS CITY,MO,LM-2
+606,1465,Fall River,MA,1465,"139 Seaver Avenue, 2nd Tuesday, 3:30 pm",,PO Box 585,,Somerset,MA,02726,(508) 558-6352,ibew1465@gmail.com,65.0,73568,200062,1132.0,SOMERSET,MA,LM-3
+607,1466,Columbus,OH,1466,"Columbus: 3rd Monday, 5 pm; Zanesville: 3rd Thursday, 6:30 pm",Ibew1466.com,939 Goodale Boulevard,,Columbus,OH,43212,(740) 649-7761,businessmanager@ibew1466.com,616.0,1050722,1160471,1706.0,Columbus,OH,LM-2
+608,1474,Joplin,MO,1474,"2nd Monday, 7:30 pm",,3316 S Hearnes Boulevard,,Joplin,MO,64804,(417) 529-0378,joplinlocal1474@gmail.com,268.0,325104,583773,1213.0,CARL JUNCTION,MO,LM-2
+609,1483,Omaha,NE,1483,"3rd Thursday, 7 pm",,6001 Grover Street,,Omaha,NE,68106,(402) 699-4225,ibew1483@yahoo.com,,,,,,,
+610,1491,Enterprise,FL,1491,"Cave Lake Club House, 4454 Cave Lake Road, DeLeon Springs, 3rd Wednesday, 6:30 pm",,917 Asby Way,,Osteen,FL,32764,(386) 804-6626,Oleheavy84@gmail.com,55.0,69287,15040,1260.0,Deland,FL,LM-2
+611,1499,Chelsea,MA,1499,"3rd Tuesday, 6:30 pm",,126 President Avenue,,Fall River,MA,02720,(508) 673-4899,elecunionibew@aol.com,477.0,395105,94019,828.0,FALL RIVER,MA,LM-2
+613,1503,Frankfort,IN,1503,"CLP Breakroom, 4th Monday, 4 pm",,755 E Boone Street,,Frankfort,IN,46041,(765) 654-4424,ibew1503@yahoo.com,,,,,,,
+614,1505,Waltham,MA,1505,"Various Locations, 2nd Tuesday, 1 pm & 3:30 pm",www.ibew1505.org,2 Rainin Road,,Woburn,MA,01801,(781) 937-9991,john.bruno@local1505ibew.org,2017.0,1454217,1694127,721.0,WOBURN,MA,LM-2
+615,1507,Hudson,OH,1507,"Various Locations, 3rd Tuesday, 5:45 pm",,2733 Route 193,,Jefferson,OH,44047,(440) 417-6048,lester.bolen@windstream.com,61.0,18510,108956,303.0,Diamond,OH,LM-3
+616,1516,Jonesboro,AR,1516,"1st Friday, 7 pm",www.ibew1516.com,9400 E Highland Drive,,Jonesboro,AR,72401,(870) 932-2114,ibew1516@outlook.com,439.0,1963991,5195690,4474.0,JONESBORO,AR,LM-2
+617,1517,Alliance,NE,1517,"CLC Meeting Hall, 723 Flack Avenue, 3rd Tuesday, 4 pm",www.ibewlocal1517.com,523 Sweetwater Avenue,,Alliance,NE,69301,(308) 760-0144,Zapataethand@gmail.com,100.0,134150,32135,1342.0,BAYARD,NE,LM-3
+618,1521,Omaha,NE,1521,"1st Tuesday, 7 pm",,13306 Stevens Street,,Omaha,NE,68137,(402) 618-0442,ibew1521@yahoo.com,,,,,,,
+619,1523,Wichita,KS,1523,"2nd Wednesday, 5 pm",,3301 W Thirteenth Street N,,Wichita,KS,67203,(316) 267-8741,ibew1523@sbcglobal.net,315.0,479846,637198,1523.0,WICHITA,KS,LM-2
+620,1524,St. John,NB,1524,"Thursday, 4 pm",,325 Simms Street,,Saint John,NB,E2M 3L6,(506) 663-8344,ibew-1524@outlook.com,,,,,,,
+621,1525,Omaha,NE,1525,"1st Thursday, 7 pm",,13336 C Street,,Omaha,NE,68144,(402) 334-1880,ibew1525@aol.com,173.0,536388,703711,3101.0,OMAHA,NE,LM-2
+622,1531,Albany,GA,1531,"2nd Monday, 7 pm",,1900 Clark Avenue,,Albany,GA,31705,(229) 436-2417,ibew1531@gmail.com,63.0,290893,161650,4617.0,ALBANY,GA,LM-2
+623,1532,Jamestown,ND,1532," IBEW Local Union 714, 125 35th Avenue NE, 3rd Thursday, 4:30 pm",,1432 31st Avenue SE,,Minot,ND,58701,(701) 833-4290,mike.mcintyre@ibewscu13.org,9.0,8652,47728,961.0,MINOT,ND,LM-3
+624,1536,Lincoln,NE,1536,"1st Monday, 7 pm",,4625 Y Street,,Lincoln,NE,68503,(402) 464-6231,ibew1536@hotmail.com,,,,,,,
+625,1537,Winston-Salem,NC,1537,"Local Union 342 Hall, 2nd Friday, 8:30 pm",,3807 Blairwood Street,,High Point,NC,27265,(336) 344-4213,ibew1537@yahoo.com,33.0,18044,59168,547.0,HIGH POINT,NC,LM-3
+627,1545,Jesup,GA,1545,"USW Local 787 Hall, 4134 Rayonier Road, 2nd Tuesday, 4:15 pm",,403 Oran Way,,Jesup,GA,31545,(912) 294-3545,,35.0,41958,78535,1199.0,JESUP,GA,LM-3
+628,1547,Anchorage,AK,1547,"1st Wednesday, 7 pm",www.ibew1547.org,3333 Denali Street,,Anchorage,AK,99503,(907) 272-6571,webmaster@ibew1547.org,4233.0,24725052,28056361,5841.0,ANCHORAGE,AK,LM-2
+630,1555,Moncton,NB,1555,"Room 226, 1st Wednesday, 6:30 pm",ibew1555.ca,96 Norwood Avenue,,Moncton,NB,E1C 6L9,(506) 857-3228,admin@ibew1555.ca,,,,,,,
+631,1559,Superior,WI,1559,"Shamrock Pizza, 3rd Wednesday, 4:30 pm",,8115 E County Road L,,Solon Springs,WI,54873,(612) 810-8404,mrherrboldt@yahoo.com,22.0,33559,13348,1525.0,Duluth,MN,LM-3
+632,1565,Thunder Bay,ON,1565,"2nd Monday, 5 pm",,427 Vickers Street S,,Thunder Bay,ON,P7E 1J7,(807) 623-2717,bradley.kennedy@tbpulpandpaper.com,,,,,,,
+633,1570,Beulah,ND,1570,"Alibis Lounge, 1st Tuesday, 5 pm",,PO Box 1181,,Beulah,ND,58523,(701) 891-2067,ibew1570@westriv.com,57.0,40835,72151,716.0,BEULAH,ND,LM-3
+634,1573,New York,NY,1573,"Multiple Locations, Last Tuesday, 5 pm",,37 Ridge Road,,Farmingdale,NY,11735,(917) 682-2870,kruger5681@gmail.com,162.0,141415,19973,873.0,DARIEN,CT,LM-3
+635,1574,Whitehorse,YT,1574,"Last Wednesday, 5:15 pm",www.ibew1574.ca,4133 Fourth Avenue,,Whitehorse,YT,Y1A 1H8,(867) 667-6552,office@ibew1574.ca,,,,,,,
+636,1579,Augusta,GA,1579,"3rd Monday, 7:30 pm",www.ibew1579.org,1250 Reynolds Street,,Augusta,GA,30901,(706) 722-6357,admin@ibew1579.org,960.0,3903486,35133283,4066.0,AUGUSTA,GA,LM-2
+637,1583,Palatka,FL,1583,"Loyal Order of Moose Lodge 184, 3875 Reid Street, 1st Monday, 4:30 pm",,PO Box 2352,,Palatka,FL,32178,(386) 546-9938,luibew1583@gmail.com,82.0,49779,27165,607.0,PALATKA,FL,LM-3
+639,1587,Middleport,OH,1587,"345 Sycamore Street, Middleport, 1st Thursday, 4 pm",,37625 State Rt. 124,,Pomeroy,OH,45769,(740) 416-1781,paulmichael94@gmail.com,45.0,22144,69721,492.0,Pomeroy,OH,LM-3
+640,1588,Augusta,GA,1588,"4306 Mike Padgett Highway, 1st Monday, 4 pm",www.ibew1588.net,1306 S Glassine Road,,Augusta,GA,30906,(706) 799-0562,ibew1588@gmail.com,24.0,26141,37243,1089.0,Augusta,GA,LM-3
+641,1590,Oshawa,ON,1590,"IBEW Local Union 636, 1001 Ritson Road South, 2nd Monday, 4 pm",,1511-33 Falby Court,,Ajax,ON,L1S 3R3,(905) 404-1420,eherrington77@gmail.com,,,,,,,
+642,1591,Conway,SC,1591,Various Times & Places,,8075 Highway 701 S,,Conway,SC,29527,(843) 902-5021,ibew1591@gmail.com,15.0,4878,5649,325.0,CONWAY,SC,LM-4
+643,1593,Hazen,ND,1593,"3rd Thursday, 7:30 pm",www.ibew1593.com,44 W Main Street,,Hazen,ND,58545,(701) 748-6710,ibew@ibew1593.com,987.0,1163554,945524,1179.0,HAZEN,ND,LM-2
+644,1597,Grand Island,NE,1597,"3rd Wednesday, 7:30 pm",,3302 W Capital Avenue,,Grand Island,NE,68803,(308) 750-4362,info@ibew1597.org,,,,,,,
+645,1600,Bethlehem,PA,1600,"Various Places, 7 pm",www.ibew1600.org,1259 Grange Road,,Allentown,PA,18106,(610) 395-8167,,1604.0,2133224,690114,1330.0,ALLENTOWN,PA,LM-2
+647,1604,Montreal,QC,1604,"2nd Wednesday, 6:30 pm",,3427 Notre Dame Ouest,,Montreal,QC,H4C 1P3,(514) 931-9242,local1604@bellnet.ca,,,,,,,
+648,1613,Kansas City,MO,1613,"3rd Thursday, 5 pm",www.ibew1613.org,1100 Admiral Boulevard,,Kansas City,MO,64106,(816) 241-1613,businessmanager@ibew1613.org,250.0,501694,144288,2007.0,Kansas City,MO,LM-2
+649,1615,St. John's,NL,1615,"Chateau Park, 1st Tuesday, 8 pm",www.ibew1615.com,230 Park Avenue,,Mt. Pearl,NL,A1N 1L1,(709) 364-4401,info@ibew1615.com,,,,,,,
+650,1616,Rapid City,SD,1616,"Montana Dakota Utilities Service Center, 718 Steel Avenue, 3rd Wednesday, 6 pm",,15019 Homestake Road,,Spearfish,SD,57783,(605) 641-7508,egerdahlc@gmail.com,24.0,18306,14914,763.0,Spearfish,SD,LM-3
+652,1619,Delta,UT,1619,"240 W 100 S Delta, 3rd Wednesday, 6:30 pm",www.ibew1619.org,PO Box 456 ,,Delta,UT,84624,(435) 864-8617,ibew1619president@gmail.com,48.0,45144,85879,940.0,DELTA,UT,LM-3
+653,1620,St. John's,NL,1620,,www.ibew1620.com,27 Duffy Place,,St. John's,NL,A1B 4M7,(709) 330-6071,myunion@ibew1620.com,,,,,,,
+656,1629,Childersburg,AL,1629,"USW Union Hall, Childersburg, 2nd Monday, 4 pm",,PO Box 407,,Childersburg,AL,35044,(256) 872-4301,mizzell.nathan@gmail.com,49.0,20854,57068,426.0,TALLADEGA,AL,LM-3
+657,1631,Harmon,NY,1631,"American Legion, 58 S Highland Avenue, Ossining, 1st Wednesday, 4:30 pm",,PO Box 642,,Croton-on-Hudson,NY,10520,(845) 800-9149,theta9@hotmail.com,141.0,92474,12753,656.0,CROTON ON HUDSON,NY,LM-3
+658,1634,Coralville,IA,1634,"America Inn, 2597 Holiday Road, 3rd Wednesday, 2:45 pm",,2855 Heartland Drive,,Coralville,IA,52241,(319) 295-1034,ibew.1634@gmail.com,459.0,254218,144289,554.0,NORTH LIBERTY,IA,LM-2
+660,1637,Erie,PA,1637,"2nd Tuesday, 7:30 pm",www.ibew1637.com,2820 W 21st Street,,Erie,PA,16506,(814) 833-1637,local1637@gmail.com,41.0,78341,122859,1911.0,ERIE,PA,LM-3
+661,1638,Colstrip,MT,1638,"1st Tuesday of the First Full Week in the Month, 6:30 pm",,22 Cherry Street,,Colstrip,MT,59323,(406) 748-4908,ibew1638@gmail.com,210.0,410608,310747,1955.0,COLSTRIP,MT,LM-2
+662,1649,Beaufort,SC,1649,"Harold's Country Club, Yemassee, 2nd Thursday, 7 pm",,3665 River Hill Road,,Varnville,SC,29944,(843) 592-0274,,18.0,10683,34559,594.0,Hampton,SC,LM-3
+665,1658,Pine Bluff,AR,1658,"1st Thursday, 2 pm & 4 pm",,PO Box 5236,,Pine Bluff,AR,71611,(870) 592-3573,localu1658@gmail.com,,,,,,,
+666,1666,Lancaster,PA,1666,"1st Saturday, 11 am",,316 S Market Avenue,,Mount Joy,PA,17552,(717) 940-7579,kibew1666@gmail.com,20.0,13840,27779,692.0,MOUNT JOY,PA,LM-3
+667,1671,Birdsboro,PA,1671,"Birdsboro Friendship Fire Company, 1st Monday, 6:30 pm",,PO Box 113,,Birdsboro,PA,19508,(717) 666-4761,ibew1671@gmail.com,23.0,25359,79738,1103.0,BIRDSBORO,PA,LM-3
+668,1682,Roseville,CA,1682,"Old Town Pizza, 120 Church Street, 3rd Tuesday, 3:30 pm",www.ibewlocal1682.org,PO Box 1293,,Roseville,CA,95678,(916) 899-9133,houstonwyatt@comcast.net,73.0,91376,12316,1252.0,ROSEVILLE,CA,LM-3
+669,1684,Jersey City,NJ,1684,"Polish National Home, 215 Cleveland Avenue, Harrison, 2nd Thursday, 4 pm",,337 Ellery Avenue,,Newark,NJ,07106,(908) 549-9185,,292.0,116361,20379,398.0,BRICK,NJ,LM-3
+670,1687,Sudbury,ON,1687,"Timmins: Hampton Inn, Riverside Drive, 1st Wednesday, 7 pm; Sault Ste. Marie: Water Tower Inn, Great Northern Road, 2nd Tuesday, 7 pm; North Bay: Best Western, Lakeshore Drive, 3rd Monday, 7 pm; Sudbury: Union Hall, 4th Monday, 7 pm",www.ibew1687.org,1204 St. Jerome Street,,Sudbury,ON,P3A 2V9,(705) 566-1687,info@ibew1687.org,,,,,,,
+671,1688,Pickstown,SD,1688,"Gavins Point Power Plant, 3rd Wednesday, 7 pm",,PO Box 261,,Pierre,SD,57501,(701) 220-5268,ibew_1688@hotmail.com,67.0,11327,190812,169.0,FT PIERRE,SD,LM-3
+673,1700,New Orleans,LA,1700,"3rd Wednesday, 7 am & 3 pm",,128 Willow Wood Drive,,Slidell,LA,70461,(504) 287-3196,djaug1875@msn.com,135.0,71219,118386,528.0,PRAIRIEVILLE,LA,LM-3
+674,1701,Owensboro,KY,1701,"3rd Tuesday, 6 pm",,2911 W Parrish Avenue,,Owensboro,KY,42301,(270) 684-3058,ibew1701@yahoo.com,598.0,1029355,987204,1721.0,OWENSBORO,KY,LM-2
+675,1703,El Dorado,AR,1703,"IBEW Local Union 436 Hall, 3rd Wednesday, 5:30 pm",,PO Box 1242,,El Dorado,AR,71730,(870) 315-0435,jtibew1703@yahoo.com,48.0,67551,107827,1407.0,EL DORADO,AR,LM-3
+676,1710,Los Angeles,CA,1710,"2nd Thursday, 5 pm",,3556 Lexington Avenue,,El Monte,CA,92731,(626) 401-1710,local1710ibew@att.net,670.0,479415,219746,716.0,EL MONTE,CA,LM-2
+677,1718,Waldorf,MD,1718,"Moose Lodge #495, 2nd Thursday, 5 pm",www.ibewlocal1718.org,PO Box 1401,,Leonardtown,MD,20650,(240) 346-5159,1718pres@gmail.com,290.0,300468,633643,1036.0,LEONARDTOWN,MD,LM-2
+678,1730,Dryden,ON,1730,Last Monday,,Box 246,,Dryden,ON,P8N 2Y8,(807) 221-8899,ibewlu1730@gmail.com,,,,,,,
+679,1737,Manassas,VA,1737,"2nd Thursday, 6 pm",,7542 Diplomat Drive,,Manassas,VA,20109,(703) 361-8027,ibewlocal1737@gmail.com,144.0,107378,55671,746.0,MANASSAS,VA,LM-3
+680,1744,Fort Frances,ON,1744,"281 2nd Street E, Fort Frances, Last Wednesday, 4:15 pm",,PO Box 235,,Emo,ON,P0W 1E0,(807) 275-8816,ibew1744@gmail.com,,,,,,,
+681,1749,New Johnsonville,TN,1749,"Waverly, 2nd Tuesday, 7 pm",,107 Richland Avenue,,Waverly,TN,37185,(931) 627-1674,ibew1749bm@gmail.com,206.0,231385,492267,1123.0,NEW JOHNSONVILLE,TN,LM-3
+685,1759,Casper,WY,1759,"Various Locations, 2nd Thursday, 6 pm",,PO Box 56,,Cody,WY,82414,(307) 271-1500,luibew1759@gmail.com,117.0,149257,327690,1276.0,Cody,WY,LM-3
+686,1768,Waterville,ME,1768,"USW Union Hall, Route 201, Skowhegan, 1st Tuesday, 3:30 pm",,PO Box 29,,Hinckley,ME,04944,,mplap@roadrunner.com,54.0,101999,135653,1889.0,HINCKLEY,ME,LM-3
+687,1769,Seattle,WA,1769,,,17817 SE 24th Street,,Vancouver,WA,98683,(360) 970-3215,ibew1769@gmail.com,112.0,112917,135349,1008.0,YACOLT,WA,LM-3
+689,1791,Wausau,WI,1791,"Wausau Labor Temple, 2nd Wednesday, 1 pm & 3:15 pm",,318 S Third Avenue,,Wausau,WI,54401,(715) 845-4932,ibewlocal1791@gmail.com,92.0,45408,24891,494.0,WAUSAU,WI,LM-3
+691,1802,Sarnia,ON,1802,"1st Wednesday, 4:30 pm",,855 Confederation Street,,Sarnia,ON,N7T 7L6,(519) 337-8201,ibew1802@gmail.com,,,,,,,
+692,1805,Baltimore,MD,1805,2nd Thursday,www.IBEW1805.com,898 Airport Park Road,,Glen Burnie,MD,21061,(410) 761-7780,Admin@IBEW1805.com,,,,,,,
+694,1814,Houston,TX,1814,"Local Union 716 Hall, 4th Thursday, 4 pm",,20906 Winter Forest Drive,,Spring,TX,77379,(281) 313-4332,,92.0,86118,27705,936.0,Sugar Land,TX,LM-3
+695,1820,Neptune,NJ,1820,"Unit 1: 160 E Main Street Rear, Rockaway, NJ, 2nd Thursday, 5 pm; Unit 3: IBEW Local 400 Hall, 3301 Route 138, Wall, NJ, 3rd Wednesday, 6 pm",www.ibew1820.org,238 Stillwells Corner Road,,Freehold,NJ,07728,(732) 691-8952,BSmithlocal1820@gmail.com,660.0,517656,559272,784.0,NEPTUNE,NJ,LM-2
+696,1829,Shreveport,LA,1829,"Local Union 194 Hall, 2nd Thursday, 1 pm",,1901 Normand Avenue,,Bossier City,LA,71112,(318) 299-3425,ibew1829@gmail.com,42.0,47254,10580,1125.0,BOSSIER CITY,LA,LM-3
+697,1832,Kansas City,MO,1832,"Chappell's Restaurant, 323 Armour Road, 3rd Tuesday, 4 pm",,5653 N Manchester Avenue,,Kansas City,MO,64119,(712) 309-5899,,36.0,31565,44514,877.0,KANSAS CITY,MO,LM-3
+698,1833,Horseheads,NY,1833,"2nd Monday, 4 pm",,415 W Second Street,,Elmira,NY,14901,(607) 732-6444,ibew1833@gmail.com,157.0,93837,82194,598.0,ELMIRA,NY,LM-3
+699,1837,Manchester,ME,1837,Various Times & Places,www.ibew1837.org,16 Old Winthrop Road,,Manchester,ME,04351,(207) 623-1030,union@ibew1837.org,1763.0,2292163,2966704,1300.0,MANCHESTER,ME,LM-2
+700,1852,Sydney,NS,1852,"1st Wednesday, 8 pm",ibew1852.dyndns-ip.com/,42 Cossitt Heights Drive,,Sydney,NS,B1P 6H4,(902) 562-1357,ibew1852@eastlink.ca,,,,,,,
+701,1856,Havre,MT,1856,"Elk's Club, 1st Thursday, 4 pm",,PO Box 2353,,Havre,MT,59501,(406) 390-6341,ibewlu1856@gmail.com,132.0,152976,87324,1159.0,HAVRE,MT,LM-3
+705,1871,Birmingham,AL,1871,"845 Gadsden Highway, 2nd Wednesday, 3:30 pm",,3300 Sixth Avenue S,,Birmingham,AL,35222,,,,,,,,,
+707,1888,Saint John,NB,1888,"26 Kiwanis Court, Last Tuesday, 6:30 pm",,549 Tippett Drive,,St. John,NB,E2M 4Y9,(506) 645-8803,rondunn1888@live.com,,,,,,,
+708,1900,Washington,DC,1900,"Central Membership: American Legion Post 136, 6900 Greenbelt Road, Greenbelt, MD, 1st Monday, 6 pm; North Membership: Hampton Inn, 5311 Buckeystown Pike, Frederick, MD, 1st Wednesday, 5 pm; South Membership: American Legion Post 238, 6265 Brandywine Road, Hughesville, MD,  1st Thursday, 5 pm",www.ibew1900.org,1400 Mercantile Lane,,Largo,MD,20774,(301) 322-6030,luoffice@ibew1900.org,979.0,1018485,209710,1040.0,LARGO,MD,LM-2
+709,1902,Charlotte,NC,1902,"Key Man Building, 3rd Tuesday, 7 pm",,1900 Cross Beam Road,,Charlotte,NC,28217,(864) 640-0776,ibewlocalunion1902@yahoo.com,305.0,151823,71373,498.0,Harrisburg,NC,LM-3
+710,1908,Cocoa,FL,1908,"166 Center Street, Unit 237, Cape Canaveral, 3rd Tuesday, 5:30 pm",,5010 N Courtenay Parkway,,Merritt Island,FL,32953,(321) 501-9639,ibewlocal1908@gmail.com,139.0,248127,346858,1785.0,MERRITT ISLAND,FL,LM-3
+711,1911,San Antonio,TX,1911,"VFW Post 76, 10 10th Street, 2nd Tuesday, 4:30 pm",www.ibew1911.com,3142 Whitewing Lane,,San Antonio,TX,78230,(210) 835-4474,wkazak@sbcglobal.net,45.0,50431,522,1121.0,NEW BRAUNFELS,TX,LM-3
+712,1912,Southern Pines,NC,1912,"Dry Dock Restaurant, Siler City, 4th Tuesday, 7 pm",www.ibew1912.com,PO Box 617,,Angier,NC,27501,(919) 896-3236,ibew1912@gmail.com,28.0,17735,40617,633.0,Angier,NC,LM-3
+713,1914,Harwick,PA,1914,"3rd Wednesday, 7:45 am, 2 pm & 3:40 pm",www.ibew1914.org,200 School Street,,Harwick,PA,15049,(724) 594-5559,local1914@comcast.net,244.0,199888,238747,819.0,HARWICK,PA,LM-3
+714,1919,Pittsburgh,PA,1919,"1st Wednesday, 7 pm",www.ibew1919.org,986 Greentree Road,,Pittsburgh,PA,15220,(412) 921-5757,richard.layhew@verizon.net,603.0,1058062,847695,1755.0,PITTSBURGH,PA,LM-2
+715,1920,North Platte,NE,1920,"North Platte Eagles Hall, 620 N Chestnut Street, 2nd Tuesday",www.ibew1920.org,PO Box 54,,North Platte,NE,69103,(308) 530-4443,ibew1920sec@gmail.com,240.0,241094,51795,1005.0,NORTH PLATTE,NE,LM-3
+716,1922,Westbury,NY,1922,"1st Wednesday, 6 pm",www.local1922ibew.com,70 Charles Lindbergh Boulevard,,Westbury,NY,11553,(516) 334-4140,,424.0,277889,12093,655.0,UNIONDALE,NY,LM-2
+717,1923,Hamlet,NC,1923,"2nd Monday, 7 pm",,704 London Lane,,Hampstead,NC,28443,(352) 835-8460,ibew1923@gmail.com,26.0,30477,11899,1172.0,Hampstead,NC,LM-3
+718,1924,Fernandina Beach,FL,1924,"3rd Thursday, 5 pm",,961023 Buccaneer Trail,,Fernandina Beach,FL,32035,(912) 281-1822,ibew1924@yahoo.com,70.0,65841,49592,941.0,FERNANDINA BEACH,FL,LM-3
+719,1925,Martin,TN,1925,"3rd Monday, 7 pm",,402 Jackson Street,,Martin,TN,38237,(731) 587-3457,ibew1925@frontiernet.net,228.0,361365,533919,1585.0,MARTIN,TN,LM-2
+720,1928,Halifax,NS,1928,"4th Wednesday, 7 pm",www.ibew1928.org,14 McQuade Lake Crescent,,Beechville,NS,B3S 1B6,(902) 450-5366,contact@ibew1928.org,,,,,,,
+721,1929,Waynesburg,PA,1929,"American Legion Post 400, 205 E George Street, Carmichaels, 3rd Thursday, 6:30 pm",,PO Box 725,,Waynesburg,PA,15370,(724) 255-1440,John.Bartman@windstream.com,22.0,6000,65013,273.0,Waynesburg,PA,LM-4
+722,1933,Ft. Myers,FL,1933,"Bayshore Fire 131, 17350 Nalle Road, N Ft. Myers, 3rd Tuesday, 6 pm",,1133 Bal Harbor Boulevard,,Punta Gorda,FL,33950,(239) 980-1922,gekrumm@gmail.com,183.0,185432,213740,1013.0,NORTH FORT MYERS,FL,LM-3
+723,1937,Cantonment,FL,1937,"1st Wednesday, 3:45 pm",,583 Highway 29 S,,Cantonment,FL,32533,(251) 769-4631,,51.0,47505,60310,931.0,PENSACOLA,FL,LM-3
+726,1947,Valdosta,GA,1947,"Clyattville Volunteer Fire Department, 1st Tuesday, 3:45 pm",,834 NE Raintree Avenue,,Pinetta,FL,32350,(229) 520-1019,,31.0,18961,52426,612.0,Tifton,GA,LM-3
+727,1950,Waynesboro,VA,1950,"Masonic Lodge No. 209, 1600 W Main Street, 3rd Tuesday, 7 pm",,PO Box 1134,,Waynesboro,VA,22980,(540) 241-0004,shull.wes2@gmail.com,19.0,7431,82061,391.0,Waynesboro,VA,LM-3
+728,1959,Huron,SD,1959,Various Times & Places,,3031 Sussex Road,,Pierre,SD,57501,(970) 556-1087,nneddo1959@gmail.com,146.0,183325,171409,1256.0,Watertown,SD,LM-3
+729,1963,Youngwood,PA,1963,"2nd Tuesday, 1:45 pm & 3:15 pm",,PO Box 175,,Youngwood,PA,15697,(724) 771-4046,ibew1963@gmail.com,114.0,55510,67094,487.0,YOUNGWOOD,PA,LM-3
+19566,1974,Cedar Rapids,IA,1974,"Comfort Inn, 710 America Drive, 2nd Wednesday, 2:45 pm",,7825 Sixth Street SW,,Cedar Rapids,IA,52404,(319) 317-5066,ssbails1974@gmail.com,216.0,146498,34251,678.0,NORTH LIBERTY,IA,LM-3
+730,1976,Plymouth,IN,1976,"Plymouth Library, 201 N Center Street, 1st Tuesday, 10 am",,PO Box 40,,Plymouth,IN,46563,(574) 952-1338,,13.0,6535,18613,503.0,PLYMOUTH,IN,LM-3
+731,1980,Cedar Springs,GA,1980,"USW Union Hall, Highway 273 W, 2nd Tuesday, 5 pm",,PO Box 267,,Cedar Springs,GA,39832,(229) 723-1300,ibewlu1980@outlook.com,33.0,31267,77392,947.0,Cedar Springs,GA,LM-3
+732,1984,Waycross,GA,1984,"Union Hall, Lee Avenue, 2nd Monday, 3:30 pm",,PO Box 950,,Waycross,GA,31503,(912) 614-1204,bigpapaphasemode@gmail.com,90.0,73781,48273,820.0,Waycross,GA,LM-3
+734,1988,Albuquerque,NM,1988,"Kirkland AFB, 1451 Texas Street, Building 202888, 2nd Wednesday, 5 pm",,PO Box 5634,,Albuquerque,NM,87185,(505) 459-7886,ibew1988.shawnb@gmail.com,155.0,116859,47162,754.0,ALBUQUERQUE,NM,LM-3
+735,1990,Key West,FL,1990,"3637 Northside Court, 5:30 pm",,5419 Robyns Lane,,Key West,FL,33040,(305) 394-2463,ibew1990@outlook.com,,,,,,,
+736,1996,Warren,OH,1996,"2nd Wednesday, 6 pm",,684 N Park Avenue,,Warren,OH,44483,(330) 314-3277,j.smith1080fs@gmail.com,16.0,7891,33021,493.0,WARREN,OH,LM-4
+19563,1997,Atlanta,GA,1997,"Various Locations, 3rd Saturday, 9 am",www.ibew1997.org,501 Pulliam Street SW,,Atlanta,GA,30312,(912) 659-8072,businessmanager@ibew1997.org,878.0,708526,181680,807.0,ATLANTA,GA,LM-2
+19570,1998,Palm Beach Gardens,FL,1998,"1st Monday, 6 pm",,7650 S US Highway 1,,Port Saint Lucie,FL,34952,(772) 217-0936,ibewlocal1998@gmail.com,,,,,,,
+737,1999,Mankato,MN,1999,"Morson-Ario-Strand VFW Post 950, 1900 N Riverfront Drive, 3rd Tuesday, 4:30 pm",,PO Box 2001,,North Mankato,MN,56003,(507) 344-3119,ibewlocal1999mn@gmail.com,340.0,192007,207018,565.0,NORTH MANKATO,MN,LM-3
+738,2001,Fremont,NE,2001,Various Times & Places,,224 N Park Street,,Fremont,NE,68025,(402) 719-5464,ibew2001@gmail.com,182.0,63602,88494,349.0,FREMONT,NE,LM-3
+739,2002,Winnipeg,MB,2002,"2nd Saturday, 9 am",,79 Barber Street,,Winnipeg,MB,R2W 3J6,(204) 881-4098,ibewlocal2002secretary@gmail.com,,,,,,,
+740,2003,Montreal,QC,2003,,,355 de la Levée,,La Prairie,QC,J5R 2T3,(514) 231-7356,,,,,,,,
+742,2008,Toronto,ON,2008,Various Times & Places,,7412 Seventh Concession Road,,Addison,ON,K0E 1A0,(613) 246-4744,trevorcaldwell.ibew@outlook.com,,,,,,,
+743,2010,Kingston,ON,2010,,,23 Bevan Drive,,Belleville,ON,K8N 0H3,(705) 507-7170,ibewmccue@gmail.com,,,,,,,
+744,2011,Calgary,AB,2011,Various Times & Places,,1292 Lake Sylvan Drive SE,,Calgary,AB,T2J 3C8,(403) 835-7177,MatKloiber@gmail.com,,,,,,,
+746,2017,Montreal,QC,2017,,,302-7981 George Street,,Montreal,QC,H8P 1E3,(514) 867-4381,,,,,,,,
+747,2019,Brantford,ON,2019,"Toronto, Burlington, London, Sunday, 12 pm",www.ibewlocal2019.ca,3 Donaland Avenue,,Grimsby,ON,L3M 1M1,(905) 973-8787,ibewKoetsier@protonmail.com,,,,,,,
+748,2024,Moncton,NB,2024,,,6-205 Pleasant Street,,Moncton,NB,E1A 2V6,(506) 654-7607,ibewdraper@gmail.com,,,,,,,
+749,2029,Toronto,ON,2029,,,18 Yonge Street,,Toronto,ON,M5E 1Z8,(289) 689-4587,mike.krywiak@yahoo.com,,,,,,,
+750,2032,Massena,NY,2032,"24 Woodlawn Avenue, 1st Monday, 4pm",www.ibewlocal2032.org,56 Willow Street,,Massena,NY,13662,(315) 764-1778,ibewlocal2032@gmail.com,,,,,,,
+751,2033,Pine Bluff,AR,2033,"Pine Bluff Labor Temple, 5300 Hoover Street, 3rd Tuesday, 4 pm",,PO Box 2437,,Pine Bluff,AR,71603,(870) 692-1309,shannonhall410@gmail.com,108.0,86643,106331,802.0,PINE BLUFF,AR,LM-3
+752,2034,Winnipeg,MB,2034,,www.ibew2034.com,1907 Portage Avenue,,Winnipeg,MB,R3J 0H9,(204) 944-2034,ibew@ibew2034.com,,,,,,,
+753,2035,Romney,WV,2035,"166 Garber Lane, Winchester, VA, 2nd Tuesday, 7 pm",www.ibew2035.com,PO Box 11,,Romney,WV,26757,(304) 790-1055,jobemellott@gmail.com,28.0,20061,55619,716.0,ROMNEY,WV,LM-3
+754,2038,Regina,SK,2038,"4th Tuesday, 7 pm",www.ibew2038.com,1920 McAra Street,,Regina,SK,S4N 5R1,(306) 757-0222,admin@ibew2038.com,,,,,,,
+755,2039,Sudbury,ON,2039,"United Steel Workers Hall, 92 Flood Road",,167 Pond Hollow Drive,,Sudbury,ON,P3E 6L2,,schartrand.ibew@hotmail.com,,,,,,,
+756,2040,Brewton,AL,2040,"Pace Union Hall, Highway 31 S, 2nd Wednesday 3:45 pm",,251 S Baggett Circle,,Brewton,AL,36426,(251) 647-6048,ibew2040@yahoo.com,26.0,12361,39500,475.0,BREWTON,AL,LM-3
+757,2042,Kamloops,BC,2042,Various Times & Places,,28-604 Almberg Road,,Golden,BC,V0A 1H2,(250) 457-3846,ibewroberts@gmail.com,,,,,,,
+758,2048,Butler,AL,2048,"Bobby Community Center, 1st Monday, 3:15 pm",,785 County Road 8,,Gilbertown,AL,36908,(205) 459-1087,ibew2048@gmail.com,69.0,31617,52926,458.0,PENNINGTON,AL,LM-3
+759,2049,Edmonton,AB,2049,,,524 Griesbach Parade,,Edmonton,AB,T5E 6X2,(780) 340-4900,seth.j@me.com,,,,,,,
+760,2050,Saskatoon,SK,2050,,,6 Quebec Drive,,Melville,SK,S0A 2P0,(306) 450-7947,ibewlocal2050CNrep@outlook.com,,,,,,,
+761,2052,Sudbury,ON,2052,,,21 Power Street,,Copper Cliff,ON,P0M 1N0,(705) 626-4595,ibew2052@gmail.com,,,,,,,
+762,2054,Quebec,QC,2054,,www.council-11.com,1515 Rue Du Lac-Des-Forges,,Trois-Rivieres,QC,G9C 0E5,,fioe.sectionlocale2054@gmail.com,,,,,,,
+763,2055,Kamloops,BC,2055,,,905-420 Carnarvon Street,,New Westminster,BC,V3L 5P1,(250) 457-3208,masterjosh747@gmail.com,,,,,,,
+764,2057,Prince George,BC,2057,,,2810 Wildwood Crescent,,Prince George,BC,V2K 3J3,(250) 981-2233,ibewblakeney@gmail.com,,,,,,,
+765,2058,Thunder Bay,ON,2058,"Quarterly, Saturday, 9 am",,989 Huron Avenue,,Thunder Bay,ON,P7A 6L7,(807) 627-1681,a.desando@hotmail.com,,,,,,,
+767,2064,Valdosta,GA,2064,"2nd Tuesday, 4:15 pm",,PO Box 97,,Valdosta,GA,31601,(229) 460-1262,,60.0,20692,17981,345.0,VALDOSTA,GA,LM-3
+768,2067,Regina,SK,2067,"3rd Wednesday, 9 am",www.ibew2067.com,1810 McAra Street,,Regina,SK,S4N 6C4,(306) 352-1433,ibew@ibew2067.com,,,,,,,
+769,2071,Portsmouth,NH,2071,"Portsmouth Naval Shipyard, Building M-1, 2nd Floor, Last Thursday, 3:30 pm",,PO Box 2052,,Portsmouth,NH,03804,(207) 994-4633,glensell99@gmail.com,79.0,78980,59169,1000.0,Scarborough,ME,LM-3
+771,2077,Wilsonville,AL,2077,"1st Monday, 3 pm",,32456 Highway 25,,Wilsonville,AL,35186,(205) 438-4318,vpickett2002@charter.net,176.0,161807,186042,919.0,WILSONVILLE,AL,LM-3
+773,2080,Chattanooga,TN,2080,"131 Maple Row Boulevard, Suite E500, Hendersonville, 2nd Friday, 9:30 am",,PO Box 184,,Goodlettsville,TN,37070,(615) 686-9574,ibew_local_2080@hotmail.com,71.0,27172,57703,383.0,LAFAYETTE,TN,LM-3
+774,2084,Syracuse,NY,2084,"Mattydale American Legion Post 1832, 2718 Lemoyne Avenue, Mattydale, 1st Thursday, 1 pm & 3 pm",,5858 E Molloy Road,,Syracuse,NY,13211,(315) 455-7336,local2084@aol.com,325.0,240537,184047,740.0,SYRACUSE,NY,LM-3
+775,2085,Winnipeg,MB,2085,"Unit 1: 2nd Wednesday, 6 pm; Unit 2: 3rd Wednesday, 6 pm",www.ibew2085.com,2181 Portage Avenue,,Winnipeg,MB,R3J 0L7,(204) 982-2085,info@ibew2085.com,,,,,,,
+776,2088,Cocoa Beach,FL,2088,"2nd Thursday, 5 pm",www.ibew2088.org,2395 N Courtenay Parkway,,Merritt Island,FL,32953,(321) 459-1400,local2088@aol.com,632.0,786576,558558,1245.0,MERRITT ISLAND,FL,LM-2
+777,2089,Meadville,PA,2089,"AFL-CIO Labor Temple, 287 1/2 Chestnut Street, 3rd Thursday, 6:30 pm",,PO Box 1145,,Meadville,PA,16335,(814) 350-4217,ibew2089president@gmail.com,42.0,30843,47069,734.0,MEADVILLE,PA,LM-3
+778,2099,Huntingdon,PA,2099,"Juniata College, Von Liebig Center of Science, Rockwell Seminar Room, 3rd Wednesday, 3:10 pm",,1700 Moore Street,,Huntingdon,PA,16652,(814) 599-7316,localunion2099@livejuniata.onmicrosoft.com,,,,,,,
+779,2100,Louisville,KY,2100,"2nd Tuesday, 9 am & 5 pm",www.ibewlocal2100.com,3419 Stony Spring Circle,,Louisville,KY,40220,(502) 935-4010,ibew2100@bellsouth.net,714.0,1241332,655441,1739.0,LOUISVILLE,KY,LM-2
+780,2104,Niagara Falls,NY,2104,"Lewiston Fire Company No. 2, 1705 Saunders Settlement Road, 1st Thursday, 4 pm",,905 College Avenue,,Niagara Falls,NY,14305,(716) 425-9478,ibewlocal2104@gmail.com,,,,,,,
+781,2109,Athens,GA,2109,"VFW Post 2872, 835 Sunset Drive, 1st Friday, 10 am",,105 Tolson Road,,Athens,GA,30606,(706) 202-3577,fatfatbaker@msn.com,80.0,30768,25114,385.0,ATHENS,GA,LM-3
+782,2113,Tullahoma,TN,2113,"Coffee County Administrative Plaza, 1327 McArthur Street, Manchester, 3rd Thursday, 4 pm",,PO Box 1858,,Manchester,TN,37349,,ibew2113@hotmail.com,225.0,130551,89992,580.0,MANCHESTER,TN,LM-3
+783,2129,Prichard,AL,2129,"108 N Craft Highway, Chickasaw, 1st & 3rd Wednesday, 4 pm",,5523 Lakewood Circle,,Saraland,AL,36571,(251) 656-9722,,47.0,33812,29512,719.0,CHICKASAW,AL,LM-3
+785,2144,Rumford,ME,2144,"Snowshoe Club, Waldo Street, 3rd Tuesday, 4:30 pm",,25 Bird Hill Road,,Greenwood,ME,04255,(207) 357-3111,jeepahs@hotmail.com,22.0,18990,38339,863.0,Rumford,ME,LM-3
+786,2149,New Orleans,LA,2149,"1001 Loyola Avenue, 2nd Thursday, 7 pm",,608 Sophia Street,,River Ridge,LA,70123,(504) 920-7939,jmarino17@icloud.com,32.0,29640,7792,926.0,River Ridge,LA,LM-3
+787,2150,Milwaukee,WI,2150,"2nd Wednesday, 7 pm",www.ibewlocal2150.org,N56 W13777 Silver Spring Drive,,Menomonee Falls,WI,53051,(262) 252-2552,ibew@ibewlocal2150.com,5718.0,7034004,4355394,1230.0,MENOMONEE FALLS,WI,LM-2
+788,2152,Daleville,AL,2152,"Beef 'O' Brady's, 4944 Malloy Plaza E, Marianna, 2nd Tuesday, 6:30 PM",,91 Tobacco Sink Road,,Crawfordville,FL,32327,(850) 544-1823,Local2152BM@gmail.com,229.0,99767,13006,436.0,Samson,AL,LM-3
+789,2154,Buffalo,NY,2154,"Legacy Sports Bar & Papa's Pizza Oven, 1537 Union Road, West Seneca, 3rd Wednesday, 5:30 pm",www.ibewlocal2154.org,3576 California Road,,Orchard Park,NY,14127,(716) 662-8480,ibew2154@yahoo.com,789.0,829127,1535332,1051.0,ORCHARD PARK,NY,LM-2
+790,2159,Montrose,CO,2159,"All Employees Room of WAPA 2, 2nd Monday, 7 pm",,PO Box 757,,Montrose,CO,81402,(970) 596-1296,IBEW2159@gmail.com,63.0,71484,157388,1135.0,MONTROSE,CO,LM-3
+792,2166,Fredericton,NB,2166,,www.ibewlocal2166.com,681 Union Street,,Fredericton,NB,E3A 3N8,(506) 452-0111,admin@ibewlocal2166.com,,,,,,,
+793,2172,Bellevue,OH,2172,"Twin Lakes Golf Course, 100 Decker Street, 2nd Friday, 5:30 pm",,12906 River Road,,Milan,OH,44846,,,45.0,51871,7606,1153.0,Bellevue,OH,LM-3
+794,2173,Lynchburg,VA,2173,"1st Tuesday, 5:30 pm",,1520 Campbell Avenue,,Lynchburg,VA,24501,(434) 401-6021,jthomasibew2173@gmail.com,222.0,112385,49521,506.0,LYNCHBURG,VA,LM-3
+795,2179,Sandy Lake,PA,2179,"Sandy Lake Fire Department, 2nd Wednesday, 3:30 pm",,PO Box 405,,Sandy Lake,PA,16145,(724) 376-7515,,19.0,17751,49307,934.0,SANDY LAKE,PA,LM-3
+797,2194,Americus,GA,2194,"Hope Center, 2nd Tuesday, 3 pm",,PO Box 1502,,Americus,GA,31709,(229) 942-4743,gaaapjustice@gmail.com,36.0,12042,-9,334.0,AMERICUS,GA,LM-3
+798,2199,Buffalo,NY,2199,"American Legion Francis J. Donovan Post, 3210 Genesee Street, Cheektowaga, 3rd Wednesday, 6:30 pm",www.ibewlocal2199.com,48 Gardenville Parkway,,West Seneca,NY,14224,(716) 220-1923,President@IBEWLocal2199.com,240.0,219236,162934,913.0,WEST SENECA,NY,LM-3
+800,2213,Syracuse,NY,2213,Various Times & Places,www.ibew2213.org,3000 Troy-Schenectady Road,,Schenectady,NY,12039,(315) 438-3322,barb@ibew2213.org,186.0,376086,368528,2022.0,SCHENECTADY,NY,LM-2
+801,2219,Dardanelle,AR,2219,3rd Thursday,,1647 S Chapel Drive,,Springfield,MO,65809,(417) 230-2525,topjimy8712@icloud.com,50.0,38433,63397,769.0,Branson,MO,LM-3
+802,2220,Lexington,KY,2220,"2nd Tuesday, 1st Shift, 4 pm; 2nd Shift, 2 pm; 3rd Shift, 7:15 pm",,1400 N Forbes Road,,Lexington,KY,40511,(859) 233-0633,ibewlocal2220@gmail.com,262.0,385802,321608,1473.0,Lexington,KY,LM-2
+803,2221,Iron Mountain,MI,2221,"3rd Thursday, 6 am & 5 pm",,617 N Stephenson Avenue,,Iron Mountain,MI,49801,(906) 774-3170,local2221ibew@outlook.com,,292375,309178,,IRON MOUNTAIN,MI,LM-2
+804,2222,Boston,MA,2222,"180 Mt. Vernon Street, Dorchester, 1st Wednesday, 6 pm",www.ibew2222.org,159 Thomas Burgin Parkway,,Quincy,MA,02169,(617) 929-6000,KevinHolland@ibew2222.org,998.0,1447793,1304173,1451.0,Quincy,MA,LM-2
+805,2228,Ottawa,ON,2228,3rd Monday,www.ibew-fioe2228.ca,1091 Wellington Street W,,Ottawa,ON,K1Y 2Y4,(613) 725-3608,office@ibew2228.ca,,,,,,,
+806,2230,Patchogue,NY,2230,"Ridge Volunteer Fire Department, 525 Lockwood Drive, Shirley, 4th Tuesday, 5 pm",www.local2230.org,128 Main Street,,Yaphank,NY,11980,(631) 716-0295,local2230ibew@gmail.com,331.0,316365,270287,956.0,CORAM,NY,LM-2
+807,2233,Westbrook,ME,2233,"Union Room, Sappi Paper Company, 89 Cumberland Street, Last Wednesday, 3:10 pm",,181 South Street,,Gorham,ME,04038,(207) 712-0261,zac.dinsmore08@gmail.com,9.0,6265,49540,696.0,POLAND,ME,LM-4
+809,2241,Youngstown,OH,2241,"2nd Thursday, 12 pm",,1125 Meadowbrook Avenue,,Youngstown,OH,44512,(330) 782-8007,ibewlocal2241@yahoo.com,62.0,29316,26542,473.0,WEST MIDDLESEX,PA,LM-3
+810,2244,Scranton,PA,2244,"Local Union 81 Hall, 1st Monday, 5 pm",,3805 Winfield Avenue,,Moosic,PA,18507,(570) 604-7750,ugilocal2244@gmail.com,16.0,44986,259852,2812.0,DUNMORE,PA,LM-3
+813,2251,Andalusia,AL,2251,"Progressive Insurance Building Basement, 1731 E Three Notch Street, 2nd Thursday, 6 pm",,PO Box 1033,,Andalusia,AL,36420,(334) 343-2075,ibew2251@gmail.com,54.0,20085,29016,372.0,Red Level,AL,LM-3
+814,2265,Vicksburg,MS,2265,"Redwood Branch of Vickswood Credit Union, 3737 MS-3, Redwood, 1st Thursday, 3:45 pm",,5991 Oak Ridge Road,,Vicksburg,MS,39183,(601) 415-6666,ricko.arnold@gmail.com,25.0,12753,53533,510.0,VICKSBURG,MS,LM-3
+815,2269,Harrisburg,PA,2269,"Enola Legion, 4th Tuesday, 7 pm",,152 Pine Maple Street,,McAlisterville,PA,17049,(717) 798-6670,william.horvath@ibewsc6.org,48.0,50316,33187,1048.0,MCALISTERVILLE,PA,LM-3
+816,2270,Wilmington,DE,2270,"The New Castle County Irish Society, 1301 S Rodney Street, 4th Friday, 7 pm",,2414 Tapley Lane,,Wilmington,DE,19808,(302) 463-0138,ibewlu2270@comcast.net,340.0,136175,37054,401.0,Wilmington,DE,LM-3
+817,2271,Philadelphia,PA,2271,"New Deck Tavern, 3408 Sansom Street, Last Wednesday, 4:30 pm",,723 Forrest Avenue,,Jenkintown,PA,19046,(267) 253-9001,,71.0,70213,36231,989.0,HATBORO,PA,LM-3
+818,2273,Altoona,PA,2273,"4th Tuesday, 3:30 pm",,302 E Wopsononock Avenue,,Altoona,PA,16601,(814) 381-4253,1local2273@gmail.com,130.0,196280,46617,1510.0,ALTOONA,PA,LM-3
+819,2284,El Dorado,AR,2284,"810 N Newton Street, Thursday, 4:45 pm",,1190 Lake Street,,El Dorado,AR,71730,(870) 310-5398,ibew2284@yahoo.com,97.0,55130,41643,568.0,ELDORADO,AR,LM-3
+820,2285,Waukegan,IL,2285,"American Legion Post 771, 749 Milwaukee Avenue, Gurnee, IL, 2nd Thursday, 4:30 pm",,1201 East Broadway Avenue,,Winthrop Harbor,IL,60096,(847) 271-4635,marksahlberg@comcast.net,119.0,81079,139929,681.0,WADSWORTH,IL,LM-3
+821,2286,Beaumont,TX,2286,"2nd Tuesday, 6:30 pm",,4850 Stone Oak Drive,,Beaumont,TX,77705,(409) 840-4806,ibew2286@hotmail.com,1497.0,2151160,2130820,1437.0,BEAUMONT,TX,LM-2
+822,2287,Oxford,OH,2287,"2nd Wednesday, 4:45 pm",,5160 College Corner Pike,,Oxford,OH,45056,(513) 523-3666,ibew2287@aol.com,191.0,238053,151555,1246.0,OXFORD,OH,LM-3
+823,2295,Los Angeles,CA,2295,"1st Wednesday, 7 pm",www.ibew2295.org,3556 Lexington Avenue,,El Monte,CA,91731,(626) 454-4393,ibewlocal2295@yahoo.com,498.0,451084,101687,906.0,EL MONTE,CA,LM-2
+824,2298,Jackson,AL,2298,"Prestwick Road, 1st Thursday, 3:15 pm",,PO Box 128,,Leroy,AL,36548,(251) 744-4518,mel.moseleyibew2298@yahoo.com,42.0,23833,40745,567.0,LEROY,AL,LM-3
+825,2304,Madison,WI,2304,"Madison Labor Temple, 1602 S Park Street, Room 109, 4th Thursday, 5 pm",www.ibew2304.com,1602 S Park Street,,Madison,WI,53715,(608) 256-8896,president@ibew2304.com,243.0,568826,402086,2341.0,MADISON,WI,LM-2
+827,2320,Manchester,NH,2320,,www.ibew2320.org,46 Third Street,,Manchester,NH,03102,(603) 669-8657,jgolden2320@gmail.com,521.0,837032,807657,1607.0,MANCHESTER,NH,LM-2
+828,2321,Middleton,MA,2321,"American Legion, 69 River Street, 2nd Wednesday, 6 pm",www.ibew2321.org,1049 Turnpike Street,,North Andover,MA,01845,(978) 683-2321,infoibew2321@gmail.com,472.0,874329,1536046,1852.0,NORTH ANDOVER,MA,LM-2
+829,2322,Middleboro,MA,2322,"4th Wednesday, 2 pm",www.ibew2322.org,106 W Grove Street,,Middleboro,MA,02346,(508) 947-2131,csilvia2322@yahoo.com,573.0,754182,1344311,1316.0,MIDDLEBORO,MA,LM-2
+830,2323,Cranston,RI,2323,"4th Thursday, 6 pm",www.ibew2323.com,22 Amflex Drive,,Cranston,RI,02921,(401) 946-2323,ibew2323@verizon.net,488.0,901791,735927,1848.0,CRANSTON,RI,LM-2
+831,2324,Springfield,MA,2324,"1st Tuesday, 4 pm",www.ibewlocal2324.org,733 Chapin Street,,Ludlow,MA,01056,(413) 547-2324,ibew2324@verizon.net,236.0,473629,557965,2007.0,Ludlow,MA,LM-2
+832,2325,Worcester,MA,2325,"Last Tuesday, 1:15 pm",www.ibew2325.com,367 Burncoat Street,,Worcester,MA,01606,(508) 853-2325,jmcmillen@ibew2325.com,533.0,862239,1173118,1618.0,WORCESTER,MA,LM-2
+833,2326,Montpelier,VT,2326,"2nd Wednesday, 7 pm",,47 Gauthier Drive,,Essex Junction,VT,05452,(802) 871-7212,ibew2326@aol.com,175.0,297164,304802,1698.0,ESSEX JUNCTION,VT,LM-2
+834,2327,Augusta,ME,2327,"3rd Monday, 6 pm",www.ibew2327.org,55 Middle Street,,Augusta,ME,04330,(207) 623-2901,mail@ibew2327.org,322.0,726767,319391,2257.0,AUGUSTA,ME,LM-2
+835,2330,St. John's,NL,2330,Various Times & Places,www.ibew.nf.ca,PO Box 159,,Holyrood,NL,A0A 2R0,(709) 895-3764,jmartin@ibew.nf.ca,,,,,,,
+836,2337,Fairfield,TX,2337,"Tatum Hall, 450 W Sterling Price Road, Tatum, 3rd Thursday",www.ibew2337.org,450 W Sterling Price Road,,Tatum,TX,75691,(903) 947-6451,admin@ibew2337.com,436.0,458827,463483,1052.0,TATUM,TX,LM-2
+837,2351,Churchill Falls,NL,2351,"Union Hall, 1st Tuesday, 8 pm",www.ibew2351.com,PO Box 235,,Churchill Falls,NL,A0R 1A0,(709) 699-9634,businessmanager@ibew2351.com,,,,,,,
+838,2355,Michigan City,IN,2355,"Fraternal Order of Police Lodge 75, 416 US-20 W, Last Tuesday, 3:30 pm",,5433 N Pawnee Trail,,La Porte,IN,46350,(219) 229-5195,ibew2355@outlook.com,54.0,57706,9223,1069.0,LAPORTE,IN,LM-3
+839,2356,Richmond,KY,2356,"1st Saturday, 8 am",www.ibewlocal2356.org,5977 Brindle Ridge Road,,Brodhead,KY,40409,(606) 386-9589,joegarusmc@hotmail.com,244.0,209276,165332,858.0,RICHMOND,KY,LM-3
+840,2357,Clarksburg,WV,2357,"IBEW Local 596 Union Hall, 2nd Friday, 12 pm",,726 Mount Vernon Avenue,,Fairmont,WV,26554,(304) 374-4358,kings.trees@yahoo.com,265.0,205893,240602,777.0,FAIRMONT,WV,LM-3
+841,2358,Jacksonville,FL,2358,"916 Liberty Street, 3rd Thursday, 6:30 pm",,4040 Woodcock Drive,,Jacksonville,FL,32207,(904) 396-0395,ibewlu2358@yahoo.com,,,,,,,
+842,2359,Circleville,OH,2359,"Pizza Cottage, 2223 W Fair Avenue, Lancaster, 2nd Tuesday, 4:30 pm",,326 Rocky Road,,Chillicothe,OH,45601,(740) 253-1257,ibewlocal2359@gmail.com,139.0,207821,215143,1495.0,CHILLICOTHE,OH,LM-3
+843,2362,Selma,AL,2362,"UWS Union Hall, Arrowhead Road, 2nd Monday, 3:45 pm",,PO Box 388,,Selma,AL,36702,(850) 596-6159,ibewlocal2362@gmail.com,121.0,53730,65137,444.0,SELMA,AL,LM-3
+844,2366,Lincoln,NE,2366,"3rd Thursday, 8 am, 11:45 am & 3:30 pm (7:30 pm by Request)",,4625 Y Street,,Lincoln,NE,68503,(402) 467-2366,diannainlincoln@yahoo.com,263.0,245626,283152,934.0,LINCOLN,NE,LM-3
+845,2374,Jamestown,NY,2374,"1st Monday, 5 pm",,3928 Fluvanna Townline Road,,Jamestown,NY,14701,(716) 640-4630,,27.0,18499,36021,685.0,JAMESTOWN,NY,LM-3

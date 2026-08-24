@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Genesee County, MI",
+    "District": "6",
+    "Population": "436141",
+    "LandArea": "639.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lapeer County, MI",
+    "District": "6",
+    "Population": "87904",
+    "LandArea": "654.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Shiawassee County, MI",
+    "District": "6",
+    "Population": "71687",
+    "LandArea": "538.73",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Tuscola County, MI",
+    "District": "6",
+    "Population": "58266",
+    "LandArea": "812.43",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2113  (it, mo) Tullahoma[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "782",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2113|Tullahoma|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "782",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "it, mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1858[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "678",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1858",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Manchester, TN 37349[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "678",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Manchester|TN|37349",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2113@hotmail.com\" target=\"_blank\">ibew2113@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "726",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2113@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]William H. Keith Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2386",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|H.|Keith|Jr.|{ \"MemberID\" : \"2386\",\"luid\": \"782\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"305 Duncan Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winchester\",\"state\":\"TN\",\"zip\":\"37398\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]William H. Keith Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4101",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|H.|Keith|Jr.|{ \"MemberID\" : \"4101\",\"luid\": \"782\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"305 Duncan Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winchester\",\"state\":\"TN\",\"zip\":\"37398\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Lee M. Prater[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4401",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lee|M.|Prater||{ \"MemberID\" : \"4401\",\"luid\": \"782\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Jeremy D. Rhea[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2387",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|D.|Rhea||{ \"MemberID\" : \"2387\",\"luid\": \"782\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1355 Shipley Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manchester\",\"state\":\"TN\",\"zip\":\"37355\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Coffee County Administrative Plaza, 1327 McArthur Street, Manchester, 3rd Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "782",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Coffee County Administrative Plaza, 1327 McArthur Street, Manchester, 3rd Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

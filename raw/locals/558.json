@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1220  (rtb) Chicago[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "558",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1220|Chicago|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "558",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1315 Butterfield Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "516",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1315 Butterfield Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 224[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "516",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 224",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Downers Grove, IL 60515[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "516",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Downers Grove|IL|60515",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](773) 714-1220[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "971",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(773) 714-1220",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew1220.org\" target=\"_blank\">info@ibew1220.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "525",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew1220.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1220.com\" target=\"_blank\">www.ibew1220.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "558",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1220.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robert W. Kaiser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1718",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Kaiser||{ \"MemberID\" : \"1718\",\"luid\": \"558\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8604 W Catalpa Avenue\",\"addr2\":\"Suite 901\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Terry M. Bates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1717",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terry|M.|Bates||{ \"MemberID\" : \"1717\",\"luid\": \"558\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8604 W Catalpa Avenue\",\"addr2\":\"Suite 901\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Robert W. Kaiser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3861",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Kaiser||{ \"MemberID\" : \"3861\",\"luid\": \"558\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Steven Eisen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1716",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven||Eisen||{ \"MemberID\" : \"1716\",\"luid\": \"558\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"8604 W Catalpa Avenue\",\"addr2\":\"Suite 901\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "558",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

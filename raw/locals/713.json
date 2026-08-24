@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1914  (em) Harwick[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "713",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1914|Harwick|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "713",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]200 School Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4887",
+    "editFieldNames": "Address1",
+    "editFieldValues": "200 School Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Harwick, PA 15049[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4887",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Harwick|PA|15049",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 488[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "641",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 488",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Harwick, PA 15049[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "641",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Harwick|PA|15049",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](724) 594-5559[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1209",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 594-5559",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1914@comcast.net\" target=\"_blank\">local1914@comcast.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "667",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1914@comcast.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1914.org\" target=\"_blank\">www.ibew1914.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "713",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1914.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Zachary J. Grabowski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2177",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|J.|Grabowski||{ \"MemberID\" : \"2177\",\"luid\": \"713\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 488\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Harwick\",\"state\":\"PA\",\"zip\":\"15049\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Zachary J. Grabowski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4026",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|J.|Grabowski||{ \"MemberID\" : \"4026\",\"luid\": \"713\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Zachary  J. Grabowski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4027",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary |J.|Grabowski||{ \"MemberID\" : \"4027\",\"luid\": \"713\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Thomas J. Brenic[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2178",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Brenic||{ \"MemberID\" : \"2178\",\"luid\": \"713\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 488\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Harwick\",\"state\":\"PA\",\"zip\":\"15049\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 7:45 am, 2 pm & 3:40 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "713",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 7:45 am, 2 pm & 3:40 pm",
+    "datatype": "txt"
+  }
+]

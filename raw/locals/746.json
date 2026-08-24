@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2017  (rr) Montreal, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "746",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2017|Montreal|QC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "746",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]302-7981 George Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7236",
+    "editFieldNames": "Address1",
+    "editFieldValues": "302-7981 George Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Montreal, QC H8P 1E3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7236",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montreal|QC|H8P 1E3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](514) 867-4381[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1252",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 867-4381",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Kevin Carpentier, 183 Rue Lionel Groulx, Chateauguay, QC  J6J 5T6[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4064",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin||Carpentier||{ \"MemberID\" : \"4064\",\"luid\": \"746\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"183 Rue Lionel Groulx\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chateauguay\",\"state\":\"QC\",\"zip\":\"J6J 5T6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Tarek Jazouli, 6850 19E Avenue, Laval, QC  H7R 3E6[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2280",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tarek||Jazouli||{ \"MemberID\" : \"2280\",\"luid\": \"746\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6850 19E Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Laval\",\"state\":\"QC\",\"zip\":\"H7R 3E6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Vito Continisio, 302-7981 George Street, Montreal, QC  H8P 1E3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2281",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vito||Continisio||{ \"MemberID\" : \"2281\",\"luid\": \"746\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"302-7981 George Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montreal\",\"state\":\"QC\",\"zip\":\"H8P 1E3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Vito Continisio, 302-7981 George Street, Montreal, QC  H8P 1E3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2279",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vito||Continisio||{ \"MemberID\" : \"2279\",\"luid\": \"746\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"302-7981 George Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montreal\",\"state\":\"QC\",\"zip\":\"H8P 1E3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

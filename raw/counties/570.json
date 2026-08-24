@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Cochise County, AZ",
+    "District": "7",
+    "Population": "117755",
+    "LandArea": "6169.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Graham County, AZ",
+    "District": "7",
+    "Population": "33489",
+    "LandArea": "4629.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Greenlee County, AZ",
+    "District": "7",
+    "Population": "8547",
+    "LandArea": "1847.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "La Paz County, AZ",
+    "District": "7",
+    "Population": "19715",
+    "LandArea": "4499.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Pima County, AZ",
+    "District": "7",
+    "Population": "843746",
+    "LandArea": "9186.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Pinal County, AZ",
+    "District": "7",
+    "Population": "179727",
+    "LandArea": "5369.59",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Santa Cruz County, AZ",
+    "District": "7",
+    "Population": "38381",
+    "LandArea": "1237.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Yuma County, AZ",
+    "District": "7",
+    "Population": "160026",
+    "LandArea": "5514.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  }
+]

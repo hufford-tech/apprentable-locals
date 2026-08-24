@@ -1,0 +1,182 @@
+[
+  {
+    "CountyName": "Bibb County, AL",
+    "District": "5",
+    "Population": "20826",
+    "LandArea": "623.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Blount County, AL",
+    "District": "5",
+    "Population": "51024",
+    "LandArea": "645.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Calhoun County, AL",
+    "District": "5",
+    "Population": "112249",
+    "LandArea": "608.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cherokee County, AL",
+    "District": "5",
+    "Population": "23988",
+    "LandArea": "553.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Clay County, AL",
+    "District": "5",
+    "Population": "14254",
+    "LandArea": "605.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cleburne County, AL",
+    "District": "5",
+    "Population": "14123",
+    "LandArea": "560.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cullman County, AL",
+    "District": "5",
+    "Population": "77483",
+    "LandArea": "738.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Etowah County, AL",
+    "District": "5",
+    "Population": "103459",
+    "LandArea": "534.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Fayette County, AL",
+    "District": "5",
+    "Population": "18495",
+    "LandArea": "627.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Greene County, AL",
+    "District": "5",
+    "Population": "9974",
+    "LandArea": "645.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Hale County, AL",
+    "District": "5",
+    "Population": "17185",
+    "LandArea": "643.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Jefferson County, AL",
+    "District": "5",
+    "Population": "662047",
+    "LandArea": "1112.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marengo County, AL",
+    "District": "5",
+    "Population": "22539",
+    "LandArea": "977.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marshall County, AL",
+    "District": "5",
+    "Population": "82231",
+    "LandArea": "567.06",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Randolph County, Al",
+    "District": "5",
+    "Population": "22380",
+    "LandArea": "581.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Shelby County, AL",
+    "District": "5",
+    "Population": "143293",
+    "LandArea": "794.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "St. Clair County, AL",
+    "District": "5",
+    "Population": "64742",
+    "LandArea": "633.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Talladega County, AL",
+    "District": "5",
+    "Population": "80321",
+    "LandArea": "739.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Tuscaloosa County, AL",
+    "District": "5",
+    "Population": "164875",
+    "LandArea": "1324.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Walker County, AL",
+    "District": "5",
+    "Population": "70713",
+    "LandArea": "794.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  }
+]

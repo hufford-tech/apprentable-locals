@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1570  (u) Beulah[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1570|Beulah|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "633",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1181[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6278",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1181",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Beulah, ND 58523[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6278",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Beulah|ND|58523",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](701) 891-2067[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2193",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(701) 891-2067",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1570@westriv.com\" target=\"_blank\">ibew1570@westriv.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "595",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1570@westriv.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jason D. Hill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1946",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|D.|Hill||{ \"MemberID\" : \"1946\",\"luid\": \"633\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"410 Second Avenue E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Zap\",\"state\":\"ND\",\"zip\":\"58580\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jason D. Hill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3934",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|D.|Hill||{ \"MemberID\" : \"3934\",\"luid\": \"633\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"410 Second Avenue E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Zap\",\"state\":\"ND\",\"zip\":\"58580\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Matthew L. Schepp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1945",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|L.|Schepp||{ \"MemberID\" : \"1945\",\"luid\": \"633\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1829 Murray Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Beulah\",\"state\":\"ND\",\"zip\":\"58523\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kaleb Thorp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1947",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kaleb||Thorp||{ \"MemberID\" : \"1947\",\"luid\": \"633\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1197 59th Avenue SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Beulah\",\"state\":\"ND\",\"zip\":\"58523\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Alibis Lounge, 1st Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Alibis Lounge, 1st Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

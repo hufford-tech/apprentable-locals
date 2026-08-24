@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]910-  (ees, i, ptc, t) Watertown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "910-|Watertown|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "469",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, i, ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]25001 Water Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "Address1",
+    "editFieldValues": "25001 Water Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Watertown, NY 13601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Watertown|NY|13601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](315) 782-5630[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "838",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 782-5630",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](315) 788-5701[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "839",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 788-5701",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:tf@ibew910.org\" target=\"_blank\">tf@ibew910.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "Email",
+    "editFieldValues": "tf@ibew910.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew910.org\" target=\"_blank\">www.ibew910.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew910.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Travis J. Flint[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1438",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|J.|Flint||{ \"MemberID\" : \"1438\",\"luid\": \"469\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"25001 Water Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Watertown\",\"state\":\"NY\",\"zip\":\"13601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Wayne A. Cuthbert[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1437",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|A.|Cuthbert||{ \"MemberID\" : \"1437\",\"luid\": \"469\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"25001 Water Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Watertown\",\"state\":\"NY\",\"zip\":\"13601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Travis J. Flint[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3778",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|J.|Flint||{ \"MemberID\" : \"3778\",\"luid\": \"469\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Terrence M. Sarsfield[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1439",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrence|M.|Sarsfield||{ \"MemberID\" : \"1439\",\"luid\": \"469\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"25001 Water Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Watertown\",\"state\":\"NY\",\"zip\":\"13601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

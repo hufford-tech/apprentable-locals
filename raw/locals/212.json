@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]353-  (as, c, i, o) Toronto, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "353-|Toronto|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "212",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, c, i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1377 Lawrence Avenue E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1377 Lawrence Avenue E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Toronto, ON M3A 3P8[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Toronto|ON|M3A 3P8",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](416) 510-3530[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "401",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(416) 510-3530",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](416) 510-3531[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "402",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(416) 510-3531",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:inquiries@ibew353.org\" target=\"_blank\">inquiries@ibew353.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "Email",
+    "editFieldValues": "inquiries@ibew353.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew353.org\" target=\"_blank\">www.ibew353.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew353.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]William E. Acorn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4488",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|E.|Acorn||{ \"MemberID\" : \"4488\",\"luid\": \"212\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jodi S. Hill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "654",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jodi|S.|Hill||{ \"MemberID\" : \"654\",\"luid\": \"212\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1377 Lawrence Avenue E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toronto\",\"state\":\"ON\",\"zip\":\"M3A 3P8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]William E. Acorn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4489",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|E.|Acorn||{ \"MemberID\" : \"4489\",\"luid\": \"212\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James Belanger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4490",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James||Belanger||{ \"MemberID\" : \"4490\",\"luid\": \"212\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]South Unit: 1377 Lawrence Avenue E, 2nd Thursday, 7 pm; North Unit: 2 Saunders Road, Barrie, Tuesday Before 2nd Thursday, 7 pm; East Unit: 1001 Ritson Road S, Oshawa, Wednesday Before 2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "Meets",
+    "editFieldValues": "South Unit: 1377 Lawrence Avenue E, 2nd Thursday, 7 pm; North Unit: 2 Saunders Road, Barrie, Tuesday Before 2nd Thursday, 7 pm; East Unit: 1001 Ritson Road S, Oshawa, Wednesday Before 2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

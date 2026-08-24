@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]463-  (t) Glasgow[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "271",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "463-|Glasgow|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "271",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]434 College Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4371",
+    "editFieldNames": "Address1",
+    "editFieldValues": "434 College Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Somerset, KY 42501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4371",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Somerset|KY|42501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](606) 383-1021[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1858",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(606) 383-1021",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:shaun.campbell.ibew463@gmail.com\" target=\"_blank\">shaun.campbell.ibew463@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "Email",
+    "editFieldValues": "shaun.campbell.ibew463@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Shaun R. Campbell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "832",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shaun|R.|Campbell||{ \"MemberID\" : \"832\",\"luid\": \"271\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1625 Miller Pike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lebanon\",\"state\":\"KY\",\"zip\":\"40033\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Shaun R. Campbell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3585",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shaun|R.|Campbell||{ \"MemberID\" : \"3585\",\"luid\": \"271\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Joshua E. Goforth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "833",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|E.|Goforth||{ \"MemberID\" : \"833\",\"luid\": \"271\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5052 S L&N Turnpike\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Magnolia\",\"state\":\"KY\",\"zip\":\"42757\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Ryan T. Kirby[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "834",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|T.|Kirby||{ \"MemberID\" : \"834\",\"luid\": \"271\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"54 Warren Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mt. Vernon\",\"state\":\"KY\",\"zip\":\"40456\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Adair County Courthouse Annex, Columbia[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "271",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Adair County Courthouse Annex, Columbia",
+    "datatype": "txt"
+  }
+]

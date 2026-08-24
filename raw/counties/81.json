@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Bradford County, PA",
+    "District": "3",
+    "Population": "62761",
+    "LandArea": "1150.66",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lackawanna County, PA",
+    "District": "3",
+    "Population": "213295",
+    "LandArea": "458.63",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Luzerne County, PA",
+    "District": "3",
+    "Population": "319250",
+    "LandArea": "890.81",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Monroe County, PA",
+    "District": "3",
+    "Population": "138687",
+    "LandArea": "608.50",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Pike County, PA",
+    "District": "3",
+    "Population": "46302",
+    "LandArea": "546.81",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Susquehanna County, PA",
+    "District": "3",
+    "Population": "42238",
+    "LandArea": "822.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Wayne County, PA",
+    "District": "3",
+    "Population": "47722",
+    "LandArea": "729.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Wyoming County, PA",
+    "District": "3",
+    "Population": "28080",
+    "LandArea": "397.20",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

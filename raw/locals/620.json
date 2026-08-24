@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1524  (u) St. John, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "620",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1524|St. John|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "620",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]325 Simms Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7301",
+    "editFieldNames": "Address1",
+    "editFieldValues": "325 Simms Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saint John, NB E2M 3L6[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7301",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saint John|NB|E2M 3L6",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]1 Longwood Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5696",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1 Longwood Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Quispamsis, NB E2E 2S8[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5696",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Quispamsis|NB|E2E 2S8",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](506) 663-8344[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2104",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 663-8344",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew-1524@outlook.com\" target=\"_blank\">ibew-1524@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2129",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew-1524@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Colin Waugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4404",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colin||Waugh||{ \"MemberID\" : \"4404\",\"luid\": \"620\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Colin Waugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4405",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colin||Waugh||{ \"MemberID\" : \"4405\",\"luid\": \"620\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Andrew Bishop[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4406",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew||Bishop||{ \"MemberID\" : \"4406\",\"luid\": \"620\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Devon P. Graves[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1904",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Devon|P.|Graves||{ \"MemberID\" : \"1904\",\"luid\": \"620\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1 Longwood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Quispamsis\",\"state\":\"NB\",\"zip\":\"E2E 2S8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "620",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

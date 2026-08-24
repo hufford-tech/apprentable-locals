@@ -1,0 +1,10 @@
+.env
+
+# RAPIDS extract from DOL. apprentices.csv alone is 2.9 GB, and the whole set is
+# source data we never modify, so it stays out of git. Keep a local backup outside
+# the repo. raw/rapids/MANIFEST.md is tracked so the contents are documented.
+raw/rapids/*
+!raw/rapids/MANIFEST.md
+
+__pycache__/
+*.pyc

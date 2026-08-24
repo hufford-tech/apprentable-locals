@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2221  (em) Iron Mountain[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "803",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2221|Iron Mountain|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "803",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]617 N Stephenson Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "691",
+    "editFieldNames": "Address1",
+    "editFieldValues": "617 N Stephenson Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Iron Mountain, MI 49801[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "691",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Iron Mountain|MI|49801",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](906) 774-3170[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1327",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(906) 774-3170",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](906) 774-3170[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1328",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(906) 774-3170",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local2221ibew@outlook.com\" target=\"_blank\">local2221ibew@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "741",
+    "editFieldNames": "Email",
+    "editFieldValues": "local2221ibew@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Christopher M. Wathen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2444",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Wathen||{ \"MemberID\" : \"2444\",\"luid\": \"803\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"617 N Stephenson Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iron Mountain\",\"state\":\"MI\",\"zip\":\"49801\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Christopher M. Wathen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4127",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Wathen||{ \"MemberID\" : \"4127\",\"luid\": \"803\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Dayton R. Casey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2445",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dayton|R.|Casey||{ \"MemberID\" : \"2445\",\"luid\": \"803\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"617 N Stephenson Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iron Mountain\",\"state\":\"MI\",\"zip\":\"49801\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Cecilia K. Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2446",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cecilia|K.|Brown||{ \"MemberID\" : \"2446\",\"luid\": \"803\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"617 N Stephenson Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iron Mountain\",\"state\":\"MI\",\"zip\":\"49801\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 6 am & 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "803",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 6 am & 5 pm",
+    "datatype": "txt"
+  }
+]

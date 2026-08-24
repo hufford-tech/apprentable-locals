@@ -1,0 +1,569 @@
+[
+  {
+    "CountyName": "Apache County, AZ",
+    "District": "7",
+    "Population": "69423",
+    "LandArea": "11204.87",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Bernalillo County, NM",
+    "District": "7",
+    "Population": "556678",
+    "LandArea": "1166.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Bernalillo County, NM",
+    "District": "7",
+    "Population": "556678",
+    "LandArea": "1166.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Catron County, NM",
+    "District": "7",
+    "Population": "3543",
+    "LandArea": "6927.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Catron County, NM",
+    "District": "7",
+    "Population": "3543",
+    "LandArea": "6927.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Chaves County, NM",
+    "District": "7",
+    "Population": "61382",
+    "LandArea": "6070.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Chaves County, NM",
+    "District": "7",
+    "Population": "61382",
+    "LandArea": "6070.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Cibola County, NM",
+    "District": "7",
+    "Population": "25595",
+    "LandArea": "4539.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Cibola County, NM",
+    "District": "7",
+    "Population": "25595",
+    "LandArea": "4539.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Colfax County, NM",
+    "District": "7",
+    "Population": "14189",
+    "LandArea": "3756.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Colfax County, NM",
+    "District": "7",
+    "Population": "14189",
+    "LandArea": "3756.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Curry County, NM",
+    "District": "7",
+    "Population": "45044",
+    "LandArea": "1405.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Curry County, NM",
+    "District": "7",
+    "Population": "45044",
+    "LandArea": "1405.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "De Baca County, NM",
+    "District": "7",
+    "Population": "2240",
+    "LandArea": "2324.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "De Baca County, NM",
+    "District": "7",
+    "Population": "2240",
+    "LandArea": "2324.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Dona Ana County, NM",
+    "District": "7",
+    "Population": "174682",
+    "LandArea": "3807.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Eddy County, NM",
+    "District": "7",
+    "Population": "51658",
+    "LandArea": "4182.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Eddy County, NM",
+    "District": "7",
+    "Population": "51658",
+    "LandArea": "4182.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Grant County, NM",
+    "District": "7",
+    "Population": "31002",
+    "LandArea": "3965.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Grant County, NM",
+    "District": "7",
+    "Population": "31002",
+    "LandArea": "3965.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Guadalupe County, NM",
+    "District": "7",
+    "Population": "4680",
+    "LandArea": "3030.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Guadalupe County, NM",
+    "District": "7",
+    "Population": "4680",
+    "LandArea": "3030.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Harding County, NM",
+    "District": "7",
+    "Population": "810",
+    "LandArea": "2125.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Harding County, NM",
+    "District": "7",
+    "Population": "810",
+    "LandArea": "2125.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Hidalgo County, NM",
+    "District": "7",
+    "Population": "5932",
+    "LandArea": "3445.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Lea County, NM",
+    "District": "7",
+    "Population": "55511",
+    "LandArea": "4392.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Lea County, NM",
+    "District": "7",
+    "Population": "55511",
+    "LandArea": "4392.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Lincoln County, NM",
+    "District": "7",
+    "Population": "19411",
+    "LandArea": "4830.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Lincoln County, NM",
+    "District": "7",
+    "Population": "19411",
+    "LandArea": "4830.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Los Alamos County, NM",
+    "District": "7",
+    "Population": "18343",
+    "LandArea": "109.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Los Alamos County, NM",
+    "District": "7",
+    "Population": "18343",
+    "LandArea": "109.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Luna County, NM",
+    "District": "7",
+    "Population": "25016",
+    "LandArea": "2965.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Mckinley County, NM",
+    "District": "7",
+    "Population": "74798",
+    "LandArea": "5448.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Mckinley County, NM",
+    "District": "7",
+    "Population": "74798",
+    "LandArea": "5448.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Mora County, NM",
+    "District": "7",
+    "Population": "5180",
+    "LandArea": "1931.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Mora County, NM",
+    "District": "7",
+    "Population": "5180",
+    "LandArea": "1931.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Otero County, NM",
+    "District": "7",
+    "Population": "62298",
+    "LandArea": "6626.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Quay County, NM",
+    "District": "7",
+    "Population": "10155",
+    "LandArea": "2874.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Quay County, NM",
+    "District": "7",
+    "Population": "10155",
+    "LandArea": "2874.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Rio Arriba County, NM",
+    "District": "7",
+    "Population": "41190",
+    "LandArea": "5857.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Rio Arriba County, NM",
+    "District": "7",
+    "Population": "41190",
+    "LandArea": "5857.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Roosevelt County, NM",
+    "District": "7",
+    "Population": "18018",
+    "LandArea": "2448.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Roosevelt County, NM",
+    "District": "7",
+    "Population": "18018",
+    "LandArea": "2448.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "San Juan County, NM",
+    "District": "7",
+    "Population": "113801",
+    "LandArea": "5514.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "San Juan County, NM",
+    "District": "7",
+    "Population": "113801",
+    "LandArea": "5514.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "San Miguel County, NM",
+    "District": "7",
+    "Population": "30126",
+    "LandArea": "4717.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "San Miguel County, NM",
+    "District": "7",
+    "Population": "30126",
+    "LandArea": "4717.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Sandoval County, NM",
+    "District": "7",
+    "Population": "89908",
+    "LandArea": "3709.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Sandoval County, NM",
+    "District": "7",
+    "Population": "89908",
+    "LandArea": "3709.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Santa Fe County, NM",
+    "District": "7",
+    "Population": "129292",
+    "LandArea": "1909.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Santa Fe County, NM",
+    "District": "7",
+    "Population": "129292",
+    "LandArea": "1909.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Sierra County, NM",
+    "District": "7",
+    "Population": "13270",
+    "LandArea": "4180.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Sierra County, NM",
+    "District": "7",
+    "Population": "13270",
+    "LandArea": "4180.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Socorro County, NM",
+    "District": "7",
+    "Population": "18078",
+    "LandArea": "6646.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Socorro County, NM",
+    "District": "7",
+    "Population": "18078",
+    "LandArea": "6646.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Taos County, NM",
+    "District": "7",
+    "Population": "29979",
+    "LandArea": "2203.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Taos County, NM",
+    "District": "7",
+    "Population": "29979",
+    "LandArea": "2203.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Torrance County, NM",
+    "District": "7",
+    "Population": "16911",
+    "LandArea": "3344.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Torrance County, NM",
+    "District": "7",
+    "Population": "16911",
+    "LandArea": "3344.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Union County, NM",
+    "District": "7",
+    "Population": "4174",
+    "LandArea": "3830.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Union County, NM",
+    "District": "7",
+    "Population": "4174",
+    "LandArea": "3830.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Valencia County, NM",
+    "District": "7",
+    "Population": "66152",
+    "LandArea": "1067.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Valencia County, NM",
+    "District": "7",
+    "Population": "66152",
+    "LandArea": "1067.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NM"
+  }
+]

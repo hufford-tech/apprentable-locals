@@ -1,0 +1,162 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]103-  (cs, i, ptc) Boston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "103-|Boston|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "80",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "cs, i, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]256 Freeport Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "82",
+    "editFieldNames": "Address1",
+    "editFieldValues": "256 Freeport Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Dorchester, MA 02122[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "82",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Dorchester|MA|02122",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](617) 436-3710[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "156",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(617) 436-3710",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](617) 436-3299[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "157",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(617) 436-3299",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lantonellis@ibew103.com\" target=\"_blank\">lantonellis@ibew103.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "79",
+    "editFieldNames": "Email",
+    "editFieldValues": "lantonellis@ibew103.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.the103advantage.com\" target=\"_blank\">www.the103advantage.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.the103advantage.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Wilmington Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6240",
+    "editFieldNames": "Name",
+    "editFieldValues": "Wilmington Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]21A Concord Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6240",
+    "editFieldNames": "Address1",
+    "editFieldValues": "21A Concord Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Wilmington, MA 01887[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6240",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wilmington|MA|01887",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]B.M. [/b]Louis J. Antonellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "246",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Louis|J.|Antonellis||{ \"MemberID\" : \"246\",\"luid\": \"80\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"256 Freeport Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Pres. [/b]Robert S. Sheehan Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|S.|Sheehan|Jr.|{ \"MemberID\" : \"248\",\"luid\": \"80\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"256 Freeport Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]F.S. [/b]Louis J. Antonellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "247",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Louis|J.|Antonellis||{ \"MemberID\" : \"247\",\"luid\": \"80\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"256 Freeport Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]R.S. [/b]James M. Fleming[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "249",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|M.|Fleming||{ \"MemberID\" : \"249\",\"luid\": \"80\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"256 Freeport Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "80",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

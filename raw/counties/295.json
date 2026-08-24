@@ -1,0 +1,470 @@
+[
+  {
+    "CountyName": "Arkansas County, AR",
+    "District": "10",
+    "Population": "20749",
+    "LandArea": "988.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Arkansas County, AR",
+    "District": "10",
+    "Population": "20749",
+    "LandArea": "988.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Clark County, AR",
+    "District": "10",
+    "Population": "23546",
+    "LandArea": "865.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Clark County, AR",
+    "District": "10",
+    "Population": "23546",
+    "LandArea": "865.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cleburne County, AR",
+    "District": "10",
+    "Population": "24046",
+    "LandArea": "553.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cleburne County, AR",
+    "District": "10",
+    "Population": "24046",
+    "LandArea": "553.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cleveland County, AR",
+    "District": "10",
+    "Population": "8571",
+    "LandArea": "597.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cleveland County, AR",
+    "District": "10",
+    "Population": "8571",
+    "LandArea": "597.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Conway County, AR",
+    "District": "10",
+    "Population": "20336",
+    "LandArea": "556.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Conway County, AR",
+    "District": "10",
+    "Population": "20336",
+    "LandArea": "556.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Dallas County, AR",
+    "District": "10",
+    "Population": "9210",
+    "LandArea": "667.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Dallas County, AR",
+    "District": "10",
+    "Population": "9210",
+    "LandArea": "667.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Faulkner County, AR",
+    "District": "10",
+    "Population": "86014",
+    "LandArea": "647.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Faulkner County, AR",
+    "District": "10",
+    "Population": "86014",
+    "LandArea": "647.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Fulton County, AR",
+    "District": "10",
+    "Population": "11642",
+    "LandArea": "618.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Fulton County, AR",
+    "District": "10",
+    "Population": "11642",
+    "LandArea": "618.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Garland County, AR",
+    "District": "10",
+    "Population": "88068",
+    "LandArea": "677.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Garland County, AR",
+    "District": "10",
+    "Population": "88068",
+    "LandArea": "677.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Grant County, AR",
+    "District": "10",
+    "Population": "16464",
+    "LandArea": "631.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Grant County, AR",
+    "District": "10",
+    "Population": "16464",
+    "LandArea": "631.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Hot Spring County, AR",
+    "District": "10",
+    "Population": "30353",
+    "LandArea": "614.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Hot Spring County, AR",
+    "District": "10",
+    "Population": "30353",
+    "LandArea": "614.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Izard County, AR",
+    "District": "10",
+    "Population": "13249",
+    "LandArea": "580.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Izard County, AR",
+    "District": "10",
+    "Population": "13249",
+    "LandArea": "580.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Jefferson County, AR",
+    "District": "10",
+    "Population": "84278",
+    "LandArea": "884.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Jefferson County, AR",
+    "District": "10",
+    "Population": "84278",
+    "LandArea": "884.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lincoln County, AR",
+    "District": "10",
+    "Population": "14492",
+    "LandArea": "561.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lincoln County, AR",
+    "District": "10",
+    "Population": "14492",
+    "LandArea": "561.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lonoke County, AR",
+    "District": "10",
+    "Population": "52828",
+    "LandArea": "765.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lonoke County, AR",
+    "District": "10",
+    "Population": "52828",
+    "LandArea": "765.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Monroe County, AR",
+    "District": "10",
+    "Population": "10254",
+    "LandArea": "606.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Monroe County, AR",
+    "District": "10",
+    "Population": "10254",
+    "LandArea": "606.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Montgomery County, AR",
+    "District": "10",
+    "Population": "9245",
+    "LandArea": "780.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Montgomery County, AR",
+    "District": "10",
+    "Population": "9245",
+    "LandArea": "780.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Perry County, AR",
+    "District": "10",
+    "Population": "10209",
+    "LandArea": "550.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Perry County, AR",
+    "District": "10",
+    "Population": "10209",
+    "LandArea": "550.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Polk County, AR",
+    "District": "10",
+    "Population": "20229",
+    "LandArea": "859.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Polk County, AR",
+    "District": "10",
+    "Population": "20229",
+    "LandArea": "859.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Prairie County, AR",
+    "District": "10",
+    "Population": "9539",
+    "LandArea": "645.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Prairie County, AR",
+    "District": "10",
+    "Population": "9539",
+    "LandArea": "645.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Pulaski County, AR",
+    "District": "10",
+    "Population": "361474",
+    "LandArea": "770.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Pulaski County, AR",
+    "District": "10",
+    "Population": "361474",
+    "LandArea": "770.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Saline County, AR",
+    "District": "10",
+    "Population": "83529",
+    "LandArea": "723.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Saline County, AR",
+    "District": "10",
+    "Population": "83529",
+    "LandArea": "723.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Stone County, AR",
+    "District": "10",
+    "Population": "11499",
+    "LandArea": "606.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Stone County, AR",
+    "District": "10",
+    "Population": "11499",
+    "LandArea": "606.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Van Buren County, AR",
+    "District": "10",
+    "Population": "16192",
+    "LandArea": "711.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Van Buren County, AR",
+    "District": "10",
+    "Population": "16192",
+    "LandArea": "711.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "White County, AR",
+    "District": "10",
+    "Population": "67165",
+    "LandArea": "1034.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "White County, AR",
+    "District": "10",
+    "Population": "67165",
+    "LandArea": "1034.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Woodruff County, AR",
+    "District": "10",
+    "Population": "8741",
+    "LandArea": "586.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Woodruff County, AR",
+    "District": "10",
+    "Population": "8741",
+    "LandArea": "586.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]319-  (u) Saskatoon, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "195",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "319-|Saskatoon|SK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "195",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 23053[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 23053",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saskatoon, SK S7J 5H3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saskatoon|SK|S7J 5H3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](306) 222-3906[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "367",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(306) 222-3906",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:peter.wright@saskatoon.ca\" target=\"_blank\">peter.wright@saskatoon.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2086",
+    "editFieldNames": "Email",
+    "editFieldValues": "peter.wright@saskatoon.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Peter O. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "601",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter|O.|Wright||{ \"MemberID\" : \"601\",\"luid\": \"195\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 23053\",\"addr2\":\"Market Mall, Postal Outlet\",\"addr3\":\"\",\"city\":\"Saskatoon\",\"state\":\"SK\",\"zip\":\"S7J 5H3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Peter O. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3512",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter|O.|Wright||{ \"MemberID\" : \"3512\",\"luid\": \"195\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Erin L. Lengyel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "603",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Erin|L.|Lengyel||{ \"MemberID\" : \"603\",\"luid\": \"195\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 23053\",\"addr2\":\"Market Mall, Postal Outlet\",\"addr3\":\"\",\"city\":\"Saskatoon\",\"state\":\"SK\",\"zip\":\"S7J 5H3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Taylor Krentz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "602",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Taylor||Krentz||{ \"MemberID\" : \"602\",\"luid\": \"195\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 23053\",\"addr2\":\"Market Mall, Postal Outlet\",\"addr3\":\"\",\"city\":\"Saskatoon\",\"state\":\"SK\",\"zip\":\"S7J 5H3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]322 Brand Road, 2nd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "195",
+    "editFieldNames": "Meets",
+    "editFieldValues": "322 Brand Road, 2nd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

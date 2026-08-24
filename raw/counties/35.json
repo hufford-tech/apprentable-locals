@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Hartford County, CT",
+    "District": "2",
+    "Population": "857183",
+    "LandArea": "735.44",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Middlesex County, CT",
+    "District": "2",
+    "Population": "155071",
+    "LandArea": "369.26",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New London County, CT",
+    "District": "2",
+    "Population": "259088",
+    "LandArea": "665.91",
+    "Percentage": "75%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Tolland County, CT",
+    "District": "2",
+    "Population": "136364",
+    "LandArea": "410.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Windham County, CT",
+    "District": "2",
+    "Population": "109091",
+    "LandArea": "512.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  }
+]

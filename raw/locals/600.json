@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1436  (u) Perris[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "600",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1436|Perris|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "600",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1291[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "558",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1291",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Romoland, CA 92585[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "558",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Romoland|CA|92585",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](951) 953-2396[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1045",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(951) 953-2396",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](951) 628-6118[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2276",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(951) 628-6118",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:IBEWLocal1436Board@emwd.org\" target=\"_blank\">IBEWLocal1436Board@emwd.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2106",
+    "editFieldNames": "Email",
+    "editFieldValues": "IBEWLocal1436Board@emwd.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Brian A. Raines[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1843",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Raines||{ \"MemberID\" : \"1843\",\"luid\": \"600\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1291\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romoland\",\"state\":\"CA\",\"zip\":\"92585\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Brian A. Raines[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3902",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Raines||{ \"MemberID\" : \"3902\",\"luid\": \"600\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Kim A. Domenigoni[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1845",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kim|A.|Domenigoni||{ \"MemberID\" : \"1845\",\"luid\": \"600\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1291\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romoland\",\"state\":\"CA\",\"zip\":\"92585\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]April Carpenter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1844",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "April||Carpenter||{ \"MemberID\" : \"1844\",\"luid\": \"600\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1291\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Romoland\",\"state\":\"CA\",\"zip\":\"92585\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]EWMD Board Room, 3rd Tuesday or Thursday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "600",
+    "editFieldNames": "Meets",
+    "editFieldValues": "EWMD Board Room, 3rd Tuesday or Thursday, 12 pm",
+    "datatype": "txt"
+  }
+]

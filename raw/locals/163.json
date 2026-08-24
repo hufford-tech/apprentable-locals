@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]265-  (i, mt, rts, spa) Lincoln[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "265-|Lincoln|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "163",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1409 Old Farm Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "166",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1409 Old Farm Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lincoln, NE 68512[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "166",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lincoln|NE|68512",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](402) 423-4497[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "309",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 423-4497",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](402) 423-4506[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 423-4506",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew265.org\" target=\"_blank\">info@ibew265.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "160",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew265.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew265.org\" target=\"_blank\">www.ibew265.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew265.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Thomas A. Emerson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "505",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|A.|Emerson||{ \"MemberID\" : \"505\",\"luid\": \"163\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 22725\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln\",\"state\":\"NE\",\"zip\":\"68542\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Troy A. Bear, 2212 N 30th Street, Lincoln, NE  68503[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "506",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|A.|Bear||{ \"MemberID\" : \"506\",\"luid\": \"163\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2212 N 30th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln\",\"state\":\"NE\",\"zip\":\"68503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Thomas A. Emerson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3479",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|A.|Emerson||{ \"MemberID\" : \"3479\",\"luid\": \"163\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Heather A. McKenzie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4272",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Heather|A.|McKenzie||{ \"MemberID\" : \"4272\",\"luid\": \"163\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]667-  (u) Pueblo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "368",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "667-|Pueblo|CO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "368",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2901 Farabaugh Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5370",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2901 Farabaugh Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pueblo, CO 81005[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5370",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pueblo|CO|81005",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](719) 470-3480[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2054",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(719) 470-3480",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](719) 560-0066[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2055",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(719) 560-0066",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:businessmanageribew667@gmail.com\" target=\"_blank\">businessmanageribew667@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "353",
+    "editFieldNames": "Email",
+    "editFieldValues": "businessmanageribew667@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Timothy W. Eurioste[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1127",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|W.|Eurioste||{ \"MemberID\" : \"1127\",\"luid\": \"368\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2901 Farabaugh Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pueblo\",\"state\":\"CO\",\"zip\":\"81005\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Joseph A. Hesslink, 2901 Farabaugh Lane, Pueblo, CO  81005[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4248",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Hesslink||{ \"MemberID\" : \"4248\",\"luid\": \"368\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Timothy W. Eurioste[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3678",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|W.|Eurioste||{ \"MemberID\" : \"3678\",\"luid\": \"368\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2901 Farabaugh Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pueblo\",\"state\":\"CO\",\"zip\":\"81005\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Tara L Reese, 2901 Farabaugh Lane, Pueblo, CO  81005[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4249",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tara|L|Reese||{ \"MemberID\" : \"4249\",\"luid\": \"368\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "368",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

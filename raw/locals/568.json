@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1263  (u) Palatka[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "568",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1263|Palatka|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "568",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 243[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6250",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 243",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]San Mateo, FL 32167[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6250",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "San Mateo|FL|32167",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](352) 478-9388[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2180",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(352) 478-9388",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1263pres@ymail.com\" target=\"_blank\">ibew1263pres@ymail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "535",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1263pres@ymail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Michael J. Bates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4331",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Bates||{ \"MemberID\" : \"4331\",\"luid\": \"568\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael J. Bates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4332",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Bates||{ \"MemberID\" : \"4332\",\"luid\": \"568\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Trevor J. Copeland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1748",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Trevor|J.|Copeland||{ \"MemberID\" : \"1748\",\"luid\": \"568\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3900 County Road 13S\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Elkton\",\"state\":\"FL\",\"zip\":\"32033\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Putnam County Shriners Club, 2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "568",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Putnam County Shriners Club, 2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

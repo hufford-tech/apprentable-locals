@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]611-  (catv, es, govt, i, it, lctt, o, rtb, spa, t, u) Albuquerque[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "611-|Albuquerque|NM",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "339",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, es, govt, i, it, lctt, o, rtb, spa, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4921 Alexander Boulevard NE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "337",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4921 Alexander Boulevard NE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "337",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Albuquerque, NM 87107[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "337",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Albuquerque|NM|87107",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](505) 343-0611[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(505) 343-0611",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](505) 342-2990[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "628",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(505) 342-2990",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:alfonso@ibew611.org\" target=\"_blank\">alfonso@ibew611.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "327",
+    "editFieldNames": "Email",
+    "editFieldValues": "alfonso@ibew611.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew611.org\" target=\"_blank\">www.ibew611.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew611.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Alfonso C. Martinez Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1038",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alfonso|C.|Martinez|Jr.|{ \"MemberID\" : \"1038\",\"luid\": \"339\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4921 Alexander Boulevard NE\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Albuquerque\",\"state\":\"NM\",\"zip\":\"87107\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Patrick E. Cota[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1040",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|E.|Cota||{ \"MemberID\" : \"1040\",\"luid\": \"339\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4921 Alexander Boulevard NE\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Albuquerque\",\"state\":\"NM\",\"zip\":\"87107\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Alfonso C. Martinez Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3651",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alfonso|C.|Martinez|Jr.|{ \"MemberID\" : \"3651\",\"luid\": \"339\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Jason M. Bowers[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1039",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|M.|Bowers||{ \"MemberID\" : \"1039\",\"luid\": \"339\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4921 Alexander Boulevard NE\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Albuquerque\",\"state\":\"NM\",\"zip\":\"87107\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Saturday, 10 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Saturday, 10 am",
+    "datatype": "txt"
+  }
+]

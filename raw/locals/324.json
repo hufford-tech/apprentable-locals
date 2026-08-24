@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]576-  (i) Alexandria[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "576-|Alexandria|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "324",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6703 Masonic Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "319",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6703 Masonic Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Alexandria, LA 71301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "319",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Alexandria|LA|71301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](318) 443-5811[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "598",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(318) 443-5811",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](318) 443-5874[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "599",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(318) 443-5874",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal576.com\" target=\"_blank\">office@ibewlocal576.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal576.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Matthew S. Rachal[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "991",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|S.|Rachal||{ \"MemberID\" : \"991\",\"luid\": \"324\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"557 B Mercer Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pineville\",\"state\":\"LA\",\"zip\":\"71360\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Landry T. Ducote[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "992",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Landry|T.|Ducote||{ \"MemberID\" : \"992\",\"luid\": \"324\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 216\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hineston\",\"state\":\"LA\",\"zip\":\"71438\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Matthew S. Rachal[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3638",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|S.|Rachal||{ \"MemberID\" : \"3638\",\"luid\": \"324\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"557 B Mercer Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pineville\",\"state\":\"LA\",\"zip\":\"71360\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Aimee L. Lafleur[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "993",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aimee|L.|Lafleur||{ \"MemberID\" : \"993\",\"luid\": \"324\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"6703 Masonic Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Alexandria\",\"state\":\"LA\",\"zip\":\"71301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "324",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

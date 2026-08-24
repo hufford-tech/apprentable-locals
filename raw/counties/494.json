@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Calumet County, WI",
+    "District": "6",
+    "Population": "40631",
+    "LandArea": "319.84",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dodge County, WI",
+    "District": "6",
+    "Population": "85897",
+    "LandArea": "882.28",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Fond Du Lac County, WI",
+    "District": "6",
+    "Population": "97296",
+    "LandArea": "722.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Manitowoc County, WI",
+    "District": "6",
+    "Population": "82887",
+    "LandArea": "591.53",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Milwaukee County, WI",
+    "District": "6",
+    "Population": "940164",
+    "LandArea": "241.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Ozaukee County, WI",
+    "District": "6",
+    "Population": "82317",
+    "LandArea": "231.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Sheboygan County, WI",
+    "District": "6",
+    "Population": "112646",
+    "LandArea": "513.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Washington County, WI",
+    "District": "6",
+    "Population": "117493",
+    "LandArea": "430.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waukesha County, WI",
+    "District": "6",
+    "Population": "360767",
+    "LandArea": "555.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2325  (ptc, t) Worcester[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "832",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2325|Worcester|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "832",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]367 Burncoat Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "712",
+    "editFieldNames": "Address1",
+    "editFieldValues": "367 Burncoat Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Worcester, MA 01606[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "712",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Worcester|MA|01606",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 853-2325[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1373",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 853-2325",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](508) 853-2306[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1374",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 853-2306",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jmcmillen@ibew2325.com\" target=\"_blank\">jmcmillen@ibew2325.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "764",
+    "editFieldNames": "Email",
+    "editFieldValues": "jmcmillen@ibew2325.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2325.com\" target=\"_blank\">www.ibew2325.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "832",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2325.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jamie Gniadek[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2532",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Gniadek||{ \"MemberID\" : \"2532\",\"luid\": \"832\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"367 Burncoat Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Worcester\",\"state\":\"MA\",\"zip\":\"01606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jeremiah T. Poirier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2533",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremiah|T.|Poirier||{ \"MemberID\" : \"2533\",\"luid\": \"832\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"367 Burncoat Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Worcester\",\"state\":\"MA\",\"zip\":\"01606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jamie Gniadek[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4156",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Gniadek||{ \"MemberID\" : \"4156\",\"luid\": \"832\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Dawn M. Nelligan-Rosa[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2531",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dawn|M.|Nelligan-Rosa||{ \"MemberID\" : \"2531\",\"luid\": \"832\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"367 Burncoat Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Worcester\",\"state\":\"MA\",\"zip\":\"01606\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Last Tuesday, 1:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "832",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Last Tuesday, 1:15 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,515 @@
+[
+  {
+    "CountyName": "Atascosa County, TX",
+    "District": "7",
+    "Population": "38628",
+    "LandArea": "1232.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Austin County, TX",
+    "District": "7",
+    "Population": "23590",
+    "LandArea": "652.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bandera County, TX",
+    "District": "7",
+    "Population": "17645",
+    "LandArea": "791.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bastrop County, TX",
+    "District": "7",
+    "Population": "57733",
+    "LandArea": "888.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bexar County, TX",
+    "District": "7",
+    "Population": "1392931",
+    "LandArea": "1246.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Blanco County, TX",
+    "District": "7",
+    "Population": "8418",
+    "LandArea": "711.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brazoria County, TX",
+    "District": "7",
+    "Population": "241767",
+    "LandArea": "1386.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Brazos County, TX",
+    "District": "7",
+    "Population": "152415",
+    "LandArea": "585.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Burleson County, TX",
+    "District": "7",
+    "Population": "16470",
+    "LandArea": "665.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Burnet County, TX",
+    "District": "7",
+    "Population": "34147",
+    "LandArea": "996.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Caldwell County, TX",
+    "District": "7",
+    "Population": "32194",
+    "LandArea": "545.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Chambers County, TX",
+    "District": "7",
+    "Population": "26031",
+    "LandArea": "599.31",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Colorado County, TX",
+    "District": "7",
+    "Population": "20390",
+    "LandArea": "962.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Comal County, TX",
+    "District": "7",
+    "Population": "78021",
+    "LandArea": "561.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "De Witt County, TX",
+    "District": "7",
+    "Population": "20013",
+    "LandArea": "909.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Dimmit County, TX",
+    "District": "7",
+    "Population": "10248",
+    "LandArea": "1330.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Edwards County, TX",
+    "District": "7",
+    "Population": "2162",
+    "LandArea": "2119.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Fayette County, TX",
+    "District": "7",
+    "Population": "21804",
+    "LandArea": "950.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Fort Bend County, TX",
+    "District": "7",
+    "Population": "354452",
+    "LandArea": "874.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Frio County, TX",
+    "District": "7",
+    "Population": "16252",
+    "LandArea": "1133.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Galveston County, TX",
+    "District": "7",
+    "Population": "250158",
+    "LandArea": "398.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Gillespie County, TX",
+    "District": "7",
+    "Population": "20814",
+    "LandArea": "1061.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Gonzales County, TX",
+    "District": "7",
+    "Population": "18628",
+    "LandArea": "1067.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Grimes County, TX",
+    "District": "7",
+    "Population": "23552",
+    "LandArea": "793.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Guadalupe County, TX",
+    "District": "7",
+    "Population": "89023",
+    "LandArea": "711.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Harris County, TX",
+    "District": "7",
+    "Population": "3400578",
+    "LandArea": "1728.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hays County, TX",
+    "District": "7",
+    "Population": "97589",
+    "LandArea": "677.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jackson County, TX",
+    "District": "7",
+    "Population": "14391",
+    "LandArea": "829.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Karnes County, TX",
+    "District": "7",
+    "Population": "15446",
+    "LandArea": "750.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kendall County, TX",
+    "District": "7",
+    "Population": "23743",
+    "LandArea": "662.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kerr County, TX",
+    "District": "7",
+    "Population": "43653",
+    "LandArea": "1106.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Kinney County, TX",
+    "District": "7",
+    "Population": "3379",
+    "LandArea": "1363.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "La Salle County, TX",
+    "District": "7",
+    "Population": "5866",
+    "LandArea": "1488.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lavaca County, TX",
+    "District": "7",
+    "Population": "19210",
+    "LandArea": "969.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lee County, TX",
+    "District": "7",
+    "Population": "15657",
+    "LandArea": "628.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Liberty County, TX",
+    "District": "7",
+    "Population": "70154",
+    "LandArea": "1159.68",
+    "Percentage": "45%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Llano County, TX",
+    "District": "7",
+    "Population": "17044",
+    "LandArea": "934.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Madison County, TX",
+    "District": "7",
+    "Population": "12940",
+    "LandArea": "469.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Matagorda County, TX",
+    "District": "7",
+    "Population": "37957",
+    "LandArea": "1114.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Maverick County, TX",
+    "District": "7",
+    "Population": "47297",
+    "LandArea": "1280.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "McMullen County, TX",
+    "District": "7",
+    "Population": "851",
+    "LandArea": "1113.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Medina County, TX",
+    "District": "7",
+    "Population": "39304",
+    "LandArea": "1327.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Montgomery County, TX",
+    "District": "7",
+    "Population": "293768",
+    "LandArea": "1044.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Real County, TX",
+    "District": "7",
+    "Population": "3047",
+    "LandArea": "699.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Jacinto County, TX",
+    "District": "7",
+    "Population": "22246",
+    "LandArea": "570.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Saba County, TX",
+    "District": "7",
+    "Population": "6186",
+    "LandArea": "1134.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Travis County, TX",
+    "District": "7",
+    "Population": "812280",
+    "LandArea": "989.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Uvalde County, TX",
+    "District": "7",
+    "Population": "25926",
+    "LandArea": "1556.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Val Verde County, TX",
+    "District": "7",
+    "Population": "44856",
+    "LandArea": "3170.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Walker County, TX",
+    "District": "7",
+    "Population": "61758",
+    "LandArea": "787.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Waller County, TX",
+    "District": "7",
+    "Population": "32663",
+    "LandArea": "513.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Washington County, TX",
+    "District": "7",
+    "Population": "30373",
+    "LandArea": "609.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Webb County, TX",
+    "District": "7",
+    "Population": "193117",
+    "LandArea": "3356.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wharton County, TX",
+    "District": "7",
+    "Population": "41188",
+    "LandArea": "1090.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Williamson County, TX",
+    "District": "7",
+    "Population": "249967",
+    "LandArea": "1122.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wilson County, TX",
+    "District": "7",
+    "Population": "32408",
+    "LandArea": "806.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Zavala County, TX",
+    "District": "7",
+    "Population": "11600",
+    "LandArea": "1298.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

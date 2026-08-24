@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1684  (rr) Jersey City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "669",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1684|Jersey City|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "669",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]337 Ellery Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7277",
+    "editFieldNames": "Address1",
+    "editFieldValues": "337 Ellery Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Newark, NJ 07106[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7277",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Newark|NJ|07106",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](908) 549-9185[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1149",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(908) 549-9185",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Wayne H. Henry, PO Box 165, Maplewood, NJ  07040[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2048",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|H.|Henry||{ \"MemberID\" : \"2048\",\"luid\": \"669\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 165\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Maplewood\",\"state\":\"NJ\",\"zip\":\"07040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Wayne H. Henry, PO Box 165, Maplewood, NJ  07040[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3975",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wayne|H.|Henry||{ \"MemberID\" : \"3975\",\"luid\": \"669\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 165\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Maplewood\",\"state\":\"NJ\",\"zip\":\"07040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Nelson Cedeno, 337 Ellery Avenue, Newark, NJ  07106[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2049",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nelson||Cedeno||{ \"MemberID\" : \"2049\",\"luid\": \"669\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"337 Ellery Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Newark\",\"state\":\"NJ\",\"zip\":\"07106\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Solo Selzer, 56 York Avenue, Fort Monmouth, NJ  07758[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2050",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Solo||Selzer||{ \"MemberID\" : \"2050\",\"luid\": \"669\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"56 York Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Monmouth\",\"state\":\"NJ\",\"zip\":\"07758\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Polish National Home, 215 Cleveland Avenue, Harrison, 2nd Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "669",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Polish National Home, 215 Cleveland Avenue, Harrison, 2nd Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

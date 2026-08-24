@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Adams County, WA",
+    "District": "9",
+    "Population": "16428",
+    "LandArea": "1924.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Benewah County, ID",
+    "District": "8",
+    "Population": "9171",
+    "LandArea": "776.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bonner County, ID",
+    "District": "8",
+    "Population": "36835",
+    "LandArea": "1737.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Boundary County, ID",
+    "District": "8",
+    "Population": "9871",
+    "LandArea": "1268.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Clearwater County, ID",
+    "District": "8",
+    "Population": "8930",
+    "LandArea": "2461.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Ferry County, WA",
+    "District": "9",
+    "Population": "7260",
+    "LandArea": "2203.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Idaho County, ID",
+    "District": "8",
+    "Population": "15511",
+    "LandArea": "8484.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Kootenai County, ID",
+    "District": "8",
+    "Population": "108685",
+    "LandArea": "1245.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Latah County, ID",
+    "District": "8",
+    "Population": "34935",
+    "LandArea": "1076.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lewis County, ID",
+    "District": "8",
+    "Population": "3747",
+    "LandArea": "479.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lincoln County, WA",
+    "District": "9",
+    "Population": "10184",
+    "LandArea": "2311.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Nez Perce County, ID",
+    "District": "8",
+    "Population": "37410",
+    "LandArea": "849.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Pend Oreille County, WA",
+    "District": "9",
+    "Population": "11732",
+    "LandArea": "1400.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Shoshone County, ID",
+    "District": "8",
+    "Population": "13771",
+    "LandArea": "2633.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Spokane County, WA",
+    "District": "9",
+    "Population": "417939",
+    "LandArea": "1763.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Stevens County, WA",
+    "District": "9",
+    "Population": "40066",
+    "LandArea": "2478.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Whitman County, WA",
+    "District": "9",
+    "Population": "40740",
+    "LandArea": "2159.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  }
+]

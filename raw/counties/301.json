@@ -1,0 +1,299 @@
+[
+  {
+    "CountyName": "Bowie County, TX",
+    "District": "7",
+    "Population": "89306",
+    "LandArea": "887.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bowie County, TX",
+    "District": "7",
+    "Population": "89306",
+    "LandArea": "887.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Camp County, TX",
+    "District": "7",
+    "Population": "11549",
+    "LandArea": "197.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Camp County, TX",
+    "District": "7",
+    "Population": "11549",
+    "LandArea": "197.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cass County, TX",
+    "District": "7",
+    "Population": "30438",
+    "LandArea": "937.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cass County, TX",
+    "District": "7",
+    "Population": "30438",
+    "LandArea": "937.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Choctaw County, OK",
+    "District": "7",
+    "Population": "15342",
+    "LandArea": "773.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Franklin County, TX",
+    "District": "7",
+    "Population": "9458",
+    "LandArea": "285.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Franklin County, TX",
+    "District": "7",
+    "Population": "9458",
+    "LandArea": "285.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hempstead County, AR",
+    "District": "10",
+    "Population": "23587",
+    "LandArea": "728.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Hempstead County, AR",
+    "District": "10",
+    "Population": "23587",
+    "LandArea": "728.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Hopkins County, TX",
+    "District": "7",
+    "Population": "31960",
+    "LandArea": "782.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hopkins County, TX",
+    "District": "7",
+    "Population": "31960",
+    "LandArea": "782.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Howard County, AR",
+    "District": "10",
+    "Population": "14300",
+    "LandArea": "587.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Howard County, AR",
+    "District": "10",
+    "Population": "14300",
+    "LandArea": "587.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lafayette County, AR",
+    "District": "10",
+    "Population": "8559",
+    "LandArea": "526.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lafayette County, AR",
+    "District": "10",
+    "Population": "8559",
+    "LandArea": "526.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lamar County, TX",
+    "District": "7",
+    "Population": "48499",
+    "LandArea": "916.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Little River County, AR",
+    "District": "10",
+    "Population": "13628",
+    "LandArea": "531.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Little River County, AR",
+    "District": "10",
+    "Population": "13628",
+    "LandArea": "531.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "McCurtain County, OK",
+    "District": "7",
+    "Population": "34402",
+    "LandArea": "1852.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Miller County, AR",
+    "District": "10",
+    "Population": "40443",
+    "LandArea": "623.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Miller County, AR",
+    "District": "10",
+    "Population": "40443",
+    "LandArea": "623.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Morris County, TX",
+    "District": "7",
+    "Population": "13048",
+    "LandArea": "254.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Morris County, TX",
+    "District": "7",
+    "Population": "13048",
+    "LandArea": "254.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Pike County, AR",
+    "District": "10",
+    "Population": "11303",
+    "LandArea": "603.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Pike County, AR",
+    "District": "10",
+    "Population": "11303",
+    "LandArea": "603.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Red River County, TX",
+    "District": "7",
+    "Population": "14314",
+    "LandArea": "1050.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Red River County, TX",
+    "District": "7",
+    "Population": "14314",
+    "LandArea": "1050.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Sevier County, AR",
+    "District": "10",
+    "Population": "15757",
+    "LandArea": "563.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sevier County, AR",
+    "District": "10",
+    "Population": "15757",
+    "LandArea": "563.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Titus County, TX",
+    "District": "7",
+    "Population": "28118",
+    "LandArea": "410.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Titus County, TX",
+    "District": "7",
+    "Population": "28118",
+    "LandArea": "410.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

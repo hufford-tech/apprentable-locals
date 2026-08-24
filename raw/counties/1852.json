@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Cape Breton County, NS",
+    "District": "1",
+    "Population": "109330",
+    "LandArea": "2470.6162",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Inverness County, NS",
+    "District": "1",
+    "Population": "19937",
+    "LandArea": "3830.4393",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Richmond County, NS",
+    "District": "1",
+    "Population": "10225",
+    "LandArea": "1244.2845",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Victoria County, NS",
+    "District": "1",
+    "Population": "7962",
+    "LandArea": "2870.8894",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  }
+]

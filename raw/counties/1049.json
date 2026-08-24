@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Nassau County, NY",
+    "District": "3",
+    "Population": "1334544",
+    "LandArea": "286.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Suffolk County, NY",
+    "District": "3",
+    "Population": "1419369",
+    "LandArea": "912.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2321  (ptc, t) Middleton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "828",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2321|Middleton|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "828",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1049 Turnpike Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "708",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1049 Turnpike Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Andover, MA 01845[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "708",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Andover|MA|01845",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](978) 683-2321[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1365",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(978) 683-2321",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](978) 794-1598[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2001",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(978) 794-1598",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:infoibew2321@gmail.com\" target=\"_blank\">infoibew2321@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1915",
+    "editFieldNames": "Email",
+    "editFieldValues": "infoibew2321@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2321.org\" target=\"_blank\">www.ibew2321.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "828",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2321.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]J. Craig Fields[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2521",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "J. Craig||Fields||{ \"MemberID\" : \"2521\",\"luid\": \"828\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1049 Turnpike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Andover\",\"state\":\"MA\",\"zip\":\"01845\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Janine M. Lafond[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4419",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Janine|M.|Lafond||{ \"MemberID\" : \"4419\",\"luid\": \"828\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]J. Craig Fields[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4152",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "J. Craig||Fields||{ \"MemberID\" : \"4152\",\"luid\": \"828\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Kimberly A. Burleigh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2520",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kimberly|A.|Burleigh||{ \"MemberID\" : \"2520\",\"luid\": \"828\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1049 Turnpike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Andover\",\"state\":\"MA\",\"zip\":\"01845\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]American Legion, 69 River Street, 2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "828",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion, 69 River Street, 2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

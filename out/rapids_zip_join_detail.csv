@@ -1,0 +1,32 @@
+lu_number,local_city,local_state,matched_ps_id,matched_name,matched_zip,jurisdiction_confidence,candidate_count_for_this_local
+11,Pasadena,CA,63232,IBEW LU 40 - L.A. County NECA JATC,91601,high,3
+26,Lanham,MD,76433,JATC WASHINGTON D.C. ELECTRICIANS IBEW - LOCAL 26,20706,high,1
+613,Atlanta,GA,43687,ATL ELECTRICAL JATC,30071,high,2
+58,Detroit,MI,54916,Detroit Electrical JATC,48092,high,1
+292,Brooklyn Park,MN,120988,MINNEAPOLIS ELECTRICAL JATC,55376,high,3
+595,Dublin,CA,55701,San Joaquin & Calaveras Counties Electrical JATC,95205,high,3
+494,Milwaukee,WI,84440,Milwaukee Area Electrical JAC,53220,high,2
+354,Salt Lake City,UT,49357,UTAH ELECTRICAL JATC,84084,high,1
+760,Knoxville,TN,66920,OAK RIDGE ELECTRIC JATC,37830,high,2
+1105,Nashport,OH,23817,"ELECTRICIANS JATC, NEWARK",43056,high,2
+38,Cleveland,OH,51415,"ELECTRICIANS JATC, CLEVELAND",44125,high,4
+659,Central Point,OR,42717,Crater Lake Electrical JATC,97502,high,1
+441,Orange,CA,51776,Orange County Electrical Training Trust,92705,high,1
+347,Ankeny,IA,55565,Missouri Valley Line Constructors JATC,50125,high,4
+606,Orlando,FL,3547,CENTRAL FLORIDA ELECTRICAL JATC,32792,high,3
+617,San Mateo,CA,36219,San Mateo Electrical Training Alliance,94070,high,1
+130,Metairie,LA,59494,Bogalusa Electrical JATC,70123,high,1
+553,Durham,NC,142845,RALEIGH DURHAM ELECTRICAL JATC,27709,high,1
+7,Springfield,MA,12550,NORTH ELEC. JATC,01060,high,1
+252,Ann Arbor,MI,47013,Ann Arbor Electrical JATC,48118,high,5
+479,Beaumont,TX,35743,BEAUMONT ELECTRICAL JATC,77627,high,1
+1426,Grand Forks,ND,17318,DAKOTAS & W. MINN. AREA ELECTRICAL JATC,58102,high,1
+531,LaPorte,IN,58779,Electrical JATC of Northern Indiana,46360,high,2
+952,Ventura,CA,36500,Ventura Co. Electrical JATC,93030,high,1
+712,Beaver,PA,31312,Western Central Pennsylvania Electricians ' Joint Apprenticeship and Training Committee,16105,high,1
+131,Kalamazoo,MI,10822,Kalamazoo Electrical Training Alliance,49087,high,3
+480,Jackson,MS,18867,JACKSON ELECTRICIANS JATC,39272,high,1
+234,Salinas,CA,41309,Tri-County Electrical JATC,95012,high,1
+413,Buellton,CA,64732,SANTA BARBARA COUNTY ELECTRICAL JATC,93455,high,1
+445,Springfield,MI,47874,Battle Creek Electrical JATC,49037,high,2
+972,Reno,OH,25015,"ELECTRICIANS JATC, MARIETTA",45750,high,1

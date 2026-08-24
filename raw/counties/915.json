@@ -1,0 +1,101 @@
+[
+  {
+    "CountyName": "Charlotte County, FL",
+    "District": "5",
+    "Population": "141627",
+    "LandArea": "693.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "De Soto County, FL",
+    "District": "5",
+    "Population": "32209",
+    "LandArea": "637.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Glades County, Fl",
+    "District": "5",
+    "Population": "10576",
+    "LandArea": "773.64",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hardee County, FL",
+    "District": "5",
+    "Population": "26938",
+    "LandArea": "637.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Highlands County, FL",
+    "District": "5",
+    "Population": "87366",
+    "LandArea": "1028.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hillsborough County, FL",
+    "District": "5",
+    "Population": "998948",
+    "LandArea": "1050.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Manatee County, FL",
+    "District": "5",
+    "Population": "264002",
+    "LandArea": "741.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Pasco County, FL",
+    "District": "5",
+    "Population": "344765",
+    "LandArea": "744.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Pinellas County, FL",
+    "District": "5",
+    "Population": "921482",
+    "LandArea": "279.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Polk County, FL",
+    "District": "5",
+    "Population": "483924",
+    "LandArea": "1874.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Sarasota County, FL",
+    "District": "5",
+    "Population": "325957",
+    "LandArea": "571.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

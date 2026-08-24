@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Northern District, CZ",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CZ"
+  },
+  {
+    "CountyName": "Northern District, CZ",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CZ"
+  },
+  {
+    "CountyName": "Province of Panama, CZ",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CZ"
+  },
+  {
+    "CountyName": "Province of Panama, CZ",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CZ"
+  }
+]

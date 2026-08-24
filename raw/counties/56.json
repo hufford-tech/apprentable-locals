@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Erie County, PA",
+    "District": "3",
+    "Population": "280843",
+    "LandArea": "801.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Forest County, PA",
+    "District": "3",
+    "Population": "4946",
+    "LandArea": "428.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Warren County, PA",
+    "District": "3",
+    "Population": "43863",
+    "LandArea": "883.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

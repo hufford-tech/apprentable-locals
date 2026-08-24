@@ -1,0 +1,182 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]494-  (em, govt, i, mt, rts, spa, t) Milwaukee[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "494-|Milwaukee|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "284",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, i, mt, rts, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3303 S 103rd Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "278",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3303 S 103rd Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Milwaukee, WI 53227[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "278",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Milwaukee|WI|53227",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](414) 327-5202[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "528",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(414) 327-5202",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](414) 327-3655[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "529",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(414) 327-3655",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:amy@ibew494.com\" target=\"_blank\">amy@ibew494.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "Email",
+    "editFieldValues": "amy@ibew494.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew494.com\" target=\"_blank\">www.ibew494.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew494.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Kettle Moraine Division[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4162",
+    "editFieldNames": "Name",
+    "editFieldValues": "Kettle Moraine Division",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]50 East Bank Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4162",
+    "editFieldNames": "Address1",
+    "editFieldValues": "50 East Bank Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Fond du Lac, WI 54935[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4162",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fond du Lac|WI|54935",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](920) 923-0489[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1771",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(920) 923-0489",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (920) 923-5690[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1772",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(920) 923-5690",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]B.M. [/b]John M. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "873",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Jacobs||{ \"MemberID\" : \"873\",\"luid\": \"284\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3303 S 103rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milwaukee\",\"state\":\"WI\",\"zip\":\"53227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Pres. [/b]Brett A. Forster[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "872",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|A.|Forster||{ \"MemberID\" : \"872\",\"luid\": \"284\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3303 S 103rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milwaukee\",\"state\":\"WI\",\"zip\":\"53227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]F.S. [/b]John M. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3598",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Jacobs||{ \"MemberID\" : \"3598\",\"luid\": \"284\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]R.S. [/b]Jarrett P. Jante[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "871",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jarrett|P.|Jante||{ \"MemberID\" : \"871\",\"luid\": \"284\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3303 S 103rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milwaukee\",\"state\":\"WI\",\"zip\":\"53227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

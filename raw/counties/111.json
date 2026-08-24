@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Adams County, CO",
+    "District": "8",
+    "Population": "363857",
+    "LandArea": "1191.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Arapahoe County, CO",
+    "District": "8",
+    "Population": "487967",
+    "LandArea": "803.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Boulder County, CO",
+    "District": "8",
+    "Population": "291288",
+    "LandArea": "742.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Broomfield County, CO",
+    "District": "8",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Clear Creek County, CO",
+    "District": "8",
+    "Population": "9322",
+    "LandArea": "395.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Denver County, CO",
+    "District": "8",
+    "Population": "554636",
+    "LandArea": "153.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Douglas County, CO",
+    "District": "8",
+    "Population": "175766",
+    "LandArea": "840.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Eagle County, CO",
+    "District": "8",
+    "Population": "41659",
+    "LandArea": "1687.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Gilpin County, CO",
+    "District": "8",
+    "Population": "4757",
+    "LandArea": "149.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Grand County, CO",
+    "District": "8",
+    "Population": "12442",
+    "LandArea": "1846.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Jackson County, CO",
+    "District": "8",
+    "Population": "1577",
+    "LandArea": "1613.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Jefferson County, CO",
+    "District": "8",
+    "Population": "527056",
+    "LandArea": "772.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Lake County, CO",
+    "District": "8",
+    "Population": "7812",
+    "LandArea": "376.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Larimer County, CO",
+    "District": "8",
+    "Population": "251494",
+    "LandArea": "2601.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Logan County, CO",
+    "District": "8",
+    "Population": "20504",
+    "LandArea": "1838.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Morgan County, CO",
+    "District": "8",
+    "Population": "27171",
+    "LandArea": "1285.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Phillips County, CO",
+    "District": "8",
+    "Population": "4480",
+    "LandArea": "687.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Sedgwick County, CO",
+    "District": "8",
+    "Population": "2747",
+    "LandArea": "548.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Summit County, CO",
+    "District": "8",
+    "Population": "23548",
+    "LandArea": "608.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Washington County, CO",
+    "District": "8",
+    "Population": "4926",
+    "LandArea": "2520.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Weld County, CO",
+    "District": "8",
+    "Population": "180936",
+    "LandArea": "3992.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Yuma County, CO",
+    "District": "8",
+    "Population": "9841",
+    "LandArea": "2365.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  }
+]

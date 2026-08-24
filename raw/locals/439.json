@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]813-  (rr) Roanoke[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "813-|Roanoke|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "439",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]231 Family Farm Lane NE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7268",
+    "editFieldNames": "Address1",
+    "editFieldValues": "231 Family Farm Lane NE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Copper Hill, VA 24079[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7268",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Copper Hill|VA|24079",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]B.M. [/b]Steven W Lail[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4473",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|W|Lail||{ \"MemberID\" : \"4473\",\"luid\": \"439\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Steven W Lail[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4478",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|W|Lail||{ \"MemberID\" : \"4478\",\"luid\": \"439\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Brian K. Wilson, 231 Family Farm Lane NE, Copper Hill, VA  24079[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1352",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|K.|Wilson||{ \"MemberID\" : \"1352\",\"luid\": \"439\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"231 Family Farm Lane NE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Copper Hill\",\"state\":\"VA\",\"zip\":\"24079\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Gerald B. Patsell, 9755 Hardy Road, Vinton, VA  24179[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1350",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gerald|B.|Patsell||{ \"MemberID\" : \"1350\",\"luid\": \"439\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"9755 Hardy Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vinton\",\"state\":\"VA\",\"zip\":\"24179\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]6306 Peters Creek Road, 2nd Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "Meets",
+    "editFieldValues": "6306 Peters Creek Road, 2nd Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

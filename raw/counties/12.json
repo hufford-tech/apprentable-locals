@@ -1,0 +1,326 @@
+[
+  {
+    "CountyName": "Alamosa County, CO",
+    "District": "8",
+    "Population": "14966",
+    "LandArea": "722.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Alamosa County, CO",
+    "District": "8",
+    "Population": "14966",
+    "LandArea": "722.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Archuleta County, CO",
+    "District": "8",
+    "Population": "9898",
+    "LandArea": "1350.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Archuleta County, CO",
+    "District": "8",
+    "Population": "9898",
+    "LandArea": "1350.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Baca County, CO",
+    "District": "8",
+    "Population": "4517",
+    "LandArea": "2555.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Baca County, CO",
+    "District": "8",
+    "Population": "4517",
+    "LandArea": "2555.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Bent County, CO",
+    "District": "8",
+    "Population": "5998",
+    "LandArea": "1513.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Bent County, CO",
+    "District": "8",
+    "Population": "5998",
+    "LandArea": "1513.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Chaffee County, CO",
+    "District": "8",
+    "Population": "16242",
+    "LandArea": "1013.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Chaffee County, CO",
+    "District": "8",
+    "Population": "16242",
+    "LandArea": "1013.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Conejos County, CO",
+    "District": "8",
+    "Population": "8400",
+    "LandArea": "1287.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Conejos County, CO",
+    "District": "8",
+    "Population": "8400",
+    "LandArea": "1287.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Costilla County, CO",
+    "District": "8",
+    "Population": "3663",
+    "LandArea": "1227.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Costilla County, CO",
+    "District": "8",
+    "Population": "3663",
+    "LandArea": "1227.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Crowley County, CO",
+    "District": "8",
+    "Population": "5518",
+    "LandArea": "788.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Crowley County, CO",
+    "District": "8",
+    "Population": "5518",
+    "LandArea": "788.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Custer County, CO",
+    "District": "8",
+    "Population": "3503",
+    "LandArea": "738.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Custer County, CO",
+    "District": "8",
+    "Population": "3503",
+    "LandArea": "738.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Fremont County, CO",
+    "District": "8",
+    "Population": "46145",
+    "LandArea": "1532.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Fremont County, CO",
+    "District": "8",
+    "Population": "46145",
+    "LandArea": "1532.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Huerfano County, CO",
+    "District": "8",
+    "Population": "7862",
+    "LandArea": "1590.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Huerfano County, CO",
+    "District": "8",
+    "Population": "7862",
+    "LandArea": "1590.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Kiowa County, CO",
+    "District": "8",
+    "Population": "1622",
+    "LandArea": "1770.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Kiowa County, CO",
+    "District": "8",
+    "Population": "1622",
+    "LandArea": "1770.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Las Animas County, CO",
+    "District": "8",
+    "Population": "15207",
+    "LandArea": "4772.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Las Animas County, CO",
+    "District": "8",
+    "Population": "15207",
+    "LandArea": "4772.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Mineral County, CO",
+    "District": "8",
+    "Population": "831",
+    "LandArea": "875.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Mineral County, CO",
+    "District": "8",
+    "Population": "831",
+    "LandArea": "875.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Otero County, CO",
+    "District": "8",
+    "Population": "20311",
+    "LandArea": "1262.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Otero County, CO",
+    "District": "8",
+    "Population": "20311",
+    "LandArea": "1262.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Prowers County, CO",
+    "District": "8",
+    "Population": "14483",
+    "LandArea": "1640.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Prowers County, CO",
+    "District": "8",
+    "Population": "14483",
+    "LandArea": "1640.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Pueblo County, CO",
+    "District": "8",
+    "Population": "141472",
+    "LandArea": "2388.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Pueblo County, CO",
+    "District": "8",
+    "Population": "141472",
+    "LandArea": "2388.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Rio Grande County, CO",
+    "District": "8",
+    "Population": "12413",
+    "LandArea": "911.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CO"
+  },
+  {
+    "CountyName": "Rio Grande County, CO",
+    "District": "8",
+    "Population": "12413",
+    "LandArea": "911.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CO"
+  }
+]

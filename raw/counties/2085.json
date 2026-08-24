@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Baffin Region, NU",
+    "District": "1",
+    "Population": "14372",
+    "LandArea": "1023570.4873",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NU"
+  },
+  {
+    "CountyName": "Division No. 1, MB",
+    "District": "1",
+    "Population": "16432",
+    "LandArea": "14871.7076",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 10, MB",
+    "District": "1",
+    "Population": "9464",
+    "LandArea": "1914.5904",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 11, MB",
+    "District": "1",
+    "Population": "621451",
+    "LandArea": "572.1170",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 12, MB",
+    "District": "1",
+    "Population": "19251",
+    "LandArea": "1859.2277",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 13, MB",
+    "District": "1",
+    "Population": "42183",
+    "LandArea": "1695.6649",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 14, MB",
+    "District": "1",
+    "Population": "17589",
+    "LandArea": "2811.0353",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 15, MB",
+    "District": "1",
+    "Population": "21914",
+    "LandArea": "9324.7101",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 16, MB",
+    "District": "1",
+    "Population": "10341",
+    "LandArea": "4714.3531",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 17, MB",
+    "District": "1",
+    "Population": "22899",
+    "LandArea": "13624.5523",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 18, MB",
+    "District": "1",
+    "Population": "22593",
+    "LandArea": "11330.6856",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 19, MB",
+    "District": "1",
+    "Population": "15805",
+    "LandArea": "61216.9435",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 2, MB",
+    "District": "1",
+    "Population": "50869",
+    "LandArea": "4406.0808",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 20, MB",
+    "District": "1",
+    "Population": "11013",
+    "LandArea": "9871.0341",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 21, MB",
+    "District": "1",
+    "Population": "22556",
+    "LandArea": "43192.1832",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 22, MB",
+    "District": "1",
+    "Population": "35077",
+    "LandArea": "92066.1779",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 23, MB",
+    "District": "1",
+    "Population": "8989",
+    "LandArea": "242016.2135",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 3, MB",
+    "District": "1",
+    "Population": "42184",
+    "LandArea": "5309.4613",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 4, MB",
+    "District": "1",
+    "Population": "9942",
+    "LandArea": "4481.5177",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 5, MB",
+    "District": "1",
+    "Population": "13848",
+    "LandArea": "8228.6561",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 6, MB",
+    "District": "1",
+    "Population": "10110",
+    "LandArea": "3944.8778",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 7, MB",
+    "District": "1",
+    "Population": "57148",
+    "LandArea": "5743.8061",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 8, MB",
+    "District": "1",
+    "Population": "14603",
+    "LandArea": "5752.0175",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Division No. 9, MB",
+    "District": "1",
+    "Population": "23322",
+    "LandArea": "2990.2535",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MB"
+  },
+  {
+    "CountyName": "Keewatin Region, NU",
+    "District": "1",
+    "Population": "7557",
+    "LandArea": "444680.4009",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NU"
+  },
+  {
+    "CountyName": "Kitikmeot Region, NU",
+    "District": "1",
+    "Population": "4816",
+    "LandArea": "457209.2936",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NU"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Ashtabula County, OH",
+    "District": "4",
+    "Population": "102728",
+    "LandArea": "702.44",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Geauga County, OH",
+    "District": "4",
+    "Population": "90895",
+    "LandArea": "403.66",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lake County, OH",
+    "District": "4",
+    "Population": "227511",
+    "LandArea": "228.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

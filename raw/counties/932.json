@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Coos County, OR",
+    "District": "9",
+    "Population": "62779",
+    "LandArea": "1600.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Curry County, OR",
+    "District": "9",
+    "Population": "21137",
+    "LandArea": "1627.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Douglas County, OR",
+    "District": "9",
+    "Population": "100399",
+    "LandArea": "5036.62",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Lane County, OR",
+    "District": "9",
+    "Population": "322959",
+    "LandArea": "4554.00",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Lincoln County, OR",
+    "District": "9",
+    "Population": "44479",
+    "LandArea": "979.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  }
+]

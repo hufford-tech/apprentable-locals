@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1701  (catv, ees, i, o, u) Owensboro[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1701|Owensboro|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "674",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ees, i, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2911 W Parrish Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "620",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2911 W Parrish Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Owensboro, KY 42301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "620",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Owensboro|KY|42301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](270) 684-3058[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1154",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(270) 684-3058",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](270) 684-4255[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1155",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(270) 684-4255",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1701@yahoo.com\" target=\"_blank\">ibew1701@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1701@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Ryan M. Hayden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2063",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|M.|Hayden||{ \"MemberID\" : \"2063\",\"luid\": \"674\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2911 W Parrish Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Owensboro\",\"state\":\"KY\",\"zip\":\"42301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Jonathan T. Nugent, 1677 Browns Valley Red Hill Road, Utica, KY  42376[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2061",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|T.|Nugent||{ \"MemberID\" : \"2061\",\"luid\": \"674\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1677 Browns Valley Red Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Utica\",\"state\":\"KY\",\"zip\":\"42376\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Ryan M. Hayden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3982",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|M.|Hayden||{ \"MemberID\" : \"3982\",\"luid\": \"674\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Ben M. Howard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2062",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ben|M.|Howard||{ \"MemberID\" : \"2062\",\"luid\": \"674\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2304 Palomino Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Owensboro\",\"state\":\"KY\",\"zip\":\"42301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "674",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

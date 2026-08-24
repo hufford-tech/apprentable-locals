@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1963  (em) Youngwood[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "729",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1963|Youngwood|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "729",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 175[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "653",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 175",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Youngwood, PA 15697[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "653",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Youngwood|PA|15697",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](724) 771-4046[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1232",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 771-4046",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1963@gmail.com\" target=\"_blank\">ibew1963@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "681",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1963@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Levi S. Basinger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2232",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Levi|S.|Basinger||{ \"MemberID\" : \"2232\",\"luid\": \"729\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2013 Buttermore Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Connellsville\",\"state\":\"PA\",\"zip\":\"15425\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Levi S. Basinger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4043",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Levi|S.|Basinger||{ \"MemberID\" : \"4043\",\"luid\": \"729\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2013 Buttermore Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Connellsville\",\"state\":\"PA\",\"zip\":\"15425\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Michael J. Balog[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4044",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Balog||{ \"MemberID\" : \"4044\",\"luid\": \"729\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Dawn M. Strosko[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4284",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dawn|M.|Strosko||{ \"MemberID\" : \"4284\",\"luid\": \"729\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 1:45 pm & 3:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "729",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 1:45 pm & 3:15 pm",
+    "datatype": "txt"
+  }
+]

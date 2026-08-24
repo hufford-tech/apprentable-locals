@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Brooke County, WV",
+    "District": "4",
+    "Population": "25447",
+    "LandArea": "88.85",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Carroll County, OH",
+    "District": "4",
+    "Population": "28836",
+    "LandArea": "394.67",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Columbiana County, OH",
+    "District": "4",
+    "Population": "112075",
+    "LandArea": "532.46",
+    "Percentage": "75%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hancock County, WV",
+    "District": "4",
+    "Population": "32667",
+    "LandArea": "82.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Harrison County, OH",
+    "District": "4",
+    "Population": "15856",
+    "LandArea": "403.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Jefferson County, OH",
+    "District": "4",
+    "Population": "73894",
+    "LandArea": "409.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

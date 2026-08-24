@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Benton County, OR",
+    "District": "9",
+    "Population": "78153",
+    "LandArea": "676.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Crook County, OR",
+    "District": "9",
+    "Population": "19182",
+    "LandArea": "2979.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Deschutes County, OR",
+    "District": "9",
+    "Population": "115367",
+    "LandArea": "3018.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Jefferson County, OR",
+    "District": "9",
+    "Population": "19009",
+    "LandArea": "1780.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Lane County, OR",
+    "District": "9",
+    "Population": "322959",
+    "LandArea": "4554.00",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Linn County, OR",
+    "District": "9",
+    "Population": "103069",
+    "LandArea": "2292.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Marion County, OR",
+    "District": "9",
+    "Population": "284834",
+    "LandArea": "1183.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Polk County, OR",
+    "District": "9",
+    "Population": "62380",
+    "LandArea": "741.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Yamhill County, OR",
+    "District": "9",
+    "Population": "84992",
+    "LandArea": "715.56",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  }
+]

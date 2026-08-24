@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]326-  (u) Lawrence[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "326-|Lawrence|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "199",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]40 Bayfield Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "202",
+    "editFieldNames": "Address1",
+    "editFieldValues": "40 Bayfield Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "202",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]North Andover, MA 01845[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "202",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Andover|MA|01845",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](978) 686-4792[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(978) 686-4792",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](978) 686-1587[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(978) 686-1587",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:billylepelley@yahoo.com\" target=\"_blank\">billylepelley@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "194",
+    "editFieldNames": "Email",
+    "editFieldValues": "billylepelley@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://ibewlocal326.com\" target=\"_blank\">ibewlocal326.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "Website",
+    "editFieldValues": "ibewlocal326.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]William C. LePelley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "613",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|C.|LePelley||{ \"MemberID\" : \"613\",\"luid\": \"199\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"707 Turnpike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Andover\",\"state\":\"MA\",\"zip\":\"01845\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Richard A. Beaudoin Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "615",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Beaudoin|Jr.|{ \"MemberID\" : \"615\",\"luid\": \"199\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"707 Turnpike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Andover\",\"state\":\"MA\",\"zip\":\"01845\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]William C. LePelley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3516",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|C.|LePelley||{ \"MemberID\" : \"3516\",\"luid\": \"199\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Rhonda L. Pinette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rhonda|L.|Pinette||{ \"MemberID\" : \"614\",\"luid\": \"199\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"707 Turnpike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Andover\",\"state\":\"MA\",\"zip\":\"01845\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Lawrence Elks Hall, 652 Andover Street, Lawrence, 1st Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Lawrence Elks Hall, 652 Andover Street, Lawrence, 1st Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

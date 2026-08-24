@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Columbiana County, OH",
+    "District": "4",
+    "Population": "112075",
+    "LandArea": "532.46",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Mahoning County, OH",
+    "District": "4",
+    "Population": "257555",
+    "LandArea": "415.25",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Trumbull County, OH",
+    "District": "4",
+    "Population": "225116",
+    "LandArea": "616.48",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

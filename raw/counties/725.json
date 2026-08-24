@@ -1,0 +1,137 @@
+[
+  {
+    "CountyName": "Brown County, IN",
+    "District": "6",
+    "Population": "14957",
+    "LandArea": "312.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Clark County, IL",
+    "District": "6",
+    "Population": "17008",
+    "LandArea": "501.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clay County, IN",
+    "District": "6",
+    "Population": "26556",
+    "LandArea": "357.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Crawford County, IL",
+    "District": "6",
+    "Population": "20452",
+    "LandArea": "443.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Edgar County, IL",
+    "District": "6",
+    "Population": "19704",
+    "LandArea": "623.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Greene County, IN",
+    "District": "6",
+    "Population": "33157",
+    "LandArea": "541.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jasper County, IL",
+    "District": "6",
+    "Population": "10117",
+    "LandArea": "494.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Knox County, IN",
+    "District": "6",
+    "Population": "39256",
+    "LandArea": "515.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lawrence County, IL",
+    "District": "6",
+    "Population": "15452",
+    "LandArea": "371.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Monroe County, IN",
+    "District": "6",
+    "Population": "120563",
+    "LandArea": "394.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Owen County, IN",
+    "District": "6",
+    "Population": "21786",
+    "LandArea": "385.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Parke County, IN",
+    "District": "6",
+    "Population": "17241",
+    "LandArea": "444.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Richland County, IL",
+    "District": "6",
+    "Population": "16149",
+    "LandArea": "360.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Sullivan County, IN",
+    "District": "6",
+    "Population": "21751",
+    "LandArea": "447.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Vigo County, IN",
+    "District": "6",
+    "Population": "105848",
+    "LandArea": "403.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

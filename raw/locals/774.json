@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2084  (ees, em) Syracuse[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "774",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2084|Syracuse|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "774",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5858 E Molloy Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5858 E Molloy Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 114-A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 114-A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Syracuse, NY 13211[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Syracuse|NY|13211",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](315) 455-7336[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1284",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 455-7336",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local2084@aol.com\" target=\"_blank\">local2084@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "718",
+    "editFieldNames": "Email",
+    "editFieldValues": "local2084@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Steven E. Merrill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2362",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|E.|Merrill||{ \"MemberID\" : \"2362\",\"luid\": \"774\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6174 Lonsdale Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chittenango\",\"state\":\"NY\",\"zip\":\"13037\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Shawn K. Kelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2364",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|K.|Kelly||{ \"MemberID\" : \"2364\",\"luid\": \"774\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"226 Marguerite Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Syracuse\",\"state\":\"NY\",\"zip\":\"13207\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Tyler M. Wolfanger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2363",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler|M.|Wolfanger||{ \"MemberID\" : \"2363\",\"luid\": \"774\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1940 US Route 11\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hastings\",\"state\":\"NY\",\"zip\":\"13076\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Michael D. Morey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2361",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Morey||{ \"MemberID\" : \"2361\",\"luid\": \"774\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"8053 Bamm Hollow Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clay\",\"state\":\"NY\",\"zip\":\"13041\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Mattydale American Legion Post 1832, 2718 Lemoyne Avenue, Mattydale, 1st Thursday, 1 pm & 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "774",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Mattydale American Legion Post 1832, 2718 Lemoyne Avenue, Mattydale, 1st Thursday, 1 pm & 3 pm",
+    "datatype": "txt"
+  }
+]

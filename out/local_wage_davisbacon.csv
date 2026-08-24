@@ -1,0 +1,246 @@
+local_union_id,lu_number,charter_city,population,journeyman_base_low,journeyman_base_high,fringe_low,fringe_high,total_low,total_high,wd_effective_date_newest,wd_effective_date_oldest,county_match_count,join_method,is_union_rate,wd_numbers,confidence,flags,range_basis,alternate_classifications,selected_classification_code,selected_classification_text,apprentice_start_pct,apprentice_top_pct,apprentice_start_hourly_low,apprentice_start_hourly_high,apprentice_pay_is_derived,scraped_apprentice_hourly,apprentice_comparison,source_wd_number,source_wd_modification
+3,3,New York,9878546,62.00,62.00,65.81,65.81,127.81,127.81,2026-08-06,2026-08-06,15,both,true,NY20260003/5,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0003-001,"ELECTRICIAN PAID HOLIDAYS: A. NEW YEARS DAY, MARTIN LUTHER KING, JR.'S BIRTHDAY, WASHINGTON'S BIRTHDAY, MEMORIAL DAY, INDEPENDENCE DAY, LABOR DAY, COLUMBUS DAY, ELECTION DAY, THANKSGIVING DAY, THE DAY AFTER THANKSGIVING DAY, AND CHRISTMAS DAY",,,,,false,,,NY20260003,5
+11,11,Los Angeles,9757179,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+20,20,Dallas-Fort Worth,8760827,,,,,,,,,71,,false,,low,survey_only_excluded_from_display,,,,,50.00,80.00,,,false,20.33,,,
+26,26,Washington,8223617,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+341,613,Atlanta,7903227,38.65,38.65,12.75,12.75,51.40,51.40,2026-05-18,2026-05-18,1,both,true,GA20260304/2,high,,single_classification,,ELEC0613-004,ELECTRICIAN (EXCLUDES LOW VOLTAGE WIRING),,,,,false,,,GA20260304,2
+391,716,Houston,7353507,38.50,38.50,10.71,10.71,49.21,49.21,2026-01-02,2026-01-02,63,both,true,TX20260229/0;TX20260233/0;TX20260247/0;TX20260253/0;TX20260259/0;TX20260262/0;TX20260268/0;TX20260272/0,high,,geographic,,ELEC0716-005,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms),,,,,false,,,TX20260229,0
+354,640,Phoenix,5616018,,,,,,,,,0,,false,,none,,,,,,90.00,90.00,,,false,,,,
+472,915,Tampa,5385522,,,,,,,,,1,,false,,none,,,,,,,,,,false,,,,
+225,379,Charlotte,5187923,32.31,32.31,13.66,13.66,45.97,45.97,2026-05-18,2026-05-18,4,both,true,NC20260005/1;NC20260007/1;NC20260008/1,high,,geographic,,ELEC0379-001,ELECTRICIAN,,,,,false,,,NC20260005,1
+101,134,Chicago,5130791,57.75,57.75,42.89,42.89,100.64,100.64,2026-05-18,2026-05-18,1,both,true,IL20260009/2,high,,single_classification,,ELEC0134-001,ELECTRICIAN,40.00,40.00,23.10,23.10,true,21.46,agree_within_15pct,IL20260009,2
+397,728,Ft. Lauderdale,4335723,40.25,40.25,15.20,15.20,55.45,55.45,2026-05-18,2026-05-18,1,both,true,FL20260012/1,high,,single_classification,,ELEC0728-002,ELECTRICIAN,,,,,false,,,FL20260012,1
+337,606,Orlando,4272325,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+57,68,Denver,4262008,,,,,,,,,0,,false,,none,,,,,,,,,,false,22.70,,,
+53,58,Detroit,4250509,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+208,349,Miami,4131766,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+80,103,Boston,3876507,66.17,66.17,37.08,37.08,103.25,103.25,2026-05-18,2026-05-18,25,both,true,MA20260001/1,high,local_code_county_base_disagree_over_10pct,same_geography_multiple_classifications,,ELEC0103-002,"ELECTRICIAN (ESSEX (AMESBURY, ANDOVER, BOXFORD, GEORGETOWN, GROVELAND, HAVERHILL, LAWRENCE, MERRIMAC, METHUEN, NEWBURY, NEWBURYPORT, NORTH ANDOVER, ROWLEY, SALISBURY, WEST NEWBURY); MIDDLESEX (BEDFORD, BILLERICA, BOXBORO, BURLINGTON, CARLISLE, CHELMSFORD, DRACUT, DUNSTABLE LITTLETON, LOWELL, NORTH READING, TEWKSBURY, TYNGSBORO, WESTFORD, WILMINGTON))",,,,,false,,,MA20260001,1
+313,553,Raleigh,3613051,31.07,31.07,13.36,13.36,44.43,44.43,2026-05-18,2026-05-18,3,both,true,NC20260003/1;NC20260011/1;NC20260012/1,high,,geographic,,ELEC0553-001,ELECTRICIAN,,,,,false,,,NC20260003,1
+213,354,Salt Lake City,3503613,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+24,24,Baltimore,3492142,,,,,,,,,0,,false,,none,,,,,,,,,,false,23.63,,,
+319,569,San Diego,3480523,58.95,58.95,18.85,18.85,77.80,77.80,2026-05-18,2026-05-18,3,both,true,CA20260001/3,high,,single_classification,"ELEC0569-002: ELECTRICIANS (ELECTRICAL CONTRACTS OF $500,000 AND OVER): ELECTRICIAN | ELEC0569-002: ELECTRICIANS (ELECTRICAL CONTRACTS OF $500,000 OR LESS): ELECTRICIAN",ELEC0569-001,"ELECTRICIAN: (ALL OTHER WORK, INCLUDING 4 STORIES RESIDENTIAL)",,,,,false,,,CA20260001,3
+223,369,Louisville,3427692,,,,,,,,,0,,false,,none,,,,,,50.00,50.00,,,false,17.69,,,
+203,340,Sacramento,3217734,,,,,,,,,54,,false,,none,,,,,,,,,,false,,,,
+257,441,Santa Ana,3170435,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+5,5,Pittsburgh,3086704,49.11,49.11,36.79,36.79,85.90,85.90,2026-05-18,2026-05-18,1,both,true,PA20260001/5,high,,single_classification,,ELEC0005-007,ELECTRICIAN,,,,,false,,,PA20260001,5
+54,60,San Antonio,3083960,37.45,37.45,12.19,12.19,49.64,49.64,2026-01-02,2026-01-02,71,both,true,TX20260231/0;TX20260240/0;TX20260251/0;TX20260258/0;TX20260284/0;TX20260287/0;TX20260290/0,high,,geographic,,ELEC0060-004,ELECTRICIAN (Excludes Low Voltage Wiring),,,,,false,17.05,,TX20260231,0
+251,429,Nashville,2978189,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+297,520,Austin,2941487,32.00,32.00,9.29,9.29,41.29,41.29,2026-01-02,2026-01-02,46,both,true,TX20260275/0;TX20260286/0,high,,geographic,,ELEC0520-003,ELECTRICIAN Excludes Low Voltage Wiring.$ 36.50 13.25%+5.85 Low Voltage Wiring Only,,,,,false,28.88,,TX20260275,0
+25,25,Long Island,2928347,64.55,64.55,47.40,47.40,111.95,111.95,2026-05-18,2026-05-18,2,both,true,NY20260012/2,high,,single_classification,,ELEC0025-001,ELECTRICIAN,,,,,false,,,NY20260012,2
+46,48,Portland,2768124,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+44,46,Seattle,2733533,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+79,102,Paterson,2668452,,,,,,,,,10,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+1,1,St. Louis,2594533,49.29,49.29,33.64,33.64,82.93,82.93,2026-05-18,2026-05-18,2,both,true,MO20260004/1;MO20260011/1,high,,geographic,,ELEC0001-003,ELECTRICIAN,,,,,false,,,MO20260004,1
+115,164,Jersey City,2558178,62.90,62.90,39.31,39.31,102.21,102.21,2026-01-02,2026-01-02,3,both,true,NJ20260026/0;NJ20260031/0;NJ20260033/0,high,,geographic,,ELEC0164-006,Electrician,,,,,false,,,NJ20260026,0
+256,440,Riverside,2529933,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+331,595,Dublin,2511673,76.00,76.00,49.07,49.07,125.07,125.07,2026-07-14,2026-07-14,30,both,true,CA20260018/6,high,,single_classification,,ELEC0595-001,ELECTRICIAN (ALAMEDA COUNTY),,,,,false,,,CA20260018,6
+553,1205,Gainesville,2493847,33.50,33.50,13.85,13.85,47.35,47.35,2026-05-18,2026-05-18,7,both,true,FL20260006/1;FL20260007/1;FL20260008/1;FL20260010/1;FL20260011/1,high,,geographic,,ELEC1205-004,ELECTRICIAN,,,,,false,,,FL20260006,1
+215,357,Las Vegas,2442409,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+94,124,Kansas City,2436978,54.01,54.01,27.85,27.85,81.86,81.86,2026-05-18,2026-05-18,2,both,true,MO20260007/2;MO20260010/2,high,,geographic,,ELEC0124-014,ELECTRICIAN,,,,,false,,,MO20260007,2
+279,481,Indianapolis,2405065,45.45,45.45,28.19,28.19,73.64,73.64,2026-01-30,2026-01-30,77,both,true,IN20260002/1,high,,single_classification,"ELEC0481-005: BARTHOLOMEW, BOONE, HAMILTON, HANCOCK, HENDRICKS, JOHNSON, MADISON, MARION, MONTGOMERY, MORGAN AND SHELBY COUNTIES Rates Fringes ELECTRICIAN",ELEC0481-005,"BARTHOLOMEW, BOONE, HAMILTON, HANCOCK, HENDRICKS, JOHNSON, MADISON, MARION, MONTGOMERY, MORGAN AND SHELBY COUNTIES Rates Fringes ELECTRICIAN",,,,,false,20.85,,IN20260002,1
+534,1141,Oklahoma City,2343992,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+177,292,Minneapolis,2277751,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+276,477,San Bernardino,2245757,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+76,98,Philadelphia,2234345,70.97,70.97,46.13,46.13,117.10,117.10,2026-05-18,2026-05-18,1,both,true,PA20260003/1,high,,single_classification,,ELEC0098-003,ELECTRICIAN,,,,,false,,,PA20260003,1
+375,683,Columbus,2109117,,,,,,,,,9,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+102,136,Birmingham,2013161,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+204,342,Winston-Salem,2003754,31.00,31.00,14.41,14.41,45.41,45.41,2026-05-18,2026-05-18,2,both,true,NC20260004/1;NC20260006/1,high,,geographic,,ELEC0342-003,ELECTRICIAN,,,,,false,,,NC20260004,1
+201,332,San Jose,1926325,91.03,91.03,49.05,49.05,140.08,140.08,2026-07-14,2026-07-14,13,both,true,CA20260018/6,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0332-001,"ELECTRICIAN (FOOTNOTES: WORK UNDER COMPRESSED AIR OR WHERE GAS MASKS ARE REQUIRED, ORWORK ON LADDERS, SCAFFOLDS, STACKS, """"BOSUN'S CHAIRS,"""" OR OTHER STRUCTURES AND WHERE THE WORKERS ARE NOT PROTECTED BY PERMANENT GUARD RAILS AT A DISTANCE OF 40 TO 60 FT. FROM THE GROUND OR SUPPORTING STRUCTURES: TO BE PAID ONE AND ONE-HALF TIMES THE STRAIGHT-TIME RATE OF PAY. WORK ON STRUCTURES OF 60 FT. OR OVER (AS DESCRIBED ABOVE): TO BE PAID TWICE THE STRAIGHT-TIME RATE OF PAY.) (SANTA CLARA COUNTY)",,,,,false,30.00,,CA20260018,6
+284,494,Milwaukee,1856989,45.20,45.20,25.27,25.27,70.47,70.47,2026-05-18,2026-05-18,18,both,true,WI20260011/1,high,,single_classification,,ELEC0494-010,"ELECTRICIAN (DODGE COUNTY (AREA EAST OF HWY 26 INCLUDING ALL OF CHESTER TOWNSHIP, BUT EXCLUDING EMMET TOWNSHIP), FOND DU LAC (EXCEPT WAUPUN), AND MANITOWOC (SCHLESWIG) COUNTIES)",,,,,false,,,WI20260011,1
+78,100,Fresno,1828016,50.00,50.00,30.15,30.15,80.15,80.15,2026-07-14,2026-07-14,39,both,true,CA20260018/6,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0100-002,"ELECTRICIAN (FRESNO, KINGS, AND MADERA COUNTIES)",,,,,false,,,CA20260018,6
+339,611,Albuquerque,1807815,,,,,,,,,0,,false,,none,,,,,,,,,,false,23.21,,,
+118,177,Jacksonville,1791176,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+86,110,St. Paul,1789663,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+210,351,Folsom,1773172,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+275,474,Memphis,1686584,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+133,212,Cincinnati,1634066,38.05,38.05,22.97,22.97,61.02,61.02,2026-01-02,2026-01-02,3,both,true,OH20260070/0;OH20260073/0;OH20260082/0,high,,geographic,,ELEC0212-001,ELECTRICIAN (Excludes Low Voltage Wiring),,,,,false,,,OH20260070,0
+121,191,Everett,1613631,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+328,584,Tulsa,1587403,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+320,570,Tucson,1569077,,,,,,,,,0,,false,,none,,,,,,55.00,55.00,,,false,,,,
+367,666,Richmond,1545425,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+283,490,Dover,1541118,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+169,275,Muskegon,1508604,,,,,,,,,0,,false,,none,,,,,,65.00,65.00,,,false,37.80,,,
+63,76,Tacoma,1502901,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+219,363,New City,1457876,,,,,,,,,1,,false,,none,,,,,,,,,,false,,,,
+334,602,Amarillo,1451558,26.07,29.41,12.63,12.73,38.70,42.14,2026-01-02,2026-01-02,196,both,true,TX20260228/0;TX20260237/0;TX20260265/0;TX20260266/0;TX20260280/0,high,,geographic,,ELEC0602-007,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms),50.00,50.00,13.04,14.71,true,,,TX20260228,0
+544,1186,Honolulu,1446065,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+65,80,Norfolk,1439588,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+139,223,Brockton,1377532,50.02,50.02,31.05,31.05,81.07,81.07,2026-05-18,2026-05-18,31,both,true,MA20260001/1;MA20260012/1,high,local_code_county_base_disagree_over_10pct,geographic,,ELEC0223-005,"ELECTRICIAN (BARNSTABLE; BRISTOL (EXCEPT ATTLEBORO, NORTH ATTLEBORO, SEEKONK); DUKES; NANTUCKET AND NORFOLK (AVON, HALBROOK, PLAINVILLE, RANDOLPH, STOUGHTON))",40.00,40.00,20.01,20.01,true,,,MA20260001,1
+36,38,Cleveland,1349087,46.63,46.63,24.92,24.92,71.55,71.55,2026-05-18,2026-01-02,7,both,true,OH20260074/1;OH20260080/0;OH20260087/0,high,,geographic,,ELEC0038-006,ELECTRICIAN: INCLUDING HVAC/TEMPERATURE CONTROLS AND ALARM INSTALLATION FOOTNOTES; A. 6 PAID HOLIDAYS: NEW YEAR'S DAY; MEMORIAL DAY; JULY 4TH; LABOR DAY; THANKSGIVING DAY; & CHRISTMAS DAY B. 1 WEEK'S PAID VACATION FOR 1 YEAR'S SERVICE; 2 WEEKS' PAID VACATION FOR 2 OR MORE YEARS' SERVICE,,,,,false,,,OH20260074,1
+171,280,Salem,1335738,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+236,400,Asbury Park,1313954,,,,,,,,,0,,false,,none,,,,,,,,,,false,17.31,,,
+293,508,Savannah,1301091,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+116,175,Chattanooga,1293730,,,,,,,,,0,,false,,none,,,,,,,,,,false,16.37,,,
+8,8,Toledo,1284776,13.02,48.40,14.78,25.24,27.80,73.64,2026-01-02,2026-01-02,18,both,true,OH20260039/0;OH20260042/0;OH20260043/0;OH20260052/0;OH20260054/0;OH20260062/0;OH20260066/0;OH20260079/0;OH20260088/0;OH20260095/0;OH20260105/0,high,base_outside_plausibility_band;total_outside_plausibility_band;inside_wireman_base_range_over_1_3x,geographic,,ELEC0008-003,ELECTRICIAN,,,,,false,,,OH20260039,0
+179,295,Little Rock,1259461,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+147,236,Albany,1244598,48.00,48.00,32.09,32.09,80.09,80.09,2026-05-18,2026-05-18,10,both,true,NY20260002/2,high,,single_classification,,ELEC0236-001,"ELECTRICIAN (ALBANY; COLUMBIA; FULTON; GREENE (THAT PORTION NORTH OF A LINE FOLLOWING THE SOUTH LIMITS OF THE CITY OF CATSKILL); MONTGOMERY; RENSSELAER, SARATOGA; SCHENECTADY; SCHOHARIE; WASHINGTON)",,,,,false,,,NY20260002,2
+105,143,Harrisburg,1235992,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+99,130,New Orleans,1233922,,,,,,,,,0,,false,,none,,,,,,,,,,false,18.00,,,
+327,583,El Paso,1210567,29.50,29.50,9.40,9.40,38.90,38.90,2026-01-02,2026-01-02,11,both,true,TX20260245/0,high,,single_classification,,ELEC0583-001,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms/HVAC Temperature Controls),,,,,false,,,TX20260245,0
+77,99,Providence,1200597,56.11,56.11,24.74,24.74,80.85,80.85,2026-05-18,2026-05-18,6,both,true,MA20260001/1,high,,single_classification,,ELEC0099-001,"ELECTRICIAN (BRISTOL (ATTLEBORO, NORTH ATTLEBORO, SEEKONK))",,,,,false,,,MA20260001,1
+22,22,Omaha,1194060,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+207,347,Des Moines,1172795,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+182,302,Martinez,1172607,66.26,66.26,35.84,35.84,102.10,102.10,2026-07-14,2026-07-14,13,both,true,CA20260018/6,high,,single_classification,,ELEC0302-001,ELECTRICIAN (CONTRA COSTA COUNTY),,,,,false,21.27,,CA20260018,6
+282,488,Bridgeport,1166805,,,,,,,,,0,,false,,none,,,,,,,,,,false,20.00,,,
+191,313,Wilmington,1158222,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+33,35,Hartford,1147967,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+382,700,Ft. Smith,1122196,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+413,760,Knoxville,1117408,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+62,73,Spokane,1104876,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+67,82,Dayton,1084052,38.00,38.00,22.49,22.49,60.49,60.49,2026-01-02,2026-01-02,7,both,true,OH20260081/0;OH20260092/0;OH20260093/0;OH20260098/0,high,local_code_county_base_disagree_over_10pct,geographic,,ELEC0082-004,ELECTRICIAN,,,,,false,18.12,,OH20260081,0
+278,480,Jackson,1074199,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+315,558,Sheffield,1069438,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+403,743,Reading,1069018,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+312,551,Santa Rosa,1058103,59.17,59.17,32.04,32.04,91.21,91.21,2026-05-18,2026-05-18,14,both,true,CA20260007/4,high,,single_classification,,ELEC0551-004,ELECTRICIAN MARIN AND SONOMA COUNTIES,,,,,false,,,CA20260007,4
+41,43,Syracuse,1045550,50.50,50.50,35.03,35.03,85.53,85.53,2026-05-18,2026-05-18,1,both,true,NY20260004/2,high,,single_classification,,ELEC0043-003,"ELECTRICIAN CHENANGO (TWPS OF COLUMBUS, NEW BERLIN & SHERBURNE): HEAVY AND HIGHWAY",,,,,false,,,NY20260004,2
+117,176,Joliet,1039167,51.60,52.00,45.00,45.01,96.60,97.01,2026-05-18,2026-05-18,83,both,true,IL20260006/1;IL20260008/2,high,,geographic,,ELEC0176-007,ELECTRICIAN (BUILDING),,,,,false,,,IL20260006,1
+39,41,Buffalo,1025429,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+149,238,Asheville,994573,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+237,401,Reno,971998,47.04,61.56,21.84,32.04,68.88,92.69,2026-05-18,2026-05-18,15,county,true,CA20260007/4,medium,inside_wireman_base_range_over_1_3x,same_geography_multiple_classifications,,ELEC0180-001,ELECTRICIAN NAPA AND SOLANO COUNTIES,,,,,false,,,CA20260007,4
+71,90,New Haven,966269,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+176,291,Boise,964897,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+224,375,Allentown,961463,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+69,86,Rochester,961429,44.30,44.30,30.20,30.20,74.50,74.50,2026-05-18,2026-05-18,1,both,true,NY20260010/2,high,,single_classification,,ELEC0086-002,ELECTRICIAN,,,,,false,,,NY20260010,2
+74,96,Worcester,955883,48.16,48.16,36.20,36.20,84.36,84.36,2026-05-18,2026-05-18,6,both,true,MA20260001/1,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0096-001,"ELECTRICIAN (MIDDLESEX (ASHBY, ASHLAND, AYER, FT. DEVENS, GROTON, HOPKINTON, HUDSON, MARLBORO, PEPPERELL, SHIRLEY, STOW, TOWNSEND))",,,,,false,,,MA20260001,1
+14,14,Eau Claire,945482,,,,,,,,,147,,false,,none,,,,,,,,,,false,,,,
+501,995,Baton Rouge,943471,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+383,701,Lisle,937142,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+163,265,Lincoln,932878,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+376,684,Modesto,924687,45.28,52.07,28.01,28.21,73.29,80.28,2026-07-14,2026-07-14,52,both,true,CA20260018/6,high,local_code_county_base_disagree_over_10pct,same_geography_multiple_classifications,"ELEC0684-004: COMMUNICATIONS SYSTEM: INSTALLER (SCOPE OF WORK: INCLUDING ANY DATA SYSTEM WHOSE ONLY FUNCTION IS TO TRANSMIT OR RECEIVE INFORMATION; EXCLUDING ALL OTHER DATA SYSTEMS OR MULTIPLE SYSTEMS WHICH INCLUDE CONTROL FUNCTION OR POWER SUPPLY; INCLUSION OR EXCLUSION OF TERMINATIONS AND TESTINGS OF CONDUCTORS DETERMINED BY THEIR FUNCTION; EXCLUDING FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING) AND WHEN PERFORMED ON NEW OR MAJOR REMODEL BUILDING PROJECTS OR JOBS FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN CONDUIT; EXCLUDING INSTALLATION OF RACEWAY SYSTEMS, LINE VOLTAGE WORK, INDUSTRIAL WORK, LIFE-SAFETY SYSTEMS (ALL BUILDINGS HAVING FLOORS LOCATED MORE THAN 75' ABOVE THE LOWEST FLOOR LEVEL HAVING BUILDING ACCESS); EXCLUDING ENERGY MANAGEMENT SYSTEMS.) (FOOTNOTE: FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING), ON PROJECTS WHICH INVOLVE NEW OR MAJOR REMODEL BUILDING CONSTRUCTION, FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN THE CONDUIT, SHALL BE PERFORMED BY THE INSIDE ELECTRICIAN.) (MARIPOSA, MERCED, STANISLAUS AND TUOLUMNE COUNTIES) | ELEC0684-004: COMMUNICATIONS SYSTEM: TECHNICIAN (SCOPE OF WORK: INCLUDING ANY DATA SYSTEM WHOSE ONLY FUNCTION IS TO TRANSMIT OR RECEIVE INFORMATION; EXCLUDING ALL OTHER DATA SYSTEMS OR MULTIPLE SYSTEMS WHICH INCLUDE CONTROL FUNCTION OR POWER SUPPLY; INCLUSION OR EXCLUSION OF TERMINATIONS AND TESTINGS OF CONDUCTORS DETERMINED BY THEIR FUNCTION; EXCLUDING FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING) AND WHEN PERFORMED ON NEW OR MAJOR REMODEL BUILDING PROJECTS OR JOBS FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN CONDUIT; EXCLUDING INSTALLATION OF RACEWAY SYSTEMS, LINE VOLTAGE WORK, INDUSTRIAL WORK, LIFE-SAFETY SYSTEMS (ALL BUILDINGS HAVING FLOORS LOCATED MORE THAN 75' ABOVE THE LOWEST FLOOR LEVEL HAVING BUILDING ACCESS); EXCLUDING ENERGY MANAGEMENT SYSTEMS.) (FOOTNOTE: FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING), ON PROJECTS WHICH INVOLVE NEW OR MAJOR REMODEL BUILDING CONSTRUCTION, FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN THE CONDUIT, SHALL BE PERFORMED BY THE INSIDE ELECTRICIAN.) (MARIPOSA, MERCED, STANISLAUS AND TUOLUMNE COUNTIES)",ELEC0684-004,"COMMUNICATIONS SYSTEM: INSTALLER (SCOPE OF WORK: INCLUDING ANY DATA SYSTEM WHOSE ONLY FUNCTION IS TO TRANSMIT OR RECEIVE INFORMATION; EXCLUDING ALL OTHER DATA SYSTEMS OR MULTIPLE SYSTEMS WHICH INCLUDE CONTROL FUNCTION OR POWER SUPPLY; INCLUSION OR EXCLUSION OF TERMINATIONS AND TESTINGS OF CONDUCTORS DETERMINED BY THEIR FUNCTION; EXCLUDING FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING) AND WHEN PERFORMED ON NEW OR MAJOR REMODEL BUILDING PROJECTS OR JOBS FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN CONDUIT; EXCLUDING INSTALLATION OF RACEWAY SYSTEMS, LINE VOLTAGE WORK, INDUSTRIAL WORK, LIFE-SAFETY SYSTEMS (ALL BUILDINGS HAVING FLOORS LOCATED MORE THAN 75' ABOVE THE LOWEST FLOOR LEVEL HAVING BUILDING ACCESS); EXCLUDING ENERGY MANAGEMENT SYSTEMS.) (FOOTNOTE: FIRE ALARM WORK WHEN INSTALLED IN RACEWAYS (INCLUDING WIRE AND CABLE PULLING), ON PROJECTS WHICH INVOLVE NEW OR MAJOR REMODEL BUILDING CONSTRUCTION, FOR WHICH THE CONDUCTORS FOR THE FIRE ALARM SYSTEM ARE INSTALLED IN THE CONDUIT, SHALL BE PERFORMED BY THE INSIDE ELECTRICIAN.) (MARIPOSA, MERCED, STANISLAUS AND TUOLUMNE COUNTIES)",,,,,false,,,CA20260018,6
+250,428,Bakersfield,922529,,,,,,,,,0,,false,,none,,,,,,,,,,false,26.39,,,
+299,527,Galveston,917088,33.73,33.73,13.41,13.41,47.14,47.14,2026-01-02,2026-01-02,17,both,true,TX20260248/0,high,,single_classification,,ELEC0527-002,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms),,,,,false,,,TX20260248,0
+258,443,Montgomery,914496,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+267,456,New Brunswick,907992,55.85,61.40,39.14,39.79,95.64,100.54,2026-01-02,2026-01-02,3,both,true,NJ20260036/0;NJ20260042/0,high,,geographic,,ELEC0456-008,Electrician,,,,,false,,,NJ20260036,0
+186,306,Akron,893920,42.55,42.55,23.18,23.18,65.73,65.73,2026-01-02,2026-01-02,9,both,true,OH20260100/0,high,,single_classification,,ELEC0306-009,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of HVAC/Temperature Controls),,,,,false,,,OH20260100,0
+167,271,Wichita,884958,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+88,112,Kennewick,870844,,,,,,,,,5,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+89,113,Colorado Springs,839722,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+7,7,Springfield,837959,52.16,52.16,29.56,29.56,81.72,81.72,2026-05-18,2026-05-18,8,both,true,MA20260003/1,high,,same_geography_multiple_classifications,,ELEC0007-002,"ELECTRICIAN (HAMPDEN (EXCEPT CHESTER & HOLYOKE); HAMPSHIRE (BELCHERTOWN, WARE))",,,,,false,,,MA20260003,1
+481,952,Ventura,835427,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+6,6,San Francisco,827526,91.25,91.25,48.05,48.05,139.30,139.30,2026-07-14,2026-07-14,13,both,true,CA20260018/6,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0006-007,ELECTRICIAN (SAN FRANCISCO COUNTY),,,,,false,,,CA20260018,6
+110,153,South Bend,812566,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+317,567,Portland,811094,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+264,453,Springfield,809153,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+112,159,Madison,796857,,,,,,,,,30,,false,,none,,,,,,40.00,85.00,,,false,20.08,,,
+475,934,Kingsport,791065,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+291,505,Mobile,789955,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+452,861,Lake Charles,787778,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+574,1316,Macon,774118,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+274,466,Charleston,773143,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+165,269,Trenton,771122,,,,,,,,,3,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+146,234,Castroville,767816,70.41,77.45,33.76,33.97,104.17,111.42,2026-07-14,2026-07-14,39,both,true,CA20260018/6,high,,geographic,,ELEC0234-001,"ELECTRICIAN ZONE A : ALL OF SANTA CRUZ, MONTEREY, AND SAN BENITO COUNTIES WITHIN 25 AIR MILES OF HIGHWAY 1 AND DOLAN ROAD IN MOSS LANDING, AND AN AREA EXTENDING 5 MILES EAST AND WEST OF HIGHWAY 101 SOUTH TO THE SAN LUIS OBISPO COUNTY LINE (MONTEREY, SAN BENITO AND SANTA CRUZ COUNTIES)",45.00,45.00,31.68,34.85,true,29.32,agree_within_15pct,CA20260018,6
+205,343,Le Sueur,765174,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+141,226,Topeka,759467,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+372,676,Pensacola,759411,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+61,72,Waco,743337,36.50,36.50,10.40,10.40,46.90,46.90,2026-01-02,2026-01-02,43,both,true,TX20260260/0,high,,single_classification,,ELEC0072-002,ELECTRICIAN,,,,,false,,,TX20260260,0
+343,617,San Mateo,742893,86.00,86.00,51.07,51.07,137.07,137.07,2026-07-14,2026-07-14,13,both,true,CA20260018/6,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0617-001,ELECTRICIAN (SAN MATEO COUNTY),35.00,35.00,30.10,30.10,true,,,CA20260018,6
+277,479,Beaumont,733062,33.76,33.76,13.56,13.56,47.32,47.32,2026-01-02,2026-01-02,41,both,true,TX20260252/0;TX20260256/0;TX20260263/0,high,,geographic,,ELEC0479-005,ELECTRICIAN,,,,,false,20.51,,TX20260252,0
+636,1579,Augusta,731527,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+596,1426,Grand Forks,719187,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+108,150,Waukegan,718604,51.87,51.87,51.77,51.77,103.64,103.64,2026-05-18,2026-05-18,4,both,true,IL20260008/2,high,,single_classification,,ELEC0150-002,ELECTRICIAN: BUILDING (LAKE COUNTY),,,,,false,12.97,,IL20260008,2
+467,903,Gulfport,717020,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+628,1547,Anchorage,712999,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+170,278,Corpus Christi,709797,30.80,30.80,8.97,8.97,39.77,39.77,2026-01-02,2026-01-02,45,both,true,TX20260277/0;TX20260288/0,high,,geographic,,ELEC0278-002,ELECTRICIAN,,,,,false,,,TX20260277,0
+185,305,Fort Wayne,704631,40.18,40.18,23.18,23.18,63.36,63.36,2026-01-30,2026-01-30,56,both,true,IN20260002/1,high,,single_classification,"ELEC0305-002: ADAMS, ALLEN, DE KALB, HUNTINGTON, NOBLE, STEUBEN, WELLS, and WHITLEY COUNTIES Rates Fringes ELECTRICIAN",ELEC0305-002,"ADAMS, ALLEN, DE KALB, HUNTINGTON, NOBLE, STEUBEN, WELLS, and WHITLEY COUNTIES Rates Fringes ELECTRICIAN",,,,,false,,,IN20260002,1
+262,449,Pocatello,672298,,,,,,,,,0,,false,,none,,,,,,60.00,90.00,,,false,,,,
+249,426,Sioux Falls,670780,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+157,252,Ann Arbor,657195,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+180,300,Montpelier,648493,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+220,364,Rockford,607246,62.61,62.61,43.96,43.96,106.57,106.57,2026-05-21,2026-05-21,88,both,true,IL20260001/5,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0364-001,"ELECTRICIAN (BOONE, CARROLL (CHERRY GROVE, SHANNON, ROCK CREEK, LINA, WYSOX & ELKHORN GROVE TWPS), DEKALB (FRANKLIN, KINGSTON, GENOA, SOUTH GROVE, MANSFIELD, DEKALB, CORLAND, MILAN, ALTON PIERCE, SHABBONA MAYFIELD, SYCAMORE, MALTA, PAW PAW, SQUAW GROVE, VICTOR, & SOMONAUK TWPS), JO DAVIESS (WARREN & RUSH), LEE, OGLE, STEPHENSON, WHITESIDE (GENESEE, JORDAN, HOPKINS, STERLING, HUME, MONTGOMERY, TAMPICO, & HAHNAMAN TWPS), AND WINNEBAGO COUNTIES)",,,,,false,,,IL20260001,5
+119,180,Vallejo,587828,61.56,61.56,31.13,31.13,92.69,92.69,2026-05-18,2026-05-18,6,both,true,CA20260007/4,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0180-001,ELECTRICIAN NAPA AND SOLANO COUNTIES,,,,,false,,,CA20260007,4
+160,257,Jefferson City,580909,40.50,40.50,23.26,23.26,63.76,63.76,2026-05-18,2026-05-18,4,both,true,MO20260002/1;MO20260009/2,high,,geographic,,ELEC0257-005,ELECTRICIAN (WEST OF HIGHWAY 19),,,,,false,,,MO20260002,1
+193,317,Huntington,579997,41.15,41.15,29.35,29.35,70.50,70.50,2026-01-02,2026-01-02,2,both,true,OH20260041/0;OH20260085/0,high,,geographic,,ELEC0317-001,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms),,,,,false,,,OH20260041,0
+91,117,Elgin,576184,59.11,59.11,42.23,42.23,101.34,101.34,2026-05-18,2026-05-18,7,both,true,IL20260008/2,high,,single_classification,,ELEC0117-002,ELECTRICIAN: BUILDING (KANE (NORTHERN HALF) AND MCHENRY COUNTIES),,,,,false,,,IL20260008,2
+306,540,Canton,576010,39.86,39.86,29.19,29.19,69.05,69.05,2026-01-02,2026-01-02,10,both,true,OH20260106/0,high,,single_classification,,ELEC0540-008,ELECTRICIAN (Excludes Low Voltage Wiring),45.00,70.00,17.94,17.94,true,,,OH20260106,0
+32,34,Peoria,571109,39.50,39.50,24.24,24.24,63.74,63.74,2026-05-18,2026-05-18,79,both,true,IL20260003/1,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0034-004,ELECTRICIAN (BUILDING),,,,,false,,,IL20260003,1
+188,309,Collinsville,559486,52.41,52.41,30.27,30.27,82.68,82.68,2026-05-18,2026-05-18,76,both,true,IL20260007/2,high,,single_classification,,ELEC0309-005,ELECTRICIAN: BUILDING (MADISON (REMAINDER) AND ST. CLAIR COUNTIES),,,,,false,,,IL20260007,2
+479,948,Flint,558668,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+363,659,Medford,553272,,,,,,,,,4,,false,,none,,,,,,,,,,false,,,,
+409,756,Daytona Beach,549247,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+187,307,Cumberland,543926,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+579,1340,Newport News,538237,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+111,158,Green Bay,530871,,,,,,,,,28,,false,,none,,,,,,,,,,false,,,,
+16,16,Evansville,530567,,,,,,,,,6,,false,,none,,,,,,,,,,false,,,,
+357,648,Hamilton,527572,38.00,38.00,24.16,24.16,62.16,62.16,2026-01-02,2026-01-02,2,both,true,OH20260071/0;OH20260103/0,high,,geographic,,ELEC0648-002,ELECTRICIAN (Excludes Low Voltage Wiring),,,,,false,,,OH20260071,0
+361,654,Chester,519153,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+381,697,Gary and Hammond,517086,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+100,131,Kalamazoo,516592,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+106,145,Rock Island,510968,46.00,46.00,28.56,28.56,74.56,74.56,2026-05-21,2026-05-21,70,both,true,IL20260001/5,high,,single_classification,,ELEC0145-002,"ELECTRICIAN (CARROLL (CHADWICK, MT. CARROLL, SAVANNA AND THOMPSON TWPS), HENRY (EXCEPT ANNAWAN, BURNS, CAMBRIDGE, GALVA, KEWANEE, WELLER, AND WESTERFIELD TWPS), JO DAVIESS (SAVANNA ORDANANCE DEPOT), MERCER (EXCEPT OHIO GROVE, NORTH HENDERSON, & SUEZ), WHITESIDE (REMAINDER), AND ROCK ISLAND COUNTIES)",,,,,false,,,IL20260001,5
+395,725,Terre Haute,504277,,,,,,,,,48,,false,,none,,,,,,,,,,false,,,,
+325,577,Appleton,497625,,,,,,,,,28,,false,,none,,,,,,,,,,false,,,,
+366,665,Lansing,484664,,,,,,,,,0,,false,,none,,,,,,,,,,false,16.00,,,
+66,81,Scranton,483870,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+152,242,Duluth,480123,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+384,702,West Frankfort,474072,52.14,52.14,29.14,29.14,81.28,81.28,2026-05-18,2026-05-18,209,both,true,IL20260002/4,high,,single_classification,,ELEC0702-001,"ELECTRICIAN (ALEXANDER, CLAY, EDWARDS, EFFINGHAM (EXCLUDING BANNER, BISHOP, DOUGLAS, LIBERTY, LUCAS, MOCCASIN, ST. FRANCIS, SUMMIT AND TEULOPOLIS TWPS), FAYETTE (EXCLUDING HURRICANE, S. HURRICANE, RAMSEY, BOWLING GREEN, CARSON AND LOUDON TWPS), FRANKLIN, GALLATIN, HAMILTON, HARDIN, JACKSON, JEFFERSON, JOHNSON, MARION, MASSAC, PERRY, POPE, PULASKI, SALINE, UNION, WAYNE, WHITE, AND WILLIAMSON COUNTIES)",,,,,false,,,IL20260002,4
+239,405,Cedar Rapids,473634,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+123,194,Shreveport,473229,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+229,388,Stevens Point,468329,40.19,40.19,22.90,22.90,63.09,63.09,2026-05-18,2026-05-18,70,both,true,WI20260011/1,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0388-004,"ELECTRICIAN (ADAMS, CLARK (COLBY, FREEMONT, LYNN, MAYVILLE, SHERMAN, SHERWOOD, UNITY), FOREST, JUNEAU, LANGLADE, LINCOLN, MARINETTE (BEECHER, DUNBAR, GOODMAN & PEMBINE), MENOMINEE (AREA WEST OF A LINE 6 MILES WEST OF THE WEST BOUNDARY OF OCONTO COUNTY), ONEIDA, PORTAGE, SHAWANO (ANIWA AND HUTCHINS), VILAS AND WOOD COUNTIES)",,,,,false,,,WI20260011,1
+373,681,Wichita Falls,462289,28.09,28.44,10.93,11.10,39.02,39.54,2026-01-02,2026-01-02,72,both,true,TX20260274/0;TX20260278/0;TX20260289/0,high,,geographic,,ELEC0681-002,ELECTRICIAN Excluding Low Voltage Wiring,,,,,false,,,TX20260274,0
+566,1253,Augusta,461832,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+270,461,Aurora,460836,60.17,60.17,43.50,43.50,103.67,103.67,2026-05-18,2026-05-18,8,both,true,IL20260008/2,high,,single_classification,,ELEC0461-002,ELECTRICIAN: BUILDING (KANE (SOUTHERN HALF) AND KENDALL COUNTIES),,,,,false,,,IL20260008,2
+473,917,Meridian,460593,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+242,413,Santa Barbara,444500,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+388,712,Beaver,440002,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+142,229,York,437782,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+98,129,Lorain,434482,42.95,42.95,18.81,18.81,61.76,61.76,2026-01-02,2026-01-02,10,both,true,OH20260076/0;OH20260087/0,high,,geographic,,ELEC0129-005,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms/HVAC Temperature Controls),50.00,50.00,21.48,21.48,true,22.60,agree_within_15pct,OH20260076,0
+144,231,Sioux City,433851,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+323,575,Portsmouth,432246,37.00,37.00,22.26,22.26,59.26,59.26,2026-01-02,2026-01-02,11,both,true,OH20260030/0;OH20260040/0;OH20260051/0;OH20260053/0;OH20260055/0;OH20260060/0;OH20260064/0,high,local_code_county_base_disagree_over_10pct,geographic,,ELEC0575-004,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms),,,,,false,,,OH20260030,0
+527,1105,Newark,429153,,,,,,,,,9,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+303,532,Billings,427383,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+379,692,Bay City,425577,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+465,890,Janesville,425061,,,,,,,,,25,,false,,none,,,,,,45.00,85.00,,,false,,,,
+333,601,Champaign-Urbana,411138,49.63,49.63,22.51,22.51,72.14,72.14,2026-05-18,2026-05-18,84,both,true,IL20260002/4,high,,single_classification,,ELEC0601-001,"ELECTRICIAN (CHAMPAIGN, DE WITT (SANTA ANNA TWP), DOUGLAS (NORTHERN HALF), FORD (SOUTH OF BENTON TWP), IROQUOIS (ARTESIA, PIGEON GROVE & LODA TWPS), AND PIATT (BLUE RIDGE, SANGAMON, & MONTICELLO TWPS) COUNTIES)",,,,,false,,,IL20260002,4
+469,910,Watertown,407609,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+332,596,Clarksburg,389782,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+286,498,Traverse City,387942,,,,,,,,,0,,false,,none,,,,,,,,,,false,18.00,,,
+389,714,Minot,383746,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+377,688,Mansfield,379940,32.30,32.30,21.83,21.83,54.13,54.13,2026-01-02,2026-01-02,15,both,true,OH20260045/0;OH20260099/0,high,local_code_county_base_disagree_over_10pct,geographic,,ELEC0688-005,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of HVAC/Temperature Controls),,,,,false,,,OH20260045,0
+73,95,Joplin,372183,,,,,,,,,1,,false,,low,survey_only_excluded_from_display,,,,,50.00,85.00,,,false,13.03,,,
+12,12,Pueblo,367985,,,,,,,,,0,,false,,none,,,,,,50.00,50.00,,,false,,,,
+174,288,Waterloo,366072,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+438,812,Williamsport,361247,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+197,322,Casper,360512,,,,,,,,,0,,false,,none,,,,,,60.00,90.00,,,false,,,,
+418,768,Kalispell,359937,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+364,661,Hutchinson,357174,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+302,531,LaPorte,356479,,,,,,,,,0,,false,,none,,,,,,33.00,33.00,,,false,,,,
+30,32,Lima,354529,,,,,,,,,9,,false,,low,survey_only_excluded_from_display,,,,,,,,,false,,,,
+145,233,Helena,349913,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+616,1516,Jonesboro,345780,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+261,446,Monroe,342544,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+450,855,Muncie,338114,40.18,40.18,22.15,22.15,62.33,62.33,2026-01-30,2026-01-30,21,both,true,IN20260002/1,high,,single_classification,"ELEC0855-003: BLACKFORD, DELAWARE, AND JAY COUNTIES Rates Fringes ELECTRICIAN",ELEC0855-003,"BLACKFORD, DELAWARE, AND JAY COUNTIES Rates Fringes ELECTRICIAN",,,,,false,,,IN20260002,1
+114,163,Wilkes-Barre,323408,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+370,673,Painesville,319421,41.17,41.17,24.58,24.58,65.75,65.75,2026-01-02,2026-01-02,6,both,true,OH20260080/0,high,,single_classification,,ELEC0673-002,ELECTRICIAN (Excludes Low Voltage Wiring and Installation of Alarms/HVAC Temperature Controls),,,,,false,17.84,,OH20260080,0
+51,56,Erie,311724,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+440,816,Paducah,308124,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+198,325,Binghamton,304585,42.68,42.68,33.06,33.06,75.74,75.74,2026-05-18,2026-05-18,4,both,true,NY20260004/2,high,,single_classification,,ELEC0325-002,"ELECTRICIAN (BROOME (BUILDING, HEAVY, AND HIGHWAY) AND CHENANGO (ENTIRE COUNTY, EXCEPT COLUMBUS, NEW BERLIN AND SHERBURNE TOWNSHIPS) HEAVY AND HIGHWAY)",,,,,false,,,NY20260004,2
+369,668,Lafayette,303646,42.00,42.00,24.15,24.15,66.15,66.15,2026-01-30,2026-01-30,42,both,true,IN20260002/1,high,,single_classification,"ELEC0668-002: BENTON, CARROLL, CASS, FULTON, TIPPECANOE and WHITE COUNTIES Rates Fringes ELECTRICIAN",ELEC0668-002,"BENTON, CARROLL, CASS, FULTON, TIPPECANOE and WHITE COUNTIES Rates Fringes ELECTRICIAN",,,,,false,,,IN20260002,1
+122,193,Springfield,302976,,,,,,,,,72,,false,,none,,,,,,45.00,55.00,,,false,,,,
+338,607,Shamokin,300915,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+314,557,Saginaw,297810,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+107,146,Decatur,291972,48.00,48.00,24.16,24.16,72.16,72.16,2026-05-18,2026-05-18,63,both,true,IL20260002/4;IL20260005/1,high,,geographic,,ELEC0146-001,"ELECTRICIAN (CHRISTIAN, COLES, CUMBERLAND, DE WITT (EXCLUDING RUTLEDGE, SANTA ANNA, WAYNESVILLE, AND WILSON TWPS), DOUGLAS (SOUTHERN HALF), EFFINGHAM (BANNER, BISHOP, DOUGLAS, LIBERTY, LUCAS, MOCCASIN, ST. FRANCIS, SUMMIT AND TEULOPOLIS TWPS), FAYETTE (HURRICANE, S. HURRICANE, RAMSEY, BOWLING GREEN, CARSON, AND LOUDON TWPS), MACON, MOULTRIE, PIATT (EXCLUDING BLUE RIDGE, SANGAMON AND MONTICELLO TWPS), AND SHELBY COUNTIES)",,,,,false,,,IL20260002,4
+353,639,San Luis Obispo,281843,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+460,873,Kokomo,265149,42.02,42.02,23.07,23.07,65.09,65.09,2026-01-30,2026-01-30,42,both,true,IN20260002/1,high,,single_classification,"ELEC0873-002: CLINTON, GRANT, HOWARD, MIAMI, TIPTON AND WABASH COUNTIES: Rates Fringes ELECTRICIAN",ELEC0873-002,"CLINTON, GRANT, HOWARD, MIAMI, TIPTON AND WABASH COUNTIES: Rates Fringes ELECTRICIAN",,,,,false,,,IN20260002,1
+565,1250,Rapid City,264483,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+55,64,Youngstown,258241,41.49,41.49,21.81,21.81,63.30,63.30,2026-01-02,2026-01-02,4,both,true,OH20260090/0;OH20260101/0,high,,geographic,,ELEC0064-004,ELECTRICIAN (Excludes Low Voltage Wiring),,,,,false,,,OH20260090,0
+166,270,Oak Ridge,256344,,,,,,,,,0,,false,,none,,,,,,50.00,80.00,,,false,17.88,,,
+260,445,Battle Creek,244833,,,,,,,,,0,,false,,none,,,,,,50.00,50.00,,,false,,,,
+13,13,Burlington,242649,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+309,545,St. Joseph,240626,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+148,237,Niagara Falls,239334,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+446,840,Geneva,237864,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+321,573,Warren,233214,,,,,,,,,9,,false,,low,survey_only_excluded_from_display,,,,,80.00,80.00,,,false,,,,
+243,415,Cheyenne,227106,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+385,704,Dubuque,220905,,,,,,,,,20,,false,,none,,,,,,,,,,false,,,,
+103,139,Elmira,217494,43.40,43.40,31.72,31.72,75.12,75.12,2026-05-18,2026-05-18,2,both,true,NY20260005/2,high,,single_classification,,ELEC0139-001,ELECTRICIAN (CHEMUNG COUNTY),,,,,false,,,NY20260005,2
+252,430,Racine,194678,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+83,106,Jamestown,188310,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+492,972,Marietta,186402,40.00,40.00,33.32,33.32,73.32,73.32,2026-01-02,2026-01-02,6,both,true,OH20260049/0;OH20260065/0;OH20260104/0,high,,geographic,,ELEC0972-006,ELECTRICIAN (Excludes Low Voltage Wiring),,,,,false,,,OH20260049,0
+178,294,Hibbing,169713,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+97,127,Kenosha,168754,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+104,141,Wheeling,159544,39.25,39.25,31.23,31.23,70.48,70.48,2026-01-02,2026-01-02,1,both,true,OH20260069/0,high,,single_classification,,ELEC0141-001,ELECTRICIAN,,,,,false,,,OH20260069,0
+489,968,Parkersburg,138770,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,
+151,241,Ithaca,124303,,,,,,,,,1,,false,,none,,,,,,,,,,false,,,,
+358,649,Alton,117891,54.53,54.53,29.46,29.46,83.99,83.99,2026-05-21,2026-05-21,56,both,true,IL20260001/5,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0649-001,"ELECTRICIAN (CALHOUN, GREEN, JERSEY, AND MACOUPIN (BRIGHTON TWP) COUNTIES)",,,,,false,,,IL20260001,5
+126,197,Bloomington,114369,,,,,,,,,31,,false,,none,,,,,,,,,,false,,,,
+305,538,Danville,113209,41.00,41.00,27.36,27.36,68.36,68.36,2026-05-18,2026-05-18,24,both,true,IL20260002/4,high,local_code_county_base_disagree_over_10pct,single_classification,,ELEC0538-003,"ELECTRICIAN (IROQUOIS (FOUNTAIN CREEK, LOVEJOY & PRAIRIE TWPS), VERMILION, AND WABASH COUNTIES)",,,,,false,,,IL20260002,4
+87,111,Denver,0,,,,,,,,,0,,false,,none,,,,,,,,,,false,,,,

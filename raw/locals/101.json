@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]134-  (catv, em, govt, i, mt, rtb, rts, spa, t) Chicago[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "101",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "134-|Chicago|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "101",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, govt, i, mt, rtb, rts, spa, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2722 S Martin Luther King Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "104",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2722 S Martin Luther King Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Chicago, IL 60616[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "104",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Chicago|IL|60616",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](312) 454-1340[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "198",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(312) 454-1340",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](312) 454-1528[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(312) 454-1528",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@local134.org\" target=\"_blank\">info@local134.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1873",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@local134.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.lu134.org\" target=\"_blank\">www.lu134.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "101",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.lu134.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Donald B. Finn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|B.|Finn||{ \"MemberID\" : \"312\",\"luid\": \"101\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"600 W Washington Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60661\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Timothy P. Fitzgibbons[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|P.|Fitzgibbons||{ \"MemberID\" : \"311\",\"luid\": \"101\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"600 W Washington Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60661\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Donald B. Finn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3426",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|B.|Finn||{ \"MemberID\" : \"3426\",\"luid\": \"101\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Daniel E. Zaragoza[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|E.|Zaragoza||{ \"MemberID\" : \"313\",\"luid\": \"101\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"600 W Washington Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60661\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "101",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

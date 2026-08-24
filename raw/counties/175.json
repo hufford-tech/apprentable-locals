@@ -1,0 +1,380 @@
+[
+  {
+    "CountyName": "Bledsoe County, TN",
+    "District": "10",
+    "Population": "12367",
+    "LandArea": "406.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Bledsoe County, TN",
+    "District": "10",
+    "Population": "12367",
+    "LandArea": "406.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Bradley County, TN",
+    "District": "10",
+    "Population": "87965",
+    "LandArea": "328.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Bradley County, TN",
+    "District": "10",
+    "Population": "87965",
+    "LandArea": "328.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Catoosa County, GA",
+    "District": "5",
+    "Population": "53282",
+    "LandArea": "162.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Catoosa County, GA",
+    "District": "5",
+    "Population": "53282",
+    "LandArea": "162.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dade County, GA",
+    "District": "5",
+    "Population": "15154",
+    "LandArea": "173.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Dade County, GA",
+    "District": "5",
+    "Population": "15154",
+    "LandArea": "173.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "De Kalb County, AL",
+    "District": "5",
+    "Population": "64452",
+    "LandArea": "777.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "De Kalb County, AL",
+    "District": "5",
+    "Population": "64452",
+    "LandArea": "777.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Fannin County, GA",
+    "District": "5",
+    "Population": "19798",
+    "LandArea": "385.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Fannin County, GA",
+    "District": "5",
+    "Population": "19798",
+    "LandArea": "385.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Franklin County, TN",
+    "District": "10",
+    "Population": "39270",
+    "LandArea": "554.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Franklin County, TN",
+    "District": "10",
+    "Population": "39270",
+    "LandArea": "554.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Gilmer County, GA",
+    "District": "5",
+    "Population": "23456",
+    "LandArea": "426.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Gilmer County, GA",
+    "District": "5",
+    "Population": "23456",
+    "LandArea": "426.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Gordon County, GA",
+    "District": "5",
+    "Population": "44104",
+    "LandArea": "355.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Gordon County, GA",
+    "District": "5",
+    "Population": "44104",
+    "LandArea": "355.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Grundy County, TN",
+    "District": "10",
+    "Population": "14332",
+    "LandArea": "360.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Grundy County, TN",
+    "District": "10",
+    "Population": "14332",
+    "LandArea": "360.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hamilton County, TN",
+    "District": "10",
+    "Population": "307896",
+    "LandArea": "542.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hamilton County, TN",
+    "District": "10",
+    "Population": "307896",
+    "LandArea": "542.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Jackson County, AL",
+    "District": "5",
+    "Population": "53926",
+    "LandArea": "1078.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Jackson County, AL",
+    "District": "5",
+    "Population": "53926",
+    "LandArea": "1078.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marion County, TN",
+    "District": "10",
+    "Population": "27776",
+    "LandArea": "498.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Marion County, TN",
+    "District": "10",
+    "Population": "27776",
+    "LandArea": "498.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "McMinn County, TN",
+    "District": "10",
+    "Population": "49015",
+    "LandArea": "430.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "McMinn County, TN",
+    "District": "10",
+    "Population": "49015",
+    "LandArea": "430.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Meigs County, TN",
+    "District": "10",
+    "Population": "11086",
+    "LandArea": "194.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Meigs County, TN",
+    "District": "10",
+    "Population": "11086",
+    "LandArea": "194.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Murray County, GA",
+    "District": "5",
+    "Population": "36506",
+    "LandArea": "344.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Murray County, GA",
+    "District": "5",
+    "Population": "36506",
+    "LandArea": "344.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Polk County, TN",
+    "District": "10",
+    "Population": "16050",
+    "LandArea": "435.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Polk County, TN",
+    "District": "10",
+    "Population": "16050",
+    "LandArea": "435.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Rhea County, TN",
+    "District": "10",
+    "Population": "28400",
+    "LandArea": "315.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Rhea County, TN",
+    "District": "10",
+    "Population": "28400",
+    "LandArea": "315.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sequatchie County, TN",
+    "District": "10",
+    "Population": "11370",
+    "LandArea": "265.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sequatchie County, TN",
+    "District": "10",
+    "Population": "11370",
+    "LandArea": "265.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Walker County, GA",
+    "District": "5",
+    "Population": "61053",
+    "LandArea": "446.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Walker County, GA",
+    "District": "5",
+    "Population": "61053",
+    "LandArea": "446.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Whitfield County, GA",
+    "District": "5",
+    "Population": "83525",
+    "LandArea": "289.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Whitfield County, GA",
+    "District": "5",
+    "Population": "83525",
+    "LandArea": "289.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

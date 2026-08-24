@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2287  (em) Oxford[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "822",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2287|Oxford|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "822",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5160 College Corner Pike[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "702",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5160 College Corner Pike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Oxford, OH 45056[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "702",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Oxford|OH|45056",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 231[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "701",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 231",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Oxford, OH 45056[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "701",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Oxford|OH|45056",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](513) 523-3666[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1354",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(513) 523-3666",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](513) 523-0349[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1355",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(513) 523-0349",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2287@aol.com\" target=\"_blank\">ibew2287@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1919",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2287@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Pamela D. Combs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2500",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Pamela|D.|Combs||{ \"MemberID\" : \"2500\",\"luid\": \"822\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 231\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oxford\",\"state\":\"OH\",\"zip\":\"45056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Pamela D. Combs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4147",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Pamela|D.|Combs||{ \"MemberID\" : \"4147\",\"luid\": \"822\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]David L. Rose[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2501",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Rose||{ \"MemberID\" : \"2501\",\"luid\": \"822\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 231\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oxford\",\"state\":\"OH\",\"zip\":\"45056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Bobbie J. Stringfellow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2502",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bobbie|J.|Stringfellow||{ \"MemberID\" : \"2502\",\"luid\": \"822\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 231\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oxford\",\"state\":\"OH\",\"zip\":\"45056\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 4:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "822",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 4:45 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "CountyName": "Adams County, MS",
+    "District": "5",
+    "Population": "34340",
+    "LandArea": "460.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Amite County, MS",
+    "District": "5",
+    "Population": "13599",
+    "LandArea": "729.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Bolivar County, MS",
+    "District": "5",
+    "Population": "40633",
+    "LandArea": "876.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Carroll County, MS",
+    "District": "5",
+    "Population": "10769",
+    "LandArea": "627.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Claiborne County, MS",
+    "District": "5",
+    "Population": "11831",
+    "LandArea": "486.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Copiah County, MS",
+    "District": "5",
+    "Population": "28757",
+    "LandArea": "776.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Covington County, MS",
+    "District": "5",
+    "Population": "19407",
+    "LandArea": "413.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Franklin County, MS",
+    "District": "5",
+    "Population": "8448",
+    "LandArea": "564.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Hinds County, MS",
+    "District": "5",
+    "Population": "250800",
+    "LandArea": "869.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Holmes County, MS",
+    "District": "5",
+    "Population": "21609",
+    "LandArea": "756.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Humphreys County, MS",
+    "District": "5",
+    "Population": "11206",
+    "LandArea": "418.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Issaquena County, MS",
+    "District": "5",
+    "Population": "2274",
+    "LandArea": "413.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Jasper County, MS",
+    "District": "5",
+    "Population": "18149",
+    "LandArea": "676.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Jefferson County, MS",
+    "District": "5",
+    "Population": "9740",
+    "LandArea": "519.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Jones County, MS",
+    "District": "5",
+    "Population": "64958",
+    "LandArea": "693.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lawrence County, MS",
+    "District": "5",
+    "Population": "13258",
+    "LandArea": "430.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Leflore County, MS",
+    "District": "5",
+    "Population": "37947",
+    "LandArea": "591.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lincoln County, MS",
+    "District": "5",
+    "Population": "33166",
+    "LandArea": "585.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Madison County, MS",
+    "District": "5",
+    "Population": "74674",
+    "LandArea": "717.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Montgomery County, MS",
+    "District": "5",
+    "Population": "12189",
+    "LandArea": "406.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Pike County, MS",
+    "District": "5",
+    "Population": "38940",
+    "LandArea": "408.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Rankin County, MS",
+    "District": "5",
+    "Population": "115327",
+    "LandArea": "774.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Sharkey County, MS",
+    "District": "5",
+    "Population": "6580",
+    "LandArea": "427.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Simpson County, MS",
+    "District": "5",
+    "Population": "27639",
+    "LandArea": "588.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Smith County, MS",
+    "District": "5",
+    "Population": "16182",
+    "LandArea": "635.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Sunflower County, MS",
+    "District": "5",
+    "Population": "34369",
+    "LandArea": "693.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Walthall County, MS",
+    "District": "5",
+    "Population": "15156",
+    "LandArea": "403.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Warren County, MS",
+    "District": "5",
+    "Population": "49644",
+    "LandArea": "586.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Washington County, MS",
+    "District": "5",
+    "Population": "62977",
+    "LandArea": "723.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Wayne County, MS",
+    "District": "5",
+    "Population": "21216",
+    "LandArea": "810.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Wilkinson County, MS",
+    "District": "5",
+    "Population": "10312",
+    "LandArea": "676.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Yazoo County, MS",
+    "District": "5",
+    "Population": "28149",
+    "LandArea": "919.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  }
+]

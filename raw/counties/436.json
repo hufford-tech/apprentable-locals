@@ -1,0 +1,182 @@
+[
+  {
+    "CountyName": "Ashley County, AR",
+    "District": "10",
+    "Population": "24209",
+    "LandArea": "921.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Ashley County, AR",
+    "District": "10",
+    "Population": "24209",
+    "LandArea": "921.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Bradley County, AR",
+    "District": "10",
+    "Population": "12600",
+    "LandArea": "650.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Bradley County, AR",
+    "District": "10",
+    "Population": "12600",
+    "LandArea": "650.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Calhoun County, AR",
+    "District": "10",
+    "Population": "5744",
+    "LandArea": "628.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Calhoun County, AR",
+    "District": "10",
+    "Population": "5744",
+    "LandArea": "628.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Chicot County, AR",
+    "District": "10",
+    "Population": "14117",
+    "LandArea": "644.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Chicot County, AR",
+    "District": "10",
+    "Population": "14117",
+    "LandArea": "644.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Columbia County, AR",
+    "District": "10",
+    "Population": "25603",
+    "LandArea": "766.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Columbia County, AR",
+    "District": "10",
+    "Population": "25603",
+    "LandArea": "766.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Desha County, AR",
+    "District": "10",
+    "Population": "15341",
+    "LandArea": "764.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Desha County, AR",
+    "District": "10",
+    "Population": "15341",
+    "LandArea": "764.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Drew County, AR",
+    "District": "10",
+    "Population": "18723",
+    "LandArea": "828.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Drew County, AR",
+    "District": "10",
+    "Population": "18723",
+    "LandArea": "828.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Nevada County, AR",
+    "District": "10",
+    "Population": "9955",
+    "LandArea": "619.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Nevada County, AR",
+    "District": "10",
+    "Population": "9955",
+    "LandArea": "619.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Ouachita County, AR",
+    "District": "10",
+    "Population": "28790",
+    "LandArea": "732.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Ouachita County, AR",
+    "District": "10",
+    "Population": "28790",
+    "LandArea": "732.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Union County, AR",
+    "District": "10",
+    "Population": "45629",
+    "LandArea": "1038.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Union County, AR",
+    "District": "10",
+    "Population": "45629",
+    "LandArea": "1038.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  }
+]

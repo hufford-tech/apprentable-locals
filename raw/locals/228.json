@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]387-  (em, lctt, u) Phoenix[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "228",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "387-|Phoenix|AZ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "228",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, lctt, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3060 W Deer Valley Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "227",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3060 W Deer Valley Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Phoenix, AZ 85027[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "227",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Phoenix|AZ|85027",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](602) 264-1846[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "428",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(602) 264-1846",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](623) 223-1618[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(623) 223-1618",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dcarpenter@ibew387.com\" target=\"_blank\">dcarpenter@ibew387.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2075",
+    "editFieldNames": "Email",
+    "editFieldValues": "dcarpenter@ibew387.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew387.com\" target=\"_blank\">www.ibew387.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "228",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew387.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Dennis E. Carpenter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "703",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dennis|E.|Carpenter||{ \"MemberID\" : \"703\",\"luid\": \"228\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3060 W Deer Valley Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Phoenix\",\"state\":\"AZ\",\"zip\":\"85027\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Troy D. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "704",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|D.|Smith||{ \"MemberID\" : \"704\",\"luid\": \"228\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3060 W Deer Valley Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Phoenix\",\"state\":\"AZ\",\"zip\":\"85027\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Dennis E. Carpenter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3543",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dennis|E.|Carpenter||{ \"MemberID\" : \"3543\",\"luid\": \"228\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Troy A. Boos[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "702",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|A.|Boos||{ \"MemberID\" : \"702\",\"luid\": \"228\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3060 W Deer Valley Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Phoenix\",\"state\":\"AZ\",\"zip\":\"85027\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "228",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Jackson County, WV",
+    "District": "4",
+    "Population": "28000",
+    "LandArea": "465.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Jackson County, WV",
+    "District": "4",
+    "Population": "28000",
+    "LandArea": "465.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pleasants County, WV",
+    "District": "4",
+    "Population": "7514",
+    "LandArea": "130.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pleasants County, WV",
+    "District": "4",
+    "Population": "7514",
+    "LandArea": "130.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Ritchie County, WV",
+    "District": "4",
+    "Population": "10343",
+    "LandArea": "453.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Ritchie County, WV",
+    "District": "4",
+    "Population": "10343",
+    "LandArea": "453.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tyler County, WV",
+    "District": "4",
+    "Population": "9592",
+    "LandArea": "257.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tyler County, WV",
+    "District": "4",
+    "Population": "9592",
+    "LandArea": "257.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wirt County, WV",
+    "District": "4",
+    "Population": "5873",
+    "LandArea": "232.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wirt County, WV",
+    "District": "4",
+    "Population": "5873",
+    "LandArea": "232.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wood County, WV",
+    "District": "4",
+    "Population": "87986",
+    "LandArea": "367.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wood County, WV",
+    "District": "4",
+    "Population": "87986",
+    "LandArea": "367.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  }
+]

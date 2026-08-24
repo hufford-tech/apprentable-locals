@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]756-  (es, i) Daytona Beach[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "756-|Daytona Beach|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "409",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "es, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5901 S Williamson Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "400",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5901 S Williamson Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Port Orange, FL 32128[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "400",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Port Orange|FL|32128",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](386) 756-2756[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "745",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(386) 756-2756",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](386) 756-2785[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "746",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(386) 756-2785",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew756@msn.com\" target=\"_blank\">ibew756@msn.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "392",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew756@msn.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew756.org\" target=\"_blank\">www.ibew756.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew756.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Matthew S. Nelson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1259",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|S.|Nelson||{ \"MemberID\" : \"1259\",\"luid\": \"409\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5901 S Williamson Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Port Orange\",\"state\":\"FL\",\"zip\":\"32128\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Bryan S. Porter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1257",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|S.|Porter||{ \"MemberID\" : \"1257\",\"luid\": \"409\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5901 S Williamson Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Port Orange\",\"state\":\"FL\",\"zip\":\"32128\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Matthew S. Nelson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3716",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|S.|Nelson||{ \"MemberID\" : \"3716\",\"luid\": \"409\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Theodore K. Moore[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1258",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Theodore|K.|Moore||{ \"MemberID\" : \"1258\",\"luid\": \"409\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5901 S Williamson Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Port Orange\",\"state\":\"FL\",\"zip\":\"32128\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

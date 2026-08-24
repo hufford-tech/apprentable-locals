@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Carleton County, NB",
+    "District": "1",
+    "Population": "27184",
+    "LandArea": "3311.9880",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Gloucester County, NB",
+    "District": "1",
+    "Population": "82929",
+    "LandArea": "4673.3397",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Madawaska County, NB",
+    "District": "1",
+    "Population": "35611",
+    "LandArea": "3460.9516",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Northumberland County, NB",
+    "District": "1",
+    "Population": "50817",
+    "LandArea": "12112.4384",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Restigouche County, NB",
+    "District": "1",
+    "Population": "36134",
+    "LandArea": "8577.4687",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Sunbury County, NB",
+    "District": "1",
+    "Population": "25776",
+    "LandArea": "2697.2675",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "Victoria County, NB",
+    "District": "1",
+    "Population": "21172",
+    "LandArea": "5502.8741",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  },
+  {
+    "CountyName": "York County, NB",
+    "District": "1",
+    "Population": "87212",
+    "LandArea": "8952.6369",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NB"
+  }
+]

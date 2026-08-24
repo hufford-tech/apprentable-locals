@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]733-  (mar, mo, ptc, u) Pascagoula[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "733-|Pascagoula|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "399",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mar, mo, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2510 Market Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2510 Market Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pascagoula, MS 39567[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "394",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pascagoula|MS|39567",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1247[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "393",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1247",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Pascagoula, MS 39568[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "393",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pascagoula|MS|39568",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](228) 762-2155[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "729",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(228) 762-2155",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal733.org\" target=\"_blank\">office@ibewlocal733.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "384",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal733.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jason R. Vitosky[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1222",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|R.|Vitosky||{ \"MemberID\" : \"1222\",\"luid\": \"399\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2510 Market Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pascagoula\",\"state\":\"MS\",\"zip\":\"39568\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher M. Wierson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1223",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Wierson||{ \"MemberID\" : \"1223\",\"luid\": \"399\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2510 Market Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pascagoula\",\"state\":\"MS\",\"zip\":\"39568\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jason R. Vitosky[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3708",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|R.|Vitosky||{ \"MemberID\" : \"3708\",\"luid\": \"399\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2510 Market Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pascagoula\",\"state\":\"MS\",\"zip\":\"39568\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Tyranda D. Caples[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1221",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyranda|D.|Caples||{ \"MemberID\" : \"1221\",\"luid\": \"399\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2510 Market Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pascagoula\",\"state\":\"MS\",\"zip\":\"39568\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

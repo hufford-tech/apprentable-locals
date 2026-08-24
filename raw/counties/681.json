@@ -1,0 +1,434 @@
+[
+  {
+    "CountyName": "Archer County, TX",
+    "District": "7",
+    "Population": "8854",
+    "LandArea": "909.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Archer County, TX",
+    "District": "7",
+    "Population": "8854",
+    "LandArea": "909.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Baylor County, TX",
+    "District": "7",
+    "Population": "4093",
+    "LandArea": "870.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Baylor County, TX",
+    "District": "7",
+    "Population": "4093",
+    "LandArea": "870.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Callahan County, TX",
+    "District": "7",
+    "Population": "12905",
+    "LandArea": "898.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Callahan County, TX",
+    "District": "7",
+    "Population": "12905",
+    "LandArea": "898.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Childress County, TX",
+    "District": "7",
+    "Population": "7688",
+    "LandArea": "710.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Childress County, TX",
+    "District": "7",
+    "Population": "7688",
+    "LandArea": "710.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Clay County, TX",
+    "District": "7",
+    "Population": "11006",
+    "LandArea": "1097.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Clay County, TX",
+    "District": "7",
+    "Population": "11006",
+    "LandArea": "1097.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cottle County, TX",
+    "District": "7",
+    "Population": "1904",
+    "LandArea": "901.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Cottle County, TX",
+    "District": "7",
+    "Population": "1904",
+    "LandArea": "901.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Eastland County, TX",
+    "District": "7",
+    "Population": "18297",
+    "LandArea": "926.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Eastland County, TX",
+    "District": "7",
+    "Population": "18297",
+    "LandArea": "926.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Foard County, TX",
+    "District": "7",
+    "Population": "1622",
+    "LandArea": "706.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Foard County, TX",
+    "District": "7",
+    "Population": "1622",
+    "LandArea": "706.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hall County, TX",
+    "District": "7",
+    "Population": "3782",
+    "LandArea": "903.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hall County, TX",
+    "District": "7",
+    "Population": "3782",
+    "LandArea": "903.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hardeman County, TX",
+    "District": "7",
+    "Population": "4724",
+    "LandArea": "695.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hardeman County, TX",
+    "District": "7",
+    "Population": "4724",
+    "LandArea": "695.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Haskell County, TX",
+    "District": "7",
+    "Population": "6093",
+    "LandArea": "902.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Haskell County, TX",
+    "District": "7",
+    "Population": "6093",
+    "LandArea": "902.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jones County, TX",
+    "District": "7",
+    "Population": "20785",
+    "LandArea": "930.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Jones County, TX",
+    "District": "7",
+    "Population": "20785",
+    "LandArea": "930.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "King County, TX",
+    "District": "7",
+    "Population": "356",
+    "LandArea": "912.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "King County, TX",
+    "District": "7",
+    "Population": "356",
+    "LandArea": "912.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Knox County, TX",
+    "District": "7",
+    "Population": "4253",
+    "LandArea": "849.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Knox County, TX",
+    "District": "7",
+    "Population": "4253",
+    "LandArea": "849.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Montague County, TX",
+    "District": "7",
+    "Population": "19117",
+    "LandArea": "930.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Montague County, TX",
+    "District": "7",
+    "Population": "19117",
+    "LandArea": "930.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nolan County, TX",
+    "District": "7",
+    "Population": "15802",
+    "LandArea": "911.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Nolan County, TX",
+    "District": "7",
+    "Population": "15802",
+    "LandArea": "911.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Shackelford County, TX",
+    "District": "7",
+    "Population": "3302",
+    "LandArea": "913.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Shackelford County, TX",
+    "District": "7",
+    "Population": "3302",
+    "LandArea": "913.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Stephens County, TX",
+    "District": "7",
+    "Population": "9674",
+    "LandArea": "894.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Stephens County, TX",
+    "District": "7",
+    "Population": "9674",
+    "LandArea": "894.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Stonewall County, TX",
+    "District": "7",
+    "Population": "1693",
+    "LandArea": "918.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Stonewall County, TX",
+    "District": "7",
+    "Population": "1693",
+    "LandArea": "918.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Taylor County, TX",
+    "District": "7",
+    "Population": "126555",
+    "LandArea": "915.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Taylor County, TX",
+    "District": "7",
+    "Population": "126555",
+    "LandArea": "915.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Throckmorton County, TX",
+    "District": "7",
+    "Population": "1850",
+    "LandArea": "912.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Throckmorton County, TX",
+    "District": "7",
+    "Population": "1850",
+    "LandArea": "912.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wichita County, TX",
+    "District": "7",
+    "Population": "131664",
+    "LandArea": "627.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wichita County, TX",
+    "District": "7",
+    "Population": "131664",
+    "LandArea": "627.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wilbarger County, TX",
+    "District": "7",
+    "Population": "14676",
+    "LandArea": "971.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Wilbarger County, TX",
+    "District": "7",
+    "Population": "14676",
+    "LandArea": "971.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Young County, TX",
+    "District": "7",
+    "Population": "17943",
+    "LandArea": "922.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Young County, TX",
+    "District": "7",
+    "Population": "17943",
+    "LandArea": "922.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  }
+]

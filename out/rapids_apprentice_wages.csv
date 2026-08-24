@@ -1,0 +1,153 @@
+lu_number,local_union_id,ps_ids,program_names,apprentice_start_hourly_low,apprentice_start_hourly_median,apprentice_start_hourly_high,valid_wage_records,denied_records,zero_or_negative_records,implausible_records,program_count,data_as_of,source_url
+1,1,67791,IBEW/NECA LU 1 Electricians JATC - Commercial Wireman,14.92,18.90,27.30,17,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+5,5,55654,(PITTS) ELECTRICIANS LOCAL 5 JATC,8.06,10.10,21.69,982,1,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+6,6,40542,SAN FRANCISCO JATC FOR THE ELECTRICAL INDUSTRY,19.20,22.77,53.25,456,6,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+8,8,52322,"ELECTRICIANS JATC, TOLEDO",8.69,11.15,29.04,763,3,4,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+12,12,2627,Pueblo Electrical JATC,9.40,13.20,21.18,88,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+13,13,55286,SOUTHEAST IOWA ELECTRICAL JATC LU 13,11.33,16.50,23.11,99,3,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+16,16,4318,Evansville Electrical JATC (LU16),8.33,14.26,35.68,444,10,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+20,20,49690,North Texas Electrical JATC,9.72,14.48,27.83,986,9,5,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+22,22,60727,Omaha Residential Electrical Workers JATC,6.74,11.17,23.22,79,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+24,24,762,Baltimore JATC for the Electrical Industry (IBEW 24),12.50,14.90,30.75,299,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+32,30,50502,"ELECTRICIANS JATC, LIMA AREA LU 32",8.52,11.43,23.50,129,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+34,32,56699,Electricians Local #34 JATC,9.18,13.62,30.64,342,2,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+48,46,113170,NECA-IBEW ELECTRICAL JATC,10.85,26.20,55.68,1468,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+56,51,55651,ELECTRICIANS IBEW LOCAL 56 JATC,7.89,9.34,31.66,106,3,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+60,54,49454,SOUTH TEXAS ELECTRICAL JATC,9.15,12.80,27.14,1345,13,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+64,55,28978,"ELECTRICIANS JATC, YOUNGSTOWN AREA",0.30,10.54,26.97,162,0,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+68,57,2299,Denver Electrical JATC-Inside,11.02,14.17,27.03,1030,20,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+72,61,52252,WACO ELECTRICAL JATC,9.47,12.28,25.55,127,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+80,65,76969,JATC Tidewater Electrical Industry - LOCAL 80,14.25,15.33,17.88,107,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+82,67,51609,"ELECTRICIANS JATC, DAYTON",7.59,11.38,25.60,376,8,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+95,73,14202,IBEW/NECA JATC LU 95 JOPLIN,8.22,12.00,23.32,107,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+99,77,69932,IBEW 99 JATC,7.96,13.67,30.86,339,6,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+100,78,36218,"Fresno, Madera, Kings & Tulare County Electrical JATC",9.08,18.23,47.00,291,13,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+102,79,22019,"International Brotherhood of Electrical Workers (IBEW), Local 102, JATC",13.51,17.66,46.92,809,1,41,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+110,86,16707,LOCAL 110 LVSI JAC,6.20,9.30,19.99,69,0,12,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+111,87,2299,Denver Electrical JATC-Inside,11.02,14.17,27.03,1030,20,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+113,89,44766,Colorado Springs Electrical JATC - Inside Program,9.82,11.12,29.67,239,7,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+117,91,5203,I.B.E.W. LOCAL #117 J.A.T.C.,13.48,17.51,24.89,134,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+124,94,137135,IBEW LU 124 / NECA KC ELECTRICAL JATC /RES,14.87,14.87,22.30,3,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+129,98,64432,"ELECTRICIANS JATC, LORAIN COUNTY",8.37,10.61,30.00,136,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+134,101,87948,ECWA-ECEA JATC,18.36,18.36,23.25,3,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+136,102,44285,Birmingham Electrical JATC,9.00,11.88,22.60,439,2,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+141,104,48610,WHEELING ELECT.JATC,9.94,10.05,25.34,89,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+143,105,49884,HARRISBURG ELECTRICIANS JATC,9.37,11.93,24.00,194,20,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+145,106,44162,QUAD CITY ELECTRICAL JATC LU 145,0.40,12.21,28.52,394,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+150,108,6888,"LAKE COUNTY JATC LOCAL 150, IBEW",11.24,16.09,31.32,295,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+159,112,84073,La Crosse Area Electrical JAC,10.63,13.41,32.72,74,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+164,115,21746,"International Brotherhood of Electrical Workers (IBEW), Local Union 164, JATC",10.04,15.38,40.28,1009,7,16,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+175,116,59754,CHATTANOOGA ELECTRICAL JATC,7.70,13.00,24.65,938,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+176,117,52605,IBEW-NECA LOCAL #176 JATC,12.00,17.55,42.30,377,7,9,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+177,118,42820,Jacksonville Electrical JATC,8.00,13.66,23.29,807,15,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+180,119,40901,Solano - Napa Counties Electrical JATC,13.52,18.77,37.85,168,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+193,122,9200,NECA-IBEW Local #193 JATC,7.54,13.79,31.73,170,1,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+197,126,5220,Bloomington Normal Area Electrical JATC,12.00,17.11,29.62,138,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+212,133,26455,"ELECTRICIANS JATC, CINCINNATI AREA",8.58,10.54,23.40,971,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+226,141,74652,Topeka Electrical JATC,12.98,14.60,23.32,95,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+231,144,3919,"Electrician JATC, Sioux City LU 231",8.66,11.12,28.60,165,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+233,145,69206,Montana Electrical JATC,10.08,15.29,37.73,178,14,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+242,152,120986,IBEW/NECA TWIN PORTS ELECTRICAL JAC,16.58,18.62,22.92,60,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+257,160,56591,IBEW-NECA JATC LU 257 JEFF CITY,5.25,15.52,30.43,209,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+265,163,19315,LINCOLN ELECTRICAL JATC,10.49,13.79,21.00,168,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+269,165,51780,"International Brotherhood of Electrical Workers (IBEW), Local 269",10.78,15.57,38.29,380,8,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+270,166,66920,OAK RIDGE ELECTRIC JATC,9.15,14.27,30.70,282,20,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+271,167,55288,WICHITA ELECTRICIANS JATC,10.82,12.82,19.92,171,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+275,169,63736,West Michigan Electrical JATC,8.10,11.73,30.97,196,2,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+278,170,49655,TEXAS GULF COAST ELECTRICAL JATC,7.69,11.94,21.26,426,4,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+280,171,113388,CENTRAL ELECTRICAL JATC,9.26,23.06,49.00,658,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+288,174,3918,Electrician JATC - Mason City,7.62,15.46,18.10,12,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+291,176,43009,Southwestern Idaho Electrical JATC,7.97,12.90,25.00,431,2,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+295,179,2068,LITTLE ROCK ELECTRICAL JATC,7.00,11.34,19.99,197,1,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+300,180,129599,IBEW Local 300,21.00,22.29,33.24,16,6,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+302,182,40909,Contra Costa Co. Electrical JATC,17.68,19.10,27.30,170,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+306,186,24759,Akron Area Electrical JATC,8.38,8.79,23.28,64,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+309,188,5154,Southwestern Illinois JATC - Electricians,14.85,16.87,26.21,173,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+313,191,78874,Local 313 - Electricians IBEW JATC,15.84,17.20,24.50,85,4,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+317,193,34440,HUNTINGTON ELECTRICAL JATC,11.12,14.34,26.13,135,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+322,197,34217,WYOMING STATEWIDE ELECTRICAL JATC,8.94,13.92,29.98,379,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+340,203,52794,Sacramento Electrical JATC,12.46,16.22,39.36,523,12,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+342,204,142842,Carolinas Electrical JATC,4.66,14.25,19.21,172,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+343,205,121033,SOUTH CENTRAL MN ELECTRICAL JATC,18.24,22.47,30.35,146,1,0,1,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+351,210,21325,"International Brotherhood of Electrical Workers (IBEW), Local 351, JATC",11.51,14.83,30.02,531,9,6,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+357,215,26685,Electrical JATC of Southern Nevada - WIREMAN,9.33,15.79,42.64,1001,1,4,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+364,220,55060,N IL Electrical 364 JATC - Electricians,12.40,13.97,40.70,200,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+369,223,42884,LOUISVILLE ELECTRICAL JATC (5YR ),12.00,15.57,28.67,672,4,312,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+375,224,57494,ALLENTOWN ELECTRICIANS JATC LOCAL 375,10.75,12.33,42.37,267,5,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+379,225,142900,Charlotte Electrical JATC,8.80,15.09,34.00,327,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+400,236,46505,"International Brotherhood of Electrical Workers (IBEW), Local 400",10.75,15.12,34.62,185,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+401,237,25334,ELECTRICAL LOCAL #401,9.41,15.81,34.43,452,4,6,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+405,239,4666,Cedar Rapids Electrical JATC Local Union 405,9.90,14.23,34.92,376,2,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+429,251,56396,Nashville Electrical JATC,9.15,11.30,26.19,625,2,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+440,256,56892,California-Nevada JATC,19.56,21.91,31.09,486,0,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+443,258,1283,Montgomery Electrical JATC,8.75,13.19,21.06,104,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+446,261,59743,Monroe Electrical JATC,8.00,12.05,26.95,242,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+449,262,7187,Eastern Idaho Electrical JATC,9.80,13.40,26.49,233,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+453,264,63751,IBEW/NECA JATC LU 453 SPFLD,9.90,13.48,23.43,130,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+456,267,55064,"International Brotherhood of Electrical Workers (IBEW), Local Union 456, JATC",13.02,15.11,44.21,174,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+461,270,54965,NECA IBEW 461 JATC,14.00,16.16,42.45,139,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+466,274,56296,"CHARLESTON ELECTRICAL, JATC",6.03,13.30,29.07,158,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+474,275,52512,Memphis Electrical JATC,8.85,11.50,26.20,729,12,4,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+477,276,36501,"San Bernardino, Mono & Inyo Counties Electrical JATC",11.89,17.30,38.85,455,1,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+481,279,42561,Electrical Training Institute (LU 481),5.37,16.00,35.00,1394,21,4,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+490,283,18389,International Brotherhood of Electrical Workers (IBEW) - Local Union 490,11.22,14.00,30.00,165,0,13,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+505,291,1562,Mobile Electricians JATC,9.04,12.97,24.27,321,7,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+520,297,48656,AUSTIN ELECTRICAL JATC,10.00,13.76,26.25,1056,10,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+527,299,61317,Galveston Electrical JATC,8.58,14.30,24.94,195,0,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+538,305,42688,Danville NECA-IBEW 538 Electrical JATC,9.24,13.58,21.59,65,1,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+540,306,64516,"ELECTRICIANS - RESIDENTIAL WIREMAN JATC, CANTON",12.63,13.58,13.94,5,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+545,309,15612,IBEW-NECA JATC LU 545 ST. JOSEPH,9.53,10.85,26.33,117,3,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+551,312,52405,REDWOOD EMPIRE ELECTRICAL JATC,15.89,19.76,39.76,166,3,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+557,314,11871,Saginaw Electrical JATC,11.10,13.39,26.00,76,6,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+567,317,65189,IBEW Local 567,12.69,18.12,27.06,148,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+569,319,144639,SAN DIEGO GAS & ELECTRIC COMPANY IBEW #465,15.00,15.00,15.00,58,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+570,320,59899,Tucson Electrical JATC,7.21,10.82,23.38,418,0,8,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+573,321,29806,"ELECTRICAL JATC, WARREN",8.04,10.88,24.24,101,0,9,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+575,323,20810,"ELECTRICIANS JATC, PORTSMOUTH",7.56,11.84,25.35,171,9,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+583,327,25670,EL PASO ELECTRICAL JATC,6.55,9.65,13.87,543,19,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+584,328,51099,TULSA ELECTRICAL JATC,10.57,13.27,21.22,199,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+596,332,33820,Clarksburg IBEW JATC,6.69,12.03,23.63,121,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+601,333,58554,Champaign-Urbana-Streator-Pontiac Local 601 NECA-IBEW,10.25,16.21,35.18,164,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+602,334,35962,West Texas Electrical JATC,8.54,13.24,26.33,356,0,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+607,338,32639,SHAMOKIN ELECTRICIANS IBEW LU 607,8.42,10.94,21.74,94,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+611,339,83836,JATC FOR THE ELECTRICAL INDUSTRY,8.00,14.20,22.17,423,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+639,353,60266,San Luis Obispo Electrical Workers JATC,11.00,17.20,28.93,66,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+640,354,2188,Phoenix Electrical JATC,8.50,16.52,30.29,1211,16,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+648,357,26456,BUTLER COUNTY ELECTRICAL JATC,7.68,12.15,24.70,314,4,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+649,358,33585,IBEW LOCAL #649 JATC RESIDENTIAL,15.62,15.62,15.62,1,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+654,361,61512,Chester Electricians JAC (IBEW 654) (Comm/Ind),7.35,11.60,17.76,181,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+661,364,47954,HUTCHINSON ELECTRICIANS JATC,10.00,10.00,11.25,39,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+665,366,47637,Lansing Area Electrical JATC,8.60,15.68,21.15,240,0,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+666,367,76436,"JATC RICHMOND ELECTRICIANS, LOCAL 666",14.55,17.80,22.77,318,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+673,370,51507,MENTOR ELECTRICAL JATC,8.12,11.57,23.93,105,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+676,372,3277,GULF COAST ELECTRIC JATC,7.20,12.64,25.01,127,4,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+681,373,54601,WICHITA FALLS ELECTRICAL JATC,8.71,10.68,16.17,152,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+684,376,36213,Central Valley JATC,13.09,14.80,41.00,146,5,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+688,377,57139,"ELECTRICIANS JATC, MANSFIELD",9.08,10.68,23.17,108,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+692,379,56076,BAY CITY ELECTRICAL JATC,6.86,13.58,24.21,173,4,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+700,382,42807,Fort Smith Electrical JATC,7.00,10.53,20.57,151,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+701,383,51976,DuPage County 701 JATC,12.00,15.41,38.79,419,1,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+702,384,64386,NECA-IBEW #702 J.A.T.C.,14.48,15.16,33.09,158,0,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+704,385,57005,Electrician Dubuque JATC LU 704,8.40,11.65,21.23,82,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+716,391,52171,Houston Electrical JATC,8.70,13.33,27.38,1441,9,23,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+725,395,56091,Terre Haute Electrical JATC,7.75,14.28,43.30,340,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+743,403,26887,READING ELECTRICIANS JATC LOCAL 743,9.84,11.59,35.62,255,3,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+756,409,3548,DAYTONA BEACH ELECTRICAL JATC,7.72,11.25,18.61,323,22,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+812,438,32640,WILLIAMSPORT ELECTRICIANS JATC LOCAL 812,9.83,11.19,26.60,57,0,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+816,440,42552,PADUCAH ELECTRICIANS JATC (5YRS),11.99,14.14,23.36,103,1,47,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+855,450,8227,MUNCIE ELECTRICAL JATC,7.15,12.72,25.04,101,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+861,452,58204,Lake Charles Electrical JATC,8.00,12.50,20.20,158,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+903,467,48075,GULFPORT ELECTRICIANS JATC,7.65,11.90,27.65,562,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+915,472,59119,Tampa Area Electrical JATC,6.72,12.57,27.66,740,3,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+917,473,55285,Meridian Electricians' Area JATC,7.70,9.70,18.25,227,4,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+934,475,49332,Tri-Cities Electrical JATC,7.10,9.45,21.78,117,0,2,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+948,479,10963,Flint Electrical JATC,7.98,13.96,31.25,193,3,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+968,489,34406,PARKERSBURG IBEW JATC,11.42,13.79,31.04,97,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+995,501,59491,Baton Rouge Electrical JATC,8.00,11.58,16.22,212,2,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1141,534,23553,WESTERN OKLAHOMA ELECTRICAL JATC,10.68,13.25,31.15,395,4,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1205,553,54394,Gainesville Electrical JATC,9.00,11.54,20.14,391,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1253,566,66461,IBEW Local 1253,14.05,18.65,29.68,75,0,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1316,574,3881,Macon Electrical JATC,8.55,9.79,18.35,179,3,3,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1340,579,76791,JATC Hampton Roads Electrical Industry - LOCAL 1340,14.28,14.79,21.32,62,1,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1516,616,2219,JONESBORO ELECTRICAL JATC,7.00,12.49,19.62,433,3,1,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids
+1579,636,3983,CSRA ELECTRICAL JATC,7.99,11.62,25.87,650,10,0,0,1,2026-08-17,https://www.apprenticeship.gov/help/what-rapids

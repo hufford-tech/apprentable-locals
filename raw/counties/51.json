@@ -1,0 +1,416 @@
+[
+  {
+    "CountyName": "Adams County, IL",
+    "District": "6",
+    "Population": "68277",
+    "LandArea": "856.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Brown County, IL",
+    "District": "6",
+    "Population": "6950",
+    "LandArea": "305.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Bureau County, IL",
+    "District": "6",
+    "Population": "35503",
+    "LandArea": "868.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Cass County, IL",
+    "District": "6",
+    "Population": "13695",
+    "LandArea": "375.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Champaign County, IL",
+    "District": "6",
+    "Population": "179669",
+    "LandArea": "996.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Christian County, IL",
+    "District": "6",
+    "Population": "35372",
+    "LandArea": "709.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Coles County, IL",
+    "District": "6",
+    "Population": "53196",
+    "LandArea": "508.29",
+    "Percentage": "40%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "De Witt County, IL",
+    "District": "6",
+    "Population": "16798",
+    "LandArea": "397.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Douglas County, IL",
+    "District": "6",
+    "Population": "19922",
+    "LandArea": "416.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Edgar County, IL",
+    "District": "6",
+    "Population": "19704",
+    "LandArea": "623.55",
+    "Percentage": "75%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fayette County, IL",
+    "District": "6",
+    "Population": "21802",
+    "LandArea": "716.49",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Ford County, IL",
+    "District": "6",
+    "Population": "14241",
+    "LandArea": "485.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fulton County, IL",
+    "District": "6",
+    "Population": "38250",
+    "LandArea": "865.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hancock County, IL",
+    "District": "6",
+    "Population": "20121",
+    "LandArea": "794.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Henderson County, IL",
+    "District": "6",
+    "Population": "8213",
+    "LandArea": "378.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Henry County, IL",
+    "District": "6",
+    "Population": "51020",
+    "LandArea": "823.21",
+    "Percentage": "20%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Iroquois County, IL",
+    "District": "6",
+    "Population": "31334",
+    "LandArea": "1116.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kankakee County, IL",
+    "District": "6",
+    "Population": "103833",
+    "LandArea": "676.75",
+    "Percentage": "1%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Knox County, IL",
+    "District": "6",
+    "Population": "55836",
+    "LandArea": "716.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "La Salle County, IL",
+    "District": "6",
+    "Population": "111509",
+    "LandArea": "1134.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Livingston County, IL",
+    "District": "6",
+    "Population": "39678",
+    "LandArea": "1043.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Logan County, IL",
+    "District": "6",
+    "Population": "31183",
+    "LandArea": "618.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macon County, IL",
+    "District": "6",
+    "Population": "114706",
+    "LandArea": "580.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Macoupin County, IL",
+    "District": "6",
+    "Population": "49019",
+    "LandArea": "863.57",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Marshall County, IL",
+    "District": "6",
+    "Population": "13180",
+    "LandArea": "386.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mason County, IL",
+    "District": "6",
+    "Population": "16038",
+    "LandArea": "538.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "McDonough County, IL",
+    "District": "6",
+    "Population": "32913",
+    "LandArea": "589.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "McLean County, IL",
+    "District": "6",
+    "Population": "150433",
+    "LandArea": "1183.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Menard County, IL",
+    "District": "6",
+    "Population": "12486",
+    "LandArea": "314.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mercer County, IL",
+    "District": "6",
+    "Population": "16957",
+    "LandArea": "561.02",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Montgomery County, IL",
+    "District": "6",
+    "Population": "30652",
+    "LandArea": "703.79",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Morgan County, IL",
+    "District": "6",
+    "Population": "36616",
+    "LandArea": "568.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Moultrie County, IL",
+    "District": "6",
+    "Population": "14287",
+    "LandArea": "335.60",
+    "Percentage": "95%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Peoria County, IL",
+    "District": "6",
+    "Population": "183433",
+    "LandArea": "619.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Piatt County, IL",
+    "District": "6",
+    "Population": "16365",
+    "LandArea": "440.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pike County, IL",
+    "District": "6",
+    "Population": "17384",
+    "LandArea": "830.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Putnam County, IL",
+    "District": "6",
+    "Population": "6086",
+    "LandArea": "159.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Sangamon County, IL",
+    "District": "6",
+    "Population": "188951",
+    "LandArea": "868.18",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Schuyler County, IL",
+    "District": "6",
+    "Population": "7189",
+    "LandArea": "437.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Scott County, IL",
+    "District": "6",
+    "Population": "5537",
+    "LandArea": "250.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Shelby County, IL",
+    "District": "6",
+    "Population": "22893",
+    "LandArea": "758.51",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stark County, IL",
+    "District": "6",
+    "Population": "6332",
+    "LandArea": "287.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Tazewell County, IL",
+    "District": "6",
+    "Population": "128485",
+    "LandArea": "648.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Vermilion County, IL",
+    "District": "6",
+    "Population": "83919",
+    "LandArea": "899.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Warren County, IL",
+    "District": "6",
+    "Population": "18735",
+    "LandArea": "542.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Woodford County, IL",
+    "District": "6",
+    "Population": "35469",
+    "LandArea": "527.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

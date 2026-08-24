@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]757-  (rr) Joliet[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "410",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "757-|Joliet|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "410",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1099[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7302",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1099",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Homewood, IL 60430[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7302",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Homewood|IL|60430",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](708) 259-9145[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2379",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(708) 259-9145",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:localibew757@yahoo.com\" target=\"_blank\">localibew757@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2139",
+    "editFieldNames": "Email",
+    "editFieldValues": "localibew757@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal757.org\" target=\"_blank\">www.ibewlocal757.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "410",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal757.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jason Jung[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1262",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Jung||{ \"MemberID\" : \"1262\",\"luid\": \"410\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8502 Hotchkiss Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frankfort\",\"state\":\"IL\",\"zip\":\"60423\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Jason Jung[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3717",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Jung||{ \"MemberID\" : \"3717\",\"luid\": \"410\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8502 Hotchkiss Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frankfort\",\"state\":\"IL\",\"zip\":\"60423\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Samuel P. Gully[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3718",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|P.|Gully||{ \"MemberID\" : \"3718\",\"luid\": \"410\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"18320 John Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Country Club Hills\",\"state\":\"IL\",\"zip\":\"60478\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Roy S. Martinez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1261",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roy|S.|Martinez||{ \"MemberID\" : \"1261\",\"luid\": \"410\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1813 Sunset Trail\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brainerd\",\"state\":\"MN\",\"zip\":\"56401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]American Legion Post 1070, 109 N Williams Street, Thornton, 4th Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "410",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion Post 1070, 109 N Williams Street, Thornton, 4th Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]801-  (u) Montgomery[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "435",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "801-|Montgomery|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "435",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]340 Country Place Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7237",
+    "editFieldNames": "Address1",
+    "editFieldValues": "340 Country Place Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Deatsville, AL 36022[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7237",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Deatsville|AL|36022",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](205) 396-0251[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "781",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(205) 396-0251",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:wdwelch78@gmail.com\" target=\"_blank\">wdwelch78@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "416",
+    "editFieldNames": "Email",
+    "editFieldValues": "wdwelch78@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Willie D. Welch Jr., 115 Fawn Drive, Clanton, AL  35045[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1341",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Willie|D.|Welch|Jr.|{ \"MemberID\" : \"1341\",\"luid\": \"435\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"115 Fawn Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clanton\",\"state\":\"AL\",\"zip\":\"35045\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Britt C. Clayton, 806 Obed Loop, Dadeville, AL  36853[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1338",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Britt|C.|Clayton||{ \"MemberID\" : \"1338\",\"luid\": \"435\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"806 Obed Loop\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dadeville\",\"state\":\"AL\",\"zip\":\"36853\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Danny Covan, 340 Country Place Drive, Deatsville, AL  36022[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1340",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Danny||Covan||{ \"MemberID\" : \"1340\",\"luid\": \"435\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"340 Country Place Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Deatsville\",\"state\":\"AL\",\"zip\":\"36022\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Daniel P. Longcrier, 4065 County Road 16, Jones, AL  36749[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1339",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|P.|Longcrier||{ \"MemberID\" : \"1339\",\"luid\": \"435\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4065 County Road 16\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jones\",\"state\":\"AL\",\"zip\":\"36749\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Local Union 443, 1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "435",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 443, 1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

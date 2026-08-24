@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1604  (as, t) Montreal, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1604|Montreal|QC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "647",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3427 Notre Dame Ouest[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "599",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3427 Notre Dame Ouest",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Montreal, QC H4C 1P3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "599",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Montreal|QC|H4C 1P3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](514) 931-9242[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1117",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 931-9242",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](514) 931-0953[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1118",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 931-0953",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1604@bellnet.ca\" target=\"_blank\">local1604@bellnet.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1604@bellnet.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Normand Bouchard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1984",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Normand||Bouchard||{ \"MemberID\" : \"1984\",\"luid\": \"647\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Notre Dame Street, W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montreal\",\"state\":\"QC\",\"zip\":\"H4C 1P3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Andre Plourde[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1985",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andre||Plourde||{ \"MemberID\" : \"1985\",\"luid\": \"647\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Notre Dame Street, W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montreal\",\"state\":\"QC\",\"zip\":\"H4C 1P3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Normand Bouchard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3951",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Normand||Bouchard||{ \"MemberID\" : \"3951\",\"luid\": \"647\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Andre Theriault[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1986",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andre||Theriault||{ \"MemberID\" : \"1986\",\"luid\": \"647\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Notre Dame Street, W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Montreal\",\"state\":\"QC\",\"zip\":\"H4C 1P3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

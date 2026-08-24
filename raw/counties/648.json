@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Butler County, OH",
+    "District": "4",
+    "Population": "332807",
+    "LandArea": "467.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Warren County, OH",
+    "District": "4",
+    "Population": "158383",
+    "LandArea": "399.63",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

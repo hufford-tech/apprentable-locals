@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]777-  (ptc, u) Reading[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "777-|Reading|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "426",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]75 Pike Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "Address1",
+    "editFieldValues": "75 Pike Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Middletown, PA 17057[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Middletown|PA|17057",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](717) 944-0638[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "771",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 944-0638",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewadmin@ibew777.org\" target=\"_blank\">ibewadmin@ibew777.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "408",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewadmin@ibew777.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Steven P. Biehl[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1307",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|P.|Biehl||{ \"MemberID\" : \"1307\",\"luid\": \"426\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"75 Pike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Middletown\",\"state\":\"PA\",\"zip\":\"17057\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jared K. Wolfe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1309",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jared|K.|Wolfe||{ \"MemberID\" : \"1309\",\"luid\": \"426\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"75 Pike Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Middletown\",\"state\":\"PA\",\"zip\":\"17057\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Lynda D. McGuirk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3735",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lynda|D.|McGuirk||{ \"MemberID\" : \"3735\",\"luid\": \"426\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Joel M. Tuck[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4409",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel|M.|Tuck||{ \"MemberID\" : \"4409\",\"luid\": \"426\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "426",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

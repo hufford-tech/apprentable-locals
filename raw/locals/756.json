@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2040  (mo) Brewton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "756",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2040|Brewton|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "756",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]251 S Baggett Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7228",
+    "editFieldNames": "Address1",
+    "editFieldValues": "251 S Baggett Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Brewton, AL 36426[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7228",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Brewton|AL|36426",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](251) 647-6048[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1265",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(251) 647-6048",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2040@yahoo.com\" target=\"_blank\">ibew2040@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "704",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2040@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Zac C. White, 181 Greenwood Lane, Flomaton, AL  36441[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2311",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zac|C.|White||{ \"MemberID\" : \"2311\",\"luid\": \"756\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"181 Greenwood Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flomaton\",\"state\":\"AL\",\"zip\":\"36441\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Zac C. White, 181 Greenwood Lane, Flomaton, AL  36441[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4073",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zac|C.|White||{ \"MemberID\" : \"4073\",\"luid\": \"756\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"181 Greenwood Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flomaton\",\"state\":\"AL\",\"zip\":\"36441\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jason Lowery, 251 S Baggett Circle, Brewton, AL  36426[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2310",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Lowery||{ \"MemberID\" : \"2310\",\"luid\": \"756\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"251 S Baggett Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brewton\",\"state\":\"AL\",\"zip\":\"36426\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Charles E. Stewart, 54760 Ramer Road, Bay Minette, AL  36507[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2312",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|E.|Stewart||{ \"MemberID\" : \"2312\",\"luid\": \"756\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"54760 Ramer Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bay Minette\",\"state\":\"AL\",\"zip\":\"36507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Pace Union Hall, Highway 31 S, 2nd Wednesday 3:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "756",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Pace Union Hall, Highway 31 S, 2nd Wednesday 3:45 pm",
+    "datatype": "txt"
+  }
+]

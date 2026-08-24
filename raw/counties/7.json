@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Berkshire County, MA",
+    "District": "2",
+    "Population": "134953",
+    "LandArea": "931.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Franklin County, MA",
+    "District": "2",
+    "Population": "71535",
+    "LandArea": "702.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Hampden County, MA",
+    "District": "2",
+    "Population": "456228",
+    "LandArea": "618.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Hampshire County, MA",
+    "District": "2",
+    "Population": "152251",
+    "LandArea": "529.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Worcester County, MA",
+    "District": "2",
+    "Population": "750963",
+    "LandArea": "1513.06",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  }
+]

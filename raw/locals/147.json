@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]236-  (catv, ees, govt, i, mo, rtb, t) Albany[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "236-|Albany|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "147",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ees, govt, i, mo, rtb, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3000 Troy Schenectady Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3000 Troy Schenectady Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Niskayuna, NY 12309[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Niskayuna|NY|12309",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](518) 783-9957[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "282",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(518) 783-9957",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](518) 783-5336[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "283",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(518) 783-5336",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mmastropietro@ibew236.org\" target=\"_blank\">mmastropietro@ibew236.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "Email",
+    "editFieldValues": "mmastropietro@ibew236.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew236.org\" target=\"_blank\">www.ibew236.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew236.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael S. Mastropietro[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "456",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|S.|Mastropietro||{ \"MemberID\" : \"456\",\"luid\": \"147\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7 Wake Robin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Malta\",\"state\":\"NY\",\"zip\":\"12020\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Paul W. Nylin Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "454",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|W.|Nylin|Jr.|{ \"MemberID\" : \"454\",\"luid\": \"147\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"25 Kakley Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albany\",\"state\":\"NY\",\"zip\":\"12208\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael S. Mastropietro[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3466",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|S.|Mastropietro||{ \"MemberID\" : \"3466\",\"luid\": \"147\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7 Wake Robin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Malta\",\"state\":\"NY\",\"zip\":\"12020\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]William J. Bulger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|J.|Bulger||{ \"MemberID\" : \"455\",\"luid\": \"147\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2735 Clyde Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rotterdam\",\"state\":\"NY\",\"zip\":\"12306\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Albany Labor Temple, 890 Third Street, 1st Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Albany Labor Temple, 890 Third Street, 1st Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

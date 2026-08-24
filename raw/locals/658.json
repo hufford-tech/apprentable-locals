@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1634  (em) Coralville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "658",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1634|Coralville|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "658",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2855 Heartland Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4942",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2855 Heartland Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Coralville, IA 52241[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4942",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Coralville|IA|52241",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 645[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "606",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 645",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]North Liberty, IA 52317[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "606",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Liberty|IA|52317",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](319) 295-1034[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1134",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 295-1034",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew.1634@gmail.com\" target=\"_blank\">ibew.1634@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew.1634@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Charles K. Holder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2018",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|K.|Holder||{ \"MemberID\" : \"2018\",\"luid\": \"658\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 645\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Liberty\",\"state\":\"IA\",\"zip\":\"52317\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Charles K. Holder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3963",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|K.|Holder||{ \"MemberID\" : \"3963\",\"luid\": \"658\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ashley Williams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2016",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ashley||Williams||{ \"MemberID\" : \"2016\",\"luid\": \"658\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 645\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Liberty\",\"state\":\"IA\",\"zip\":\"52317\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Rahman Hudson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2017",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rahman||Hudson||{ \"MemberID\" : \"2017\",\"luid\": \"658\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 645\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Liberty\",\"state\":\"IA\",\"zip\":\"52317\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]America Inn, 2597 Holiday Road, 3rd Wednesday, 2:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "658",
+    "editFieldNames": "Meets",
+    "editFieldValues": "America Inn, 2597 Holiday Road, 3rd Wednesday, 2:45 pm",
+    "datatype": "txt"
+  }
+]

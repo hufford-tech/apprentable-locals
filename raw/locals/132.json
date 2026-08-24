@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]210-  (u) Atlantic City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "132",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "210-|Atlantic City|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "132",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]308 New Jersey Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4835",
+    "editFieldNames": "Address1",
+    "editFieldValues": "308 New Jersey Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Absecon, NJ 08201[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4835",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Absecon|NJ|08201",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](609) 484-7540[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1981",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 484-7540",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](609) 484-1155[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1982",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 484-1155",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:zstory@ibewlu210.com\" target=\"_blank\">zstory@ibewlu210.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1974",
+    "editFieldNames": "Email",
+    "editFieldValues": "zstory@ibewlu210.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal210.com\" target=\"_blank\">www.ibewlocal210.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "132",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal210.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Zachary M. Story[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "407",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|M.|Story||{ \"MemberID\" : \"407\",\"luid\": \"132\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"308 New Jersey Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Absecon\",\"state\":\"NJ\",\"zip\":\"08201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John A. McGuire, 414 Harvest Mill Way, Mullica Hill, NJ  08062[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "408",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|A.|McGuire||{ \"MemberID\" : \"408\",\"luid\": \"132\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"414 Harvest Mill Way\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mullica Hill\",\"state\":\"NJ\",\"zip\":\"08062\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Bryan A. Seckrettar, 11 Harrogate Drive, Lumberton, NJ  20817[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "410",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|A.|Seckrettar||{ \"MemberID\" : \"410\",\"luid\": \"132\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"11 Harrogate Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lumberton\",\"state\":\"NJ\",\"zip\":\"20817\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James A. Ketcham, 1069 Strawberry Avenue, Vineland, NJ  08360[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "409",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|A.|Ketcham||{ \"MemberID\" : \"409\",\"luid\": \"132\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1069 Strawberry Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vineland\",\"state\":\"NJ\",\"zip\":\"08360\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1940 N Blackhorse Pike, Williamstown, 2nd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "132",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1940 N Blackhorse Pike, Williamstown, 2nd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

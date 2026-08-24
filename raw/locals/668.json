@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1682  (rr) Roseville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "668",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1682|Roseville|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "668",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1293[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "616",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1293",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Roseville, CA 95678[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "616",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Roseville|CA|95678",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](916) 899-9133[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1148",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(916) 899-9133",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:houstonwyatt@comcast.net\" target=\"_blank\">houstonwyatt@comcast.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "625",
+    "editFieldNames": "Email",
+    "editFieldValues": "houstonwyatt@comcast.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal1682.org\" target=\"_blank\">www.ibewlocal1682.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "668",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal1682.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Houston Wyatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4199",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Houston||Wyatt||{ \"MemberID\" : \"4199\",\"luid\": \"668\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Houston Wyatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3974",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Houston||Wyatt||{ \"MemberID\" : \"3974\",\"luid\": \"668\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Michael Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2046",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael||Martin||{ \"MemberID\" : \"2046\",\"luid\": \"668\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1293\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Roseville\",\"state\":\"CA\",\"zip\":\"95678\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Olena Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2045",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Olena||Brown||{ \"MemberID\" : \"2045\",\"luid\": \"668\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1293\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Roseville\",\"state\":\"CA\",\"zip\":\"95678\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Old Town Pizza, 120 Church Street, 3rd Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "668",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Old Town Pizza, 120 Church Street, 3rd Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

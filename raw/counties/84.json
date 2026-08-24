@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Berrien County, GA",
+    "District": "5",
+    "Population": "16235",
+    "LandArea": "452.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Brooks County, GA",
+    "District": "5",
+    "Population": "16450",
+    "LandArea": "493.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Cook County, GA",
+    "District": "5",
+    "Population": "15771",
+    "LandArea": "229.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Echols County, GA",
+    "District": "5",
+    "Population": "3754",
+    "LandArea": "404.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Grady County, GA",
+    "District": "5",
+    "Population": "23659",
+    "LandArea": "458.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lanier County, GA",
+    "District": "5",
+    "Population": "7241",
+    "LandArea": "186.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lowndes County, GA",
+    "District": "5",
+    "Population": "92115",
+    "LandArea": "504.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Thomas County, GA",
+    "District": "5",
+    "Population": "42737",
+    "LandArea": "548.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]861-  (i) Lake Charles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "861-|Lake Charles|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "452",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3000 Highway 90 E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "430",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3000 Highway 90 E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lake Charles, LA 70615[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "430",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lake Charles|LA|70615",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 16985[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 16985",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Lake Charles, LA 70616[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "429",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lake Charles|LA|70616",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](337) 436-3324[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "811",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(337) 436-3324",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](337) 439-1317[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "812",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(337) 439-1317",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lcorner@ibew861.com\" target=\"_blank\">lcorner@ibew861.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "Email",
+    "editFieldValues": "lcorner@ibew861.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu861.org\" target=\"_blank\">www.ibewlu861.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu861.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Lance R. Corner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1388",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lance|R.|Corner||{ \"MemberID\" : \"1388\",\"luid\": \"452\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3000 Highway 90 E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lake Charles\",\"state\":\"LA\",\"zip\":\"70615\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Michael K. Hemker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1389",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|K.|Hemker||{ \"MemberID\" : \"1389\",\"luid\": \"452\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 16985\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lake Charles\",\"state\":\"LA\",\"zip\":\"70616\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Lance R. Corner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3761",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lance|R.|Corner||{ \"MemberID\" : \"3761\",\"luid\": \"452\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3000 Highway 90 E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lake Charles\",\"state\":\"LA\",\"zip\":\"70615\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Edward F. Martell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1390",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|F.|Martell||{ \"MemberID\" : \"1390\",\"luid\": \"452\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 16985\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lake Charles\",\"state\":\"LA\",\"zip\":\"70616\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1st Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

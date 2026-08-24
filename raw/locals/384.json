@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]702-  (as, c, catv, cs, em, es, et, govt, i, it, lctt, mo, mt, o, p, pet, ptc, rtb, rts, se, spa, st, t, u, uow, ws) West Frankfort[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "384",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "702-|West Frankfort|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "384",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, c, catv, cs, em, es, et, govt, i, it, lctt, mo, mt, o, p, pet, ptc, rtb, rts, se, spa, st, t, u, uow, ws",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]106 N Monroe Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "Address1",
+    "editFieldValues": "106 N Monroe Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]West Frankfort, IL 62896[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "379",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "West Frankfort|IL|62896",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](618) 932-2102[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "705",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(618) 932-2102",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](618) 932-2311[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "706",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(618) 932-2311",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew702@ibew702.org\" target=\"_blank\">ibew702@ibew702.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "369",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew702@ibew702.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew702.org\" target=\"_blank\">www.ibew702.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "384",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew702.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Charles S. Hughart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1177",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|S.|Hughart||{ \"MemberID\" : \"1177\",\"luid\": \"384\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"106 N Monroe Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Frankfort\",\"state\":\"IL\",\"zip\":\"62896\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James H. Sanchez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1178",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|H.|Sanchez||{ \"MemberID\" : \"1178\",\"luid\": \"384\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"106 N Monroe Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Frankfort\",\"state\":\"IL\",\"zip\":\"62896\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Charles S. Hughart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3693",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|S.|Hughart||{ \"MemberID\" : \"3693\",\"luid\": \"384\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Travis B. Sullivan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1176",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|B.|Sullivan||{ \"MemberID\" : \"1176\",\"luid\": \"384\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"106 N Monroe Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Frankfort\",\"state\":\"IL\",\"zip\":\"62896\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Friday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "384",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]569-  (i, mar, mt, rts, spa) San Diego[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "319",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "569-|San Diego|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "319",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mar, mt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4545 Viewridge Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4545 Viewridge Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 100[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]San Diego, CA 92123[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "313",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "San Diego|CA|92123",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](858) 569-8900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "588",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(858) 569-8900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](858) 569-8909[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "589",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(858) 569-8909",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jabrams@ibew569.org\" target=\"_blank\">jabrams@ibew569.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "308",
+    "editFieldNames": "Email",
+    "editFieldValues": "jabrams@ibew569.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew569.org\" target=\"_blank\">www.ibew569.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "319",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew569.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jeremy C. Abrams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "978",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|C.|Abrams||{ \"MemberID\" : \"978\",\"luid\": \"319\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4545 Viewridge Avenue\",\"addr2\":\"Suite 100\",\"addr3\":\"\",\"city\":\"San Diego\",\"state\":\"CA\",\"zip\":\"92123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Joel I. Basore[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "976",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joel|I.|Basore||{ \"MemberID\" : \"976\",\"luid\": \"319\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4545 Viewridge Avenue\",\"addr2\":\"Suite 100\",\"addr3\":\"\",\"city\":\"San Diego\",\"state\":\"CA\",\"zip\":\"92123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jeremy C. Abrams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3633",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|C.|Abrams||{ \"MemberID\" : \"3633\",\"luid\": \"319\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Thomas J. Sokolnicki[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "977",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Sokolnicki||{ \"MemberID\" : \"977\",\"luid\": \"319\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4545 Viewridge Avenue\",\"addr2\":\"Suite 100\",\"addr3\":\"\",\"city\":\"San Diego\",\"state\":\"CA\",\"zip\":\"92123\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "319",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

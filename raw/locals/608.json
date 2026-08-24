@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1474  (u) Joplin[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1474|Joplin|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "608",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3316 S Hearnes Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "567",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3316 S Hearnes Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Joplin, MO 64804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "567",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Joplin|MO|64804",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1104[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "566",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1104",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Joplin, MO 64802[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "566",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Joplin|MO|64802",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](417) 529-0378[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1057",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 529-0378",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:joplinlocal1474@gmail.com\" target=\"_blank\">joplinlocal1474@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "573",
+    "editFieldNames": "Email",
+    "editFieldValues": "joplinlocal1474@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Phillip W. Lee[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4385",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Phillip|W.|Lee||{ \"MemberID\" : \"4385\",\"luid\": \"608\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Phillip W. Lee[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4386",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Phillip|W.|Lee||{ \"MemberID\" : \"4386\",\"luid\": \"608\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Eric Clark[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1868",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric||Clark||{ \"MemberID\" : \"1868\",\"luid\": \"608\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8019 County Lane 214\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Joplin\",\"state\":\"MO\",\"zip\":\"64801\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nathan J. Grimm[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4387",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|J.|Grimm||{ \"MemberID\" : \"4387\",\"luid\": \"608\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Monday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

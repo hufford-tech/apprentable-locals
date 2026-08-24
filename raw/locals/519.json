@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1053  (u) Demopolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1053|Demopolis|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "519",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 835[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "484",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 835",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Demopolis, AL 36732[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "484",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Demopolis|AL|36732",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](334) 341-3786[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "915",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(334) 341-3786",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rmstokes1053@gmail.com\" target=\"_blank\">rmstokes1053@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2126",
+    "editFieldNames": "Email",
+    "editFieldValues": "rmstokes1053@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Richard Stokes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1594",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard||Stokes||{ \"MemberID\" : \"1594\",\"luid\": \"519\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 835\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Demopolis\",\"state\":\"AL\",\"zip\":\"36732\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Richard Stokes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3822",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard||Stokes||{ \"MemberID\" : \"3822\",\"luid\": \"519\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Richard Stokes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3823",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard||Stokes||{ \"MemberID\" : \"3823\",\"luid\": \"519\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Steven Cherry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1595",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven||Cherry||{ \"MemberID\" : \"1595\",\"luid\": \"519\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 835\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Demopolis\",\"state\":\"AL\",\"zip\":\"36732\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]2nd Monday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "519",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

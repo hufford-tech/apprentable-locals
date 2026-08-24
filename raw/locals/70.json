@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]89--  (catv, em, lctt, o, ptc, t) Seattle[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "89--|Seattle|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "70",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, lctt, o, ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1125 S Second Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4325",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1125 S Second Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mount Vernon, WA 98273[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4325",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mount Vernon|WA|98273",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 2349[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "71",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2349",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Mount Vernon, WA 98273[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "71",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mount Vernon|WA|98273",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](360) 755-6900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "137",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 755-6900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](360) 848-0606[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "138",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 848-0606",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local89@ibew89.com\" target=\"_blank\">local89@ibew89.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "69",
+    "editFieldNames": "Email",
+    "editFieldValues": "local89@ibew89.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew89.org\" target=\"_blank\">www.ibew89.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew89.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Richard R. Murray[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "216",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|R.|Murray||{ \"MemberID\" : \"216\",\"luid\": \"70\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3219\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Arlington\",\"state\":\"WA\",\"zip\":\"98223\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Teresa C. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "215",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Teresa|C.|Johnson||{ \"MemberID\" : \"215\",\"luid\": \"70\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 3219\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Arlington\",\"state\":\"WA\",\"zip\":\"98223\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Richard R. Murray[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3398",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|R.|Murray||{ \"MemberID\" : \"3398\",\"luid\": \"70\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Justin D. Roberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|D.|Roberts||{ \"MemberID\" : \"217\",\"luid\": \"70\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3219\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Arlington\",\"state\":\"WA\",\"zip\":\"98223\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Labor Temple, Everett, 2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Labor Temple, Everett, 2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

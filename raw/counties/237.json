@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Niagara County, NY",
+    "District": "3",
+    "Population": "219846",
+    "LandArea": "522.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Orleans County, NY",
+    "District": "3",
+    "Population": "44171",
+    "LandArea": "391.40",
+    "Percentage": "75%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

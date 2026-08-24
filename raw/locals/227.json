@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]386-  (mo, u) Texarkana[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "227",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "386-|Texarkana|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "227",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]16212 Highway 196[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6450",
+    "editFieldNames": "Address1",
+    "editFieldValues": "16212 Highway 196",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fouke, AR 71837[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6450",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fouke|AR|71837",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 648-6095[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2219",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 648-6095",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bm.lu386ibew@outlook.com\" target=\"_blank\">bm.lu386ibew@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2199",
+    "editFieldNames": "Email",
+    "editFieldValues": "bm.lu386ibew@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]John P. Page[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "701",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|Page||{ \"MemberID\" : \"701\",\"luid\": \"227\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16212 Highway 196\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fouke\",\"state\":\"AR\",\"zip\":\"71837\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]John P. Page[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3542",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|Page||{ \"MemberID\" : \"3542\",\"luid\": \"227\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"16212 Highway 196\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fouke\",\"state\":\"AR\",\"zip\":\"71837\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Steve Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steve||Smith||{ \"MemberID\" : \"699\",\"luid\": \"227\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"15726 US Highway 82 W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"DeKalb\",\"state\":\"TX\",\"zip\":\"75559\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Nathan W. Hodges[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|W.|Hodges||{ \"MemberID\" : \"700\",\"luid\": \"227\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"16212 Highway 196\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fouke\",\"state\":\"AR\",\"zip\":\"71837\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Silver Star Smokehouse, 2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "227",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Silver Star Smokehouse, 2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

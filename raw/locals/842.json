@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2359  (u) Circleville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "842",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2359|Circleville|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "842",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]326 Rocky Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6381",
+    "editFieldNames": "Address1",
+    "editFieldValues": "326 Rocky Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Chillicothe, OH 45601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6381",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Chillicothe|OH|45601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](740) 253-1257[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2210",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 253-1257",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal2359@gmail.com\" target=\"_blank\">ibewlocal2359@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "774",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal2359@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Everett J. Waugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2561",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Everett|J.|Waugh||{ \"MemberID\" : \"2561\",\"luid\": \"842\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"49 Lick Run Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Union\",\"state\":\"OH\",\"zip\":\"45693\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Everett J Waugh, 326 Rocky Road, Chillicothe, OH  45601[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4250",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Everett|J|Waugh||{ \"MemberID\" : \"4250\",\"luid\": \"842\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]James Graf[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2560",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James||Graf||{ \"MemberID\" : \"2560\",\"luid\": \"842\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1621 W Union Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lancaster\",\"state\":\"OH\",\"zip\":\"43130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Shannon A. Pacino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2562",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|A.|Pacino||{ \"MemberID\" : \"2562\",\"luid\": \"842\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"830 W Brown Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Lexington\",\"state\":\"OH\",\"zip\":\"43764\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Pizza Cottage, 2223 W Fair Avenue, Lancaster, 2nd Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "842",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Pizza Cottage, 2223 W Fair Avenue, Lancaster, 2nd Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

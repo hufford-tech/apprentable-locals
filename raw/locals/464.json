@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]889-  (rr) Los Angeles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "464",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "889-|Los Angeles|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "464",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1129 N Van Pelt Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7222",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1129 N Van Pelt Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Los Angeles, CA 90063[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7222",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Los Angeles|CA|90063",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](213) 446-1900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "828",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(213) 446-1900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Ramon A. Rivera III, 1441 E Holly Oak Drive, West Covina, CA  91791[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3772",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ramon|A.|Rivera|III|{ \"MemberID\" : \"3772\",\"luid\": \"464\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1441 E Holly Oak Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Covina\",\"state\":\"CA\",\"zip\":\"91791\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Manuel Rodarte, 1129 N Van Pelt Avenue, Los Angeles, CA  90063[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1423",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Manuel||Rodarte||{ \"MemberID\" : \"1423\",\"luid\": \"464\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1129 N Van Pelt Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Los Angeles\",\"state\":\"CA\",\"zip\":\"90063\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Luke Londa, 8999 Hydrangea Avenue, Hesperia, CA  92344[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1425",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Luke||Londa||{ \"MemberID\" : \"1425\",\"luid\": \"464\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"8999 Hydrangea Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hesperia\",\"state\":\"CA\",\"zip\":\"92344\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]Casa Blanca, 15922 Gale Avenue, Hacienda Heights, 4th Tuesday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "464",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Casa Blanca, 15922 Gale Avenue, Hacienda Heights, 4th Tuesday, 3 pm",
+    "datatype": "txt"
+  }
+]

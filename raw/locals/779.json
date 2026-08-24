@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2100  (catv, ptc, u) Louisville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "779",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2100|Louisville|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "779",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3419 Stony Spring Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "676",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3419 Stony Spring Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Louisville, KY 40220[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "676",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Louisville|KY|40220",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](502) 935-4010[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1291",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(502) 935-4010",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2100@bellsouth.net\" target=\"_blank\">ibew2100@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "723",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2100@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2100.com\" target=\"_blank\">www.ibewlocal2100.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "779",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2100.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Joshua R. Deacon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2377",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|R.|Deacon||{ \"MemberID\" : \"2377\",\"luid\": \"779\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10400 Dixie Highway\",\"addr2\":\"Suite 208\",\"addr3\":\"\",\"city\":\"Louisville\",\"state\":\"KY\",\"zip\":\"40272\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Joshua R. Deacon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4098",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|R.|Deacon||{ \"MemberID\" : \"4098\",\"luid\": \"779\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joshua R. Deacon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4099",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|R.|Deacon||{ \"MemberID\" : \"4099\",\"luid\": \"779\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Thomas B. Melvin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2378",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|B.|Melvin||{ \"MemberID\" : \"2378\",\"luid\": \"779\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"10400 Dixie Highway\",\"addr2\":\"Suite 208\",\"addr3\":\"\",\"city\":\"Louisville\",\"state\":\"KY\",\"zip\":\"40272\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 9 am & 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "779",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 9 am & 5 pm",
+    "datatype": "txt"
+  }
+]

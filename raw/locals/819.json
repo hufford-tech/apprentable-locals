@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2284  (em) El Dorado[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "819",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2284|El Dorado|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "819",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1190 Lake Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7043",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1190 Lake Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]El Dorado, AR 71730[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7043",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "El Dorado|AR|71730",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 310-5398[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2262",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 310-5398",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2284@yahoo.com\" target=\"_blank\">ibew2284@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1977",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2284@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Samuel T. Wofford[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2493",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|T.|Wofford||{ \"MemberID\" : \"2493\",\"luid\": \"819\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1017 East Elm\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71730\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Samuel T. Wofford[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4144",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|T.|Wofford||{ \"MemberID\" : \"4144\",\"luid\": \"819\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"202 Old Cedar Tree Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71730\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]April R. Henderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2492",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "April|R.|Henderson||{ \"MemberID\" : \"2492\",\"luid\": \"819\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"1190 Lake Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71730\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Shirl L. Gibson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4143",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shirl|L.|Gibson||{ \"MemberID\" : \"4143\",\"luid\": \"819\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1190 Lake Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71730\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]810 N Newton Street, Thursday, 4:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "819",
+    "editFieldNames": "Meets",
+    "editFieldValues": "810 N Newton Street, Thursday, 4:45 pm",
+    "datatype": "txt"
+  }
+]

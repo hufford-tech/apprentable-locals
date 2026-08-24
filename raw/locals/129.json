@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]203-  (u) Devils Lake[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "129",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "203-|Devils Lake|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "129",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]621 Seventh Street NE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7231",
+    "editFieldNames": "Address1",
+    "editFieldValues": "621 Seventh Street NE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Devils Lake, ND 58301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7231",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Devils Lake|ND|58301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal203@gmail.com\" target=\"_blank\">ibewlocal203@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "127",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal203@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Jamie Lehmann, 923 Fourth Avenue NW, Devils Lake, ND  58301[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "399",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Lehmann||{ \"MemberID\" : \"399\",\"luid\": \"129\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"923 Fourth Avenue NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Devils Lake\",\"state\":\"ND\",\"zip\":\"58301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Matt Seykora, 1019 Thompson Street, Bottineau, ND  58318[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "400",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matt||Seykora||{ \"MemberID\" : \"400\",\"luid\": \"129\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1019 Thompson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bottineau\",\"state\":\"ND\",\"zip\":\"58318\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Britton Lagasse, 621 Seventh Street NE, Devils Lake, ND  58301[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Britton||Lagasse||{ \"MemberID\" : \"397\",\"luid\": \"129\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"621 Seventh Street NE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Devils Lake\",\"state\":\"ND\",\"zip\":\"58301\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Kyle S. Reimer, 7908 Highway 20, St. Michael, ND  58370[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "398",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|S.|Reimer||{ \"MemberID\" : \"398\",\"luid\": \"129\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"7908 Highway 20\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Michael\",\"state\":\"ND\",\"zip\":\"58370\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]VFW Club, 2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "129",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Club, 2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

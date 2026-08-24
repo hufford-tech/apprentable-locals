@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]683-  (i, ptc) Columbus[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "683-|Columbus|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "375",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]939 Goodale Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "Address1",
+    "editFieldValues": "939 Goodale Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 100[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Columbus, OH 43212[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Columbus|OH|43212",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](614) 294-4786[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "689",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(614) 294-4786",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](614) 294-3920[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "690",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(614) 294-3920",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Hiringhall@ibew683.org\" target=\"_blank\">Hiringhall@ibew683.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "360",
+    "editFieldNames": "Email",
+    "editFieldValues": "Hiringhall@ibew683.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew683.org\" target=\"_blank\">www.ibew683.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew683.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Patrick J. Hook[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1150",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Hook||{ \"MemberID\" : \"1150\",\"luid\": \"375\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6351 Phoenix Park Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dublin\",\"state\":\"OH\",\"zip\":\"43016\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Michael R. Morey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1148",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|R.|Morey||{ \"MemberID\" : \"1148\",\"luid\": \"375\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"23 W Second Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Columbus\",\"state\":\"OH\",\"zip\":\"43201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Patrick J. Hook[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3685",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Hook||{ \"MemberID\" : \"3685\",\"luid\": \"375\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6351 Phoenix Park Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dublin\",\"state\":\"OH\",\"zip\":\"43016\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Olivia M. Sparks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1149",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Olivia|M.|Sparks||{ \"MemberID\" : \"1149\",\"luid\": \"375\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"23 W Second Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Columbus\",\"state\":\"OH\",\"zip\":\"43201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

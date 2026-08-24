@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]449-  (catv, em, i, lctt, mt, o, rtb, rts, spa, u) Pocatello[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "449-|Pocatello|ID",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "262",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, i, lctt, mt, o, rtb, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1537 Baldy Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "257",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1537 Baldy Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pocatello, ID 83201[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "257",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pocatello|ID|83201",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](208) 232-5263[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(208) 232-5263",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](208) 233-7427[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(208) 233-7427",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal449.org\" target=\"_blank\">office@ibewlocal449.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "255",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal449.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal449.org\" target=\"_blank\">www.ibewlocal449.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal449.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Clay D. Hirning[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "804",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clay|D.|Hirning||{ \"MemberID\" : \"804\",\"luid\": \"262\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1537 Baldy Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pocatello\",\"state\":\"ID\",\"zip\":\"83201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jacob V. Hill[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "805",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|V.|Hill||{ \"MemberID\" : \"805\",\"luid\": \"262\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1537 Baldy Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pocatello\",\"state\":\"ID\",\"zip\":\"83201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Clay D. Hirning[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3577",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clay|D.|Hirning||{ \"MemberID\" : \"3577\",\"luid\": \"262\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jeffery L. McKinlay[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "806",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffery|L.|McKinlay||{ \"MemberID\" : \"806\",\"luid\": \"262\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1537 Baldy Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pocatello\",\"state\":\"ID\",\"zip\":\"83201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

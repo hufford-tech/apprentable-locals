@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1434  (mt) Richmond[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "599",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1434|Richmond|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "599",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 34804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "557",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 34804",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Richmond, VA 23234[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "557",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Richmond|VA|23234",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](804) 475-6279[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1044",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(804) 475-6279",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1434@gmail.com\" target=\"_blank\">local1434@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "564",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1434@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jess R. Robertson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1842",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jess|R.|Robertson||{ \"MemberID\" : \"1842\",\"luid\": \"599\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 34804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Richmond\",\"state\":\"VA\",\"zip\":\"23234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Bryan L. Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1840",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|L.|Taylor||{ \"MemberID\" : \"1840\",\"luid\": \"599\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 34804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Richmond\",\"state\":\"VA\",\"zip\":\"23234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Shawn L. Hunter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1839",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|L.|Hunter||{ \"MemberID\" : \"1839\",\"luid\": \"599\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 34804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Richmond\",\"state\":\"VA\",\"zip\":\"23234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Anissa V. Womack-Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1841",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anissa|V.|Womack-Davis||{ \"MemberID\" : \"1841\",\"luid\": \"599\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 34804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Richmond\",\"state\":\"VA\",\"zip\":\"23234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Tobacco Workers Union Hall, 231 E Belt Boulevard, 1st Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "599",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Tobacco Workers Union Hall, 231 E Belt Boulevard, 1st Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

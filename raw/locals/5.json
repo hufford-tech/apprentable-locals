@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]5---  (catv, ees, em, i, rtb, spa, u) Pittsburgh[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "5---|Pittsburgh|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "5",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ees, em, i, rtb, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5 Hot Metal Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5 Hot Metal Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 400[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 400",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Pittsburgh, PA 15203[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pittsburgh|PA|15203",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](412) 432-1400[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(412) 432-1400",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](412) 432-1499[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "10",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(412) 432-1499",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jelkanich@ibew5.org\" target=\"_blank\">jelkanich@ibew5.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "Email",
+    "editFieldValues": "jelkanich@ibew5.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew5.org\" target=\"_blank\">www.ibew5.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew5.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Thomas R. McIntyre[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|R.|McIntyre||{ \"MemberID\" : \"16\",\"luid\": \"5\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5 Hot Metal Street\",\"addr2\":\"Suite 400\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Michael W. Varholla[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Varholla||{ \"MemberID\" : \"15\",\"luid\": \"5\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5 Hot Metal Street\",\"addr2\":\"Suite 400\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Thomas R. McIntyre[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3338",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|R.|McIntyre||{ \"MemberID\" : \"3338\",\"luid\": \"5\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Alfred L. Franklin IV[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "17",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alfred|L.|Franklin|IV|{ \"MemberID\" : \"17\",\"luid\": \"5\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5 Hot Metal Street\",\"addr2\":\"Suite 400\",\"addr3\":\"\",\"city\":\"Pittsburgh\",\"state\":\"PA\",\"zip\":\"15203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Friday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Friday, 8 pm",
+    "datatype": "txt"
+  }
+]

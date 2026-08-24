@@ -1,0 +1,61 @@
+lu_number,match_type,rapids_ps_id,rapids_name,rapids_city,rapids_state,reason
+3,lu_number_match,136415,Westchester- Fairfield Jatc Lu #3 Ibew,White Plains,NY,not_selected_as_primary
+3,lu_number_match,135923,Jatc Lighting Maintenance Association Lu #3,Flushing,NY,not_selected_as_primary
+1,lu_number_match,67791,IBEW/NECA LU 1 Electricians JATC - Commercial Wireman,Saint Louis,MO,not_selected_as_primary
+124,lu_number_match,137135,IBEW LU 124 / NECA KC ELECTRICAL JATC /RES,Kansas City,MO,not_selected_as_primary
+111,city_fuzzy_match,2311,Elect. Sign JAC,DENVER,CO,tied_on_city_not_selected
+111,city_fuzzy_match,54621,Samsonite Corporation Multi-Trade JATC,DENVER,CO,tied_on_city_not_selected
+111,city_fuzzy_match,2663,Denver Joint Electrical ATC - Residential,DENVER,CO,tied_on_city_not_selected
+1547,city_fuzzy_match,1036,ALASKA JOINT ELECTRICAL APPRENTICESHIP & TRAINING,ANCHORAGE,AK,tied_on_city_not_selected
+357,city_fuzzy_match,25017,SO. NV ELECTRICAL JATC,LAS VEGAS,NV,tied_on_city_not_selected
+357,city_fuzzy_match,26373,SO. NV ELECTRICAL RESIDENTIAL JATC,LAS VEGAS,NV,tied_on_city_not_selected
+175,city_fuzzy_match,30222,CHATT ELECT JATC - RESIDENTIAL,CHATTANOOGA,TN,tied_on_city_not_selected
+569,city_fuzzy_match,144639,SAN DIEGO GAS  & ELECTRIC COMPANY IBEW #465,SAN DIEGO,CA,tied_on_city_not_selected
+569,city_fuzzy_match,144440,INTELLIGENT TRANSPORTATION SYSTEMS JOINT APPRENTICESHIP TRAINING COMMITTEE,SAN DIEGO,CA,tied_on_city_not_selected
+716,city_fuzzy_match,29961,HOUSTON INDUSTRIAL JAC               SC,HOUSTON,TX,tied_on_city_not_selected
+5,lu_number_match,28007,(PITTS) RESIDENTIAL WIREMEN LOCAL 5 JATC,PITTSBURGH,PA,not_selected_as_primary
+611,city_fuzzy_match,25134,JATC for the Electrical Industry,ALBUQUERQUE,NM,tied_on_city_not_selected
+611,city_fuzzy_match,50305,ELECTRICIANS JATC RESIDENTIAL INDUS,ALBUQUERQUE,NM,tied_on_city_not_selected
+22,city_fuzzy_match,60727,Omaha Residential Electrical Workers JATC,OMAHA,NE,tied_on_city_not_selected
+22,city_fuzzy_match,66871,GREATER NEBRASKA ELECTRICAL JATC,OMAHA,NE,tied_on_city_not_selected
+177,city_fuzzy_match,40611,JACKSONVILLE ELECTRICAL RESIDENTIAL JATC,JACKSONVILLE,FL,tied_on_city_not_selected
+68,city_fuzzy_match,2311,Elect. Sign JAC,DENVER,CO,tied_on_city_not_selected
+68,city_fuzzy_match,54621,Samsonite Corporation Multi-Trade JATC,DENVER,CO,tied_on_city_not_selected
+68,city_fuzzy_match,2663,Denver Joint Electrical ATC - Residential,DENVER,CO,tied_on_city_not_selected
+291,city_fuzzy_match,5757,S.W. IDAHO RESIDENTIAL WIREMAN JATC,BOISE,ID,tied_on_city_not_selected
+159,city_fuzzy_match,84444,Kenosha Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84472,Madison Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84073,La Crosse Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84022,Eau Claire Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84077,Northeast WI Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84003,WI River Valley Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84451,South Central WI Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+159,city_fuzzy_match,84465,Appleton/Oshkosh Area Electrical JAC,Madison,WI,tied_on_city_not_selected
+1141,city_fuzzy_match,23553,WESTERN OKLAHOMA ELECTRICAL JATC,Oklahoma City,OK,tied_on_city_not_selected
+915,city_fuzzy_match,3311,TAMPA AREA ELECTRICAL JATC,TAMPA,FL,tied_on_city_not_selected
+915,city_fuzzy_match,3196,TAMPA ELECTRICAL RESIDENTIAL WIREMAN JATC,TAMPA,FL,tied_on_city_not_selected
+477,city_fuzzy_match,36501,"San Bernardino, Mono & Inyo Counties Electrical JATC",San Bernardino,CA,tied_on_city_not_selected
+306,city_fuzzy_match,24759,Akron Area Electrical JATC,AKRON,OH,tied_on_city_not_selected
+76,city_fuzzy_match,119045,Southwest Washington Electrical Workers Apprenticeship Committee,TACOMA,WA,tied_on_city_not_selected
+401,lu_number_match,41084,ELECTRICAL JATC LOCAL 401,SPARKS,NV,not_selected_as_primary
+401,lu_number_match,55487,ELECTRICAL LOCAL 401 RESIDENTIAL,RENO,NV,not_selected_as_primary
+271,city_fuzzy_match,55288,WICHITA ELECTRICIANS JATC,WICHITA,KS,tied_on_city_not_selected
+300,lu_number_match,33085,"ELECTRICIANS LU #300, VERMONT",SOUTH BURLINGTON,VT,not_selected_as_primary
+995,city_fuzzy_match,12920,BR ELECTRICAL JAC,BATON ROUGE,LA,tied_on_city_not_selected
+136,city_fuzzy_match,1277,ELECTRICIANS JAC,BIRMINGHAM,AL,tied_on_city_not_selected
+405,city_fuzzy_match,4389,IOWA CITY ELECT JATC,CEDAR RAPIDS,IA,tied_on_city_not_selected
+449,city_fuzzy_match,6298,CENTRAL IDAHO ELECTRICAL JATC,POCATELLO,ID,tied_on_city_not_selected
+540,city_fuzzy_match,64516,"ELECTRICIANS - RESIDENTIAL WIREMAN JATC, CANTON",MASSILLON,OH,tied_on_city_not_selected
+73,city_fuzzy_match,5682,INLAND EMPIRE ELECTRICAL JATC,SPOKANE,WA,tied_on_city_not_selected
+648,city_fuzzy_match,64950,"ELECTRICIANS - RESIDENTIAL WIREMAN JATC, BUTLER CO",HAMILTON,OH,tied_on_city_not_selected
+551,city_fuzzy_match,144614,REDWOOD EMPIRE ELECTRICAL J.A.T.C.,SANTA ROSA,CA,tied_on_city_not_selected
+194,city_fuzzy_match,12272,SHREVEPORT ELECTRICAL JAC,SHREVEPORT,LA,tied_on_city_not_selected
+505,city_fuzzy_match,55554,MOBILE ELECTRICIANS,MOBILE,AL,tied_on_city_not_selected
+180,city_fuzzy_match,145056,SOLANO & NAPA COUNTIES ELECTRICIANS J.A.T.C.,NAPA,CA,tied_on_city_not_selected
+242,city_fuzzy_match,120986,IBEW/NECA TWIN PORTS ELECTRICAL JAC,Duluth,MN,tied_on_city_not_selected
+242,city_fuzzy_match,47490,TWIN PORTS ELEC JAC,DULUTH,MN,tied_on_city_not_selected
+654,lu_number_match,50215,(CHE) Chester Residential Wiremen JAC (LU 654),BOOTHWYN,PA,not_selected_as_primary
+275,city_fuzzy_match,38068,WEST MICHIGAN ELECTRICAL JATC-RESIDENTIAL WIREMAN,COOPERSVILLE,MI,tied_on_city_not_selected
+233,city_fuzzy_match,17526,MONTANA ELECTRICAL JATC,HELENA,MT,tied_on_city_not_selected
+661,city_fuzzy_match,47954,HUTCHINSON ELECTRICIANS JATC,HUTCHINSON,KS,tied_on_city_not_selected
+288,city_fuzzy_match,3918,Electrician JATC - Mason City,WATERLOO,IA,tied_on_city_not_selected

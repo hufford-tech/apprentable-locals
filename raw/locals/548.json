@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1194  (u) Sandusky[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "548",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1194|Sandusky|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "548",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "507",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Brewster, OH 44613[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "507",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Brewster|OH|44613",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](330) 327-1940[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "959",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 327-1940",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:blongibew1194@gmail.com\" target=\"_blank\">blongibew1194@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "515",
+    "editFieldNames": "Email",
+    "editFieldValues": "blongibew1194@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Brett R. Long[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1687",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|R.|Long||{ \"MemberID\" : \"1687\",\"luid\": \"548\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"314 E Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaGrange\",\"state\":\"OH\",\"zip\":\"44050\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Brett R. Long[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1688",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|R.|Long||{ \"MemberID\" : \"1688\",\"luid\": \"548\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"314 E Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaGrange\",\"state\":\"OH\",\"zip\":\"44050\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Brett R. Long[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3850",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|R.|Long||{ \"MemberID\" : \"3850\",\"luid\": \"548\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Thomas E. Yourkiewicz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1689",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|E.|Yourkiewicz||{ \"MemberID\" : \"1689\",\"luid\": \"548\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"314 E Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaGrange\",\"state\":\"OH\",\"zip\":\"44050\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]37 First Street SW, Massillon, 2nd Tuesday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "548",
+    "editFieldNames": "Meets",
+    "editFieldValues": "37 First Street SW, Massillon, 2nd Tuesday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

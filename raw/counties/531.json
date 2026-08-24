@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Jasper County, IN",
+    "District": "6",
+    "Population": "30043",
+    "LandArea": "559.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "La Porte County, IN",
+    "District": "6",
+    "Population": "110106",
+    "LandArea": "598.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Porter County, IN",
+    "District": "6",
+    "Population": "146798",
+    "LandArea": "418.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pulaski County, IN",
+    "District": "6",
+    "Population": "13755",
+    "LandArea": "433.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Starke County, IN",
+    "District": "6",
+    "Population": "23556",
+    "LandArea": "309.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

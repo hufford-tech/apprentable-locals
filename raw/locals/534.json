@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1141  (em, i, it, mow, rts, spa) Oklahoma City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1141|Oklahoma City|OK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "534",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, it, mow, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1700 SE Fifteenth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "497",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1700 SE Fifteenth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Oklahoma City, OK 73129[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "497",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Oklahoma City|OK|73129",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 95789[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "496",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 95789",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Oklahoma City, OK 73143[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "496",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Oklahoma City|OK|73143",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](405) 670-4777[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "939",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(405) 670-4777",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](405) 670-2733[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "940",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(405) 670-2733",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office.ibew1141@gmail.com\" target=\"_blank\">office.ibew1141@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "503",
+    "editFieldNames": "Email",
+    "editFieldValues": "office.ibew1141@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1141.org\" target=\"_blank\">www.ibew1141.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1141.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Mark N. Gregory[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1642",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|N.|Gregory||{ \"MemberID\" : \"1642\",\"luid\": \"534\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 95789\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oklahoma City\",\"state\":\"OK\",\"zip\":\"73143\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]William D. Fifield[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1643",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|D.|Fifield||{ \"MemberID\" : \"1643\",\"luid\": \"534\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 95789\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oklahoma City\",\"state\":\"OK\",\"zip\":\"73143\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Mark N. Gregory[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3836",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|N.|Gregory||{ \"MemberID\" : \"3836\",\"luid\": \"534\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Teionna M. Leach[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1644",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Teionna|M.|Leach||{ \"MemberID\" : \"1644\",\"luid\": \"534\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 95789\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Oklahoma City\",\"state\":\"OK\",\"zip\":\"73143\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1st Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

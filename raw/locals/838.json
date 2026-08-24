@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2355  (rr) Michigan City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "838",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2355|Michigan City|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "838",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5433 N Pawnee Trail[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6960",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5433 N Pawnee Trail",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]La Porte, IN 46350[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6960",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "La Porte|IN|46350",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](219) 229-5195[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2238",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(219) 229-5195",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2355@outlook.com\" target=\"_blank\">ibew2355@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "770",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2355@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Zachary J. Trunk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2549",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|J.|Trunk||{ \"MemberID\" : \"2549\",\"luid\": \"838\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5433 N Pawnee Trail\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaPorte\",\"state\":\"IN\",\"zip\":\"46350\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Zachary J. Trunk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4162",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|J.|Trunk||{ \"MemberID\" : \"4162\",\"luid\": \"838\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5433 N Pawnee Trail\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaPorte\",\"state\":\"IN\",\"zip\":\"46350\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Richard A. Stradtner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2551",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Stradtner||{ \"MemberID\" : \"2551\",\"luid\": \"838\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6167 W 370 N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"LaPorte\",\"state\":\"IN\",\"zip\":\"46350\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Terrance M. Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3332",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrance|M.|Brown||{ \"MemberID\" : \"3332\",\"luid\": \"838\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2367 N 350 E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rolling Prairie\",\"state\":\"IN\",\"zip\":\"46371\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Fraternal Order of Police Lodge 75, 416 US-20 W, Last Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "838",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Fraternal Order of Police Lodge 75, 416 US-20 W, Last Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

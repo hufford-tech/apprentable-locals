@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]90--  (i) New Haven[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "71",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "90--|New Haven|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "71",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2 N Plains Industrial Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2 N Plains Industrial Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wallingford, CT 06492[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wallingford|CT|06492",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](203) 265-9533[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "139",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 265-9533",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](203) 265-9422[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1979",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 265-9422",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal90.org\" target=\"_blank\">info@ibewlocal90.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal90.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal90.org\" target=\"_blank\">www.ibewlocal90.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "71",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal90.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Sean W. Daly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "220",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|W.|Daly||{ \"MemberID\" : \"220\",\"luid\": \"71\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2 N Plains Industrial Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wallingford\",\"state\":\"CT\",\"zip\":\"06492\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John K. Bellemare[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "218",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|K.|Bellemare||{ \"MemberID\" : \"218\",\"luid\": \"71\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2 N Plains Industrial Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wallingford\",\"state\":\"CT\",\"zip\":\"06492\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Sean W. Daly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3399",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|W.|Daly||{ \"MemberID\" : \"3399\",\"luid\": \"71\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Alec D. Slater[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "219",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alec|D.|Slater||{ \"MemberID\" : \"219\",\"luid\": \"71\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2 N Plains Industrial Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wallingford\",\"state\":\"CT\",\"zip\":\"06492\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "71",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

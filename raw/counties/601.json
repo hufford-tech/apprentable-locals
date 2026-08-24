@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Champaign County, IL",
+    "District": "6",
+    "Population": "179669",
+    "LandArea": "996.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "De Witt County, IL",
+    "District": "6",
+    "Population": "16798",
+    "LandArea": "397.58",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Douglas County, IL",
+    "District": "6",
+    "Population": "19922",
+    "LandArea": "416.86",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Ford County, IL",
+    "District": "6",
+    "Population": "14241",
+    "LandArea": "485.90",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Iroquois County, IL",
+    "District": "6",
+    "Population": "31334",
+    "LandArea": "1116.43",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "La Salle County, IL",
+    "District": "6",
+    "Population": "111509",
+    "LandArea": "1134.92",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Livingston County, IL",
+    "District": "6",
+    "Population": "39678",
+    "LandArea": "1043.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Marshall County, IL",
+    "District": "6",
+    "Population": "13180",
+    "LandArea": "386.06",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "McLean County, IL",
+    "District": "6",
+    "Population": "150433",
+    "LandArea": "1183.53",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Piatt County, IL",
+    "District": "6",
+    "Population": "16365",
+    "LandArea": "440.02",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Putnam County, IL",
+    "District": "6",
+    "Population": "6086",
+    "LandArea": "159.80",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Woodford County, IL",
+    "District": "6",
+    "Population": "35469",
+    "LandArea": "527.95",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Berrien County, MI",
+    "District": "6",
+    "Population": "162453",
+    "LandArea": "571.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Cass County, MI",
+    "District": "6",
+    "Population": "51104",
+    "LandArea": "492.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Elkhart County, IN",
+    "District": "6",
+    "Population": "182791",
+    "LandArea": "463.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Kosciusko County, IN",
+    "District": "6",
+    "Population": "74057",
+    "LandArea": "537.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Marshall County, IN",
+    "District": "6",
+    "Population": "45128",
+    "LandArea": "444.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "St. Joseph County, IN",
+    "District": "6",
+    "Population": "265559",
+    "LandArea": "457.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "CountyName": "Barnes County, ND",
+    "District": "11",
+    "Population": "11775",
+    "LandArea": "1491.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Barnes County, ND",
+    "District": "11",
+    "Population": "11775",
+    "LandArea": "1491.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Becker County, MN",
+    "District": "6",
+    "Population": "30000",
+    "LandArea": "1310.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Benson County, ND",
+    "District": "11",
+    "Population": "6964",
+    "LandArea": "1380.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Benson County, ND",
+    "District": "11",
+    "Population": "6964",
+    "LandArea": "1380.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Cass County, ND",
+    "District": "11",
+    "Population": "123138",
+    "LandArea": "1765.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Cass County, ND",
+    "District": "11",
+    "Population": "123138",
+    "LandArea": "1765.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Cavalier County, ND",
+    "District": "11",
+    "Population": "4831",
+    "LandArea": "1488.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Cavalier County, ND",
+    "District": "11",
+    "Population": "4831",
+    "LandArea": "1488.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Clay County, MN",
+    "District": "6",
+    "Population": "51229",
+    "LandArea": "1045.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Dickey County, ND",
+    "District": "11",
+    "Population": "5757",
+    "LandArea": "1131.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Dickey County, ND",
+    "District": "11",
+    "Population": "5757",
+    "LandArea": "1131.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Douglas County, MN",
+    "District": "6",
+    "Population": "32821",
+    "LandArea": "634.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Eddy County, ND",
+    "District": "11",
+    "Population": "2757",
+    "LandArea": "630.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Eddy County, ND",
+    "District": "11",
+    "Population": "2757",
+    "LandArea": "630.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Foster County, ND",
+    "District": "11",
+    "Population": "3759",
+    "LandArea": "635.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Foster County, ND",
+    "District": "11",
+    "Population": "3759",
+    "LandArea": "635.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Grand Forks County, ND",
+    "District": "11",
+    "Population": "66109",
+    "LandArea": "1437.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Grand Forks County, ND",
+    "District": "11",
+    "Population": "66109",
+    "LandArea": "1437.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Grant County, MN",
+    "District": "6",
+    "Population": "6289",
+    "LandArea": "546.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Griggs County, ND",
+    "District": "11",
+    "Population": "2754",
+    "LandArea": "708.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Griggs County, ND",
+    "District": "11",
+    "Population": "2754",
+    "LandArea": "708.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Kidder County, ND",
+    "District": "11",
+    "Population": "2753",
+    "LandArea": "1350.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Kidder County, ND",
+    "District": "11",
+    "Population": "2753",
+    "LandArea": "1350.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Kittson County, MN",
+    "District": "6",
+    "Population": "5285",
+    "LandArea": "1097.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "La Moure County, ND",
+    "District": "11",
+    "Population": "4701",
+    "LandArea": "1147.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "La Moure County, ND",
+    "District": "11",
+    "Population": "4701",
+    "LandArea": "1147.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Lake of The Woods County, MN",
+    "District": "6",
+    "Population": "4522",
+    "LandArea": "1296.70",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Logan County, ND",
+    "District": "11",
+    "Population": "2308",
+    "LandArea": "992.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Logan County, ND",
+    "District": "11",
+    "Population": "2308",
+    "LandArea": "992.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Mahnomen County, MN",
+    "District": "6",
+    "Population": "5190",
+    "LandArea": "556.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Marshall County, MN",
+    "District": "6",
+    "Population": "10155",
+    "LandArea": "1772.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "McIntosh County, ND",
+    "District": "11",
+    "Population": "3390",
+    "LandArea": "975.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "McIntosh County, ND",
+    "District": "11",
+    "Population": "3390",
+    "LandArea": "975.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Nelson County, ND",
+    "District": "11",
+    "Population": "3715",
+    "LandArea": "981.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Nelson County, ND",
+    "District": "11",
+    "Population": "3715",
+    "LandArea": "981.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Norman County, MN",
+    "District": "6",
+    "Population": "7442",
+    "LandArea": "876.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Otter Tail County, MN",
+    "District": "6",
+    "Population": "57159",
+    "LandArea": "1979.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pembina County, ND",
+    "District": "11",
+    "Population": "8585",
+    "LandArea": "1118.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Pembina County, ND",
+    "District": "11",
+    "Population": "8585",
+    "LandArea": "1118.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Pennington County, MN",
+    "District": "6",
+    "Population": "13584",
+    "LandArea": "616.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Polk County, MN",
+    "District": "6",
+    "Population": "31369",
+    "LandArea": "1970.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Ramsey County, ND",
+    "District": "11",
+    "Population": "12066",
+    "LandArea": "1184.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Ramsey County, ND",
+    "District": "11",
+    "Population": "12066",
+    "LandArea": "1184.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Ransom County, ND",
+    "District": "11",
+    "Population": "5890",
+    "LandArea": "862.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Ransom County, ND",
+    "District": "11",
+    "Population": "5890",
+    "LandArea": "862.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Red Lake County, MN",
+    "District": "6",
+    "Population": "4299",
+    "LandArea": "432.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Richland County, ND",
+    "District": "11",
+    "Population": "17998",
+    "LandArea": "1436.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Richland County, ND",
+    "District": "11",
+    "Population": "17998",
+    "LandArea": "1436.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Roseau County, MN",
+    "District": "6",
+    "Population": "16338",
+    "LandArea": "1662.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sargent County, ND",
+    "District": "11",
+    "Population": "4366",
+    "LandArea": "858.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Sargent County, ND",
+    "District": "11",
+    "Population": "4366",
+    "LandArea": "858.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Steele County, ND",
+    "District": "11",
+    "Population": "2258",
+    "LandArea": "712.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Steele County, ND",
+    "District": "11",
+    "Population": "2258",
+    "LandArea": "712.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Stutsman County, ND",
+    "District": "11",
+    "Population": "21908",
+    "LandArea": "2221.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Stutsman County, ND",
+    "District": "11",
+    "Population": "21908",
+    "LandArea": "2221.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Towner County, ND",
+    "District": "11",
+    "Population": "2876",
+    "LandArea": "1024.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Towner County, ND",
+    "District": "11",
+    "Population": "2876",
+    "LandArea": "1024.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Traill County, ND",
+    "District": "11",
+    "Population": "8477",
+    "LandArea": "861.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Traill County, ND",
+    "District": "11",
+    "Population": "8477",
+    "LandArea": "861.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Traverse County, MN",
+    "District": "6",
+    "Population": "4134",
+    "LandArea": "574.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Walsh County, ND",
+    "District": "11",
+    "Population": "12389",
+    "LandArea": "1281.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Walsh County, ND",
+    "District": "11",
+    "Population": "12389",
+    "LandArea": "1281.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Wells County, ND",
+    "District": "11",
+    "Population": "5102",
+    "LandArea": "1271.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Wells County, ND",
+    "District": "11",
+    "Population": "5102",
+    "LandArea": "1271.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ND"
+  },
+  {
+    "CountyName": "Wilkin County, MN",
+    "District": "6",
+    "Population": "7138",
+    "LandArea": "751.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2008  (rr) Toronto, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "742",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2008|Toronto|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "742",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7412 Seventh Concession Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6923",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7412 Seventh Concession Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Addison, ON K0E 1A0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6923",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Addison|ON|K0E 1A0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](613) 246-4744[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2222",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(613) 246-4744",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:trevorcaldwell.ibew@outlook.com\" target=\"_blank\">trevorcaldwell.ibew@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "693",
+    "editFieldNames": "Email",
+    "editFieldValues": "trevorcaldwell.ibew@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Trevor A. Caldwell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2269",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Trevor|A.|Caldwell||{ \"MemberID\" : \"2269\",\"luid\": \"742\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7412 Seventh Concession Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Addison\",\"state\":\"ON\",\"zip\":\"K0E 1A0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Alexander Young[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2267",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alexander||Young||{ \"MemberID\" : \"2267\",\"luid\": \"742\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"26 Fieldstone Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sudbury\",\"state\":\"ON\",\"zip\":\"P3B 0C4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Alexander G. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2268",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alexander|G.|Smith||{ \"MemberID\" : \"2268\",\"luid\": \"742\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"502 Byron Street S\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Whitby\",\"state\":\"ON\",\"zip\":\"L1N 4R3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Alexander G. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4060",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alexander|G.|Smith||{ \"MemberID\" : \"4060\",\"luid\": \"742\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"502 Byron Street S\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Whitby\",\"state\":\"ON\",\"zip\":\"L1N 4R3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "742",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

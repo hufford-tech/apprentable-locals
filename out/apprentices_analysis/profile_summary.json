@@ -1,0 +1,76 @@
+{
+  "source": "C:\\Users\\andre\\Downloads\\Apprentice Data pull 8.18.26\\apprentices.csv",
+  "source_bytes": 3012472052,
+  "data_as_of": "2026-08-17",
+  "rows": 5459938,
+  "columns_in_source": 78,
+  "duplicate_header": "APPR_STATUS_REASON appears twice",
+  "duplicate_appr_id_rows": 23,
+  "date_range": {
+    "start_min": "0002-04-22",
+    "start_max": "2996-06-08",
+    "exit_min": "1940-12-08",
+    "exit_max": "9202-01-30",
+    "future_start_dates": 526,
+    "future_exit_dates": 32,
+    "exit_before_start": 0,
+    "malformed_start_dates": 0,
+    "malformed_exit_dates": 0
+  },
+  "official_fy2025_kpis": {
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "active_apprentices": 696129,
+    "new_apprentices": 314550,
+    "exiters": 279097,
+    "completed_exiters": 122522,
+    "cancelled_exiters": 156575,
+    "total_apprentices_served": 975226
+  },
+  "quality": {
+    "invalid_age_values": 1769,
+    "age_cohort_comparable": 5341417,
+    "age_cohort_mismatches": 0,
+    "age_cohort_mismatch_rate": 0.0,
+    "zero_or_negative_start_wages": 314019,
+    "start_wages_above_100": 34095,
+    "valid_hourly_start_wages_0_to_100": 3343097,
+    "valid_exit_wages_0_to_100": 2970433,
+    "rows_not_mapped_to_program_state": 37,
+    "starting_wage_indicator_counts": {
+      "H": 3576748,
+      "A": 20208,
+      "M": 11907,
+      "W": 5479,
+      "S": 38,
+      "Q": 3
+    }
+  },
+  "wages": {
+    "starting_wage_p25": 11.56,
+    "starting_wage_median": 15.33,
+    "starting_wage_p75": 19.95,
+    "completed_records_with_valid_wage_pair": 1086333,
+    "completed_records_with_recorded_wage_decline": 21150,
+    "median_nominal_wage_change": 0.554
+  },
+  "recent_story_metrics": {
+    "median_age_for_2025_starts": 26.0,
+    "female_share_among_identified_2025_starts": 0.1842864202879909,
+    "median_recorded_starting_wage_for_2025_starts": 20.6
+  },
+  "program_file": {
+    "program_rows": 130730,
+    "duplicate_ps_id_rows": 0
+  },
+  "unclassified_status_codes": [
+    "",
+    "RS"
+  ],
+  "notes": [
+    "AGE_AT_START is marked deprecated in the official data dictionary.",
+    "Wage summaries use records explicitly flagged hourly; values are nominal and are not inflation-adjusted.",
+    "Completion share among resolved exits is exploratory and is not an official DOL completion rate.",
+    "All outputs are aggregate; no individual apprentice rows are written."
+  ]
+}

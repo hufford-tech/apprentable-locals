@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]870-  (rr) Cumberland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "870-|Cumberland|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "458",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8097 Fort Ashby Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5146",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8097 Fort Ashby Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Keyser, WV 26726[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5146",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Keyser|WV|26726",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]B.M. [/b]Douglas W. Mullan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1407",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Douglas|W.|Mullan||{ \"MemberID\" : \"1407\",\"luid\": \"458\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"171 Hite Hollow Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hyndman\",\"state\":\"PA\",\"zip\":\"15545\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Wes A. Marks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1405",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wes|A.|Marks||{ \"MemberID\" : \"1405\",\"luid\": \"458\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"95 W Evergreen Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Ashby\",\"state\":\"WV\",\"zip\":\"26719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Fredric M. Marlis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1404",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Fredric|M.|Marlis||{ \"MemberID\" : \"1404\",\"luid\": \"458\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8097 Fort Ashby Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Keyser\",\"state\":\"WV\",\"zip\":\"26726\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Mike S. Guthrie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1406",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mike|S.|Guthrie||{ \"MemberID\" : \"1406\",\"luid\": \"458\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"10801 Welsh Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Frostburg\",\"state\":\"MD\",\"zip\":\"21532\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]3rd Monday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 3 pm",
+    "datatype": "txt"
+  }
+]

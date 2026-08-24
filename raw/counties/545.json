@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Andrew County, MO",
+    "District": "11",
+    "Population": "16492",
+    "LandArea": "435.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Atchison County, KS",
+    "District": "7",
+    "Population": "16774",
+    "LandArea": "432.34",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Atchison County, MO",
+    "District": "11",
+    "Population": "6430",
+    "LandArea": "544.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Buchanan County, MO",
+    "District": "11",
+    "Population": "85998",
+    "LandArea": "409.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Caldwell County, MO",
+    "District": "11",
+    "Population": "8969",
+    "LandArea": "429.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Clinton County, MO",
+    "District": "11",
+    "Population": "18979",
+    "LandArea": "418.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Daviess County, MO",
+    "District": "11",
+    "Population": "8016",
+    "LandArea": "566.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "De Kalb County, MO",
+    "District": "11",
+    "Population": "11597",
+    "LandArea": "424.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Doniphan County, KS",
+    "District": "7",
+    "Population": "8249",
+    "LandArea": "392.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Gentry County, MO",
+    "District": "11",
+    "Population": "6861",
+    "LandArea": "491.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Grundy County, MO",
+    "District": "11",
+    "Population": "10432",
+    "LandArea": "435.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Harrison County, MO",
+    "District": "11",
+    "Population": "8850",
+    "LandArea": "725.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Holt County, MO",
+    "District": "11",
+    "Population": "5351",
+    "LandArea": "461.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Livingston County, MO",
+    "District": "11",
+    "Population": "14558",
+    "LandArea": "534.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Mercer County, MO",
+    "District": "11",
+    "Population": "3757",
+    "LandArea": "454.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Nodaway County, MO",
+    "District": "11",
+    "Population": "21912",
+    "LandArea": "876.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Worth County, MO",
+    "District": "11",
+    "Population": "2382",
+    "LandArea": "266.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  }
+]

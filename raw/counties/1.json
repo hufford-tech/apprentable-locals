@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Bollinger County, MO",
+    "District": "11",
+    "Population": "12029",
+    "LandArea": "620.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Butler County, MO",
+    "District": "11",
+    "Population": "40867",
+    "LandArea": "697.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cape Girardeau County, MO",
+    "District": "11",
+    "Population": "68693",
+    "LandArea": "578.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Carter County, MO",
+    "District": "11",
+    "Population": "5941",
+    "LandArea": "507.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Dunklin County, MO",
+    "District": "11",
+    "Population": "33155",
+    "LandArea": "545.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Franklin County, MO",
+    "District": "11",
+    "Population": "93807",
+    "LandArea": "922.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Iron County, MO",
+    "District": "11",
+    "Population": "10697",
+    "LandArea": "551.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Jefferson County, MO",
+    "District": "11",
+    "Population": "198099",
+    "LandArea": "656.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Lincoln County, MO",
+    "District": "11",
+    "Population": "38944",
+    "LandArea": "630.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Madison County, MO",
+    "District": "11",
+    "Population": "11800",
+    "LandArea": "496.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Mississippi County, MO",
+    "District": "11",
+    "Population": "13427",
+    "LandArea": "413.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "New Madrid County, MO",
+    "District": "11",
+    "Population": "19760",
+    "LandArea": "678.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Pemiscot County, MO",
+    "District": "11",
+    "Population": "20047",
+    "LandArea": "493.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Perry County, MO",
+    "District": "11",
+    "Population": "18132",
+    "LandArea": "474.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Reynolds County, MO",
+    "District": "11",
+    "Population": "6689",
+    "LandArea": "811.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ripley County, MO",
+    "District": "11",
+    "Population": "13509",
+    "LandArea": "629.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Scott County, MO",
+    "District": "11",
+    "Population": "40422",
+    "LandArea": "421.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Charles County, MO",
+    "District": "11",
+    "Population": "283883",
+    "LandArea": "560.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Francois County, MO",
+    "District": "11",
+    "Population": "55641",
+    "LandArea": "449.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Louis City, MO",
+    "District": "11",
+    "Population": "348189",
+    "LandArea": "61.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Louis County, MO",
+    "District": "11",
+    "Population": "1016315",
+    "LandArea": "507.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ste. Genevieve County, MO",
+    "District": "11",
+    "Population": "17842",
+    "LandArea": "502.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Stoddard County, MO",
+    "District": "11",
+    "Population": "29705",
+    "LandArea": "827.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Warren County, MO",
+    "District": "11",
+    "Population": "24525",
+    "LandArea": "431.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Washington County, MO",
+    "District": "11",
+    "Population": "23344",
+    "LandArea": "759.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Wayne County, MO",
+    "District": "11",
+    "Population": "13259",
+    "LandArea": "761.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  }
+]

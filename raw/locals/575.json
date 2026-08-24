@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1317  (em) Laurel[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1317|Laurel|MS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "575",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3171 Ellisville Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5884",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3171 Ellisville Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Laurel, MS 39442[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5884",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Laurel|MS|39442",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 2296[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "536",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2296",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Laurel, MS 39442[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "536",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Laurel|MS|39442",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](601) 428-4575[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1001",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(601) 428-4575",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](601) 428-4575[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1002",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(601) 428-4575",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1317@bellsouth.net\" target=\"_blank\">ibewlocal1317@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "542",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1317@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Selina Hayes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1767",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Selina||Hayes||{ \"MemberID\" : \"1767\",\"luid\": \"575\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2296\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Laurel\",\"state\":\"MS\",\"zip\":\"39442\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Selina Hayes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3878",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Selina||Hayes||{ \"MemberID\" : \"3878\",\"luid\": \"575\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Katrina Clark[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1769",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Katrina||Clark||{ \"MemberID\" : \"1769\",\"luid\": \"575\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2296\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Laurel\",\"state\":\"MS\",\"zip\":\"39442\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Contina B. Rogers[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1768",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Contina|B.|Rogers||{ \"MemberID\" : \"1768\",\"luid\": \"575\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2296\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Laurel\",\"state\":\"MS\",\"zip\":\"39442\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 1 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 1 pm",
+    "datatype": "txt"
+  }
+]

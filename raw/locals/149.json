@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]238-  (i, lctt, mo, o, u) Asheville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "238-|Asheville|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "149",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, mo, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]46 New Leicester Highway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5650",
+    "editFieldNames": "Address1",
+    "editFieldValues": "46 New Leicester Highway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Asheville, NC 28806[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5650",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Asheville|NC|28806",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](828) 505-0216[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2090",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(828) 505-0216",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](828) 505-2326[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2091",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(828) 505-2326",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew238@gmail.com\" target=\"_blank\">ibew238@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew238@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew238.org\" target=\"_blank\">www.ibew238.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew238.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Richard T. Sluder Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "462",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|T.|Sluder|Jr.|{ \"MemberID\" : \"462\",\"luid\": \"149\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"46 New Leicester Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Asheville\",\"state\":\"NC\",\"zip\":\"28806\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Willie J. Moore III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "463",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Willie|J.|Moore|III|{ \"MemberID\" : \"463\",\"luid\": \"149\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"442 Tabor Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"East Flat Rock\",\"state\":\"NC\",\"zip\":\"28726\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Richard T. Sluder Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3467",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|T.|Sluder|Jr.|{ \"MemberID\" : \"3467\",\"luid\": \"149\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"46 New Leicester Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Asheville\",\"state\":\"NC\",\"zip\":\"28806\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]KaCee M. Williams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "461",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "KaCee|M.|Williams||{ \"MemberID\" : \"461\",\"luid\": \"149\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2 Saint Davids Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Asheville\",\"state\":\"NC\",\"zip\":\"28803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Saturday, 10 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Saturday, 10 am",
+    "datatype": "txt"
+  }
+]

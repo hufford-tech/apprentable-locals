@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]127-  (i, rts, spa) Kenosha[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "97",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "127-|Kenosha|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "97",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3030 39th Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "100",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3030 39th Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kenosha, WI 53144[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "100",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kenosha|WI|53144",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](262) 654-0912[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "190",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(262) 654-0912",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](262) 654-2803[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "191",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(262) 654-2803",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew127@gmail.com\" target=\"_blank\">ibew127@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "96",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew127@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew127.org\" target=\"_blank\">www.ibew127.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "97",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew127.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Sean W. Frank[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "300",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|W.|Frank||{ \"MemberID\" : \"300\",\"luid\": \"97\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3030 39th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenosha\",\"state\":\"WI\",\"zip\":\"53144\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Samuel J. Boland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "299",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|J.|Boland||{ \"MemberID\" : \"299\",\"luid\": \"97\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3030 39th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenosha\",\"state\":\"WI\",\"zip\":\"53144\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Sean W. Frank[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3422",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|W.|Frank||{ \"MemberID\" : \"3422\",\"luid\": \"97\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Patrick M. Ennis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "301",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|M.|Ennis||{ \"MemberID\" : \"301\",\"luid\": \"97\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3030 39th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenosha\",\"state\":\"WI\",\"zip\":\"53144\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "97",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

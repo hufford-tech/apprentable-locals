@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]309-  (i, lctt, mo, mt, o, rts, spa, u) Collinsville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "309-|Collinsville|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "188",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, mo, mt, o, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2000A Mall Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "195",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2000A Mall Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Collinsville, IL 62234[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "195",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Collinsville|IL|62234",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](618) 345-5112[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(618) 345-5112",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](618) 345-3810[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "358",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(618) 345-3810",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:electricians@ibew309.org\" target=\"_blank\">electricians@ibew309.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "185",
+    "editFieldNames": "Email",
+    "editFieldValues": "electricians@ibew309.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew309.com\" target=\"_blank\">www.ibew309.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew309.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Chris J. Hankins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris|J.|Hankins||{ \"MemberID\" : \"580\",\"luid\": \"188\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2000A Mall Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Collinsville\",\"state\":\"IL\",\"zip\":\"62234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John Garrett III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "581",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Garrett|III|{ \"MemberID\" : \"581\",\"luid\": \"188\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2000A Mall Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Collinsville\",\"state\":\"IL\",\"zip\":\"62234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Chris J. Hankins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3505",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris|J.|Hankins||{ \"MemberID\" : \"3505\",\"luid\": \"188\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]David A. Rhymer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "582",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Rhymer||{ \"MemberID\" : \"582\",\"luid\": \"188\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2000A Mall Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Collinsville\",\"state\":\"IL\",\"zip\":\"62234\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

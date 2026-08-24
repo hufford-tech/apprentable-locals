@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Cattaraugus County, NY",
+    "District": "3",
+    "Population": "83955",
+    "LandArea": "1309.85",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Erie County, NY",
+    "District": "3",
+    "Population": "950265",
+    "LandArea": "1044.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Genesee County, NY",
+    "District": "3",
+    "Population": "60370",
+    "LandArea": "494.11",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wyoming County, NY",
+    "District": "3",
+    "Population": "43424",
+    "LandArea": "592.91",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

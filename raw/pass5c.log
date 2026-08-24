@@ -1,0 +1,19 @@
+Already extracted: 172  Remaining: 73
+No-pages-collected (skipped, no batch call): 2 ['43', '106']
+Batch-eligible locals: 71
+Avg pages/local BEFORE prefilter: 14.3
+Avg pages/local AFTER prefilter:  13.6
+Submitted batch msgbatch_01DeZvBwkggLdgPd8s3ppUMe, status=in_progress
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=in_progress processing=71 succeeded=0 errored=0 canceled=0 expired=0
+  [poll] status=ended processing=0 succeeded=71 errored=0 canceled=0 expired=0
+
+Batch done. Succeeded: 70  Failed: 1
+  LU 257: parse error: Expecting value: line 1 column 1 (char 0)
+Token usage: input=2,503,723 output=42,549 cache_read=0 cache_write=0
+Estimated actual cost (batch, 50% rates): $4.0747
+Wrote out/extraction_pass2only.csv: 242 rows total

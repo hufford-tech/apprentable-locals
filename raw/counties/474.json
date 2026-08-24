@@ -1,0 +1,353 @@
+[
+  {
+    "CountyName": "Benton County, MS",
+    "District": "5",
+    "Population": "8026",
+    "LandArea": "406.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Calhoun County, MS",
+    "District": "5",
+    "Population": "15069",
+    "LandArea": "586.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Chester County, TN",
+    "District": "10",
+    "Population": "15540",
+    "LandArea": "288.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Chester County, TN",
+    "District": "10",
+    "Population": "15540",
+    "LandArea": "288.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Coahoma County, MS",
+    "District": "5",
+    "Population": "30622",
+    "LandArea": "554.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Crittenden County, AR",
+    "District": "10",
+    "Population": "50866",
+    "LandArea": "610.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Crittenden County, AR",
+    "District": "10",
+    "Population": "50866",
+    "LandArea": "610.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cross County, AR",
+    "District": "10",
+    "Population": "19526",
+    "LandArea": "615.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Cross County, AR",
+    "District": "10",
+    "Population": "19526",
+    "LandArea": "615.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "De Soto County, MS",
+    "District": "5",
+    "Population": "107199",
+    "LandArea": "477.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Fayette County, TN",
+    "District": "10",
+    "Population": "28806",
+    "LandArea": "704.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Fayette County, TN",
+    "District": "10",
+    "Population": "28806",
+    "LandArea": "704.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Grenada County, MS",
+    "District": "5",
+    "Population": "23263",
+    "LandArea": "421.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Hardeman County, TN",
+    "District": "10",
+    "Population": "28105",
+    "LandArea": "667.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hardeman County, TN",
+    "District": "10",
+    "Population": "28105",
+    "LandArea": "667.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Haywood County, TN",
+    "District": "10",
+    "Population": "19797",
+    "LandArea": "533.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Haywood County, TN",
+    "District": "10",
+    "Population": "19797",
+    "LandArea": "533.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lafayette County, MS",
+    "District": "5",
+    "Population": "38744",
+    "LandArea": "631.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lauderdale County, TN",
+    "District": "10",
+    "Population": "27101",
+    "LandArea": "470.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lauderdale County, TN",
+    "District": "10",
+    "Population": "27101",
+    "LandArea": "470.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lee County, AR",
+    "District": "10",
+    "Population": "12580",
+    "LandArea": "601.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lee County, AR",
+    "District": "10",
+    "Population": "12580",
+    "LandArea": "601.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Marshall County, MS",
+    "District": "5",
+    "Population": "34993",
+    "LandArea": "706.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "McNairy County, TN",
+    "District": "10",
+    "Population": "24653",
+    "LandArea": "560.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "McNairy County, TN",
+    "District": "10",
+    "Population": "24653",
+    "LandArea": "560.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Panola County, MS",
+    "District": "5",
+    "Population": "34274",
+    "LandArea": "684.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Phillips County, AR",
+    "District": "10",
+    "Population": "26445",
+    "LandArea": "692.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Phillips County, AR",
+    "District": "10",
+    "Population": "26445",
+    "LandArea": "692.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Quitman County, MS",
+    "District": "5",
+    "Population": "10117",
+    "LandArea": "404.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Shelby County, TN",
+    "District": "10",
+    "Population": "897472",
+    "LandArea": "754.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Shelby County, TN",
+    "District": "10",
+    "Population": "897472",
+    "LandArea": "754.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "St. Francis County, AR",
+    "District": "10",
+    "Population": "29329",
+    "LandArea": "633.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "St. Francis County, AR",
+    "District": "10",
+    "Population": "29329",
+    "LandArea": "633.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Tallahatchie County, MS",
+    "District": "5",
+    "Population": "14903",
+    "LandArea": "643.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tate County, MS",
+    "District": "5",
+    "Population": "25370",
+    "LandArea": "404.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Tipton County, TN",
+    "District": "10",
+    "Population": "51271",
+    "LandArea": "459.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Tipton County, TN",
+    "District": "10",
+    "Population": "51271",
+    "LandArea": "459.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Tunica County, MS",
+    "District": "5",
+    "Population": "9227",
+    "LandArea": "454.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Yalobusha County, MS",
+    "District": "5",
+    "Population": "13051",
+    "LandArea": "467.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  }
+]

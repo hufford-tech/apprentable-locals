@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]747-  (rr) New Haven[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "747-|New Haven|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "405",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9 Princess Pine Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7292",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9 Princess Pine Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Clinton, CT 06413[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7292",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Clinton|CT|06413",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](203) 668-7477[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "740",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 668-7477",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:seanroberts747@gmail.com\" target=\"_blank\">seanroberts747@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2047",
+    "editFieldNames": "Email",
+    "editFieldValues": "seanroberts747@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew747.org\" target=\"_blank\">www.ibew747.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew747.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Sean R. Roberts, 20 Edgecomb Road, Cheshire, CT  06410[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1246",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|R.|Roberts||{ \"MemberID\" : \"1246\",\"luid\": \"405\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Edgecomb Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheshire\",\"state\":\"CT\",\"zip\":\"06410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Sean R. Roberts, 20 Edgecomb Road, Cheshire, CT  06410[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3713",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|R.|Roberts||{ \"MemberID\" : \"3713\",\"luid\": \"405\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Edgecomb Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheshire\",\"state\":\"CT\",\"zip\":\"06410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Wojtek Kanicki, 9 Princess Pine Lane, Clinton, CT  06413[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1245",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wojtek||Kanicki||{ \"MemberID\" : \"1245\",\"luid\": \"405\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9 Princess Pine Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clinton\",\"state\":\"CT\",\"zip\":\"06413\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Brian T. Schultz, 62 Brentwood Road, Newington, CT  06111[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1244",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|T.|Schultz||{ \"MemberID\" : \"1244\",\"luid\": \"405\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"62 Brentwood Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Brazi's Italian Restaurant, 201 Food Terminal Plaza, 1st Monday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "405",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Brazi's Italian Restaurant, 201 Food Terminal Plaza, 1st Monday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

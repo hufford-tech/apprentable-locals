@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1637  (t) Erie[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "660",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1637|Erie|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "660",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2820 W 21st Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2820 W 21st Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 23[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 23",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Erie, PA 16506[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Erie|PA|16506",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](814) 833-1637[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1137",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 833-1637",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](814) 833-1085[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1138",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 833-1085",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1637@gmail.com\" target=\"_blank\">local1637@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "619",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1637@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1637.com\" target=\"_blank\">www.ibew1637.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "660",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1637.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Bryan P. Oler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2021",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|P.|Oler||{ \"MemberID\" : \"2021\",\"luid\": \"660\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2820 W 21st Street\",\"addr2\":\"Suite 23\",\"addr3\":\"\",\"city\":\"Erie\",\"state\":\"PA\",\"zip\":\"16506\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Bryan P. Oler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3966",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|P.|Oler||{ \"MemberID\" : \"3966\",\"luid\": \"660\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Mark G. Lacy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2022",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|G.|Lacy||{ \"MemberID\" : \"2022\",\"luid\": \"660\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2820 W 21st Street\",\"addr2\":\"Suite 23\",\"addr3\":\"\",\"city\":\"Erie\",\"state\":\"PA\",\"zip\":\"16506\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Matthew R. Kennedy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2023",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|R.|Kennedy||{ \"MemberID\" : \"2023\",\"luid\": \"660\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2820 W 21st Street\",\"addr2\":\"Suite 23\",\"addr3\":\"\",\"city\":\"Erie\",\"state\":\"PA\",\"zip\":\"16506\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "660",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

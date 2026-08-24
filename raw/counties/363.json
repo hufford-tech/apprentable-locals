@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Delaware County, NY",
+    "District": "3",
+    "Population": "48055",
+    "LandArea": "1446.37",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Dutchess County, NY",
+    "District": "3",
+    "Population": "280150",
+    "LandArea": "801.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Greene County, NY",
+    "District": "3",
+    "Population": "48195",
+    "LandArea": "647.75",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Orange County, NY",
+    "District": "3",
+    "Population": "341367",
+    "LandArea": "816.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Putnam County, NY",
+    "District": "3",
+    "Population": "95745",
+    "LandArea": "231.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Rockland County, NY",
+    "District": "3",
+    "Population": "286753",
+    "LandArea": "174.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Sullivan County, NY",
+    "District": "3",
+    "Population": "73966",
+    "LandArea": "969.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Ulster County, NY",
+    "District": "3",
+    "Population": "177749",
+    "LandArea": "1126.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

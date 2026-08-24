@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]322-  (govt, i, it, lctt, o, ptc, u) Casper[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "197",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "322-|Casper|WY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "197",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt, i, it, lctt, o, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]691 English Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "200",
+    "editFieldNames": "Address1",
+    "editFieldValues": "691 English Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Casper, WY 82601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "200",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Casper|WY|82601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](307) 265-1060[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "371",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 265-1060",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](307) 235-5028[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "372",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 235-5028",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew322.org\" target=\"_blank\">office@ibew322.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "192",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew322.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew322.org\" target=\"_blank\">www.ibew322.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "197",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew322.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jerry D. Payne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|D.|Payne||{ \"MemberID\" : \"608\",\"luid\": \"197\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"691 English Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Casper\",\"state\":\"WY\",\"zip\":\"82601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Ryan A. Andrews[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "609",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|A.|Andrews||{ \"MemberID\" : \"609\",\"luid\": \"197\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"691 English Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Casper\",\"state\":\"WY\",\"zip\":\"82601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jerry D. Payne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3514",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|D.|Payne||{ \"MemberID\" : \"3514\",\"luid\": \"197\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James G. Alm[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "607",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|G.|Alm||{ \"MemberID\" : \"607\",\"luid\": \"197\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"691 English Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Casper\",\"state\":\"WY\",\"zip\":\"82601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Casper: 2nd Tuesday, 6:30 pm; Jackson: 3rd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "197",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Casper: 2nd Tuesday, 6:30 pm; Jackson: 3rd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

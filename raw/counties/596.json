@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Barbour County, WV",
+    "District": "4",
+    "Population": "15557",
+    "LandArea": "340.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Barbour County, WV",
+    "District": "4",
+    "Population": "15557",
+    "LandArea": "340.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Doddridge County, WV",
+    "District": "4",
+    "Population": "7403",
+    "LandArea": "320.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Doddridge County, WV",
+    "District": "4",
+    "Population": "7403",
+    "LandArea": "320.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Harrison County, WV",
+    "District": "4",
+    "Population": "68652",
+    "LandArea": "416.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Harrison County, WV",
+    "District": "4",
+    "Population": "68652",
+    "LandArea": "416.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Lewis County, WV",
+    "District": "4",
+    "Population": "16919",
+    "LandArea": "382.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Lewis County, WV",
+    "District": "4",
+    "Population": "16919",
+    "LandArea": "382.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Marion County, WV",
+    "District": "4",
+    "Population": "56598",
+    "LandArea": "309.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Marion County, WV",
+    "District": "4",
+    "Population": "56598",
+    "LandArea": "309.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Monongalia County, WV",
+    "District": "4",
+    "Population": "81866",
+    "LandArea": "361.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Monongalia County, WV",
+    "District": "4",
+    "Population": "81866",
+    "LandArea": "361.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pendleton County, WV",
+    "District": "4",
+    "Population": "8196",
+    "LandArea": "697.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pendleton County, WV",
+    "District": "4",
+    "Population": "8196",
+    "LandArea": "697.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pocahontas County, WV",
+    "District": "4",
+    "Population": "9131",
+    "LandArea": "940.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Pocahontas County, WV",
+    "District": "4",
+    "Population": "9131",
+    "LandArea": "940.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Preston County, WV",
+    "District": "4",
+    "Population": "29334",
+    "LandArea": "648.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Preston County, WV",
+    "District": "4",
+    "Population": "29334",
+    "LandArea": "648.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Randolph County, WV",
+    "District": "4",
+    "Population": "28262",
+    "LandArea": "1039.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Randolph County, WV",
+    "District": "4",
+    "Population": "28262",
+    "LandArea": "1039.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Taylor County, WV",
+    "District": "4",
+    "Population": "16089",
+    "LandArea": "172.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Taylor County, WV",
+    "District": "4",
+    "Population": "16089",
+    "LandArea": "172.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tucker County, WV",
+    "District": "4",
+    "Population": "7321",
+    "LandArea": "418.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tucker County, WV",
+    "District": "4",
+    "Population": "7321",
+    "LandArea": "418.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Upshur County, WV",
+    "District": "4",
+    "Population": "23404",
+    "LandArea": "354.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Upshur County, WV",
+    "District": "4",
+    "Population": "23404",
+    "LandArea": "354.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  }
+]

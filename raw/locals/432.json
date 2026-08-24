@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]796-  (u) Dothan[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "432",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "796-|Dothan|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "432",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]330 Ross Clark Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5578",
+    "editFieldNames": "Address1",
+    "editFieldValues": "330 Ross Clark Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Dothan, AL 36303[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5578",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Dothan|AL|36303",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 315[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5577",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 315",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Ashford, AL 36312[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5577",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ashford|AL|36312",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](334) 796-6816[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2184",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(334) 796-6816",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dlrichardson796@gmail.com\" target=\"_blank\">dlrichardson796@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2120",
+    "editFieldNames": "Email",
+    "editFieldValues": "dlrichardson796@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David L. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1329",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Richardson||{ \"MemberID\" : \"1329\",\"luid\": \"432\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 315\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ashford\",\"state\":\"AL\",\"zip\":\"36312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]David L. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3741",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Richardson||{ \"MemberID\" : \"3741\",\"luid\": \"432\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 315\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ashford\",\"state\":\"AL\",\"zip\":\"36312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Justin B. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1328",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|B.|Richardson||{ \"MemberID\" : \"1328\",\"luid\": \"432\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"107 Patriot Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dothan\",\"state\":\"AL\",\"zip\":\"36305\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Ricky Day[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1330",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ricky||Day||{ \"MemberID\" : \"1330\",\"luid\": \"432\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 315\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ashford\",\"state\":\"AL\",\"zip\":\"36312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Dothan: 1st Thursday, 7:30 pm; Eufaula: 2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "432",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Dothan: 1st Thursday, 7:30 pm; Eufaula: 2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

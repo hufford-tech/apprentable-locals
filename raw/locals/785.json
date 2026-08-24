@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2144  (mo) Rumford[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "785",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2144|Rumford|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "785",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]25 Bird Hill Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4357",
+    "editFieldNames": "Address1",
+    "editFieldValues": "25 Bird Hill Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Greenwood, ME 04255[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4357",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Greenwood|ME|04255",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](207) 357-3111[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1853",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 357-3111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](207) 369-2885[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2251",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 369-2885",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jeepahs@hotmail.com\" target=\"_blank\">jeepahs@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2151",
+    "editFieldNames": "Email",
+    "editFieldValues": "jeepahs@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Daniel C. Sweatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2396",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|C.|Sweatt||{ \"MemberID\" : \"2396\",\"luid\": \"785\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"432 Swain Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rumford\",\"state\":\"ME\",\"zip\":\"04276\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Daniel C. Sweatt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4105",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|C.|Sweatt||{ \"MemberID\" : \"4105\",\"luid\": \"785\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Nathan S. Woods[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2395",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|S.|Woods||{ \"MemberID\" : \"2395\",\"luid\": \"785\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"29 Wyman Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rumford\",\"state\":\"ME\",\"zip\":\"04276\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Nathan S. Woods[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4104",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|S.|Woods||{ \"MemberID\" : \"4104\",\"luid\": \"785\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Snowshoe Club, Waldo Street, 3rd Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "785",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Snowshoe Club, Waldo Street, 3rd Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

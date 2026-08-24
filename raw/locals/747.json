@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2019  (rr) Brantford, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "747",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2019|Brantford|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "747",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3 Donaland Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7202",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3 Donaland Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Grimsby, ON L3M 1M1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7202",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Grimsby|ON|L3M 1M1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](905) 973-8787[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2358",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(905) 973-8787",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewKoetsier@protonmail.com\" target=\"_blank\">ibewKoetsier@protonmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2190",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewKoetsier@protonmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2019.ca\" target=\"_blank\">www.ibewlocal2019.ca</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "747",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2019.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Robert S. Koetsier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2282",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|S.|Koetsier||{ \"MemberID\" : \"2282\",\"luid\": \"747\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"227-55 Ellerslie Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North York\",\"state\":\"ON\",\"zip\":\"M2N 1Y3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Robert S. Koetsier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2284",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|S.|Koetsier||{ \"MemberID\" : \"2284\",\"luid\": \"747\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]George Hanufer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2283",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George||Hanufer||{ \"MemberID\" : \"2283\",\"luid\": \"747\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32 Barker Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tillsonburg\",\"state\":\"ON\",\"zip\":\"N4G 1E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]George Hanufer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2285",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George||Hanufer||{ \"MemberID\" : \"2285\",\"luid\": \"747\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"32 Barker Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tillsonburg\",\"state\":\"ON\",\"zip\":\"N4G 1E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Toronto, Burlington, London, Sunday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "747",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Toronto, Burlington, London, Sunday, 12 pm",
+    "datatype": "txt"
+  }
+]

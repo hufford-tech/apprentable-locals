@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]400-  (es, i, o) Asbury Park[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "400-|Asbury Park|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "236",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "es, i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3301 Highway 138 E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "232",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3301 Highway 138 E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wall, NJ 07719[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "232",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wall|NJ|07719",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1256[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "231",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1256",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Wall, NJ 07719[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "231",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wall|NJ|07719",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](732) 681-7111[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 681-7111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](732) 681-4759[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "441",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(732) 681-4759",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:robert@ibew400.org\" target=\"_blank\">robert@ibew400.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1929",
+    "editFieldNames": "Email",
+    "editFieldValues": "robert@ibew400.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew400.org\" target=\"_blank\">www.ibew400.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew400.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Robert W. Shimko[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "726",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Shimko||{ \"MemberID\" : \"726\",\"luid\": \"236\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1256\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Michael J. Ricca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "728",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Ricca||{ \"MemberID\" : \"728\",\"luid\": \"236\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1256\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Robert W. Shimko[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3551",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Shimko||{ \"MemberID\" : \"3551\",\"luid\": \"236\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Joseph J. Vogt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "727",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|J.|Vogt||{ \"MemberID\" : \"727\",\"luid\": \"236\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1256\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wall\",\"state\":\"NJ\",\"zip\":\"07719\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

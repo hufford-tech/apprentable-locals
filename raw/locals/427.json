@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]778-  (rr) Springfield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "427",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "778-|Springfield|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "427",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 873[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7211",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 873",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Springfield, MO 65801[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7211",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Springfield|MO|65801",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](417) 229-5324[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2366",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 229-5324",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:localunion778@gmail.com\" target=\"_blank\">localunion778@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2205",
+    "editFieldNames": "Email",
+    "editFieldValues": "localunion778@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Ryan L. Carr, 116 Tower Road, Highlandville, MO  65669[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1312",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|L.|Carr||{ \"MemberID\" : \"1312\",\"luid\": \"427\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"116 Tower Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Highlandville\",\"state\":\"MO\",\"zip\":\"65669\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Ryan L. Carr, 116 Tower Road, Highlandville, MO  65669[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3736",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|L.|Carr||{ \"MemberID\" : \"3736\",\"luid\": \"427\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"116 Tower Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Highlandville\",\"state\":\"MO\",\"zip\":\"65669\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jeffrey A. Sencenbaugh, 2315 Oak Drive, Louisiana, MO  63353[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1310",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|A.|Sencenbaugh||{ \"MemberID\" : \"1310\",\"luid\": \"427\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2315 Oak Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Louisiana\",\"state\":\"MO\",\"zip\":\"63353\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Michael W. Goforth, 3534 S State Highway N, Republic, MO  65738[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1311",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Goforth||{ \"MemberID\" : \"1311\",\"luid\": \"427\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3534 S State Highway N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Republic\",\"state\":\"MO\",\"zip\":\"65738\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]American Legion Post 639, 2660 S Scenic Avenue, 3rd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "427",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion Post 639, 2660 S Scenic Avenue, 3rd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

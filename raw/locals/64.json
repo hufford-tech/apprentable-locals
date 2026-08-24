@@ -1,0 +1,252 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]77--  (lctt, mt, o, t, u) Seattle[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "77--|Seattle|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "64",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, mt, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]19415 International Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5657",
+    "editFieldNames": "Address1",
+    "editFieldValues": "19415 International Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]SeaTac, WA 98188[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5657",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "SeaTac|WA|98188",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 68728[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 68728",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Seattle, WA 98168[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Seattle|WA|98168",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](206) 323-4505[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "125",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(206) 323-4505",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](206) 323-0186[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "126",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(206) 323-0186",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew77@ibew77.com\" target=\"_blank\">ibew77@ibew77.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "63",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew77@ibew77.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew77.com\" target=\"_blank\">www.ibew77.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew77.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Kennewick Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4153",
+    "editFieldNames": "Name",
+    "editFieldValues": "Kennewick Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t]7025 W Grandridge Boulevard[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4153",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7025 W Grandridge Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t]Suite A[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4153",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t]Kennewick, WA 99336[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4153",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kennewick|WA|99336",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t][b](509) 783-4136[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1753",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(509) 783-4136",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][t][b]Fax [/b] (509) 783-9453[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1754",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(509) 783-9453",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]Spokane Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4154",
+    "editFieldNames": "Name",
+    "editFieldValues": "Spokane Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][t]7903 E Broadway Avenue[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4154",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7903 E Broadway Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][t]Spokane Valley, WA 99212[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4154",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Spokane Valley|WA|99212",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][t][b](509) 328-8670[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1755",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(509) 328-8670",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "21",
+    "Line": "[t][b]B.M. [/b]Rex R. Habner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "195",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rex|R.|Habner||{ \"MemberID\" : \"195\",\"luid\": \"64\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 68728\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Seattle\",\"state\":\"WA\",\"zip\":\"98168\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "22",
+    "Line": "[t][b]Pres. [/b]Andrew M. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "197",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|M.|Johnson||{ \"MemberID\" : \"197\",\"luid\": \"64\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 68728\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Seattle\",\"state\":\"WA\",\"zip\":\"98168\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "23",
+    "Line": "[t][b]F.S. [/b]Rex R. Habner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3394",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rex|R.|Habner||{ \"MemberID\" : \"3394\",\"luid\": \"64\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "24",
+    "Line": "[t][b]R.S. [/b]Christinia S. Roberton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "196",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christinia|S.|Roberton||{ \"MemberID\" : \"196\",\"luid\": \"64\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 68728\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Seattle\",\"state\":\"WA\",\"zip\":\"98168\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "25",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

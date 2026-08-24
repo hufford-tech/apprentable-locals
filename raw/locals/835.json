@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2330  (ees, i, rts) St. John's, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "835",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2330|St. John's|NL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "835",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, i, rts",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 159[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 159",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]160 Holyrood Access Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "Address2",
+    "editFieldValues": "160 Holyrood Access Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Holyrood, NL A0A 2R0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "715",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Holyrood|NL|A0A 2R0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](709) 895-3764[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1379",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(709) 895-3764",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](709) 895-3790[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1380",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(709) 895-3790",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jmartin@ibew.nf.ca\" target=\"_blank\">jmartin@ibew.nf.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2085",
+    "editFieldNames": "Email",
+    "editFieldValues": "jmartin@ibew.nf.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew.nf.ca\" target=\"_blank\">www.ibew.nf.ca</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "835",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew.nf.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]James H. Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2540",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|H.|Martin||{ \"MemberID\" : \"2540\",\"luid\": \"835\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1082 Thorburn Road\",\"addr2\":\"Portugal Cove\",\"addr3\":\"\",\"city\":\"St. Phillips\",\"state\":\"NL\",\"zip\":\"A1M 1V8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Ryan Morgan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4428",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan||Morgan||{ \"MemberID\" : \"4428\",\"luid\": \"835\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]James H. Martin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4159",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|H.|Martin||{ \"MemberID\" : \"4159\",\"luid\": \"835\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Ronald Thomas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2542",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald||Thomas||{ \"MemberID\" : \"2542\",\"luid\": \"835\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1082 Thorburn Road\",\"addr2\":\"Portugal Cove\",\"addr3\":\"\",\"city\":\"St. Phillips\",\"state\":\"NL\",\"zip\":\"A1M 1V8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "835",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

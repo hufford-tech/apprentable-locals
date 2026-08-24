@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]8---  (as, em, i, mar, mt, rts, s, spa) Toledo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "8---|Toledo|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "8",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, em, i, mar, mt, rts, s, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]807 Lime City Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "Address1",
+    "editFieldValues": "807 Lime City Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rossford, OH 43460[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rossford|OH|43460",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](419) 666-8920[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 666-8920",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](419) 666-3984[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 666-3984",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Finance@ibew8.org\" target=\"_blank\">Finance@ibew8.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2208",
+    "editFieldNames": "Email",
+    "editFieldValues": "Finance@ibew8.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew8.org\" target=\"_blank\">www.ibew8.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew8.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Shaun P. Enright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "24",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shaun|P.|Enright||{ \"MemberID\" : \"24\",\"luid\": \"8\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17594 Wapakoneta Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Grand Rapids\",\"state\":\"OH\",\"zip\":\"43522\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Thomas P. Enright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "27",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|P.|Enright||{ \"MemberID\" : \"27\",\"luid\": \"8\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3749 Beechway Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toledo\",\"state\":\"OH\",\"zip\":\"43614\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James A. Pfeifer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "25",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|A.|Pfeifer||{ \"MemberID\" : \"25\",\"luid\": \"8\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3327 Section Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lambertville\",\"state\":\"MI\",\"zip\":\"48144\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Donald E. Momenee[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "26",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|E.|Momenee||{ \"MemberID\" : \"26\",\"luid\": \"8\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"247 Plymouth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toledo\",\"state\":\"OH\",\"zip\":\"43605\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st & 3rd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st & 3rd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

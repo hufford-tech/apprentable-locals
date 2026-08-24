@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]932-  (c, i, st) Coos Bay[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "474",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "932-|Coos Bay|OR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "474",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3427 Ash Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "443",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3427 Ash Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Bend, OR 97459[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "443",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Bend|OR|97459",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](541) 756-3907[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "846",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(541) 756-3907",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](541) 756-5612[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "847",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(541) 756-5612",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew932.com\" target=\"_blank\">office@ibew932.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "451",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew932.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Robert E. Westerman Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1454",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|E.|Westerman|Jr.|{ \"MemberID\" : \"1454\",\"luid\": \"474\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Ash Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Bend\",\"state\":\"OR\",\"zip\":\"97459\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Eric P. Sherman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1452",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|P.|Sherman||{ \"MemberID\" : \"1452\",\"luid\": \"474\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Ash Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Bend\",\"state\":\"OR\",\"zip\":\"97459\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Robert E. Westerman Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3783",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|E.|Westerman|Jr.|{ \"MemberID\" : \"3783\",\"luid\": \"474\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Adam H. Foxworthy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1453",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|H.|Foxworthy||{ \"MemberID\" : \"1453\",\"luid\": \"474\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3427 Ash Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Bend\",\"state\":\"OR\",\"zip\":\"97459\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Bay Area Labor Center, 2nd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "474",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Bay Area Labor Center, 2nd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

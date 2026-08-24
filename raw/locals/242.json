@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]413-  (i, mo) Santa Barbara[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "413-|Santa Barbara|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "242",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]100 Thomas Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "238",
+    "editFieldNames": "Address1",
+    "editFieldValues": "100 Thomas Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Buellton, CA 93427[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "238",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Buellton|CA|93427",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](805) 688-8083[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(805) 688-8083",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](805) 688-7144[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "451",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(805) 688-7144",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bill@ibew413.org\" target=\"_blank\">bill@ibew413.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "Email",
+    "editFieldValues": "bill@ibew413.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew413.org\" target=\"_blank\">www.ibew413.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew413.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Bill J. Baker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "744",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bill|J.|Baker||{ \"MemberID\" : \"744\",\"luid\": \"242\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"100 Thomas Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Buellton\",\"state\":\"CA\",\"zip\":\"93427\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Chuck  V. Huddleston[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "745",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chuck |V.|Huddleston||{ \"MemberID\" : \"745\",\"luid\": \"242\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"100 Thomas Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Buellton\",\"state\":\"CA\",\"zip\":\"93427\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Bill J. Baker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3557",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bill|J.|Baker||{ \"MemberID\" : \"3557\",\"luid\": \"242\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Roberto Torrez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "746",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roberto||Torrez||{ \"MemberID\" : \"746\",\"luid\": \"242\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"100 Thomas Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Buellton\",\"state\":\"CA\",\"zip\":\"93427\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

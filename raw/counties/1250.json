@@ -1,0 +1,380 @@
+[
+  {
+    "CountyName": "Bennett County, SD",
+    "District": "11",
+    "Population": "3574",
+    "LandArea": "1185.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Bennett County, SD",
+    "District": "11",
+    "Population": "3574",
+    "LandArea": "1185.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Butte County, SD",
+    "District": "11",
+    "Population": "9094",
+    "LandArea": "2248.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Butte County, SD",
+    "District": "11",
+    "Population": "9094",
+    "LandArea": "2248.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Corson County, SD",
+    "District": "11",
+    "Population": "4181",
+    "LandArea": "2472.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Corson County, SD",
+    "District": "11",
+    "Population": "4181",
+    "LandArea": "2472.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Custer County, SD",
+    "District": "11",
+    "Population": "7275",
+    "LandArea": "1557.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Custer County, SD",
+    "District": "11",
+    "Population": "7275",
+    "LandArea": "1557.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Dewey County, SD",
+    "District": "11",
+    "Population": "5972",
+    "LandArea": "2302.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Dewey County, SD",
+    "District": "11",
+    "Population": "5972",
+    "LandArea": "2302.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Fall River County, SD",
+    "District": "11",
+    "Population": "7453",
+    "LandArea": "1739.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Fall River County, SD",
+    "District": "11",
+    "Population": "7453",
+    "LandArea": "1739.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Haakon County, SD",
+    "District": "11",
+    "Population": "2196",
+    "LandArea": "1812.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Haakon County, SD",
+    "District": "11",
+    "Population": "2196",
+    "LandArea": "1812.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Harding County, SD",
+    "District": "11",
+    "Population": "1353",
+    "LandArea": "2670.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Harding County, SD",
+    "District": "11",
+    "Population": "1353",
+    "LandArea": "2670.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jackson County, SD",
+    "District": "11",
+    "Population": "2930",
+    "LandArea": "1869.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jackson County, SD",
+    "District": "11",
+    "Population": "2930",
+    "LandArea": "1869.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jones County, SD",
+    "District": "11",
+    "Population": "1193",
+    "LandArea": "970.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jones County, SD",
+    "District": "11",
+    "Population": "1193",
+    "LandArea": "970.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lawrence County, SD",
+    "District": "11",
+    "Population": "21802",
+    "LandArea": "800.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lawrence County, SD",
+    "District": "11",
+    "Population": "21802",
+    "LandArea": "800.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lyman County, SD",
+    "District": "11",
+    "Population": "3895",
+    "LandArea": "1639.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lyman County, SD",
+    "District": "11",
+    "Population": "3895",
+    "LandArea": "1639.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Meade County, SD",
+    "District": "11",
+    "Population": "24253",
+    "LandArea": "3470.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Meade County, SD",
+    "District": "11",
+    "Population": "24253",
+    "LandArea": "3470.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Mellette County, SD",
+    "District": "11",
+    "Population": "2083",
+    "LandArea": "1306.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Mellette County, SD",
+    "District": "11",
+    "Population": "2083",
+    "LandArea": "1306.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Pennington County, SD",
+    "District": "11",
+    "Population": "88565",
+    "LandArea": "2776.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Pennington County, SD",
+    "District": "11",
+    "Population": "88565",
+    "LandArea": "2776.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Perkins County, SD",
+    "District": "11",
+    "Population": "3363",
+    "LandArea": "2871.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Perkins County, SD",
+    "District": "11",
+    "Population": "3363",
+    "LandArea": "2871.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Shannon County, SD",
+    "District": "11",
+    "Population": "12466",
+    "LandArea": "2093.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Shannon County, SD",
+    "District": "11",
+    "Population": "12466",
+    "LandArea": "2093.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Stanley County, SD",
+    "District": "11",
+    "Population": "2772",
+    "LandArea": "1443.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Stanley County, SD",
+    "District": "11",
+    "Population": "2772",
+    "LandArea": "1443.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Todd County, SD",
+    "District": "11",
+    "Population": "9050",
+    "LandArea": "1388.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Todd County, SD",
+    "District": "11",
+    "Population": "9050",
+    "LandArea": "1388.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Tripp County, SD",
+    "District": "11",
+    "Population": "6430",
+    "LandArea": "1613.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Tripp County, SD",
+    "District": "11",
+    "Population": "6430",
+    "LandArea": "1613.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Ziebach County, SD",
+    "District": "11",
+    "Population": "2519",
+    "LandArea": "1962.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Ziebach County, SD",
+    "District": "11",
+    "Population": "2519",
+    "LandArea": "1962.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  }
+]

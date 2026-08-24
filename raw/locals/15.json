@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]15--  (ptc, u) Downers Grove[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "15--|Downers Grove|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "15",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6330 Belmont Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6330 Belmont Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Downers Grove, IL 60516[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "16",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Downers Grove|IL|60516",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](630) 515-0381[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "29",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 515-0381",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](630) 515-0835[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "30",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 515-0835",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:riser@ibew15.org\" target=\"_blank\">riser@ibew15.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "Email",
+    "editFieldValues": "riser@ibew15.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal15.org\" target=\"_blank\">www.ibewlocal15.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal15.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Christopher J. Riser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "47",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Riser||{ \"MemberID\" : \"47\",\"luid\": \"15\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6330 Belmont Road\",\"addr2\":\"Suite 1\",\"addr3\":\"\",\"city\":\"Downers Grove\",\"state\":\"IL\",\"zip\":\"60516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Christopher J. Riser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3346",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Riser||{ \"MemberID\" : \"3346\",\"luid\": \"15\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Christopher J. Riser[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3347",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Riser||{ \"MemberID\" : \"3347\",\"luid\": \"15\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Gladys Negron[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "48",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gladys||Negron||{ \"MemberID\" : \"48\",\"luid\": \"15\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"6330 Belmont Road\",\"addr2\":\"Suite 1\",\"addr3\":\"\",\"city\":\"Downers Grove\",\"state\":\"IL\",\"zip\":\"60516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "15",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

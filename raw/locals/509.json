@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1022  (rr) Lincoln[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "509",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1022|Lincoln|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "509",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3730 Wildbriar Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6411",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3730 Wildbriar Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lincoln, NE 68516[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6411",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lincoln|NE|68516",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](402) 540-1768[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2215",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 540-1768",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:stain474@gmail.com\" target=\"_blank\">stain474@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "481",
+    "editFieldNames": "Email",
+    "editFieldValues": "stain474@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Michael D. Cumpston[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1563",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Cumpston||{ \"MemberID\" : \"1563\",\"luid\": \"509\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3730 Wildbriar Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln\",\"state\":\"NE\",\"zip\":\"68516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael D. Cumpston[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3813",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Cumpston||{ \"MemberID\" : \"3813\",\"luid\": \"509\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Shannon R. Vergil[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1561",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|R.|Vergil||{ \"MemberID\" : \"1561\",\"luid\": \"509\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2741 Laredo Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lincoln\",\"state\":\"NE\",\"zip\":\"68516\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John M. Harders[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1562",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Harders||{ \"MemberID\" : \"1562\",\"luid\": \"509\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"913 G Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eagle\",\"state\":\"NE\",\"zip\":\"68347\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Labor Temple, 4625 Y Street, 1st Tuesday, 9 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "509",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Labor Temple, 4625 Y Street, 1st Tuesday, 9 am",
+    "datatype": "txt"
+  }
+]

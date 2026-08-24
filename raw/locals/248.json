@@ -1,0 +1,232 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]424-  (as, ees, em, es, i, mo, o, ptc, rtb, rts, spa, u) Edmonton, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "424-|Edmonton|AB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "248",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, ees, em, es, i, mo, o, ptc, rtb, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4232-93 Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4232-93 Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Edmonton, AB T6E 5P5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "242",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Edmonton|AB|T6E 5P5",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](780) 462-5076[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "459",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(780) 462-5076",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](780) 450-0461[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "460",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(780) 450-0461",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew424@ibew424.net\" target=\"_blank\">ibew424@ibew424.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew424@ibew424.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew424.net\" target=\"_blank\">www.ibew424.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew424.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Calgary Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5542",
+    "editFieldNames": "Name",
+    "editFieldValues": "Calgary Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]3623-29 Street NE[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5542",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3623-29 Street NE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Calgary, AB T1Y 5W4[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5542",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Calgary|AB|T1Y 5W4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](403) 717-0322[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2069",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(403) 717-0322",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (403) 717-0326[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2070",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(403) 717-0326",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Fort McMurray Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5543",
+    "editFieldNames": "Name",
+    "editFieldValues": "Fort McMurray Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t]258 Gregoire Drive[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5543",
+    "editFieldNames": "Address1",
+    "editFieldValues": "258 Gregoire Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][t]Fort McMurray, AB T9H 4K6[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5543",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fort McMurray|AB|T9H 4K6",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][t][b](780) 791-4727[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2071",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(780) 791-4727",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][t][b]Fax [/b] (780) 743-8501[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2072",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(780) 743-8501",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]B.M. [/b]Michael A. Reinhart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "764",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Reinhart||{ \"MemberID\" : \"764\",\"luid\": \"248\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4232 93rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T6E 5P5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][b]Pres. [/b]Joseph W. Trodden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "762",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|W.|Trodden||{ \"MemberID\" : \"762\",\"luid\": \"248\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4232 93rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T6E 5P5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "21",
+    "Line": "[t][b]F.S. [/b]Michael A. Reinhart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3563",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Reinhart||{ \"MemberID\" : \"3563\",\"luid\": \"248\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "22",
+    "Line": "[t][b]R.S. [/b]David A. Handley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "763",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Handley||{ \"MemberID\" : \"763\",\"luid\": \"248\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4232 93rd Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmonton\",\"state\":\"AB\",\"zip\":\"T6E 5P5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "23",
+    "Line": "[t][b]Meets [/b]Edmonton: 4th Wednesday, 7 pm; Fort McMurray: 4th Tuesday, 8 pm; Calgary: 4th Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Edmonton: 4th Wednesday, 7 pm; Fort McMurray: 4th Tuesday, 8 pm; Calgary: 4th Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2001  (ptc) Fremont[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "738",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2001|Fremont|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "738",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]224 N Park Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4669",
+    "editFieldNames": "Address1",
+    "editFieldValues": "224 N Park Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fremont, NE 68025[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4669",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fremont|NE|68025",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1815[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "658",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1815",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Fremont, NE 68026[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "658",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fremont|NE|68026",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](402) 719-5464[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1245",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 719-5464",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2001@gmail.com\" target=\"_blank\">ibew2001@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "690",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2001@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robin L. Juarez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2257",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robin|L.|Juarez||{ \"MemberID\" : \"2257\",\"luid\": \"738\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"224 N Park Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fremont\",\"state\":\"NE\",\"zip\":\"68025\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Robin L. Juarez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4054",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robin|L.|Juarez||{ \"MemberID\" : \"4054\",\"luid\": \"738\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Kathy Luschen, 1015 W First Street, Fremont, NE  68025[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2256",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kathy||Luschen||{ \"MemberID\" : \"2256\",\"luid\": \"738\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"1015 W First Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fremont\",\"state\":\"NE\",\"zip\":\"68025\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Robin L. Juarez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2258",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robin|L.|Juarez||{ \"MemberID\" : \"2258\",\"luid\": \"738\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"224 N Park Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fremont\",\"state\":\"NE\",\"zip\":\"68025\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "738",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

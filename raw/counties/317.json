@@ -1,0 +1,749 @@
+[
+  {
+    "CountyName": "Alleghany County, VA",
+    "District": "4",
+    "Population": "12926",
+    "LandArea": "444.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bedford City, VA",
+    "District": "4",
+    "Population": "6299",
+    "LandArea": "6.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bedford County, VA",
+    "District": "4",
+    "Population": "60371",
+    "LandArea": "754.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Bland County, VA",
+    "District": "4",
+    "Population": "6871",
+    "LandArea": "358.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Boone County, WV",
+    "District": "4",
+    "Population": "25535",
+    "LandArea": "502.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Botetourt County, VA",
+    "District": "4",
+    "Population": "30496",
+    "LandArea": "542.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Boyd County, KY",
+    "District": "4",
+    "Population": "49752",
+    "LandArea": "160.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Boyd County, KY",
+    "District": "4",
+    "Population": "49752",
+    "LandArea": "160.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Braxton County, WV",
+    "District": "4",
+    "Population": "14702",
+    "LandArea": "513.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Buchanan County, VA",
+    "District": "4",
+    "Population": "26978",
+    "LandArea": "503.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Cabell County, WV",
+    "District": "4",
+    "Population": "96784",
+    "LandArea": "281.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Cabell County, WV",
+    "District": "4",
+    "Population": "96784",
+    "LandArea": "281.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Calhoun County, WV",
+    "District": "4",
+    "Population": "7582",
+    "LandArea": "280.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Carroll County, VA",
+    "District": "4",
+    "Population": "29245",
+    "LandArea": "476.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Carter County, KY",
+    "District": "4",
+    "Population": "26889",
+    "LandArea": "410.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carter County, KY",
+    "District": "4",
+    "Population": "26889",
+    "LandArea": "410.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clay County, WV",
+    "District": "4",
+    "Population": "10330",
+    "LandArea": "342.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Covington City, VA",
+    "District": "4",
+    "Population": "6303",
+    "LandArea": "5.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Craig County, VA",
+    "District": "4",
+    "Population": "5091",
+    "LandArea": "330.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Elliott County, KY",
+    "District": "4",
+    "Population": "6748",
+    "LandArea": "233.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Elliott County, KY",
+    "District": "4",
+    "Population": "6748",
+    "LandArea": "233.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fayette County, WV",
+    "District": "4",
+    "Population": "47579",
+    "LandArea": "663.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Fleming County, KY",
+    "District": "4",
+    "Population": "13792",
+    "LandArea": "350.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Floyd County, KY",
+    "District": "4",
+    "Population": "42441",
+    "LandArea": "394.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Floyd County, KY",
+    "District": "4",
+    "Population": "42441",
+    "LandArea": "394.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Floyd County, VA",
+    "District": "4",
+    "Population": "13874",
+    "LandArea": "381.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Franklin County, VA",
+    "District": "4",
+    "Population": "47286",
+    "LandArea": "692.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Gallia County, OH",
+    "District": "4",
+    "Population": "31069",
+    "LandArea": "468.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Giles County, VA",
+    "District": "4",
+    "Population": "16657",
+    "LandArea": "357.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Gilmer County, WV",
+    "District": "4",
+    "Population": "7160",
+    "LandArea": "340.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Grayson County, VA",
+    "District": "4",
+    "Population": "17917",
+    "LandArea": "442.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Greenbrier County, WV",
+    "District": "4",
+    "Population": "34453",
+    "LandArea": "1021.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Greenup County, KY",
+    "District": "4",
+    "Population": "36891",
+    "LandArea": "346.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Henry County, VA",
+    "District": "4",
+    "Population": "57930",
+    "LandArea": "382.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Johnson County, KY",
+    "District": "4",
+    "Population": "23445",
+    "LandArea": "261.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Johnson County, KY",
+    "District": "4",
+    "Population": "23445",
+    "LandArea": "261.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Kanawha County, WV",
+    "District": "4",
+    "Population": "200073",
+    "LandArea": "903.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Lawrence County, KY",
+    "District": "4",
+    "Population": "15569",
+    "LandArea": "418.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lawrence County, KY",
+    "District": "4",
+    "Population": "15569",
+    "LandArea": "418.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lawrence County, OH",
+    "District": "4",
+    "Population": "62319",
+    "LandArea": "454.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lewis County, KY",
+    "District": "4",
+    "Population": "14092",
+    "LandArea": "484.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lincoln County, WV",
+    "District": "4",
+    "Population": "22108",
+    "LandArea": "437.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Lincoln County, WV",
+    "District": "4",
+    "Population": "22108",
+    "LandArea": "437.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Logan County, WV",
+    "District": "4",
+    "Population": "37710",
+    "LandArea": "454.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Logan County, WV",
+    "District": "4",
+    "Population": "37710",
+    "LandArea": "454.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Magoffin County, KY",
+    "District": "4",
+    "Population": "13332",
+    "LandArea": "309.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Magoffin County, KY",
+    "District": "4",
+    "Population": "13332",
+    "LandArea": "309.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Martin County, KY",
+    "District": "4",
+    "Population": "12578",
+    "LandArea": "230.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Martin County, KY",
+    "District": "4",
+    "Population": "12578",
+    "LandArea": "230.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Martinsville City, VA",
+    "District": "4",
+    "Population": "15416",
+    "LandArea": "10.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Mason County, KY",
+    "District": "4",
+    "Population": "16800",
+    "LandArea": "241.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Mason County, WV",
+    "District": "4",
+    "Population": "25957",
+    "LandArea": "431.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mason County, WV",
+    "District": "4",
+    "Population": "25957",
+    "LandArea": "431.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "McDowell County, WV",
+    "District": "4",
+    "Population": "27329",
+    "LandArea": "534.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mercer County, WV",
+    "District": "4",
+    "Population": "62980",
+    "LandArea": "420.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mingo County, WV",
+    "District": "4",
+    "Population": "28253",
+    "LandArea": "422.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Mingo County, WV",
+    "District": "4",
+    "Population": "28253",
+    "LandArea": "422.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Monroe County, WV",
+    "District": "4",
+    "Population": "14583",
+    "LandArea": "473.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Montgomery County, VA",
+    "District": "4",
+    "Population": "83629",
+    "LandArea": "388.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Morgan County, KY",
+    "District": "4",
+    "Population": "13948",
+    "LandArea": "381.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Morgan County, KY",
+    "District": "4",
+    "Population": "13948",
+    "LandArea": "381.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Nicholas County, WV",
+    "District": "4",
+    "Population": "26562",
+    "LandArea": "648.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Patrick County, VA",
+    "District": "4",
+    "Population": "19407",
+    "LandArea": "483.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Pike County, KY",
+    "District": "4",
+    "Population": "68736",
+    "LandArea": "787.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Pike County, KY",
+    "District": "4",
+    "Population": "68736",
+    "LandArea": "787.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Pulaski County, VA",
+    "District": "4",
+    "Population": "35127",
+    "LandArea": "320.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Putnam County, WV",
+    "District": "4",
+    "Population": "51589",
+    "LandArea": "346.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Radford City, VA",
+    "District": "4",
+    "Population": "15859",
+    "LandArea": "9.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Raleigh County, WV",
+    "District": "4",
+    "Population": "79220",
+    "LandArea": "606.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Roane County, WV",
+    "District": "4",
+    "Population": "15446",
+    "LandArea": "483.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Roanoke City, VA",
+    "District": "4",
+    "Population": "94911",
+    "LandArea": "42.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Roanoke County, VA",
+    "District": "4",
+    "Population": "85778",
+    "LandArea": "250.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Rowan County, KY",
+    "District": "4",
+    "Population": "22094",
+    "LandArea": "280.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Rowan County, KY",
+    "District": "4",
+    "Population": "22094",
+    "LandArea": "280.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Salem City, VA",
+    "District": "4",
+    "Population": "24747",
+    "LandArea": "14.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Smyth County, VA",
+    "District": "4",
+    "Population": "33081",
+    "LandArea": "452.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Summers County, WV",
+    "District": "4",
+    "Population": "12999",
+    "LandArea": "361.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Tazewell County, VA",
+    "District": "4",
+    "Population": "44598",
+    "LandArea": "519.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Wayne County, WV",
+    "District": "4",
+    "Population": "42903",
+    "LandArea": "505.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wayne County, WV",
+    "District": "4",
+    "Population": "42903",
+    "LandArea": "505.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Webster County, WV",
+    "District": "4",
+    "Population": "9719",
+    "LandArea": "555.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wyoming County, WV",
+    "District": "4",
+    "Population": "25708",
+    "LandArea": "500.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Wythe County, VA",
+    "District": "4",
+    "Population": "27599",
+    "LandArea": "463.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  }
+]

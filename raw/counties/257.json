@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Audrain County, MO",
+    "District": "11",
+    "Population": "25853",
+    "LandArea": "693.10",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Boone County, MO",
+    "District": "11",
+    "Population": "135454",
+    "LandArea": "685.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Callaway County, MO",
+    "District": "11",
+    "Population": "40766",
+    "LandArea": "838.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Camden County, MO",
+    "District": "11",
+    "Population": "37051",
+    "LandArea": "655.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Chariton County, MO",
+    "District": "11",
+    "Population": "8438",
+    "LandArea": "755.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cole County, MO",
+    "District": "11",
+    "Population": "71397",
+    "LandArea": "391.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Crawford County, MO",
+    "District": "11",
+    "Population": "22804",
+    "LandArea": "742.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Dent County, MO",
+    "District": "11",
+    "Population": "14927",
+    "LandArea": "753.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Gasconade County, MO",
+    "District": "11",
+    "Population": "15342",
+    "LandArea": "520.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Howard County, MO",
+    "District": "11",
+    "Population": "10212",
+    "LandArea": "465.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Maries County, MO",
+    "District": "11",
+    "Population": "8903",
+    "LandArea": "527.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Miller County, MO",
+    "District": "11",
+    "Population": "23564",
+    "LandArea": "592.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Moniteau County, MO",
+    "District": "11",
+    "Population": "14827",
+    "LandArea": "416.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Osage County, MO",
+    "District": "11",
+    "Population": "13062",
+    "LandArea": "606.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Phelps County, MO",
+    "District": "11",
+    "Population": "39825",
+    "LandArea": "672.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Randolph County, MO",
+    "District": "11",
+    "Population": "24663",
+    "LandArea": "482.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  }
+]

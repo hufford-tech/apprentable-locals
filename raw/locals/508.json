@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1015  (em, i) Weslaco[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "508",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1015|Weslaco|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "508",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]224 N McColl Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "477",
+    "editFieldNames": "Address1",
+    "editFieldValues": "224 N McColl Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite D[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "477",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite D",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]McAllen, TX 78501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "477",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "McAllen|TX|78501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](956) 630-3108[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "901",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(956) 630-3108",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](956) 630-3153[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "902",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(956) 630-3153",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu1015@att.net\" target=\"_blank\">ibewlu1015@att.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "480",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu1015@att.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Sergio A. Salinas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1559",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sergio|A.|Salinas||{ \"MemberID\" : \"1559\",\"luid\": \"508\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32431 N Highway 281\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edinburg\",\"state\":\"TX\",\"zip\":\"78542\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Angel Castillo[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1560",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Angel||Castillo||{ \"MemberID\" : \"1560\",\"luid\": \"508\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"344 W Liberty Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mercedes\",\"state\":\"TX\",\"zip\":\"78570\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Sergio A. Salinas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3812",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sergio|A.|Salinas||{ \"MemberID\" : \"3812\",\"luid\": \"508\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32431 N Highway 281\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edinburg\",\"state\":\"TX\",\"zip\":\"78542\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Osvaldo Cabada Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1558",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Osvaldo||Cabada|Jr.|{ \"MemberID\" : \"1558\",\"luid\": \"508\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"204 Zavalla Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Alton\",\"state\":\"TX\",\"zip\":\"78573\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "508",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

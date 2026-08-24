@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]6---  (c, i, st, u) San Francisco[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "6---|San Francisco|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "6",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, st, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]55 Fillmore Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "Address1",
+    "editFieldValues": "55 Fillmore Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]San Francisco, CA 94117[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "San Francisco|CA|94117",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](415) 861-5752[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(415) 861-5752",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](415) 861-0734[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "12",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(415) 861-0734",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew6@ibew6.org\" target=\"_blank\">ibew6@ibew6.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew6@ibew6.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew6.org\" target=\"_blank\">www.ibew6.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew6.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]John J. Doherty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "20",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Doherty||{ \"MemberID\" : \"20\",\"luid\": \"6\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"55 Fillmore Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"San Francisco\",\"state\":\"CA\",\"zip\":\"94117\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Edward F. Del Bonta[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4408",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|F.|Del Bonta||{ \"MemberID\" : \"4408\",\"luid\": \"6\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]John J. Doherty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3339",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Doherty||{ \"MemberID\" : \"3339\",\"luid\": \"6\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]John Langley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "18",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Langley||{ \"MemberID\" : \"18\",\"luid\": \"6\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"55 Fillmore Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"San Francisco\",\"state\":\"CA\",\"zip\":\"94117\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

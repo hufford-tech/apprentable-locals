@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]488-  (i, mt) Bridgeport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "282",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "488-|Bridgeport|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "282",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]721 Main Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "276",
+    "editFieldNames": "Address1",
+    "editFieldValues": "721 Main Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Monroe, CT 06468[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "276",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Monroe|CT|06468",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](203) 452-7679[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "524",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 452-7679",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](203) 459-2553[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "525",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 459-2553",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibewlocal488.org\" target=\"_blank\">office@ibewlocal488.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "272",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibewlocal488.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal488.org\" target=\"_blank\">www.ibewlocal488.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "282",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal488.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Daniel W. McInerney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "865",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|W.|McInerney||{ \"MemberID\" : \"865\",\"luid\": \"282\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"721 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe\",\"state\":\"CT\",\"zip\":\"06468\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Stephen J. Rodrigues[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "866",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|J.|Rodrigues||{ \"MemberID\" : \"866\",\"luid\": \"282\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"721 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe\",\"state\":\"CT\",\"zip\":\"06468\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Daniel W. McInerney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3596",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|W.|McInerney||{ \"MemberID\" : \"3596\",\"luid\": \"282\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jerome C. White[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "867",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerome|C.|White||{ \"MemberID\" : \"867\",\"luid\": \"282\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"721 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe\",\"state\":\"CT\",\"zip\":\"06468\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "282",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

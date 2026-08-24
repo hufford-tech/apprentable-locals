@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]98--  (as, catv, em, i, it) Philadelphia[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "76",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "98--|Philadelphia|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "76",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, catv, em, i, it",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4960 S Twelfth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "77",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4960 S Twelfth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Philadelphia, PA 19112[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "77",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Philadelphia|PA|19112",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](215) 563-5592[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "148",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(215) 563-5592",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](215) 561-2168[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "149",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(215) 561-2168",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ionews@ibew98.org\" target=\"_blank\">ionews@ibew98.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "75",
+    "editFieldNames": "Email",
+    "editFieldValues": "ionews@ibew98.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew98.org\" target=\"_blank\">www.ibew98.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "76",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew98.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Mark  J. Lynch Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "233",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark |J.|Lynch|Jr.|{ \"MemberID\" : \"233\",\"luid\": \"76\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1701 Spring Garden Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Philadelphia\",\"state\":\"PA\",\"zip\":\"19130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James T. Foy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "234",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|T.|Foy||{ \"MemberID\" : \"234\",\"luid\": \"76\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1701 Spring Garden Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Philadelphia\",\"state\":\"PA\",\"zip\":\"19130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Mark J. Lynch Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|J.|Lynch|Jr.|{ \"MemberID\" : \"235\",\"luid\": \"76\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1719  Spring Garden Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Philadelphia\",\"state\":\"PA\",\"zip\":\"19130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Gabrielle A. Edwards[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "232",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gabrielle|A.|Edwards||{ \"MemberID\" : \"232\",\"luid\": \"76\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1701 Spring Garden Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Philadelphia\",\"state\":\"PA\",\"zip\":\"19130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "76",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

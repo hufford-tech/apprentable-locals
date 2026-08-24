@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]22--  (i, lpt, rts, spa) Omaha[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "22--|Omaha|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "22",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lpt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8946 L Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8946 L Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Omaha, NE 68127[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Omaha|NE|68127",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](402) 331-8147[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 331-8147",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](402) 331-0836[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 331-0836",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:22@ibew22.org\" target=\"_blank\">22@ibew22.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "Email",
+    "editFieldValues": "22@ibew22.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew22.org\" target=\"_blank\">www.ibew22.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew22.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Barry W. Mayfield Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "65",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barry|W.|Mayfield|Jr.|{ \"MemberID\" : \"65\",\"luid\": \"22\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8946 L Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jay J. Ignowski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jay|J.|Ignowski||{ \"MemberID\" : \"66\",\"luid\": \"22\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8946 L Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Barry W. Mayfield Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3356",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barry|W.|Mayfield|Jr.|{ \"MemberID\" : \"3356\",\"luid\": \"22\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Michael J. Modra[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Modra||{ \"MemberID\" : \"67\",\"luid\": \"22\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"8946 L Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

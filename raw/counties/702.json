@@ -1,0 +1,668 @@
+[
+  {
+    "CountyName": "Alexander County, IL",
+    "District": "6",
+    "Population": "9590",
+    "LandArea": "236.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Alexander County, IL",
+    "District": "6",
+    "Population": "9590",
+    "LandArea": "236.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Bollinger County, MO",
+    "District": "11",
+    "Population": "12029",
+    "LandArea": "620.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Bond County, IL",
+    "District": "6",
+    "Population": "17633",
+    "LandArea": "380.20",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Bond County, IL",
+    "District": "6",
+    "Population": "17633",
+    "LandArea": "380.20",
+    "Percentage": "20%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Butler County, MO",
+    "District": "11",
+    "Population": "40867",
+    "LandArea": "697.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cape Girardeau County, MO",
+    "District": "11",
+    "Population": "68693",
+    "LandArea": "578.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Clark County, IL",
+    "District": "6",
+    "Population": "17008",
+    "LandArea": "501.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clay County, IL",
+    "District": "6",
+    "Population": "14560",
+    "LandArea": "469.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clay County, IL",
+    "District": "6",
+    "Population": "14560",
+    "LandArea": "469.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clinton County, IL",
+    "District": "6",
+    "Population": "35535",
+    "LandArea": "474.23",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Clinton County, IL",
+    "District": "6",
+    "Population": "35535",
+    "LandArea": "474.23",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Coles County, IL",
+    "District": "6",
+    "Population": "53196",
+    "LandArea": "508.29",
+    "Percentage": "60%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Crawford County, IL",
+    "District": "6",
+    "Population": "20452",
+    "LandArea": "443.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Cumberland County, IL",
+    "District": "6",
+    "Population": "11253",
+    "LandArea": "346.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Dunklin County, MO",
+    "District": "11",
+    "Population": "33155",
+    "LandArea": "545.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Edgar County, IL",
+    "District": "6",
+    "Population": "19704",
+    "LandArea": "623.55",
+    "Percentage": "25%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Edwards County, IL",
+    "District": "6",
+    "Population": "6971",
+    "LandArea": "222.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Edwards County, IL",
+    "District": "6",
+    "Population": "6971",
+    "LandArea": "222.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Effingham County, IL",
+    "District": "6",
+    "Population": "34264",
+    "LandArea": "478.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Effingham County, IL",
+    "District": "6",
+    "Population": "34264",
+    "LandArea": "478.70",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fayette County, IL",
+    "District": "6",
+    "Population": "21802",
+    "LandArea": "716.49",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Fayette County, IL",
+    "District": "6",
+    "Population": "21802",
+    "LandArea": "716.49",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Franklin County, IL",
+    "District": "6",
+    "Population": "39018",
+    "LandArea": "412.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Franklin County, IL",
+    "District": "6",
+    "Population": "39018",
+    "LandArea": "412.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Gallatin County, IL",
+    "District": "6",
+    "Population": "6445",
+    "LandArea": "323.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Gallatin County, IL",
+    "District": "6",
+    "Population": "6445",
+    "LandArea": "323.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hamilton County, IL",
+    "District": "6",
+    "Population": "8621",
+    "LandArea": "435.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hamilton County, IL",
+    "District": "6",
+    "Population": "8621",
+    "LandArea": "435.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hardin County, IL",
+    "District": "6",
+    "Population": "4800",
+    "LandArea": "178.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Hardin County, IL",
+    "District": "6",
+    "Population": "4800",
+    "LandArea": "178.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jackson County, IL",
+    "District": "6",
+    "Population": "59612",
+    "LandArea": "588.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jackson County, IL",
+    "District": "6",
+    "Population": "59612",
+    "LandArea": "588.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jasper County, IL",
+    "District": "6",
+    "Population": "10117",
+    "LandArea": "494.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jefferson County, IL",
+    "District": "6",
+    "Population": "40045",
+    "LandArea": "570.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jefferson County, IL",
+    "District": "6",
+    "Population": "40045",
+    "LandArea": "570.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Johnson County, IL",
+    "District": "6",
+    "Population": "12878",
+    "LandArea": "344.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Johnson County, IL",
+    "District": "6",
+    "Population": "12878",
+    "LandArea": "344.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Lawrence County, IL",
+    "District": "6",
+    "Population": "15452",
+    "LandArea": "371.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Madison County, MO",
+    "District": "11",
+    "Population": "11800",
+    "LandArea": "496.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Marion County, IL",
+    "District": "6",
+    "Population": "41691",
+    "LandArea": "572.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Marion County, IL",
+    "District": "6",
+    "Population": "41691",
+    "LandArea": "572.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Massac County, IL",
+    "District": "6",
+    "Population": "15161",
+    "LandArea": "239.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Massac County, IL",
+    "District": "6",
+    "Population": "15161",
+    "LandArea": "239.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mississippi County, MO",
+    "District": "11",
+    "Population": "13427",
+    "LandArea": "413.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Moultrie County, IL",
+    "District": "6",
+    "Population": "14287",
+    "LandArea": "335.60",
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "New Madrid County, MO",
+    "District": "11",
+    "Population": "19760",
+    "LandArea": "678.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Pemiscot County, MO",
+    "District": "11",
+    "Population": "20047",
+    "LandArea": "493.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Perry County, IL",
+    "District": "6",
+    "Population": "23094",
+    "LandArea": "440.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Perry County, IL",
+    "District": "6",
+    "Population": "23094",
+    "LandArea": "440.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pope County, IL",
+    "District": "6",
+    "Population": "4413",
+    "LandArea": "370.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pope County, IL",
+    "District": "6",
+    "Population": "4413",
+    "LandArea": "370.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pulaski County, IL",
+    "District": "6",
+    "Population": "7348",
+    "LandArea": "200.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Pulaski County, IL",
+    "District": "6",
+    "Population": "7348",
+    "LandArea": "200.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Randolph County, IL",
+    "District": "6",
+    "Population": "33893",
+    "LandArea": "578.42",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Randolph County, IL",
+    "District": "6",
+    "Population": "33893",
+    "LandArea": "578.42",
+    "Percentage": "95%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Richland County, IL",
+    "District": "6",
+    "Population": "16149",
+    "LandArea": "360.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Saline County, IL",
+    "District": "6",
+    "Population": "26733",
+    "LandArea": "383.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Saline County, IL",
+    "District": "6",
+    "Population": "26733",
+    "LandArea": "383.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Scott County, MO",
+    "District": "11",
+    "Population": "40422",
+    "LandArea": "421.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Shelby County, IL",
+    "District": "6",
+    "Population": "22893",
+    "LandArea": "758.51",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stoddard County, MO",
+    "District": "11",
+    "Population": "29705",
+    "LandArea": "827.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Union County, IL",
+    "District": "6",
+    "Population": "18293",
+    "LandArea": "416.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Union County, IL",
+    "District": "6",
+    "Population": "18293",
+    "LandArea": "416.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Wabash County, IL",
+    "District": "6",
+    "Population": "12937",
+    "LandArea": "223.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Washington County, IL",
+    "District": "6",
+    "Population": "15148",
+    "LandArea": "562.61",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Washington County, IL",
+    "District": "6",
+    "Population": "15148",
+    "LandArea": "562.61",
+    "Percentage": "95%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Wayne County, IL",
+    "District": "6",
+    "Population": "17151",
+    "LandArea": "713.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Wayne County, IL",
+    "District": "6",
+    "Population": "17151",
+    "LandArea": "713.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Wayne County, MO",
+    "District": "11",
+    "Population": "13259",
+    "LandArea": "761.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "White County, IL",
+    "District": "6",
+    "Population": "15371",
+    "LandArea": "494.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "White County, IL",
+    "District": "6",
+    "Population": "15371",
+    "LandArea": "494.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Williamson County, IL",
+    "District": "6",
+    "Population": "61296",
+    "LandArea": "423.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Williamson County, IL",
+    "District": "6",
+    "Population": "61296",
+    "LandArea": "423.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

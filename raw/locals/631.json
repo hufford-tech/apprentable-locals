@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1559  (rr) Superior[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1559|Superior|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "631",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8115 E County Road L[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7287",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8115 E County Road L",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Solon Springs, WI 54873[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7287",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Solon Springs|WI|54873",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](612) 810-8404[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1095",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(612) 810-8404",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mrherrboldt@yahoo.com\" target=\"_blank\">mrherrboldt@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "593",
+    "editFieldNames": "Email",
+    "editFieldValues": "mrherrboldt@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Michael R. Herrboldt, 5333 Maple Grove Road, Hermantown, MN  55811[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1941",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|R.|Herrboldt||{ \"MemberID\" : \"1941\",\"luid\": \"631\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5333 Maple Grove Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hermantown\",\"state\":\"MN\",\"zip\":\"55811\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael R. Herrboldt, 5333 Maple Grove Road, Hermantown, MN  55811[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1938",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|R.|Herrboldt||{ \"MemberID\" : \"1938\",\"luid\": \"631\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5333 Maple Grove Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hermantown\",\"state\":\"MN\",\"zip\":\"55811\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Shaun J. Anderson, 8115 E County Road L, Solon Springs, WI  54873[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1940",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shaun|J.|Anderson||{ \"MemberID\" : \"1940\",\"luid\": \"631\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8115 E County Road L\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Solon Springs\",\"state\":\"WI\",\"zip\":\"54873\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Christopher J. Lahr, 1802 Hammond Avenue, Superior, WI  54880[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1939",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Lahr||{ \"MemberID\" : \"1939\",\"luid\": \"631\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1802 Hammond Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Superior\",\"state\":\"WI\",\"zip\":\"54880\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Shamrock Pizza, 3rd Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "631",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Shamrock Pizza, 3rd Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

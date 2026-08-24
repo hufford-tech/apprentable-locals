@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Monmouth County, NJ",
+    "District": "3",
+    "Population": "615301",
+    "LandArea": "471.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Monmouth County, NJ",
+    "District": "3",
+    "Population": "615301",
+    "LandArea": "471.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Ocean County, NJ",
+    "District": "3",
+    "Population": "510916",
+    "LandArea": "636.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Ocean County, NJ",
+    "District": "3",
+    "Population": "510916",
+    "LandArea": "636.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  }
+]

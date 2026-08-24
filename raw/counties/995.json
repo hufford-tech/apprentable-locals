@@ -1,0 +1,668 @@
+[
+  {
+    "CountyName": "Acadia Parish, LA",
+    "District": "5",
+    "Population": "58861",
+    "LandArea": "655.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Allen Parish, LA",
+    "District": "5",
+    "Population": "25440",
+    "LandArea": "764.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Ascension Parish, LA",
+    "District": "5",
+    "Population": "76627",
+    "LandArea": "291.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Ascension Parish, LA",
+    "District": "5",
+    "Population": "76627",
+    "LandArea": "291.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Assumption Parish, LA",
+    "District": "5",
+    "Population": "23388",
+    "LandArea": "338.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Avoyelles Parish, LA",
+    "District": "5",
+    "Population": "41481",
+    "LandArea": "832.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Beauregard Parish, LA",
+    "District": "5",
+    "Population": "32986",
+    "LandArea": "1160.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Bienville Parish, LA",
+    "District": "5",
+    "Population": "15752",
+    "LandArea": "810.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Bossier Parish, LA",
+    "District": "5",
+    "Population": "98310",
+    "LandArea": "839.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Caddo Parish, LA",
+    "District": "5",
+    "Population": "252161",
+    "LandArea": "881.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Calcasieu Parish, LA",
+    "District": "5",
+    "Population": "183577",
+    "LandArea": "1071.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Caldwell Parish, LA",
+    "District": "5",
+    "Population": "10560",
+    "LandArea": "529.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Cameron Parish, LA",
+    "District": "5",
+    "Population": "9991",
+    "LandArea": "1312.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Catahoula Parish, LA",
+    "District": "5",
+    "Population": "10920",
+    "LandArea": "703.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Claiborne Parish, LA",
+    "District": "5",
+    "Population": "16851",
+    "LandArea": "754.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Concordia Parish, LA",
+    "District": "5",
+    "Population": "20247",
+    "LandArea": "695.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "De Soto Parish, LA",
+    "District": "5",
+    "Population": "25494",
+    "LandArea": "877.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Baton Rouge Parish, LA",
+    "District": "5",
+    "Population": "412852",
+    "LandArea": "455.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Baton Rouge Parish, LA",
+    "District": "5",
+    "Population": "412852",
+    "LandArea": "455.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Carroll Parish, LA",
+    "District": "5",
+    "Population": "9421",
+    "LandArea": "421.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Feliciana Parish, LA",
+    "District": "5",
+    "Population": "21360",
+    "LandArea": "453.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "East Feliciana Parish, LA",
+    "District": "5",
+    "Population": "21360",
+    "LandArea": "453.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Evangeline Parish, LA",
+    "District": "5",
+    "Population": "35434",
+    "LandArea": "664.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Franklin Parish, LA",
+    "District": "5",
+    "Population": "21263",
+    "LandArea": "623.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Grant Parish, LA",
+    "District": "5",
+    "Population": "18698",
+    "LandArea": "645.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Iberia Parish, LA",
+    "District": "5",
+    "Population": "73266",
+    "LandArea": "575.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Iberville Parish, LA",
+    "District": "5",
+    "Population": "33320",
+    "LandArea": "618.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Iberville Parish, LA",
+    "District": "5",
+    "Population": "33320",
+    "LandArea": "618.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jackson Parish, LA",
+    "District": "5",
+    "Population": "15397",
+    "LandArea": "569.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jefferson Davis Parish, LA",
+    "District": "5",
+    "Population": "31435",
+    "LandArea": "652.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jefferson Parish, LA",
+    "District": "5",
+    "Population": "455466",
+    "LandArea": "306.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "La Salle Parish, LA",
+    "District": "5",
+    "Population": "14282",
+    "LandArea": "623.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lafayette Parish, LA",
+    "District": "5",
+    "Population": "190503",
+    "LandArea": "269.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lafourche Parish, LA",
+    "District": "5",
+    "Population": "89974",
+    "LandArea": "1084.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lincoln Parish, LA",
+    "District": "5",
+    "Population": "42509",
+    "LandArea": "471.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Livingston Parish, LA",
+    "District": "5",
+    "Population": "91814",
+    "LandArea": "648.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Livingston Parish, LA",
+    "District": "5",
+    "Population": "91814",
+    "LandArea": "648.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Madison Parish, LA",
+    "District": "5",
+    "Population": "13728",
+    "LandArea": "624.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Morehouse Parish, LA",
+    "District": "5",
+    "Population": "31021",
+    "LandArea": "794.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Natchitoches Parish, LA",
+    "District": "5",
+    "Population": "39080",
+    "LandArea": "1255.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Orleans Parish, LA",
+    "District": "5",
+    "Population": "484674",
+    "LandArea": "180.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Ouachita Parish, LA",
+    "District": "5",
+    "Population": "147250",
+    "LandArea": "610.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Plaquemines Parish, LA",
+    "District": "5",
+    "Population": "26757",
+    "LandArea": "844.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Pointe Coupee Parish, LA",
+    "District": "5",
+    "Population": "22763",
+    "LandArea": "557.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Pointe Coupee Parish, LA",
+    "District": "5",
+    "Population": "22763",
+    "LandArea": "557.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Rapides Parish, LA",
+    "District": "5",
+    "Population": "126337",
+    "LandArea": "1322.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Red River Parish, LA",
+    "District": "5",
+    "Population": "9622",
+    "LandArea": "389.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Richland Parish, LA",
+    "District": "5",
+    "Population": "20981",
+    "LandArea": "558.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Sabine Parish, LA",
+    "District": "5",
+    "Population": "23459",
+    "LandArea": "865.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Bernard Parish, LA",
+    "District": "5",
+    "Population": "67229",
+    "LandArea": "465.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Charles Parish, LA",
+    "District": "5",
+    "Population": "48072",
+    "LandArea": "283.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Helena Parish, LA",
+    "District": "5",
+    "Population": "10525",
+    "LandArea": "408.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Helena Parish, LA",
+    "District": "5",
+    "Population": "10525",
+    "LandArea": "408.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. James Parish, LA",
+    "District": "5",
+    "Population": "21216",
+    "LandArea": "246.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. John the Baptist Parish, LA",
+    "District": "5",
+    "Population": "43044",
+    "LandArea": "218.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Landry Parish, LA",
+    "District": "5",
+    "Population": "87700",
+    "LandArea": "928.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Landry Parish, LA",
+    "District": "5",
+    "Population": "87700",
+    "LandArea": "928.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Martin Parish, LA",
+    "District": "5",
+    "Population": "48583",
+    "LandArea": "739.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Mary Parish, LA",
+    "District": "5",
+    "Population": "53500",
+    "LandArea": "612.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Tammany Parish, LA",
+    "District": "5",
+    "Population": "191268",
+    "LandArea": "854.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Tangipahoa Parish, LA",
+    "District": "5",
+    "Population": "100588",
+    "LandArea": "790.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Tensas Parish, LA",
+    "District": "5",
+    "Population": "6618",
+    "LandArea": "602.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Terrebonne Parish, LA",
+    "District": "5",
+    "Population": "104503",
+    "LandArea": "1254.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Union Parish, LA",
+    "District": "5",
+    "Population": "22803",
+    "LandArea": "877.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Vermilion Parish, LA",
+    "District": "5",
+    "Population": "53807",
+    "LandArea": "1173.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Vernon Parish, LA",
+    "District": "5",
+    "Population": "52531",
+    "LandArea": "1328.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Washington Parish, LA",
+    "District": "5",
+    "Population": "43926",
+    "LandArea": "669.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Webster Parish, LA",
+    "District": "5",
+    "Population": "41831",
+    "LandArea": "595.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Baton Rouge Parish, LA",
+    "District": "5",
+    "Population": "21601",
+    "LandArea": "191.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Baton Rouge Parish, LA",
+    "District": "5",
+    "Population": "21601",
+    "LandArea": "191.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Carroll Parish, LA",
+    "District": "5",
+    "Population": "12314",
+    "LandArea": "359.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Feliciana Parish, LA",
+    "District": "5",
+    "Population": "15111",
+    "LandArea": "406.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "West Feliciana Parish, LA",
+    "District": "5",
+    "Population": "15111",
+    "LandArea": "406.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Winn Parish, LA",
+    "District": "5",
+    "Population": "16894",
+    "LandArea": "950.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "LA"
+  }
+]

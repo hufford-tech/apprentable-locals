@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]418-  (rr) Cleburne[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "418-|Cleburne|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "245",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]108 Fairway Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7190",
+    "editFieldNames": "Address1",
+    "editFieldValues": "108 Fairway Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Gatesville, TX 76528[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7190",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Gatesville|TX|76528",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](254) 223-4172[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2348",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(254) 223-4172",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:carsongerdel1988@gmail.com\" target=\"_blank\">carsongerdel1988@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2210",
+    "editFieldNames": "Email",
+    "editFieldValues": "carsongerdel1988@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Carson C. Gerdel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4359",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carson|C.|Gerdel||{ \"MemberID\" : \"4359\",\"luid\": \"245\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Max V. Maddox[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "756",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Max|V.|Maddox||{ \"MemberID\" : \"756\",\"luid\": \"245\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"575 SP Terry\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Belton\",\"state\":\"TX\",\"zip\":\"76513\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Tyler D. Maddox[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4360",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler|D.|Maddox||{ \"MemberID\" : \"4360\",\"luid\": \"245\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Los Tres Magueyes Cantina & Grill, 2801 S General Bruce Drive, Temple, 2nd Tuesday, 3:30  pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Los Tres Magueyes Cantina & Grill, 2801 S General Bruce Drive, Temple, 2nd Tuesday, 3:30  pm",
+    "datatype": "txt"
+  }
+]

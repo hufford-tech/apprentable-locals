@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]578-  (t) Chillicothe[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "326",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "578-|Chillicothe|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "326",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 351[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4170",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 351",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Chillicothe, OH 45601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4170",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Chillicothe|OH|45601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](740) 703-8598[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "602",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 703-8598",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kirkkellis@gmail.com\" target=\"_blank\">kirkkellis@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "953",
+    "editFieldNames": "Email",
+    "editFieldValues": "kirkkellis@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Johnathan K. Kellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "998",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnathan|K.|Kellis||{ \"MemberID\" : \"998\",\"luid\": \"326\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1327 Porter Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chillicothe\",\"state\":\"OH\",\"zip\":\"45601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Johnathan K. Kellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3639",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnathan|K.|Kellis||{ \"MemberID\" : \"3639\",\"luid\": \"326\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Ryan Taylor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "999",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan||Taylor||{ \"MemberID\" : \"999\",\"luid\": \"326\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"199 Beatrice Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chillicothe\",\"state\":\"OH\",\"zip\":\"45601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Thomas Hudson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1000",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas||Hudson||{ \"MemberID\" : \"1000\",\"luid\": \"326\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"362 Arch Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chillicothe\",\"state\":\"OH\",\"zip\":\"45601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]FOP Union Hall, 290 S McArthur Street, 1st Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "326",
+    "editFieldNames": "Meets",
+    "editFieldValues": "FOP Union Hall, 290 S McArthur Street, 1st Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

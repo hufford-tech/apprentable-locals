@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]3---  (catv, em, govt, i, lctt, mo, o, ptc, t, u) New York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "3",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "3---|New York|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "3",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, govt, i, lctt, mo, o, ptc, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]158-11 Harry Van Arsdale Jr. Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "3",
+    "editFieldNames": "Address1",
+    "editFieldValues": "158-11 Harry Van Arsdale Jr. Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Flushing, NY 11365[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "3",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Flushing|NY|11365",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](718) 591-4000[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "5",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(718) 591-4000",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](718) 380-8998[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "6",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(718) 380-8998",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mail@local3ibew.org\" target=\"_blank\">mail@local3ibew.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2034",
+    "editFieldNames": "Email",
+    "editFieldValues": "mail@local3ibew.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.local3.com\" target=\"_blank\">www.local3.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "3",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.local3.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Christopher Erikson Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "11",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Erikson|Jr.|{ \"MemberID\" : \"11\",\"luid\": \"3\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"158-11 Harry Van Arsdale Avenue\",\"addr2\":\"4th Floor\",\"addr3\":\"\",\"city\":\"Flushing\",\"state\":\"NY\",\"zip\":\"11365\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Thomas J. Cleary[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "9",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Cleary||{ \"MemberID\" : \"9\",\"luid\": \"3\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"158-11 Harry Van Arsdale Avenue\",\"addr2\":\"4th Floor\",\"addr3\":\"\",\"city\":\"Flushing\",\"state\":\"NY\",\"zip\":\"11365\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Joseph P. Proscia[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "10",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|P.|Proscia||{ \"MemberID\" : \"10\",\"luid\": \"3\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"158-11 Harry Van Arsdale Avenue\",\"addr2\":\"4th Floor\",\"addr3\":\"\",\"city\":\"Flushing\",\"state\":\"NY\",\"zip\":\"11365\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Michael J. Loreto[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "8",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Loreto||{ \"MemberID\" : \"8\",\"luid\": \"3\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"158-11 Harry Van Arsdale Avenue\",\"addr2\":\"4th Floor\",\"addr3\":\"\",\"city\":\"Flushing\",\"state\":\"NY\",\"zip\":\"11365\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Electrical Industry Center, 67-35 Parsons Boulevard, Flushing, 2nd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "3",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Electrical Industry Center, 67-35 Parsons Boulevard, Flushing, 2nd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]82--  (em, i, mt, rtb) Dayton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "82--|Dayton|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "67",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, mt, rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6550 Poe Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "68",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6550 Poe Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Dayton, OH 45414[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "68",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Dayton|OH|45414",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](937) 898-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "131",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(937) 898-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](937) 264-2041[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "132",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(937) 264-2041",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew82.org\" target=\"_blank\">info@ibew82.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2110",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew82.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew82.org\" target=\"_blank\">www.ibew82.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew82.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Thomas G. Anderson Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "205",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|G.|Anderson|Jr.|{ \"MemberID\" : \"205\",\"luid\": \"67\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6550 Poe Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dayton\",\"state\":\"OH\",\"zip\":\"45414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher Toon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Toon||{ \"MemberID\" : \"207\",\"luid\": \"67\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"6550 Poe Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dayton\",\"state\":\"OH\",\"zip\":\"45414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Carroll G. Groff[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "206",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carroll|G.|Groff||{ \"MemberID\" : \"206\",\"luid\": \"67\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6550 Poe Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dayton\",\"state\":\"OH\",\"zip\":\"45414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Shannon T. Mayenschein[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "204",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|T.|Mayenschein||{ \"MemberID\" : \"204\",\"luid\": \"67\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"6550 Poe Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dayton\",\"state\":\"OH\",\"zip\":\"45414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "CountyName": "Benton County, TN",
+    "District": "10",
+    "Population": "16537",
+    "LandArea": "394.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Benton County, TN",
+    "District": "10",
+    "Population": "16537",
+    "LandArea": "394.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Carroll County, TN",
+    "District": "10",
+    "Population": "29475",
+    "LandArea": "599.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Carroll County, TN",
+    "District": "10",
+    "Population": "29475",
+    "LandArea": "599.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Crockett County, TN",
+    "District": "10",
+    "Population": "14532",
+    "LandArea": "265.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Crockett County, TN",
+    "District": "10",
+    "Population": "14532",
+    "LandArea": "265.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Decatur County, TN",
+    "District": "10",
+    "Population": "11731",
+    "LandArea": "333.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Decatur County, TN",
+    "District": "10",
+    "Population": "11731",
+    "LandArea": "333.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Dyer County, TN",
+    "District": "10",
+    "Population": "37279",
+    "LandArea": "510.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Dyer County, TN",
+    "District": "10",
+    "Population": "37279",
+    "LandArea": "510.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Fulton County, KY",
+    "District": "4",
+    "Population": "7752",
+    "LandArea": "208.95",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fulton County, KY",
+    "District": "4",
+    "Population": "7752",
+    "LandArea": "208.95",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Gibson County, TN",
+    "District": "10",
+    "Population": "48152",
+    "LandArea": "602.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Gibson County, TN",
+    "District": "10",
+    "Population": "48152",
+    "LandArea": "602.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Henderson County, TN",
+    "District": "10",
+    "Population": "25522",
+    "LandArea": "520.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Henderson County, TN",
+    "District": "10",
+    "Population": "25522",
+    "LandArea": "520.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Henry County, TN",
+    "District": "10",
+    "Population": "31115",
+    "LandArea": "561.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Henry County, TN",
+    "District": "10",
+    "Population": "31115",
+    "LandArea": "561.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hickman County, KY",
+    "District": "4",
+    "Population": "5262",
+    "LandArea": "244.44",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hickman County, KY",
+    "District": "4",
+    "Population": "5262",
+    "LandArea": "244.44",
+    "Percentage": "1%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lake County, TN",
+    "District": "10",
+    "Population": "7954",
+    "LandArea": "163.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lake County, TN",
+    "District": "10",
+    "Population": "7954",
+    "LandArea": "163.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Madison County, TN",
+    "District": "10",
+    "Population": "91837",
+    "LandArea": "557.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Madison County, TN",
+    "District": "10",
+    "Population": "91837",
+    "LandArea": "557.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Obion County, TN",
+    "District": "10",
+    "Population": "32450",
+    "LandArea": "544.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Obion County, TN",
+    "District": "10",
+    "Population": "32450",
+    "LandArea": "544.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Weakley County, TN",
+    "District": "10",
+    "Population": "34895",
+    "LandArea": "580.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Weakley County, TN",
+    "District": "10",
+    "Population": "34895",
+    "LandArea": "580.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]725-  (i, rts, spa) Terre Haute[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "395",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "725-|Terre Haute|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "395",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5675 Hulman Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "390",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5675 Hulman Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Terre Haute, IN 47803[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "390",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Terre Haute|IN|47803",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](812) 877-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "723",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(812) 877-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](812) 877-0250[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "724",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(812) 877-0250",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:unionhall@ibew725.org\" target=\"_blank\">unionhall@ibew725.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "380",
+    "editFieldNames": "Email",
+    "editFieldValues": "unionhall@ibew725.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew725.org\" target=\"_blank\">www.ibew725.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "395",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew725.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James R. Fellows[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1210",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|R.|Fellows||{ \"MemberID\" : \"1210\",\"luid\": \"395\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5675 E Hulman Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Terre Haute\",\"state\":\"IN\",\"zip\":\"47803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher D. Fox[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1211",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|D.|Fox||{ \"MemberID\" : \"1211\",\"luid\": \"395\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5675 E Hulman Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Terre Haute\",\"state\":\"IN\",\"zip\":\"47803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James R. Fellows[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3704",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|R.|Fellows||{ \"MemberID\" : \"3704\",\"luid\": \"395\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nathan H. Bartlett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1209",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|H.|Bartlett||{ \"MemberID\" : \"1209\",\"luid\": \"395\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5675 E Hulman Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Terre Haute\",\"state\":\"IN\",\"zip\":\"47803\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Friday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "395",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Friday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Coconino County, AZ",
+    "District": "7",
+    "Population": "116320",
+    "LandArea": "18617.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Maricopa County, AZ",
+    "District": "7",
+    "Population": "3072149",
+    "LandArea": "9203.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Mohave County, AZ",
+    "District": "7",
+    "Population": "155032",
+    "LandArea": "13311.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Navajo County, AZ",
+    "District": "7",
+    "Population": "97470",
+    "LandArea": "9953.17",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Pinal County, AZ",
+    "District": "7",
+    "Population": "179727",
+    "LandArea": "5369.59",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  },
+  {
+    "CountyName": "Yavapai County, AZ",
+    "District": "7",
+    "Population": "167517",
+    "LandArea": "8123.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AZ"
+  }
+]

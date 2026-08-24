@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]96--  (i) Worcester[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "96--|Worcester|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "74",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]242 Mill Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "75",
+    "editFieldNames": "Address1",
+    "editFieldValues": "242 Mill Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Worcester, MA 01602[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "75",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Worcester|MA|01602",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 753-8635[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 753-8635",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](508) 754-8944[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1952",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 754-8944",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal96.org\" target=\"_blank\">info@ibewlocal96.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal96.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal96.org\" target=\"_blank\">www.ibewlocal96.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal96.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James A. Arthur[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "229",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|A.|Arthur||{ \"MemberID\" : \"229\",\"luid\": \"74\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"242 Mill Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Worcester\",\"state\":\"MA\",\"zip\":\"01602\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Zephrin E. Mondor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "227",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zephrin|E.|Mondor||{ \"MemberID\" : \"227\",\"luid\": \"74\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"48 Ennis Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Oxford\",\"state\":\"MA\",\"zip\":\"01537\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James A. Arthur[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3402",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|A.|Arthur||{ \"MemberID\" : \"3402\",\"luid\": \"74\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Andrew J. Turcotte[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4344",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Turcotte||{ \"MemberID\" : \"4344\",\"luid\": \"74\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

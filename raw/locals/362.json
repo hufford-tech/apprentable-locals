@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]656-  (rr) Birmingham[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "362",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "656-|Birmingham|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "362",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3539 Mary Taylor Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7017",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3539 Mary Taylor Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Apt. 1700[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7017",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Apt. 1700",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Birmingham, AL 35235[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7017",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Birmingham|AL|35235",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](256) 338-6318[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2259",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 338-6318",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto: jeremybeasley13@gmail.com\" target=\"_blank\"> jeremybeasley13@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "347",
+    "editFieldNames": "Email",
+    "editFieldValues": " jeremybeasley13@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jeremy D. Beasley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1110",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|D.|Beasley||{ \"MemberID\" : \"1110\",\"luid\": \"362\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3701 Sharon Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Quinton\",\"state\":\"AL\",\"zip\":\"35130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Jeremy D. Beasley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1109",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|D.|Beasley||{ \"MemberID\" : \"1109\",\"luid\": \"362\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3701 Sharon Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Quinton\",\"state\":\"AL\",\"zip\":\"35130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joseph M. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1108",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|M.|Walker||{ \"MemberID\" : \"1108\",\"luid\": \"362\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1020 Blackwood Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parrish\",\"state\":\"AL\",\"zip\":\"35580\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Joseph M. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3673",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|M.|Walker||{ \"MemberID\" : \"3673\",\"luid\": \"362\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1020 Blackwood Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Parrish\",\"state\":\"AL\",\"zip\":\"35580\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "362",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

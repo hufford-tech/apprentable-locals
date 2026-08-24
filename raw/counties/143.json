@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Berks County, PA",
+    "District": "3",
+    "Population": "373638",
+    "LandArea": "858.88",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Cumberland County, PA",
+    "District": "3",
+    "Population": "213674",
+    "LandArea": "550.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Dauphin County, PA",
+    "District": "3",
+    "Population": "251798",
+    "LandArea": "525.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Franklin County, PA",
+    "District": "3",
+    "Population": "129313",
+    "LandArea": "771.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Juniata County, PA",
+    "District": "3",
+    "Population": "22821",
+    "LandArea": "391.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lancaster County, PA",
+    "District": "3",
+    "Population": "470658",
+    "LandArea": "949.06",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lebanon County, PA",
+    "District": "3",
+    "Population": "120327",
+    "LandArea": "361.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Mifflin County, PA",
+    "District": "3",
+    "Population": "46486",
+    "LandArea": "411.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Perry County, PA",
+    "District": "3",
+    "Population": "43602",
+    "LandArea": "553.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Schuylkill County, PA",
+    "District": "3",
+    "Population": "150336",
+    "LandArea": "778.36",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Snyder County, PA",
+    "District": "3",
+    "Population": "37546",
+    "LandArea": "331.20",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "York County, PA",
+    "District": "3",
+    "Population": "381751",
+    "LandArea": "904.45",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

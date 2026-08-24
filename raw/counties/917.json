@@ -1,0 +1,173 @@
+[
+  {
+    "CountyName": "Attala County, MS",
+    "District": "5",
+    "Population": "19661",
+    "LandArea": "735.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Choctaw County, MS",
+    "District": "5",
+    "Population": "9758",
+    "LandArea": "419.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Clarke County, MS",
+    "District": "5",
+    "Population": "17955",
+    "LandArea": "691.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Clay County, MS",
+    "District": "5",
+    "Population": "21979",
+    "LandArea": "408.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Kemper County, MS",
+    "District": "5",
+    "Population": "10453",
+    "LandArea": "766.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lamar County, AL",
+    "District": "5",
+    "Population": "15904",
+    "LandArea": "604.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lauderdale County, MS",
+    "District": "5",
+    "Population": "78161",
+    "LandArea": "703.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Leake County, MS",
+    "District": "5",
+    "Population": "20940",
+    "LandArea": "582.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Lowndes County, MS",
+    "District": "5",
+    "Population": "61586",
+    "LandArea": "502.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Monroe County, MS",
+    "District": "5",
+    "Population": "38014",
+    "LandArea": "764.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Neshoba County, MS",
+    "District": "5",
+    "Population": "28684",
+    "LandArea": "570.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Newton County, MS",
+    "District": "5",
+    "Population": "21838",
+    "LandArea": "578.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Noxubee County, MS",
+    "District": "5",
+    "Population": "12548",
+    "LandArea": "694.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Oktibbeha County, MS",
+    "District": "5",
+    "Population": "42902",
+    "LandArea": "457.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Pickens County, AL",
+    "District": "5",
+    "Population": "20949",
+    "LandArea": "881.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Scott County, MS",
+    "District": "5",
+    "Population": "28423",
+    "LandArea": "609.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Sumter County, AL",
+    "District": "5",
+    "Population": "14798",
+    "LandArea": "904.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Webster County, MS",
+    "District": "5",
+    "Population": "10294",
+    "LandArea": "422.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  },
+  {
+    "CountyName": "Winston County, MS",
+    "District": "5",
+    "Population": "20160",
+    "LandArea": "606.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MS"
+  }
+]

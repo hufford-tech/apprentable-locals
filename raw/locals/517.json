@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1049  (lctt, o, u, uow) Long Island[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "517",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1049|Long Island|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "517",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, o, u, uow",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]100 Corporate Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "Address1",
+    "editFieldValues": "100 Corporate Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Holtsville, NY 11742[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Holtsville|NY|11742",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](631) 234-1800[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "913",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(631) 234-1800",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](631) 234-1034[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1980",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(631) 234-1034",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:sgasparik@ibew1049.com\" target=\"_blank\">sgasparik@ibew1049.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2125",
+    "editFieldNames": "Email",
+    "editFieldValues": "sgasparik@ibew1049.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1049.org\" target=\"_blank\">www.ibew1049.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "517",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1049.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Patrick J. Guidice III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1590",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Guidice|III|{ \"MemberID\" : \"1590\",\"luid\": \"517\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"100 Corporate Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Holtsville\",\"state\":\"NY\",\"zip\":\"11742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James V. Cooper[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1589",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|V.|Cooper||{ \"MemberID\" : \"1589\",\"luid\": \"517\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"100 Corporate Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Holtsville\",\"state\":\"NY\",\"zip\":\"11742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Patrick J. Guidice III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3820",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick|J.|Guidice|III|{ \"MemberID\" : \"3820\",\"luid\": \"517\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Anthony M. Scotto[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1588",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony|M.|Scotto||{ \"MemberID\" : \"1588\",\"luid\": \"517\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"100 Corporate Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Holtsville\",\"state\":\"NY\",\"zip\":\"11742\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 10 am & 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "517",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 10 am & 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]415-  (c, govt, i) Cheyenne[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "243",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "415-|Cheyenne|WY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "243",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, govt, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]810 Fremont Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "Address1",
+    "editFieldValues": "810 Fremont Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cheyenne, WY 82001[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cheyenne|WY|82001",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](307) 632-5944[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 632-5944",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](307) 637-7526[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "453",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 637-7526",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew415.org\" target=\"_blank\">info@ibew415.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew415.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew415.org\" target=\"_blank\">www.ibew415.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "243",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew415.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jefferson S. Morrow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "749",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jefferson|S.|Morrow||{ \"MemberID\" : \"749\",\"luid\": \"243\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"933 Sun Valley Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheyenne\",\"state\":\"WY\",\"zip\":\"82001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Truett N. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "747",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Truett|N.|Thompson||{ \"MemberID\" : \"747\",\"luid\": \"243\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3108 Grier Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheyenne\",\"state\":\"WY\",\"zip\":\"82001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jefferson S. Morrow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3558",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jefferson|S.|Morrow||{ \"MemberID\" : \"3558\",\"luid\": \"243\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"933 Sun Valley Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheyenne\",\"state\":\"WY\",\"zip\":\"82001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Matthew J. Kopcho[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "748",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|J.|Kopcho||{ \"MemberID\" : \"748\",\"luid\": \"243\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1005 Richardson Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cheyenne\",\"state\":\"WY\",\"zip\":\"82001\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "243",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

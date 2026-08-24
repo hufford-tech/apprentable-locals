@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]81--  (i) Scranton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "81--|Scranton|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "66",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]431 Wyoming Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "Address1",
+    "editFieldValues": "431 Wyoming Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Scranton, PA 18503[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "67",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Scranton|PA|18503",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](570) 344-5711[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "129",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 344-5711",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](570) 344-6934[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "130",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 344-6934",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:mmcdermott@ibew81.org\" target=\"_blank\">mmcdermott@ibew81.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2109",
+    "editFieldNames": "Email",
+    "editFieldValues": "mmcdermott@ibew81.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew81.org\" target=\"_blank\">www.ibew81.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew81.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael J. McDermott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "201",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|McDermott||{ \"MemberID\" : \"201\",\"luid\": \"66\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"431 Wyoming Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Scranton\",\"state\":\"PA\",\"zip\":\"18503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Edward S. O'Donnell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3396",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Edward|S.|O'Donnell||{ \"MemberID\" : \"3396\",\"luid\": \"66\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael J. McDermott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "203",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|McDermott||{ \"MemberID\" : \"203\",\"luid\": \"66\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"431 Wyoming Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Scranton\",\"state\":\"PA\",\"zip\":\"18503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Randolph E. Greenip Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "202",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randolph|E.|Greenip|Jr.|{ \"MemberID\" : \"202\",\"luid\": \"66\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"431 Wyoming Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Scranton\",\"state\":\"PA\",\"zip\":\"18503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "66",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

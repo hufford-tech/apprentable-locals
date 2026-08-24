@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2039  (rr) Sudbury, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "755",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2039|Sudbury|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "755",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]167 Pond Hollow Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7254",
+    "editFieldNames": "Address1",
+    "editFieldValues": "167 Pond Hollow Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sudbury, ON P3E 6L2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7254",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sudbury|ON|P3E 6L2",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:schartrand.ibew@hotmail.com\" target=\"_blank\">schartrand.ibew@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "703",
+    "editFieldNames": "Email",
+    "editFieldValues": "schartrand.ibew@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Steven Chartrand, 22 Champagne Road, St. Charles, ON  P0M 2W0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2308",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven||Chartrand||{ \"MemberID\" : \"2308\",\"luid\": \"755\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"22 Champagne Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Charles\",\"state\":\"ON\",\"zip\":\"P0M 2W0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Philippe Gauthier, 150 Ray Street, Wahnapitae, ON  P0M 3C0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2309",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Philippe||Gauthier||{ \"MemberID\" : \"2309\",\"luid\": \"755\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"150 Ray Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wahnapitae\",\"state\":\"ON\",\"zip\":\"P0M 3C0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Kyle Kirby, 167 Pond Hollow Drive, Sudbury, ON  P3E 6L2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2307",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle||Kirby||{ \"MemberID\" : \"2307\",\"luid\": \"755\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"167 Pond Hollow Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sudbury\",\"state\":\"ON\",\"zip\":\"P3E 6L2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Kyle Kirby, 167 Pond Hollow Drive, Sudbury, ON  P3E 6L2[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4072",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle||Kirby||{ \"MemberID\" : \"4072\",\"luid\": \"755\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"167 Pond Hollow Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sudbury\",\"state\":\"ON\",\"zip\":\"P3E 6L2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]United Steel Workers Hall, 92 Flood Road[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "755",
+    "editFieldNames": "Meets",
+    "editFieldValues": "United Steel Workers Hall, 92 Flood Road",
+    "datatype": "txt"
+  }
+]

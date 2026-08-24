@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]350-  (i) Hannibal[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "209",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "350-|Hannibal|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "209",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]801 Church Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "Address1",
+    "editFieldValues": "801 Church Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hannibal, MO 63401[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hannibal|MO|63401",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](573) 221-2648[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "395",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(573) 221-2648",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](573) 221-6771[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "396",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(573) 221-6771",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew350@outlook.com\" target=\"_blank\">ibew350@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "204",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew350@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Matthew L. Kroeger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "643",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|L.|Kroeger||{ \"MemberID\" : \"643\",\"luid\": \"209\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4570 Sunny Acres Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palmyra\",\"state\":\"MO\",\"zip\":\"63461\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]George L. Fogle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "644",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|L.|Fogle||{ \"MemberID\" : \"644\",\"luid\": \"209\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"49360 Laura Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hannibal\",\"state\":\"MO\",\"zip\":\"63401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Matthew L. Kroeger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3526",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|L.|Kroeger||{ \"MemberID\" : \"3526\",\"luid\": \"209\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4570 Sunny Acres Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palmyra\",\"state\":\"MO\",\"zip\":\"63461\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Sean T. Bourret[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "645",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|T.|Bourret||{ \"MemberID\" : \"645\",\"luid\": \"209\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2708 Hill Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hannibal\",\"state\":\"MO\",\"zip\":\"63401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "209",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

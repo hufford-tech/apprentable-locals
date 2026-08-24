@@ -1,0 +1,37 @@
+Pruned, population-ordered queue: 163 domains (3 state_agency, 160 jatc)
+Starting credits: 2864
+Resuming: 25 domains already in state
+  [checkpoint] 10 processed this run, credits remaining: 2816
+  [checkpoint] 20 processed this run, credits remaining: 2752
+  [progress] 25 requests issued, 2721 credits remaining
+  [checkpoint] 30 processed this run, credits remaining: 2684
+  [checkpoint] 40 processed this run, credits remaining: 2631
+  [progress] 50 requests issued, 2570 credits remaining
+  [checkpoint] 50 processed this run, credits remaining: 2570
+  [checkpoint] 60 processed this run, credits remaining: 2506
+  [checkpoint] 70 processed this run, credits remaining: 2440
+  [progress] 75 requests issued, 2422 credits remaining
+  [checkpoint] 80 processed this run, credits remaining: 2393
+  [checkpoint] 90 processed this run, credits remaining: 2335
+  [progress] 100 requests issued, 2267 credits remaining
+  [checkpoint] 100 processed this run, credits remaining: 2267
+  [checkpoint] 110 processed this run, credits remaining: 2219
+  [checkpoint] 120 processed this run, credits remaining: 2161
+  [progress] 125 requests issued, 2129 credits remaining
+  [checkpoint] 130 processed this run, credits remaining: 2011
+  [checkpoint] 140 processed this run, credits remaining: 1969
+
+Done. Processed this run: 144  Credits used this run: 912
+Credits remaining: 1952
+Halted early: False
+Zero-yield domains: 10
+  pejatc.org: None
+  njatc.utk.edu: None
+  secure.tradeschoolinc.com: None
+  vezadigital.com: None
+  millerfalltraining.com: None
+  secure2.tradeschoolinc.com: None
+  crejatc.org: None
+  mtjatc.org: None
+  wyojatc.unionactive.com: None
+  wijatc.org.html: None

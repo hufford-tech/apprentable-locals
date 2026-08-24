@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]444-  (i, mt) Ponca City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "259",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "444-|Ponca City|OK",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "259",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]200 N Second Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "254",
+    "editFieldNames": "Address1",
+    "editFieldValues": "200 N Second Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ponca City, OK 74601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "254",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ponca City|OK|74601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](580) 762-4441[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "481",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(580) 762-4441",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](580) 762-4143[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(580) 762-4143",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew444@sbcglobal.net\" target=\"_blank\">ibew444@sbcglobal.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "252",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew444@sbcglobal.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Micheal B. Leonard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "796",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Micheal|B.|Leonard||{ \"MemberID\" : \"796\",\"luid\": \"259\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"615 W Grand Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ponca City\",\"state\":\"OK\",\"zip\":\"74601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Shaun K. Heppel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "795",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shaun|K.|Heppel||{ \"MemberID\" : \"795\",\"luid\": \"259\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"615 W Grand Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ponca City\",\"state\":\"OK\",\"zip\":\"74601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Micheal B. Leonard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3574",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Micheal|B.|Leonard||{ \"MemberID\" : \"3574\",\"luid\": \"259\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]James C. Johnson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "797",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|C.|Johnson||{ \"MemberID\" : \"797\",\"luid\": \"259\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"615 W Grand Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ponca City\",\"state\":\"OK\",\"zip\":\"74601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "259",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

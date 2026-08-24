@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Brevard County, FL",
+    "District": "5",
+    "Population": "476230",
+    "LandArea": "1018.19",
+    "Percentage": "2%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Flagler County, FL",
+    "District": "5",
+    "Population": "49832",
+    "LandArea": "485.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lake County, FL",
+    "District": "5",
+    "Population": "210528",
+    "LandArea": "953.15",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Putnam County, FL",
+    "District": "5",
+    "Population": "70423",
+    "LandArea": "721.89",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Volusia County, FL",
+    "District": "5",
+    "Population": "443343",
+    "LandArea": "1103.25",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  }
+]

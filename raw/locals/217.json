@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]360-  (rr) Oakland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "360-|Oakland|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "217",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2003 Story Road #400 #280[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5870",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2003 Story Road #400 #280",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]San Jose, CA 95122[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5870",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "San Jose|CA|95122",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](408) 608-9720[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2128",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(408) 608-9720",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:cesardiazibew360@gmail.com\" target=\"_blank\">cesardiazibew360@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2079",
+    "editFieldNames": "Email",
+    "editFieldValues": "cesardiazibew360@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Cesar Diaz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "669",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cesar||Diaz||{ \"MemberID\" : \"669\",\"luid\": \"217\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"P.O. Box 2564\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinez\",\"state\":\"CA\",\"zip\":\"94553\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Anthony Schiappa[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3533",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Anthony||Schiappa||{ \"MemberID\" : \"3533\",\"luid\": \"217\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"P.O. Box 2564\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinez\",\"state\":\"CA\",\"zip\":\"94553\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Duke M. Dinh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "670",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Duke|M.|Dinh||{ \"MemberID\" : \"670\",\"luid\": \"217\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2564\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinez\",\"state\":\"CA\",\"zip\":\"94553\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Thomas D. Gilles[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "668",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|D.|Gilles||{ \"MemberID\" : \"668\",\"luid\": \"217\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2564\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinez\",\"state\":\"CA\",\"zip\":\"94553\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]99 Hegenberger Road, 3rd Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "217",
+    "editFieldNames": "Meets",
+    "editFieldValues": "99 Hegenberger Road, 3rd Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

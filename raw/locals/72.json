@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]94--  (lctt, nst, u) Cranbury[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "94--|Cranbury|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "72",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, nst, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]299 Ward Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "Address1",
+    "editFieldValues": "299 Ward Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Floor 2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Floor 2",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]East Windsor, NJ 08520[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "East Windsor|NJ|08520",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](609) 426-9702[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "141",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 426-9702",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew94.org\" target=\"_blank\">info@ibew94.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2173",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew94.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew94.org\" target=\"_blank\">www.ibew94.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew94.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Adam J. Neuman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "221",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|J.|Neuman||{ \"MemberID\" : \"221\",\"luid\": \"72\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"219 Franklin Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hightstown\",\"state\":\"NJ\",\"zip\":\"08520\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Adam J. Neuman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3400",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|J.|Neuman||{ \"MemberID\" : \"3400\",\"luid\": \"72\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James J. O'Leary III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "222",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|J.|O'Leary|III|{ \"MemberID\" : \"222\",\"luid\": \"72\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"219 Franklin Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hightstown\",\"state\":\"NJ\",\"zip\":\"08520\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Steven M. Haggerty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "223",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|M.|Haggerty||{ \"MemberID\" : \"223\",\"luid\": \"72\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"219 Franklin Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hightstown\",\"state\":\"NJ\",\"zip\":\"08520\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

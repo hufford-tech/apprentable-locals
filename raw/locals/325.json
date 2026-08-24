@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]577-  (em, i) Appleton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "325",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "577-|Appleton|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "325",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1024 S Lawe Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "320",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1024 S Lawe Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Appleton, WI 54915[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "320",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Appleton|WI|54915",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](920) 739-9408[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "600",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(920) 739-9408",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](920) 739-0890[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "601",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(920) 739-0890",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibewlu577.com\" target=\"_blank\">admin@ibewlu577.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "314",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibewlu577.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu577.com\" target=\"_blank\">www.ibewlu577.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "325",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu577.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Scott A. Pawelski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4415",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|A.|Pawelski||{ \"MemberID\" : \"4415\",\"luid\": \"325\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kevin C. Johansen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4434",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|C.|Johansen||{ \"MemberID\" : \"4434\",\"luid\": \"325\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Collin A. Wells[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4424",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Collin|A.|Wells||{ \"MemberID\" : \"4424\",\"luid\": \"325\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Joshua A. Tidwell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4423",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|A.|Tidwell||{ \"MemberID\" : \"4423\",\"luid\": \"325\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Appleton Labor Temple, 3rd Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "325",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Appleton Labor Temple, 3rd Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

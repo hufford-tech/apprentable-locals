@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2222  (mt, ptc, t) Boston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "804",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2222|Boston|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "804",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt, ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]159 Thomas Burgin Parkway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "Address1",
+    "editFieldValues": "159 Thomas Burgin Parkway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]3rd Floor[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "Address2",
+    "editFieldValues": "3rd Floor",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Quincy, MA 02169[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "692",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Quincy|MA|02169",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](617) 929-6000[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1329",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(617) 929-6000",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](617) 929-6099[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1330",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(617) 929-6099",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:KevinHolland@ibew2222.org\" target=\"_blank\">KevinHolland@ibew2222.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "742",
+    "editFieldNames": "Email",
+    "editFieldValues": "KevinHolland@ibew2222.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2222.org\" target=\"_blank\">www.ibew2222.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "804",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2222.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Kevin J. Holland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2447",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|J.|Holland||{ \"MemberID\" : \"2447\",\"luid\": \"804\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1137 Washington Street\",\"addr2\":\"Suite 2\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02124\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Paul G. English[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2448",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|G.|English||{ \"MemberID\" : \"2448\",\"luid\": \"804\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1137 Washington Street\",\"addr2\":\"Suite 2\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02124\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Kevin J. Holland[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4128",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|J.|Holland||{ \"MemberID\" : \"4128\",\"luid\": \"804\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Martin Sweeney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2449",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Martin||Sweeney||{ \"MemberID\" : \"2449\",\"luid\": \"804\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1137 Washington Street\",\"addr2\":\"Suite 2\",\"addr3\":\"\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"02124\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]180 Mt. Vernon Street, Dorchester, 1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "804",
+    "editFieldNames": "Meets",
+    "editFieldValues": "180 Mt. Vernon Street, Dorchester, 1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

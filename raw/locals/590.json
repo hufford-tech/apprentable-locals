@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1395  (u) Indianapolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "590",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1395|Indianapolis|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "590",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5140 Madison Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "549",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5140 Madison Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "549",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Indianapolis, IN 46227[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "549",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Indianapolis|IN|46227",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](317) 784-9234[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1027",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(317) 784-9234",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](317) 786-5344[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1028",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(317) 786-5344",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dawnbreedlove1395@att.net\" target=\"_blank\">dawnbreedlove1395@att.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "555",
+    "editFieldNames": "Email",
+    "editFieldValues": "dawnbreedlove1395@att.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1395.org\" target=\"_blank\">www.ibew1395.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "590",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1395.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Danny L. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1815",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Danny|L.|Walker||{ \"MemberID\" : \"1815\",\"luid\": \"590\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2980 Old Morgantown Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinsville\",\"state\":\"IN\",\"zip\":\"46151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Justin R. Elsbury[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1814",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|R.|Elsbury||{ \"MemberID\" : \"1814\",\"luid\": \"590\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"121 N CR 525 W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Petersburg\",\"state\":\"IN\",\"zip\":\"47567\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Danny L. Walker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3892",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Danny|L.|Walker||{ \"MemberID\" : \"3892\",\"luid\": \"590\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2980 Old Morgantown Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martinsville\",\"state\":\"IN\",\"zip\":\"46151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Lisa M. Bridges[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1813",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lisa|M.|Bridges||{ \"MemberID\" : \"1813\",\"luid\": \"590\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2033 E Bomar Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Greenfield\",\"state\":\"IN\",\"zip\":\"46140\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 12:30 pm & 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "590",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 12:30 pm & 5 pm",
+    "datatype": "txt"
+  }
+]

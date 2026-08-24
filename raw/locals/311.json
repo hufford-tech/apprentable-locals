@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]549-  (rr) Huntington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "549-|Huntington|WV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "311",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]United Steelworkers Hall[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4359",
+    "editFieldNames": "Address1",
+    "editFieldValues": "United Steelworkers Hall",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]208 Nineteenth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4359",
+    "editFieldNames": "Address2",
+    "editFieldValues": "208 Nineteenth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Huntington, WV 25703[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4359",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Huntington|WV|25703",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 5626[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4257",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 5626",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Huntington, WV 25703[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4257",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Huntington|WV|25703",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](606) 571-5414[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1836",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(606) 571-5414",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:andycogar4848@gmail.com\" target=\"_blank\">andycogar4848@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2074",
+    "editFieldNames": "Email",
+    "editFieldValues": "andycogar4848@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Andrew P. Cogar[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "953",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|P.|Cogar||{ \"MemberID\" : \"953\",\"luid\": \"311\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"63 Private Road 3774\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ironton\",\"state\":\"OH\",\"zip\":\"45638\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Christopher S. Holley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "951",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|S.|Holley||{ \"MemberID\" : \"951\",\"luid\": \"311\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"316 Hillview Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Point\",\"state\":\"OH\",\"zip\":\"45680\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]James S. Jones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "952",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|S.|Jones||{ \"MemberID\" : \"952\",\"luid\": \"311\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"34 Private Drive 3463\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Proctorville\",\"state\":\"OH\",\"zip\":\"45669\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Tracy Dixon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "954",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tracy||Dixon||{ \"MemberID\" : \"954\",\"luid\": \"311\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"40 Hazelett Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lavalette\",\"state\":\"WV\",\"zip\":\"25535\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Huntington C&O Railway FCU, 901 Sixth Avenue, 2nd Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "311",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Huntington C&O Railway FCU, 901 Sixth Avenue, 2nd Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

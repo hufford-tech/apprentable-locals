@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]21--  (catv, em, govt, mt, ptc, t) Downers Grove[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "21",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "21--|Downers Grove|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "21",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, govt, mt, ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4701 Auvergne Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4701 Auvergne Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 21[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 21",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Lisle, IL 60532[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "22",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lisle|IL|60532",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](630) 960-4466[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "41",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 960-4466",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](630) 960-9607[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "42",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(630) 960-9607",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:power@ibew21.org\" target=\"_blank\">power@ibew21.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "21",
+    "editFieldNames": "Email",
+    "editFieldValues": "power@ibew21.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew21.org\" target=\"_blank\">www.ibew21.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "21",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew21.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Paul T. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "64",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|T.|Wright||{ \"MemberID\" : \"64\",\"luid\": \"21\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1307 W Butterfield Road\",\"addr2\":\"Suite 422\",\"addr3\":\"\",\"city\":\"Downers Grove\",\"state\":\"IL\",\"zip\":\"60515\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Paul T. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3354",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|T.|Wright||{ \"MemberID\" : \"3354\",\"luid\": \"21\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Paul T. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3355",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paul|T.|Wright||{ \"MemberID\" : \"3355\",\"luid\": \"21\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Jacquelin R. Cheeseman-Dorrough[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "63",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacquelin|R.|Cheeseman-Dorrough||{ \"MemberID\" : \"63\",\"luid\": \"21\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1307 W Butterfield Road\",\"addr2\":\"Suite 422\",\"addr3\":\"\",\"city\":\"Downers Grove\",\"state\":\"IL\",\"zip\":\"60515\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "21",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

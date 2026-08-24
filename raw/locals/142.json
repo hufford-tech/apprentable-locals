@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]229-  (em, i) York[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "142",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "229-|York|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "142",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]555 Willow Springs Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "Address1",
+    "editFieldValues": "555 Willow Springs Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]York, PA 17406[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "York|PA|17406",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](717) 843-8368[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "272",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 843-8368",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](717) 843-2991[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "273",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(717) 843-2991",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew229@comcast.net\" target=\"_blank\">ibew229@comcast.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "140",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew229@comcast.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew229.org\" target=\"_blank\">www.ibew229.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "142",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew229.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Thomas R. Henchey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|R.|Henchey||{ \"MemberID\" : \"439\",\"luid\": \"142\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"555 Willow Springs Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17406\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jacob K. Ostrom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "441",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|K.|Ostrom||{ \"MemberID\" : \"441\",\"luid\": \"142\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"555 Willow Springs Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17406\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Thomas R. Henchey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3461",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|R.|Henchey||{ \"MemberID\" : \"3461\",\"luid\": \"142\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Thomas S. Hamilton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|S.|Hamilton||{ \"MemberID\" : \"440\",\"luid\": \"142\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"555 Willow Springs Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"York\",\"state\":\"PA\",\"zip\":\"17406\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "142",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

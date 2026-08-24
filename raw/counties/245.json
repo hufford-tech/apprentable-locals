@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Allen County, OH",
+    "District": "4",
+    "Population": "108473",
+    "LandArea": "404.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Defiance County, OH",
+    "District": "4",
+    "Population": "39500",
+    "LandArea": "411.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Erie County, OH",
+    "District": "4",
+    "Population": "79551",
+    "LandArea": "254.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fulton County, OH",
+    "District": "4",
+    "Population": "42084",
+    "LandArea": "406.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hancock County, OH",
+    "District": "4",
+    "Population": "71295",
+    "LandArea": "531.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hardin County, OH",
+    "District": "4",
+    "Population": "31945",
+    "LandArea": "470.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Henry County, OH",
+    "District": "4",
+    "Population": "29210",
+    "LandArea": "416.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Huron County, OH",
+    "District": "4",
+    "Population": "59487",
+    "LandArea": "492.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lucas County, OH",
+    "District": "4",
+    "Population": "455054",
+    "LandArea": "340.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ottawa County, OH",
+    "District": "4",
+    "Population": "40985",
+    "LandArea": "254.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Paulding County, OH",
+    "District": "4",
+    "Population": "20293",
+    "LandArea": "416.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Putnam County, OH",
+    "District": "4",
+    "Population": "34726",
+    "LandArea": "483.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Sandusky County, OH",
+    "District": "4",
+    "Population": "61792",
+    "LandArea": "409.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Seneca County, OH",
+    "District": "4",
+    "Population": "58683",
+    "LandArea": "550.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Van Wert County, OH",
+    "District": "4",
+    "Population": "29659",
+    "LandArea": "410.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Williams County, OH",
+    "District": "4",
+    "Population": "39188",
+    "LandArea": "421.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wood County, OH",
+    "District": "4",
+    "Population": "121065",
+    "LandArea": "617.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wyandot County, OH",
+    "District": "4",
+    "Population": "22908",
+    "LandArea": "405.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  }
+]

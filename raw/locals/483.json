@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]956-  (mo) Espanola, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "483",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "956-|Espanola|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "483",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 5111[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 5111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Espanola, ON P5E 1S1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "452",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Espanola|ON|P5E 1S1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](705) 692-0444[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "861",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(705) 692-0444",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Todd N. Tessier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1480",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|N.|Tessier||{ \"MemberID\" : \"1480\",\"luid\": \"483\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5111\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Espanola\",\"state\":\"ON\",\"zip\":\"P5E 1S1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Todd N. Tessier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3793",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|N.|Tessier||{ \"MemberID\" : \"3793\",\"luid\": \"483\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Dan J. Massicotte[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1478",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dan|J.|Massicotte||{ \"MemberID\" : \"1478\",\"luid\": \"483\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5111\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Espanola\",\"state\":\"ON\",\"zip\":\"P5E 1S1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Alex R. Robinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1479",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alex|R.|Robinson||{ \"MemberID\" : \"1479\",\"luid\": \"483\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5111\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Espanola\",\"state\":\"ON\",\"zip\":\"P5E 1S1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Espanola Recreation Centre, 3rd Monday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "483",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Espanola Recreation Centre, 3rd Monday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]342-  (i, lctt, o) Winston-Salem[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "204",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "342-|Winston-Salem|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "204",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7874 Thorndike Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7874 Thorndike Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Greensboro, NC 27409[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Greensboro|NC|27409",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](336) 285-7781[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "385",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(336) 285-7781",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](336) 285-7783[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "386",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(336) 285-7783",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew342@att.net\" target=\"_blank\">ibew342@att.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "199",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew342@att.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew342.org\" target=\"_blank\">www.ibew342.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "204",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew342.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Alvin M. Warwick Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alvin|M.|Warwick|Jr.|{ \"MemberID\" : \"630\",\"luid\": \"204\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7802 Thorndike Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Greensboro\",\"state\":\"NC\",\"zip\":\"27409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Dan H. Post[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "628",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dan|H.|Post||{ \"MemberID\" : \"628\",\"luid\": \"204\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7802 Thorndike Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Greensboro\",\"state\":\"NC\",\"zip\":\"27409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Alvin M. Warwick Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3521",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alvin|M.|Warwick|Jr.|{ \"MemberID\" : \"3521\",\"luid\": \"204\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Dennis R. Williams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "629",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dennis|R.|Williams||{ \"MemberID\" : \"629\",\"luid\": \"204\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"7802 Thorndike Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Greensboro\",\"state\":\"NC\",\"zip\":\"27409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Monday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "204",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

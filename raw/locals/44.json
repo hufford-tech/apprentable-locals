@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]46--  (as, c, cs, em, es, et, i, mar, mo, mt, rtb, rts, st) Seattle[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "46--|Seattle|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "44",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, c, cs, em, es, et, i, mar, mo, mt, rtb, rts, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]19802 62nd Avenue S[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "Address1",
+    "editFieldValues": "19802 62nd Avenue S",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 105[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 105",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Kent, WA 98032[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kent|WA|98032",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](253) 395-6500[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "85",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(253) 395-6500",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](253) 872-7059[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "86",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(253) 872-7059",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:markd@ibew46.com\" target=\"_blank\">markd@ibew46.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1887",
+    "editFieldNames": "Email",
+    "editFieldValues": "markd@ibew46.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew46.org\" target=\"_blank\">www.ibew46.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew46.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Mark G. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4393",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|G.|Davis||{ \"MemberID\" : \"4393\",\"luid\": \"44\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Robert L. Allen Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4394",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Allen|Jr.|{ \"MemberID\" : \"4394\",\"luid\": \"44\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Mark G. Davis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4395",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|G.|Davis||{ \"MemberID\" : \"4395\",\"luid\": \"44\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Benjamin W. Delano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4400",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Benjamin|W.|Delano||{ \"MemberID\" : \"4400\",\"luid\": \"44\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "44",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

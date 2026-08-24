@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]827-  (catv, t) East Windsor[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "827-|East Windsor|NJ",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "444",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]263 Ward Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "419",
+    "editFieldNames": "Address1",
+    "editFieldValues": "263 Ward Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]East Windsor, NJ 08520[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "419",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "East Windsor|NJ|08520",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](609) 443-4100[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "798",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 443-4100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](609) 448-5110[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "799",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(609) 448-5110",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:tkelly@ibew827.com\" target=\"_blank\">tkelly@ibew827.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "424",
+    "editFieldNames": "Email",
+    "editFieldValues": "tkelly@ibew827.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew827.com\" target=\"_blank\">www.ibew827.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew827.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Thomas E. Kelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4294",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|E.|Kelly||{ \"MemberID\" : \"4294\",\"luid\": \"444\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Thomas E. Kelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4296",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|E.|Kelly||{ \"MemberID\" : \"4296\",\"luid\": \"444\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Thomas E. Kelly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4297",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|E.|Kelly||{ \"MemberID\" : \"4297\",\"luid\": \"444\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Rachel K. Keenan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4295",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rachel|K.|Keenan||{ \"MemberID\" : \"4295\",\"luid\": \"444\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st & 3rd Tuesday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "444",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st & 3rd Tuesday",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Cariboo Regional District, BC",
+    "District": "1",
+    "Population": "65659",
+    "LandArea": "80625.9657",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Central Coast Regional District, BC",
+    "District": "1",
+    "Population": "3781",
+    "LandArea": "24559.4998",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Central Okanagan Regional District, BC",
+    "District": "1",
+    "Population": "147739",
+    "LandArea": "2903.9952",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Comox-Strathcona Regional District, BC",
+    "District": "1",
+    "Population": "96131",
+    "LandArea": "20015.4512",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Fraser Valley Regional District, BC",
+    "District": "1",
+    "Population": "237550",
+    "LandArea": "13346.9431",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Greater Vancouver Regional District, BC",
+    "District": "1",
+    "Population": "1986965",
+    "LandArea": "2878.5191",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Kootenay Boundary Regional District, BC",
+    "District": "1",
+    "Population": "31843",
+    "LandArea": "8095.6208",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Mount Waddington Regional District, BC",
+    "District": "1",
+    "Population": "13111",
+    "LandArea": "20288.3998",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "North Okanagan Regional District, BC",
+    "District": "1",
+    "Population": "73227",
+    "LandArea": "7512.5776",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Okanagan-Similkameen Regional District, BC",
+    "District": "1",
+    "Population": "76635",
+    "LandArea": "10413.4400",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Powell River Regional District, BC",
+    "District": "1",
+    "Population": "19765",
+    "LandArea": "5092.0564",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Squamish-Lillooet Regional District, BC",
+    "District": "1",
+    "Population": "33011",
+    "LandArea": "16353.6831",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  },
+  {
+    "CountyName": "Sunshine Coast Regional District, BC",
+    "District": "1",
+    "Population": "25599",
+    "LandArea": "3778.1689",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "BC"
+  }
+]

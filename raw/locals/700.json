@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1852  (catv, em, i) Sydney, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1852|Sydney|NS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "700",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]42 Cossitt Heights Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "635",
+    "editFieldNames": "Address1",
+    "editFieldValues": "42 Cossitt Heights Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sydney, NS B1P 6H4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "635",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sydney|NS|B1P 6H4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 24, Pier Postal Station[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 24, Pier Postal Station",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Sydney, NS B1N 3B1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sydney|NS|B1N 3B1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](902) 562-1357[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1189",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 562-1357",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1852@eastlink.ca\" target=\"_blank\">ibew1852@eastlink.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "654",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1852@eastlink.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://ibew1852.dyndns-ip.com/\" target=\"_blank\">ibew1852.dyndns-ip.com/</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "Website",
+    "editFieldValues": "ibew1852.dyndns-ip.com/",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Bradley Lannon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2142",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bradley||Lannon||{ \"MemberID\" : \"2142\",\"luid\": \"700\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Gatacre Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sydney\",\"state\":\"NS\",\"zip\":\"B1N 1Z2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Travis White[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2141",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis||White||{ \"MemberID\" : \"2141\",\"luid\": \"700\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"17 Stacey Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Boularderie Centre\",\"state\":\"NS\",\"zip\":\"B2A 3P3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Bradley Lannon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4009",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bradley||Lannon||{ \"MemberID\" : \"4009\",\"luid\": \"700\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Gatacre Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sydney\",\"state\":\"NS\",\"zip\":\"B1N 1Z2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Jeffery J. MacLean[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2143",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffery|J.|MacLean||{ \"MemberID\" : \"2143\",\"luid\": \"700\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"11965 Kempt Head Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Boularderie Centre\",\"state\":\"NS\",\"zip\":\"B1X 1K4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 8 pm",
+    "datatype": "txt"
+  }
+]

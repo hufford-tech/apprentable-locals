@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1319  (catv, govt, lctt, o, t, u) Wilkes-Barre[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "577",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1319|Wilkes-Barre|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "577",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, govt, lctt, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]225 Division Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "539",
+    "editFieldNames": "Address1",
+    "editFieldValues": "225 Division Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kingston, PA 18704[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "539",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kingston|PA|18704",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](570) 714-1352[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1005",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 714-1352",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](570) 714-1357[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1006",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 714-1357",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew1319.org\" target=\"_blank\">info@ibew1319.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "544",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew1319.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1319.org\" target=\"_blank\">www.ibew1319.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "577",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1319.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Christian N. Darrow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1775",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christian|N.|Darrow||{ \"MemberID\" : \"1775\",\"luid\": \"577\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"225 Division Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kingston\",\"state\":\"PA\",\"zip\":\"18704\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Gary Telesk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1773",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gary||Telesk||{ \"MemberID\" : \"1773\",\"luid\": \"577\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"225 Division Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kingston\",\"state\":\"PA\",\"zip\":\"18704\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Christian N. Darrow[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3880",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christian|N.|Darrow||{ \"MemberID\" : \"3880\",\"luid\": \"577\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Robert J. Reilly[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4333",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|J.|Reilly||{ \"MemberID\" : \"4333\",\"luid\": \"577\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "577",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

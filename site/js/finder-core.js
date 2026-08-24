@@ -85,6 +85,37 @@
     return CONFIRMED_STATUSES.indexOf(status) !== -1;
   }
 
+  // Task 12: display-layer mapping only. Collapses compute_status.py's 8 raw
+  // computed_status values down to the 4 candidate-facing states. Never
+  // changes a computed status value -- compute_status.py itself is untouched.
+  //   open_now    <- open, expected_open
+  //   always      <- rolling
+  //   opens_date  <- closed_pending, or closed with a known next_open_date
+  //   unconfirmed <- expired_data, conflicting, unknown, and closed with no
+  //                  next_open_date (the "we don't know" categories). Always
+  //                  rendered neutral/gray, never red -- a closed local is a
+  //                  future application window, not a failure state.
+  const DISPLAY_LABEL = {
+    open_now: "Open now",
+    always: "Always accepting",
+    unconfirmed: "Unconfirmed – check with the local",
+  };
+  // Non-color carrier (WCAG 1.4.1): each state also gets its own glyph.
+  const DISPLAY_SHAPE = { open_now: "●", always: "◆", opens_date: "▲", unconfirmed: "■" };
+
+  function displayStatusKey(status, nextOpen) {
+    if (status === "open" || status === "expected_open") return "open_now";
+    if (status === "rolling") return "always";
+    if (status === "closed_pending" || (status === "closed" && nextOpen)) return "opens_date";
+    return "unconfirmed";
+  }
+
+  function displayStatusLabel(status, nextOpen, fmtDateFn) {
+    const key = displayStatusKey(status, nextOpen);
+    if (key === "opens_date") return "Opens " + fmtDateFn(nextOpen);
+    return DISPLAY_LABEL[key];
+  }
+
   /**
    * Sort multi-local ZIP candidates by res_ratio descending (ties keep
    * input order) and flag the first as the most-likely match. Does not
@@ -101,8 +132,10 @@
 
   const api = {
     LABEL, NOTE, CONF_LABEL, CONFIRMED_STATUSES,
+    DISPLAY_LABEL, DISPLAY_SHAPE,
     normalizeZip, matchCities, unionCityIndexes,
     statusLabel, statusNote, confidenceLabel, isConfirmedStatus,
+    displayStatusKey, displayStatusLabel,
     sortMultiLocal,
   };
 

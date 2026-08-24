@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1521  (u) Omaha[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "618",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1521|Omaha|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "618",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]13306 Stevens Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "Address1",
+    "editFieldValues": "13306 Stevens Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 201[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 201",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Omaha, NE 68137[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Omaha|NE|68137",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](402) 618-0442[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1073",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 618-0442",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1521@yahoo.com\" target=\"_blank\">ibew1521@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "581",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1521@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jerry L. Anderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1899",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|L.|Anderson||{ \"MemberID\" : \"1899\",\"luid\": \"618\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 201\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Jerry L. Anderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3920",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|L.|Anderson||{ \"MemberID\" : \"3920\",\"luid\": \"618\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Kimberly A. Plummer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1900",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kimberly|A.|Plummer||{ \"MemberID\" : \"1900\",\"luid\": \"618\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 201\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Laura L. Anderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1898",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Laura|L.|Anderson||{ \"MemberID\" : \"1898\",\"luid\": \"618\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 201\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "618",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

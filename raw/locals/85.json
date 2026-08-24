@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]109-  (u) Rock Island[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "85",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "109-|Rock Island|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "85",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2271 First Street E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "88",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2271 First Street E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Milan, IL 61264[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "88",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Milan|IL|61264",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](309) 792-9200[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "166",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 792-9200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](844) 423-9109[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "167",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(844) 423-9109",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:kholub@ibew109.com\" target=\"_blank\">kholub@ibew109.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2112",
+    "editFieldNames": "Email",
+    "editFieldValues": "kholub@ibew109.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew109.com\" target=\"_blank\">www.ibew109.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "85",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew109.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Kyle D. Holub[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|D.|Holub||{ \"MemberID\" : \"262\",\"luid\": \"85\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2271 First Street E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milan\",\"state\":\"IL\",\"zip\":\"61264\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kevin L. Ammeter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "263",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|L.|Ammeter||{ \"MemberID\" : \"263\",\"luid\": \"85\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2271 First Street E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milan\",\"state\":\"IL\",\"zip\":\"61264\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Kyle D. Holub[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3411",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|D.|Holub||{ \"MemberID\" : \"3411\",\"luid\": \"85\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Cody M. Wanek[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "264",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cody|M.|Wanek||{ \"MemberID\" : \"264\",\"luid\": \"85\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2271 First Street E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Milan\",\"state\":\"IL\",\"zip\":\"61264\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "85",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

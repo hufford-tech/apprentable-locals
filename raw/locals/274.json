@@ -1,0 +1,192 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]466-  (em, es, i, rts) Charleston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "466-|Charleston|WV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "274",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, es, i, rts",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]800 Indiana Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "266",
+    "editFieldNames": "Address1",
+    "editFieldValues": "800 Indiana Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Charleston, WV 25302[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "266",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Charleston|WV|25302",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](304) 342-0800[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "508",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 342-0800",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](304) 342-7716[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "509",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 342-7716",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:christ@ibew466.org\" target=\"_blank\">christ@ibew466.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "265",
+    "editFieldNames": "Email",
+    "editFieldValues": "christ@ibew466.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew466.org\" target=\"_blank\">www.ibew466.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew466.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Princeton Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4161",
+    "editFieldNames": "Name",
+    "editFieldValues": "Princeton Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]316 Mercer Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4161",
+    "editFieldNames": "Address1",
+    "editFieldValues": "316 Mercer Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Princeton, WV 24740[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4161",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Princeton|WV|24740",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](304) 425-9020[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1768",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 425-9020",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (304) 425-9030[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1769",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 425-9030",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t][b]Dispatch No.[/b] (304) 425-9020[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1770",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 425-9020",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]B.M. [/b]Christopher B. Tincher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "841",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|B.|Tincher||{ \"MemberID\" : \"841\",\"luid\": \"274\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"800 Indiana Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Charleston\",\"state\":\"WV\",\"zip\":\"25302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Pres. [/b]Collin Z. Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "843",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Collin|Z.|Wright||{ \"MemberID\" : \"843\",\"luid\": \"274\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"800 Indiana Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Charleston\",\"state\":\"WV\",\"zip\":\"25302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]F.S. [/b]Christopher B. Tincher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3588",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|B.|Tincher||{ \"MemberID\" : \"3588\",\"luid\": \"274\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]R.S. [/b]Chris Frame[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "842",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris||Frame||{ \"MemberID\" : \"842\",\"luid\": \"274\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"800 Indiana Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Charleston\",\"state\":\"WV\",\"zip\":\"25302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "274",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

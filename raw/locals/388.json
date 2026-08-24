@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]712-  (c, i) Beaver[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "712-|Beaver|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "388",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]Edwin D. Hill Complex[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "382",
+    "editFieldNames": "Address1",
+    "editFieldValues": "Edwin D. Hill Complex",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]217 Sassafras Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "382",
+    "editFieldNames": "Address2",
+    "editFieldValues": "217 Sassafras Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Beaver, PA 15009[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "382",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Beaver|PA|15009",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](724) 775-0969[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "711",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 775-0969",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](724) 775-5695[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "712",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 775-5695",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local712@ibew712.org\" target=\"_blank\">local712@ibew712.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "Email",
+    "editFieldValues": "local712@ibew712.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew712.org\" target=\"_blank\">www.ibew712.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew712.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Matthew T. Cowie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1190",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|T.|Cowie||{ \"MemberID\" : \"1190\",\"luid\": \"388\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Edwin D. Hill Complex\",\"addr2\":\"217 Sassafras Lane\",\"addr3\":\"\",\"city\":\"Beaver\",\"state\":\"PA\",\"zip\":\"15009\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Declan M. Pape[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1189",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Declan|M.|Pape||{ \"MemberID\" : \"1189\",\"luid\": \"388\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"Edwin D. Hill Complex\",\"addr2\":\"217 Sassafras Lane\",\"addr3\":\"\",\"city\":\"Beaver\",\"state\":\"PA\",\"zip\":\"15009\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Matthew T. Cowie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3697",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|T.|Cowie||{ \"MemberID\" : \"3697\",\"luid\": \"388\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Robert A. Allison[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4444",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|A.|Allison||{ \"MemberID\" : \"4444\",\"luid\": \"388\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Clark County, NV",
+    "District": "9",
+    "Population": "1375765",
+    "LandArea": "7910.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Lincoln County, NV",
+    "District": "9",
+    "Population": "4165",
+    "LandArea": "10633.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Nye County, NV",
+    "District": "9",
+    "Population": "32485",
+    "LandArea": "18146.65",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]532-  (i, lctt, mt, o, ptc, spa, t, u) Billings[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "532-|Billings|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "303",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, mt, o, ptc, spa, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5200 Midland Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "299",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5200 Midland Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Billings, MT 59101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "299",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Billings|MT|59101",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 80005[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "298",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 80005",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Billings, MT 59108[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "298",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Billings|MT|59108",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](406) 248-9119[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "561",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 248-9119",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](406) 248-9952[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "562",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 248-9952",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew532.com\" target=\"_blank\">office@ibew532.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "293",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew532.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew532.com\" target=\"_blank\">www.ibew532.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew532.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Daniel R. DeBolt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "928",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|R.|DeBolt||{ \"MemberID\" : \"928\",\"luid\": \"303\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5200 Midland Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bililng\",\"state\":\"MT\",\"zip\":\"59101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Craig Stockman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4480",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Craig||Stockman||{ \"MemberID\" : \"4480\",\"luid\": \"303\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Daniel R. DeBolt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3618",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|R.|DeBolt||{ \"MemberID\" : \"3618\",\"luid\": \"303\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5200 Midland Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Billing\",\"state\":\"MT\",\"zip\":\"59101\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Tallon R. Jones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4481",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tallon|R.|Jones||{ \"MemberID\" : \"4481\",\"luid\": \"303\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "303",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

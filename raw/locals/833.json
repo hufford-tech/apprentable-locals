@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2326  (ptc, t) Montpelier[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "833",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2326|Montpelier|VT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "833",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]47 Gauthier Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6990",
+    "editFieldNames": "Address1",
+    "editFieldValues": "47 Gauthier Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit 10B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6990",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit 10B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Essex Junction, VT 05452[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6990",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Essex Junction|VT|05452",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](802) 871-7212[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2248",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(802) 871-7212",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](802) 304-1090[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2249",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(802) 304-1090",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew2326@aol.com\" target=\"_blank\">ibew2326@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "765",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew2326@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Sandra A. Tumosa[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2535",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sandra|A.|Tumosa||{ \"MemberID\" : \"2535\",\"luid\": \"833\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"43 Airport Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Burlington\",\"state\":\"VT\",\"zip\":\"05403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]James H. Traverse[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2536",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|H.|Traverse||{ \"MemberID\" : \"2536\",\"luid\": \"833\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"30 Alstead Center Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Walpole\",\"state\":\"NH\",\"zip\":\"03608\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Sandra A. Tumosa[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4157",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sandra|A.|Tumosa||{ \"MemberID\" : \"4157\",\"luid\": \"833\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"43 Airport Parkway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Burlington\",\"state\":\"VT\",\"zip\":\"05403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Adam P. Socinski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2534",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|P.|Socinski||{ \"MemberID\" : \"2534\",\"luid\": \"833\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2032 Winch Hill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Langdon\",\"state\":\"NH\",\"zip\":\"03602\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "833",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

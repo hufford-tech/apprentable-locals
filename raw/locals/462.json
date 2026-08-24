@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]881-  (rr) Memphis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "462",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "881-|Memphis|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "462",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2836 N Crockett Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6313",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2836 N Crockett Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sarah, MS 38665[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6313",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sarah|MS|38665",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](901) 734-5984[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2199",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(901) 734-5984",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:joshbrooks@bellsouth.net\" target=\"_blank\">joshbrooks@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2122",
+    "editFieldNames": "Email",
+    "editFieldValues": "joshbrooks@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Joshua T. Brooks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1419",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|T.|Brooks||{ \"MemberID\" : \"1419\",\"luid\": \"462\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"9820 Taylor Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Olive Branch\",\"state\":\"MS\",\"zip\":\"38654\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Joshua T. Brooks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3770",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|T.|Brooks||{ \"MemberID\" : \"3770\",\"luid\": \"462\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Mark S. Coleman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1417",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|S.|Coleman||{ \"MemberID\" : \"1417\",\"luid\": \"462\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2270 Country Club Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Senatobia\",\"state\":\"MS\",\"zip\":\"38668\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Daniel Williams Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1418",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel||Williams|Jr.|{ \"MemberID\" : \"1418\",\"luid\": \"462\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"363 Savage Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hernando\",\"state\":\"MS\",\"zip\":\"38632\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

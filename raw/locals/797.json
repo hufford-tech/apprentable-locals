@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2194  (em) Americus[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "797",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2194|Americus|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "797",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1502",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Americus, GA 31709[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "686",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Americus|GA|31709",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](229) 942-4743[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1317",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 942-4743",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](229) 928-6011[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1318",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 928-6011",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:gaaapjustice@gmail.com\" target=\"_blank\">gaaapjustice@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2053",
+    "editFieldNames": "Email",
+    "editFieldValues": "gaaapjustice@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Silas Bullard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2428",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Silas||Bullard||{ \"MemberID\" : \"2428\",\"luid\": \"797\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1502\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Americus\",\"state\":\"GA\",\"zip\":\"31709\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Mathis Wright[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2430",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mathis||Wright||{ \"MemberID\" : \"2430\",\"luid\": \"797\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Glenda Merritt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2429",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Glenda||Merritt||{ \"MemberID\" : \"2429\",\"luid\": \"797\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1502\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Americus\",\"state\":\"GA\",\"zip\":\"31709\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Doreatha Thomas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2427",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Doreatha||Thomas||{ \"MemberID\" : \"2427\",\"luid\": \"797\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 1502\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Americus\",\"state\":\"GA\",\"zip\":\"31709\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Hope Center, 2nd Tuesday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "797",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Hope Center, 2nd Tuesday, 3 pm",
+    "datatype": "txt"
+  }
+]

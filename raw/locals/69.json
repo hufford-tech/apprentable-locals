@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]86--  (ees, em, es, i, rts, spa) Rochester[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "69",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "86--|Rochester|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "69",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, em, es, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2300 E River Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2300 E River Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rochester, NY 14623[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rochester|NY|14623",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](585) 235-1510[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "135",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(585) 235-1510",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](585) 235-0420[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "136",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(585) 235-0420",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu86.org\" target=\"_blank\">www.ibewlu86.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "69",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu86.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Raymond A. Ryerse Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "211",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Raymond|A.|Ryerse|Jr.|{ \"MemberID\" : \"211\",\"luid\": \"69\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2300 E River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"NY\",\"zip\":\"14623\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Brian Mitchell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||Mitchell||{ \"MemberID\" : \"212\",\"luid\": \"69\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2300 E River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"NY\",\"zip\":\"14623\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Todd M. Krenzer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "213",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|M.|Krenzer||{ \"MemberID\" : \"213\",\"luid\": \"69\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2300 E River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"NY\",\"zip\":\"14623\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Kathryn E. Mucica[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "214",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kathryn|E.|Mucica||{ \"MemberID\" : \"214\",\"luid\": \"69\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2300 E River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rochester\",\"state\":\"NY\",\"zip\":\"14623\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "69",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

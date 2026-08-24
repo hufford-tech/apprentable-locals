@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Hartford County, CT",
+    "District": "2",
+    "Population": "857183",
+    "LandArea": "735.44",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Litchfield County, CT",
+    "District": "2",
+    "Population": "182193",
+    "LandArea": "919.92",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "Middlesex County, CT",
+    "District": "2",
+    "Population": "155071",
+    "LandArea": "369.26",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New Haven County, CT",
+    "District": "2",
+    "Population": "824008",
+    "LandArea": "605.64",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  },
+  {
+    "CountyName": "New London County, CT",
+    "District": "2",
+    "Population": "259088",
+    "LandArea": "665.91",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "CT"
+  }
+]

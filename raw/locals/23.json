@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]23--  (u) St. Paul[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "23--|St. Paul|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "23",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]445 Etna Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "24",
+    "editFieldNames": "Address1",
+    "editFieldValues": "445 Etna Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 61[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "24",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 61",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]St. Paul, MN 55106[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "24",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. Paul|MN|55106",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](651) 774-6011[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(651) 774-6011",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](651) 776-8907[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "46",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(651) 776-8907",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lu23@ibew23.org\" target=\"_blank\">lu23@ibew23.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "Email",
+    "editFieldValues": "lu23@ibew23.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew23.org\" target=\"_blank\">www.ibew23.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew23.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jonathon W. Jacobson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "69",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathon|W.|Jacobson||{ \"MemberID\" : \"69\",\"luid\": \"23\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"932 Payne Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Paul\",\"state\":\"MN\",\"zip\":\"55130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jacob R. Espeseth[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "70",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|R.|Espeseth||{ \"MemberID\" : \"70\",\"luid\": \"23\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"932 Payne Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Paul\",\"state\":\"MN\",\"zip\":\"55130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jonathon W. Jacobson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4375",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathon|W.|Jacobson||{ \"MemberID\" : \"4375\",\"luid\": \"23\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]John A. Marzitelli[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "68",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|A.|Marzitelli||{ \"MemberID\" : \"68\",\"luid\": \"23\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"932 Payne Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Paul\",\"state\":\"MN\",\"zip\":\"55130\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "23",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

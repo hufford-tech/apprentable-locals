@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]682-  (u) St. Petersburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "682-|St. Petersburg|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "374",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]305 Arbor Drive W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7219",
+    "editFieldNames": "Address1",
+    "editFieldValues": "305 Arbor Drive W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Palm Harbor, FL 34683[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7219",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Palm Harbor|FL|34683",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](727) 243-6086[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2373",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(727) 243-6086",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](352) 746-4242[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2089",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(352) 746-4242",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rommelt2012@gmail.com\" target=\"_blank\">rommelt2012@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1788",
+    "editFieldNames": "Email",
+    "editFieldValues": "rommelt2012@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew682.org\" target=\"_blank\">www.ibew682.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew682.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robert D. Rommelt, 305 Arbor Drive W, Palm Harbor, FL  34683[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1147",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Rommelt||{ \"MemberID\" : \"1147\",\"luid\": \"374\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"305 Arbor Drive W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palm Harbor\",\"state\":\"FL\",\"zip\":\"34683\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]George Tibbetts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4342",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George||Tibbetts||{ \"MemberID\" : \"4342\",\"luid\": \"374\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Robert D. Rommelt, 305 Arbor Drive W, Palm Harbor, FL  34683[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3684",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|D.|Rommelt||{ \"MemberID\" : \"3684\",\"luid\": \"374\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"305 Arbor Drive W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palm Harbor\",\"state\":\"FL\",\"zip\":\"34683\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jason C. Massey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4343",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|C.|Massey||{ \"MemberID\" : \"4343\",\"luid\": \"374\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Dunedin Elks Lodge 1525, 1240 San Christopher Drive, Dunedin, 2nd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Dunedin Elks Lodge 1525, 1240 San Christopher Drive, Dunedin, 2nd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

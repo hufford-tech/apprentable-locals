@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Atlantic County, NJ",
+    "District": "3",
+    "Population": "252552",
+    "LandArea": "561.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Atlantic County, NJ",
+    "District": "3",
+    "Population": "252552",
+    "LandArea": "561.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Burlington County, NJ",
+    "District": "3",
+    "Population": "423394",
+    "LandArea": "804.57",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Burlington County, NJ",
+    "District": "3",
+    "Population": "423394",
+    "LandArea": "804.57",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Camden County, NJ",
+    "District": "3",
+    "Population": "508932",
+    "LandArea": "222.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Camden County, NJ",
+    "District": "3",
+    "Population": "508932",
+    "LandArea": "222.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Cape May County, NJ",
+    "District": "3",
+    "Population": "102326",
+    "LandArea": "255.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Cape May County, NJ",
+    "District": "3",
+    "Population": "102326",
+    "LandArea": "255.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Cumberland County, NJ",
+    "District": "3",
+    "Population": "146438",
+    "LandArea": "489.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Cumberland County, NJ",
+    "District": "3",
+    "Population": "146438",
+    "LandArea": "489.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Gloucester County, NJ",
+    "District": "3",
+    "Population": "254673",
+    "LandArea": "324.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Gloucester County, NJ",
+    "District": "3",
+    "Population": "254673",
+    "LandArea": "324.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Salem County, NJ",
+    "District": "3",
+    "Population": "64285",
+    "LandArea": "337.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Salem County, NJ",
+    "District": "3",
+    "Population": "64285",
+    "LandArea": "337.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1759  (u) Casper[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1759|Casper|WY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "685",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 56[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "626",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 56",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cody, WY 82414[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "626",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cody|WY|82414",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](307) 271-1500[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2044",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(307) 271-1500",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:luibew1759@gmail.com\" target=\"_blank\">luibew1759@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1959",
+    "editFieldNames": "Email",
+    "editFieldValues": "luibew1759@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Barton R. Becher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2094",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barton|R.|Becher||{ \"MemberID\" : \"2094\",\"luid\": \"685\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1791\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Loveland\",\"state\":\"CO\",\"zip\":\"80539\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Barton R. Becher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3993",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barton|R.|Becher||{ \"MemberID\" : \"3993\",\"luid\": \"685\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Andrew J. Dendinger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2096",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|J.|Dendinger||{ \"MemberID\" : \"2096\",\"luid\": \"685\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"90210 Prairie Trail\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Scottsbluff\",\"state\":\"NE\",\"zip\":\"69361\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John M. Borchard[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2095",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Borchard||{ \"MemberID\" : \"2095\",\"luid\": \"685\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"60151 Lance Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Scottsbluff\",\"state\":\"NE\",\"zip\":\"69361\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Various Locations, 2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "685",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Locations, 2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

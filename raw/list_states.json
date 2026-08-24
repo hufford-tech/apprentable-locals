@@ -1,0 +1,342 @@
+[
+  {
+    "StateAbr": "AL",
+    "StateName": "Alabama",
+    "District": "5"
+  },
+  {
+    "StateAbr": "AK",
+    "StateName": "Alaska",
+    "District": "9"
+  },
+  {
+    "StateAbr": "AB",
+    "StateName": "Alberta",
+    "District": "1"
+  },
+  {
+    "StateAbr": "AZ",
+    "StateName": "Arizona",
+    "District": "7"
+  },
+  {
+    "StateAbr": "AR",
+    "StateName": "Arkansas",
+    "District": "10"
+  },
+  {
+    "StateAbr": "BC",
+    "StateName": "British Columbia",
+    "District": "1"
+  },
+  {
+    "StateAbr": "CA",
+    "StateName": "California",
+    "District": "9"
+  },
+  {
+    "StateAbr": "CZ",
+    "StateName": "Canal Zone",
+    "District": "5"
+  },
+  {
+    "StateAbr": "CO",
+    "StateName": "Colorado",
+    "District": "8"
+  },
+  {
+    "StateAbr": "CT",
+    "StateName": "Connecticut",
+    "District": "2"
+  },
+  {
+    "StateAbr": "DE",
+    "StateName": "Delaware",
+    "District": "3"
+  },
+  {
+    "StateAbr": "DC",
+    "StateName": "Dist of Columbia",
+    "District": "4"
+  },
+  {
+    "StateAbr": "FL",
+    "StateName": "Florida",
+    "District": "5"
+  },
+  {
+    "StateAbr": "GA",
+    "StateName": "Georgia",
+    "District": "5"
+  },
+  {
+    "StateAbr": "GU",
+    "StateName": "Guam",
+    "District": "9"
+  },
+  {
+    "StateAbr": "HI",
+    "StateName": "Hawaii",
+    "District": "9"
+  },
+  {
+    "StateAbr": "ID",
+    "StateName": "Idaho",
+    "District": "8"
+  },
+  {
+    "StateAbr": "IL",
+    "StateName": "Illinois",
+    "District": "6"
+  },
+  {
+    "StateAbr": "IN",
+    "StateName": "Indiana",
+    "District": "6"
+  },
+  {
+    "StateAbr": "IA",
+    "StateName": "Iowa",
+    "District": "11"
+  },
+  {
+    "StateAbr": "KS",
+    "StateName": "Kansas",
+    "District": "7"
+  },
+  {
+    "StateAbr": "KY",
+    "StateName": "Kentucky",
+    "District": "4"
+  },
+  {
+    "StateAbr": "LA",
+    "StateName": "Louisiana",
+    "District": "5"
+  },
+  {
+    "StateAbr": "ME",
+    "StateName": "Maine",
+    "District": "2"
+  },
+  {
+    "StateAbr": "MB",
+    "StateName": "Manitoba",
+    "District": "1"
+  },
+  {
+    "StateAbr": "MD",
+    "StateName": "Maryland",
+    "District": "4"
+  },
+  {
+    "StateAbr": "MA",
+    "StateName": "Massachusetts",
+    "District": "2"
+  },
+  {
+    "StateAbr": "MI",
+    "StateName": "Michigan",
+    "District": "6"
+  },
+  {
+    "StateAbr": "MN",
+    "StateName": "Minnesota",
+    "District": "6"
+  },
+  {
+    "StateAbr": "MS",
+    "StateName": "Mississippi",
+    "District": "5"
+  },
+  {
+    "StateAbr": "MO",
+    "StateName": "Missouri",
+    "District": "11"
+  },
+  {
+    "StateAbr": "MT",
+    "StateName": "Montana",
+    "District": "8"
+  },
+  {
+    "StateAbr": "NE",
+    "StateName": "Nebraska",
+    "District": "11"
+  },
+  {
+    "StateAbr": "NV",
+    "StateName": "Nevada",
+    "District": "9"
+  },
+  {
+    "StateAbr": "NB",
+    "StateName": "New Brunswick",
+    "District": "1"
+  },
+  {
+    "StateAbr": "NH",
+    "StateName": "New Hampshire",
+    "District": "2"
+  },
+  {
+    "StateAbr": "NJ",
+    "StateName": "New Jersey",
+    "District": "3"
+  },
+  {
+    "StateAbr": "NM",
+    "StateName": "New Mexico",
+    "District": "7"
+  },
+  {
+    "StateAbr": "NY",
+    "StateName": "New York",
+    "District": "3"
+  },
+  {
+    "StateAbr": "NL",
+    "StateName": "Newfoundland",
+    "District": "1"
+  },
+  {
+    "StateAbr": "NC",
+    "StateName": "North Carolina",
+    "District": "10"
+  },
+  {
+    "StateAbr": "ND",
+    "StateName": "North Dakota",
+    "District": "11"
+  },
+  {
+    "StateAbr": "NT",
+    "StateName": "Northwest Territory",
+    "District": "1"
+  },
+  {
+    "StateAbr": "NS",
+    "StateName": "Nova Scotia",
+    "District": "1"
+  },
+  {
+    "StateAbr": "NU",
+    "StateName": "Nunavut",
+    "District": "1"
+  },
+  {
+    "StateAbr": "OH",
+    "StateName": "Ohio",
+    "District": "4"
+  },
+  {
+    "StateAbr": "OK",
+    "StateName": "Oklahoma",
+    "District": "7"
+  },
+  {
+    "StateAbr": "ON",
+    "StateName": "Ontario",
+    "District": "1"
+  },
+  {
+    "StateAbr": "OR",
+    "StateName": "Oregon",
+    "District": "9"
+  },
+  {
+    "StateAbr": "PA",
+    "StateName": "Pennsylvania",
+    "District": "3"
+  },
+  {
+    "StateAbr": "PE",
+    "StateName": "Prince Edward Island",
+    "District": "1"
+  },
+  {
+    "StateAbr": "PR",
+    "StateName": "Puerto Rico",
+    "District": "5"
+  },
+  {
+    "StateAbr": "QC",
+    "StateName": "Quebec",
+    "District": "1"
+  },
+  {
+    "StateAbr": "RI",
+    "StateName": "Rhode Island",
+    "District": "2"
+  },
+  {
+    "StateAbr": "SK",
+    "StateName": "Saskatchewan",
+    "District": "1"
+  },
+  {
+    "StateAbr": "SC",
+    "StateName": "South Carolina",
+    "District": "10"
+  },
+  {
+    "StateAbr": "SD",
+    "StateName": "South Dakota",
+    "District": "11"
+  },
+  {
+    "StateAbr": "TN",
+    "StateName": "Tennessee",
+    "District": "10"
+  },
+  {
+    "StateAbr": "TX",
+    "StateName": "Texas",
+    "District": "7"
+  },
+  {
+    "StateAbr": "UT",
+    "StateName": "Utah",
+    "District": "8"
+  },
+  {
+    "StateAbr": "VT",
+    "StateName": "Vermont",
+    "District": "2"
+  },
+  {
+    "StateAbr": "VI",
+    "StateName": "Virgin Islands",
+    "District": "5"
+  },
+  {
+    "StateAbr": "VA",
+    "StateName": "Virginia",
+    "District": "4"
+  },
+  {
+    "StateAbr": "WA",
+    "StateName": "Washington",
+    "District": "9"
+  },
+  {
+    "StateAbr": "WV",
+    "StateName": "West Virginia",
+    "District": "4"
+  },
+  {
+    "StateAbr": "WI",
+    "StateName": "Wisconsin",
+    "District": "6"
+  },
+  {
+    "StateAbr": "WY",
+    "StateName": "Wyoming",
+    "District": "8"
+  },
+  {
+    "StateAbr": "YT",
+    "StateName": "Yukon",
+    "District": "1"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Cook County, IL",
+    "District": "6",
+    "Population": "5376741",
+    "LandArea": "945.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Grundy County, IL",
+    "District": "6",
+    "Population": "37535",
+    "LandArea": "419.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kankakee County, IL",
+    "District": "6",
+    "Population": "103833",
+    "LandArea": "676.75",
+    "Percentage": "99%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Will County, IL",
+    "District": "6",
+    "Population": "502266",
+    "LandArea": "836.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

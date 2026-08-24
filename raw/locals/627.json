@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1545  (mo) Jesup[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1545|Jesup|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "627",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]403 Oran Way[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7249",
+    "editFieldNames": "Address1",
+    "editFieldValues": "403 Oran Way",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jesup, GA 31545[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7249",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jesup|GA|31545",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](912) 294-3545[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2060",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(912) 294-3545",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Derrick N. Beasley, 271 Martins Landing Road, Jesup, GA  31546[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1927",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Derrick|N.|Beasley||{ \"MemberID\" : \"1927\",\"luid\": \"627\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"271 Martins Landing Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jesup\",\"state\":\"GA\",\"zip\":\"31546\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Derrick N. Beasley, 271 Martins Landing Road, Jesup, GA  31546[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1925",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Derrick|N.|Beasley||{ \"MemberID\" : \"1925\",\"luid\": \"627\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"271 Martins Landing Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jesup\",\"state\":\"GA\",\"zip\":\"31546\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Kevin R. Brown, 403 Oran Way, Jesup, GA  31545[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1926",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|R.|Brown||{ \"MemberID\" : \"1926\",\"luid\": \"627\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"403 Oran Way\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jesup\",\"state\":\"GA\",\"zip\":\"31545\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Dustin R. Vickers, 5744 Johnson Road, Patterson, GA  31557[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3930",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dustin|R.|Vickers||{ \"MemberID\" : \"3930\",\"luid\": \"627\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5744 Johnson Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Patterson\",\"state\":\"GA\",\"zip\":\"31557\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]USW Local 787 Hall, 4134 Rayonier Road, 2nd Tuesday, 4:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "Meets",
+    "editFieldValues": "USW Local 787 Hall, 4134 Rayonier Road, 2nd Tuesday, 4:15 pm",
+    "datatype": "txt"
+  }
+]

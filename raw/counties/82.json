@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Clinton County, OH",
+    "District": "4",
+    "Population": "40543",
+    "LandArea": "410.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Darke County, OH",
+    "District": "4",
+    "Population": "53309",
+    "LandArea": "599.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Greene County, OH",
+    "District": "4",
+    "Population": "147886",
+    "LandArea": "414.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Miami County, OH",
+    "District": "4",
+    "Population": "98868",
+    "LandArea": "407.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Montgomery County, OH",
+    "District": "4",
+    "Population": "559062",
+    "LandArea": "461.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Preble County, OH",
+    "District": "4",
+    "Population": "42337",
+    "LandArea": "424.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Warren County, OH",
+    "District": "4",
+    "Population": "158383",
+    "LandArea": "399.63",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]632-  (rr) Atlanta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "350",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "632-|Atlanta|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "350",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 538[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4331",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 538",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lithia Springs, GA 30122[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4331",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lithia Springs|GA|30122",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](678) 523-3954[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1850",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(678) 523-3954",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu632@gmail.com\" target=\"_blank\">ibewlu632@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "337",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu632@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]David Blake[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1071",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David||Blake||{ \"MemberID\" : \"1071\",\"luid\": \"350\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1553 Mallory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lithia Springs\",\"state\":\"GA\",\"zip\":\"30122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]David Blake[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3662",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David||Blake||{ \"MemberID\" : \"3662\",\"luid\": \"350\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1553 Mallory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lithia Springs\",\"state\":\"GA\",\"zip\":\"30122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Terrance B. Hogan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1072",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrance|B.|Hogan||{ \"MemberID\" : \"1072\",\"luid\": \"350\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1553 Mallory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lithia Springs\",\"state\":\"GA\",\"zip\":\"30122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Terrance B. Hogan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1073",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terrance|B.|Hogan||{ \"MemberID\" : \"1073\",\"luid\": \"350\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1553 Mallory Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lithia Springs\",\"state\":\"GA\",\"zip\":\"30122\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Electrical Plaza, 501 Pulliam Street, 1st Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "350",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Electrical Plaza, 501 Pulliam Street, 1st Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]231-  (i, rtb, spa, u) Sioux City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "231-|Sioux City|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "144",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rtb, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5001 Harbor Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5001 Harbor Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sioux City, IA 51111[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sioux City|IA|51111",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](712) 255-8138[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "276",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(712) 255-8138",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](712) 255-8112[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "277",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(712) 255-8112",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew231.com\" target=\"_blank\">office@ibew231.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "142",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew231.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew231.com\" target=\"_blank\">www.ibew231.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew231.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Richard J. Plathe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "445",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|J.|Plathe||{ \"MemberID\" : \"445\",\"luid\": \"144\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5001 Harbor Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sioux City\",\"state\":\"IA\",\"zip\":\"51111\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Keith R. Hummel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "447",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Keith|R.|Hummel||{ \"MemberID\" : \"447\",\"luid\": \"144\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5001 Harbor Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sioux City\",\"state\":\"IA\",\"zip\":\"51111\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Richard J. Plathe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3463",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|J.|Plathe||{ \"MemberID\" : \"3463\",\"luid\": \"144\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jeffrey T. Sales[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|T.|Sales||{ \"MemberID\" : \"446\",\"luid\": \"144\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5001 Harbor Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sioux City\",\"state\":\"IA\",\"zip\":\"51111\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

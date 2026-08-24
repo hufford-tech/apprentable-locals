@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]865-  (rr) Baltimore[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "865-|Baltimore|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "455",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4257 Federal Hill Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5312",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4257 Federal Hill Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Street, MD 21154[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5312",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Street|MD|21154",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](410) 622-7598[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2049",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(410) 622-7598",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rcmauk70@gmail.com\" target=\"_blank\">rcmauk70@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "434",
+    "editFieldNames": "Email",
+    "editFieldValues": "rcmauk70@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Robert L Williams III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4446",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L|Williams|III|{ \"MemberID\" : \"4446\",\"luid\": \"455\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Robert L Williams III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4445",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L|Williams|III|{ \"MemberID\" : \"4445\",\"luid\": \"455\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Nicholas T. Harbo III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1397",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|T.|Harbo|III|{ \"MemberID\" : \"1397\",\"luid\": \"455\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4800 Lyon Heart Drive\",\"addr2\":\"Apt. A\",\"addr3\":\"\",\"city\":\"Owings Mill\",\"state\":\"MD\",\"zip\":\"21117\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Korey L. Lampkin Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1398",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Korey|L.|Lampkin|Sr.|{ \"MemberID\" : \"1398\",\"luid\": \"455\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1822 Walnut Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Southside Diner, Locust Point, 3rd Thursday, 7:30 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Southside Diner, Locust Point, 3rd Thursday, 7:30 am",
+    "datatype": "txt"
+  }
+]

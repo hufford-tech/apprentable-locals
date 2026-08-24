@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Asotin County, WA",
+    "District": "9",
+    "Population": "20551",
+    "LandArea": "635.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Baker County, OR",
+    "District": "9",
+    "Population": "16741",
+    "LandArea": "3068.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Benton County, WA",
+    "District": "9",
+    "Population": "142475",
+    "LandArea": "1703.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Columbia County, WA",
+    "District": "9",
+    "Population": "4064",
+    "LandArea": "868.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Franklin County, WA",
+    "District": "9",
+    "Population": "49347",
+    "LandArea": "1242.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Garfield County, WA",
+    "District": "9",
+    "Population": "2397",
+    "LandArea": "710.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Gilliam County, OR",
+    "District": "9",
+    "Population": "1915",
+    "LandArea": "1204.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Grant County, OR",
+    "District": "9",
+    "Population": "7935",
+    "LandArea": "4528.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Kittitas County, WA",
+    "District": "9",
+    "Population": "33362",
+    "LandArea": "2297.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Morrow County, OR",
+    "District": "9",
+    "Population": "10995",
+    "LandArea": "2032.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Umatilla County, OR",
+    "District": "9",
+    "Population": "70548",
+    "LandArea": "3215.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Union County, OR",
+    "District": "9",
+    "Population": "24530",
+    "LandArea": "2036.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Walla Walla County, WA",
+    "District": "9",
+    "Population": "55180",
+    "LandArea": "1270.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Wallowa County, OR",
+    "District": "9",
+    "Population": "7226",
+    "LandArea": "3145.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Wheeler County, OR",
+    "District": "9",
+    "Population": "1547",
+    "LandArea": "1714.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Yakima County, WA",
+    "District": "9",
+    "Population": "222581",
+    "LandArea": "4296.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  }
+]

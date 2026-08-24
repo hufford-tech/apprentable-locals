@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]765-  (u) Sheffield[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "415",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "765-|Sheffield|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "415",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 868[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5831",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 868",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rogersville, AL 35652[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5831",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rogersville|AL|35652",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](256) 980-9606[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2123",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(256) 980-9606",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew765@gmail.com\" target=\"_blank\">ibew765@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "398",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew765@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew765.org\" target=\"_blank\">www.ibew765.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "415",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew765.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Michael J. McCoig[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1275",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|McCoig||{ \"MemberID\" : \"1275\",\"luid\": \"415\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8725 Franklin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Athens\",\"state\":\"AL\",\"zip\":\"35614\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Michael J. McCoig[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3724",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|McCoig||{ \"MemberID\" : \"3724\",\"luid\": \"415\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8725 Franklin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Athens\",\"state\":\"AL\",\"zip\":\"35614\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Benjamin C. Barnett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1274",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Benjamin|C.|Barnett||{ \"MemberID\" : \"1274\",\"luid\": \"415\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"260 County Road 156\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Anderson\",\"state\":\"AL\",\"zip\":\"35610\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Joseph L. Tolbert[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1276",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|L.|Tolbert||{ \"MemberID\" : \"1276\",\"luid\": \"415\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"122 Springer Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tuscumbia\",\"state\":\"AL\",\"zip\":\"35674\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Limestone County Rodeo Arena, 1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "415",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Limestone County Rodeo Arena, 1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

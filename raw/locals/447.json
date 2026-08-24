@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]841-  (u) Birmingham[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "447",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "841-|Birmingham|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "447",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]15 Pleasant Valley Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "423",
+    "editFieldNames": "Address1",
+    "editFieldValues": "15 Pleasant Valley Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hayden, AL 35079[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "423",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hayden|AL|35079",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](205) 396-0799[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "803",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(205) 396-0799",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew841.com\" target=\"_blank\">www.ibew841.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "447",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew841.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Mark L. Adkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1376",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|L.|Adkins||{ \"MemberID\" : \"1376\",\"luid\": \"447\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 409\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trussville\",\"state\":\"AL\",\"zip\":\"35173\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Mark L. Adkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3755",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|L.|Adkins||{ \"MemberID\" : \"3755\",\"luid\": \"447\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Chad Gray[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1375",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chad||Gray||{ \"MemberID\" : \"1375\",\"luid\": \"447\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3100 Red Hill School Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hayden\",\"state\":\"AL\",\"zip\":\"35079\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Rodger D. Jones[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1374",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodger|D.|Jones||{ \"MemberID\" : \"1374\",\"luid\": \"447\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 409\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Trussville\",\"state\":\"AL\",\"zip\":\"35173\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Local Union 136, 2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "447",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 136, 2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

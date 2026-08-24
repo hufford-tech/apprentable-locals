@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]876-  (as, catv, govt, lctt, o, t, u) Grand Rapids[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "461",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "876-|Grand Rapids|MI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "461",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, catv, govt, lctt, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5000 E Airport Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "434",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5000 E Airport Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mount Pleasant, MI 48858[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "434",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mount Pleasant|MI|48858",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](616) 784-1133[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "824",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(616) 784-1133",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](616) 784-8342[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "825",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(616) 784-8342",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew876@gmail.com\" target=\"_blank\">ibew876@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "439",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew876@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew876.com\" target=\"_blank\">www.ibew876.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "461",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew876.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Samuel D. Braun[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4307",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel|D.|Braun||{ \"MemberID\" : \"4307\",\"luid\": \"461\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John M. Kelley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1414",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|M.|Kelley||{ \"MemberID\" : \"1414\",\"luid\": \"461\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"200 Greenfield Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmore\",\"state\":\"MI\",\"zip\":\"48829\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Samuel Braun[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3769",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Samuel||Braun||{ \"MemberID\" : \"3769\",\"luid\": \"461\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Richard J. Boyd[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1416",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|J.|Boyd||{ \"MemberID\" : \"1416\",\"luid\": \"461\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"200 Greenfield Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Edmore\",\"state\":\"MI\",\"zip\":\"48829\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "461",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1316  (i, o) Macon[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1316|Macon|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "574",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1046 Patterson Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1046 Patterson Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Macon, GA 31204[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "534",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Macon|GA|31204",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](478) 743-7017[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "999",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(478) 743-7017",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](478) 743-4482[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1000",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(478) 743-4482",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibew1316.org\" target=\"_blank\">admin@ibew1316.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "541",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibew1316.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1316.com\" target=\"_blank\">www.ibew1316.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1316.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stacey B. Mixson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1765",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|B.|Mixson||{ \"MemberID\" : \"1765\",\"luid\": \"574\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2565\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Macon\",\"state\":\"GA\",\"zip\":\"31203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Halley Duncan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3877",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Halley||Duncan||{ \"MemberID\" : \"3877\",\"luid\": \"574\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Stacey B. Mixson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1766",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|B.|Mixson||{ \"MemberID\" : \"1766\",\"luid\": \"574\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2565\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Macon\",\"state\":\"GA\",\"zip\":\"31203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jason L. Donaldson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1764",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|L.|Donaldson||{ \"MemberID\" : \"1764\",\"luid\": \"574\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2565\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Macon\",\"state\":\"GA\",\"zip\":\"31203\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

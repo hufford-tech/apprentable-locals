@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]717-  (s) Boston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "392",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "717-|Boston|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "392",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "s",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]80 Broadway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4979",
+    "editFieldNames": "Address1",
+    "editFieldValues": "80 Broadway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Everett, MA 02149[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4979",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Everett|MA|02149",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 490860[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4978",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 490860",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Everett, MA 02149[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4978",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Everett|MA|02149",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](603) 913-3345[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2013",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(603) 913-3345",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal717@gmail.com\" target=\"_blank\">ibewlocal717@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "377",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal717@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://https://ibewlocal717.com\" target=\"_blank\">https://ibewlocal717.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "392",
+    "editFieldNames": "Website",
+    "editFieldValues": "https://ibewlocal717.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Christopher C. Spillane[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4383",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|C.|Spillane||{ \"MemberID\" : \"4383\",\"luid\": \"392\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Killian G. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4384",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Killian|G.|Smith||{ \"MemberID\" : \"4384\",\"luid\": \"392\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Tyler E. Victoria[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4392",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler|E.|Victoria||{ \"MemberID\" : \"4392\",\"luid\": \"392\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Kevin T. Dole[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4389",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|T.|Dole||{ \"MemberID\" : \"4389\",\"luid\": \"392\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]VFW 1012, 114 Mystic Avenue, Medford, 1st Wednesday After the 2nd Tuesday, 2 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "392",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW 1012, 114 Mystic Avenue, Medford, 1st Wednesday After the 2nd Tuesday, 2 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Boone County, KY",
+    "District": "4",
+    "Population": "85991",
+    "LandArea": "246.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bracken County, KY",
+    "District": "4",
+    "Population": "8279",
+    "LandArea": "203.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Brown County, OH",
+    "District": "4",
+    "Population": "42285",
+    "LandArea": "491.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Campbell County, KY",
+    "District": "4",
+    "Population": "88616",
+    "LandArea": "151.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clermont County, OH",
+    "District": "4",
+    "Population": "177977",
+    "LandArea": "451.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Dearborn County, IN",
+    "District": "6",
+    "Population": "46109",
+    "LandArea": "305.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Gallatin County, KY",
+    "District": "4",
+    "Population": "7870",
+    "LandArea": "98.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Grant County, KY",
+    "District": "4",
+    "Population": "22384",
+    "LandArea": "259.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hamilton County, OH",
+    "District": "4",
+    "Population": "845303",
+    "LandArea": "407.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Kenton County, KY",
+    "District": "4",
+    "Population": "151464",
+    "LandArea": "161.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Ohio County, IN",
+    "District": "6",
+    "Population": "5623",
+    "LandArea": "86.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pendleton County, KY",
+    "District": "4",
+    "Population": "14390",
+    "LandArea": "280.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Switzerland County, IN",
+    "District": "6",
+    "Population": "9065",
+    "LandArea": "221.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

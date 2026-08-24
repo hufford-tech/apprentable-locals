@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1925  (i, o, u) Martin[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "719",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1925|Martin|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "719",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]402 Jackson Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "Address1",
+    "editFieldValues": "402 Jackson Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Martin, TN 38237[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "647",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Martin|TN|38237",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 64[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "646",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 64",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Martin, TN 38237[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "646",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Martin|TN|38237",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](731) 587-3457[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1218",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(731) 587-3457",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](731) 587-3457[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1219",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(731) 587-3457",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1925@frontiernet.net\" target=\"_blank\">ibew1925@frontiernet.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1925@frontiernet.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Larry S. Roberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2196",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Larry|S.|Roberts||{ \"MemberID\" : \"2196\",\"luid\": \"719\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"402 Jackson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martin\",\"state\":\"TN\",\"zip\":\"38237\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Larry S. Roberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4033",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Larry|S.|Roberts||{ \"MemberID\" : \"4033\",\"luid\": \"719\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"402 Jackson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martin\",\"state\":\"TN\",\"zip\":\"38237\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Shannon T. Roberts[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2197",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|T.|Roberts||{ \"MemberID\" : \"2197\",\"luid\": \"719\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"402 Jackson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martin\",\"state\":\"TN\",\"zip\":\"38237\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Cory P. Garrett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2195",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cory|P.|Garrett||{ \"MemberID\" : \"2195\",\"luid\": \"719\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"402 Jackson Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Martin\",\"state\":\"TN\",\"zip\":\"38237\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "719",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]197-  (em, i) Bloomington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "126",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "197-|Bloomington|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "126",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2407 Beich Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "128",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2407 Beich Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "128",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Bloomington, IL 61705[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "128",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bloomington|IL|61705",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](309) 827-4868[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "244",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 827-4868",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](309) 827-0197[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "245",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 827-0197",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew197.org\" target=\"_blank\">info@ibew197.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "124",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew197.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew197.org\" target=\"_blank\">www.ibew197.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "126",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew197.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Michael D. Raikes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Raikes||{ \"MemberID\" : \"388\",\"luid\": \"126\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2407 Beich Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Bloomington\",\"state\":\"IL\",\"zip\":\"61705\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Matthew W. Strupp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "390",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|W.|Strupp||{ \"MemberID\" : \"390\",\"luid\": \"126\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2407 Beich Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Bloomington\",\"state\":\"IL\",\"zip\":\"61705\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Michael D. Raikes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3449",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Raikes||{ \"MemberID\" : \"3449\",\"luid\": \"126\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Josh Bertolet[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "389",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Josh||Bertolet||{ \"MemberID\" : \"389\",\"luid\": \"126\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2407 Beich Road\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"Bloomington\",\"state\":\"IL\",\"zip\":\"61705\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "126",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

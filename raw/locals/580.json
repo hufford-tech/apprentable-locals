@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1346  (rr) Miami[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1346|Miami|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "580",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7750 NW 31st Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6940",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7750 NW 31st Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hollywood, FL 33024[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6940",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hollywood|FL|33024",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](954) 658-8418[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2227",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(954) 658-8418",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:roerudy@bellsouth.net\" target=\"_blank\">roerudy@bellsouth.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "Email",
+    "editFieldValues": "roerudy@bellsouth.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Rodolfo Jova[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1784",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodolfo||Jova||{ \"MemberID\" : \"1784\",\"luid\": \"580\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7750 NW 31st Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"FL\",\"zip\":\"33024\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Rodolfo Jova[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3883",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodolfo||Jova||{ \"MemberID\" : \"3883\",\"luid\": \"580\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Amaury Dominguez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1783",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Amaury||Dominguez||{ \"MemberID\" : \"1783\",\"luid\": \"580\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7750 NW 31st Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"FL\",\"zip\":\"33024\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Sean Ogilvie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1782",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean||Ogilvie||{ \"MemberID\" : \"1782\",\"luid\": \"580\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"7750 NW 31st Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"FL\",\"zip\":\"33024\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]SEIU, 14645 NW 77th Avenue, Miami Lakes, 2nd Wednesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "Meets",
+    "editFieldValues": "SEIU, 14645 NW 77th Avenue, Miami Lakes, 2nd Wednesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

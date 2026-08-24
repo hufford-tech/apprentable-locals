@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]676-  (i, o, t) Pensacola[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "372",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "676-|Pensacola|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "372",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7830 N Palafox Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "369",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7830 N Palafox Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pensacola, FL 32534[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "369",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pensacola|FL|32534",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](850) 477-8767[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "683",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(850) 477-8767",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](850) 477-8768[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "684",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(850) 477-8768",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu676@yahoo.com\" target=\"_blank\">ibewlu676@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "357",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu676@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal676.com\" target=\"_blank\">www.ibewlocal676.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "372",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal676.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Ronald D. Cope[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1139",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald|D.|Cope||{ \"MemberID\" : \"1139\",\"luid\": \"372\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7830 N Palafox Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pensacola\",\"state\":\"FL\",\"zip\":\"32534\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher G. Golden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1140",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|G.|Golden||{ \"MemberID\" : \"1140\",\"luid\": \"372\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7830 N Palafox Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pensacola\",\"state\":\"FL\",\"zip\":\"32534\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ronald D. Cope[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3682",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald|D.|Cope||{ \"MemberID\" : \"3682\",\"luid\": \"372\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]David A. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4505",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|A.|Smith||{ \"MemberID\" : \"4505\",\"luid\": \"372\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "372",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]106-  (catv, govt, i, spa) Jamestown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "106-|Jamestown|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "83",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, govt, i, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]322 James Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "86",
+    "editFieldNames": "Address1",
+    "editFieldValues": "322 James Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jamestown, NY 14701[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "86",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jamestown|NY|14701",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](716) 484-9449[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "162",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 484-9449",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](716) 484-9339[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "163",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 484-9339",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:general.info@ibew106.org\" target=\"_blank\">general.info@ibew106.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "82",
+    "editFieldNames": "Email",
+    "editFieldValues": "general.info@ibew106.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew106.org\" target=\"_blank\">www.ibew106.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew106.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Kent I. Joesel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "257",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kent|I.|Joesel||{ \"MemberID\" : \"257\",\"luid\": \"83\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"322 James Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Dean M. Roe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "258",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dean|M.|Roe||{ \"MemberID\" : \"258\",\"luid\": \"83\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"322 James Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Kent I. Joesel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3409",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kent|I.|Joesel||{ \"MemberID\" : \"3409\",\"luid\": \"83\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Robert W. Whitney[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "256",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|W.|Whitney||{ \"MemberID\" : \"256\",\"luid\": \"83\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"41 Hallock Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

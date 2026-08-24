@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Bastrop County, TX",
+    "District": "7",
+    "Population": "57733",
+    "LandArea": "888.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Bell County, TX",
+    "District": "7",
+    "Population": "237974",
+    "LandArea": "1059.72",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Blanco County, TX",
+    "District": "7",
+    "Population": "8418",
+    "LandArea": "711.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Burleson County, TX",
+    "District": "7",
+    "Population": "16470",
+    "LandArea": "665.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Burnet County, TX",
+    "District": "7",
+    "Population": "34147",
+    "LandArea": "996.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Caldwell County, TX",
+    "District": "7",
+    "Population": "32194",
+    "LandArea": "545.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Coryell County, TX",
+    "District": "7",
+    "Population": "74978",
+    "LandArea": "1051.76",
+    "Percentage": "2%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Fayette County, TX",
+    "District": "7",
+    "Population": "21804",
+    "LandArea": "950.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hays County, TX",
+    "District": "7",
+    "Population": "97589",
+    "LandArea": "677.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lampasas County, TX",
+    "District": "7",
+    "Population": "17762",
+    "LandArea": "712.04",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Lee County, TX",
+    "District": "7",
+    "Population": "15657",
+    "LandArea": "628.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Llano County, TX",
+    "District": "7",
+    "Population": "17044",
+    "LandArea": "934.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Milam County, TX",
+    "District": "7",
+    "Population": "24238",
+    "LandArea": "1016.71",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "San Saba County, TX",
+    "District": "7",
+    "Population": "6186",
+    "LandArea": "1134.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Travis County, TX",
+    "District": "7",
+    "Population": "812280",
+    "LandArea": "989.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Williamson County, TX",
+    "District": "7",
+    "Population": "249967",
+    "LandArea": "1122.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  }
+]

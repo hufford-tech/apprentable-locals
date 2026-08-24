@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2003  (rr) Montreal, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "740",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2003|Montreal|QC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "740",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]355 de la Levée[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7294",
+    "editFieldNames": "Address1",
+    "editFieldValues": "355 de la Levée",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Apt 5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7294",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Apt 5",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]La Prairie, QC J5R 2T3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7294",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "La Prairie|QC|J5R 2T3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](514) 231-7356[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2028",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(514) 231-7356",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Mark Oudabachian, 2060 Brentwood, St. Lazare, QC  J7T 2G5[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2261",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark||Oudabachian||{ \"MemberID\" : \"2261\",\"luid\": \"740\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2060 Brentwood\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Lazare\",\"state\":\"QC\",\"zip\":\"J7T 2G5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Nazim S. Chedri, 4587 Louis-Fiset, Quebec City, QC  G1X 4X4[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4057",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nazim|S.|Chedri||{ \"MemberID\" : \"4057\",\"luid\": \"740\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"4587 Louis-Fiset\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Quebec City\",\"state\":\"QC\",\"zip\":\"G1X 4X4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Guillaume Fournier, 355 de la Levée Apt 5, La Prairie, QC  J5R 2T3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2262",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Guillaume||Fournier||{ \"MemberID\" : \"2262\",\"luid\": \"740\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"355 de la Levée\",\"addr2\":\"Apt 5\",\"addr3\":\"\",\"city\":\"La Prairie\",\"state\":\"QC\",\"zip\":\"J5R 2T3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Guillaume Fournier, 355 de la Levée Apt 5, La Prairie, QC  J5R 2T3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4058",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Guillaume||Fournier||{ \"MemberID\" : \"4058\",\"luid\": \"740\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"355 de la Levée\",\"addr2\":\"Apt 5\",\"addr3\":\"\",\"city\":\"La Prairie\",\"state\":\"QC\",\"zip\":\"J5R 2T3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

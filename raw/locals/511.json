@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1024  (rr) Pittsburgh[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "511",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1024|Pittsburgh|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "511",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]320 Everest Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7241",
+    "editFieldNames": "Address1",
+    "editFieldValues": "320 Everest Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Houston, PA 15342[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7241",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Houston|PA|15342",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](724) 695-3399[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "905",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(724) 695-3399",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local1024pres@gmail.com\" target=\"_blank\">local1024pres@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1790",
+    "editFieldNames": "Email",
+    "editFieldValues": "local1024pres@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Daniel R. Wojtaszek, 208 Berry Street, Imperial, PA  15126[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1568",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|R.|Wojtaszek||{ \"MemberID\" : \"1568\",\"luid\": \"511\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"208 Berry Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Imperial\",\"state\":\"PA\",\"zip\":\"15126\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Daniel R. Wojtaszek, 208 Berry Street, Imperial, PA  15126[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3815",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|R.|Wojtaszek||{ \"MemberID\" : \"3815\",\"luid\": \"511\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]William Talaga, 320 Everest Circle, Houston, PA  15342[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1567",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William||Talaga||{ \"MemberID\" : \"1567\",\"luid\": \"511\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"320 Everest Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Houston\",\"state\":\"PA\",\"zip\":\"15342\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Robert Moore, 202 Bieler's Run Road, Midland, PA  15059[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1569",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert||Moore||{ \"MemberID\" : \"1569\",\"luid\": \"511\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"202 Bieler's Run Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Midland\",\"state\":\"PA\",\"zip\":\"15059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Croatian Club, Conway, 1st Tuesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "511",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Croatian Club, Conway, 1st Tuesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

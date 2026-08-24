@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1189  (t) Fulton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "545",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1189|Fulton|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "545",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 417[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "505",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 417",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fulton, NY 13069[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "505",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fulton|NY|13069",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](315) 559-3452[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "954",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(315) 559-3452",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1189@gmail.com\" target=\"_blank\">ibew1189@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2092",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1189@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Brandon L. Feist[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1680",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|L.|Feist||{ \"MemberID\" : \"1680\",\"luid\": \"545\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 417\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fulton\",\"state\":\"NY\",\"zip\":\"13069\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]David W. Armbruster[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3846",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|W.|Armbruster||{ \"MemberID\" : \"3846\",\"luid\": \"545\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Chris R. Nutting[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1679",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris|R.|Nutting||{ \"MemberID\" : \"1679\",\"luid\": \"545\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 417\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fulton\",\"state\":\"NY\",\"zip\":\"13069\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jonathan R. Earl[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1681",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|R.|Earl||{ \"MemberID\" : \"1681\",\"luid\": \"545\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 417\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fulton\",\"state\":\"NY\",\"zip\":\"13069\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Fulton Polish Home, 3rd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "545",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Fulton Polish Home, 3rd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

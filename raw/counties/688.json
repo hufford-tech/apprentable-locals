@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Ashland County, OH",
+    "District": "4",
+    "Population": "52523",
+    "LandArea": "424.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Crawford County, OH",
+    "District": "4",
+    "Population": "46966",
+    "LandArea": "402.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Huron County, OH",
+    "District": "4",
+    "Population": "59487",
+    "LandArea": "492.69",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Knox County, OH",
+    "District": "4",
+    "Population": "54500",
+    "LandArea": "527.12",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Marion County, OH",
+    "District": "4",
+    "Population": "66217",
+    "LandArea": "403.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Morrow County, OH",
+    "District": "4",
+    "Population": "31628",
+    "LandArea": "406.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Richland County, OH",
+    "District": "4",
+    "Population": "128852",
+    "LandArea": "496.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wyandot County, OH",
+    "District": "4",
+    "Population": "22908",
+    "LandArea": "405.61",
+    "Percentage": "45%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

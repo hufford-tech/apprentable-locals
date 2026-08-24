@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Appanoose County, IA",
+    "District": "11",
+    "Population": "13721",
+    "LandArea": "496.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Davis County, IA",
+    "District": "11",
+    "Population": "8541",
+    "LandArea": "503.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Des Moines County, IA",
+    "District": "11",
+    "Population": "42351",
+    "LandArea": "416.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Henry County, IA",
+    "District": "11",
+    "Population": "20336",
+    "LandArea": "434.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Jefferson County, IA",
+    "District": "11",
+    "Population": "16181",
+    "LandArea": "435.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Keokuk County, IA",
+    "District": "11",
+    "Population": "11400",
+    "LandArea": "579.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Lee County, IA",
+    "District": "11",
+    "Population": "38052",
+    "LandArea": "517.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Louisa County, IA",
+    "District": "11",
+    "Population": "12183",
+    "LandArea": "401.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Mahaska County, IA",
+    "District": "11",
+    "Population": "22335",
+    "LandArea": "570.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Monroe County, IA",
+    "District": "11",
+    "Population": "8016",
+    "LandArea": "433.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Van Buren County, IA",
+    "District": "11",
+    "Population": "7809",
+    "LandArea": "484.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Wapello County, IA",
+    "District": "11",
+    "Population": "36051",
+    "LandArea": "431.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Washington County, IA",
+    "District": "11",
+    "Population": "20670",
+    "LandArea": "568.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  }
+]

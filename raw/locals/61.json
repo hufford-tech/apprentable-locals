@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]72--  (i, u) Waco[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "72--|Waco|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "61",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1813 Orchard Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1813 Orchard Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Waco, TX 76705[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Waco|TX|76705",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](254) 754-3121[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "119",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(254) 754-3121",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](254) 754-5855[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "120",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(254) 754-5855",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu72@yahoo.com\" target=\"_blank\">ibewlu72@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "60",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu72@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu72.com\" target=\"_blank\">www.ibewlu72.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu72.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Tyler Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "186",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler||Brown||{ \"MemberID\" : \"186\",\"luid\": \"61\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"476 HCR 3231\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Abbott\",\"state\":\"TX\",\"zip\":\"76621\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jonathan Spence[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "188",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan||Spence||{ \"MemberID\" : \"188\",\"luid\": \"61\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1101 S. Marable Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West\",\"state\":\"TX\",\"zip\":\"76691\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Tyler Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3391",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler||Brown||{ \"MemberID\" : \"3391\",\"luid\": \"61\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"476 HCR 3231\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Abbott\",\"state\":\"TX\",\"zip\":\"76621\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Eliza Zapata[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eliza||Zapata||{ \"MemberID\" : \"187\",\"luid\": \"61\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2005 Austin Hines\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"China Spring\",\"state\":\"TX\",\"zip\":\"76633\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

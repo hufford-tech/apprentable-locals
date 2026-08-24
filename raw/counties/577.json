@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Calumet County, WI",
+    "District": "6",
+    "Population": "40631",
+    "LandArea": "319.84",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Green Lake County, WI",
+    "District": "6",
+    "Population": "19105",
+    "LandArea": "354.28",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marquette County, WI",
+    "District": "6",
+    "Population": "15832",
+    "LandArea": "455.49",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Outagamie County, WI",
+    "District": "6",
+    "Population": "160971",
+    "LandArea": "640.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waupaca County, WI",
+    "District": "6",
+    "Population": "51731",
+    "LandArea": "751.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waushara County, WI",
+    "District": "6",
+    "Population": "23154",
+    "LandArea": "626.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Winnebago County, WI",
+    "District": "6",
+    "Population": "156763",
+    "LandArea": "438.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  }
+]

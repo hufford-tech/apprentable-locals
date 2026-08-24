@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Cecil County, MD",
+    "District": "4",
+    "Population": "85951",
+    "LandArea": "348.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Kent County, DE",
+    "District": "3",
+    "Population": "126697",
+    "LandArea": "589.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "DE"
+  },
+  {
+    "CountyName": "New Castle County, DE",
+    "District": "3",
+    "Population": "500265",
+    "LandArea": "426.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "DE"
+  },
+  {
+    "CountyName": "Sussex County, DE",
+    "District": "3",
+    "Population": "156638",
+    "LandArea": "937.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "DE"
+  }
+]

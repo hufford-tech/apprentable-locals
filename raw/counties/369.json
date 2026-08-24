@@ -1,0 +1,1289 @@
+[
+  {
+    "CountyName": "Anderson County, KY",
+    "District": "4",
+    "Population": "19111",
+    "LandArea": "202.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Anderson County, KY",
+    "District": "4",
+    "Population": "19111",
+    "LandArea": "202.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Barren County, KY",
+    "District": "4",
+    "Population": "38033",
+    "LandArea": "490.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Barren County, KY",
+    "District": "4",
+    "Population": "38033",
+    "LandArea": "490.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bath County, KY",
+    "District": "4",
+    "Population": "11085",
+    "LandArea": "279.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bath County, KY",
+    "District": "4",
+    "Population": "11085",
+    "LandArea": "279.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bell County, KY",
+    "District": "4",
+    "Population": "30060",
+    "LandArea": "360.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bell County, KY",
+    "District": "4",
+    "Population": "30060",
+    "LandArea": "360.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bourbon County, KY",
+    "District": "4",
+    "Population": "19360",
+    "LandArea": "291.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bourbon County, KY",
+    "District": "4",
+    "Population": "19360",
+    "LandArea": "291.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Boyle County, KY",
+    "District": "4",
+    "Population": "27697",
+    "LandArea": "181.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Boyle County, KY",
+    "District": "4",
+    "Population": "27697",
+    "LandArea": "181.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Breathitt County, KY",
+    "District": "4",
+    "Population": "16100",
+    "LandArea": "495.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Breathitt County, KY",
+    "District": "4",
+    "Population": "16100",
+    "LandArea": "495.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Breckinridge County, KY",
+    "District": "4",
+    "Population": "18648",
+    "LandArea": "572.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Breckinridge County, KY",
+    "District": "4",
+    "Population": "18648",
+    "LandArea": "572.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bullitt County, KY",
+    "District": "4",
+    "Population": "61236",
+    "LandArea": "299.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bullitt County, KY",
+    "District": "4",
+    "Population": "61236",
+    "LandArea": "299.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Butler County, KY",
+    "District": "4",
+    "Population": "13010",
+    "LandArea": "428.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Butler County, KY",
+    "District": "4",
+    "Population": "13010",
+    "LandArea": "428.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carroll County, KY",
+    "District": "4",
+    "Population": "10155",
+    "LandArea": "130.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carroll County, KY",
+    "District": "4",
+    "Population": "10155",
+    "LandArea": "130.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Casey County, KY",
+    "District": "4",
+    "Population": "15447",
+    "LandArea": "445.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Casey County, KY",
+    "District": "4",
+    "Population": "15447",
+    "LandArea": "445.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clark County, IN",
+    "District": "6",
+    "Population": "96472",
+    "LandArea": "375.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Clark County, KY",
+    "District": "4",
+    "Population": "33144",
+    "LandArea": "254.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clark County, KY",
+    "District": "4",
+    "Population": "33144",
+    "LandArea": "254.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clay County, KY",
+    "District": "4",
+    "Population": "24556",
+    "LandArea": "471.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clay County, KY",
+    "District": "4",
+    "Population": "24556",
+    "LandArea": "471.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Edmonson County, KY",
+    "District": "4",
+    "Population": "11644",
+    "LandArea": "302.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Edmonson County, KY",
+    "District": "4",
+    "Population": "11644",
+    "LandArea": "302.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Estill County, KY",
+    "District": "4",
+    "Population": "15307",
+    "LandArea": "253.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Estill County, KY",
+    "District": "4",
+    "Population": "15307",
+    "LandArea": "253.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fayette County, KY",
+    "District": "4",
+    "Population": "260512",
+    "LandArea": "284.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fayette County, KY",
+    "District": "4",
+    "Population": "260512",
+    "LandArea": "284.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Floyd County, IN",
+    "District": "6",
+    "Population": "70823",
+    "LandArea": "148.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Franklin County, KY",
+    "District": "4",
+    "Population": "47687",
+    "LandArea": "210.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Franklin County, KY",
+    "District": "4",
+    "Population": "47687",
+    "LandArea": "210.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Garrard County, KY",
+    "District": "4",
+    "Population": "14792",
+    "LandArea": "231.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Garrard County, KY",
+    "District": "4",
+    "Population": "14792",
+    "LandArea": "231.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Grayson County, KY",
+    "District": "4",
+    "Population": "24053",
+    "LandArea": "503.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Grayson County, KY",
+    "District": "4",
+    "Population": "24053",
+    "LandArea": "503.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Green County, KY",
+    "District": "4",
+    "Population": "11518",
+    "LandArea": "288.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Green County, KY",
+    "District": "4",
+    "Population": "11518",
+    "LandArea": "288.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hardin County, KY",
+    "District": "4",
+    "Population": "94174",
+    "LandArea": "627.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hardin County, KY",
+    "District": "4",
+    "Population": "94174",
+    "LandArea": "627.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Harlan County, KY",
+    "District": "4",
+    "Population": "33202",
+    "LandArea": "467.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Harlan County, KY",
+    "District": "4",
+    "Population": "33202",
+    "LandArea": "467.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Harrison County, IN",
+    "District": "6",
+    "Population": "34325",
+    "LandArea": "485.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Harrison County, KY",
+    "District": "4",
+    "Population": "17983",
+    "LandArea": "309.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Harrison County, KY",
+    "District": "4",
+    "Population": "17983",
+    "LandArea": "309.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hart County, KY",
+    "District": "4",
+    "Population": "17445",
+    "LandArea": "415.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hart County, KY",
+    "District": "4",
+    "Population": "17445",
+    "LandArea": "415.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Henry County, KY",
+    "District": "4",
+    "Population": "15060",
+    "LandArea": "289.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Henry County, KY",
+    "District": "4",
+    "Population": "15060",
+    "LandArea": "289.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jackson County, IN",
+    "District": "6",
+    "Population": "41335",
+    "LandArea": "509.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jackson County, KY",
+    "District": "4",
+    "Population": "13495",
+    "LandArea": "346.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jackson County, KY",
+    "District": "4",
+    "Population": "13495",
+    "LandArea": "346.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jefferson County, IN",
+    "District": "6",
+    "Population": "31705",
+    "LandArea": "361.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jefferson County, KY",
+    "District": "4",
+    "Population": "693604",
+    "LandArea": "385.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jefferson County, KY",
+    "District": "4",
+    "Population": "693604",
+    "LandArea": "385.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jessamine County, KY",
+    "District": "4",
+    "Population": "39041",
+    "LandArea": "173.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Jessamine County, KY",
+    "District": "4",
+    "Population": "39041",
+    "LandArea": "173.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Knott County, KY",
+    "District": "4",
+    "Population": "17649",
+    "LandArea": "352.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Knott County, KY",
+    "District": "4",
+    "Population": "17649",
+    "LandArea": "352.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Knox County, KY",
+    "District": "4",
+    "Population": "31795",
+    "LandArea": "387.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Knox County, KY",
+    "District": "4",
+    "Population": "31795",
+    "LandArea": "387.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Larue County, KY",
+    "District": "4",
+    "Population": "13373",
+    "LandArea": "263.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Larue County, KY",
+    "District": "4",
+    "Population": "13373",
+    "LandArea": "263.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Laurel County, KY",
+    "District": "4",
+    "Population": "52715",
+    "LandArea": "435.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Laurel County, KY",
+    "District": "4",
+    "Population": "52715",
+    "LandArea": "435.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lee County, KY",
+    "District": "4",
+    "Population": "7916",
+    "LandArea": "209.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lee County, KY",
+    "District": "4",
+    "Population": "7916",
+    "LandArea": "209.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Leslie County, KY",
+    "District": "4",
+    "Population": "12401",
+    "LandArea": "404.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Leslie County, KY",
+    "District": "4",
+    "Population": "12401",
+    "LandArea": "404.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Letcher County, KY",
+    "District": "4",
+    "Population": "25277",
+    "LandArea": "339.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Letcher County, KY",
+    "District": "4",
+    "Population": "25277",
+    "LandArea": "339.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lincoln County, KY",
+    "District": "4",
+    "Population": "23361",
+    "LandArea": "336.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lincoln County, KY",
+    "District": "4",
+    "Population": "23361",
+    "LandArea": "336.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Logan County, KY",
+    "District": "4",
+    "Population": "26573",
+    "LandArea": "555.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Logan County, KY",
+    "District": "4",
+    "Population": "26573",
+    "LandArea": "555.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Madison County, KY",
+    "District": "4",
+    "Population": "70872",
+    "LandArea": "440.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Madison County, KY",
+    "District": "4",
+    "Population": "70872",
+    "LandArea": "440.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Marion County, KY",
+    "District": "4",
+    "Population": "18212",
+    "LandArea": "346.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Marion County, KY",
+    "District": "4",
+    "Population": "18212",
+    "LandArea": "346.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "McCreary County, KY",
+    "District": "4",
+    "Population": "17080",
+    "LandArea": "427.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "McCreary County, KY",
+    "District": "4",
+    "Population": "17080",
+    "LandArea": "427.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Meade County, KY",
+    "District": "4",
+    "Population": "26349",
+    "LandArea": "308.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Meade County, KY",
+    "District": "4",
+    "Population": "26349",
+    "LandArea": "308.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Menifee County, KY",
+    "District": "4",
+    "Population": "6556",
+    "LandArea": "203.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Menifee County, KY",
+    "District": "4",
+    "Population": "6556",
+    "LandArea": "203.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Mercer County, KY",
+    "District": "4",
+    "Population": "20817",
+    "LandArea": "250.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Mercer County, KY",
+    "District": "4",
+    "Population": "20817",
+    "LandArea": "250.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Metcalfe County, KY",
+    "District": "4",
+    "Population": "10037",
+    "LandArea": "290.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Metcalfe County, KY",
+    "District": "4",
+    "Population": "10037",
+    "LandArea": "290.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Montgomery County, KY",
+    "District": "4",
+    "Population": "22554",
+    "LandArea": "198.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Montgomery County, KY",
+    "District": "4",
+    "Population": "22554",
+    "LandArea": "198.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Nelson County, KY",
+    "District": "4",
+    "Population": "37477",
+    "LandArea": "422.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Nelson County, KY",
+    "District": "4",
+    "Population": "37477",
+    "LandArea": "422.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Nicholas County, KY",
+    "District": "4",
+    "Population": "6813",
+    "LandArea": "196.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Nicholas County, KY",
+    "District": "4",
+    "Population": "6813",
+    "LandArea": "196.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Oldham County, KY",
+    "District": "4",
+    "Population": "46178",
+    "LandArea": "189.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Oldham County, KY",
+    "District": "4",
+    "Population": "46178",
+    "LandArea": "189.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Owen County, KY",
+    "District": "4",
+    "Population": "10547",
+    "LandArea": "352.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Owen County, KY",
+    "District": "4",
+    "Population": "10547",
+    "LandArea": "352.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Owsley County, KY",
+    "District": "4",
+    "Population": "4858",
+    "LandArea": "198.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Owsley County, KY",
+    "District": "4",
+    "Population": "4858",
+    "LandArea": "198.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Perry County, KY",
+    "District": "4",
+    "Population": "29390",
+    "LandArea": "342.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Perry County, KY",
+    "District": "4",
+    "Population": "29390",
+    "LandArea": "342.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Powell County, KY",
+    "District": "4",
+    "Population": "13237",
+    "LandArea": "180.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Powell County, KY",
+    "District": "4",
+    "Population": "13237",
+    "LandArea": "180.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Pulaski County, KY",
+    "District": "4",
+    "Population": "56217",
+    "LandArea": "661.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Pulaski County, KY",
+    "District": "4",
+    "Population": "56217",
+    "LandArea": "661.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Robertson County, KY",
+    "District": "4",
+    "Population": "2266",
+    "LandArea": "100.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Robertson County, KY",
+    "District": "4",
+    "Population": "2266",
+    "LandArea": "100.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Rockcastle County, KY",
+    "District": "4",
+    "Population": "16582",
+    "LandArea": "317.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Rockcastle County, KY",
+    "District": "4",
+    "Population": "16582",
+    "LandArea": "317.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Scott County, IN",
+    "District": "6",
+    "Population": "22960",
+    "LandArea": "190.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Scott County, KY",
+    "District": "4",
+    "Population": "33061",
+    "LandArea": "284.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Scott County, KY",
+    "District": "4",
+    "Population": "33061",
+    "LandArea": "284.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Shelby County, KY",
+    "District": "4",
+    "Population": "33337",
+    "LandArea": "384.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Shelby County, KY",
+    "District": "4",
+    "Population": "33337",
+    "LandArea": "384.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Spencer County, KY",
+    "District": "4",
+    "Population": "11766",
+    "LandArea": "185.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Spencer County, KY",
+    "District": "4",
+    "Population": "11766",
+    "LandArea": "185.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Taylor County, KY",
+    "District": "4",
+    "Population": "22927",
+    "LandArea": "269.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Taylor County, KY",
+    "District": "4",
+    "Population": "22927",
+    "LandArea": "269.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Todd County, KY",
+    "District": "4",
+    "Population": "11971",
+    "LandArea": "376.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Todd County, KY",
+    "District": "4",
+    "Population": "11971",
+    "LandArea": "376.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Trimble County, KY",
+    "District": "4",
+    "Population": "8125",
+    "LandArea": "148.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Trimble County, KY",
+    "District": "4",
+    "Population": "8125",
+    "LandArea": "148.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Warren County, KY",
+    "District": "4",
+    "Population": "92522",
+    "LandArea": "545.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Warren County, KY",
+    "District": "4",
+    "Population": "92522",
+    "LandArea": "545.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Washington County, IN",
+    "District": "6",
+    "Population": "27223",
+    "LandArea": "514.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Washington County, KY",
+    "District": "4",
+    "Population": "10916",
+    "LandArea": "300.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Washington County, KY",
+    "District": "4",
+    "Population": "10916",
+    "LandArea": "300.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Wayne County, KY",
+    "District": "4",
+    "Population": "19923",
+    "LandArea": "459.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Wayne County, KY",
+    "District": "4",
+    "Population": "19923",
+    "LandArea": "459.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Whitley County, KY",
+    "District": "4",
+    "Population": "35865",
+    "LandArea": "440.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Whitley County, KY",
+    "District": "4",
+    "Population": "35865",
+    "LandArea": "440.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Wolfe County, KY",
+    "District": "4",
+    "Population": "7065",
+    "LandArea": "222.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Wolfe County, KY",
+    "District": "4",
+    "Population": "7065",
+    "LandArea": "222.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Woodford County, KY",
+    "District": "4",
+    "Population": "23208",
+    "LandArea": "190.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Woodford County, KY",
+    "District": "4",
+    "Population": "23208",
+    "LandArea": "190.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  }
+]

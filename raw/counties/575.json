@@ -1,0 +1,128 @@
+[
+  {
+    "CountyName": "Adams County, OH",
+    "District": "4",
+    "Population": "27330",
+    "LandArea": "583.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fayette County, OH",
+    "District": "4",
+    "Population": "28433",
+    "LandArea": "406.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fleming County, KY",
+    "District": "4",
+    "Population": "13792",
+    "LandArea": "350.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Greenup County, KY",
+    "District": "4",
+    "Population": "36891",
+    "LandArea": "346.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Highland County, OH",
+    "District": "4",
+    "Population": "40875",
+    "LandArea": "553.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hocking County, OH",
+    "District": "4",
+    "Population": "28241",
+    "LandArea": "422.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Jackson County, OH",
+    "District": "4",
+    "Population": "32641",
+    "LandArea": "420.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lewis County, KY",
+    "District": "4",
+    "Population": "14092",
+    "LandArea": "484.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Mason County, KY",
+    "District": "4",
+    "Population": "16800",
+    "LandArea": "241.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Pickaway County, OH",
+    "District": "4",
+    "Population": "52727",
+    "LandArea": "501.91",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Pike County, OH",
+    "District": "4",
+    "Population": "27695",
+    "LandArea": "441.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ross County, OH",
+    "District": "4",
+    "Population": "73345",
+    "LandArea": "688.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Scioto County, OH",
+    "District": "4",
+    "Population": "79195",
+    "LandArea": "612.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Vinton County, OH",
+    "District": "4",
+    "Population": "12806",
+    "LandArea": "414.08",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]559-  (mo, t, u) Kenora, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "559-|Kenora|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "316",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 443[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 443",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Kenora, ON P9N 3X4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "310",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Kenora|ON|P9N 3X4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](807) 464-0944[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "583",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(807) 464-0944",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew559@gmail.com\" target=\"_blank\">ibew559@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "305",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew559@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Mark D. Baird[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "969",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Baird||{ \"MemberID\" : \"969\",\"luid\": \"316\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 443\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenora\",\"state\":\"ON\",\"zip\":\"P9N 3X4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Mark D. Baird[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3630",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|D.|Baird||{ \"MemberID\" : \"3630\",\"luid\": \"316\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Tyler Hutchinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "968",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tyler||Hutchinson||{ \"MemberID\" : \"968\",\"luid\": \"316\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 443\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenora\",\"state\":\"ON\",\"zip\":\"P9N 3X4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John K. Heatherington[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "967",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|K.|Heatherington||{ \"MemberID\" : \"967\",\"luid\": \"316\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 443\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kenora\",\"state\":\"ON\",\"zip\":\"P9N 3X4\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Monthly, TBD[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "316",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Monthly, TBD",
+    "datatype": "txt"
+  }
+]

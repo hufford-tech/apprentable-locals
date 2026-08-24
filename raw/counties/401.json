@@ -1,0 +1,182 @@
+[
+  {
+    "CountyName": "Alpine County, CA",
+    "District": "9",
+    "Population": "1208",
+    "LandArea": "738.62",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Carson City, NV",
+    "District": "9",
+    "Population": "52457",
+    "LandArea": "143.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Churchill County, NV",
+    "District": "9",
+    "Population": "23982",
+    "LandArea": "4929.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Douglas County, NV",
+    "District": "9",
+    "Population": "41259",
+    "LandArea": "709.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "El Dorado County, CA",
+    "District": "9",
+    "Population": "156299",
+    "LandArea": "1710.85",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Elko County, NV",
+    "District": "9",
+    "Population": "45291",
+    "LandArea": "17179.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Esmeralda County, NV",
+    "District": "9",
+    "Population": "971",
+    "LandArea": "3588.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Eureka County, NV",
+    "District": "9",
+    "Population": "1651",
+    "LandArea": "4175.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Humboldt County, NV",
+    "District": "9",
+    "Population": "16106",
+    "LandArea": "9647.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Lander County, NV",
+    "District": "9",
+    "Population": "5794",
+    "LandArea": "5493.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Lyon County, NV",
+    "District": "9",
+    "Population": "34501",
+    "LandArea": "1993.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Mineral County, NV",
+    "District": "9",
+    "Population": "5071",
+    "LandArea": "3756.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Nevada County, CA",
+    "District": "9",
+    "Population": "92033",
+    "LandArea": "957.61",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Nye County, NV",
+    "District": "9",
+    "Population": "32485",
+    "LandArea": "18146.65",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Pershing County, NV",
+    "District": "9",
+    "Population": "6693",
+    "LandArea": "6036.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Placer County, CA",
+    "District": "9",
+    "Population": "248399",
+    "LandArea": "1404.37",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sierra County, CA",
+    "District": "9",
+    "Population": "3555",
+    "LandArea": "953.38",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Storey County, NV",
+    "District": "9",
+    "Population": "3399",
+    "LandArea": "263.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Washoe County, NV",
+    "District": "9",
+    "Population": "339486",
+    "LandArea": "6342.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "White Pine County, NV",
+    "District": "9",
+    "Population": "9181",
+    "LandArea": "8875.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NV"
+  }
+]

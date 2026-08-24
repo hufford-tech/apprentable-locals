@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2055  (rr) Kamloops, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "763",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2055|Kamloops|BC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "763",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]905-420 Carnarvon Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7232",
+    "editFieldNames": "Address1",
+    "editFieldValues": "905-420 Carnarvon Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]New Westminster, BC V3L 5P1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7232",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "New Westminster|BC|V3L 5P1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](250) 457-3208[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1270",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 457-3208",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:masterjosh747@gmail.com\" target=\"_blank\">masterjosh747@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "709",
+    "editFieldNames": "Email",
+    "editFieldValues": "masterjosh747@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Josh Hanson, PO Box 636, Cache Creek, BC  V0K 1H0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2330",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Josh||Hanson||{ \"MemberID\" : \"2330\",\"luid\": \"763\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 636\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cache Creek\",\"state\":\"BC\",\"zip\":\"V0K 1H0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Vince M. Garisto, 6172-188 Street, Surrey, BC  V3S 7V8[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2332",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vince|M.|Garisto||{ \"MemberID\" : \"2332\",\"luid\": \"763\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6172-188 Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Surrey\",\"state\":\"BC\",\"zip\":\"V3S 7V8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]John Stewart, 905-420 Carnarvon Street, New Westminster, BC  V3L 5P1[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2331",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Stewart||{ \"MemberID\" : \"2331\",\"luid\": \"763\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"905-420 Carnarvon Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Westminster\",\"state\":\"BC\",\"zip\":\"V3L 5P1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John Stewart, 905-420 Carnarvon Street, New Westminster, BC  V3L 5P1[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4081",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John||Stewart||{ \"MemberID\" : \"4081\",\"luid\": \"763\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"905-420 Carnarvon Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Westminster\",\"state\":\"BC\",\"zip\":\"V3L 5P1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

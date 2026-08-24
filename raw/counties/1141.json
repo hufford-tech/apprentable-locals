@@ -1,0 +1,389 @@
+[
+  {
+    "CountyName": "Alfalfa County, OK",
+    "District": "7",
+    "Population": "6105",
+    "LandArea": "866.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Beckham County, OK",
+    "District": "7",
+    "Population": "19799",
+    "LandArea": "901.83",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Blaine County, OK",
+    "District": "7",
+    "Population": "11976",
+    "LandArea": "928.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Bryan County, OK",
+    "District": "7",
+    "Population": "36534",
+    "LandArea": "908.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Caddo County, OK",
+    "District": "7",
+    "Population": "30150",
+    "LandArea": "1278.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Canadian County, OK",
+    "District": "7",
+    "Population": "87697",
+    "LandArea": "899.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Carter County, OK",
+    "District": "7",
+    "Population": "45621",
+    "LandArea": "823.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Cleveland County, OK",
+    "District": "7",
+    "Population": "208016",
+    "LandArea": "536.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Comanche County, OK",
+    "District": "7",
+    "Population": "114996",
+    "LandArea": "1069.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Cotton County, OK",
+    "District": "7",
+    "Population": "6614",
+    "LandArea": "636.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Custer County, OK",
+    "District": "7",
+    "Population": "26142",
+    "LandArea": "986.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Dewey County, OK",
+    "District": "7",
+    "Population": "4743",
+    "LandArea": "1000.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Ellis County, OK",
+    "District": "7",
+    "Population": "4075",
+    "LandArea": "1229.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Garfield County, OK",
+    "District": "7",
+    "Population": "57813",
+    "LandArea": "1058.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Garvin County, OK",
+    "District": "7",
+    "Population": "27210",
+    "LandArea": "807.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Grady County, OK",
+    "District": "7",
+    "Population": "45516",
+    "LandArea": "1100.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Grant County, OK",
+    "District": "7",
+    "Population": "5144",
+    "LandArea": "1000.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Greer County, OK",
+    "District": "7",
+    "Population": "6061",
+    "LandArea": "639.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Harmon County, OK",
+    "District": "7",
+    "Population": "3283",
+    "LandArea": "537.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Harper County, OK",
+    "District": "7",
+    "Population": "3562",
+    "LandArea": "1039.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Jackson County, OK",
+    "District": "7",
+    "Population": "28439",
+    "LandArea": "802.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Jefferson County, OK",
+    "District": "7",
+    "Population": "6818",
+    "LandArea": "758.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Johnston County, OK",
+    "District": "7",
+    "Population": "10513",
+    "LandArea": "644.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Kingfisher County, OK",
+    "District": "7",
+    "Population": "13926",
+    "LandArea": "903.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Kiowa County, OK",
+    "District": "7",
+    "Population": "10227",
+    "LandArea": "1014.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Lincoln County, OK",
+    "District": "7",
+    "Population": "32080",
+    "LandArea": "957.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Logan County, OK",
+    "District": "7",
+    "Population": "33924",
+    "LandArea": "744.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Love County, OK",
+    "District": "7",
+    "Population": "8831",
+    "LandArea": "515.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Major County, OK",
+    "District": "7",
+    "Population": "7545",
+    "LandArea": "956.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Marshall County, OK",
+    "District": "7",
+    "Population": "13184",
+    "LandArea": "371.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "McClain County, OK",
+    "District": "7",
+    "Population": "27740",
+    "LandArea": "569.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Murray County, OK",
+    "District": "7",
+    "Population": "12623",
+    "LandArea": "418.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Oklahoma County, OK",
+    "District": "7",
+    "Population": "660448",
+    "LandArea": "709.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Payne County, OK",
+    "District": "7",
+    "Population": "68190",
+    "LandArea": "686.34",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pontotoc County, OK",
+    "District": "7",
+    "Population": "35143",
+    "LandArea": "719.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pottawatomie County, OK",
+    "District": "7",
+    "Population": "65521",
+    "LandArea": "787.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Roger Mills County, OK",
+    "District": "7",
+    "Population": "3436",
+    "LandArea": "1141.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Seminole County, OK",
+    "District": "7",
+    "Population": "24894",
+    "LandArea": "632.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Stephens County, OK",
+    "District": "7",
+    "Population": "43182",
+    "LandArea": "874.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Tillman County, OK",
+    "District": "7",
+    "Population": "9287",
+    "LandArea": "871.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Washita County, OK",
+    "District": "7",
+    "Population": "11508",
+    "LandArea": "1003.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Woods County, OK",
+    "District": "7",
+    "Population": "9089",
+    "LandArea": "1286.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Woodward County, OK",
+    "District": "7",
+    "Population": "18486",
+    "LandArea": "1242.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  }
+]

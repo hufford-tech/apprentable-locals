@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Clinton County, NY",
+    "District": "3",
+    "Population": "79894",
+    "LandArea": "1038.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Essex County, NY",
+    "District": "3",
+    "Population": "38851",
+    "LandArea": "1796.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Franklin County, NY",
+    "District": "3",
+    "Population": "51134",
+    "LandArea": "1631.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Jefferson County, NY",
+    "District": "3",
+    "Population": "111738",
+    "LandArea": "1272.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Lewis County, NY",
+    "District": "3",
+    "Population": "26944",
+    "LandArea": "1275.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "St. Lawrence County, NY",
+    "District": "3",
+    "Population": "111931",
+    "LandArea": "2685.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

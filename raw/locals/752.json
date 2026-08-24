@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2034  (u) Winnipeg, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "752",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2034|Winnipeg|MB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "752",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1907 Portage Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "662",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1907 Portage Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Winnipeg, MB R3J 0H9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "662",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Winnipeg|MB|R3J 0H9",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](204) 944-2034[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1259",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(204) 944-2034",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](204) 944-2035[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1260",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(204) 944-2035",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@ibew2034.com\" target=\"_blank\">ibew@ibew2034.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@ibew2034.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2034.com\" target=\"_blank\">www.ibew2034.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "752",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2034.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Troy Craig[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2298",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy||Craig||{ \"MemberID\" : \"2298\",\"luid\": \"752\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1563 Pembina Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3T 2E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Ryan W. Stewart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2299",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|W.|Stewart||{ \"MemberID\" : \"2299\",\"luid\": \"752\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1563 Pembina Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3T 2E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Troy Craig[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4069",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy||Craig||{ \"MemberID\" : \"4069\",\"luid\": \"752\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James N. Hart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2300",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|N.|Hart||{ \"MemberID\" : \"2300\",\"luid\": \"752\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1563 Pembina Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Winnipeg\",\"state\":\"MB\",\"zip\":\"R3T 2E5\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

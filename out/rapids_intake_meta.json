@@ -1,0 +1,14 @@
+{
+  "model": "members_linear_capped",
+  "median_intake": 40.0,
+  "median_members": 798.0,
+  "cap": 214.39999999999992,
+  "band": "under_35",
+  "mdape": 33.8,
+  "p25_error": 14.4,
+  "p75_error": 52.8,
+  "rounding": 5,
+  "caveat": "standard",
+  "validation_n": 53,
+  "rapids_display_default": true
+}

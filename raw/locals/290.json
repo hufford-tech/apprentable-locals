@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]503-  (t, u) Monroe[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "503-|Monroe|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "290",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2657 Route 17M[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "285",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2657 Route 17M",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Goshen, NY 10924[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "285",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Goshen|NY|10924",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](845) 294-1337[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "540",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(845) 294-1337",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew503@ibew503.com\" target=\"_blank\">ibew503@ibew503.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "280",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew503@ibew503.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew503.org\" target=\"_blank\">www.ibew503.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew503.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Melissa Kurtz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "889",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Melissa||Kurtz||{ \"MemberID\" : \"889\",\"luid\": \"290\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"3 Rieger Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe\",\"state\":\"NY\",\"zip\":\"10950\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Melissa Kurtz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3604",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Melissa||Kurtz||{ \"MemberID\" : \"3604\",\"luid\": \"290\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Melissa Kurtz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3605",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Melissa||Kurtz||{ \"MemberID\" : \"3605\",\"luid\": \"290\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Thomas L. Davies Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "890",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|L.|Davies|Jr.|{ \"MemberID\" : \"890\",\"luid\": \"290\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3 Rieger Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Monroe\",\"state\":\"NY\",\"zip\":\"10950\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

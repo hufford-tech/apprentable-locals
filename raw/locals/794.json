@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2173  (em) Lynchburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "794",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2173|Lynchburg|VA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "794",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1520 Campbell Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7175",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1520 Campbell Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Lynchburg, VA 24501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7175",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Lynchburg|VA|24501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](434) 401-6021[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2328",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(434) 401-6021",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jthomasibew2173@gmail.com\" target=\"_blank\">jthomasibew2173@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2068",
+    "editFieldNames": "Email",
+    "editFieldValues": "jthomasibew2173@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jonathan K. Thomas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2419",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|K.|Thomas||{ \"MemberID\" : \"2419\",\"luid\": \"794\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2265 Hawkins Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lynchburg\",\"state\":\"VA\",\"zip\":\"24503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jonathan K. Thomas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4116",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|K.|Thomas||{ \"MemberID\" : \"4116\",\"luid\": \"794\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2265 Hawkins Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lynchburg\",\"state\":\"VA\",\"zip\":\"24503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jonathan K. Thomas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4117",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|K.|Thomas||{ \"MemberID\" : \"4117\",\"luid\": \"794\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2265 Hawkins Mill Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lynchburg\",\"state\":\"VA\",\"zip\":\"24503\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Liam J. Butters, 122 Riverview Road, Hurt, VA  24563[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2420",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Liam|J.|Butters||{ \"MemberID\" : \"2420\",\"luid\": \"794\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"122 Riverview Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hurt\",\"state\":\"VA\",\"zip\":\"24563\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "794",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

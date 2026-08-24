@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]538-  (em, i, ptc) Danville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "305",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "538-|Danville|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "305",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1290 N Michigan Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "300",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1290 N Michigan Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Danville, IL 61834[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "300",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Danville|IL|61834",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](217) 442-0996[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "564",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 442-0996",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](217) 442-8048[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 442-8048",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@ibew538.com\" target=\"_blank\">ibew@ibew538.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "295",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@ibew538.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew538.org\" target=\"_blank\">www.ibew538.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "305",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew538.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Aaron R. Goodrum[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "933",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|R.|Goodrum||{ \"MemberID\" : \"933\",\"luid\": \"305\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1290 N Michigan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Danville\",\"state\":\"IL\",\"zip\":\"61834\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brandon J. Grube[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "934",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|J.|Grube||{ \"MemberID\" : \"934\",\"luid\": \"305\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1290 N Michigan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Danville\",\"state\":\"IL\",\"zip\":\"61834\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Aaron R. Goodrum[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3620",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|R.|Goodrum||{ \"MemberID\" : \"3620\",\"luid\": \"305\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Aaron T. Koss[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "935",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|T.|Koss||{ \"MemberID\" : \"935\",\"luid\": \"305\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1290 N Michigan Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Danville\",\"state\":\"IL\",\"zip\":\"61834\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "305",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

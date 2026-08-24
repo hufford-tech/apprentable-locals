@@ -1,0 +1,42 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]724-  (mo) Monaca[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19568",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "724-|Monaca|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19568",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]217 Sassafras Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7013",
+    "editFieldNames": "Address1",
+    "editFieldValues": "217 Sassafras Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Beaver, PA 15009[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7013",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Beaver|PA|15009",
+    "datatype": "tbx|ddl|tbx"
+  }
+]

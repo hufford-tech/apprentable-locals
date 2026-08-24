@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1377  (bo, c, ees, em, mt, rtb, u) Cleveland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "584",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1377|Cleveland|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "584",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "bo, c, ees, em, mt, rtb, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]38454 Terrell Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7015",
+    "editFieldNames": "Address1",
+    "editFieldValues": "38454 Terrell Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Ridgeville, OH 44039[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7015",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Ridgeville|OH|44039",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](216) 651-1377[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2257",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(216) 651-1377",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](216) 651-1379[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2258",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(216) 651-1379",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1377@neohio.twcbc.com\" target=\"_blank\">ibewlocal1377@neohio.twcbc.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1377@neohio.twcbc.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]John P. Sabo, 38454 Terrell Drive, North Ridgeville, OH  44039[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1796",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|Sabo||{ \"MemberID\" : \"1796\",\"luid\": \"584\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"38454 Terrell Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Ridgeville\",\"state\":\"OH\",\"zip\":\"44039\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Richard Phillips, 10775 Angelina Drive, North Royalton, OH  44133[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1795",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard||Phillips||{ \"MemberID\" : \"1795\",\"luid\": \"584\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10775 Angelina Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Royalton\",\"state\":\"OH\",\"zip\":\"44133\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]John P. Sabo, 38454 Terrell Drive, North Ridgeville, OH  44039[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3887",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|Sabo||{ \"MemberID\" : \"3887\",\"luid\": \"584\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"38454 Terrell Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Ridgeville\",\"state\":\"OH\",\"zip\":\"44039\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Mike Laska, 3717 Rachel Court, Seven Hills, OH  44131[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1794",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mike||Laska||{ \"MemberID\" : \"1794\",\"luid\": \"584\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3717 Rachel Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Seven Hills\",\"state\":\"OH\",\"zip\":\"44131\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]UAW Local 1250 Union Hall, 3rd Tuesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "584",
+    "editFieldNames": "Meets",
+    "editFieldValues": "UAW Local 1250 Union Hall, 3rd Tuesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

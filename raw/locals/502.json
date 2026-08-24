@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]997-  (u) Port Angeles[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "502",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "997-|Port Angeles|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "502",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]216 S Francis Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5965",
+    "editFieldNames": "Address1",
+    "editFieldValues": "216 S Francis Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Port Angeles, WA 98362[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5965",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Port Angeles|WA|98362",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 2063[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2063",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Port Angeles, WA 98362[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Port Angeles|WA|98362",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](360) 460-4295[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2153",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 460-4295",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rgrayibew997@gmail.com\" target=\"_blank\">rgrayibew997@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2080",
+    "editFieldNames": "Email",
+    "editFieldValues": "rgrayibew997@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brent A. Robinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4427",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brent|A.|Robinson||{ \"MemberID\" : \"4427\",\"luid\": \"502\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brent A. Robinson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4426",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brent|A.|Robinson||{ \"MemberID\" : \"4426\",\"luid\": \"502\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Alecia A. Hainstock[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1540",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alecia|A.|Hainstock||{ \"MemberID\" : \"1540\",\"luid\": \"502\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 2063\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Port Angeles\",\"state\":\"WA\",\"zip\":\"98362\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Todd M. Romero[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1541",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|M.|Romero||{ \"MemberID\" : \"1541\",\"luid\": \"502\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2063\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Port Angeles\",\"state\":\"WA\",\"zip\":\"98362\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]VFW Hall, 216 S Francis Street, 1st Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "502",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Hall, 216 S Francis Street, 1st Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

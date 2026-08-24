@@ -1,0 +1,192 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]47--  (lctt, mo, o, u, uow) Diamond Bar[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "47--|Diamond Bar|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "45",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, mo, o, u, uow",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]600 N Diamond Bar Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "Address1",
+    "editFieldValues": "600 N Diamond Bar Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Diamond Bar, CA 91765[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Diamond Bar|CA|91765",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](909) 860-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "87",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(909) 860-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](909) 860-2136[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "88",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(909) 860-2136",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew47.org\" target=\"_blank\">info@ibew47.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew47.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew47.org\" target=\"_blank\">www.ibew47.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew47.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Construction Dispatch[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4151",
+    "editFieldNames": "Name",
+    "editFieldValues": "Construction Dispatch",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]1405 Spruce Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4151",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1405 Spruce Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Suite H[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4151",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite H",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t]Riverside, CA 92507[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4151",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Riverside|CA|92507",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b](951) 784-7507[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1749",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(951) 784-7507",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][t][b]Fax [/b] (951) 784-4818[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1750",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(951) 784-4818",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]B.M. [/b]Colin P. Lavin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "141",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colin|P.|Lavin||{ \"MemberID\" : \"141\",\"luid\": \"45\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"600 N Diamond Bar Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Diamond Bar\",\"state\":\"CA\",\"zip\":\"91765\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Pres. [/b]Rafael Gomez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "139",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rafael||Gomez||{ \"MemberID\" : \"139\",\"luid\": \"45\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"600 N Diamond Bar Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Diamond Bar\",\"state\":\"CA\",\"zip\":\"91765\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]F.S. [/b]Colin P. Lavin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3374",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Colin|P.|Lavin||{ \"MemberID\" : \"3374\",\"luid\": \"45\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][b]R.S. [/b]Epitacio A. Daugherty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "140",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Epitacio|A.|Daugherty||{ \"MemberID\" : \"140\",\"luid\": \"45\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"600 N Diamond Bar Boulevard\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Diamond Bar\",\"state\":\"CA\",\"zip\":\"91765\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "45",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "CountyName": "Alcona County, MI",
+    "District": "6",
+    "Population": "11719",
+    "LandArea": "674.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Alpena County, MI",
+    "District": "6",
+    "Population": "31314",
+    "LandArea": "574.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Arenac County, MI",
+    "District": "6",
+    "Population": "17269",
+    "LandArea": "366.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Bay County, MI",
+    "District": "6",
+    "Population": "110157",
+    "LandArea": "444.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Cheboygan County, MI",
+    "District": "6",
+    "Population": "26448",
+    "LandArea": "715.60",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Clare County, MI",
+    "District": "6",
+    "Population": "31252",
+    "LandArea": "566.80",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Crawford County, MI",
+    "District": "6",
+    "Population": "14273",
+    "LandArea": "558.12",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Emmet County, MI",
+    "District": "6",
+    "Population": "31437",
+    "LandArea": "467.82",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Gladwin County, MI",
+    "District": "6",
+    "Population": "26023",
+    "LandArea": "506.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Iosco County, MI",
+    "District": "6",
+    "Population": "27339",
+    "LandArea": "549.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Isabella County, MI",
+    "District": "6",
+    "Population": "63351",
+    "LandArea": "574.27",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Midland County, MI",
+    "District": "6",
+    "Population": "82874",
+    "LandArea": "521.19",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Montmorency County, MI",
+    "District": "6",
+    "Population": "10315",
+    "LandArea": "547.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Ogemaw County, MI",
+    "District": "6",
+    "Population": "21645",
+    "LandArea": "564.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oscoda County, MI",
+    "District": "6",
+    "Population": "9418",
+    "LandArea": "565.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Otsego County, MI",
+    "District": "6",
+    "Population": "23301",
+    "LandArea": "514.54",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Presque Isle County, MI",
+    "District": "6",
+    "Population": "14411",
+    "LandArea": "660.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Roscommon County, MI",
+    "District": "6",
+    "Population": "25469",
+    "LandArea": "521.40",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Tuscola County, MI",
+    "District": "6",
+    "Population": "58266",
+    "LandArea": "812.43",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

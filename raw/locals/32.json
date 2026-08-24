@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]34--  (em, i, mt, rts, spa) Peoria[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "34--|Peoria|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "32",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, mt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4322 Ricketts Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "31",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4322 Ricketts Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Bartonville, IL 61607[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "31",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bartonville|IL|61607",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](309) 673-3691[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "61",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 673-3691",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](309) 673-4747[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "62",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(309) 673-4747",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:contactus@ibew34.org\" target=\"_blank\">contactus@ibew34.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "Email",
+    "editFieldValues": "contactus@ibew34.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew34.org\" target=\"_blank\">www.ibew34.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew34.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Timothy A. Sprout[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "101",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|A.|Sprout||{ \"MemberID\" : \"101\",\"luid\": \"32\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14409 Todd School Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Glasford\",\"state\":\"IL\",\"zip\":\"61533\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Zachary G. Zimmerman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "103",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|G.|Zimmerman||{ \"MemberID\" : \"103\",\"luid\": \"32\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"802 Oak Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Glasford\",\"state\":\"IL\",\"zip\":\"61533\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Timothy A. Sprout[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3360",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|A.|Sprout||{ \"MemberID\" : \"3360\",\"luid\": \"32\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4322 Ricketts Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bartonville\",\"state\":\"IL\",\"zip\":\"61607\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Zachary M. Helms[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "102",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|M.|Helms||{ \"MemberID\" : \"102\",\"luid\": \"32\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"22515 W Orion Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Farmington\",\"state\":\"IL\",\"zip\":\"61531\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "32",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]280-  (c, ees, em, es, i, mo, mt, rts, st) Salem[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "171",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "280-|Salem|OR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "171",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, ees, em, es, i, mo, mt, rts, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]32969 Highway 99 E[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "177",
+    "editFieldNames": "Address1",
+    "editFieldValues": "32969 Highway 99 E",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Tangent, OR 97389[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "177",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tangent|OR|97389",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 404[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "176",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 404",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Tangent, OR 97389[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "176",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Tangent|OR|97389",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](541) 812-1771[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "325",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(541) 812-1771",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](541) 812-1766[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "326",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(541) 812-1766",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew280.org\" target=\"_blank\">info@ibew280.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "168",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew280.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew280.org\" target=\"_blank\">www.ibew280.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "171",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew280.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Gerald L. McDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "529",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gerald|L.|McDonald||{ \"MemberID\" : \"529\",\"luid\": \"171\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32969 Highway 99 E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tangent\",\"state\":\"OR\",\"zip\":\"97389\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Chad A. Privratsky[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "528",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chad|A.|Privratsky||{ \"MemberID\" : \"528\",\"luid\": \"171\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 404\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tangent\",\"state\":\"OR\",\"zip\":\"97389\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Gerald L. McDonald[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3488",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gerald|L.|McDonald||{ \"MemberID\" : \"3488\",\"luid\": \"171\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"32969 Highway 99 E\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tangent\",\"state\":\"OR\",\"zip\":\"97389\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]David R. Hoover[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|R.|Hoover||{ \"MemberID\" : \"530\",\"luid\": \"171\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 404\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tangent\",\"state\":\"OR\",\"zip\":\"97389\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "171",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

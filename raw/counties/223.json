@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Barnstable County, MA",
+    "District": "2",
+    "Population": "222230",
+    "LandArea": "395.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Bristol County, MA",
+    "District": "2",
+    "Population": "534678",
+    "LandArea": "556.00",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Dukes County, MA",
+    "District": "2",
+    "Population": "14987",
+    "LandArea": "103.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Nantucket County, MA",
+    "District": "2",
+    "Population": "9520",
+    "LandArea": "47.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Norfolk County, MA",
+    "District": "2",
+    "Population": "650308",
+    "LandArea": "399.58",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Plymouth County, MA",
+    "District": "2",
+    "Population": "472822",
+    "LandArea": "660.85",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "MA"
+  }
+]

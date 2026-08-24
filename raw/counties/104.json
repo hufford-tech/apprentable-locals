@@ -1,0 +1,497 @@
+[
+  {
+    "CountyName": "Addison County, VT",
+    "District": "2",
+    "Population": "35974",
+    "LandArea": "770.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Androscoggin County, ME",
+    "District": "2",
+    "Population": "103793",
+    "LandArea": "470.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Aroostook County, ME",
+    "District": "2",
+    "Population": "73938",
+    "LandArea": "6671.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Barnstable County, MA",
+    "District": "2",
+    "Population": "222230",
+    "LandArea": "395.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Belknap County, NH",
+    "District": "2",
+    "Population": "56325",
+    "LandArea": "401.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Bennington County, VT",
+    "District": "2",
+    "Population": "36994",
+    "LandArea": "676.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Bristol County, MA",
+    "District": "2",
+    "Population": "534678",
+    "LandArea": "556.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Bristol County, RI",
+    "District": "2",
+    "Population": "50648",
+    "LandArea": "24.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Caledonia County, VT",
+    "District": "2",
+    "Population": "29702",
+    "LandArea": "650.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Carroll County, NH",
+    "District": "2",
+    "Population": "43666",
+    "LandArea": "933.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Cheshire County, NH",
+    "District": "2",
+    "Population": "73825",
+    "LandArea": "707.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Chittenden County, VT",
+    "District": "2",
+    "Population": "146571",
+    "LandArea": "539.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Coos County, NH",
+    "District": "2",
+    "Population": "33111",
+    "LandArea": "1800.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Cumberland County, ME",
+    "District": "2",
+    "Population": "265612",
+    "LandArea": "835.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Dukes County, MA",
+    "District": "2",
+    "Population": "14987",
+    "LandArea": "103.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Essex County, MA",
+    "District": "2",
+    "Population": "723419",
+    "LandArea": "500.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Essex County, VT",
+    "District": "2",
+    "Population": "6459",
+    "LandArea": "665.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Franklin County, ME",
+    "District": "2",
+    "Population": "29467",
+    "LandArea": "1697.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Franklin County, VT",
+    "District": "2",
+    "Population": "45417",
+    "LandArea": "637.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Grafton County, NH",
+    "District": "2",
+    "Population": "81743",
+    "LandArea": "1713.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Grand Isle County, VT",
+    "District": "2",
+    "Population": "6901",
+    "LandArea": "82.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Hancock County, ME",
+    "District": "2",
+    "Population": "51791",
+    "LandArea": "1587.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Hillsborough County, NH",
+    "District": "2",
+    "Population": "380841",
+    "LandArea": "876.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Kennebec County, ME",
+    "District": "2",
+    "Population": "117114",
+    "LandArea": "867.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Kent County, RI",
+    "District": "2",
+    "Population": "167090",
+    "LandArea": "170.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Knox County, ME",
+    "District": "2",
+    "Population": "39618",
+    "LandArea": "365.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Lamoille County, VT",
+    "District": "2",
+    "Population": "23233",
+    "LandArea": "460.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Lincoln County, ME",
+    "District": "2",
+    "Population": "33616",
+    "LandArea": "455.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Merrimack County, NH",
+    "District": "2",
+    "Population": "136225",
+    "LandArea": "934.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Middlesex County, MA",
+    "District": "2",
+    "Population": "1465396",
+    "LandArea": "823.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Nantucket County, MA",
+    "District": "2",
+    "Population": "9520",
+    "LandArea": "47.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Newport County, RI",
+    "District": "2",
+    "Population": "85433",
+    "LandArea": "104.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Norfolk County, MA",
+    "District": "2",
+    "Population": "650308",
+    "LandArea": "399.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Orange County, VT",
+    "District": "2",
+    "Population": "28226",
+    "LandArea": "688.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Orleans County, VT",
+    "District": "2",
+    "Population": "26277",
+    "LandArea": "697.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Oxford County, ME",
+    "District": "2",
+    "Population": "54755",
+    "LandArea": "2078.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Penobscot County, ME",
+    "District": "2",
+    "Population": "144919",
+    "LandArea": "3395.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Piscataquis County, ME",
+    "District": "2",
+    "Population": "17235",
+    "LandArea": "3966.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Plymouth County, MA",
+    "District": "2",
+    "Population": "472822",
+    "LandArea": "660.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Providence County, RI",
+    "District": "2",
+    "Population": "621602",
+    "LandArea": "413.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Rockingham County, NH",
+    "District": "2",
+    "Population": "277359",
+    "LandArea": "694.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Rutland County, VT",
+    "District": "2",
+    "Population": "63400",
+    "LandArea": "932.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Sagadahoc County, ME",
+    "District": "2",
+    "Population": "35214",
+    "LandArea": "253.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Somerset County, ME",
+    "District": "2",
+    "Population": "50888",
+    "LandArea": "3926.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Strafford County, NH",
+    "District": "2",
+    "Population": "112233",
+    "LandArea": "368.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Suffolk County, MA",
+    "District": "2",
+    "Population": "689807",
+    "LandArea": "58.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "Sullivan County, NH",
+    "District": "2",
+    "Population": "40458",
+    "LandArea": "537.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Waldo County, ME",
+    "District": "2",
+    "Population": "36280",
+    "LandArea": "729.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Washington County, ME",
+    "District": "2",
+    "Population": "33941",
+    "LandArea": "2568.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Washington County, RI",
+    "District": "2",
+    "Population": "123546",
+    "LandArea": "332.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "RI"
+  },
+  {
+    "CountyName": "Washington County, VT",
+    "District": "2",
+    "Population": "58039",
+    "LandArea": "689.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Windham County, VT",
+    "District": "2",
+    "Population": "44216",
+    "LandArea": "788.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Windsor County, VT",
+    "District": "2",
+    "Population": "57418",
+    "LandArea": "970.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VT"
+  },
+  {
+    "CountyName": "Worcester County, MA",
+    "District": "2",
+    "Population": "750963",
+    "LandArea": "1513.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MA"
+  },
+  {
+    "CountyName": "York County, ME",
+    "District": "2",
+    "Population": "186742",
+    "LandArea": "990.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ME"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]953-  (catv, em, lctt, o, spa, t, u) Eau Claire[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "953-|Eau Claire|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "482",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, lctt, o, spa, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4205 Southtowne Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4205 Southtowne Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Eau Claire, WI 54701[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Eau Claire|WI|54701",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](715) 834-4911[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "859",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 834-4911",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](715) 834-0154[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "860",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 834-0154",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew953.org\" target=\"_blank\">info@ibew953.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "458",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew953.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew953.org\" target=\"_blank\">www.ibew953.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew953.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brady L. Weiss[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1476",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brady|L.|Weiss||{ \"MemberID\" : \"1476\",\"luid\": \"482\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3005\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eau Claire\",\"state\":\"WI\",\"zip\":\"54702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Allan C. Kraft[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1477",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Allan|C.|Kraft||{ \"MemberID\" : \"1477\",\"luid\": \"482\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3005\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eau Claire\",\"state\":\"WI\",\"zip\":\"54702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Brady L. Weiss[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3792",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brady|L.|Weiss||{ \"MemberID\" : \"3792\",\"luid\": \"482\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Mitchell D. Barka[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1475",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mitchell|D.|Barka||{ \"MemberID\" : \"1475\",\"luid\": \"482\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3005\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Eau Claire\",\"state\":\"WI\",\"zip\":\"54702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "482",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

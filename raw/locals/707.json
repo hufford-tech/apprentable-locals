@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1888  (mo) Saint John, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "707",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1888|Saint John|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "707",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]549 Tippett Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7278",
+    "editFieldNames": "Address1",
+    "editFieldValues": "549 Tippett Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]St. John, NB E2M 4Y9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7278",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. John|NB|E2M 4Y9",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](506) 645-8803[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1199",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 645-8803",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rondunn1888@live.com\" target=\"_blank\">rondunn1888@live.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1889",
+    "editFieldNames": "Email",
+    "editFieldValues": "rondunn1888@live.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Ronald Dunn, 5 Ridgeway Road, Grand Bay-Westfield, NB  E5K 1Y9[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2164",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald||Dunn||{ \"MemberID\" : \"2164\",\"luid\": \"707\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5 Ridgeway Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Grand Bay-Westfield\",\"state\":\"NB\",\"zip\":\"E5K 1Y9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Ronald Dunn, 5 Ridgeway Road, Grand Bay-Westfield, NB  E5K 1Y9[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4017",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ronald||Dunn||{ \"MemberID\" : \"4017\",\"luid\": \"707\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5 Ridgeway Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Grand Bay-Westfield\",\"state\":\"NB\",\"zip\":\"E5K 1Y9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Al H. Picot, 549 Tippett Drive, St. John, NB  E2M 4Y9[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2162",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Al|H.|Picot||{ \"MemberID\" : \"2162\",\"luid\": \"707\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"549 Tippett Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. John\",\"state\":\"NB\",\"zip\":\"E2M 4Y9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Stefanos E. Elisseou, 78 Vincent Road, Quispamsis, NB  E2E 1V7[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2163",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stefanos|E.|Elisseou||{ \"MemberID\" : \"2163\",\"luid\": \"707\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"78 Vincent Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Quispamsis\",\"state\":\"NB\",\"zip\":\"E2E 1V7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]26 Kiwanis Court, Last Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "707",
+    "editFieldNames": "Meets",
+    "editFieldValues": "26 Kiwanis Court, Last Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

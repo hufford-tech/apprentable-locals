@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1974  (em, ws) Cedar Rapids[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19566",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1974|Cedar Rapids|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "19566",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, ws",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7825 Sixth Street SW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5988",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7825 Sixth Street SW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cedar Rapids, IA 52404[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5988",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cedar Rapids|IA|52404",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 288[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5987",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 288",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]North Liberty, IA 52317[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5987",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Liberty|IA|52317",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](319) 317-5066[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2152",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 317-5066",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ssbails1974@gmail.com\" target=\"_blank\">ssbails1974@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2082",
+    "editFieldNames": "Email",
+    "editFieldValues": "ssbails1974@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stephanie S. Bails[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4213",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephanie|S.|Bails||{ \"MemberID\" : \"4213\",\"luid\": \"*\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"915 W Zeller Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Liberty\",\"state\":\"IA\",\"zip\":\"52317\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Stephanie S. Bails[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4214",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephanie|S.|Bails||{ \"MemberID\" : \"4214\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"915 W Zeller Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Liberty\",\"state\":\"IA\",\"zip\":\"52317\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jonathan F. Barnes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4215",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|F.|Barnes||{ \"MemberID\" : \"4215\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"77 W Post Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52405\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Catrina E. Pettitt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4216",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Catrina|E.|Pettitt||{ \"MemberID\" : \"4216\",\"luid\": \"*\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Comfort Inn, 710 America Drive, 2nd Wednesday, 2:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "19566",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Comfort Inn, 710 America Drive, 2nd Wednesday, 2:45 pm",
+    "datatype": "txt"
+  }
+]

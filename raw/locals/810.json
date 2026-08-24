@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2244  (u) Scranton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "810",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2244|Scranton|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "810",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3805 Winfield Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7248",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3805 Winfield Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Moosic, PA 18507[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7248",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Moosic|PA|18507",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](570) 604-7750[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2209",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(570) 604-7750",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ugilocal2244@gmail.com\" target=\"_blank\">ugilocal2244@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1806",
+    "editFieldNames": "Email",
+    "editFieldValues": "ugilocal2244@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Thomas J. Hurst, 649 Main Street, Dickson City, PA  18519[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2466",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|J.|Hurst||{ \"MemberID\" : \"2466\",\"luid\": \"810\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"649 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dickson City\",\"state\":\"PA\",\"zip\":\"18519\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Thomas  J. Hurst, 649 Main Street, Dickson City, PA  18519[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4134",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas |J.|Hurst||{ \"MemberID\" : \"4134\",\"luid\": \"810\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"649 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dickson City\",\"state\":\"PA\",\"zip\":\"18519\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jeffrey K. Robinson, 3805 Winfield Avenue, Moosic, PA  18507[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2465",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|K.|Robinson||{ \"MemberID\" : \"2465\",\"luid\": \"810\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3805 Winfield Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Moosic\",\"state\":\"PA\",\"zip\":\"18507\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Kenneth E. Czankner Jr., 106 Gilroy Street, Dunmore, PA  18512[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2467",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kenneth|E.|Czankner|Jr.|{ \"MemberID\" : \"2467\",\"luid\": \"810\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"106 Gilroy Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Dunmore\",\"state\":\"PA\",\"zip\":\"18512\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Local Union 81 Hall, 1st Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "810",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 81 Hall, 1st Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

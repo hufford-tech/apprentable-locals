@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]820-  (u) Sarasota[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "442",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "820-|Sarasota|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "442",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1201 Underwood Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7253",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1201 Underwood Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Venice, FL 34292[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7253",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Venice|FL|34292",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](941) 219-8520[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2384",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(941) 219-8520",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lu820president@gmail.com\" target=\"_blank\">lu820president@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2194",
+    "editFieldNames": "Email",
+    "editFieldValues": "lu820president@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Brett R. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4463",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|R.|Thompson||{ \"MemberID\" : \"4463\",\"luid\": \"442\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Brett R. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4452",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brett|R.|Thompson||{ \"MemberID\" : \"4452\",\"luid\": \"442\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Kevin L. Safley, 1201 Underwood Drive, Venice, FL  34292[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1360",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|L.|Safley||{ \"MemberID\" : \"1360\",\"luid\": \"442\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1201 Underwood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Venice\",\"state\":\"FL\",\"zip\":\"34292\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Brian A. Zimmerman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4457",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|A.|Zimmerman||{ \"MemberID\" : \"4457\",\"luid\": \"442\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]NALC Hall, 4350 Seventeenth Street, 2nd Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "442",
+    "editFieldNames": "Meets",
+    "editFieldValues": "NALC Hall, 4350 Seventeenth Street, 2nd Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

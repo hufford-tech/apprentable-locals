@@ -1,0 +1,254 @@
+[
+  {
+    "CountyName": "Adair County, OK",
+    "District": "7",
+    "Population": "21038",
+    "LandArea": "575.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Atoka County, OK",
+    "District": "7",
+    "Population": "13879",
+    "LandArea": "978.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Cherokee County, OK",
+    "District": "7",
+    "Population": "42521",
+    "LandArea": "751.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Coal County, OK",
+    "District": "7",
+    "Population": "6031",
+    "LandArea": "518.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Craig County, OK",
+    "District": "7",
+    "Population": "14950",
+    "LandArea": "761.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Creek County, OK",
+    "District": "7",
+    "Population": "67367",
+    "LandArea": "955.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Delaware County, OK",
+    "District": "7",
+    "Population": "37077",
+    "LandArea": "740.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Haskell County, OK",
+    "District": "7",
+    "Population": "11792",
+    "LandArea": "577.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Hughes County, OK",
+    "District": "7",
+    "Population": "14154",
+    "LandArea": "806.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Latimer County, OK",
+    "District": "7",
+    "Population": "10692",
+    "LandArea": "722.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Le Flore County, OK",
+    "District": "7",
+    "Population": "48109",
+    "LandArea": "1585.82",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Mayes County, OK",
+    "District": "7",
+    "Population": "38369",
+    "LandArea": "656.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "McIntosh County, OK",
+    "District": "7",
+    "Population": "19456",
+    "LandArea": "620.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Muskogee County, OK",
+    "District": "7",
+    "Population": "69451",
+    "LandArea": "813.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Nowata County, OK",
+    "District": "7",
+    "Population": "10569",
+    "LandArea": "564.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Okfuskee County, OK",
+    "District": "7",
+    "Population": "11814",
+    "LandArea": "624.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Okmulgee County, OK",
+    "District": "7",
+    "Population": "39685",
+    "LandArea": "696.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Osage County, OK",
+    "District": "7",
+    "Population": "44437",
+    "LandArea": "2250.80",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Ottawa County, OK",
+    "District": "7",
+    "Population": "33194",
+    "LandArea": "471.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pawnee County, OK",
+    "District": "7",
+    "Population": "16612",
+    "LandArea": "569.44",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Payne County, OK",
+    "District": "7",
+    "Population": "68190",
+    "LandArea": "686.34",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pittsburg County, OK",
+    "District": "7",
+    "Population": "43953",
+    "LandArea": "1305.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pushmataha County, OK",
+    "District": "7",
+    "Population": "11667",
+    "LandArea": "1397.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Rogers County, OK",
+    "District": "7",
+    "Population": "70641",
+    "LandArea": "674.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Sequoyah County, OK",
+    "District": "7",
+    "Population": "38972",
+    "LandArea": "673.82",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Tulsa County, OK",
+    "District": "7",
+    "Population": "563299",
+    "LandArea": "570.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Wagoner County, OK",
+    "District": "7",
+    "Population": "57491",
+    "LandArea": "562.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Washington County, OK",
+    "District": "7",
+    "Population": "48996",
+    "LandArea": "416.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  }
+]

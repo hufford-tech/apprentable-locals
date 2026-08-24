@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Kay County, OK",
+    "District": "7",
+    "Population": "48080",
+    "LandArea": "918.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Noble County, OK",
+    "District": "7",
+    "Population": "11411",
+    "LandArea": "731.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Osage County, OK",
+    "District": "7",
+    "Population": "44437",
+    "LandArea": "2250.80",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Pawnee County, OK",
+    "District": "7",
+    "Population": "16612",
+    "LandArea": "569.44",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  }
+]

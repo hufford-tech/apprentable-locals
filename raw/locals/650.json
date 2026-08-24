@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1616  (u) Rapid City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "650",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1616|Rapid City|SD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "650",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]15019 Homestake Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7163",
+    "editFieldNames": "Address1",
+    "editFieldValues": "15019 Homestake Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Spearfish, SD 57783[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7163",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Spearfish|SD|57783",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](605) 641-7508[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2326",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(605) 641-7508",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:egerdahlc@gmail.com\" target=\"_blank\">egerdahlc@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "610",
+    "editFieldNames": "Email",
+    "editFieldValues": "egerdahlc@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Christopher Egerdahl, 10519 Homestake Road, Spearfish, SD  57783[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1993",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Egerdahl||{ \"MemberID\" : \"1993\",\"luid\": \"650\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10519 Homestake Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Spearfish\",\"state\":\"SD\",\"zip\":\"57783\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Christopher Egerdahl, 10519 Homestake Road, Spearfish, SD  57783[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3954",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher||Egerdahl||{ \"MemberID\" : \"3954\",\"luid\": \"650\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"10519 Homestake Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Spearfish\",\"state\":\"SD\",\"zip\":\"57783\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Kyle Andrzejczak, 803 Riley Avenue, Rapid City, SD  57701[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1994",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle||Andrzejczak ||{ \"MemberID\" : \"1994\",\"luid\": \"650\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"803 Riley Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rapid City\",\"state\":\"SD\",\"zip\":\"57701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Sandi R. Kile, PO Box 804, Rapid City, SD  57709[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1995",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sandi|R.|Kile||{ \"MemberID\" : \"1995\",\"luid\": \"650\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 804\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rapid City\",\"state\":\"SD\",\"zip\":\"57709\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Montana Dakota Utilities Service Center, 718 Steel Avenue, 3rd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "650",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Montana Dakota Utilities Service Center, 718 Steel Avenue, 3rd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

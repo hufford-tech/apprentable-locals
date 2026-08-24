@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]388-  (em, i, rts, spa) Stevens Point[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "229",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "388-|Stevens Point|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "229",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5224 Heffron Court[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "228",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5224 Heffron Court",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Stevens Point, WI 54481[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "228",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Stevens Point|WI|54481",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](715) 341-2696[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "430",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 341-2696",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](715) 341-3124[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 341-3124",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlocal388.org\" target=\"_blank\">info@ibewlocal388.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2171",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlocal388.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal388.org\" target=\"_blank\">www.ibewlocal388.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "229",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal388.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Dean E. Miller[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "705",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dean|E.|Miller||{ \"MemberID\" : \"705\",\"luid\": \"229\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5224 Heffron Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stevens Point\",\"state\":\"WI\",\"zip\":\"54481\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]John P. Danczyk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "707",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|Danczyk||{ \"MemberID\" : \"707\",\"luid\": \"229\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5224 Heffron Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stevens Point\",\"state\":\"WI\",\"zip\":\"54481\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Dean E. Miller[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3544",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dean|E.|Miller||{ \"MemberID\" : \"3544\",\"luid\": \"229\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jason A. Kay[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "706",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|A.|Kay||{ \"MemberID\" : \"706\",\"luid\": \"229\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5224 Heffron Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Stevens Point\",\"state\":\"WI\",\"zip\":\"54481\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "229",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

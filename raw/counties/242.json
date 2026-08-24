@@ -1,0 +1,146 @@
+[
+  {
+    "CountyName": "Aitkin County, MN",
+    "District": "6",
+    "Population": "15301",
+    "LandArea": "1819.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Carlton County, MN",
+    "District": "6",
+    "Population": "31671",
+    "LandArea": "860.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cass County, MN",
+    "District": "6",
+    "Population": "27150",
+    "LandArea": "2017.59",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cook County, MN",
+    "District": "6",
+    "Population": "5168",
+    "LandArea": "1450.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Crow Wing County, MN",
+    "District": "6",
+    "Population": "55099",
+    "LandArea": "996.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Douglas County, WI",
+    "District": "6",
+    "Population": "43287",
+    "LandArea": "1309.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Hubbard County, MN",
+    "District": "6",
+    "Population": "18376",
+    "LandArea": "922.45",
+    "Percentage": "85%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Itasca County, MN",
+    "District": "6",
+    "Population": "43992",
+    "LandArea": "2665.06",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kanabec County, MN",
+    "District": "6",
+    "Population": "14996",
+    "LandArea": "524.93",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lake County, MN",
+    "District": "6",
+    "Population": "11058",
+    "LandArea": "2099.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Mille Lacs County, MN",
+    "District": "6",
+    "Population": "22330",
+    "LandArea": "574.47",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Morrison County, MN",
+    "District": "6",
+    "Population": "31712",
+    "LandArea": "1124.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pine County, MN",
+    "District": "6",
+    "Population": "26530",
+    "LandArea": "1411.04",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "St. Louis County, MN",
+    "District": "6",
+    "Population": "200528",
+    "LandArea": "6225.16",
+    "Percentage": "75%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Todd County, MN",
+    "District": "6",
+    "Population": "24426",
+    "LandArea": "942.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Wadena County, MN",
+    "District": "6",
+    "Population": "13713",
+    "LandArea": "535.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  }
+]

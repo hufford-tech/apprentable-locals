@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Del Norte County, CA",
+    "District": "9",
+    "Population": "27507",
+    "LandArea": "1007.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Humboldt County, CA",
+    "District": "9",
+    "Population": "126518",
+    "LandArea": "3572.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Lake County, CA",
+    "District": "9",
+    "Population": "58309",
+    "LandArea": "1257.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Marin County, CA",
+    "District": "9",
+    "Population": "247289",
+    "LandArea": "519.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mendocino County, CA",
+    "District": "9",
+    "Population": "86265",
+    "LandArea": "3508.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sonoma County, CA",
+    "District": "9",
+    "Population": "458614",
+    "LandArea": "1575.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]204-  (ptc, t, u) Cedar Rapids[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "130",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "204-|Cedar Rapids|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "130",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1009 Longfellow Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "131",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1009 Longfellow Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Hiawatha, IA 52233[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "131",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Hiawatha|IA|52233",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](319) 366-3434[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "251",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 366-3434",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](319) 366-8572[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "252",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 366-8572",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jvanzante@ibew204.org\" target=\"_blank\">jvanzante@ibew204.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "128",
+    "editFieldNames": "Email",
+    "editFieldValues": "jvanzante@ibew204.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew204.com\" target=\"_blank\">www.ibew204.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "130",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew204.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jon A. Van Zante[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jon|A.|Van Zante||{ \"MemberID\" : \"403\",\"luid\": \"130\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4837 First Avenue SE\",\"addr2\":\"Suite 203\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Randy Brown[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "402",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randy||Brown||{ \"MemberID\" : \"402\",\"luid\": \"130\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"4837 First Avenue SE\",\"addr2\":\"Suite 203\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jon A. Van Zante[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3452",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jon|A.|Van Zante||{ \"MemberID\" : \"3452\",\"luid\": \"130\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Adam P. Splinter[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "401",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|P.|Splinter||{ \"MemberID\" : \"401\",\"luid\": \"130\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4837 First Avenue SE\",\"addr2\":\"Suite 203\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52402\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "130",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

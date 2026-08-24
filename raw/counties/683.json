@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Champaign County, OH",
+    "District": "4",
+    "Population": "38890",
+    "LandArea": "428.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Clark County, OH",
+    "District": "4",
+    "Population": "144742",
+    "LandArea": "399.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Delaware County, OH",
+    "District": "4",
+    "Population": "109989",
+    "LandArea": "442.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fairfield County, OH",
+    "District": "4",
+    "Population": "122759",
+    "LandArea": "505.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Franklin County, OH",
+    "District": "4",
+    "Population": "1068978",
+    "LandArea": "539.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Madison County, OH",
+    "District": "4",
+    "Population": "40213",
+    "LandArea": "465.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Pickaway County, OH",
+    "District": "4",
+    "Population": "52727",
+    "LandArea": "501.91",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Union County, OH",
+    "District": "4",
+    "Population": "40909",
+    "LandArea": "436.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1688  (mo, u) Pickstown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1688|Pickstown|SD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "671",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 261[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "618",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 261",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pierre, SD 57501[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "618",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pierre|SD|57501",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](701) 220-5268[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1152",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(701) 220-5268",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew_1688@hotmail.com\" target=\"_blank\">ibew_1688@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2132",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew_1688@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Clint F. Schultz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2054",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clint|F.|Schultz||{ \"MemberID\" : \"2054\",\"luid\": \"671\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 445\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chamberlain\",\"state\":\"SD\",\"zip\":\"57325\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Clint F. Schultz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3977",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clint|F.|Schultz||{ \"MemberID\" : \"3977\",\"luid\": \"671\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Travis C. Frost[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2056",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Travis|C.|Frost||{ \"MemberID\" : \"2056\",\"luid\": \"671\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1710 Grandview Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pierre\",\"state\":\"SD\",\"zip\":\"57501\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jacob D. Foell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2055",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob|D.|Foell||{ \"MemberID\" : \"2055\",\"luid\": \"671\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 445\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Chamberlain\",\"state\":\"SD\",\"zip\":\"57325\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Gavins Point Power Plant, 3rd Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "671",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Gavins Point Power Plant, 3rd Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

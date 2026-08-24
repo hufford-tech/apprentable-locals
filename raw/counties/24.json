@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Accomack County, VA",
+    "District": "4",
+    "Population": "38305",
+    "LandArea": "455.24",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Anne Arundel County, MD",
+    "District": "4",
+    "Population": "489656",
+    "LandArea": "415.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Baltimore City, MD",
+    "District": "4",
+    "Population": "651154",
+    "LandArea": "80.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Baltimore County, MD",
+    "District": "4",
+    "Population": "754292",
+    "LandArea": "598.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Caroline County, MD",
+    "District": "4",
+    "Population": "29772",
+    "LandArea": "320.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Carroll County, MD",
+    "District": "4",
+    "Population": "150897",
+    "LandArea": "449.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Dorchester County, MD",
+    "District": "4",
+    "Population": "30674",
+    "LandArea": "557.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Frederick County, MD",
+    "District": "4",
+    "Population": "195277",
+    "LandArea": "662.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Harford County, MD",
+    "District": "4",
+    "Population": "218590",
+    "LandArea": "440.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Howard County, MD",
+    "District": "4",
+    "Population": "247842",
+    "LandArea": "252.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Kent County, MD",
+    "District": "4",
+    "Population": "19197",
+    "LandArea": "279.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Northampton County, VA",
+    "District": "4",
+    "Population": "13093",
+    "LandArea": "207.37",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Queen Annes County, MD",
+    "District": "4",
+    "Population": "40563",
+    "LandArea": "372.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Somerset County, MD",
+    "District": "4",
+    "Population": "24747",
+    "LandArea": "327.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Talbot County, MD",
+    "District": "4",
+    "Population": "33812",
+    "LandArea": "269.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Wicomico County, MD",
+    "District": "4",
+    "Population": "84644",
+    "LandArea": "377.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  },
+  {
+    "CountyName": "Worcester County, MD",
+    "District": "4",
+    "Population": "46543",
+    "LandArea": "473.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MD"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]433-  (u) Inglis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "253",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "433-|Inglis|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "253",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5396 N Lecanto Highway[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "247",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5396 N Lecanto Highway",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Beverly Hills, FL 34465[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "247",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Beverly Hills|FL|34465",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](352) 746-4239[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "469",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(352) 746-4239",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](352) 746-4242[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "470",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(352) 746-4242",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:brad.bennett@ibew433.org\" target=\"_blank\">brad.bennett@ibew433.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1969",
+    "editFieldNames": "Email",
+    "editFieldValues": "brad.bennett@ibew433.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew433.org\" target=\"_blank\">www.ibew433.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "253",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew433.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brad J. Bennett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "777",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brad|J.|Bennett||{ \"MemberID\" : \"777\",\"luid\": \"253\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3192 S Blackmountain Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iverness\",\"state\":\"FL\",\"zip\":\"34450\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brad J. Bennett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3568",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brad|J.|Bennett||{ \"MemberID\" : \"3568\",\"luid\": \"253\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3192 S Blackmountain Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iverness\",\"state\":\"FL\",\"zip\":\"34450\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Spring L. Hyche[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "779",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Spring|L.|Hyche||{ \"MemberID\" : \"779\",\"luid\": \"253\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"9569 W Berry Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Crystal River\",\"state\":\"FL\",\"zip\":\"34428\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jason O. Gamble[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "778",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|O.|Gamble||{ \"MemberID\" : \"778\",\"luid\": \"253\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5396 N Lecanto Highway\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Beverly Hills\",\"state\":\"FL\",\"zip\":\"34465\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "253",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

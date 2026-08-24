@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1638  (u) Colstrip[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "661",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1638|Colstrip|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "661",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]22 Cherry Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "609",
+    "editFieldNames": "Address1",
+    "editFieldValues": "22 Cherry Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Colstrip, MT 59323[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "609",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Colstrip|MT|59323",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 69[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 69",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Colstrip, MT 59323[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "608",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Colstrip|MT|59323",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](406) 748-4908[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1139",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 748-4908",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1638@gmail.com\" target=\"_blank\">ibew1638@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "620",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1638@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stacey J. Yates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2026",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|J.|Yates||{ \"MemberID\" : \"2026\",\"luid\": \"661\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 69\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Colstrip\",\"state\":\"MT\",\"zip\":\"59323\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Maria L. Crispin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2024",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Maria|L.|Crispin||{ \"MemberID\" : \"2024\",\"luid\": \"661\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 69\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Colstrip\",\"state\":\"MT\",\"zip\":\"59323\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Stacey J. Yates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3967",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stacey|J.|Yates||{ \"MemberID\" : \"3967\",\"luid\": \"661\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Lori J. Cadwell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4357",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lori|J.|Cadwell||{ \"MemberID\" : \"4357\",\"luid\": \"661\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday of the First Full Week in the Month, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "661",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday of the First Full Week in the Month, 6:30 pm",
+    "datatype": "txt"
+  }
+]

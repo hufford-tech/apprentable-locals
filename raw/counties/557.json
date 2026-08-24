@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Gratiot County, MI",
+    "District": "6",
+    "Population": "42285",
+    "LandArea": "570.13",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Isabella County, MI",
+    "District": "6",
+    "Population": "63351",
+    "LandArea": "574.27",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Midland County, MI",
+    "District": "6",
+    "Population": "82874",
+    "LandArea": "521.19",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Saginaw County, MI",
+    "District": "6",
+    "Population": "210039",
+    "LandArea": "808.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Tuscola County, MI",
+    "District": "6",
+    "Population": "58266",
+    "LandArea": "812.43",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

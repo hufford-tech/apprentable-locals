@@ -1,0 +1,344 @@
+[
+  {
+    "CountyName": "Baxter County, AR",
+    "District": "10",
+    "Population": "38386",
+    "LandArea": "554.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Baxter County, AR",
+    "District": "10",
+    "Population": "38386",
+    "LandArea": "554.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Benton County, AR",
+    "District": "10",
+    "Population": "153406",
+    "LandArea": "845.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Benton County, AR",
+    "District": "10",
+    "Population": "153406",
+    "LandArea": "845.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Boone County, AR",
+    "District": "10",
+    "Population": "33948",
+    "LandArea": "591.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Boone County, AR",
+    "District": "10",
+    "Population": "33948",
+    "LandArea": "591.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Carroll County, AR",
+    "District": "10",
+    "Population": "25357",
+    "LandArea": "630.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Carroll County, AR",
+    "District": "10",
+    "Population": "25357",
+    "LandArea": "630.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Crawford County, AR",
+    "District": "10",
+    "Population": "53247",
+    "LandArea": "595.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Crawford County, AR",
+    "District": "10",
+    "Population": "53247",
+    "LandArea": "595.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Franklin County, AR",
+    "District": "10",
+    "Population": "17771",
+    "LandArea": "609.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Franklin County, AR",
+    "District": "10",
+    "Population": "17771",
+    "LandArea": "609.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Johnson County, AR",
+    "District": "10",
+    "Population": "22781",
+    "LandArea": "662.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Johnson County, AR",
+    "District": "10",
+    "Population": "22781",
+    "LandArea": "662.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Le Flore County, OK",
+    "District": "7",
+    "Population": "48109",
+    "LandArea": "1585.82",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Le Flore County, OK",
+    "District": "7",
+    "Population": "48109",
+    "LandArea": "1585.82",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Logan County, AR",
+    "District": "10",
+    "Population": "22486",
+    "LandArea": "709.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Logan County, AR",
+    "District": "10",
+    "Population": "22486",
+    "LandArea": "709.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Madison County, AR",
+    "District": "10",
+    "Population": "14243",
+    "LandArea": "836.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Madison County, AR",
+    "District": "10",
+    "Population": "14243",
+    "LandArea": "836.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Marion County, AR",
+    "District": "10",
+    "Population": "16140",
+    "LandArea": "597.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Marion County, AR",
+    "District": "10",
+    "Population": "16140",
+    "LandArea": "597.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Newton County, AR",
+    "District": "10",
+    "Population": "8608",
+    "LandArea": "822.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Newton County, AR",
+    "District": "10",
+    "Population": "8608",
+    "LandArea": "822.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Pope County, AR",
+    "District": "10",
+    "Population": "54469",
+    "LandArea": "811.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Pope County, AR",
+    "District": "10",
+    "Population": "54469",
+    "LandArea": "811.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Scott County, AR",
+    "District": "10",
+    "Population": "10996",
+    "LandArea": "893.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Scott County, AR",
+    "District": "10",
+    "Population": "10996",
+    "LandArea": "893.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Searcy County, AR",
+    "District": "10",
+    "Population": "8261",
+    "LandArea": "667.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Searcy County, AR",
+    "District": "10",
+    "Population": "8261",
+    "LandArea": "667.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sebastian County, AR",
+    "District": "10",
+    "Population": "115071",
+    "LandArea": "536.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sebastian County, AR",
+    "District": "10",
+    "Population": "115071",
+    "LandArea": "536.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sequoyah County, OK",
+    "District": "7",
+    "Population": "38972",
+    "LandArea": "673.82",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Sequoyah County, OK",
+    "District": "7",
+    "Population": "38972",
+    "LandArea": "673.82",
+    "Percentage": "40%",
+    "jurisdiction": "O",
+    "StateProvince": "OK"
+  },
+  {
+    "CountyName": "Washington County, AR",
+    "District": "10",
+    "Population": "157715",
+    "LandArea": "949.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Washington County, AR",
+    "District": "10",
+    "Population": "157715",
+    "LandArea": "949.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Yell County, AR",
+    "District": "10",
+    "Population": "21139",
+    "LandArea": "927.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Yell County, AR",
+    "District": "10",
+    "Population": "21139",
+    "LandArea": "927.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1499  (ees, em, ptc) Chelsea[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "611",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1499|Chelsea|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "611",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, em, ptc",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]126 President Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "569",
+    "editFieldNames": "Address1",
+    "editFieldValues": "126 President Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fall River, MA 02720[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "569",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fall River|MA|02720",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 673-4899[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1061",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 673-4899",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:elecunionibew@aol.com\" target=\"_blank\">elecunionibew@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "Email",
+    "editFieldValues": "elecunionibew@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Rui M. Pacheco[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1877",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rui|M.|Pacheco||{ \"MemberID\" : \"1877\",\"luid\": \"611\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"126 President Avenue\",\"addr2\":\"Suite 301\",\"addr3\":\"\",\"city\":\"Fall River\",\"state\":\"MA\",\"zip\":\"02720\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Sebastian J. Santos[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1878",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sebastian|J.|Santos||{ \"MemberID\" : \"1878\",\"luid\": \"611\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"126 President Avenue\",\"addr2\":\"Suite 301\",\"addr3\":\"\",\"city\":\"Fall River\",\"state\":\"MA\",\"zip\":\"02720\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Rui M. Pacheco[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3913",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rui|M.|Pacheco||{ \"MemberID\" : \"3913\",\"luid\": \"611\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Todd J. Cruz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1876",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Todd|J.|Cruz||{ \"MemberID\" : \"1876\",\"luid\": \"611\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"126 President Avenue\",\"addr2\":\"Suite 301\",\"addr3\":\"\",\"city\":\"Fall River\",\"state\":\"MA\",\"zip\":\"02720\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "611",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

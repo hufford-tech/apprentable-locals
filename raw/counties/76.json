@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Grays Harbor County, WA",
+    "District": "9",
+    "Population": "67194",
+    "LandArea": "1916.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Lewis County, WA",
+    "District": "9",
+    "Population": "68600",
+    "LandArea": "2407.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Mason County, WA",
+    "District": "9",
+    "Population": "49405",
+    "LandArea": "961.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Pacific County, WA",
+    "District": "9",
+    "Population": "20984",
+    "LandArea": "932.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Pierce County, WA",
+    "District": "9",
+    "Population": "700820",
+    "LandArea": "1678.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Thurston County, WA",
+    "District": "9",
+    "Population": "207355",
+    "LandArea": "727.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "WA"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1980  (mo) Cedar Springs[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "731",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1980|Cedar Springs|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "731",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 267[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4976",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 267",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cedar Springs, GA 39832[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4976",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cedar Springs|GA|39832",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](229) 723-1300[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2012",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 723-1300",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu1980@outlook.com\" target=\"_blank\">ibewlu1980@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "683",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu1980@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]William A. LeRoy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4047",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|A.|LeRoy||{ \"MemberID\" : \"4047\",\"luid\": \"731\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"533 Coleman Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fort Gaines\",\"state\":\"GA\",\"zip\":\"39851\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Timothy J. Elliott[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2237",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|J.|Elliott||{ \"MemberID\" : \"2237\",\"luid\": \"731\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1636 Davis Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Columbia\",\"state\":\"AL\",\"zip\":\"36319\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Michael E. Pratt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2235",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|E.|Pratt||{ \"MemberID\" : \"2235\",\"luid\": \"731\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4854 Dubose Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Blakely\",\"state\":\"GA\",\"zip\":\"39823\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]USW Union Hall, Highway 273 W, 2nd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "731",
+    "editFieldNames": "Meets",
+    "editFieldValues": "USW Union Hall, Highway 273 W, 2nd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

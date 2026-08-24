@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1516  (i, o) Jonesboro[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "616",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1516|Jonesboro|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "616",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]9400 E Highland Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "Address1",
+    "editFieldValues": "9400 E Highland Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jonesboro, AR 72401[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jonesboro|AR|72401",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 577[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "573",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 577",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Jonesboro, AR 72403[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "573",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jonesboro|AR|72403",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](870) 932-2114[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1070",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 932-2114",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](870) 932-6707[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1071",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 932-6707",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1516@outlook.com\" target=\"_blank\">ibew1516@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1516@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1516.com\" target=\"_blank\">www.ibew1516.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "616",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1516.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Scott D. McKenzie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1893",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|D.|McKenzie||{ \"MemberID\" : \"1893\",\"luid\": \"616\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 577\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jonesboro\",\"state\":\"AR\",\"zip\":\"72403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Kirk E. Douglas[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1892",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kirk|E.|Douglas||{ \"MemberID\" : \"1892\",\"luid\": \"616\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 577\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jonesboro\",\"state\":\"AR\",\"zip\":\"72403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Scott D. McKenzie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3918",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott|D.|McKenzie||{ \"MemberID\" : \"3918\",\"luid\": \"616\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Benjamin A. Hall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1891",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Benjamin|A.|Hall||{ \"MemberID\" : \"1891\",\"luid\": \"616\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 577\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jonesboro\",\"state\":\"AR\",\"zip\":\"72403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]1st Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "616",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Dufferin County, ON",
+    "District": "1",
+    "Population": "51013",
+    "LandArea": "1485.6767",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Dufferin County, ON",
+    "District": "1",
+    "Population": "51013",
+    "LandArea": "1485.6767",
+    "Percentage": "20%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Durham Regional Municipality, ON",
+    "District": "1",
+    "Population": "506901",
+    "LandArea": "2523.4816",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Durham Regional Municipality, ON",
+    "District": "1",
+    "Population": "506901",
+    "LandArea": "2523.4816",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Greater Sudbury Division, ON",
+    "District": "1",
+    "Population": "155268",
+    "LandArea": "3364.9652",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Greater Sudbury Division, ON",
+    "District": "1",
+    "Population": "155268",
+    "LandArea": "3364.9652",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Haliburton County, ON",
+    "District": "1",
+    "Population": "15085",
+    "LandArea": "4025.3349",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Haliburton County, ON",
+    "District": "1",
+    "Population": "15085",
+    "LandArea": "4025.3349",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Kawartha Lakes Division, ON",
+    "District": "1",
+    "Population": "69179",
+    "LandArea": "3059.2198",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Kawartha Lakes Division, ON",
+    "District": "1",
+    "Population": "69179",
+    "LandArea": "3059.2198",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Muskoka District Municipality, ON",
+    "District": "1",
+    "Population": "53106",
+    "LandArea": "3890.4187",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Muskoka District Municipality, ON",
+    "District": "1",
+    "Population": "53106",
+    "LandArea": "3890.4187",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Northumberland County, ON",
+    "District": "1",
+    "Population": "77497",
+    "LandArea": "1903.2347",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Northumberland County, ON",
+    "District": "1",
+    "Population": "77497",
+    "LandArea": "1903.2347",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Peel Regional Municipality, ON",
+    "District": "1",
+    "Population": "988948",
+    "LandArea": "1241.9916",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Peel Regional Municipality, ON",
+    "District": "1",
+    "Population": "988948",
+    "LandArea": "1241.9916",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Peterborough County, ON",
+    "District": "1",
+    "Population": "125856",
+    "LandArea": "3806.0250",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Peterborough County, ON",
+    "District": "1",
+    "Population": "125856",
+    "LandArea": "3806.0250",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Simcoe County, ON",
+    "District": "1",
+    "Population": "377050",
+    "LandArea": "4840.5397",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Simcoe County, ON",
+    "District": "1",
+    "Population": "377050",
+    "LandArea": "4840.5397",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Toronto Division, ON",
+    "District": "1",
+    "Population": "2481494",
+    "LandArea": "629.9132",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Toronto Division, ON",
+    "District": "1",
+    "Population": "2481494",
+    "LandArea": "629.9132",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Victoria County, ON",
+    "District": "1",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Victoria County, ON",
+    "District": "1",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "York Regional Municipality, ON",
+    "District": "1",
+    "Population": "729254",
+    "LandArea": "1761.6389",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "York Regional Municipality, ON",
+    "District": "1",
+    "Population": "729254",
+    "LandArea": "1761.6389",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Fountain County, IN",
+    "District": "6",
+    "Population": "17954",
+    "LandArea": "395.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Iroquois County, IL",
+    "District": "6",
+    "Population": "31334",
+    "LandArea": "1116.43",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Vermilion County, IL",
+    "District": "6",
+    "Population": "83919",
+    "LandArea": "899.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Vermillion County, IN",
+    "District": "6",
+    "Population": "16788",
+    "LandArea": "256.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Warren County, IN",
+    "District": "6",
+    "Population": "8419",
+    "LandArea": "364.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

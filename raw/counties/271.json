@@ -1,0 +1,290 @@
+[
+  {
+    "CountyName": "Barber County, KS",
+    "District": "7",
+    "Population": "5307",
+    "LandArea": "1134.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Butler County, KS",
+    "District": "7",
+    "Population": "59482",
+    "LandArea": "1427.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Chase County, KS",
+    "District": "7",
+    "Population": "3030",
+    "LandArea": "775.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Clark County, KS",
+    "District": "7",
+    "Population": "2390",
+    "LandArea": "974.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Comanche County, KS",
+    "District": "7",
+    "Population": "1967",
+    "LandArea": "788.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Cowley County, KS",
+    "District": "7",
+    "Population": "36291",
+    "LandArea": "1126.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Finney County, KS",
+    "District": "7",
+    "Population": "40523",
+    "LandArea": "1301.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Ford County, KS",
+    "District": "7",
+    "Population": "32458",
+    "LandArea": "1098.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Grant County, KS",
+    "District": "7",
+    "Population": "7909",
+    "LandArea": "574.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Gray County, KS",
+    "District": "7",
+    "Population": "5904",
+    "LandArea": "868.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Greeley County, KS",
+    "District": "7",
+    "Population": "1534",
+    "LandArea": "778.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Hamilton County, KS",
+    "District": "7",
+    "Population": "2670",
+    "LandArea": "996.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Harper County, KS",
+    "District": "7",
+    "Population": "6536",
+    "LandArea": "801.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Harvey County, KS",
+    "District": "7",
+    "Population": "32869",
+    "LandArea": "539.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Haskell County, KS",
+    "District": "7",
+    "Population": "4307",
+    "LandArea": "577.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Hodgeman County, KS",
+    "District": "7",
+    "Population": "2085",
+    "LandArea": "859.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Kearny County, Ks",
+    "District": "7",
+    "Population": "4531",
+    "LandArea": "871.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Kingman County, KS",
+    "District": "7",
+    "Population": "8673",
+    "LandArea": "863.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Kiowa County, KS",
+    "District": "7",
+    "Population": "3278",
+    "LandArea": "722.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Lane County, KS",
+    "District": "7",
+    "Population": "2155",
+    "LandArea": "717.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Marion County, KS",
+    "District": "7",
+    "Population": "13361",
+    "LandArea": "943.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Meade County, KS",
+    "District": "7",
+    "Population": "4631",
+    "LandArea": "978.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Morton County, Ks",
+    "District": "7",
+    "Population": "3496",
+    "LandArea": "729.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Ness County, KS",
+    "District": "7",
+    "Population": "3454",
+    "LandArea": "1074.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Pratt County, KS",
+    "District": "7",
+    "Population": "9647",
+    "LandArea": "734.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Scott County, KS",
+    "District": "7",
+    "Population": "5120",
+    "LandArea": "717.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Sedgwick County, KS",
+    "District": "7",
+    "Population": "452869",
+    "LandArea": "999.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Seward County, KS",
+    "District": "7",
+    "Population": "22510",
+    "LandArea": "639.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Stanton County, KS",
+    "District": "7",
+    "Population": "2406",
+    "LandArea": "680.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Stevens County, KS",
+    "District": "7",
+    "Population": "5463",
+    "LandArea": "727.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Sumner County, KS",
+    "District": "7",
+    "Population": "25946",
+    "LandArea": "1181.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Wichita County, KS",
+    "District": "7",
+    "Population": "2531",
+    "LandArea": "718.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  }
+]

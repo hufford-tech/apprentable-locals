@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2024  (rr) Moncton, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "748",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2024|Moncton|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "748",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6-205 Pleasant Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7259",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6-205 Pleasant Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Moncton, NB E1A 2V6[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7259",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Moncton|NB|E1A 2V6",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](506) 654-7607[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2208",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 654-7607",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewdraper@gmail.com\" target=\"_blank\">ibewdraper@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2137",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewdraper@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Draper L. LaPointe, 37 Castlewood Drive, Lakeside, NB  E5N 0K6[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2287",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Draper|L.|LaPointe||{ \"MemberID\" : \"2287\",\"luid\": \"748\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"37 Castlewood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lakeside\",\"state\":\"NB\",\"zip\":\"E5N 0K6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Dallas P. Underhill, 1259 Route 425, Whitney, NB  E1V 4L3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2286",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dallas|P.|Underhill||{ \"MemberID\" : \"2286\",\"luid\": \"748\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1259 Route 425\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Whitney\",\"state\":\"NB\",\"zip\":\"E1V 4L3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Remi Albert, 6-205 Pleasant Street, Moncton, NB  E1A 2V6[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4065",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Remi||Albert||{ \"MemberID\" : \"4065\",\"luid\": \"748\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6-205 Pleasant Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Moncton\",\"state\":\"NB\",\"zip\":\"E1A 2V6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Remi Albert, 6-205 Pleasant Street, Moncton, NB  E1A 2V6[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4066",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Remi||Albert||{ \"MemberID\" : \"4066\",\"luid\": \"748\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"6-205 Pleasant Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Moncton\",\"state\":\"NB\",\"zip\":\"E1A 2V6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

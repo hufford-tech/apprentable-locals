@@ -1,0 +1,254 @@
+[
+  {
+    "CountyName": "Adair County, IA",
+    "District": "11",
+    "Population": "8243",
+    "LandArea": "569.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Audubon County, IA",
+    "District": "11",
+    "Population": "6830",
+    "LandArea": "443.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Boone County, IA",
+    "District": "11",
+    "Population": "26224",
+    "LandArea": "571.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Calhoun County, IA",
+    "District": "11",
+    "Population": "11115",
+    "LandArea": "570.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Carroll County, IA",
+    "District": "11",
+    "Population": "21421",
+    "LandArea": "569.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Clarke County, IA",
+    "District": "11",
+    "Population": "9133",
+    "LandArea": "431.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Dallas County, IA",
+    "District": "11",
+    "Population": "40750",
+    "LandArea": "586.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Decatur County, IA",
+    "District": "11",
+    "Population": "8689",
+    "LandArea": "531.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Greene County, IA",
+    "District": "11",
+    "Population": "10366",
+    "LandArea": "568.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Guthrie County, IA",
+    "District": "11",
+    "Population": "11353",
+    "LandArea": "590.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Hamilton County, IA",
+    "District": "11",
+    "Population": "16438",
+    "LandArea": "576.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Hardin County, IA",
+    "District": "11",
+    "Population": "18812",
+    "LandArea": "569.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Humboldt County, IA",
+    "District": "11",
+    "Population": "10381",
+    "LandArea": "434.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Jasper County, IA",
+    "District": "11",
+    "Population": "37213",
+    "LandArea": "729.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Lucas County, IA",
+    "District": "11",
+    "Population": "9422",
+    "LandArea": "430.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Madison County, IA",
+    "District": "11",
+    "Population": "14019",
+    "LandArea": "561.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Marion County, IA",
+    "District": "11",
+    "Population": "32052",
+    "LandArea": "554.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Marshall County, IA",
+    "District": "11",
+    "Population": "39311",
+    "LandArea": "572.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Pocahontas County, IA",
+    "District": "11",
+    "Population": "8662",
+    "LandArea": "577.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Polk County, IA",
+    "District": "11",
+    "Population": "374601",
+    "LandArea": "569.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Ringgold County, IA",
+    "District": "11",
+    "Population": "5469",
+    "LandArea": "537.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Story County, IA",
+    "District": "11",
+    "Population": "79981",
+    "LandArea": "572.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Tama County, IA",
+    "District": "11",
+    "Population": "18103",
+    "LandArea": "721.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Union County, IA",
+    "District": "11",
+    "Population": "12309",
+    "LandArea": "424.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Warren County, IA",
+    "District": "11",
+    "Population": "40671",
+    "LandArea": "571.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Wayne County, IA",
+    "District": "11",
+    "Population": "6730",
+    "LandArea": "525.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Webster County, IA",
+    "District": "11",
+    "Population": "40235",
+    "LandArea": "715.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Wright County, IA",
+    "District": "11",
+    "Population": "14334",
+    "LandArea": "580.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  }
+]

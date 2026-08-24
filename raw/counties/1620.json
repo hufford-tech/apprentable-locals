@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Division No. 1, NL",
+    "District": "1",
+    "Population": "242875",
+    "LandArea": "9218.4319",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 10, NL",
+    "District": "1",
+    "Population": "27864",
+    "LandArea": "269073.2963",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 2, NL",
+    "District": "1",
+    "Population": "24371",
+    "LandArea": "6099.0432",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 3, NL",
+    "District": "1",
+    "Population": "19370",
+    "LandArea": "19897.9676",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 4, NL",
+    "District": "1",
+    "Population": "22162",
+    "LandArea": "7087.7042",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 5, NL",
+    "District": "1",
+    "Population": "40466",
+    "LandArea": "10365.6346",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 6, NL",
+    "District": "1",
+    "Population": "36208",
+    "LandArea": "16237.1134",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 7, NL",
+    "District": "1",
+    "Population": "37335",
+    "LandArea": "9680.2146",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 8, NL",
+    "District": "1",
+    "Population": "42188",
+    "LandArea": "9315.4383",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  },
+  {
+    "CountyName": "Division No. 9, NL",
+    "District": "1",
+    "Population": "20091",
+    "LandArea": "13526.8456",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NL"
+  }
+]

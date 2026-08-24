@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Bradford County, PA",
+    "District": "3",
+    "Population": "62761",
+    "LandArea": "1150.66",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Centre County, PA",
+    "District": "3",
+    "Population": "135758",
+    "LandArea": "1107.53",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Clinton County, PA",
+    "District": "3",
+    "Population": "37914",
+    "LandArea": "890.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lycoming County, PA",
+    "District": "3",
+    "Population": "120044",
+    "LandArea": "1234.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Northumberland County, PA",
+    "District": "3",
+    "Population": "94556",
+    "LandArea": "459.91",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Potter County, PA",
+    "District": "3",
+    "Population": "18080",
+    "LandArea": "1081.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Sullivan County, PA",
+    "District": "3",
+    "Population": "6556",
+    "LandArea": "449.94",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Tioga County, PA",
+    "District": "3",
+    "Population": "41373",
+    "LandArea": "1133.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Union County, PA",
+    "District": "3",
+    "Population": "41624",
+    "LandArea": "316.73",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

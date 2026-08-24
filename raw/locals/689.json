@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1791  (em) Wausau[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "689",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1791|Wausau|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "689",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]318 S Third Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "628",
+    "editFieldNames": "Address1",
+    "editFieldValues": "318 S Third Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Room 10[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "628",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Room 10",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Wausau, WI 54401[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "628",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wausau|WI|54401",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](715) 845-4932[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1173",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 845-4932",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](715) 845-4932[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1174",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(715) 845-4932",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1791@gmail.com\" target=\"_blank\">ibewlocal1791@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "644",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1791@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Timothy L. Nowak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2111",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|L.|Nowak||{ \"MemberID\" : \"2111\",\"luid\": \"689\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"318 S Third Avenue\",\"addr2\":\"Room 10\",\"addr3\":\"\",\"city\":\"Wausau\",\"state\":\"WI\",\"zip\":\"54401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Timothy L. Nowak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3997",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Timothy|L.|Nowak||{ \"MemberID\" : \"3997\",\"luid\": \"689\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Andrew M. Rothenberger[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2110",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Andrew|M.|Rothenberger||{ \"MemberID\" : \"2110\",\"luid\": \"689\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"318 S Third Avenue\",\"addr2\":\"Room 10\",\"addr3\":\"\",\"city\":\"Wausau\",\"state\":\"WI\",\"zip\":\"54401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Merry M. Neu[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2109",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Merry|M.|Neu||{ \"MemberID\" : \"2109\",\"luid\": \"689\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"318 S Third Avenue\",\"addr2\":\"Room 10\",\"addr3\":\"\",\"city\":\"Wausau\",\"state\":\"WI\",\"zip\":\"54401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Wausau Labor Temple, 2nd Wednesday, 1 pm & 3:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "689",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Wausau Labor Temple, 2nd Wednesday, 1 pm & 3:15 pm",
+    "datatype": "txt"
+  }
+]

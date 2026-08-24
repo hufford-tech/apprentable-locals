@@ -1,0 +1,182 @@
+[
+  {
+    "CountyName": "Clay County, AR",
+    "District": "10",
+    "Population": "17609",
+    "LandArea": "639.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Clay County, AR",
+    "District": "10",
+    "Population": "17609",
+    "LandArea": "639.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Craighead County, AR",
+    "District": "10",
+    "Population": "82148",
+    "LandArea": "710.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Craighead County, AR",
+    "District": "10",
+    "Population": "82148",
+    "LandArea": "710.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Greene County, AR",
+    "District": "10",
+    "Population": "37331",
+    "LandArea": "577.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Greene County, AR",
+    "District": "10",
+    "Population": "37331",
+    "LandArea": "577.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Independence County, AR",
+    "District": "10",
+    "Population": "34233",
+    "LandArea": "763.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Independence County, AR",
+    "District": "10",
+    "Population": "34233",
+    "LandArea": "763.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Jackson County, AR",
+    "District": "10",
+    "Population": "18418",
+    "LandArea": "633.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Jackson County, AR",
+    "District": "10",
+    "Population": "18418",
+    "LandArea": "633.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lawrence County, AR",
+    "District": "10",
+    "Population": "17774",
+    "LandArea": "586.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Lawrence County, AR",
+    "District": "10",
+    "Population": "17774",
+    "LandArea": "586.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Mississippi County, AR",
+    "District": "10",
+    "Population": "51979",
+    "LandArea": "898.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Mississippi County, AR",
+    "District": "10",
+    "Population": "51979",
+    "LandArea": "898.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Poinsett County, AR",
+    "District": "10",
+    "Population": "25614",
+    "LandArea": "757.74",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Poinsett County, AR",
+    "District": "10",
+    "Population": "25614",
+    "LandArea": "757.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Randolph County, AR",
+    "District": "10",
+    "Population": "18195",
+    "LandArea": "651.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Randolph County, AR",
+    "District": "10",
+    "Population": "18195",
+    "LandArea": "651.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sharp County, AR",
+    "District": "10",
+    "Population": "17119",
+    "LandArea": "604.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AR"
+  },
+  {
+    "CountyName": "Sharp County, AR",
+    "District": "10",
+    "Population": "17119",
+    "LandArea": "604.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AR"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1597  (u) Grand Island[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "644",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1597|Grand Island|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "644",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3302 W Capital Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4230",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3302 W Capital Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4230",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Grand Island, NE 68803[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4230",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Grand Island|NE|68803",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 10[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "596",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 10",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Grand Island, NE 68802[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "596",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Grand Island|NE|68802",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](308) 750-4362[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1114",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(308) 750-4362",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew1597.org\" target=\"_blank\">info@ibew1597.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "604",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew1597.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jerry E. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1976",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|E.|Thompson||{ \"MemberID\" : \"1976\",\"luid\": \"644\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"922 Kendall Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Paul\",\"state\":\"NE\",\"zip\":\"68873\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jerry E. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3947",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|E.|Thompson||{ \"MemberID\" : \"3947\",\"luid\": \"644\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"922 Kendall Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. Paul\",\"state\":\"NE\",\"zip\":\"68873\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Mikki Vlach[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1978",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mikki||Vlach||{ \"MemberID\" : \"1978\",\"luid\": \"644\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 10\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Grand Island\",\"state\":\"NE\",\"zip\":\"68802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Cory J. Rowley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1977",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cory|J.|Rowley||{ \"MemberID\" : \"1977\",\"luid\": \"644\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 10\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Grand Island\",\"state\":\"NE\",\"zip\":\"68802\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "644",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "CountyName": "Antrim County, MI",
+    "District": "6",
+    "Population": "23110",
+    "LandArea": "476.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Benzie County, MI",
+    "District": "6",
+    "Population": "15998",
+    "LandArea": "321.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Charlevoix County, MI",
+    "District": "6",
+    "Population": "26090",
+    "LandArea": "416.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Cheboygan County, MI",
+    "District": "6",
+    "Population": "26448",
+    "LandArea": "715.60",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Clare County, MI",
+    "District": "6",
+    "Population": "31252",
+    "LandArea": "566.80",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Crawford County, MI",
+    "District": "6",
+    "Population": "14273",
+    "LandArea": "558.12",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Emmet County, MI",
+    "District": "6",
+    "Population": "31437",
+    "LandArea": "467.82",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Grand Traverse County, MI",
+    "District": "6",
+    "Population": "77654",
+    "LandArea": "465.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Kalkaska County, MI",
+    "District": "6",
+    "Population": "16571",
+    "LandArea": "561.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Lake County, MI",
+    "District": "6",
+    "Population": "11333",
+    "LandArea": "567.43",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Leelanau County, MI",
+    "District": "6",
+    "Population": "21119",
+    "LandArea": "348.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Manistee County, MI",
+    "District": "6",
+    "Population": "24527",
+    "LandArea": "543.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Mason County, MI",
+    "District": "6",
+    "Population": "28274",
+    "LandArea": "495.17",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Missaukee County, MI",
+    "District": "6",
+    "Population": "14478",
+    "LandArea": "566.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Osceola County, MI",
+    "District": "6",
+    "Population": "23197",
+    "LandArea": "565.98",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Otsego County, MI",
+    "District": "6",
+    "Population": "23301",
+    "LandArea": "514.54",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Roscommon County, MI",
+    "District": "6",
+    "Population": "25469",
+    "LandArea": "521.40",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Wexford County, MI",
+    "District": "6",
+    "Population": "30484",
+    "LandArea": "565.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

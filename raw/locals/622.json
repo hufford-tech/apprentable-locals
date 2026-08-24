@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1531  (i, o) Albany[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "622",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1531|Albany|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "622",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1900 Clark Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1900 Clark Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Albany, GA 31705[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "580",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Albany|GA|31705",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 916[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "579",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 916",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Albany, GA 31702[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "579",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Albany|GA|31702",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](229) 436-2417[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1081",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 436-2417",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](229) 436-0992[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1082",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 436-0992",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1531@gmail.com\" target=\"_blank\">ibew1531@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "585",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1531@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Clayton D. Pelham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1912",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clayton|D.|Pelham||{ \"MemberID\" : \"1912\",\"luid\": \"622\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 916\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albany\",\"state\":\"GA\",\"zip\":\"31702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Steven A. Lash[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1910",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|A.|Lash||{ \"MemberID\" : \"1910\",\"luid\": \"622\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 916\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albany\",\"state\":\"GA\",\"zip\":\"31702\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Clayton D. Pelham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3924",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Clayton|D.|Pelham||{ \"MemberID\" : \"3924\",\"luid\": \"622\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Joshua P. Calhoun, PO Box 916, Albany, GA  31702[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4247",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joshua|P.|Calhoun||{ \"MemberID\" : \"4247\",\"luid\": \"622\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "622",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

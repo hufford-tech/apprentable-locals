@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1871  (em, es) Birmingham[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "705",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1871|Birmingham|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "705",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, es",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3300 Sixth Avenue S[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3300 Sixth Avenue S",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Birmingham, AL 35222[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Birmingham|AL|35222",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]B.M. [/b]Kirk Cordell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2157",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kirk||Cordell||{ \"MemberID\" : \"2157\",\"luid\": \"705\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 59685\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Birmingham\",\"state\":\"AL\",\"zip\":\"35259\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Kirk Cordell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4014",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kirk||Cordell||{ \"MemberID\" : \"4014\",\"luid\": \"705\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Paula Hawkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4015",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Paula||Hawkins||{ \"MemberID\" : \"4015\",\"luid\": \"705\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Scott Flack[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2158",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scott||Flack||{ \"MemberID\" : \"2158\",\"luid\": \"705\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 59685\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Birmingham\",\"state\":\"AL\",\"zip\":\"35259\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]845 Gadsden Highway, 2nd Wednesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "705",
+    "editFieldNames": "Meets",
+    "editFieldValues": "845 Gadsden Highway, 2nd Wednesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

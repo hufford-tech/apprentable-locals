@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]618-  (rr) Omaha[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "344",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "618-|Omaha|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "344",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 3246[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "343",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 3246",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Omaha, NE 68103[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "343",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Omaha|NE|68103",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](402) 339-2817[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 339-2817",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Jamie Kleckner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1055",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Kleckner||{ \"MemberID\" : \"1055\",\"luid\": \"344\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"5062 S 108th Street, #123\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Jamie Kleckner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3655",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Kleckner||{ \"MemberID\" : \"3655\",\"luid\": \"344\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Jamie Kleckner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1054",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jamie||Kleckner||{ \"MemberID\" : \"1054\",\"luid\": \"344\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"5062 S 108th Street, #123\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Jeffrey Jorgensen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1056",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey||Jorgensen||{ \"MemberID\" : \"1056\",\"luid\": \"344\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5062 S 108th Street, #123\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Local Union 22 Hall, 3rd Wednesday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "344",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 22 Hall, 3rd Wednesday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

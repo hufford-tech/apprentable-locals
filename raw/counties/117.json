@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Cook County, IL",
+    "District": "6",
+    "Population": "5376741",
+    "LandArea": "945.68",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kane County, IL",
+    "District": "6",
+    "Population": "404119",
+    "LandArea": "520.44",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mchenry County, IL",
+    "District": "6",
+    "Population": "260077",
+    "LandArea": "603.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

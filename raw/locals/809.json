@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2241  (em) Youngstown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "809",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2241|Youngstown|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "809",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1125 Meadowbrook Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4373",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1125 Meadowbrook Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Youngstown, OH 44512[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4373",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Youngstown|OH|44512",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](330) 782-8007[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1861",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 782-8007",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](330) 782-8047[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1862",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 782-8047",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal2241@yahoo.com\" target=\"_blank\">ibewlocal2241@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "745",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal2241@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Brian W. Boyer, 480 New Bedford Sharon Road, West Middlesex, PA  16159[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2463",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|W.|Boyer||{ \"MemberID\" : \"2463\",\"luid\": \"809\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"480 New Bedford Sharon Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Middlesex\",\"state\":\"PA\",\"zip\":\"16159\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Brian W. Boyer, 480 New Bedford Sharon Road, West Middlesex, PA  16159[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4133",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|W.|Boyer||{ \"MemberID\" : \"4133\",\"luid\": \"809\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"480 New Bedford Sharon Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Middlesex\",\"state\":\"PA\",\"zip\":\"16159\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]William G. Snyder[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2462",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|G.|Snyder||{ \"MemberID\" : \"2462\",\"luid\": \"809\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"402 Johnson Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Middllesex\",\"state\":\"PA\",\"zip\":\"16159\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Mark R. Koch[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2464",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|R.|Koch||{ \"MemberID\" : \"2464\",\"luid\": \"809\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"866 Pine Glenn Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pulaski\",\"state\":\"PA\",\"zip\":\"16143\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "809",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 12 pm",
+    "datatype": "txt"
+  }
+]

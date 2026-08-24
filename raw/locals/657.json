@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1631  (rr) Harmon[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "657",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1631|Harmon|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "657",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 642[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7118",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 642",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Croton-on-Hudson, NY 10520[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7118",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Croton-on-Hudson|NY|10520",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](845) 800-9149[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2308",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(845) 800-9149",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:theta9@hotmail.com\" target=\"_blank\">theta9@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1983",
+    "editFieldNames": "Email",
+    "editFieldValues": "theta9@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Peter Peale, PO Box 767, Peekskill, NY  10566[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2014",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter||Peale||{ \"MemberID\" : \"2014\",\"luid\": \"657\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 767\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Peekskill\",\"state\":\"NY\",\"zip\":\"10566\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Peter Peale, PO Box 767, Peekskill, NY  10566[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3962",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter||Peale||{ \"MemberID\" : \"3962\",\"luid\": \"657\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 767\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Peekskill\",\"state\":\"NY\",\"zip\":\"10566\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Ender Osorio, 5 Redwood Lane, Wappingers Falls, NY  12590[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2013",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ender||Osorio||{ \"MemberID\" : \"2013\",\"luid\": \"657\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5 Redwood Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wappingers Falls\",\"state\":\"NY\",\"zip\":\"12590\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Matthew P. Burlingham, 131 Wrentham Street, Kingston, NY  12401[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2015",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|P.|Burlingham||{ \"MemberID\" : \"2015\",\"luid\": \"657\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"131 Wrentham Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kingston\",\"state\":\"NY\",\"zip\":\"12401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]American Legion, 58 S Highland Avenue, Ossining, 1st Wednesday, 4:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "657",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion, 58 S Highland Avenue, Ossining, 1st Wednesday, 4:30 pm",
+    "datatype": "txt"
+  }
+]

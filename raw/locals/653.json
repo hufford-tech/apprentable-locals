@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1620  (o, u) St. John's, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "653",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1620|St. John's|NL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "653",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]27 Duffy Place[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7153",
+    "editFieldNames": "Address1",
+    "editFieldValues": "27 Duffy Place",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]St. John's, NL A1B 4M7[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7153",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. John's|NL|A1B 4M7",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 8203, Stn A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "603",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 8203, Stn A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]St. John's, NL A1B 3N4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "603",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. John's|NL|A1B 3N4",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](709) 330-6071[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1127",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(709) 330-6071",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:myunion@ibew1620.com\" target=\"_blank\">myunion@ibew1620.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1854",
+    "editFieldNames": "Email",
+    "editFieldValues": "myunion@ibew1620.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1620.com\" target=\"_blank\">www.ibew1620.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "653",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1620.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Steven T. Stewart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2002",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|T.|Stewart||{ \"MemberID\" : \"2002\",\"luid\": \"653\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"67 LeMarchant Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. John's\",\"state\":\"NL\",\"zip\":\"A1C 2G9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Cory A. Layman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2003",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cory|A.|Layman||{ \"MemberID\" : \"2003\",\"luid\": \"653\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"67 LeMarchant Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. John's\",\"state\":\"NL\",\"zip\":\"A1C 2G9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Steven T. Stewart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3957",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|T.|Stewart||{ \"MemberID\" : \"3957\",\"luid\": \"653\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Darren S. O'Bryan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2004",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Darren|S.|O'Bryan||{ \"MemberID\" : \"2004\",\"luid\": \"653\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"67 LeMarchant Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"St. John's\",\"state\":\"NL\",\"zip\":\"A1C 2G9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

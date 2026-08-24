@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]95--  (em, i, lctt, spa, u) Joplin[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "95--|Joplin|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "73",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, lctt, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3316 S Main Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3316 S Main Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Joplin, MO 64804[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "74",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Joplin|MO|64804",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](417) 623-2025[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 623-2025",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](417) 623-7829[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "144",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(417) 623-7829",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:donny.lampen@ibewlocal95.com\" target=\"_blank\">donny.lampen@ibewlocal95.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "72",
+    "editFieldNames": "Email",
+    "editFieldValues": "donny.lampen@ibewlocal95.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal95.com\" target=\"_blank\">www.ibewlocal95.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal95.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Donald W. Lampen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "224",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|W.|Lampen||{ \"MemberID\" : \"224\",\"luid\": \"73\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3316 S Main\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Joplin\",\"state\":\"MO\",\"zip\":\"64804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Elijah E. Burkhart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "225",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Elijah|E.|Burkhart||{ \"MemberID\" : \"225\",\"luid\": \"73\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3316 S Main\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Joplin\",\"state\":\"MO\",\"zip\":\"64804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Donald W. Lampen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3401",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|W.|Lampen||{ \"MemberID\" : \"3401\",\"luid\": \"73\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Nichole Tackett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "226",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nichole||Tackett||{ \"MemberID\" : \"226\",\"luid\": \"73\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3316 S Main\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Joplin\",\"state\":\"MO\",\"zip\":\"64804\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "73",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

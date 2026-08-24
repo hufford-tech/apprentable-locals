@@ -1,0 +1,848 @@
+[
+  {
+    "CountyName": "Aurora County, SD",
+    "District": "11",
+    "Population": "3058",
+    "LandArea": "708.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Aurora County, SD",
+    "District": "11",
+    "Population": "3058",
+    "LandArea": "708.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Beadle County, SD",
+    "District": "11",
+    "Population": "17023",
+    "LandArea": "1258.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Beadle County, SD",
+    "District": "11",
+    "Population": "17023",
+    "LandArea": "1258.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Bon Homme County, SD",
+    "District": "11",
+    "Population": "7260",
+    "LandArea": "563.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Bon Homme County, SD",
+    "District": "11",
+    "Population": "7260",
+    "LandArea": "563.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brookings County, SD",
+    "District": "11",
+    "Population": "28220",
+    "LandArea": "794.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brookings County, SD",
+    "District": "11",
+    "Population": "28220",
+    "LandArea": "794.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brown County, SD",
+    "District": "11",
+    "Population": "35460",
+    "LandArea": "1713.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brown County, SD",
+    "District": "11",
+    "Population": "35460",
+    "LandArea": "1713.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brule County, SD",
+    "District": "11",
+    "Population": "5364",
+    "LandArea": "818.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Brule County, SD",
+    "District": "11",
+    "Population": "5364",
+    "LandArea": "818.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Buffalo County, SD",
+    "District": "11",
+    "Population": "2032",
+    "LandArea": "470.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Buffalo County, SD",
+    "District": "11",
+    "Population": "2032",
+    "LandArea": "470.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Campbell County, SD",
+    "District": "11",
+    "Population": "1782",
+    "LandArea": "735.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Campbell County, SD",
+    "District": "11",
+    "Population": "1782",
+    "LandArea": "735.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Charles Mix County, SD",
+    "District": "11",
+    "Population": "9350",
+    "LandArea": "1097.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Charles Mix County, SD",
+    "District": "11",
+    "Population": "9350",
+    "LandArea": "1097.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Clark County, SD",
+    "District": "11",
+    "Population": "4143",
+    "LandArea": "957.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Clark County, SD",
+    "District": "11",
+    "Population": "4143",
+    "LandArea": "957.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Clay County, SD",
+    "District": "11",
+    "Population": "13537",
+    "LandArea": "411.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Clay County, SD",
+    "District": "11",
+    "Population": "13537",
+    "LandArea": "411.60",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Codington County, SD",
+    "District": "11",
+    "Population": "25897",
+    "LandArea": "687.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Codington County, SD",
+    "District": "11",
+    "Population": "25897",
+    "LandArea": "687.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Davison County, SD",
+    "District": "11",
+    "Population": "18741",
+    "LandArea": "435.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Davison County, SD",
+    "District": "11",
+    "Population": "18741",
+    "LandArea": "435.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Day County, SD",
+    "District": "11",
+    "Population": "6267",
+    "LandArea": "1028.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Day County, SD",
+    "District": "11",
+    "Population": "6267",
+    "LandArea": "1028.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Deuel County, SD",
+    "District": "11",
+    "Population": "4498",
+    "LandArea": "623.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Deuel County, SD",
+    "District": "11",
+    "Population": "4498",
+    "LandArea": "623.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Douglas County, SD",
+    "District": "11",
+    "Population": "3458",
+    "LandArea": "433.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Douglas County, SD",
+    "District": "11",
+    "Population": "3458",
+    "LandArea": "433.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Edmunds County, SD",
+    "District": "11",
+    "Population": "4367",
+    "LandArea": "1145.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Edmunds County, SD",
+    "District": "11",
+    "Population": "4367",
+    "LandArea": "1145.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Faulk County, SD",
+    "District": "11",
+    "Population": "2640",
+    "LandArea": "1000.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Faulk County, SD",
+    "District": "11",
+    "Population": "2640",
+    "LandArea": "1000.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Grant County, SD",
+    "District": "11",
+    "Population": "7847",
+    "LandArea": "682.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Grant County, SD",
+    "District": "11",
+    "Population": "7847",
+    "LandArea": "682.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Gregory County, SD",
+    "District": "11",
+    "Population": "4792",
+    "LandArea": "1015.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Gregory County, SD",
+    "District": "11",
+    "Population": "4792",
+    "LandArea": "1015.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hamlin County, SD",
+    "District": "11",
+    "Population": "5540",
+    "LandArea": "506.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hamlin County, SD",
+    "District": "11",
+    "Population": "5540",
+    "LandArea": "506.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hand County, SD",
+    "District": "11",
+    "Population": "3741",
+    "LandArea": "1436.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hand County, SD",
+    "District": "11",
+    "Population": "3741",
+    "LandArea": "1436.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hanson County, SD",
+    "District": "11",
+    "Population": "3139",
+    "LandArea": "434.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hanson County, SD",
+    "District": "11",
+    "Population": "3139",
+    "LandArea": "434.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hughes County, SD",
+    "District": "11",
+    "Population": "16481",
+    "LandArea": "740.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hughes County, SD",
+    "District": "11",
+    "Population": "16481",
+    "LandArea": "740.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hutchinson County, SD",
+    "District": "11",
+    "Population": "8075",
+    "LandArea": "812.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hutchinson County, SD",
+    "District": "11",
+    "Population": "8075",
+    "LandArea": "812.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hyde County, SD",
+    "District": "11",
+    "Population": "1671",
+    "LandArea": "860.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Hyde County, SD",
+    "District": "11",
+    "Population": "1671",
+    "LandArea": "860.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jerauld County, SD",
+    "District": "11",
+    "Population": "2295",
+    "LandArea": "529.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Jerauld County, SD",
+    "District": "11",
+    "Population": "2295",
+    "LandArea": "529.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Kingsbury County, SD",
+    "District": "11",
+    "Population": "5815",
+    "LandArea": "838.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Kingsbury County, SD",
+    "District": "11",
+    "Population": "5815",
+    "LandArea": "838.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lake County, SD",
+    "District": "11",
+    "Population": "11276",
+    "LandArea": "563.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lake County, SD",
+    "District": "11",
+    "Population": "11276",
+    "LandArea": "563.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lincoln County, SD",
+    "District": "11",
+    "Population": "24131",
+    "LandArea": "578.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Lincoln County, SD",
+    "District": "11",
+    "Population": "24131",
+    "LandArea": "578.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Marshall County, SD",
+    "District": "11",
+    "Population": "4576",
+    "LandArea": "837.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Marshall County, SD",
+    "District": "11",
+    "Population": "4576",
+    "LandArea": "837.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "McCook County, SD",
+    "District": "11",
+    "Population": "5832",
+    "LandArea": "574.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "McCook County, SD",
+    "District": "11",
+    "Population": "5832",
+    "LandArea": "574.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "McPherson County, SD",
+    "District": "11",
+    "Population": "2904",
+    "LandArea": "1136.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "McPherson County, SD",
+    "District": "11",
+    "Population": "2904",
+    "LandArea": "1136.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Miner County, SD",
+    "District": "11",
+    "Population": "2884",
+    "LandArea": "570.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Miner County, SD",
+    "District": "11",
+    "Population": "2884",
+    "LandArea": "570.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Minnehaha County, SD",
+    "District": "11",
+    "Population": "148281",
+    "LandArea": "809.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Minnehaha County, SD",
+    "District": "11",
+    "Population": "148281",
+    "LandArea": "809.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Moody County, SD",
+    "District": "11",
+    "Population": "6595",
+    "LandArea": "519.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Moody County, SD",
+    "District": "11",
+    "Population": "6595",
+    "LandArea": "519.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Murray County, MN",
+    "District": "6",
+    "Population": "9165",
+    "LandArea": "704.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Nobles County, MN",
+    "District": "6",
+    "Population": "20832",
+    "LandArea": "715.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pipestone County, MN",
+    "District": "6",
+    "Population": "9895",
+    "LandArea": "465.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Potter County, SD",
+    "District": "11",
+    "Population": "2693",
+    "LandArea": "866.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Potter County, SD",
+    "District": "11",
+    "Population": "2693",
+    "LandArea": "866.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Roberts County, SD",
+    "District": "11",
+    "Population": "10016",
+    "LandArea": "1101.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Roberts County, SD",
+    "District": "11",
+    "Population": "10016",
+    "LandArea": "1101.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Rock County, MN",
+    "District": "6",
+    "Population": "9721",
+    "LandArea": "482.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sanborn County, SD",
+    "District": "11",
+    "Population": "2675",
+    "LandArea": "569.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Sanborn County, SD",
+    "District": "11",
+    "Population": "2675",
+    "LandArea": "569.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Spink County, SD",
+    "District": "11",
+    "Population": "7454",
+    "LandArea": "1503.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Spink County, SD",
+    "District": "11",
+    "Population": "7454",
+    "LandArea": "1503.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Sully County, SD",
+    "District": "11",
+    "Population": "1556",
+    "LandArea": "1006.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Sully County, SD",
+    "District": "11",
+    "Population": "1556",
+    "LandArea": "1006.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Turner County, SD",
+    "District": "11",
+    "Population": "8849",
+    "LandArea": "616.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Turner County, SD",
+    "District": "11",
+    "Population": "8849",
+    "LandArea": "616.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Union County, SD",
+    "District": "11",
+    "Population": "12584",
+    "LandArea": "460.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Union County, SD",
+    "District": "11",
+    "Population": "12584",
+    "LandArea": "460.38",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Walworth County, SD",
+    "District": "11",
+    "Population": "5974",
+    "LandArea": "707.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Walworth County, SD",
+    "District": "11",
+    "Population": "5974",
+    "LandArea": "707.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Yankton County, SD",
+    "District": "11",
+    "Population": "21652",
+    "LandArea": "521.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "SD"
+  },
+  {
+    "CountyName": "Yankton County, SD",
+    "District": "11",
+    "Population": "21652",
+    "LandArea": "521.55",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "SD"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]153-  (em, i, mt, rtb, rts, se, spa, st) South Bend[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "110",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "153-|South Bend|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "110",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, mt, rtb, rts, se, spa, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]56475 Peppermint Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "113",
+    "editFieldNames": "Address1",
+    "editFieldValues": "56475 Peppermint Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]South Bend, IN 46619[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "113",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "South Bend|IN|46619",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](574) 287-8655[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "214",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(574) 287-8655",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](574) 233-5234[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "215",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(574) 233-5234",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@ibew153.com\" target=\"_blank\">ibew@ibew153.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "109",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@ibew153.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew153.com\" target=\"_blank\">www.ibew153.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "110",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew153.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael J. Leda[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Leda||{ \"MemberID\" : \"339\",\"luid\": \"110\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"56475 Peppermint Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Bend\",\"state\":\"IN\",\"zip\":\"46619\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kathryn S. Bennitt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kathryn|S.|Bennitt||{ \"MemberID\" : \"341\",\"luid\": \"110\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"56475 Peppermint Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Bend\",\"state\":\"IN\",\"zip\":\"46619\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael J. Leda[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3434",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Leda||{ \"MemberID\" : \"3434\",\"luid\": \"110\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]John F. Jacobs[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "340",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|F.|Jacobs||{ \"MemberID\" : \"340\",\"luid\": \"110\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"56475 Peppermint Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Bend\",\"state\":\"IN\",\"zip\":\"46619\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "110",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

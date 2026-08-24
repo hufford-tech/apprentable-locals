@@ -1,0 +1,119 @@
+[
+  {
+    "CountyName": "Anoka County, MN",
+    "District": "6",
+    "Population": "298084",
+    "LandArea": "423.61",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Chisago County, MN",
+    "District": "6",
+    "Population": "41101",
+    "LandArea": "417.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Dakota County, MN",
+    "District": "6",
+    "Population": "355904",
+    "LandArea": "569.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Goodhue County, MN",
+    "District": "6",
+    "Population": "44127",
+    "LandArea": "758.27",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Isanti County, MN",
+    "District": "6",
+    "Population": "31287",
+    "LandArea": "439.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Kanabec County, MN",
+    "District": "6",
+    "Population": "14996",
+    "LandArea": "524.93",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Le Sueur County, MN",
+    "District": "6",
+    "Population": "25426",
+    "LandArea": "448.50",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Mille Lacs County, MN",
+    "District": "6",
+    "Population": "22330",
+    "LandArea": "574.47",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Pine County, MN",
+    "District": "6",
+    "Population": "26530",
+    "LandArea": "1411.04",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Ramsey County, MN",
+    "District": "6",
+    "Population": "511035",
+    "LandArea": "155.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Rice County, MN",
+    "District": "6",
+    "Population": "56665",
+    "LandArea": "497.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Sherburne County, MN",
+    "District": "6",
+    "Population": "64417",
+    "LandArea": "436.30",
+    "Percentage": "75%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Washington County, MN",
+    "District": "6",
+    "Population": "201130",
+    "LandArea": "391.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]962-  (u) Charlotte[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "962-|Charlotte|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "487",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1327 Beaman Place[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "454",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1327 Beaman Place",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite B5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "454",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite B5",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Greensboro, NC 27408[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "454",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Greensboro|NC|27408",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](336) 274-6826[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "866",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(336) 274-6826",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:local962@aol.com\" target=\"_blank\">local962@aol.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "462",
+    "editFieldNames": "Email",
+    "editFieldValues": "local962@aol.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Terry W. Williams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1492",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terry|W.|Williams||{ \"MemberID\" : \"1492\",\"luid\": \"487\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1327 Beaman Place\",\"addr2\":\"Suite B5\",\"addr3\":\"\",\"city\":\"Greensboro\",\"state\":\"NC\",\"zip\":\"27408\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ricky F. Sain[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4421",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ricky|F.|Sain||{ \"MemberID\" : \"4421\",\"luid\": \"487\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Terry W. Williams[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3796",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Terry|W.|Williams||{ \"MemberID\" : \"3796\",\"luid\": \"487\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Cody J. Barton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4422",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cody|J.|Barton||{ \"MemberID\" : \"4422\",\"luid\": \"487\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "487",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

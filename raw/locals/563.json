@@ -1,0 +1,172 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1245  (catv, em, govt, lctt, o, t, u) Vacaville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "563",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1245|Vacaville|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "563",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, govt, lctt, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]30 Orange Tree Circle[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "521",
+    "editFieldNames": "Address1",
+    "editFieldValues": "30 Orange Tree Circle",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Vacaville, CA 95687[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "521",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Vacaville|CA|95687",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](707) 452-2700[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "978",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 452-2700",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](707) 452-2701[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "979",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 452-2701",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:rldj@ibew1245.com\" target=\"_blank\">rldj@ibew1245.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "530",
+    "editFieldNames": "Email",
+    "editFieldValues": "rldj@ibew1245.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1245.com\" target=\"_blank\">www.ibew1245.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "563",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1245.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Dispatch[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4167",
+    "editFieldNames": "Name",
+    "editFieldValues": "Dispatch",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t],  [/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4167",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "||",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t][b](707) 452-2703[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1781",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 452-2703",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b]Fax [/b] (707) 452-2701[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1782",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 452-2701",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]B.M. [/b]Robert L. Dean Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1733",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Dean|Jr.|{ \"MemberID\" : \"1733\",\"luid\": \"563\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"30 Orange Tree Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vacaville\",\"state\":\"CA\",\"zip\":\"95687\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Pres. [/b]Cecelia De La Torre[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1732",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cecelia||De La Torre||{ \"MemberID\" : \"1732\",\"luid\": \"563\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"30 Orange Tree Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vacaville\",\"state\":\"CA\",\"zip\":\"95687\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]F.S. [/b]Robert L. Dean Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3866",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|Dean|Jr.|{ \"MemberID\" : \"3866\",\"luid\": \"563\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"30 Orange Tree Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vacaville\",\"state\":\"CA\",\"zip\":\"95687\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]R.S. [/b]Rachel A. Segale[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1731",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rachel|A.|Segale||{ \"MemberID\" : \"1731\",\"luid\": \"563\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"30 Orange Tree Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Vacaville\",\"state\":\"CA\",\"zip\":\"95687\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][b]Meets [/b]Various Times & Places[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "563",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Times & Places",
+    "datatype": "txt"
+  }
+]

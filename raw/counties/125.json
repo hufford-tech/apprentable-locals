@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Baker County, OR",
+    "District": "9",
+    "Population": "16741",
+    "LandArea": "3068.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Clackamas County, OR",
+    "District": "9",
+    "Population": "338391",
+    "LandArea": "1868.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Clark County, WA",
+    "District": "9",
+    "Population": "345238",
+    "LandArea": "628.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Clatsop County, OR",
+    "District": "9",
+    "Population": "35630",
+    "LandArea": "827.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Columbia County, OR",
+    "District": "9",
+    "Population": "43560",
+    "LandArea": "656.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Crook County, OR",
+    "District": "9",
+    "Population": "19182",
+    "LandArea": "2979.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Deschutes County, OR",
+    "District": "9",
+    "Population": "115367",
+    "LandArea": "3018.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Gilliam County, OR",
+    "District": "9",
+    "Population": "1915",
+    "LandArea": "1204.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Grant County, OR",
+    "District": "9",
+    "Population": "7935",
+    "LandArea": "4528.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Harney County, OR",
+    "District": "9",
+    "Population": "7609",
+    "LandArea": "10134.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Hood River County, OR",
+    "District": "9",
+    "Population": "20411",
+    "LandArea": "522.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Jefferson County, OR",
+    "District": "9",
+    "Population": "19009",
+    "LandArea": "1780.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Klickitat County, WA",
+    "District": "9",
+    "Population": "19161",
+    "LandArea": "1872.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Marion County, OR",
+    "District": "9",
+    "Population": "284834",
+    "LandArea": "1183.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Morrow County, OR",
+    "District": "9",
+    "Population": "10995",
+    "LandArea": "2032.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Multnomah County, OR",
+    "District": "9",
+    "Population": "660486",
+    "LandArea": "435.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Sherman County, OR",
+    "District": "9",
+    "Population": "1934",
+    "LandArea": "823.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Skamania County, WA",
+    "District": "9",
+    "Population": "9872",
+    "LandArea": "1656.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Tillamook County, OR",
+    "District": "9",
+    "Population": "24262",
+    "LandArea": "1102.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Umatilla County, OR",
+    "District": "9",
+    "Population": "70548",
+    "LandArea": "3215.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Union County, OR",
+    "District": "9",
+    "Population": "24530",
+    "LandArea": "2036.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Wallowa County, OR",
+    "District": "9",
+    "Population": "7226",
+    "LandArea": "3145.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Wasco County, OR",
+    "District": "9",
+    "Population": "23791",
+    "LandArea": "2381.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Washington County, OR",
+    "District": "9",
+    "Population": "445342",
+    "LandArea": "723.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Wheeler County, OR",
+    "District": "9",
+    "Population": "1547",
+    "LandArea": "1714.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  },
+  {
+    "CountyName": "Yamhill County, OR",
+    "District": "9",
+    "Population": "84992",
+    "LandArea": "715.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OR"
+  }
+]

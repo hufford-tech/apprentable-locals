@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "St. Tammany Parish, LA",
+    "District": "5",
+    "Population": "191268",
+    "LandArea": "854.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Tangipahoa Parish, LA",
+    "District": "5",
+    "Population": "100588",
+    "LandArea": "790.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Washington Parish, LA",
+    "District": "5",
+    "Population": "43926",
+    "LandArea": "669.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

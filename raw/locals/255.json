@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]436-  (i, lctt, o, u) El Dorado[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "255",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "436-|El Dorado|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "255",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, lctt, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]810 N Newton Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "249",
+    "editFieldNames": "Address1",
+    "editFieldValues": "810 N Newton Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]El Dorado, AR 71730[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "249",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "El Dorado|AR|71730",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 863-9181[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "473",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 863-9181",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](870) 863-6961[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "474",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 863-6961",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewl436@sbcglobal.net\" target=\"_blank\">ibewl436@sbcglobal.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "248",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewl436@sbcglobal.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]James C. French[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4430",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|C.|French||{ \"MemberID\" : \"4430\",\"luid\": \"255\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Daniel W. Pace[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "783",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|W.|Pace||{ \"MemberID\" : \"783\",\"luid\": \"255\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"810 N Newton Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"El Dorado\",\"state\":\"AR\",\"zip\":\"71730\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]James C. French[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4431",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|C.|French||{ \"MemberID\" : \"4431\",\"luid\": \"255\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jake W. Dolden[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4432",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jake|W.|Dolden||{ \"MemberID\" : \"4432\",\"luid\": \"255\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]3rd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "255",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

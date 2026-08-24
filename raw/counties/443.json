@@ -1,0 +1,695 @@
+[
+  {
+    "CountyName": "Autauga County, AL",
+    "District": "5",
+    "Population": "43671",
+    "LandArea": "595.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Autauga County, AL",
+    "District": "5",
+    "Population": "43671",
+    "LandArea": "595.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Baldwin County, AL",
+    "District": "5",
+    "Population": "140415",
+    "LandArea": "1596.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Barbour County, AL",
+    "District": "5",
+    "Population": "29038",
+    "LandArea": "884.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Bibb County, AL",
+    "District": "5",
+    "Population": "20826",
+    "LandArea": "623.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Blount County, AL",
+    "District": "5",
+    "Population": "51024",
+    "LandArea": "645.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Bullock, County, AL",
+    "District": "5",
+    "Population": "11714",
+    "LandArea": "625.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Bullock, County, AL",
+    "District": "5",
+    "Population": "11714",
+    "LandArea": "625.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Butler County, AL",
+    "District": "5",
+    "Population": "21399",
+    "LandArea": "776.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Butler County, AL",
+    "District": "5",
+    "Population": "21399",
+    "LandArea": "776.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Calhoun County, AL",
+    "District": "5",
+    "Population": "112249",
+    "LandArea": "608.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Chambers County, AL",
+    "District": "5",
+    "Population": "36583",
+    "LandArea": "597.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cherokee County, AL",
+    "District": "5",
+    "Population": "23988",
+    "LandArea": "553.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Chilton County, AL",
+    "District": "5",
+    "Population": "39593",
+    "LandArea": "693.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Chilton County, AL",
+    "District": "5",
+    "Population": "39593",
+    "LandArea": "693.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Choctaw County, AL",
+    "District": "5",
+    "Population": "15922",
+    "LandArea": "913.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Clarke County, AL",
+    "District": "5",
+    "Population": "27867",
+    "LandArea": "1238.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Clay County, AL",
+    "District": "5",
+    "Population": "14254",
+    "LandArea": "605.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cleburne County, AL",
+    "District": "5",
+    "Population": "14123",
+    "LandArea": "560.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Coffee County, AL",
+    "District": "5",
+    "Population": "43615",
+    "LandArea": "678.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Coffee County, AL",
+    "District": "5",
+    "Population": "43615",
+    "LandArea": "678.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Conecuh County, AL",
+    "District": "5",
+    "Population": "14089",
+    "LandArea": "850.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Coosa County, AL",
+    "District": "5",
+    "Population": "12202",
+    "LandArea": "652.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Coosa County, AL",
+    "District": "5",
+    "Population": "12202",
+    "LandArea": "652.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Covington County, AL",
+    "District": "5",
+    "Population": "37631",
+    "LandArea": "1033.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Covington County, AL",
+    "District": "5",
+    "Population": "37631",
+    "LandArea": "1033.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Crenshaw County, AL",
+    "District": "5",
+    "Population": "13665",
+    "LandArea": "609.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Crenshaw County, AL",
+    "District": "5",
+    "Population": "13665",
+    "LandArea": "609.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Cullman County, AL",
+    "District": "5",
+    "Population": "77483",
+    "LandArea": "738.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Dale County, AL",
+    "District": "5",
+    "Population": "49129",
+    "LandArea": "561.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Dale County, AL",
+    "District": "5",
+    "Population": "49129",
+    "LandArea": "561.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Dallas County, AL",
+    "District": "5",
+    "Population": "46365",
+    "LandArea": "980.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Dallas County, AL",
+    "District": "5",
+    "Population": "46365",
+    "LandArea": "980.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Elmore County, AL",
+    "District": "5",
+    "Population": "65874",
+    "LandArea": "621.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Elmore County, AL",
+    "District": "5",
+    "Population": "65874",
+    "LandArea": "621.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Escambia County, AL",
+    "District": "5",
+    "Population": "38440",
+    "LandArea": "947.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Etowah County, AL",
+    "District": "5",
+    "Population": "103459",
+    "LandArea": "534.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Fayette County, AL",
+    "District": "5",
+    "Population": "18495",
+    "LandArea": "627.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Geneva County, AL",
+    "District": "5",
+    "Population": "25764",
+    "LandArea": "576.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Geneva County, AL",
+    "District": "5",
+    "Population": "25764",
+    "LandArea": "576.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Greene County, AL",
+    "District": "5",
+    "Population": "9974",
+    "LandArea": "645.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Hale County, AL",
+    "District": "5",
+    "Population": "17185",
+    "LandArea": "643.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Henry County, AL",
+    "District": "5",
+    "Population": "16310",
+    "LandArea": "561.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Houston County, AL",
+    "District": "5",
+    "Population": "88787",
+    "LandArea": "580.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Houston County, AL",
+    "District": "5",
+    "Population": "88787",
+    "LandArea": "580.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Jefferson County, AL",
+    "District": "5",
+    "Population": "662047",
+    "LandArea": "1112.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lamar County, AL",
+    "District": "5",
+    "Population": "15904",
+    "LandArea": "604.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lee County, AL",
+    "District": "5",
+    "Population": "115092",
+    "LandArea": "608.71",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lee County, AL",
+    "District": "5",
+    "Population": "115092",
+    "LandArea": "608.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lowndes County, AL",
+    "District": "5",
+    "Population": "13473",
+    "LandArea": "717.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Lowndes County, AL",
+    "District": "5",
+    "Population": "13473",
+    "LandArea": "717.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Macon County, AL",
+    "District": "5",
+    "Population": "24105",
+    "LandArea": "610.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Macon County, AL",
+    "District": "5",
+    "Population": "24105",
+    "LandArea": "610.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marengo County, AL",
+    "District": "5",
+    "Population": "22539",
+    "LandArea": "977.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Marshall County, AL",
+    "District": "5",
+    "Population": "82231",
+    "LandArea": "567.06",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Mobile County, AL",
+    "District": "5",
+    "Population": "399843",
+    "LandArea": "1233.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Monroe County, AL",
+    "District": "5",
+    "Population": "24324",
+    "LandArea": "1025.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Montgomery County, AL",
+    "District": "5",
+    "Population": "223510",
+    "LandArea": "789.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Montgomery County, AL",
+    "District": "5",
+    "Population": "223510",
+    "LandArea": "789.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Perry County, AL",
+    "District": "5",
+    "Population": "11861",
+    "LandArea": "719.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Perry County, AL",
+    "District": "5",
+    "Population": "11861",
+    "LandArea": "719.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Pickens County, AL",
+    "District": "5",
+    "Population": "20949",
+    "LandArea": "881.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Pike County, AL",
+    "District": "5",
+    "Population": "29605",
+    "LandArea": "671.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Pike County, AL",
+    "District": "5",
+    "Population": "29605",
+    "LandArea": "671.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Randolph County, Al",
+    "District": "5",
+    "Population": "22380",
+    "LandArea": "581.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Russell County, AL",
+    "District": "5",
+    "Population": "49756",
+    "LandArea": "641.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Shelby County, AL",
+    "District": "5",
+    "Population": "143293",
+    "LandArea": "794.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "St. Clair County, AL",
+    "District": "5",
+    "Population": "64742",
+    "LandArea": "633.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Sumter County, AL",
+    "District": "5",
+    "Population": "14798",
+    "LandArea": "904.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Talladega County, AL",
+    "District": "5",
+    "Population": "80321",
+    "LandArea": "739.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Tallapoosa County, AL",
+    "District": "5",
+    "Population": "41475",
+    "LandArea": "717.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Tallapoosa County, AL",
+    "District": "5",
+    "Population": "41475",
+    "LandArea": "717.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Tuscaloosa County, AL",
+    "District": "5",
+    "Population": "164875",
+    "LandArea": "1324.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Walker County, AL",
+    "District": "5",
+    "Population": "70713",
+    "LandArea": "794.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Washington County, AL",
+    "District": "5",
+    "Population": "18097",
+    "LandArea": "1080.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Wilcox County, AL",
+    "District": "5",
+    "Population": "13183",
+    "LandArea": "888.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Wilcox County, AL",
+    "District": "5",
+    "Population": "13183",
+    "LandArea": "888.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "AL"
+  }
+]

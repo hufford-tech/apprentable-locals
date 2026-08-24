@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2166  (i) Fredericton, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "792",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2166|Fredericton|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "792",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]681 Union Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "684",
+    "editFieldNames": "Address1",
+    "editFieldValues": "681 Union Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Fredericton, NB E3A 3N8[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "684",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Fredericton|NB|E3A 3N8",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](506) 452-0111[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1310",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 452-0111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibewlocal2166.com\" target=\"_blank\">admin@ibewlocal2166.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "734",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibewlocal2166.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2166.com\" target=\"_blank\">www.ibewlocal2166.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "792",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2166.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Daniel Poitras[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2414",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel||Poitras||{ \"MemberID\" : \"2414\",\"luid\": \"792\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"681 Union Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fredericton\",\"state\":\"NB\",\"zip\":\"E3A 3N8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Denis V. Savoie[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2413",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Denis|V.|Savoie||{ \"MemberID\" : \"2413\",\"luid\": \"792\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"681 Union Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fredericton\",\"state\":\"NB\",\"zip\":\"E3A 3N8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Daniel Poitras[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4114",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel||Poitras||{ \"MemberID\" : \"4114\",\"luid\": \"792\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Peter J. Musinka[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2415",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Peter|J.|Musinka||{ \"MemberID\" : \"2415\",\"luid\": \"792\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"681 Union Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fredericton\",\"state\":\"NB\",\"zip\":\"E3A 3N8\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

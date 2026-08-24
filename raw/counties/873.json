@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Clinton County, IN",
+    "District": "6",
+    "Population": "33866",
+    "LandArea": "405.10",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Grant County, IN",
+    "District": "6",
+    "Population": "73403",
+    "LandArea": "414.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Howard County, IN",
+    "District": "6",
+    "Population": "84964",
+    "LandArea": "293.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Miami County, IN",
+    "District": "6",
+    "Population": "36082",
+    "LandArea": "375.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Tipton County, IN",
+    "District": "6",
+    "Population": "16577",
+    "LandArea": "260.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wabash County, IN",
+    "District": "6",
+    "Population": "34960",
+    "LandArea": "413.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IN"
+  }
+]

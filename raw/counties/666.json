@@ -1,0 +1,434 @@
+[
+  {
+    "CountyName": "Amelia County, VA",
+    "District": "4",
+    "Population": "11400",
+    "LandArea": "356.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Amelia County, VA",
+    "District": "4",
+    "Population": "11400",
+    "LandArea": "356.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Caroline County, VA",
+    "District": "4",
+    "Population": "22121",
+    "LandArea": "532.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Caroline County, VA",
+    "District": "4",
+    "Population": "22121",
+    "LandArea": "532.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Charles City County, VA",
+    "District": "4",
+    "Population": "6926",
+    "LandArea": "182.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Charles City County, VA",
+    "District": "4",
+    "Population": "6926",
+    "LandArea": "182.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Chesterfield County, VA",
+    "District": "4",
+    "Population": "259903",
+    "LandArea": "425.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Chesterfield County, VA",
+    "District": "4",
+    "Population": "259903",
+    "LandArea": "425.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Colonial Heights City, VA",
+    "District": "4",
+    "Population": "16897",
+    "LandArea": "7.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Colonial Heights City, VA",
+    "District": "4",
+    "Population": "16897",
+    "LandArea": "7.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Cumberland County, VA",
+    "District": "4",
+    "Population": "9017",
+    "LandArea": "298.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Cumberland County, VA",
+    "District": "4",
+    "Population": "9017",
+    "LandArea": "298.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Dinwiddie County, VA",
+    "District": "4",
+    "Population": "24533",
+    "LandArea": "503.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Dinwiddie County, VA",
+    "District": "4",
+    "Population": "24533",
+    "LandArea": "503.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Essex County, VA",
+    "District": "4",
+    "Population": "9989",
+    "LandArea": "257.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Essex County, VA",
+    "District": "4",
+    "Population": "9989",
+    "LandArea": "257.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Goochland County, VA",
+    "District": "4",
+    "Population": "16863",
+    "LandArea": "284.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Goochland County, VA",
+    "District": "4",
+    "Population": "16863",
+    "LandArea": "284.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hanover County, VA",
+    "District": "4",
+    "Population": "86320",
+    "LandArea": "472.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hanover County, VA",
+    "District": "4",
+    "Population": "86320",
+    "LandArea": "472.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Henrico County, VA",
+    "District": "4",
+    "Population": "262300",
+    "LandArea": "238.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Henrico County, VA",
+    "District": "4",
+    "Population": "262300",
+    "LandArea": "238.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hopewell City, VA",
+    "District": "4",
+    "Population": "22354",
+    "LandArea": "10.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hopewell City, VA",
+    "District": "4",
+    "Population": "22354",
+    "LandArea": "10.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "James City County, VA",
+    "District": "4",
+    "Population": "48102",
+    "LandArea": "142.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "James City County, VA",
+    "District": "4",
+    "Population": "48102",
+    "LandArea": "142.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "King and Queen County, VA",
+    "District": "4",
+    "Population": "6630",
+    "LandArea": "316.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "King and Queen County, VA",
+    "District": "4",
+    "Population": "6630",
+    "LandArea": "316.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "King William County, VA",
+    "District": "4",
+    "Population": "13146",
+    "LandArea": "275.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "King William County, VA",
+    "District": "4",
+    "Population": "13146",
+    "LandArea": "275.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "New Kent County, VA",
+    "District": "4",
+    "Population": "13462",
+    "LandArea": "209.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "New Kent County, VA",
+    "District": "4",
+    "Population": "13462",
+    "LandArea": "209.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Nottoway County, VA",
+    "District": "4",
+    "Population": "15725",
+    "LandArea": "314.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Nottoway County, VA",
+    "District": "4",
+    "Population": "15725",
+    "LandArea": "314.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Petersburg City, VA",
+    "District": "4",
+    "Population": "33740",
+    "LandArea": "22.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Petersburg City, VA",
+    "District": "4",
+    "Population": "33740",
+    "LandArea": "22.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Powhatan County, VA",
+    "District": "4",
+    "Population": "22377",
+    "LandArea": "261.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Powhatan County, VA",
+    "District": "4",
+    "Population": "22377",
+    "LandArea": "261.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Prince George County, VA",
+    "District": "4",
+    "Population": "33047",
+    "LandArea": "265.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Prince George County, VA",
+    "District": "4",
+    "Population": "33047",
+    "LandArea": "265.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Richmond City, VA",
+    "District": "4",
+    "Population": "197790",
+    "LandArea": "60.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Richmond City, VA",
+    "District": "4",
+    "Population": "197790",
+    "LandArea": "60.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Surry County, VA",
+    "District": "4",
+    "Population": "6829",
+    "LandArea": "279.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Surry County, VA",
+    "District": "4",
+    "Population": "6829",
+    "LandArea": "279.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Sussex County, VA",
+    "District": "4",
+    "Population": "12504",
+    "LandArea": "490.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Sussex County, VA",
+    "District": "4",
+    "Population": "12504",
+    "LandArea": "490.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Williamsburg City, VA",
+    "District": "4",
+    "Population": "11998",
+    "LandArea": "8.54",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Williamsburg City, VA",
+    "District": "4",
+    "Population": "11998",
+    "LandArea": "8.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  }
+]

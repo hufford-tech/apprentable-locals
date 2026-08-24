@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]783-  (rr) St. Paul[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "428",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "783-|St. Paul|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "428",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]34910 383rd Place[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5635",
+    "editFieldNames": "Address1",
+    "editFieldValues": "34910 383rd Place",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Aitkin, MN 56431[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5635",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Aitkin|MN|56431",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](218) 838-6576[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2087",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(218) 838-6576",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:bdonnelly01.bd@gmail.com\" target=\"_blank\">bdonnelly01.bd@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2138",
+    "editFieldNames": "Email",
+    "editFieldValues": "bdonnelly01.bd@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Michael C Lehrer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4305",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|C|Lehrer||{ \"MemberID\" : \"4305\",\"luid\": \"428\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Michael C Lehrer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4306",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|C|Lehrer||{ \"MemberID\" : \"4306\",\"luid\": \"428\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Christopher G. Weber[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1318",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|G.|Weber||{ \"MemberID\" : \"1318\",\"luid\": \"428\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13521 Kenwood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Baxter\",\"state\":\"MN\",\"zip\":\"56425\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Mark A. Mankowski[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1316",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|A.|Mankowski||{ \"MemberID\" : \"1316\",\"luid\": \"428\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1813 Sunset Trail\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brainerd\",\"state\":\"MN\",\"zip\":\"56401\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]American Legion, 708 Front Street, Brainerd, 2nd Tuesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "428",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Legion, 708 Front Street, Brainerd, 2nd Tuesday, 4 pm",
+    "datatype": "txt"
+  }
+]

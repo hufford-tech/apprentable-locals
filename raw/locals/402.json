@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]738-  (em, o, u) Longview[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "402",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "738-|Longview|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "402",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2914 E Marshall Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "396",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2914 E Marshall Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Longview, TX 75601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "396",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Longview|TX|75601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](903) 753-7646[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "734",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 753-7646",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](903) 758-7222[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "735",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(903) 758-7222",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew738@swbell.net\" target=\"_blank\">ibew738@swbell.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "387",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew738@swbell.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Michael W. Henry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1230",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Henry||{ \"MemberID\" : \"1230\",\"luid\": \"402\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"204 E Woodland Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marshall\",\"state\":\"TX\",\"zip\":\"75672\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Ryan Hall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1232",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan||Hall||{ \"MemberID\" : \"1232\",\"luid\": \"402\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"306 Pine Circle\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Hallsville\",\"state\":\"TX\",\"zip\":\"75650\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Michael W. Henry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3711",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|W.|Henry||{ \"MemberID\" : \"3711\",\"luid\": \"402\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"204 E Woodland Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marshall\",\"state\":\"TX\",\"zip\":\"75672\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Charles A. Hagar[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1231",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|A.|Hagar||{ \"MemberID\" : \"1231\",\"luid\": \"402\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"12627 Brad Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Diana\",\"state\":\"TX\",\"zip\":\"75640\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]Last Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "402",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Last Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

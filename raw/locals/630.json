@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1555  (i) Moncton, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1555|Moncton|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "630",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]96 Norwood Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "587",
+    "editFieldNames": "Address1",
+    "editFieldValues": "96 Norwood Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 305[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "587",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 305",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Moncton, NB E1C 6L9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "587",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Moncton|NB|E1C 6L9",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](506) 857-3228[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1093",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 857-3228",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](506) 857-0733[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1094",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 857-0733",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:admin@ibew1555.ca\" target=\"_blank\">admin@ibew1555.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "592",
+    "editFieldNames": "Email",
+    "editFieldValues": "admin@ibew1555.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://ibew1555.ca\" target=\"_blank\">ibew1555.ca</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "Website",
+    "editFieldValues": "ibew1555.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jeff Morash[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1937",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff||Morash||{ \"MemberID\" : \"1937\",\"luid\": \"630\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"96 Norwood Avenue\",\"addr2\":\"Suite 305\",\"addr3\":\"\",\"city\":\"Moncton\",\"state\":\"NB\",\"zip\":\"E1C 6L9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Nathan J. Hoffe[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1936",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nathan|J.|Hoffe||{ \"MemberID\" : \"1936\",\"luid\": \"630\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"96 Norwood Avenue\",\"addr2\":\"Suite 305\",\"addr3\":\"\",\"city\":\"Moncton\",\"state\":\"NB\",\"zip\":\"E1C 6L9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jeff Morash[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3932",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeff||Morash||{ \"MemberID\" : \"3932\",\"luid\": \"630\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Willame Field[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1935",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Willame||Field||{ \"MemberID\" : \"1935\",\"luid\": \"630\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"96 Norwood Avenue\",\"addr2\":\"Suite 305\",\"addr3\":\"\",\"city\":\"Moncton\",\"state\":\"NB\",\"zip\":\"E1C 6L9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Room 226, 1st Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "630",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Room 226, 1st Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

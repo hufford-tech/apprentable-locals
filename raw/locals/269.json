@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]459-  (catv, ees, em, govt, mt, ptc, so, u) Johnstown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "269",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "459-|Johnstown|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "269",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, ees, em, govt, mt, ptc, so, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]408 Broad Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "Address1",
+    "editFieldValues": "408 Broad Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Johnstown, PA 15906[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "262",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Johnstown|PA|15906",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](814) 535-7655[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "500",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 535-7655",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](814) 535-7657[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "501",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(814) 535-7657",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew.local459@gmail.com\" target=\"_blank\">ibew.local459@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "260",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew.local459@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew459.org\" target=\"_blank\">www.ibew459.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "269",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew459.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Barry R. Hixson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "828",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barry|R.|Hixson||{ \"MemberID\" : \"828\",\"luid\": \"269\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"408 Broad Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Johnstown\",\"state\":\"PA\",\"zip\":\"15906\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Aric L. Baker[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "827",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aric|L.|Baker||{ \"MemberID\" : \"827\",\"luid\": \"269\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"408 Broad Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Johnstown\",\"state\":\"PA\",\"zip\":\"15906\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Barry R. Hixson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3583",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Barry|R.|Hixson||{ \"MemberID\" : \"3583\",\"luid\": \"269\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Sara J. Detweiler[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "826",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sara|J.|Detweiler||{ \"MemberID\" : \"826\",\"luid\": \"269\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"408 Broad Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Johnstown\",\"state\":\"PA\",\"zip\":\"15906\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Northwest District (Erie, Jamestown, NY, Warren): 2nd Monday, 5 PM; Erie (January, April, July & October; 5 PM Jamestown (March, June, September & December) 6 PM Warren (February, May, August & November): 2nd Monday, 6 PM; Central District (Clearfield): 2nd Wednesday, 6 PM; Northeast",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "269",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Northwest District (Erie, Jamestown, NY, Warren): 2nd Monday, 5 PM; Erie (January, April, July & October; 5 PM Jamestown (March, June, September & December) 6 PM Warren (February, May, August & November): 2nd Monday, 6 PM; Central District (Clearfield): 2nd Wednesday, 6 PM; Northeast District (Sayre",
+    "datatype": "txt"
+  }
+]

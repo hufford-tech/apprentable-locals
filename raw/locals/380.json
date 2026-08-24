@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]696-  (u) Bellaire[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "380",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "696-|Bellaire|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "380",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]63 Grafton Extension[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7264",
+    "editFieldNames": "Address1",
+    "editFieldValues": "63 Grafton Extension",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Steubenville, OH 43952[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7264",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Steubenville|OH|43952",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](740) 381-5409[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2030",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(740) 381-5409",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew696@gmail.com\" target=\"_blank\">ibew696@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1941",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew696@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Greg Verhovec, 92 County Road 151A, Rayland, OH  43943[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1166",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Greg||Verhovec||{ \"MemberID\" : \"1166\",\"luid\": \"380\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"92 County Road 151A\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rayland\",\"state\":\"OH\",\"zip\":\"43943\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Greg W Verhovec[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4349",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Greg|W|Verhovec||{ \"MemberID\" : \"4349\",\"luid\": \"380\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Lee V. Grafton, 63 Grafton Extension, Steubenville, OH  43952[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1163",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lee|V.|Grafton||{ \"MemberID\" : \"1163\",\"luid\": \"380\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"63 Grafton Extension\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Steubenville\",\"state\":\"OH\",\"zip\":\"43952\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jared B Lapp[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4350",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jared|B|Lapp||{ \"MemberID\" : \"4350\",\"luid\": \"380\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Manfred's, 4152 Sunset Boulevard, Steubenville, 2nd Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "380",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Manfred's, 4152 Sunset Boulevard, Steubenville, 2nd Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

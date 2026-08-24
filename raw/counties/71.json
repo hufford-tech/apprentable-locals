@@ -1,0 +1,740 @@
+[
+  {
+    "CountyName": "Adams County, OH",
+    "District": "4",
+    "Population": "27330",
+    "LandArea": "583.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ashland County, OH",
+    "District": "4",
+    "Population": "52523",
+    "LandArea": "424.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ashtabula County, OH",
+    "District": "4",
+    "Population": "102728",
+    "LandArea": "702.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Athens County, OH",
+    "District": "4",
+    "Population": "62223",
+    "LandArea": "506.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Auglaize County, OH",
+    "District": "4",
+    "Population": "46611",
+    "LandArea": "401.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Belmont County, OH",
+    "District": "4",
+    "Population": "70226",
+    "LandArea": "537.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Boone County, KY",
+    "District": "4",
+    "Population": "85991",
+    "LandArea": "246.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bracken County, KY",
+    "District": "4",
+    "Population": "8279",
+    "LandArea": "203.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Brooke County, WV",
+    "District": "4",
+    "Population": "25447",
+    "LandArea": "88.85",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Brown County, OH",
+    "District": "4",
+    "Population": "42285",
+    "LandArea": "491.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Butler County, OH",
+    "District": "4",
+    "Population": "332807",
+    "LandArea": "467.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Campbell County, KY",
+    "District": "4",
+    "Population": "88616",
+    "LandArea": "151.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carroll County, OH",
+    "District": "4",
+    "Population": "28836",
+    "LandArea": "394.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Champaign County, OH",
+    "District": "4",
+    "Population": "38890",
+    "LandArea": "428.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Clark County, OH",
+    "District": "4",
+    "Population": "144742",
+    "LandArea": "399.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Clermont County, OH",
+    "District": "4",
+    "Population": "177977",
+    "LandArea": "451.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Clinton County, OH",
+    "District": "4",
+    "Population": "40543",
+    "LandArea": "410.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Columbiana County, OH",
+    "District": "4",
+    "Population": "112075",
+    "LandArea": "532.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Coshocton County, OH",
+    "District": "4",
+    "Population": "36655",
+    "LandArea": "564.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Crawford County, OH",
+    "District": "4",
+    "Population": "46966",
+    "LandArea": "402.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Cuyahoga County, OH",
+    "District": "4",
+    "Population": "1393978",
+    "LandArea": "458.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Darke County, OH",
+    "District": "4",
+    "Population": "53309",
+    "LandArea": "599.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Dearborn County, IN",
+    "District": "6",
+    "Population": "46109",
+    "LandArea": "305.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Delaware County, OH",
+    "District": "4",
+    "Population": "109989",
+    "LandArea": "442.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fairfield County, OH",
+    "District": "4",
+    "Population": "122759",
+    "LandArea": "505.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Fayette County, OH",
+    "District": "4",
+    "Population": "28433",
+    "LandArea": "406.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Franklin County, OH",
+    "District": "4",
+    "Population": "1068978",
+    "LandArea": "539.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Gallatin County, KY",
+    "District": "4",
+    "Population": "7870",
+    "LandArea": "98.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Gallia County, OH",
+    "District": "4",
+    "Population": "31069",
+    "LandArea": "468.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Geauga County, OH",
+    "District": "4",
+    "Population": "90895",
+    "LandArea": "403.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Grant County, KY",
+    "District": "4",
+    "Population": "22384",
+    "LandArea": "259.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Greene County, OH",
+    "District": "4",
+    "Population": "147886",
+    "LandArea": "414.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Guernsey County, OH",
+    "District": "4",
+    "Population": "40792",
+    "LandArea": "521.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hamilton County, OH",
+    "District": "4",
+    "Population": "845303",
+    "LandArea": "407.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hancock County, WV",
+    "District": "4",
+    "Population": "32667",
+    "LandArea": "82.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WV"
+  },
+  {
+    "CountyName": "Harrison County, OH",
+    "District": "4",
+    "Population": "15856",
+    "LandArea": "403.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Highland County, OH",
+    "District": "4",
+    "Population": "40875",
+    "LandArea": "553.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Hocking County, OH",
+    "District": "4",
+    "Population": "28241",
+    "LandArea": "422.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Holmes County, OH",
+    "District": "4",
+    "Population": "38943",
+    "LandArea": "422.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Jackson County, OH",
+    "District": "4",
+    "Population": "32641",
+    "LandArea": "420.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Jefferson County, OH",
+    "District": "4",
+    "Population": "73894",
+    "LandArea": "409.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Kenton County, KY",
+    "District": "4",
+    "Population": "151464",
+    "LandArea": "161.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Knox County, OH",
+    "District": "4",
+    "Population": "54500",
+    "LandArea": "527.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lake County, OH",
+    "District": "4",
+    "Population": "227511",
+    "LandArea": "228.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lawrence County, OH",
+    "District": "4",
+    "Population": "62319",
+    "LandArea": "454.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Licking County, OH",
+    "District": "4",
+    "Population": "145491",
+    "LandArea": "686.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Logan County, OH",
+    "District": "4",
+    "Population": "46005",
+    "LandArea": "458.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lorain County, OH",
+    "District": "4",
+    "Population": "284664",
+    "LandArea": "492.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Madison County, OH",
+    "District": "4",
+    "Population": "40213",
+    "LandArea": "465.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Mahoning County, OH",
+    "District": "4",
+    "Population": "257555",
+    "LandArea": "415.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Marion County, OH",
+    "District": "4",
+    "Population": "66217",
+    "LandArea": "403.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Medina County, OH",
+    "District": "4",
+    "Population": "151095",
+    "LandArea": "421.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Meigs County, OH",
+    "District": "4",
+    "Population": "23072",
+    "LandArea": "429.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Mercer County, OH",
+    "District": "4",
+    "Population": "40924",
+    "LandArea": "463.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Miami County, OH",
+    "District": "4",
+    "Population": "98868",
+    "LandArea": "407.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Monroe County, OH",
+    "District": "4",
+    "Population": "15180",
+    "LandArea": "455.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Montgomery County, OH",
+    "District": "4",
+    "Population": "559062",
+    "LandArea": "461.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Morgan County, OH",
+    "District": "4",
+    "Population": "14897",
+    "LandArea": "417.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Morrow County, OH",
+    "District": "4",
+    "Population": "31628",
+    "LandArea": "406.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Muskingum County, OH",
+    "District": "4",
+    "Population": "84585",
+    "LandArea": "664.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Noble County, OH",
+    "District": "4",
+    "Population": "14058",
+    "LandArea": "399.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ohio County, IN",
+    "District": "6",
+    "Population": "5623",
+    "LandArea": "86.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pendleton County, KY",
+    "District": "4",
+    "Population": "14390",
+    "LandArea": "280.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Perry County, OH",
+    "District": "4",
+    "Population": "34078",
+    "LandArea": "409.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Pickaway County, OH",
+    "District": "4",
+    "Population": "52727",
+    "LandArea": "501.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Pike County, OH",
+    "District": "4",
+    "Population": "27695",
+    "LandArea": "441.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Portage County, OH",
+    "District": "4",
+    "Population": "152061",
+    "LandArea": "492.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Preble County, OH",
+    "District": "4",
+    "Population": "42337",
+    "LandArea": "424.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Richland County, OH",
+    "District": "4",
+    "Population": "128852",
+    "LandArea": "496.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Ross County, OH",
+    "District": "4",
+    "Population": "73345",
+    "LandArea": "688.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Scioto County, OH",
+    "District": "4",
+    "Population": "79195",
+    "LandArea": "612.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Shelby County, OH",
+    "District": "4",
+    "Population": "47910",
+    "LandArea": "409.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Stark County, OH",
+    "District": "4",
+    "Population": "378098",
+    "LandArea": "576.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Summit County, OH",
+    "District": "4",
+    "Population": "542899",
+    "LandArea": "412.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Switzerland County, IN",
+    "District": "6",
+    "Population": "9065",
+    "LandArea": "221.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Trumbull County, OH",
+    "District": "4",
+    "Population": "225116",
+    "LandArea": "616.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Tuscarawas County, OH",
+    "District": "4",
+    "Population": "90914",
+    "LandArea": "567.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Union County, OH",
+    "District": "4",
+    "Population": "40909",
+    "LandArea": "436.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Vinton County, OH",
+    "District": "4",
+    "Population": "12806",
+    "LandArea": "414.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Warren County, OH",
+    "District": "4",
+    "Population": "158383",
+    "LandArea": "399.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Washington County, OH",
+    "District": "4",
+    "Population": "63251",
+    "LandArea": "635.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wayne County, OH",
+    "District": "4",
+    "Population": "111564",
+    "LandArea": "555.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "OH"
+  }
+]

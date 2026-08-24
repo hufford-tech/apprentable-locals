@@ -1,0 +1,290 @@
+[
+  {
+    "CountyName": "Beaufort County, NC",
+    "District": "10",
+    "Population": "44958",
+    "LandArea": "827.97",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Beaufort County, NC",
+    "District": "10",
+    "Population": "44958",
+    "LandArea": "827.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Bladen County, NC",
+    "District": "10",
+    "Population": "32278",
+    "LandArea": "874.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Bladen County, NC",
+    "District": "10",
+    "Population": "32278",
+    "LandArea": "874.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Brunswick County, NC",
+    "District": "10",
+    "Population": "73143",
+    "LandArea": "854.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Brunswick County, NC",
+    "District": "10",
+    "Population": "73143",
+    "LandArea": "854.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Carteret County, NC",
+    "District": "10",
+    "Population": "59383",
+    "LandArea": "519.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Carteret County, NC",
+    "District": "10",
+    "Population": "59383",
+    "LandArea": "519.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Columbus County, NC",
+    "District": "10",
+    "Population": "54749",
+    "LandArea": "936.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Columbus County, NC",
+    "District": "10",
+    "Population": "54749",
+    "LandArea": "936.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Craven County, NC",
+    "District": "10",
+    "Population": "91436",
+    "LandArea": "708.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Craven County, NC",
+    "District": "10",
+    "Population": "91436",
+    "LandArea": "708.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Duplin County, NC",
+    "District": "10",
+    "Population": "49063",
+    "LandArea": "817.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Duplin County, NC",
+    "District": "10",
+    "Population": "49063",
+    "LandArea": "817.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hyde County, NC",
+    "District": "10",
+    "Population": "5826",
+    "LandArea": "612.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hyde County, NC",
+    "District": "10",
+    "Population": "5826",
+    "LandArea": "612.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Jones County, NC",
+    "District": "10",
+    "Population": "10381",
+    "LandArea": "471.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Jones County, NC",
+    "District": "10",
+    "Population": "10381",
+    "LandArea": "471.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lenoir County, NC",
+    "District": "10",
+    "Population": "59648",
+    "LandArea": "399.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lenoir County, NC",
+    "District": "10",
+    "Population": "59648",
+    "LandArea": "399.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "New Hanover County, NC",
+    "District": "10",
+    "Population": "160307",
+    "LandArea": "198.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "New Hanover County, NC",
+    "District": "10",
+    "Population": "160307",
+    "LandArea": "198.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Onslow County, NC",
+    "District": "10",
+    "Population": "150355",
+    "LandArea": "766.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Onslow County, NC",
+    "District": "10",
+    "Population": "150355",
+    "LandArea": "766.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pamlico County, NC",
+    "District": "10",
+    "Population": "12934",
+    "LandArea": "336.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pamlico County, NC",
+    "District": "10",
+    "Population": "12934",
+    "LandArea": "336.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pender County, NC",
+    "District": "10",
+    "Population": "41082",
+    "LandArea": "870.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pender County, NC",
+    "District": "10",
+    "Population": "41082",
+    "LandArea": "870.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Robeson County, NC",
+    "District": "10",
+    "Population": "123339",
+    "LandArea": "948.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Robeson County, NC",
+    "District": "10",
+    "Population": "123339",
+    "LandArea": "948.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Sampson County, NC",
+    "District": "10",
+    "Population": "60161",
+    "LandArea": "945.45",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Sampson County, NC",
+    "District": "10",
+    "Population": "60161",
+    "LandArea": "945.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  }
+]

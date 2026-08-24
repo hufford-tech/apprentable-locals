@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Berks County, PA",
+    "District": "3",
+    "Population": "373638",
+    "LandArea": "858.88",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Bucks County, PA",
+    "District": "3",
+    "Population": "597635",
+    "LandArea": "607.38",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Carbon County, PA",
+    "District": "3",
+    "Population": "58802",
+    "LandArea": "381.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Lehigh County, PA",
+    "District": "3",
+    "Population": "312090",
+    "LandArea": "346.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Montgomery County, PA",
+    "District": "3",
+    "Population": "750097",
+    "LandArea": "483.12",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "Northampton County, PA",
+    "District": "3",
+    "Population": "267066",
+    "LandArea": "373.80",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

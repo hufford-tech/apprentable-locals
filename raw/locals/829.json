@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2322  (catv, t) Middleboro[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "829",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2322|Middleboro|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "829",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]106 W Grove Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "709",
+    "editFieldNames": "Address1",
+    "editFieldValues": "106 W Grove Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Middleboro, MA 02346[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "709",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Middleboro|MA|02346",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 947-2131[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1367",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 947-2131",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](508) 947-0038[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1368",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 947-0038",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:csilvia2322@yahoo.com\" target=\"_blank\">csilvia2322@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "761",
+    "editFieldNames": "Email",
+    "editFieldValues": "csilvia2322@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew2322.org\" target=\"_blank\">www.ibew2322.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "829",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew2322.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Eric T. Hetrick[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2522",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|T.|Hetrick||{ \"MemberID\" : \"2522\",\"luid\": \"829\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"570 Locust St\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Raynham\",\"state\":\"MA\",\"zip\":\"02767\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Christopher R. Jolls[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2523",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|R.|Jolls||{ \"MemberID\" : \"2523\",\"luid\": \"829\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"15 Anns Path\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"South Dennis\",\"state\":\"MA\",\"zip\":\"02660\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Eric T. Hetrick[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4153",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|T.|Hetrick||{ \"MemberID\" : \"4153\",\"luid\": \"829\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"570 Locust St\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Raynham\",\"state\":\"MA\",\"zip\":\"02767\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christopher N. Catino[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2524",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|N.|Catino||{ \"MemberID\" : \"2524\",\"luid\": \"829\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"256 Grange Park\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bridgewater\",\"state\":\"MA\",\"zip\":\"02324\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 2 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "829",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 2 pm",
+    "datatype": "txt"
+  }
+]

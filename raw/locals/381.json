@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]697-  (c, es, i, mt, se) Gary and Hammond[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "381",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "697-|Gary and Hammond|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "381",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, es, i, mt, se",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]7200 Mississippi Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "Address1",
+    "editFieldValues": "7200 Mississippi Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Merrillville, IN 46410[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Merrillville|IN|46410",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](219) 945-0697[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "699",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(219) 945-0697",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](219) 945-0650[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "700",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(219) 945-0650",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew697.org\" target=\"_blank\">info@ibew697.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "366",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew697.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew697.org\" target=\"_blank\">www.ibew697.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "381",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew697.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Felipe H. Hernandez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1167",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Felipe|H.|Hernandez||{ \"MemberID\" : \"1167\",\"luid\": \"381\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7200 Mississippi Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Merrillville\",\"state\":\"IN\",\"zip\":\"46410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Donald O. Bullock Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1168",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|O.|Bullock|Jr.|{ \"MemberID\" : \"1168\",\"luid\": \"381\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7200 Mississippi Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Merrillville\",\"state\":\"IN\",\"zip\":\"46410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Felipe H. Hernandez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3690",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Felipe|H.|Hernandez||{ \"MemberID\" : \"3690\",\"luid\": \"381\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Julianne C. Guidotti[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1169",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Julianne|C.|Guidotti||{ \"MemberID\" : \"1169\",\"luid\": \"381\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"7200 Mississippi Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Merrillville\",\"state\":\"IN\",\"zip\":\"46410\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "381",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

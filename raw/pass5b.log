@@ -1,0 +1,31 @@
+  [checkpoint] 25 extracted this run
+  [checkpoint] 50 extracted this run
+  [checkpoint] 75 extracted this run
+  [checkpoint] 100 extracted this run
+  [checkpoint] 125 extracted this run
+  [checkpoint] 150 extracted this run
+  [checkpoint] 175 extracted this run
+
+Done. Extracted this run: 172  Failures: 73
+Boilerplate-strip + cap: 31,937,643 chars -> 11,074,736 chars (65.3% reduction)
+  LU 617: Expecting value: line 1 column 1 (char 0)
+  LU 130: Expecting value: line 1 column 1 (char 0)
+  LU 43: no pages collected
+  LU 257: Expecting value: line 1 column 1 (char 0)
+  LU 743: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBszBMS7Z7gArJUmRH3'}
+  LU 223: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBt9gcEeWXwjN31gwoY'}
+  LU 143: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBtCPKcQqELgt1UhN7u'}
+  LU 577: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBtLppoERStXXgLfhT2'}
+  LU 910: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBtrzYMx276vr8P1ZiG'}
+  LU 649: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBtzw2Y6FSLjmYiHkzY'}
+  LU 64: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBu5JDA6pRv7f5Ef6VK'}
+  LU 700: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuDfzggoDQxXTz4G2m'}
+  LU 163: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuNvMxHZmbqGGfMSSY'}
+  LU 545: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuRjHAfch31wwQHVjq'}
+  LU 307: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuXPqzBafm6TYuhYtk'}
+  LU 1516: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuokMDYwkjqpCCdSsa'}
+  LU 488: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuweriP18DSA4kQ3E1'}
+  LU 756: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBuzmPJZ7GcnB7Z59Hi'}
+  LU 295: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBv6GnAkZF2pqyDccwE'}
+  LU 234: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdvBvMbmPYGNQBuAam8NT'}
+Wrote out/extraction_pass2only.csv: 172 rows

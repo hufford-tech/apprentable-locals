@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Androscoggin County, ME",
+    "District": "2",
+    "Population": "103793",
+    "LandArea": "470.27",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Franklin County, ME",
+    "District": "2",
+    "Population": "29467",
+    "LandArea": "1697.81",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Hancock County, ME",
+    "District": "2",
+    "Population": "51791",
+    "LandArea": "1587.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Kennebec County, ME",
+    "District": "2",
+    "Population": "117114",
+    "LandArea": "867.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Knox County, ME",
+    "District": "2",
+    "Population": "39618",
+    "LandArea": "365.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Lincoln County, ME",
+    "District": "2",
+    "Population": "33616",
+    "LandArea": "455.99",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Penobscot County, ME",
+    "District": "2",
+    "Population": "144919",
+    "LandArea": "3395.72",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Piscataquis County, ME",
+    "District": "2",
+    "Population": "17235",
+    "LandArea": "3966.22",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Sagadahoc County, ME",
+    "District": "2",
+    "Population": "35214",
+    "LandArea": "253.90",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Somerset County, ME",
+    "District": "2",
+    "Population": "50888",
+    "LandArea": "3926.50",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Waldo County, ME",
+    "District": "2",
+    "Population": "36280",
+    "LandArea": "729.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  },
+  {
+    "CountyName": "Washington County, ME",
+    "District": "2",
+    "Population": "33941",
+    "LandArea": "2568.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  }
+]

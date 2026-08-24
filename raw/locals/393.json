@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]721-  (u) Chattanooga[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "393",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "721-|Chattanooga|TN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "393",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1901 Payne Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7218",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1901 Payne Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Chattanooga, TN 37421[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7218",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Chattanooga|TN|37421",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](423) 443-1663[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2337",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(423) 443-1663",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:251williams@epbfi.com\" target=\"_blank\">251williams@epbfi.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "378",
+    "editFieldNames": "Email",
+    "editFieldValues": "251williams@epbfi.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]David C. Williams, 251 N Nick-A-Jack Road, Flintstone, GA  30725[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1204",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|C.|Williams||{ \"MemberID\" : \"1204\",\"luid\": \"393\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"251 N Nick-A-Jack Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flintstone\",\"state\":\"GA\",\"zip\":\"30725\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]David C. Williams, 251 N Nick-A-Jack Road, Flintstone, GA  30725[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3702",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|C.|Williams||{ \"MemberID\" : \"3702\",\"luid\": \"393\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"251 N Nick-A-Jack Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Flintstone\",\"state\":\"GA\",\"zip\":\"30725\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Gabriel C. Johnson, 1901 Payne Road, Chattanooga, TN  37421[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4242",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gabriel|C.|Johnson||{ \"MemberID\" : \"4242\",\"luid\": \"393\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]John D. Ralston, 1901 Payne Road, Chattanooga, TN  37421[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4243",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|D.|Ralston||{ \"MemberID\" : \"4243\",\"luid\": \"393\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3922 Volunteer Drive, 1st Tuesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "393",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3922 Volunteer Drive, 1st Tuesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

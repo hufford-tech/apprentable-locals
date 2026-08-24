@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1900  (govt, ptc, so, u) Washington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "708",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1900|Washington|DC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "708",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt, ptc, so, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1400 Mercantile Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "639",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1400 Mercantile Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 256[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "639",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 256",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Largo, MD 20774[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "639",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Largo|MD|20774",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](301) 322-6030[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1200",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 322-6030",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](301) 322-6181[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1201",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 322-6181",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:luoffice@ibew1900.org\" target=\"_blank\">luoffice@ibew1900.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "662",
+    "editFieldNames": "Email",
+    "editFieldValues": "luoffice@ibew1900.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1900.org\" target=\"_blank\">www.ibew1900.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "708",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1900.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jerry R. Williford Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2166",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|R.|Williford|Jr.|{ \"MemberID\" : \"2166\",\"luid\": \"708\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1400 Mercantile Lane\",\"addr2\":\"Suite 256\",\"addr3\":\"\",\"city\":\"Largo\",\"state\":\"MD\",\"zip\":\"20774\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jerry R. Williford Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4018",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|R.|Williford|Jr.|{ \"MemberID\" : \"4018\",\"luid\": \"708\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jerry R. Williford Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4019",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|R.|Williford|Jr.|{ \"MemberID\" : \"4019\",\"luid\": \"708\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Richard A. Strong[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2165",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|A.|Strong||{ \"MemberID\" : \"2165\",\"luid\": \"708\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1400 Mercantile Lane\",\"addr2\":\"Suite 256\",\"addr3\":\"\",\"city\":\"Largo\",\"state\":\"MD\",\"zip\":\"20774\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Central Membership: American Legion Post 136, 6900 Greenbelt Road, Greenbelt, MD, 1st Monday, 6 pm; North Membership: Hampton Inn, 5311 Buckeystown Pike, Frederick, MD, 1st Wednesday, 5 pm; South Membership: American Legion Post 238, 6265 Brandywine Road, Hughesville, MD,  1st Thursd",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "708",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Central Membership: American Legion Post 136, 6900 Greenbelt Road, Greenbelt, MD, 1st Monday, 6 pm; North Membership: Hampton Inn, 5311 Buckeystown Pike, Frederick, MD, 1st Wednesday, 5 pm; South Membership: American Legion Post 238, 6265 Brandywine Road, Hughesville, MD,  1st Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

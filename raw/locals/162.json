@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]261-  (et, mar, mo) Groton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "162",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "261-|Groton|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "162",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "et, mar, mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]18 Pleasant Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "165",
+    "editFieldNames": "Address1",
+    "editFieldValues": "18 Pleasant Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Groton, CT 06340[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "165",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Groton|CT|06340",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](860) 445-2224[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "307",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(860) 445-2224",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew261@gmail.com\" target=\"_blank\">ibew261@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "159",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew261@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Sean P. Banks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "502",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|P.|Banks||{ \"MemberID\" : \"502\",\"luid\": \"162\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"18 Pleasant Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Groton\",\"state\":\"CT\",\"zip\":\"06340\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Sean P. Banks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3478",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sean|P.|Banks||{ \"MemberID\" : \"3478\",\"luid\": \"162\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Ricardo Arriaga[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "503",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ricardo||Arriaga||{ \"MemberID\" : \"503\",\"luid\": \"162\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"18 Pleasant Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Groton\",\"state\":\"CT\",\"zip\":\"06340\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Michael P. Hicky, 84 High Street, Higganum, CT  06441[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "504",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|P.|Hicky||{ \"MemberID\" : \"504\",\"luid\": \"162\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"84 High Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Higganum\",\"state\":\"CT\",\"zip\":\"06441\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]2nd Tuesday, 2:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "162",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Tuesday, 2:45 pm",
+    "datatype": "txt"
+  }
+]

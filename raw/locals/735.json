@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1990  (u) Key West[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "735",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1990|Key West|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "735",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5419 Robyns Lane[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4372",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5419 Robyns Lane",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Key West, FL 33040[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4372",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Key West|FL|33040",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](305) 394-2463[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1860",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(305) 394-2463",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1990@outlook.com\" target=\"_blank\">ibew1990@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "687",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1990@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Manuel D. Estevez Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2247",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Manuel|D.|Estevez|Sr.|{ \"MemberID\" : \"2247\",\"luid\": \"735\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1015 19th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Key West\",\"state\":\"FL\",\"zip\":\"33040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Manuel D. Estevez Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4051",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Manuel|D.|Estevez|Sr.|{ \"MemberID\" : \"4051\",\"luid\": \"735\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1015 19th Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Key West\",\"state\":\"FL\",\"zip\":\"33040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Scarleth Gomez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2248",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Scarleth||Gomez||{ \"MemberID\" : \"2248\",\"luid\": \"735\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 5556\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Key West\",\"state\":\"FL\",\"zip\":\"33045\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Tennille Grassi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2249",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tennille||Grassi||{ \"MemberID\" : \"2249\",\"luid\": \"735\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1018 Sixteenth Terrace\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Key West\",\"state\":\"FL\",\"zip\":\"33040\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]3637 Northside Court, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "735",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3637 Northside Court, 5:30 pm",
+    "datatype": "txt"
+  }
+]

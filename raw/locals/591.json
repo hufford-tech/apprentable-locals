@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1400  (u) Indianapolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "591",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1400|Indianapolis|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "591",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5144 Madison Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5144 Madison Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite #4[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite #4",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Indianapolis, IN 46227[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "550",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Indianapolis|IN|46227",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](317) 784-4444[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1029",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(317) 784-4444",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](317) 784-4445[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1030",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(317) 784-4445",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:paulalleyibew1400@yahoo.com\" target=\"_blank\">paulalleyibew1400@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "556",
+    "editFieldNames": "Email",
+    "editFieldValues": "paulalleyibew1400@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Robert L. McCloud[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1817",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert|L.|McCloud||{ \"MemberID\" : \"1817\",\"luid\": \"591\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5144 Madison Avenue\",\"addr2\":\"Suite #4\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jeffrey B. Price[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1818",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|B.|Price||{ \"MemberID\" : \"1818\",\"luid\": \"591\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5144 Madison Avenue\",\"addr2\":\"Suite #4\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Robert  L. McCloud[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3893",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robert |L.|McCloud||{ \"MemberID\" : \"3893\",\"luid\": \"591\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Rodrick Utley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1816",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodrick||Utley||{ \"MemberID\" : \"1816\",\"luid\": \"591\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5144 Madison Avenue\",\"addr2\":\"Suite #4\",\"addr3\":\"\",\"city\":\"Indianapolis\",\"state\":\"IN\",\"zip\":\"46227\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Tuesday, 4:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "591",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Tuesday, 4:45 pm",
+    "datatype": "txt"
+  }
+]

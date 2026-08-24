@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2109  (em) Athens[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "781",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2109|Athens|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "781",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]105 Tolson Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6988",
+    "editFieldNames": "Address1",
+    "editFieldValues": "105 Tolson Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Athens, GA 30606[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6988",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Athens|GA|30606",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](706) 202-3577[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2247",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(706) 202-3577",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:fatfatbaker@msn.com\" target=\"_blank\">fatfatbaker@msn.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2206",
+    "editFieldNames": "Email",
+    "editFieldValues": "fatfatbaker@msn.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Lamark Baker, 105 Tolson Road, Athens, GA  30606[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4270",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lamark||Baker||{ \"MemberID\" : \"4270\",\"luid\": \"781\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Joseph E Allen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4388",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|E|Allen||{ \"MemberID\" : \"4388\",\"luid\": \"781\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Tiffanie McDaniel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4390",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tiffanie||McDaniel||{ \"MemberID\" : \"4390\",\"luid\": \"781\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Adria Griffith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4391",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adria||Griffith||{ \"MemberID\" : \"4391\",\"luid\": \"781\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]VFW Post 2872, 835 Sunset Drive, 1st Friday, 10 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "781",
+    "editFieldNames": "Meets",
+    "editFieldValues": "VFW Post 2872, 835 Sunset Drive, 1st Friday, 10 am",
+    "datatype": "txt"
+  }
+]

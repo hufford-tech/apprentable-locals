@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]41--  (em, es, govt, i, se, spa) Buffalo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "39",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "41--|Buffalo|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "39",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, es, govt, i, se, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]S-3546 California Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "Address1",
+    "editFieldValues": "S-3546 California Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Orchard Park, NY 14127[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "38",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Orchard Park|NY|14127",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](716) 662-6111[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "75",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 662-6111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](716) 662-9644[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "76",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 662-9644",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:lu41@ibewlocal41.com\" target=\"_blank\">lu41@ibewlocal41.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "39",
+    "editFieldNames": "Email",
+    "editFieldValues": "lu41@ibewlocal41.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal41.com\" target=\"_blank\">www.ibewlocal41.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "39",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal41.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Gregory R. Inglut[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "123",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|R.|Inglut||{ \"MemberID\" : \"123\",\"luid\": \"39\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"S-3546 California Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Orchard Park\",\"state\":\"NY\",\"zip\":\"14127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Matthew J. Hilmey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "122",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|J.|Hilmey||{ \"MemberID\" : \"122\",\"luid\": \"39\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"S-3546 California Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Orchard Park\",\"state\":\"NY\",\"zip\":\"14127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Gregory R. Inglut[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3368",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gregory|R.|Inglut||{ \"MemberID\" : \"3368\",\"luid\": \"39\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christopher M. Bove[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|M.|Bove||{ \"MemberID\" : \"121\",\"luid\": \"39\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"S-3546 California Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Orchard Park\",\"state\":\"NY\",\"zip\":\"14127\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "39",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

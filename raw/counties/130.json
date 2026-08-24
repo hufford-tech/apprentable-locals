@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Assumption Parish, LA",
+    "District": "5",
+    "Population": "23388",
+    "LandArea": "338.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Jefferson Parish, LA",
+    "District": "5",
+    "Population": "455466",
+    "LandArea": "306.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Lafourche Parish, LA",
+    "District": "5",
+    "Population": "89974",
+    "LandArea": "1084.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Orleans Parish, LA",
+    "District": "5",
+    "Population": "484674",
+    "LandArea": "180.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Plaquemines Parish, LA",
+    "District": "5",
+    "Population": "26757",
+    "LandArea": "844.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Bernard Parish, LA",
+    "District": "5",
+    "Population": "67229",
+    "LandArea": "465.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Charles Parish, LA",
+    "District": "5",
+    "Population": "48072",
+    "LandArea": "283.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. James Parish, LA",
+    "District": "5",
+    "Population": "21216",
+    "LandArea": "246.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. John the Baptist Parish, LA",
+    "District": "5",
+    "Population": "43044",
+    "LandArea": "218.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Martin Parish, LA",
+    "District": "5",
+    "Population": "48583",
+    "LandArea": "739.85",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "St. Mary Parish, LA",
+    "District": "5",
+    "Population": "53500",
+    "LandArea": "612.79",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  },
+  {
+    "CountyName": "Terrebonne Parish, LA",
+    "District": "5",
+    "Population": "104503",
+    "LandArea": "1254.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "LA"
+  }
+]

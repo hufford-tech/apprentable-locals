@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]601-  (i, rtb) Champaign-Urbana[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "601-|Champaign-Urbana|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "333",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3301 N Boardwalk Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4319",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3301 N Boardwalk Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Champaign, IL 61822[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4319",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Champaign|IL|61822",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](217) 352-1741[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1846",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 352-1741",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](217) 352-9210[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1847",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(217) 352-9210",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew601.org\" target=\"_blank\">office@ibew601.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "321",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew601.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew601.org\" target=\"_blank\">www.ibew601.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew601.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Brian Andersen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1022",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||Andersen||{ \"MemberID\" : \"1022\",\"luid\": \"333\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3902\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Champaign\",\"state\":\"IL\",\"zip\":\"61826\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Shane E. Street[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1020",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shane|E.|Street||{ \"MemberID\" : \"1020\",\"luid\": \"333\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3902\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Champaign\",\"state\":\"IL\",\"zip\":\"61826\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Brian Andersen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3645",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||Andersen||{ \"MemberID\" : \"3645\",\"luid\": \"333\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Justin Henderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1021",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin||Henderson||{ \"MemberID\" : \"1021\",\"luid\": \"333\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 3902\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Champaign\",\"state\":\"IL\",\"zip\":\"61826\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

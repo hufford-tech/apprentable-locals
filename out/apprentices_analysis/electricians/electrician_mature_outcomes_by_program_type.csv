@@ -1,0 +1,6 @@
+program_category,completed_current_status,cancelled_current_status,resolved_records,completion_share_among_resolved,note
+Multi-employer union/CBA or joint-training signal,33050,17521,50571,0.6535366118921911,"Exploratory current-status share, not an official DOL completion rate"
+Other multi-employer program,14253,28878,43131,0.3304583710092509,"Exploratory current-status share, not an official DOL completion rate"
+Other or unknown,1151,1156,2307,0.4989163415691374,"Exploratory current-status share, not an official DOL completion rate"
+Single-employer program,11390,14936,26326,0.4326521309731824,"Exploratory current-status share, not an official DOL completion rate"
+USMAP,2003,7628,9631,0.2079742498182951,"Exploratory current-status share, not an official DOL completion rate"

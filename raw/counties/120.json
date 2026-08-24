@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Elgin County, ON",
+    "District": "1",
+    "Population": "81553",
+    "LandArea": "1880.8297",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Elgin County, ON",
+    "District": "1",
+    "Population": "81553",
+    "LandArea": "1880.8297",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Huron County, ON",
+    "District": "1",
+    "Population": "59701",
+    "LandArea": "3407.6238",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Huron County, ON",
+    "District": "1",
+    "Population": "59701",
+    "LandArea": "3407.6238",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Middlesex County, ON",
+    "District": "1",
+    "Population": "403185",
+    "LandArea": "3317.0711",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Middlesex County, ON",
+    "District": "1",
+    "Population": "403185",
+    "LandArea": "3317.0711",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Oxford County, ON",
+    "District": "1",
+    "Population": "99270",
+    "LandArea": "2039.4421",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ON"
+  },
+  {
+    "CountyName": "Oxford County, ON",
+    "District": "1",
+    "Population": "99270",
+    "LandArea": "2039.4421",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ON"
+  }
+]

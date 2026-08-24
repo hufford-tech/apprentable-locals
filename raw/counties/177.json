@@ -1,0 +1,83 @@
+[
+  {
+    "CountyName": "Baker County, FL",
+    "District": "5",
+    "Population": "22259",
+    "LandArea": "585.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Camden County, GA",
+    "District": "5",
+    "Population": "43664",
+    "LandArea": "629.91",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Charlton County, GA",
+    "District": "5",
+    "Population": "10282",
+    "LandArea": "780.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Clay County, FL",
+    "District": "5",
+    "Population": "140814",
+    "LandArea": "601.11",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Duval County, FL",
+    "District": "5",
+    "Population": "778879",
+    "LandArea": "773.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Nassau County, FL",
+    "District": "5",
+    "Population": "57663",
+    "LandArea": "651.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Putnam County, FL",
+    "District": "5",
+    "Population": "70423",
+    "LandArea": "721.89",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "St. Johns County, FL",
+    "District": "5",
+    "Population": "123135",
+    "LandArea": "609.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Ware County, GA",
+    "District": "5",
+    "Population": "35483",
+    "LandArea": "902.29",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]524-  (u) Wahpeton[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "298",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "524-|Wahpeton|ND",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "298",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]605 Seventeenth Avenue N[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7180",
+    "editFieldNames": "Address1",
+    "editFieldValues": "605 Seventeenth Avenue N",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Wahpeton, ND 58075[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7180",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wahpeton|ND|58075",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](701) 640-5858[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2331",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(701) 640-5858",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal524@gmail.com\" target=\"_blank\">ibewlocal524@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2117",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal524@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Joseph O. Bruechert, 605 Seventeenth Avenue N, Wahpeton, ND  58075[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "912",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|O.|Bruechert||{ \"MemberID\" : \"912\",\"luid\": \"298\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"605 Seventeenth Avenue N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wahpeton\",\"state\":\"ND\",\"zip\":\"58075\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Dwight L. Ogren, 518 Woodlawn Drive, Kindred, ND  58051[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "913",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dwight|L.|Ogren||{ \"MemberID\" : \"913\",\"luid\": \"298\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"518 Woodlawn Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Kindred\",\"state\":\"ND\",\"zip\":\"58051\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Zach J. Thronson, 243 Redwood Drive, Mapleton, ND  58059[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "914",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zach|J.|Thronson||{ \"MemberID\" : \"914\",\"luid\": \"298\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"243 Redwood Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mapleton\",\"state\":\"ND\",\"zip\":\"58059\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Matthew Oland, 603 First Street SE, Wahpeton, ND  58075[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "911",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew||Oland||{ \"MemberID\" : \"911\",\"luid\": \"298\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"603 First Street SE\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Wahpeton\",\"state\":\"ND\",\"zip\":\"58075\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Wahpeton Community Center, 304 Fifth Street N, 3rd Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "298",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Wahpeton Community Center, 304 Fifth Street N, 3rd Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1687  (i, o) Sudbury, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "670",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1687|Sudbury|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "670",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1204 St. Jerome Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1204 St. Jerome Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Sudbury, ON P3A 2V9[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "617",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Sudbury|ON|P3A 2V9",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](705) 566-1687[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1150",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(705) 566-1687",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](705) 566-5284[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1151",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(705) 566-5284",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew1687.org\" target=\"_blank\">info@ibew1687.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "627",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew1687.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1687.org\" target=\"_blank\">www.ibew1687.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "670",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1687.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Kevin Gaudaur[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2053",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin||Gaudaur||{ \"MemberID\" : \"2053\",\"luid\": \"670\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1204 St. Jerome Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sudbury\",\"state\":\"ON\",\"zip\":\"P3A 2V9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Marc Lafrance[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4308",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Marc||Lafrance||{ \"MemberID\" : \"4308\",\"luid\": \"670\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Kevin Gaudaur[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3976",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin||Gaudaur||{ \"MemberID\" : \"3976\",\"luid\": \"670\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Patrick Fleming[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2051",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Patrick||Fleming||{ \"MemberID\" : \"2051\",\"luid\": \"670\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1204 St. Jerome Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sudbury\",\"state\":\"ON\",\"zip\":\"P3A 2V9\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Timmins: Hampton Inn, Riverside Drive, 1st Wednesday, 7 pm; Sault Ste. Marie: Water Tower Inn, Great Northern Road, 2nd Tuesday, 7 pm; North Bay: Best Western, Lakeshore Drive, 3rd Monday, 7 pm; Sudbury: Union Hall, 4th Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "670",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Timmins: Hampton Inn, Riverside Drive, 1st Wednesday, 7 pm; Sault Ste. Marie: Water Tower Inn, Great Northern Road, 2nd Tuesday, 7 pm; North Bay: Best Western, Lakeshore Drive, 3rd Monday, 7 pm; Sudbury: Union Hall, 4th Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

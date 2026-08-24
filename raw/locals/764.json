@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2057  (rr) Prince George, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "764",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2057|Prince George|BC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "764",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2810 Wildwood Crescent[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7283",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2810 Wildwood Crescent",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Prince George, BC V2K 3J3[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7283",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Prince George|BC|V2K 3J3",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](250) 981-2233[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1271",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(250) 981-2233",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewblakeney@gmail.com\" target=\"_blank\">ibewblakeney@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2102",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewblakeney@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Daniel W. Blakeney, 147 Trader Crescent, Prince George, BC  V2M 4M7[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2335",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|W.|Blakeney||{ \"MemberID\" : \"2335\",\"luid\": \"764\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"147 Trader Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Prince George\",\"state\":\"BC\",\"zip\":\"V2M 4M7\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Greg A. Graham, PO Box 571, Telkwa, BC  V0J 2X0[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2333",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Greg|A.|Graham||{ \"MemberID\" : \"2333\",\"luid\": \"764\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 571\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Telkwa\",\"state\":\"BC\",\"zip\":\"V0J 2X0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jim Lucas, 2810 Wildwood Crescent, Prince George, BC  V2K 3J3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2334",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jim||Lucas||{ \"MemberID\" : \"2334\",\"luid\": \"764\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2810 Wildwood Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Prince George\",\"state\":\"BC\",\"zip\":\"V2K 3J3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Jim Lucas, 2810 Wildwood Crescent, Prince George, BC  V2K 3J3[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4082",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jim||Lucas||{ \"MemberID\" : \"4082\",\"luid\": \"764\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2810 Wildwood Crescent\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Prince George\",\"state\":\"BC\",\"zip\":\"V2K 3J3\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  }
+]

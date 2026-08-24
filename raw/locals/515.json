@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1047  (rr) Toledo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "515",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1047|Toledo|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "515",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]17355 W Walbridge East Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4188",
+    "editFieldNames": "Address1",
+    "editFieldValues": "17355 W Walbridge East Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Graytown, OH 43432[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4188",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Graytown|OH|43432",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal1047@outlook.com\" target=\"_blank\">ibewlocal1047@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2051",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal1047@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Chris Tetzlaf[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1584",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris||Tetzlaf||{ \"MemberID\" : \"1584\",\"luid\": \"515\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 9414\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toledo\",\"state\":\"OH\",\"zip\":\"43697\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Chris Tetzlaf[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3818",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris||Tetzlaf||{ \"MemberID\" : \"3818\",\"luid\": \"515\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]William C. DeFalco[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1583",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|C.|DeFalco||{ \"MemberID\" : \"1583\",\"luid\": \"515\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 9414\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toledo\",\"state\":\"OH\",\"zip\":\"43697\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Jacob Falk[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3324",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jacob||Falk||{ \"MemberID\" : \"3324\",\"luid\": \"515\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 9414\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Toledo\",\"state\":\"OH\",\"zip\":\"43697\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]807 Lime City Road, Rossford, 2nd Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "515",
+    "editFieldNames": "Meets",
+    "editFieldValues": "807 Lime City Road, Rossford, 2nd Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

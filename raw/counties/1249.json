@@ -1,0 +1,497 @@
+[
+  {
+    "CountyName": "Albany County, NY",
+    "District": "3",
+    "Population": "294565",
+    "LandArea": "523.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Allegany County, NY",
+    "District": "3",
+    "Population": "49927",
+    "LandArea": "1030.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Broome County, NY",
+    "District": "3",
+    "Population": "200536",
+    "LandArea": "706.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Cattaraugus County, NY",
+    "District": "3",
+    "Population": "83955",
+    "LandArea": "1309.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Cayuga County, NY",
+    "District": "3",
+    "Population": "81963",
+    "LandArea": "693.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chautauqua County, NY",
+    "District": "3",
+    "Population": "139750",
+    "LandArea": "1062.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chemung County, NY",
+    "District": "3",
+    "Population": "91070",
+    "LandArea": "408.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chenango County, NY",
+    "District": "3",
+    "Population": "51401",
+    "LandArea": "894.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Clinton County, NY",
+    "District": "3",
+    "Population": "79894",
+    "LandArea": "1038.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Columbia County, NY",
+    "District": "3",
+    "Population": "63094",
+    "LandArea": "635.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Cortland County, NY",
+    "District": "3",
+    "Population": "48599",
+    "LandArea": "499.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Delaware County, NY",
+    "District": "3",
+    "Population": "48055",
+    "LandArea": "1446.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Dutchess County, NY",
+    "District": "3",
+    "Population": "280150",
+    "LandArea": "801.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Erie County, NY",
+    "District": "3",
+    "Population": "950265",
+    "LandArea": "1044.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Essex County, NY",
+    "District": "3",
+    "Population": "38851",
+    "LandArea": "1796.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Franklin County, NY",
+    "District": "3",
+    "Population": "51134",
+    "LandArea": "1631.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Fulton County, NY",
+    "District": "3",
+    "Population": "55073",
+    "LandArea": "496.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Genesee County, NY",
+    "District": "3",
+    "Population": "60370",
+    "LandArea": "494.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Greene County, NY",
+    "District": "3",
+    "Population": "48195",
+    "LandArea": "647.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Hamilton County, NY",
+    "District": "3",
+    "Population": "5379",
+    "LandArea": "1720.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Herkimer County, NY",
+    "District": "3",
+    "Population": "64427",
+    "LandArea": "1411.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Jefferson County, NY",
+    "District": "3",
+    "Population": "111738",
+    "LandArea": "1272.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Lewis County, NY",
+    "District": "3",
+    "Population": "26944",
+    "LandArea": "1275.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Livingston County, NY",
+    "District": "3",
+    "Population": "64328",
+    "LandArea": "632.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Madison County, NY",
+    "District": "3",
+    "Population": "69441",
+    "LandArea": "655.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Monroe County, NY",
+    "District": "3",
+    "Population": "735343",
+    "LandArea": "659.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Montgomery County, NY",
+    "District": "3",
+    "Population": "49708",
+    "LandArea": "404.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Niagara County, NY",
+    "District": "3",
+    "Population": "219846",
+    "LandArea": "522.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Oneida County, NY",
+    "District": "3",
+    "Population": "235469",
+    "LandArea": "1212.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Onondaga County, NY",
+    "District": "3",
+    "Population": "458336",
+    "LandArea": "780.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Ontario County, NY",
+    "District": "3",
+    "Population": "100224",
+    "LandArea": "644.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Orange County, NY",
+    "District": "3",
+    "Population": "341367",
+    "LandArea": "816.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Orleans County, NY",
+    "District": "3",
+    "Population": "44171",
+    "LandArea": "391.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Oswego County, NY",
+    "District": "3",
+    "Population": "122377",
+    "LandArea": "953.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Otsego County, NY",
+    "District": "3",
+    "Population": "61676",
+    "LandArea": "1002.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Putnam County, NY",
+    "District": "3",
+    "Population": "95745",
+    "LandArea": "231.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Rensselaer County, NY",
+    "District": "3",
+    "Population": "152538",
+    "LandArea": "653.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Rockland County, NY",
+    "District": "3",
+    "Population": "286753",
+    "LandArea": "174.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Saratoga County, NY",
+    "District": "3",
+    "Population": "200635",
+    "LandArea": "811.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schenectady County, NY",
+    "District": "3",
+    "Population": "146555",
+    "LandArea": "206.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schoharie County, NY",
+    "District": "3",
+    "Population": "31582",
+    "LandArea": "622.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schuyler County, NY",
+    "District": "3",
+    "Population": "19224",
+    "LandArea": "328.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Seneca County, NY",
+    "District": "3",
+    "Population": "33342",
+    "LandArea": "324.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "St. Lawrence County, NY",
+    "District": "3",
+    "Population": "111931",
+    "LandArea": "2685.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Steuben County, NY",
+    "District": "3",
+    "Population": "98726",
+    "LandArea": "1392.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Sullivan County, NY",
+    "District": "3",
+    "Population": "73966",
+    "LandArea": "969.71",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tioga County, NY",
+    "District": "3",
+    "Population": "51784",
+    "LandArea": "518.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tompkins County, NY",
+    "District": "3",
+    "Population": "96501",
+    "LandArea": "476.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Ulster County, NY",
+    "District": "3",
+    "Population": "177749",
+    "LandArea": "1126.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Warren County, NY",
+    "District": "3",
+    "Population": "63303",
+    "LandArea": "869.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Washington County, NY",
+    "District": "3",
+    "Population": "61042",
+    "LandArea": "835.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wayne County, NY",
+    "District": "3",
+    "Population": "93765",
+    "LandArea": "604.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Westchester County, NY",
+    "District": "3",
+    "Population": "923459",
+    "LandArea": "432.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wyoming County, NY",
+    "District": "3",
+    "Population": "43424",
+    "LandArea": "592.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Yates County, NY",
+    "District": "3",
+    "Population": "24621",
+    "LandArea": "338.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NY"
+  }
+]

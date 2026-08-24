@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Medina County, OH",
+    "District": "4",
+    "Population": "151095",
+    "LandArea": "421.55",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Portage County, OH",
+    "District": "4",
+    "Population": "152061",
+    "LandArea": "492.39",
+    "Percentage": "80%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Summit County, OH",
+    "District": "4",
+    "Population": "542899",
+    "LandArea": "412.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Wayne County, OH",
+    "District": "4",
+    "Population": "111564",
+    "LandArea": "555.36",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

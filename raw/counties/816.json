@@ -1,0 +1,236 @@
+[
+  {
+    "CountyName": "Caldwell County, KY",
+    "District": "4",
+    "Population": "13060",
+    "LandArea": "346.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Caldwell County, KY",
+    "District": "4",
+    "Population": "13060",
+    "LandArea": "346.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Calloway County, KY",
+    "District": "4",
+    "Population": "34177",
+    "LandArea": "386.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Calloway County, KY",
+    "District": "4",
+    "Population": "34177",
+    "LandArea": "386.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carlisle County, KY",
+    "District": "4",
+    "Population": "5351",
+    "LandArea": "192.49",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Carlisle County, KY",
+    "District": "4",
+    "Population": "5351",
+    "LandArea": "192.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Christian County, KY",
+    "District": "4",
+    "Population": "72265",
+    "LandArea": "721.31",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Christian County, KY",
+    "District": "4",
+    "Population": "72265",
+    "LandArea": "721.31",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Crittenden County, KY",
+    "District": "4",
+    "Population": "9384",
+    "LandArea": "362.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Crittenden County, KY",
+    "District": "4",
+    "Population": "9384",
+    "LandArea": "362.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fulton County, KY",
+    "District": "4",
+    "Population": "7752",
+    "LandArea": "208.95",
+    "Percentage": "90%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Fulton County, KY",
+    "District": "4",
+    "Population": "7752",
+    "LandArea": "208.95",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Graves County, KY",
+    "District": "4",
+    "Population": "37028",
+    "LandArea": "555.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Graves County, KY",
+    "District": "4",
+    "Population": "37028",
+    "LandArea": "555.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hickman County, KY",
+    "District": "4",
+    "Population": "5262",
+    "LandArea": "244.44",
+    "Percentage": "99%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Hickman County, KY",
+    "District": "4",
+    "Population": "5262",
+    "LandArea": "244.44",
+    "Percentage": "99%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Livingston County, KY",
+    "District": "4",
+    "Population": "9804",
+    "LandArea": "316.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Livingston County, KY",
+    "District": "4",
+    "Population": "9804",
+    "LandArea": "316.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lyon County, KY",
+    "District": "4",
+    "Population": "8080",
+    "LandArea": "215.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Lyon County, KY",
+    "District": "4",
+    "Population": "8080",
+    "LandArea": "215.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Marshall County, KY",
+    "District": "4",
+    "Population": "30125",
+    "LandArea": "304.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Marshall County, KY",
+    "District": "4",
+    "Population": "30125",
+    "LandArea": "304.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "McCracken County, KY",
+    "District": "4",
+    "Population": "65514",
+    "LandArea": "251.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "McCracken County, KY",
+    "District": "4",
+    "Population": "65514",
+    "LandArea": "251.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Trigg County, KY",
+    "District": "4",
+    "Population": "12597",
+    "LandArea": "443.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Trigg County, KY",
+    "District": "4",
+    "Population": "12597",
+    "LandArea": "443.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  }
+]

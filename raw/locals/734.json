@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1988  (mo) Albuquerque[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "734",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1988|Albuquerque|NM",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "734",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 5634[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "655",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 5634",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Albuquerque, NM 87185[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "655",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Albuquerque|NM|87185",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](505) 459-7886[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1238",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(505) 459-7886",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1988.shawnb@gmail.com\" target=\"_blank\">ibew1988.shawnb@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1975",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1988.shawnb@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Shawn D. Baca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2246",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|D.|Baca||{ \"MemberID\" : \"2246\",\"luid\": \"734\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5212 Foxbriar Court NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albuquerque\",\"state\":\"NM\",\"zip\":\"87120\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Shawn D. Baca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4050",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|D.|Baca||{ \"MemberID\" : \"4050\",\"luid\": \"734\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Carlos G. Garcia[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2245",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Carlos|G.|Garcia||{ \"MemberID\" : \"2245\",\"luid\": \"734\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5212 Foxbriar Court NW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Albuquerque\",\"state\":\"NM\",\"zip\":\"87120\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Ryan D Latoma[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4497",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|D|Latoma||{ \"MemberID\" : \"4497\",\"luid\": \"734\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Kirkland AFB, 1451 Texas Street, Building 202888, 2nd Wednesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "734",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Kirkland AFB, 1451 Texas Street, Building 202888, 2nd Wednesday, 5 pm",
+    "datatype": "txt"
+  }
+]

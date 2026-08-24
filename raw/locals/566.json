@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1253  (i, mo) Augusta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "566",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1253|Augusta|ME",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "566",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]142 Elm Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5681",
+    "editFieldNames": "Address1",
+    "editFieldValues": "142 Elm Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Newport, ME 04953[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5681",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Newport|ME|04953",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 220[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "526",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 220",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Newport, ME 04953[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "526",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Newport|ME|04953",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](207) 453-1301[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "984",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 453-1301",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](207) 368-6290[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "985",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(207) 368-6290",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:nick@ibew1253.org\" target=\"_blank\">nick@ibew1253.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "533",
+    "editFieldNames": "Email",
+    "editFieldValues": "nick@ibew1253.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1253.org\" target=\"_blank\">www.ibew1253.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "566",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1253.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]Nicholas J. Paquet[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1741",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|J.|Paquet||{ \"MemberID\" : \"1741\",\"luid\": \"566\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"176 Main Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fairfield\",\"state\":\"ME\",\"zip\":\"04937\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Shawn D. Chandler, 74 Chandler Road, Industry, ME  04938[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1742",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|D.|Chandler||{ \"MemberID\" : \"1742\",\"luid\": \"566\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"74 Chandler Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Industry\",\"state\":\"ME\",\"zip\":\"04938\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]Nicholas J. Paquet[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3869",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|J.|Paquet||{ \"MemberID\" : \"3869\",\"luid\": \"566\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Mark A. Higgins, 40 Greenwood Avenue, Skowhegan, ME  04976[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1740",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark|A.|Higgins||{ \"MemberID\" : \"1740\",\"luid\": \"566\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"40 Greenwood Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Skowhegan\",\"state\":\"ME\",\"zip\":\"04976\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]Last Tuesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "566",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Last Tuesday, 6 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]405-  (em, i, rtb, spa) Cedar Rapids[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "405-|Cedar Rapids|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "239",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, rtb, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1211 Wiley Boulevard SW[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1211 Wiley Boulevard SW",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cedar Rapids, IA 52404[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cedar Rapids|IA|52404",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](319) 396-8241[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "446",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 396-8241",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](319) 396-3083[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "447",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 396-3083",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew405@ibew405.org\" target=\"_blank\">ibew405@ibew405.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "233",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew405@ibew405.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew405.org\" target=\"_blank\">www.ibew405.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew405.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Matthew A. Resor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "736",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|A.|Resor||{ \"MemberID\" : \"736\",\"luid\": \"239\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1211 Wiley Boulevard, SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jeffrey J. Cooling[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "735",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|J.|Cooling||{ \"MemberID\" : \"735\",\"luid\": \"239\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1211 Wiley Boulevard, SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Matthew A. Resor[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3554",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|A.|Resor||{ \"MemberID\" : \"3554\",\"luid\": \"239\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jonathan J. Fasselius[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "737",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|J.|Fasselius||{ \"MemberID\" : \"737\",\"luid\": \"239\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1211 Wiley Boulevard, SW\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cedar Rapids\",\"state\":\"IA\",\"zip\":\"52404\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

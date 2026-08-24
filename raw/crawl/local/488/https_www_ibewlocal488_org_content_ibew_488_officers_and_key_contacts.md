@@ -1,0 +1,128 @@
+https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts
+---
+[Skip to main content](https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts#main-content)
+
+[![](https://www.ibewlocal488.org/sites/ibewlocal488.org/files/powering%20wstrn%20ct.jpg)](https://www.ibewlocal488.org/ "Home")
+
+[IBEW Local 488](https://www.ibewlocal488.org/ "Home")
+
+Western Connecticut's Electrical Professionals
+
+- [My IBEW 488](https://www.ibewlocal488.org/civicrm/user "")
+
+[Navigation](https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts#)
+
+- [Announcements](https://www.ibewlocal488.org/frontpage "")
+- [About](https://www.ibewlocal488.org/content/about-ibew-488-western-ct-electricians)
+  - [About IBEW 488](https://www.ibewlocal488.org/content/about-ibew-488-western-ct-electricians "")
+  - [Apprenticeship Opportunities](https://www.ibewlocal488.org/content/apprenticeship-opportunities "")
+  - [Code of Excellence](https://www.ibewlocal488.org/content/our-code-excellence)
+  - [Directions](https://www.ibewlocal488.org/content/directions-ibew-local-488 "")
+  - [Green Building and Renewable Energy](https://www.ibewlocal488.org/content/green-building-and-renewable-energy-western-ct)
+  - [IBEW History](https://www.ibewlocal488.org/content/ibew-and-local-488-history)
+  - [Jurisdiction](https://www.ibewlocal488.org/content/jurisdiction)
+  - [Officers and Key Contacts](https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts)
+- [Apprenticeship](https://www.ibewlocal488.org/content/apprenticeship-opportunities)
+- [Contractors](https://www.ibewlocal488.org/civicrm/profile?gid=13&reset=1&force=1 "")
+  - [FIND A CONTRACTOR](https://www.ibewlocal488.org/civicrm/profile?gid=13&reset=1&force=1 "")
+  - [A Letter to Open Shop Contractors](https://www.ibewlocal488.org/content/letter-open-shop-contractors)
+  - [A Labor-Management Partnership](https://www.ibewlocal488.org/content/western-ct-labor-management-partnership "A listing of New Haven's Electrical Contractors Affiliated with the IBEW")
+- [Events](https://www.ibewlocal488.org/events "")
+  - [IBEW 488 Calendar](https://www.ibewlocal488.org/civicrm/showevents "Upcoming Events in Calendar Form")
+  - [Local 488 Softball](https://www.facebook.com/profile.php?id=61589091031291 "")
+  - [Local 488 Summer Outing](https://ibewlocal488.org/civicrm/event/info?id=687&reset=1 "")
+  - [Motorcycle Ride Hosted by the K-Club and Local 90 Electrical Workers RC](https://ibewlocal488.org/civicrm/event/info?reset=1&id=689 "")
+  - [Tony Soter Memorial Golf Tournament](https://ibewlocal488.org/content/tony-soter-memorial-golf-tournament "")
+- [Join Us](https://www.ibewlocal488.org/content/join-us)
+  - [Apprenticeship Information](https://ibewlocal488.org/content/apprenticeship-opportunities "")
+  - [Authorization Card](http://ibewlocal488.com/ "")
+  - [CT Electricians Going Union](https://www.ctgoingunion.com/ "")
+  - [NECA CT - Contractors Association](https://www.necact.org/joinibewct/ "")
+  - [Organizing](https://www.ibewlocal488.org/content/organizing)
+  - [Request for Information](https://www.ibewlocal488.org/content/information-request-form)
+- [Members](https://www.ibewlocal488.org/content/members-only "Our Members")
+  - [Log In](https://www.ibewlocal488.org/content/please-log)
+  - [Political Center](https://www.ibewlocal488.org/tags/political-center "")
+  - [IBEW News](https://www.ibewlocal488.org/node/7269/feed-items "")
+  - [Resources](https://www.ibewlocal488.org/content/resources)
+  - [Members Only](https://www.ibewlocal488.org/content/members-only "")
+- [Training](https://www.ibewlocal488.org/content/jatc-training-department)
+- [Wage Calculator](https://c1acr186.caspio.com/dp/c9e2700053f951bc860f49f69278 "")
+
+# IBEW 488 Officers and Key Contacts
+
+I.B.E.W., LOCAL 488
+
+721 Main St., Monroe, CT 06468
+
+_Office Hours:_ **7:30 a.m. to 4:00 p.m.**
+
+_Phone:_ **203-452-7679** or **800-548-6935**
+
+_FAX:_ **203-459-2553**
+
+E-Mail address: [office@ibewlocal488.org](mailto:office@ibewlocal488.org)
+
+Union Meeting
+
+3rd Monday of the month
+
+721 Main St, Monroe, CT 06468 at 6:00 p.m.
+
+**BUSINESS MANAGER & FINANCIAL SECRETARY**
+
+[Daniel W. McInerney](mailto:danm@ibewlocal488.org?subject=Web%20Site%20Inquiry)
+
+**ASSISTANT BUSINESS MANAGER**
+
+[Anthony Cavalli](mailto:tonyc@ibewlocal488.org)
+
+**ORGANIZER**
+
+[Jerome C. White](mailto:jwhite@ibewlocal488.org ?subject=Website%20inquiry)
+
+OFFICE MANAGER
+
+[Lisa Madarang](mailto:lmadarang@ibewlocal488.org)
+
+PRESIDENT
+
+Stephen J. Rodrigues
+
+**VICE PRESIDENT**
+
+Travis E. Gerald
+
+**TREASURER**
+
+Anthony Cavalli
+
+**RECORDING SECRETARY**
+
+Jerome C. White
+
+**EXECUTIVE BOARD**
+
+John Foltopoulos
+
+John J. Gulino, Jr.
+
+Amil C. Lockwood
+
+Peter R. Marin
+
+Jordan M. Mathis
+
+George A. Meier III
+
+Robert T. Nitsche
+
+Keith J. Taverna
+
+Share to: [Facebook](http://facebook.com/sharer.php?u=https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts&t=IBEW+488+Officers+and+Key+Contacts) [Twitter](http://twitter.com/intent/tweet?url=https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts&text=IBEW+488+Officers+and+Key+Contacts) [LinkedIn](http://www.linkedin.com/shareArticle?url=https://www.ibewlocal488.org/content/ibew-488-officers-and-key-contacts&mini=true&title=IBEW+488+Officers+and+Key+Contacts&ro=false&summary=I.B.E.W.%2C+LOCAL+488%0A%09721+Main+St.%2C+Mo...&source=)
+
+[‹ Electrical and Energy Work in the 21st Century](https://www.ibewlocal488.org/content/electrical-and-energy-work-21st-century "Go to previous page") [up](https://www.ibewlocal488.org/content/about-ibew-488-western-ct-electricians "Go to parent page") [Jurisdiction ›](https://www.ibewlocal488.org/content/jurisdiction "Go to next page")
+
+**Copyright © 2026 IBEW Local 488**. **[The Western Connecticut Electricians](https://ibewlocal488.org/)**All Rights Reserved. **[Union Made Website: Union Web Services](http://www.unionwebservices.com/)**
+
+Design by [Zymphonies](http://www.zymphonies.com/)

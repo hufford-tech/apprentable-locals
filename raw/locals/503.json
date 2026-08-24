@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1000  (em) Marion[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "503",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1000|Marion|IN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "503",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 523[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "473",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 523",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Marion, IN 46952[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "473",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Marion|IN|46952",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](765) 506-6868[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "893",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(765) 506-6868",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Matthew D. Mathias[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1544",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matthew|D.|Mathias||{ \"MemberID\" : \"1544\",\"luid\": \"503\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 523\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion\",\"state\":\"IN\",\"zip\":\"46952\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Ryan Krier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1545",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan||Krier||{ \"MemberID\" : \"1545\",\"luid\": \"503\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 523\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion\",\"state\":\"IN\",\"zip\":\"46952\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Derek  Payne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1542",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Derek ||Payne||{ \"MemberID\" : \"1542\",\"luid\": \"503\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 523\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion\",\"state\":\"IN\",\"zip\":\"46952\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Sheri Reneer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1543",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Sheri||Reneer||{ \"MemberID\" : \"1543\",\"luid\": \"503\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 523\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Marion\",\"state\":\"IN\",\"zip\":\"46952\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Marion Public Library, 600 S Washington Street, Meeting Room A, 2nd Thursday, 3:15 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "503",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Marion Public Library, 600 S Washington Street, Meeting Room A, 2nd Thursday, 3:15 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "CountyName": "Bertie County, NC",
+    "District": "10",
+    "Population": "19773",
+    "LandArea": "699.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Bertie County, NC",
+    "District": "10",
+    "Population": "19773",
+    "LandArea": "699.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chatham County, NC",
+    "District": "10",
+    "Population": "49329",
+    "LandArea": "682.85",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chatham County, NC",
+    "District": "10",
+    "Population": "49329",
+    "LandArea": "682.85",
+    "Percentage": "70%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cumberland County, NC",
+    "District": "10",
+    "Population": "302963",
+    "LandArea": "652.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Cumberland County, NC",
+    "District": "10",
+    "Population": "302963",
+    "LandArea": "652.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Durham County, NC",
+    "District": "10",
+    "Population": "223314",
+    "LandArea": "290.32",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Durham County, NC",
+    "District": "10",
+    "Population": "223314",
+    "LandArea": "290.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Edgecombe County, NC",
+    "District": "10",
+    "Population": "55606",
+    "LandArea": "505.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Edgecombe County, NC",
+    "District": "10",
+    "Population": "55606",
+    "LandArea": "505.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Franklin County, NC",
+    "District": "10",
+    "Population": "47260",
+    "LandArea": "492.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Franklin County, NC",
+    "District": "10",
+    "Population": "47260",
+    "LandArea": "492.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Granville County, NC",
+    "District": "10",
+    "Population": "48498",
+    "LandArea": "531.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Granville County, NC",
+    "District": "10",
+    "Population": "48498",
+    "LandArea": "531.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Greene County, NC",
+    "District": "10",
+    "Population": "18974",
+    "LandArea": "265.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Greene County, NC",
+    "District": "10",
+    "Population": "18974",
+    "LandArea": "265.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Halifax County, NC",
+    "District": "10",
+    "Population": "57370",
+    "LandArea": "725.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Halifax County, NC",
+    "District": "10",
+    "Population": "57370",
+    "LandArea": "725.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Harnett County, NC",
+    "District": "10",
+    "Population": "91025",
+    "LandArea": "595.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Harnett County, NC",
+    "District": "10",
+    "Population": "91025",
+    "LandArea": "595.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hertford County, NC",
+    "District": "10",
+    "Population": "22601",
+    "LandArea": "353.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hertford County, NC",
+    "District": "10",
+    "Population": "22601",
+    "LandArea": "353.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hoke County, NC",
+    "District": "10",
+    "Population": "33646",
+    "LandArea": "391.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Hoke County, NC",
+    "District": "10",
+    "Population": "33646",
+    "LandArea": "391.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Johnston County, NC",
+    "District": "10",
+    "Population": "121965",
+    "LandArea": "791.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Johnston County, NC",
+    "District": "10",
+    "Population": "121965",
+    "LandArea": "791.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lee County, NC",
+    "District": "10",
+    "Population": "49040",
+    "LandArea": "257.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Lee County, NC",
+    "District": "10",
+    "Population": "49040",
+    "LandArea": "257.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Martin County, NC",
+    "District": "10",
+    "Population": "25593",
+    "LandArea": "461.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Martin County, NC",
+    "District": "10",
+    "Population": "25593",
+    "LandArea": "461.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Moore County, NC",
+    "District": "10",
+    "Population": "74769",
+    "LandArea": "697.73",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Moore County, NC",
+    "District": "10",
+    "Population": "74769",
+    "LandArea": "697.73",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Nash County, NC",
+    "District": "10",
+    "Population": "87420",
+    "LandArea": "540.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Nash County, NC",
+    "District": "10",
+    "Population": "87420",
+    "LandArea": "540.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Northampton County, NC",
+    "District": "10",
+    "Population": "22086",
+    "LandArea": "536.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Northampton County, NC",
+    "District": "10",
+    "Population": "22086",
+    "LandArea": "536.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Orange County, NC",
+    "District": "10",
+    "Population": "118227",
+    "LandArea": "399.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Orange County, NC",
+    "District": "10",
+    "Population": "118227",
+    "LandArea": "399.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Person County, NC",
+    "District": "10",
+    "Population": "35623",
+    "LandArea": "392.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Person County, NC",
+    "District": "10",
+    "Population": "35623",
+    "LandArea": "392.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pitt County, NC",
+    "District": "10",
+    "Population": "133798",
+    "LandArea": "651.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pitt County, NC",
+    "District": "10",
+    "Population": "133798",
+    "LandArea": "651.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Vance County, NC",
+    "District": "10",
+    "Population": "42954",
+    "LandArea": "253.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Vance County, NC",
+    "District": "10",
+    "Population": "42954",
+    "LandArea": "253.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wake County, NC",
+    "District": "10",
+    "Population": "627846",
+    "LandArea": "831.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wake County, NC",
+    "District": "10",
+    "Population": "627846",
+    "LandArea": "831.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Warren County, NC",
+    "District": "10",
+    "Population": "19972",
+    "LandArea": "428.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Warren County, NC",
+    "District": "10",
+    "Population": "19972",
+    "LandArea": "428.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wayne County, NC",
+    "District": "10",
+    "Population": "113329",
+    "LandArea": "552.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wayne County, NC",
+    "District": "10",
+    "Population": "113329",
+    "LandArea": "552.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wilson County, NC",
+    "District": "10",
+    "Population": "73814",
+    "LandArea": "371.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wilson County, NC",
+    "District": "10",
+    "Population": "73814",
+    "LandArea": "371.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  }
+]

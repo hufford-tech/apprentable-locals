@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]292-  (em, govt, i, rtb, rts, spa) Minneapolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "177",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "292-|Minneapolis|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "177",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, i, rtb, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6700 W Broadway Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "183",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6700 W Broadway Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite A[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "183",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite A",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Brooklyn Park, MN 55428[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "183",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Brooklyn Park|MN|55428",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](612) 379-1292[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "335",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(612) 379-1292",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](612) 379-9326[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "336",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(612) 379-9326",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew292.org\" target=\"_blank\">office@ibew292.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "174",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew292.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew292.org\" target=\"_blank\">www.ibew292.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "177",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew292.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jeffrey J. Heimerl[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "548",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|J.|Heimerl||{ \"MemberID\" : \"548\",\"luid\": \"177\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"312 Central Avenue SE\",\"addr2\":\"Suite 292\",\"addr3\":\"\",\"city\":\"Minneapolis\",\"state\":\"MN\",\"zip\":\"55414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]William B. Krause[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4373",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|B.|Krause||{ \"MemberID\" : \"4373\",\"luid\": \"177\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Jennifer A. Mudge[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jennifer|A.|Mudge||{ \"MemberID\" : \"546\",\"luid\": \"177\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"312 Central Avenue SE\",\"addr2\":\"Suite 292\",\"addr3\":\"\",\"city\":\"Minneapolis\",\"state\":\"MN\",\"zip\":\"55414\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Alexa A. Richardson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4369",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alexa|A.|Richardson||{ \"MemberID\" : \"4369\",\"luid\": \"177\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Union Hall, Henry Miller Conference Rooms, 2nd Tuesday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "177",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Union Hall, Henry Miller Conference Rooms, 2nd Tuesday, 5 pm",
+    "datatype": "txt"
+  }
+]

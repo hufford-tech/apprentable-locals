@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1947  (mo) Valdosta[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "726",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1947|Valdosta|GA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "726",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]834 NE Raintree Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7276",
+    "editFieldNames": "Address1",
+    "editFieldValues": "834 NE Raintree Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pinetta, FL 32350[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7276",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pinetta|FL|32350",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](229) 520-1019[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1959",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(229) 520-1019",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Will C. Griffin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2220",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Will|C.|Griffin||{ \"MemberID\" : \"2220\",\"luid\": \"726\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14084 SR 125N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tifton\",\"state\":\"GA\",\"zip\":\"31794\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Will C. Griffin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4039",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Will|C.|Griffin||{ \"MemberID\" : \"4039\",\"luid\": \"726\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"14084 SR 125N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Tifton\",\"state\":\"GA\",\"zip\":\"31794\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Troy R. Simmons, 834 NE Raintree Avenue, Pinetta, FL  32350[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2221",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|R.|Simmons||{ \"MemberID\" : \"2221\",\"luid\": \"726\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"834 NE Raintree Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pinetta\",\"state\":\"FL\",\"zip\":\"32350\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Hunter R. Brown, 3004 Pecan Plantation Road, Valdosta, GA  31601[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2219",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hunter|R.|Brown||{ \"MemberID\" : \"2219\",\"luid\": \"726\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3004 Pecan Plantation Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Valdosta\",\"state\":\"GA\",\"zip\":\"31601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Clyattville Volunteer Fire Department, 1st Tuesday, 3:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "726",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Clyattville Volunteer Fire Department, 1st Tuesday, 3:45 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Bergen County, NJ",
+    "District": "3",
+    "Population": "884118",
+    "LandArea": "234.17",
+    "Percentage": "97%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Bergen County, NJ",
+    "District": "3",
+    "Population": "884118",
+    "LandArea": "234.17",
+    "Percentage": "97%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Essex County, NJ",
+    "District": "3",
+    "Population": "793633",
+    "LandArea": "126.27",
+    "Percentage": "99%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Essex County, NJ",
+    "District": "3",
+    "Population": "793633",
+    "LandArea": "126.27",
+    "Percentage": "99%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Hudson County, NJ",
+    "District": "3",
+    "Population": "608975",
+    "LandArea": "46.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Hudson County, NJ",
+    "District": "3",
+    "Population": "608975",
+    "LandArea": "46.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  }
+]

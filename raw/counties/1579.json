@@ -1,0 +1,254 @@
+[
+  {
+    "CountyName": "Aiken County, SC",
+    "District": "10",
+    "Population": "142552",
+    "LandArea": "1072.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Barnwell County, SC",
+    "District": "10",
+    "Population": "23478",
+    "LandArea": "548.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Burke County, GA",
+    "District": "5",
+    "Population": "22243",
+    "LandArea": "830.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Burke County, GA",
+    "District": "5",
+    "Population": "22243",
+    "LandArea": "830.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Columbia County, GA",
+    "District": "5",
+    "Population": "89288",
+    "LandArea": "290.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Columbia County, GA",
+    "District": "5",
+    "Population": "89288",
+    "LandArea": "290.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Edgefield County, SC",
+    "District": "10",
+    "Population": "24595",
+    "LandArea": "501.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "Glascock County, GA",
+    "District": "5",
+    "Population": "2556",
+    "LandArea": "144.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Glascock County, GA",
+    "District": "5",
+    "Population": "2556",
+    "LandArea": "144.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Greene County, GA",
+    "District": "5",
+    "Population": "14406",
+    "LandArea": "388.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Greene County, GA",
+    "District": "5",
+    "Population": "14406",
+    "LandArea": "388.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jefferson County, GA",
+    "District": "5",
+    "Population": "17266",
+    "LandArea": "527.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jefferson County, GA",
+    "District": "5",
+    "Population": "17266",
+    "LandArea": "527.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jenkins County, GA",
+    "District": "5",
+    "Population": "8575",
+    "LandArea": "349.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Jenkins County, GA",
+    "District": "5",
+    "Population": "8575",
+    "LandArea": "349.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lincoln County, GA",
+    "District": "5",
+    "Population": "8348",
+    "LandArea": "211.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Lincoln County, GA",
+    "District": "5",
+    "Population": "8348",
+    "LandArea": "211.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "McCormick County, SC",
+    "District": "10",
+    "Population": "9958",
+    "LandArea": "359.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "SC"
+  },
+  {
+    "CountyName": "McDuffie County, GA",
+    "District": "5",
+    "Population": "21231",
+    "LandArea": "259.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "McDuffie County, GA",
+    "District": "5",
+    "Population": "21231",
+    "LandArea": "259.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Richmond County, GA",
+    "District": "5",
+    "Population": "199775",
+    "LandArea": "324.04",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Richmond County, GA",
+    "District": "5",
+    "Population": "199775",
+    "LandArea": "324.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Taliaferro County, GA",
+    "District": "5",
+    "Population": "2077",
+    "LandArea": "195.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Taliaferro County, GA",
+    "District": "5",
+    "Population": "2077",
+    "LandArea": "195.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Warren County, GA",
+    "District": "5",
+    "Population": "6336",
+    "LandArea": "285.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Warren County, GA",
+    "District": "5",
+    "Population": "6336",
+    "LandArea": "285.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilkes County, GA",
+    "District": "5",
+    "Population": "10687",
+    "LandArea": "471.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "GA"
+  },
+  {
+    "CountyName": "Wilkes County, GA",
+    "District": "5",
+    "Population": "10687",
+    "LandArea": "471.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "GA"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "CountyName": "Alameda County, CA",
+    "District": "9",
+    "Population": "1443741",
+    "LandArea": "737.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Alpine County, CA",
+    "District": "9",
+    "Population": "1208",
+    "LandArea": "738.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Amador County, CA",
+    "District": "9",
+    "Population": "35100",
+    "LandArea": "592.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Butte County, CA",
+    "District": "9",
+    "Population": "203171",
+    "LandArea": "1639.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Calaveras County, CA",
+    "District": "9",
+    "Population": "40554",
+    "LandArea": "1020.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Carson City, NV",
+    "District": "9",
+    "Population": "52457",
+    "LandArea": "143.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Churchill County, NV",
+    "District": "9",
+    "Population": "23982",
+    "LandArea": "4929.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Colusa County, CA",
+    "District": "9",
+    "Population": "18804",
+    "LandArea": "1150.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Contra Costa County, CA",
+    "District": "9",
+    "Population": "948816",
+    "LandArea": "719.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Douglas County, NV",
+    "District": "9",
+    "Population": "41259",
+    "LandArea": "709.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "El Dorado County, CA",
+    "District": "9",
+    "Population": "156299",
+    "LandArea": "1710.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Elko County, NV",
+    "District": "9",
+    "Population": "45291",
+    "LandArea": "17179.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Eureka County, NV",
+    "District": "9",
+    "Population": "1651",
+    "LandArea": "4175.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Fresno County, CA",
+    "District": "9",
+    "Population": "799407",
+    "LandArea": "5962.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Glenn County, CA",
+    "District": "9",
+    "Population": "26453",
+    "LandArea": "1314.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Humboldt County, CA",
+    "District": "9",
+    "Population": "126518",
+    "LandArea": "3572.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Humboldt County, NV",
+    "District": "9",
+    "Population": "16106",
+    "LandArea": "9647.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Lake County, CA",
+    "District": "9",
+    "Population": "58309",
+    "LandArea": "1257.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Lander County, NV",
+    "District": "9",
+    "Population": "5794",
+    "LandArea": "5493.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Lassen County, CA",
+    "District": "9",
+    "Population": "33828",
+    "LandArea": "4557.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Lyon County, NV",
+    "District": "9",
+    "Population": "34501",
+    "LandArea": "1993.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Madera County, CA",
+    "District": "9",
+    "Population": "123109",
+    "LandArea": "2135.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Marin County, CA",
+    "District": "9",
+    "Population": "247289",
+    "LandArea": "519.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mariposa County, CA",
+    "District": "9",
+    "Population": "17130",
+    "LandArea": "1451.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mendocino County, CA",
+    "District": "9",
+    "Population": "86265",
+    "LandArea": "3508.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Merced County, CA",
+    "District": "9",
+    "Population": "210554",
+    "LandArea": "1928.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Mineral County, NV",
+    "District": "9",
+    "Population": "5071",
+    "LandArea": "3756.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Monterey County, CA",
+    "District": "9",
+    "Population": "401762",
+    "LandArea": "3321.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Napa County, CA",
+    "District": "9",
+    "Population": "124279",
+    "LandArea": "753.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Nevada County, CA",
+    "District": "9",
+    "Population": "92033",
+    "LandArea": "957.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Pershing County, NV",
+    "District": "9",
+    "Population": "6693",
+    "LandArea": "6036.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Placer County, CA",
+    "District": "9",
+    "Population": "248399",
+    "LandArea": "1404.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Plumas County, CA",
+    "District": "9",
+    "Population": "20824",
+    "LandArea": "2553.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sacramento County, CA",
+    "District": "9",
+    "Population": "1223499",
+    "LandArea": "965.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Benito County, CA",
+    "District": "9",
+    "Population": "53234",
+    "LandArea": "1389.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Francisco County, CA",
+    "District": "9",
+    "Population": "776733",
+    "LandArea": "46.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Joaquin County, CA",
+    "District": "9",
+    "Population": "563598",
+    "LandArea": "1399.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Luis Obispo County, CA",
+    "District": "9",
+    "Population": "246681",
+    "LandArea": "3304.32",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Mateo County, CA",
+    "District": "9",
+    "Population": "707161",
+    "LandArea": "449.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Santa Clara County, CA",
+    "District": "9",
+    "Population": "1682585",
+    "LandArea": "1290.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Santa Cruz County, CA",
+    "District": "9",
+    "Population": "255602",
+    "LandArea": "445.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Shasta County, CA",
+    "District": "9",
+    "Population": "163256",
+    "LandArea": "3785.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sierra County, CA",
+    "District": "9",
+    "Population": "3555",
+    "LandArea": "953.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Solano County, CA",
+    "District": "9",
+    "Population": "394542",
+    "LandArea": "829.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Sonoma County, CA",
+    "District": "9",
+    "Population": "458614",
+    "LandArea": "1575.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Stanislaus County, CA",
+    "District": "9",
+    "Population": "446997",
+    "LandArea": "1493.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Storey County, NV",
+    "District": "9",
+    "Population": "3399",
+    "LandArea": "263.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Sutter County, CA",
+    "District": "9",
+    "Population": "78930",
+    "LandArea": "602.54",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tehama County, CA",
+    "District": "9",
+    "Population": "56039",
+    "LandArea": "2950.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Trinity County, CA",
+    "District": "9",
+    "Population": "13022",
+    "LandArea": "3178.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tuolumne County, CA",
+    "District": "9",
+    "Population": "54501",
+    "LandArea": "2235.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Washoe County, NV",
+    "District": "9",
+    "Population": "339486",
+    "LandArea": "6342.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "White Pine County, NV",
+    "District": "9",
+    "Population": "9181",
+    "LandArea": "8875.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NV"
+  },
+  {
+    "CountyName": "Yolo County, CA",
+    "District": "9",
+    "Population": "168660",
+    "LandArea": "1013.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Yuba County, CA",
+    "District": "9",
+    "Population": "60219",
+    "LandArea": "630.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CA"
+  }
+]

@@ -1,0 +1,117 @@
+https://www.ibew127.org/forms-and-brochures.html
+---
+[![](https://www.ibew127.org/images/logo-ibew-127-electricians.jpg)](https://www.ibew127.org/index.html)
+
+![](https://www.ibew127.org/images/wisconsin-logo.png)
+
+[**262-654-0912**](tel:1-262-654-0912)
+
+![](https://www.ibew127.org/images/ibew-logo-header.png)
+
+[![](https://www.ibew127.org/images/logo-ibew-127-electricians.jpg)](https://www.ibew127.org/index.html)
+
+![](https://www.ibew127.org/images/wisconsin-logo.png)
+
+[**262-654-0912**](tel:1-262-654-0912)
+
+[![](https://www.ibew127.org/images/logo-ibew-127-electricians.jpg)](https://www.ibew127.org/index.html)
+
+[**262-654-0912**](tel:1-262-654-0912)
+
+- [Home](https://www.ibew127.org/index.html "International Brotherhood of Electrical Workers Local Union 127")
+- Local 127 Info
+[About Us](https://www.ibew127.org/about-us.html "") [Officers & Staff](https://www.ibew127.org/officers-and-staff.html "")
+
+- Links
+[Policies & Disclaimers](https://www.ibew127.org/policies-and-disclaimers.html "Policies & Disclaimers") [Forms & Brochures](https://www.ibew127.org/forms-and-brochures.html "Forms & Brochures") [Continuing Education](https://www.myelectricalceu.com/register/?state=WI "Continuing Education") [Apprenticeship & Training](http://www.wijatc.org/ "Apprenticeship & Training") [WI Voters](https://myvote.wi.gov/en-us "WI Voters") [Portability Check-In](https://www.ibew127.org/portability-check-in.html "Portability Check-In") [NFPA 70E Training](https://www.oshaeducationcenter.com/compliance-training/nfpa-70e-certification/ "NFPA 70E Training")
+
+- [Contractors](https://www.ibew127.org/contractors.html "")
+- News & Events
+[Calendar of Events](https://www.ibew127.org/calender-of-events.html "Calendar of Events") [Photo Gallery](https://www.ibew127.org/photo-gallery.html "Photo Gallery")
+
+- Job Opportunities
+[Job Board](http://kenoshaelectricians127.blogspot.com/ "") [Experienced Electricians](https://www.ibew127.org/experienced-electricians.html "Experienced Electricians") [Low Voltage Technicians](https://www.ibew127.org/low-voltage-technicians.html "Low Voltage Technicians") [Entry Level](https://www.ibew127.org/entry-level.html "Entry Level")
+
+- [Contact Us](https://www.ibew127.org/contact-us.html "Contact IBEW 127")
+
+- [Menu](https://www.ibew127.org/forms-and-brochures.html#)
+[Home](https://www.ibew127.org/index.html "International Brotherhood of Electrical Workers Local Union 127") Local 127 Info▿
+
+[About Us](https://www.ibew127.org/about-us.html "New Log Home Construction near me") [Officers & Staff](https://www.ibew127.org/officers-and-staff.html "Log Home Restoration near me") [Newsletter](https://www.ibew127.org/newsletter.html "Log Home Maintenance near me")
+
+
+
+Links▿
+
+[Policies & Disclaimers](https://www.ibew127.org/policies-and-disclaimers.html "Policies & Disclaimers") [Forms & Brochures](https://www.ibew127.org/forms-and-brochures.html "Forms & Brochures") [Continuing Education](https://www.myelectricalceu.com/register/?state=WI "Continuing Education") [Apprenticeship & Training](http://www.wijatc.org.html/ "Apprenticeship & Training") [WI Voters](https://myvote.wi.gov/en-us.html "WI Voters") [Portability Check-In](https://www.ibew127.org/portability-check-in.html "Portability Check-In") [NFPA 70E Training](https://www.oshaeducationcenter.com/compliance-training/nfpa-70e-certification/ "NFPA 70E Training")
+
+[Contractors](https://www.ibew127.org/contractors.html "") News & Events▿
+
+[Calender of Events](https://www.ibew127.org/calender-of-events.html "Calender of Events") [Photo Gallery](https://www.ibew127.org/photo-gallery.html "Photo Gallery")
+
+
+
+Job Opportunities▿
+
+[Job Boards](http://kenoshaelectricians127.blogspot.com/ "Job Boards") [Experienced Electricians](https://www.ibew127.org/experienced-electricians.html "Experienced Electricians") [Low Voltage Technicians](https://www.ibew127.org/low-voltage-technicians.html "Low Voltage Technicians") [Entry Level](https://www.ibew127.org/entry-level.html "Entry Level")
+
+[Contact Us](https://www.ibew127.org/contact-us.html "Contact IBEW 127")
+
+
+## FORMS & BROCHURES
+
+## Upgrade Training
+
+[![Reimbursement & Pre-Approval Form](https://www.ibew127.org/images/pdf-icon.png)](https://www.ibew127.org/pdfs/JATTcostReimbursement.pdf)
+
+[Reimbursement &\\
+\\
+Pre-Approval Form](http://ibew127.org/JATTcostReimbursement.pdf)
+
+[![](https://www.ibew127.org/images/internet-icon.png)](https://portal.issisystems.com/isite313/eremit.dll/31301/loginm.asp)
+
+[Wisconsin Electrical \\
+\\
+Employees Benefit Fund](https://portal.issisystems.com/isite313/eremit.dll/31301/loginm.asp)
+
+[![Apprenticeship Training](https://www.ibew127.org/images/pdf-icon.png)](https://www.wijatc.org/)
+
+[Apprenticeship\\
+\\
+Training](https://www.wijatc.org/)
+
+[![](https://www.ibew127.org/images/weebfw-logo.jpg)](https://ecommerce.issisystems.com/isite/eremit.dll/31301/cm.asp?name=home)
+
+[![](https://www.ibew127.org/images/nabtu-logo.jpg)](https://nabtu.org/)
+
+[![](https://www.ibew127.org/images/electrifying-careers-logo.jpg)](https://www.electrifyingcareers.com/)
+
+[![](https://www.ibew127.org/images/electric-tv-logo.jpg)](http://electrictv.net/)
+
+[![](https://www.ibew127.org/images/electrical-training-alliance-logo.jpg)](http://electricaltrainingalliance.org/)
+
+[![](https://www.ibew127.org/images/quality-connection-logo.jpg)](http://www.thequalityconnection.org/)
+
+[![](https://www.ibew127.org/images/ibew-logo.jpg)](http://www.ibew.org/)
+
+[![](https://www.ibew127.org/images/ibew-hour-power-logo.jpg)](https://ibewhourpower.com/)
+
+[![](https://www.ibew127.org/images/weebfw-logo.jpg)](https://ecommerce.issisystems.com/isite/eremit.dll/31301/cm.asp?name=home)[![](https://www.ibew127.org/images/nabtu-logo.jpg)](https://nabtu.org/)
+
+[![](https://www.ibew127.org/images/electrifying-careers-logo.jpg)](https://www.electrifyingcareers.com/)[![](https://www.ibew127.org/images/electric-tv-logo.jpg)](http://electrictv.net/)
+
+[![](https://www.ibew127.org/images/electrical-training-alliance-logo.jpg)](http://electricaltrainingalliance.org/)[![](https://www.ibew127.org/images/quality-connection-logo.jpg)](http://www.thequalityconnection.org/)
+
+[![](https://www.ibew127.org/images/ibew-logo.jpg)](http://www.ibew.org/)[![](https://www.ibew127.org/images/ibew-hour-power-logo.jpg)](https://ibewhourpower.com/)
+
+© International Brotherhood of Electrical Workers Local Union 127. All Rights Reserved.
+
+[Website by Badgerland Marketing](https://www.badgerlandmarketing.com/ "Badgerland Marketing Website Designer, Responsive Websites, Mobile Websites, SEO, Hosting and Printing Wisconsin")
+
+[Maps](about:invalid#zClosurez "Maps (opens in new tab)")
+
+![](https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i536674&2i773641&2e1&3u13&4m2&1u200&2u100&5m6&1e0&5sen-US&6sus&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=74202)
+
+* * *
+
+[Back to Top](https://www.ibew127.org/forms-and-brochures.html#top)

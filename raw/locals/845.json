@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2374  (t) Jamestown[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "845",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2374|Jamestown|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "845",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3928 Fluvanna Townline Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "721",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3928 Fluvanna Townline Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Jamestown, NY 14701[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "721",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Jamestown|NY|14701",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](716) 640-4630[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1393",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(716) 640-4630",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Wendy A. Gleason[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2568",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wendy|A.|Gleason||{ \"MemberID\" : \"2568\",\"luid\": \"845\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"3928 Fluvanna Townline Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Wendy A. Gleason[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4171",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wendy|A.|Gleason||{ \"MemberID\" : \"4171\",\"luid\": \"845\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Tom Svetz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2570",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tom||Svetz||{ \"MemberID\" : \"2570\",\"luid\": \"845\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3928 Fluvanna Townline Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Victoria  A. Crooks[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2569",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Victoria |A.|Crooks||{ \"MemberID\" : \"2569\",\"luid\": \"845\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"3928 Fluvanna Townline Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamestown\",\"state\":\"NY\",\"zip\":\"14701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]1st Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "845",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

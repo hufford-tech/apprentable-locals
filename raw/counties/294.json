@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Beltrami County, MN",
+    "District": "6",
+    "Population": "39650",
+    "LandArea": "2505.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Cass County, MN",
+    "District": "6",
+    "Population": "27150",
+    "LandArea": "2017.59",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Clearwater County, MN",
+    "District": "6",
+    "Population": "8423",
+    "LandArea": "994.71",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Hubbard County, MN",
+    "District": "6",
+    "Population": "18376",
+    "LandArea": "922.45",
+    "Percentage": "15%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Itasca County, MN",
+    "District": "6",
+    "Population": "43992",
+    "LandArea": "2665.06",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Koochiching County, MN",
+    "District": "6",
+    "Population": "14355",
+    "LandArea": "3102.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "Lake of The Woods County, MN",
+    "District": "6",
+    "Population": "4522",
+    "LandArea": "1296.70",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  },
+  {
+    "CountyName": "St. Louis County, MN",
+    "District": "6",
+    "Population": "200528",
+    "LandArea": "6225.16",
+    "Percentage": "25%",
+    "jurisdiction": "I",
+    "StateProvince": "MN"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "CountyName": "Annapolis County, NS",
+    "District": "1",
+    "Population": "21773",
+    "LandArea": "3185.0938",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Antigonish County, NS",
+    "District": "1",
+    "Population": "19578",
+    "LandArea": "1457.8977",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Colchester County, NS",
+    "District": "1",
+    "Population": "49307",
+    "LandArea": "3627.7208",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Cumberland County, NS",
+    "District": "1",
+    "Population": "32605",
+    "LandArea": "4271.2333",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Digby County, NS",
+    "District": "1",
+    "Population": "19548",
+    "LandArea": "2515.2360",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Guysborough County, NS",
+    "District": "1",
+    "Population": "9827",
+    "LandArea": "4044.2195",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Halifax County, NS",
+    "District": "1",
+    "Population": "359183",
+    "LandArea": "5495.5397",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Hants County, NS",
+    "District": "1",
+    "Population": "40513",
+    "LandArea": "3049.1215",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Kings County, NS",
+    "District": "1",
+    "Population": "58866",
+    "LandArea": "2122.2121",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Kings County, PE",
+    "District": "1",
+    "Population": "19180",
+    "LandArea": "1684.3499",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PE"
+  },
+  {
+    "CountyName": "Lunenburg County, NS",
+    "District": "1",
+    "Population": "47591",
+    "LandArea": "2907.9474",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Pictou County, NS",
+    "District": "1",
+    "Population": "46965",
+    "LandArea": "2845.2650",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Prince County, PE",
+    "District": "1",
+    "Population": "44495",
+    "LandArea": "1979.8705",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PE"
+  },
+  {
+    "CountyName": "Queens County, NS",
+    "District": "1",
+    "Population": "11723",
+    "LandArea": "2392.3555",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Queens County, PE",
+    "District": "1",
+    "Population": "71619",
+    "LandArea": "2020.1722",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PE"
+  },
+  {
+    "CountyName": "Shelburne County, NS",
+    "District": "1",
+    "Population": "16231",
+    "LandArea": "2464.6755",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  },
+  {
+    "CountyName": "Yarmouth County, NS",
+    "District": "1",
+    "Population": "26843",
+    "LandArea": "2122.6813",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NS"
+  }
+]

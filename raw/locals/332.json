@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]596-  (i, o, u) Clarksburg[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "332",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "596-|Clarksburg|WV",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "332",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1001 N Twelfth Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5546",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1001 N Twelfth Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Clarksburg, WV 26301[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5546",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Clarksburg|WV|26301",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]PO Box 1508[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "327",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1508",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]Clarksburg, WV 26302[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "327",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Clarksburg|WV|26302",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b](304) 622-0151[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 622-0151",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Fax [/b](304) 622-2099[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2293",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(304) 622-2099",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew596@ibew596.com\" target=\"_blank\">ibew596@ibew596.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "320",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew596@ibew596.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew596.com\" target=\"_blank\">www.ibew596.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "332",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew596.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]B.M. [/b]John C. Young[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1019",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|C.|Young||{ \"MemberID\" : \"1019\",\"luid\": \"332\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1508\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clarksburg\",\"state\":\"WV\",\"zip\":\"26302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Pres. [/b]Shawn D. Young[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1018",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shawn|D.|Young||{ \"MemberID\" : \"1018\",\"luid\": \"332\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 1508\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Clarksburg\",\"state\":\"WV\",\"zip\":\"26302\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]F.S. [/b]John C. Young[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3644",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|C.|Young||{ \"MemberID\" : \"3644\",\"luid\": \"332\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]R.S. [/b]Richard T. Berry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4486",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|T.|Berry||{ \"MemberID\" : \"4486\",\"luid\": \"332\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "332",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

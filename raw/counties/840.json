@@ -1,0 +1,56 @@
+[
+  {
+    "CountyName": "Cayuga County, NY",
+    "District": "3",
+    "Population": "81963",
+    "LandArea": "693.18",
+    "Percentage": "84%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Onondaga County, NY",
+    "District": "3",
+    "Population": "458336",
+    "LandArea": "780.29",
+    "Percentage": "3%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Ontario County, NY",
+    "District": "3",
+    "Population": "100224",
+    "LandArea": "644.38",
+    "Percentage": "72%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Seneca County, NY",
+    "District": "3",
+    "Population": "33342",
+    "LandArea": "324.91",
+    "Percentage": "89%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Wayne County, NY",
+    "District": "3",
+    "Population": "93765",
+    "LandArea": "604.21",
+    "Percentage": "29%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Yates County, NY",
+    "District": "3",
+    "Population": "24621",
+    "LandArea": "338.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

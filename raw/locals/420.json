@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]770-  (rr) Albany[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "420",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "770-|Albany|NY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "420",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]27 Manorville Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7273",
+    "editFieldNames": "Address1",
+    "editFieldValues": "27 Manorville Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saugerties, NY 12477[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7273",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saugerties|NY|12477",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](518) 590-4060[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "763",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(518) 590-4060",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Adam D. Schultz, 376 Brunswick Road, Troy, NY  12180[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1289",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|D.|Schultz||{ \"MemberID\" : \"1289\",\"luid\": \"420\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"376 Brunswick Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Troy\",\"state\":\"NY\",\"zip\":\"12180\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Adam D. Schultz, 376 Brunswick Road, Troy, NY  12180[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3730",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Adam|D.|Schultz||{ \"MemberID\" : \"3730\",\"luid\": \"420\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"376 Brunswick Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Troy\",\"state\":\"NY\",\"zip\":\"12180\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Matt T. Mitchell, 27 Manorville Road, Saugerties, NY  12477[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1288",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Matt|T.|Mitchell||{ \"MemberID\" : \"1288\",\"luid\": \"420\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"27 Manorville Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saugerties\",\"state\":\"NY\",\"zip\":\"12477\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]George H. Roberts, 137 Snyders Lake Road Apt. C, Wynantskill, NY  12198[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1290",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|H.|Roberts||{ \"MemberID\" : \"1290\",\"luid\": \"420\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"137 Snyders Lake Road\",\"addr2\":\"Apt. C\",\"addr3\":\"\",\"city\":\"Wynantskill\",\"state\":\"NY\",\"zip\":\"12198\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]Orchard Tavern, 68 N Manning Boulevard, 2nd Wednesday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "420",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Orchard Tavern, 68 N Manning Boulevard, 2nd Wednesday, 8 pm",
+    "datatype": "txt"
+  }
+]

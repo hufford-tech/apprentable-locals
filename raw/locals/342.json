@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]614-  (ptc, u) Philadelphia[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "342",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "614-|Philadelphia|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "342",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4613 West Chester Pike[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4613 West Chester Pike",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Upper Level[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Upper Level",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Newtown Square, PA 19073[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "341",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Newtown Square|PA|19073",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](610) 359-1015[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "633",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(610) 359-1015",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](610) 359-1016[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "634",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(610) 359-1016",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@614ibew.com\" target=\"_blank\">info@614ibew.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1804",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@614ibew.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.614ibew.com\" target=\"_blank\">www.614ibew.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "342",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.614ibew.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Lawrence J. Anastasi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1049",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lawrence|J.|Anastasi||{ \"MemberID\" : \"1049\",\"luid\": \"342\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 32\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Woodlyn\",\"state\":\"PA\",\"zip\":\"19094\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Lawrence J. Anastasi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3653",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Lawrence|J.|Anastasi||{ \"MemberID\" : \"3653\",\"luid\": \"342\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Augustine J. Scafidi[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1048",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Augustine|J.|Scafidi||{ \"MemberID\" : \"1048\",\"luid\": \"342\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 14\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Norwood\",\"state\":\"PA\",\"zip\":\"19074\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Chance D. Beck[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1050",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chance|D.|Beck||{ \"MemberID\" : \"1050\",\"luid\": \"342\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 32\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Woodlyn\",\"state\":\"PA\",\"zip\":\"19094\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "342",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

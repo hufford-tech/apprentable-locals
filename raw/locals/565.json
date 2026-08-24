@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1250  (c, em, i, o, t, u) Rapid City[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1250|Rapid City|SD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "565",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, em, i, o, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]922 1/2 E Saint Patrick Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "525",
+    "editFieldNames": "Address1",
+    "editFieldValues": "922 1/2 E Saint Patrick Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rapid City, SD 57701[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "525",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rapid City|SD|57701",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](605) 343-0954[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "982",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(605) 343-0954",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](605) 348-8600[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "983",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(605) 348-8600",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1250ba@gmail.com\" target=\"_blank\">ibew1250ba@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "532",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1250ba@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal1250.org\" target=\"_blank\">www.ibewlocal1250.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal1250.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Michael A. Plank[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1739",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Plank||{ \"MemberID\" : \"1739\",\"luid\": \"565\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"922 1/2 E St. Patrick Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rapid City\",\"state\":\"SD\",\"zip\":\"57701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Cassie J. Silbernagel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1738",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cassie|J.|Silbernagel||{ \"MemberID\" : \"1738\",\"luid\": \"565\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"922 1/2 E St. Patrick Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rapid City\",\"state\":\"SD\",\"zip\":\"57701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Michael A. Plank[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3868",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|A.|Plank||{ \"MemberID\" : \"3868\",\"luid\": \"565\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Daniel V. DeJong[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1737",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|V.|DeJong||{ \"MemberID\" : \"1737\",\"luid\": \"565\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"922 1/2 E St. Patrick Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rapid City\",\"state\":\"SD\",\"zip\":\"57701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "565",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

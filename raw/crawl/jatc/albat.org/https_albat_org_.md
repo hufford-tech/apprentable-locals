@@ -1,0 +1,141 @@
+https://albat.org/
+---
+[![ALBAT](https://albat.org/wp/wp-content/uploads/2026/06/xAlbat-logo_FullColor-V4-300px.png.pagespeed.ic.TDhURiNwnh.webp)](https://albat.org/)
+
+- Sign In
+  - Applicant Portal
+    - [Applicant](https://careers-albat.icims.com/jobs/login?loginOnly=1)
+    - [Employee / Committee](https://albat.icims.com/)
+  - Apprenticeship Portal
+    - [Monthly Evaluation](https://ubw.unit4cloud.com/us_alb_prod_mobile/Authentication/Accounts/SignIn?return_url=http%3A%2F%2Fubw.unit4cloud.com%2Fus_alb_prod_mobile%2F)
+    - [Apprentice / Employee / Committee](https://ubw.unit4cloud.com/us_alb_prod_web/Login/Login.aspx?ReturnUrl=%2fus_alb_prod_web%2fDefault.aspx)
+- [About](https://albat.org/about/)
+  - [Training Center](https://albat.org/training-center/)
+  - [The Union Advantage](https://albat.org/the-ibew-union-advantage/)
+  - [Apprenticeship Programs](https://albat.org/apprenticeship-programs/)
+    - [Cable Splicer Program](https://albat.org/cable-splicer-program/)
+    - [Line Program](https://albat.org/line-program/)
+    - [Substation Program](https://albat.org/substation-program/)
+    - [Traffic Signal Program](https://albat.org/traffic-signal-program/)
+    - [Transmission Program](https://albat.org/transmission-program/)
+    - [URD Program](https://albat.org/urd-program/)
+  - [Contact](https://albat.org/contact/)
+- [Applicant Resources](https://albat.org/applicant-resources/)
+  - [IBEW Local Unions & Programs](https://albat.org/local-unions-and-programs/)
+  - [New Applicant FAQs](https://albat.org/new-applicant-faqs/)
+  - [Applicant Reinterview Request Form](https://albat.org/applicant-reinterview-request-form/)
+  - [Standards & Policies](https://albat.org/standards-and-policies-applicant/)
+- [Apprentice Resources](https://albat.org/apprentice-resources/)
+  - [Student Info Release](https://albat.org/wp/wp-content/uploads/2019/03/ALBAT-Student-Record-Release-Form-031717.pdf)
+  - [eLearn](https://electricaltrainingalliance.org/learning/blended)
+  - [Standards & Policies](https://albat.org/standards-and-policies-apprentice/)
+- [Continuing Education](https://albat.org/continuing-education/)
+  - [Training Courses](https://albat.org/training-courses/)
+  - [Training Calendar](https://albat.org/training-calendar/)
+- [Apply](https://albat.org/apply/)
+  - [Apprenticeship](https://albat.org/apprentice/)
+  - [Continuing Education](https://albat.org/apply-continuing-education/)
+  - [Employee](https://albat.org/employee/)
+
+- Sign InToggle menu
+  - Applicant PortalToggle menu
+    - [Applicant](https://careers-albat.icims.com/jobs/login?loginOnly=1)
+    - [Employee / Committee](https://albat.icims.com/)
+  - Apprenticeship PortalToggle menu
+    - [Monthly Evaluation](https://ubw.unit4cloud.com/us_alb_prod_mobile/Authentication/Accounts/SignIn?return_url=http%3A%2F%2Fubw.unit4cloud.com%2Fus_alb_prod_mobile%2F)
+    - [Apprentice / Employee / Committee](https://ubw.unit4cloud.com/us_alb_prod_web/Login/Login.aspx?ReturnUrl=%2fus_alb_prod_web%2fDefault.aspx)
+- [About](https://albat.org/about/) Toggle menu
+  - [Training Center](https://albat.org/training-center/)
+  - [The Union Advantage](https://albat.org/the-ibew-union-advantage/)
+  - [Apprenticeship Programs](https://albat.org/apprenticeship-programs/) Toggle menu
+    - [Cable Splicer Program](https://albat.org/cable-splicer-program/)
+    - [Line Program](https://albat.org/line-program/)
+    - [Substation Program](https://albat.org/substation-program/)
+    - [Traffic Signal Program](https://albat.org/traffic-signal-program/)
+    - [Transmission Program](https://albat.org/transmission-program/)
+    - [URD Program](https://albat.org/urd-program/)
+  - [Contact](https://albat.org/contact/)
+- [Applicant Resources](https://albat.org/applicant-resources/) Toggle menu
+  - [IBEW Local Unions & Programs](https://albat.org/local-unions-and-programs/)
+  - [New Applicant FAQs](https://albat.org/new-applicant-faqs/)
+  - [Applicant Reinterview Request Form](https://albat.org/applicant-reinterview-request-form/)
+  - [Standards & Policies](https://albat.org/standards-and-policies-applicant/)
+- [Apprentice Resources](https://albat.org/apprentice-resources/) Toggle menu
+  - [Student Info Release](https://albat.org/wp/wp-content/uploads/2019/03/ALBAT-Student-Record-Release-Form-031717.pdf)
+  - [eLearn](https://electricaltrainingalliance.org/learning/blended)
+  - [Standards & Policies](https://albat.org/standards-and-policies-apprentice/)
+- [Continuing Education](https://albat.org/continuing-education/) Toggle menu
+  - [Training Courses](https://albat.org/training-courses/)
+  - [Training Calendar](https://albat.org/training-calendar/)
+- [Apply](https://albat.org/apply/) Toggle menu
+  - [Apprenticeship](https://albat.org/apprentice/)
+  - [Continuing Education](https://albat.org/apply-continuing-education/)
+  - [Employee](https://albat.org/employee/)
+
+# American Line Builders Joint Apprenticeship & Training
+
+ALBAT Training Center - Start your career here - YouTube
+
+Tap to unmute
+
+[ALBAT Training Center - Start your career here](https://www.youtube.com/watch?v=a8UAsbvIh8s) [American Line Builders Apprenticeship Training](https://www.youtube.com/channel/UCO0p3THI0zjGZ77x459BEHg)
+
+![thumbnail-image](https://yt3.ggpht.com/ytc/AIdro_mFMg4a942ULff16Qkn-_M4uF2zPbHXQA47iS7yb9JcTA=s68-c-k-c0x00ffffff-no-rj)
+
+American Line Builders Apprenticeship Training146 subscribers
+
+[Watch on](https://www.youtube.com/watch?v=a8UAsbvIh8s)
+
+## Join Our Apprenticeship
+
+The American Line Builders Joint Apprenticeship and Training Committee (ALBAT) is a leader in preparing program participants to compete in a 21st-century economy. Our unique approach keeps pace with advancing technologies, innovations in training and human resource development.
+
+ALBAT has a systematic approach to training that ensures employees are trained and certified to produce projects at the highest skill levels required, while maintaining safety training to produce projects on-time. The ALBAT Program is a registered program with the U.S. Department of Labor Office of Apprenticeship.
+
+We are proud to train the top electricians in the following programs: Cable Splicing, Outside Line, Substation, Traffic Signal, Transmission, and URD (Underground Residential Distribution).
+
+##### [Join ALBAT today!](https://albat.org/apply)
+
+[![](https://albat.org/wp/wp-content/uploads/2019/02/icon-applicant-resources.svg)**APPLICANT    RESOURCES**](https://albat.org/applicant-resources) [![](https://albat.org/wp/wp-content/uploads/2019/02/icon-apprentice-resources.svg)**APPRENTICE    RESOURCES**](https://albat.org/apprentice-resources) [![](https://albat.org/wp/wp-content/uploads/2019/02/icon-continuing-education.svg)**CONTINUING    EDUCATION**](https://albat.org/continuing-education)
+
+### Illinois, Indiana, Kentucky, Maryland, Michigan, Ohio, Virginia, Washington, D.C., and West Virginia
+
+- [![Electrical Training Alliance](https://albat.org/wp/wp-content/uploads/2019/02/electrical-training-alliance-logo-wh.svg)](https://electricaltrainingalliance.org/)
+- [![International Brotherhood of Electrical Workers](https://albat.org/wp/wp-content/uploads/2019/02/ibew104-logo.svg)](http://ibew.org/)
+- [![National Electrical Contractors Association](https://albat.org/wp/wp-content/uploads/2019/02/neca-logo-wh-r.svg)](https://www.necanet.org/)
+- [![Helmets to Hardhats](https://albat.org/wp/wp-content/uploads/2019/02/helmets-hardhats-logo.svg)](https://helmetstohardhats.org/)
+
+### APPRENTICESHIP    PROGRAMS
+
+[CABLE SPLICER](https://albat.org/cable-splicer-program) [LINE](https://albat.org/line-program) [SUBSTATION](https://albat.org/substation-program) [TRAFFIC SIGNAL](https://albat.org/traffic-signal-program) [TRANSMISSION](https://albat.org/transmission-program) [URD](https://albat.org/urd-program)
+
+### Contact Us
+
+- [Phone: (937) 849-4177](tel:937-849-4177)
+- [Toll-free: (800) 223-9339](tel:800-223-9339)
+- Fax: (937) 849-0592
+
+- [ALBAT Training Facility](https://goo.gl/maps/yQia2gTeMeS2)
+- 1900 Lake Road
+- P.O. Box 370
+- Medway, OH 45341
+
+- Email: [office@albat.org](mailto:office@albat.org)
+
+### Training Calendar
+
+##### Jul 22
+
+##### First Aid...
+
+##### Aug 15
+
+##### First Aid...
+
+##### Aug 29
+
+##### First Aid...
+
+###### Copyright © 2019 American Line Builders Joint Apprenticeship & Training.
+
+###### Website Designed & Managed by: [BMA Media Group](http://www.bmamedia.com/)

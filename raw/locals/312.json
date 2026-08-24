@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]551-  (c, i, st) Santa Rosa[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "551-|Santa Rosa|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "312",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2525 Cleveland Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2525 Cleveland Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Santa Rosa, CA 95403[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "304",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Santa Rosa|CA|95403",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](707) 542-3505[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 542-3505",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](707) 542-9134[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(707) 542-9134",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew551@ibewlocal551.org\" target=\"_blank\">ibew551@ibewlocal551.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "301",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew551@ibewlocal551.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal551.org\" target=\"_blank\">www.ibewlocal551.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal551.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]John P. McEntagart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "955",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|McEntagart||{ \"MemberID\" : \"955\",\"luid\": \"312\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2525 Cleveland Avenue\",\"addr2\":\"Suite B\",\"addr3\":\"\",\"city\":\"Santa Rosa\",\"state\":\"CA\",\"zip\":\"95403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Nicholas A. Paglia[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "957",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|A.|Paglia||{ \"MemberID\" : \"957\",\"luid\": \"312\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2525 Cleveland Avenue\",\"addr2\":\"Suite B\",\"addr3\":\"\",\"city\":\"Santa Rosa\",\"state\":\"CA\",\"zip\":\"95403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]John P. McEntagart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3626",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|P.|McEntagart||{ \"MemberID\" : \"3626\",\"luid\": \"312\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Stephanie J. Hall, 2525 Cleveland Avenue Suite B, Santa Rosa, CA  95403[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4262",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephanie|J.|Hall||{ \"MemberID\" : \"4262\",\"luid\": \"312\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "312",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]

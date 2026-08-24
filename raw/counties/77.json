@@ -1,0 +1,416 @@
+[
+  {
+    "CountyName": "Adams County, WA",
+    "District": "9",
+    "Population": "16428",
+    "LandArea": "1924.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Asotin County, WA",
+    "District": "9",
+    "Population": "20551",
+    "LandArea": "635.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Benewah County, ID",
+    "District": "8",
+    "Population": "9171",
+    "LandArea": "776.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Benton County, WA",
+    "District": "9",
+    "Population": "142475",
+    "LandArea": "1703.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Bonner County, ID",
+    "District": "8",
+    "Population": "36835",
+    "LandArea": "1737.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Boundary County, ID",
+    "District": "8",
+    "Population": "9871",
+    "LandArea": "1268.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Chelan County, WA",
+    "District": "9",
+    "Population": "66616",
+    "LandArea": "2921.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Clallam County, WA",
+    "District": "9",
+    "Population": "64525",
+    "LandArea": "1739.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Clearwater County, ID",
+    "District": "8",
+    "Population": "8930",
+    "LandArea": "2461.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Columbia County, WA",
+    "District": "9",
+    "Population": "4064",
+    "LandArea": "868.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Cowlitz County, WA",
+    "District": "9",
+    "Population": "92948",
+    "LandArea": "1138.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Douglas County, WA",
+    "District": "9",
+    "Population": "32603",
+    "LandArea": "1820.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Ferry County, WA",
+    "District": "9",
+    "Population": "7260",
+    "LandArea": "2203.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Franklin County, WA",
+    "District": "9",
+    "Population": "49347",
+    "LandArea": "1242.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Garfield County, WA",
+    "District": "9",
+    "Population": "2397",
+    "LandArea": "710.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Grant County, WA",
+    "District": "9",
+    "Population": "74698",
+    "LandArea": "2681.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Grays Harbor County, WA",
+    "District": "9",
+    "Population": "67194",
+    "LandArea": "1916.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Idaho County, ID",
+    "District": "8",
+    "Population": "15511",
+    "LandArea": "8484.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Island County, WA",
+    "District": "9",
+    "Population": "71558",
+    "LandArea": "208.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Jefferson County, WA",
+    "District": "9",
+    "Population": "25953",
+    "LandArea": "1814.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "King County, WA",
+    "District": "9",
+    "Population": "1737034",
+    "LandArea": "2126.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Kitsap County, WA",
+    "District": "9",
+    "Population": "231969",
+    "LandArea": "395.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Kittitas County, WA",
+    "District": "9",
+    "Population": "33362",
+    "LandArea": "2297.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Kootenai County, ID",
+    "District": "8",
+    "Population": "108685",
+    "LandArea": "1245.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Latah County, ID",
+    "District": "8",
+    "Population": "34935",
+    "LandArea": "1076.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lewis County, ID",
+    "District": "8",
+    "Population": "3747",
+    "LandArea": "479.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lewis County, WA",
+    "District": "9",
+    "Population": "68600",
+    "LandArea": "2407.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Lincoln County, WA",
+    "District": "9",
+    "Population": "10184",
+    "LandArea": "2311.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Mason County, WA",
+    "District": "9",
+    "Population": "49405",
+    "LandArea": "961.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Nez Perce County, ID",
+    "District": "8",
+    "Population": "37410",
+    "LandArea": "849.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Okanogan County, WA",
+    "District": "9",
+    "Population": "39564",
+    "LandArea": "5268.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Pacific County, WA",
+    "District": "9",
+    "Population": "20984",
+    "LandArea": "932.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Pend Oreille County, WA",
+    "District": "9",
+    "Population": "11732",
+    "LandArea": "1400.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Pierce County, WA",
+    "District": "9",
+    "Population": "700820",
+    "LandArea": "1678.91",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "San Juan County, WA",
+    "District": "9",
+    "Population": "14077",
+    "LandArea": "174.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Shoshone County, ID",
+    "District": "8",
+    "Population": "13771",
+    "LandArea": "2633.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Skagit County, WA",
+    "District": "9",
+    "Population": "102979",
+    "LandArea": "1735.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Snohomish County, WA",
+    "District": "9",
+    "Population": "606024",
+    "LandArea": "2089.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Spokane County, WA",
+    "District": "9",
+    "Population": "417939",
+    "LandArea": "1763.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Stevens County, WA",
+    "District": "9",
+    "Population": "40066",
+    "LandArea": "2478.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Thurston County, WA",
+    "District": "9",
+    "Population": "207355",
+    "LandArea": "727.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Wahkiakum County, WA",
+    "District": "9",
+    "Population": "3824",
+    "LandArea": "264.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Walla Walla County, WA",
+    "District": "9",
+    "Population": "55180",
+    "LandArea": "1270.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Whatcom County, WA",
+    "District": "9",
+    "Population": "166814",
+    "LandArea": "2119.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Whitman County, WA",
+    "District": "9",
+    "Population": "40740",
+    "LandArea": "2159.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  },
+  {
+    "CountyName": "Yakima County, WA",
+    "District": "9",
+    "Population": "222581",
+    "LandArea": "4296.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WA"
+  }
+]

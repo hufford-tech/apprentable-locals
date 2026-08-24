@@ -1,0 +1,232 @@
+https://www.ibew351.org/about.aspx
+---
+[Member Portals](https://www.ibew351.org/member-portals.aspx)
+
+[![IBEW Local 351](https://www.ibew351.org/images/logo_sm.png)](https://www.ibew351.org/index.aspx)
+
+International Brotherhood of Electrical Workers
+
+
+Toggle navigation
+
+- [Home](https://www.ibew351.org/index.aspx)
+- [About](https://www.ibew351.org/about.aspx)  - #### IBEW Local 351
+
+
+
+      International Brotherhood of Electrical Workers
+
+      ![IBEW Local 351](https://www.ibew351.org/images/local351.png)
+
+
+
+
+
+      #### Local 351 Sitemap
+
+
+
+
+
+
+
+
+
+
+
+    - [About Local\\
+       351](https://www.ibew351.org/about.aspx)
+    - [News](https://www.ibew351.org/news.aspx)
+    - [Organizing/Join](https://www.ibew351.org/organizing.aspx)
+    - [Community\\
+       Service](https://www.ibew351.org/community-service.aspx)
+    - [History](https://www.ibew351.org/history.aspx)
+
+    - [Officers and Staff](https://www.ibew351.org/officers.aspx)
+    - [Jurisdiction](https://www.ibew351.org/jurisdiction.aspx)
+    - [Political\\
+       Action](https://www.ibew351.org/political_action.aspx)
+    - [Government\\
+       Info.](https://www.ibew351.org/government.aspx)
+- [Training](https://www.ibew351.org/training.aspx)  - #### IBEW Local 351
+
+
+
+      International Brotherhood of Electrical Workers
+
+      ![IBEW Local 351](https://www.ibew351.org/images/local351.png)
+
+
+
+
+
+      #### Local 351 Sitemap
+
+
+
+
+
+
+
+
+
+
+
+    - [Training Home](https://www.ibew351.org/training.aspx)
+    - [Training Forms](https://www.ibew351.org/membersOnly/Default.aspx?zone=members&pID=7908)
+    - [Committee](https://www.ibew351.org/training.aspx?zone=training&pID=7904)
+
+    - [Apprenticeship](https://www.ibew351.org/training.aspx?zone=training&pID=7903)
+    - [Recruitment](https://www.ibew351.org/training.aspx?zone=training&pID=7844)
+    - [Contact the JATC](https://www.ibew351.org/contact.aspx)
+- [Members](https://www.ibew351.org/membersOnly/Default.aspx)  - #### IBEW Local 351
+
+
+
+      International Brotherhood of Electrical Workers
+
+      ![IBEW Local 351](https://www.ibew351.org/images/local351.png)
+
+
+
+
+
+      #### Local 351 Sitemap
+
+
+
+
+
+
+
+
+
+
+
+    - [Members Only](https://www.ibew351.org/membersOnly/Default.aspx)
+    - [Benefits](https://www.ibew351.org/benefits.aspx)
+
+    - [Events](https://www.ibew351.org/events.aspx)
+    - [IBEW Links](https://www.ibew351.org/links.aspx)
+- [Referral](https://www.ibew351.org/referral-and-resign.aspx)  - #### IBEW Local 351
+
+
+
+      International Brotherhood of Electrical Workers
+
+      ![IBEW Local 351](https://www.ibew351.org/images/local351.png)
+
+
+
+
+
+      #### Local 351 Sitemap
+
+
+
+
+
+
+
+
+
+
+
+    - [Dispatch and\\
+       Dues](https://referral.ibew351.org/members/lpx351.dll/)
+
+    - [Resign](https://www.ibew351.org/referral-and-resign.aspx)
+- [Contractors](https://www.ibew351.org/contractors.aspx)  - #### IBEW Local 351
+
+
+
+      International Brotherhood of Electrical Workers
+
+      ![IBEW Local 351](https://www.ibew351.org/images/local351.png)
+
+
+
+
+
+      #### Local 351 Sitemap
+
+
+
+
+
+
+
+
+
+
+
+    - [Contractors](https://www.ibew351.org/contractors.aspx)
+    - [Project Notification](https://www.ibew351.org/project-notification.aspx)
+
+    - [Wage Rates](https://www.ibew351.org/wage-rates.aspx)
+- [Contact](https://www.ibew351.org/contact.aspx)
+
+1. [Home](https://www.ibew351.org/index.aspx)
+2. About Us
+
+###### In This Section
+
+- [About Us](https://www.ibew351.org/about.aspx?zone=about&pID=7848)
+- [Services](https://www.ibew351.org/about.aspx?zone=about&pID=7675)
+- [40th International Convention Highlights](https://www.ibew351.org/about.aspx?zone=about&pID=10597)
+- [Picnic Door Prizes 2026](https://www.ibew351.org/about.aspx?zone=about&pID=11508)
+
+## About IBEW Local 351
+
+Since May 1, 1994 the members of IBEW Local 351 have served the communities of Southern New Jersey by providing a highly skilled workforce. This workforce consists of Inside Wiremen, Linemen, Telecommunications workers, Construction Wiremen/Electricians, Lighting Rod Installers, and Line Clearance Tree Trimmers. We take pride in every one of our members and it is our goal to ensure every job is on time and on budget. Our over 2000 members proudly service Atlantic, Camden, Cape May, Cumberland, Gloucester, Salem, and a majority of Burlington Counties. We also serve a portion of Ocean County (Line Division).
+
+Our comprehensive 5-year electrical apprenticeship program ensures each of our electricians is ready to provide our customers with the highest quality of craftsmanship. Our training is housed in our 20,000 square foot state of the art training facility. This facility is utilized not only by our apprentices but is also home to our Construction Wireman/Electrician training, continuing education and safety programs. Keeping pace with technology is a vital link in our education as we believe the electrical field is a constant changing, career-long learning process.
+
+We welcome you to look around our site and explore all of what Local 351 has to offer.
+
+- Partnered with over 300 licensed electrical contractors
+
+- Extensive training opportunities
+
+- Certified instructors
+
+- Apprenticeship program accredited by the American Council on Education for up to 60 college credits
+
+- Safety training and certifications
+
+- Community service and volunteerism
+
+
+We pride ourselves in delivering to our contractors and end users the best electrical craftsman available. We have adapted to the economics of these modern times and find we can be competitive in all venues. We hope to see you soon; our doors are always open.
+
+## About IBEW 351
+
+IBEW Local 351 provides a highly-skilled Electrical Workforce to all of
+Southern New Jersey. This means you receive the highest quality
+craftsmanship with on-time and on-budget projects.
+
+## Mailing Address
+
+- P.O. Box 1118
+
+
+Hammonton, NJ 08037
+- [Email:\\
+Click Here](https://www.ibew351.org/contact.aspx)
+
+## Physical Address
+
+- 1113 Black Horse Pike
+
+
+Folsom, NJ 08037
+- [609-704-8351](tel:16097048351)
+- [1-800-543-4239](tel:18005434239)
+- [609-704-0621](tel:16097040621)
+- [Email:\\
+Click Here](https://www.ibew351.org/contact.aspx)
+
+Copyright ©
+2026 IBEW Local 351 \| All Rights
+Reserved \| [E](https://login.microsoftonline.com/)
+\| Developed by [UnionLaborWorks](http://www.unionlaborworks.com/)

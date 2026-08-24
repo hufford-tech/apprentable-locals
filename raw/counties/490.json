@@ -1,0 +1,101 @@
+[
+  {
+    "CountyName": "Belknap County, NH",
+    "District": "2",
+    "Population": "56325",
+    "LandArea": "401.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Carroll County, NH",
+    "District": "2",
+    "Population": "43666",
+    "LandArea": "933.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Cheshire County, NH",
+    "District": "2",
+    "Population": "73825",
+    "LandArea": "707.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Coos County, NH",
+    "District": "2",
+    "Population": "33111",
+    "LandArea": "1800.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Grafton County, NH",
+    "District": "2",
+    "Population": "81743",
+    "LandArea": "1713.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Hillsborough County, NH",
+    "District": "2",
+    "Population": "380841",
+    "LandArea": "876.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Merrimack County, NH",
+    "District": "2",
+    "Population": "136225",
+    "LandArea": "934.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Rockingham County, NH",
+    "District": "2",
+    "Population": "277359",
+    "LandArea": "694.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Strafford County, NH",
+    "District": "2",
+    "Population": "112233",
+    "LandArea": "368.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "Sullivan County, NH",
+    "District": "2",
+    "Population": "40458",
+    "LandArea": "537.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NH"
+  },
+  {
+    "CountyName": "York County, ME",
+    "District": "2",
+    "Population": "186742",
+    "LandArea": "990.92",
+    "Percentage": "60%",
+    "jurisdiction": "I",
+    "StateProvince": "ME"
+  }
+]

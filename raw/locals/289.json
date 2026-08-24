@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]502-  (c, em, i, it, t) Saint John, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "502-|Saint John|NB",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "289",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, em, i, it, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]26 Kiwanis Court[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "Address1",
+    "editFieldValues": "26 Kiwanis Court",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Saint John, NB E2K 4L2[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "284",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Saint John|NB|E2K 4L2",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](506) 635-1221[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "538",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 635-1221",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](506) 672-1185[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "539",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(506) 672-1185",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew502.ca\" target=\"_blank\">info@ibew502.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "279",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew502.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew502.org\" target=\"_blank\">www.ibew502.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew502.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Jean-Marc Ringuette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "888",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jean-Marc||Ringuette||{ \"MemberID\" : \"888\",\"luid\": \"289\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"26 Kiwanis Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saint John\",\"state\":\"NB\",\"zip\":\"E2K 4L2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]David P. Stephen[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "887",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|P.|Stephen||{ \"MemberID\" : \"887\",\"luid\": \"289\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"26 Kiwanis Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saint John\",\"state\":\"NB\",\"zip\":\"E2K 4L2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Jean-Marc Ringuette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3603",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jean-Marc||Ringuette||{ \"MemberID\" : \"3603\",\"luid\": \"289\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Tracy D. Brownell[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "886",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tracy|D.|Brownell||{ \"MemberID\" : \"886\",\"luid\": \"289\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"26 Kiwanis Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Saint John\",\"state\":\"NB\",\"zip\":\"E2K 4L2\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "289",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

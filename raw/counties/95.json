@@ -1,0 +1,110 @@
+[
+  {
+    "CountyName": "Barry County, MO",
+    "District": "11",
+    "Population": "34010",
+    "LandArea": "779.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Barton County, MO",
+    "District": "11",
+    "Population": "12541",
+    "LandArea": "594.25",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cedar County, MO",
+    "District": "11",
+    "Population": "13733",
+    "LandArea": "475.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cherokee County, KS",
+    "District": "7",
+    "Population": "22605",
+    "LandArea": "587.11",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Crawford County, KS",
+    "District": "7",
+    "Population": "38242",
+    "LandArea": "592.91",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Dade County, MO",
+    "District": "11",
+    "Population": "7923",
+    "LandArea": "490.34",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Jasper County, MO",
+    "District": "11",
+    "Population": "104686",
+    "LandArea": "639.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Lawrence County, MO",
+    "District": "11",
+    "Population": "35204",
+    "LandArea": "613.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "McDonald County, MO",
+    "District": "11",
+    "Population": "21681",
+    "LandArea": "539.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Newton County, MO",
+    "District": "11",
+    "Population": "52636",
+    "LandArea": "626.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "St. Clair County, MO",
+    "District": "11",
+    "Population": "9652",
+    "LandArea": "676.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Vernon County, MO",
+    "District": "11",
+    "Population": "20454",
+    "LandArea": "833.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  }
+]

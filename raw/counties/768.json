@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Flathead County, MT",
+    "District": "8",
+    "Population": "74471",
+    "LandArea": "5098.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Flathead County, MT",
+    "District": "8",
+    "Population": "74471",
+    "LandArea": "5098.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Lake County, MT",
+    "District": "8",
+    "Population": "26507",
+    "LandArea": "1493.77",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Lake County, MT",
+    "District": "8",
+    "Population": "26507",
+    "LandArea": "1493.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Lincoln County, MT",
+    "District": "8",
+    "Population": "18837",
+    "LandArea": "3612.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Lincoln County, MT",
+    "District": "8",
+    "Population": "18837",
+    "LandArea": "3612.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Mineral County, MT",
+    "District": "8",
+    "Population": "3884",
+    "LandArea": "1219.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Missoula County, MT",
+    "District": "8",
+    "Population": "95802",
+    "LandArea": "2597.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Ravalli County, MT",
+    "District": "8",
+    "Population": "36070",
+    "LandArea": "2394.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Sanders County, MT",
+    "District": "8",
+    "Population": "10227",
+    "LandArea": "2762.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  }
+]

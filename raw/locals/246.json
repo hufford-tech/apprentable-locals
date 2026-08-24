@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]420-  (u) Waterbury[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "246",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "420-|Waterbury|CT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "246",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]550 Wolcott Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "Address1",
+    "editFieldValues": "550 Wolcott Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Waterbury, CT 06705[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "241",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Waterbury|CT|06705",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](203) 757-9639[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "456",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(203) 757-9639",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew@snet.net\" target=\"_blank\">ibew@snet.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "239",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew@snet.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal420.com\" target=\"_blank\">www.ibewlocal420.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "246",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal420.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Joseph A. Malcarne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "759",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Malcarne||{ \"MemberID\" : \"759\",\"luid\": \"246\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"98 Belden Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Watertown\",\"state\":\"CT\",\"zip\":\"06795\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]John G. Burke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "757",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|G.|Burke||{ \"MemberID\" : \"757\",\"luid\": \"246\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"550 Wolcott Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waterbury\",\"state\":\"CT\",\"zip\":\"06705\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joseph A. Malcarne[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3560",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Malcarne||{ \"MemberID\" : \"3560\",\"luid\": \"246\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Victor N. Perugini[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "758",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Victor|N.|Perugini||{ \"MemberID\" : \"758\",\"luid\": \"246\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"550 Wolcott Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waterbury\",\"state\":\"CT\",\"zip\":\"06705\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]American Italian Civic Club, 476 Boyden Street, 4th Friday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "246",
+    "editFieldNames": "Meets",
+    "editFieldValues": "American Italian Civic Club, 476 Boyden Street, 4th Friday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

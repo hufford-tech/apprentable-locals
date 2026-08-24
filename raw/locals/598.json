@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1431  (t) Sumter[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "598",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1431|Sumter|SC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "598",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 84[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7266",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 84",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]North Myrtle Beach, SC 29597[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7266",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Myrtle Beach|SC|29597",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](843) 655-5770[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1042",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(843) 655-5770",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1431@hotmail.com\" target=\"_blank\">ibew1431@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "563",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1431@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Troy D. Strickland, 161 Southborough Lane, Myrtle Beach, SC  29588[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1836",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|D.|Strickland||{ \"MemberID\" : \"1836\",\"luid\": \"598\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"161 Southborough Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Myrtle Beach\",\"state\":\"SC\",\"zip\":\"29588\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Troy D. Strickland, 161 Southborough Lane, Myrtle Beach, SC  29588[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3901",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy|D.|Strickland||{ \"MemberID\" : \"3901\",\"luid\": \"598\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"161 Southborough Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Myrtle Beach\",\"state\":\"SC\",\"zip\":\"29588\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Jason G. Bane, PO Box 84, North Myrtle Beach, SC  29597[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1837",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|G.|Bane||{ \"MemberID\" : \"1837\",\"luid\": \"598\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 84\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"North Myrtle Beach\",\"state\":\"SC\",\"zip\":\"29597\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Royce C. McCollister, 1753 Brizel Lane, Manning, SC  29102[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1838",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Royce|C.|McCollister||{ \"MemberID\" : \"1838\",\"luid\": \"598\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1753 Brizel Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Manning\",\"state\":\"SC\",\"zip\":\"29102\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Quality Inn, 2390 Broad Street, 2nd Tuesday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "598",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Quality Inn, 2390 Broad Street, 2nd Tuesday, 8 pm",
+    "datatype": "txt"
+  }
+]

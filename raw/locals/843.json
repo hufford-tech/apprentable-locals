@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2362  (mo) Selma[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "843",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2362|Selma|AL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "843",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 388[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6970",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 388",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Selma, AL 36702[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "6970",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Selma|AL|36702",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](850) 596-6159[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2243",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(850) 596-6159",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal2362@gmail.com\" target=\"_blank\">ibewlocal2362@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "775",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal2362@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jerry L. Powell II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2563",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|L.|Powell|II|{ \"MemberID\" : \"2563\",\"luid\": \"843\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"2100 Delanie Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Selma\",\"state\":\"AL\",\"zip\":\"36701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jerry L. Powell II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4168",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jerry|L.|Powell|II|{ \"MemberID\" : \"4168\",\"luid\": \"843\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2100 Delanie Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Selma\",\"state\":\"AL\",\"zip\":\"36701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Bryan J. Browning[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2565",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Bryan|J.|Browning||{ \"MemberID\" : \"2565\",\"luid\": \"843\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2100 Delaine Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Selma\",\"state\":\"AL\",\"zip\":\"36701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Synethia T. Bennett[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2564",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Synethia|T.|Bennett||{ \"MemberID\" : \"2564\",\"luid\": \"843\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2100 Delaine Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Selma\",\"state\":\"AL\",\"zip\":\"36701\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]UWS Union Hall, Arrowhead Road, 2nd Monday, 3:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "843",
+    "editFieldNames": "Meets",
+    "editFieldValues": "UWS Union Hall, Arrowhead Road, 2nd Monday, 3:45 pm",
+    "datatype": "txt"
+  }
+]

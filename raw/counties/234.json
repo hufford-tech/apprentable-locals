@@ -1,0 +1,29 @@
+[
+  {
+    "CountyName": "Monterey County, CA",
+    "District": "9",
+    "Population": "401762",
+    "LandArea": "3321.95",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "San Benito County, CA",
+    "District": "9",
+    "Population": "53234",
+    "LandArea": "1389.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Santa Cruz County, CA",
+    "District": "9",
+    "Population": "255602",
+    "LandArea": "445.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

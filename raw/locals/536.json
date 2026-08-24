@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1146  (rr) Amarillo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "536",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1146|Amarillo|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "536",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3 Hooper Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7281",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3 Hooper Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Canyon, TX 79015[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7281",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Canyon|TX|79015",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](806) 236-1844[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "942",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(806) 236-1844",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:Correa.Marcus@outlook.com\" target=\"_blank\">Correa.Marcus@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "505",
+    "editFieldNames": "Email",
+    "editFieldValues": "Correa.Marcus@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Marcus A. Correa, 63 Northridge Drive, Canyon, TX  79015[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3837",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Marcus|A.|Correa||{ \"MemberID\" : \"3837\",\"luid\": \"536\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"63 Northridge Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Canyon\",\"state\":\"TX\",\"zip\":\"79015\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Nicholas Q. Freeman, 3 Hooper Drive, Canyon, TX  79015[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1651",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Nicholas|Q.|Freeman||{ \"MemberID\" : \"1651\",\"luid\": \"536\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3 Hooper Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Canyon\",\"state\":\"TX\",\"zip\":\"79015\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Chris Kleman, 4705 Van Winkle Drive, Amarillo, TX  79119[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1650",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chris||Kleman||{ \"MemberID\" : \"1650\",\"luid\": \"536\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4705 Van Winkle Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Amarillo\",\"state\":\"TX\",\"zip\":\"79119\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]200 S Fannin Street, 4th Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "536",
+    "editFieldNames": "Meets",
+    "editFieldValues": "200 S Fannin Street, 4th Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

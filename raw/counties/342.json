@@ -1,0 +1,308 @@
+[
+  {
+    "CountyName": "Alamance County, NC",
+    "District": "10",
+    "Population": "130800",
+    "LandArea": "429.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Alamance County, NC",
+    "District": "10",
+    "Population": "130800",
+    "LandArea": "429.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Alexander County, NC",
+    "District": "10",
+    "Population": "33603",
+    "LandArea": "260.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Alexander County, NC",
+    "District": "10",
+    "Population": "33603",
+    "LandArea": "260.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Alleghany County, NC",
+    "District": "10",
+    "Population": "10677",
+    "LandArea": "234.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Alleghany County, NC",
+    "District": "10",
+    "Population": "10677",
+    "LandArea": "234.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Ashe County, NC",
+    "District": "10",
+    "Population": "24384",
+    "LandArea": "426.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Ashe County, NC",
+    "District": "10",
+    "Population": "24384",
+    "LandArea": "426.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Caswell County, NC",
+    "District": "10",
+    "Population": "23501",
+    "LandArea": "424.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Caswell County, NC",
+    "District": "10",
+    "Population": "23501",
+    "LandArea": "424.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chatham County, NC",
+    "District": "10",
+    "Population": "49329",
+    "LandArea": "682.85",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chatham County, NC",
+    "District": "10",
+    "Population": "49329",
+    "LandArea": "682.85",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Davidson County, NC",
+    "District": "10",
+    "Population": "147246",
+    "LandArea": "552.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Davidson County, NC",
+    "District": "10",
+    "Population": "147246",
+    "LandArea": "552.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Davie County, NC",
+    "District": "10",
+    "Population": "34835",
+    "LandArea": "265.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Davie County, NC",
+    "District": "10",
+    "Population": "34835",
+    "LandArea": "265.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Forsyth County, NC",
+    "District": "10",
+    "Population": "306067",
+    "LandArea": "409.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Forsyth County, NC",
+    "District": "10",
+    "Population": "306067",
+    "LandArea": "409.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Guilford County, NC",
+    "District": "10",
+    "Population": "421048",
+    "LandArea": "649.42",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Guilford County, NC",
+    "District": "10",
+    "Population": "421048",
+    "LandArea": "649.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Moore County, NC",
+    "District": "10",
+    "Population": "74769",
+    "LandArea": "697.73",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Moore County, NC",
+    "District": "10",
+    "Population": "74769",
+    "LandArea": "697.73",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Randolph County, NC",
+    "District": "10",
+    "Population": "130454",
+    "LandArea": "787.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Randolph County, NC",
+    "District": "10",
+    "Population": "130454",
+    "LandArea": "787.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rockingham County, NC",
+    "District": "10",
+    "Population": "91928",
+    "LandArea": "566.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Rockingham County, NC",
+    "District": "10",
+    "Population": "91928",
+    "LandArea": "566.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Stokes County, NC",
+    "District": "10",
+    "Population": "44711",
+    "LandArea": "451.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Stokes County, NC",
+    "District": "10",
+    "Population": "44711",
+    "LandArea": "451.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Surry County, NC",
+    "District": "10",
+    "Population": "71219",
+    "LandArea": "536.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Surry County, NC",
+    "District": "10",
+    "Population": "71219",
+    "LandArea": "536.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wilkes County, NC",
+    "District": "10",
+    "Population": "65632",
+    "LandArea": "757.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Wilkes County, NC",
+    "District": "10",
+    "Population": "65632",
+    "LandArea": "757.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Yadkin County, NC",
+    "District": "10",
+    "Population": "36348",
+    "LandArea": "335.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Yadkin County, NC",
+    "District": "10",
+    "Population": "36348",
+    "LandArea": "335.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  }
+]

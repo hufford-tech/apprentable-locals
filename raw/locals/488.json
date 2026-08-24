@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]965-  (em, govt, ptc, u) Madison[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "965-|Madison|WI",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "488",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, ptc, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]701 Watson Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "Address1",
+    "editFieldValues": "701 Watson Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Madison, WI 53713[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "455",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Madison|WI|53713",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](608) 274-5600[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "867",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(608) 274-5600",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](608) 274-2980[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "868",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(608) 274-2980",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew965@ibew965.com\" target=\"_blank\">ibew965@ibew965.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "463",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew965@ibew965.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew965.com\" target=\"_blank\">www.ibew965.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew965.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Dillon P. Gorman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1496",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dillon|P.|Gorman||{ \"MemberID\" : \"1496\",\"luid\": \"488\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"701 Watson Avenue\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Madison\",\"state\":\"WI\",\"zip\":\"53713\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Randall K. Jacob[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1495",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randall|K.|Jacob||{ \"MemberID\" : \"1495\",\"luid\": \"488\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"701 Watson Avenue\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Madison\",\"state\":\"WI\",\"zip\":\"53713\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Dillon P. Gorman[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3797",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dillon|P.|Gorman||{ \"MemberID\" : \"3797\",\"luid\": \"488\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Teryn L. Fishel[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1494",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Teryn|L.|Fishel||{ \"MemberID\" : \"1494\",\"luid\": \"488\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"701 Watson Avenue\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Madison\",\"state\":\"WI\",\"zip\":\"53713\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Wednesday, 12 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "488",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Wednesday, 12 pm",
+    "datatype": "txt"
+  }
+]

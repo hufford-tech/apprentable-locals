@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]45--  (catv, govt, rtb, t) Hollywood[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "45--|Hollywood|CA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "43",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, govt, rtb, t",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6350 Laurel Canyon Boulevard[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6350 Laurel Canyon Boulevard",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 350[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 350",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]North Hollywood, CA 91606[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "North Hollywood|CA|91606",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](323) 851-5515[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "83",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 851-5515",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](323) 466-1793[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "84",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(323) 466-1793",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew45.org\" target=\"_blank\">info@ibew45.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew45.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew45.org\" target=\"_blank\">www.ibew45.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew45.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Rodney C. Cummings[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "135",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|C.|Cummings||{ \"MemberID\" : \"135\",\"luid\": \"43\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"6255 Sunset Boulevard\",\"addr2\":\"Suite 721\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"CA\",\"zip\":\"90028\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Maria L. Martinez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "134",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Maria|L.|Martinez||{ \"MemberID\" : \"134\",\"luid\": \"43\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"6255 Sunset Boulevard\",\"addr2\":\"Suite 721\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"CA\",\"zip\":\"90028\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Rodney C. Cummings[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3372",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|C.|Cummings||{ \"MemberID\" : \"3372\",\"luid\": \"43\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Eduardo M. Nunez[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "133",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eduardo|M.|Nunez||{ \"MemberID\" : \"133\",\"luid\": \"43\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"6255 Sunset Boulevard\",\"addr2\":\"Suite 721\",\"addr3\":\"\",\"city\":\"Hollywood\",\"state\":\"CA\",\"zip\":\"90028\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]4th Monday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "43",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Monday, 5 pm",
+    "datatype": "txt"
+  }
+]

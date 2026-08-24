@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Cayuga County, NY",
+    "District": "3",
+    "Population": "81963",
+    "LandArea": "693.18",
+    "Percentage": "1%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Schuyler County, NY",
+    "District": "3",
+    "Population": "19224",
+    "LandArea": "328.71",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Seneca County, NY",
+    "District": "3",
+    "Population": "33342",
+    "LandArea": "324.91",
+    "Percentage": "11%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tioga County, NY",
+    "District": "3",
+    "Population": "51784",
+    "LandArea": "518.69",
+    "Percentage": "20%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tompkins County, NY",
+    "District": "3",
+    "Population": "96501",
+    "LandArea": "476.05",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

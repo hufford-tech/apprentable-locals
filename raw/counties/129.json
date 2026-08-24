@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Erie County, OH",
+    "District": "4",
+    "Population": "79551",
+    "LandArea": "254.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Huron County, OH",
+    "District": "4",
+    "Population": "59487",
+    "LandArea": "492.69",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Lorain County, OH",
+    "District": "4",
+    "Population": "284664",
+    "LandArea": "492.50",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  },
+  {
+    "CountyName": "Medina County, OH",
+    "District": "4",
+    "Population": "151095",
+    "LandArea": "421.55",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "OH"
+  }
+]

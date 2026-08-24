@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]869-  (mo) Iroquois Falls, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "457",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "869-|Iroquois Falls|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "457",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mo",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]743 Highway 67[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "Address1",
+    "editFieldValues": "743 Highway 67",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Iroquois Falls, ON P0K 1E0[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "431",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Iroquois Falls|ON|P0K 1E0",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](705) 347-2595[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "818",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(705) 347-2595",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:aylevesque@hotmail.com\" target=\"_blank\">aylevesque@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2121",
+    "editFieldNames": "Email",
+    "editFieldValues": "aylevesque@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Alain Levesque[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3335",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alain||Levesque||{ \"MemberID\" : \"3335\",\"luid\": \"457\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Alain Levesque[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4175",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alain||Levesque||{ \"MemberID\" : \"4175\",\"luid\": \"457\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Troy Clancy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1403",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Troy||Clancy||{ \"MemberID\" : \"1403\",\"luid\": \"457\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 102\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iroquois Falls\",\"state\":\"ON\",\"zip\":\"P0K 1E0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Brian Pomerleau[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1402",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian||Pomerleau||{ \"MemberID\" : \"1402\",\"luid\": \"457\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 102\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Iroquois Falls\",\"state\":\"ON\",\"zip\":\"P0K 1E0\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Knights of Columbus Hall, 1st Monday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "457",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Knights of Columbus Hall, 1st Monday, 4 pm",
+    "datatype": "txt"
+  }
+]

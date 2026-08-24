@@ -1,0 +1,272 @@
+[
+  {
+    "CountyName": "Allen County, KS",
+    "District": "7",
+    "Population": "14385",
+    "LandArea": "503.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Anderson County, KS",
+    "District": "7",
+    "Population": "8110",
+    "LandArea": "582.92",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Atchison County, KS",
+    "District": "7",
+    "Population": "16774",
+    "LandArea": "432.34",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Bourbon County, KS",
+    "District": "7",
+    "Population": "15379",
+    "LandArea": "637.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Brown County, KS",
+    "District": "7",
+    "Population": "10724",
+    "LandArea": "570.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Chautauqua County, KS",
+    "District": "7",
+    "Population": "4359",
+    "LandArea": "641.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Cherokee County, KS",
+    "District": "7",
+    "Population": "22605",
+    "LandArea": "587.11",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Coffey County, KS",
+    "District": "7",
+    "Population": "8865",
+    "LandArea": "629.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Crawford County, KS",
+    "District": "7",
+    "Population": "38242",
+    "LandArea": "592.91",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Douglas County, KS",
+    "District": "7",
+    "Population": "99962",
+    "LandArea": "456.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Elk County, KS",
+    "District": "7",
+    "Population": "3261",
+    "LandArea": "647.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Franklin County, KS",
+    "District": "7",
+    "Population": "24784",
+    "LandArea": "573.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Geary County, KS",
+    "District": "7",
+    "Population": "27947",
+    "LandArea": "384.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Greenwood County, KS",
+    "District": "7",
+    "Population": "7673",
+    "LandArea": "1139.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Jackson County, KS",
+    "District": "7",
+    "Population": "12657",
+    "LandArea": "655.59",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Jefferson County, KS",
+    "District": "7",
+    "Population": "18426",
+    "LandArea": "536.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Labette County, KS",
+    "District": "7",
+    "Population": "22835",
+    "LandArea": "648.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Lyon County, KS",
+    "District": "7",
+    "Population": "35935",
+    "LandArea": "850.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Marshall County, KS",
+    "District": "7",
+    "Population": "10965",
+    "LandArea": "902.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Montgomery County, KS",
+    "District": "7",
+    "Population": "36252",
+    "LandArea": "645.20",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Morris County, KS",
+    "District": "7",
+    "Population": "6104",
+    "LandArea": "697.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Nemaha County, KS",
+    "District": "7",
+    "Population": "10717",
+    "LandArea": "717.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Neosho County, KS",
+    "District": "7",
+    "Population": "16997",
+    "LandArea": "571.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Osage County, KS",
+    "District": "7",
+    "Population": "16712",
+    "LandArea": "703.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Pottawatomie County, KS",
+    "District": "7",
+    "Population": "18209",
+    "LandArea": "844.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Riley County, KS",
+    "District": "7",
+    "Population": "62843",
+    "LandArea": "609.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Shawnee County, KS",
+    "District": "7",
+    "Population": "169871",
+    "LandArea": "549.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Wabaunsee County, KS",
+    "District": "7",
+    "Population": "6885",
+    "LandArea": "797.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Wilson County, KS",
+    "District": "7",
+    "Population": "10332",
+    "LandArea": "573.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Woodson County, KS",
+    "District": "7",
+    "Population": "3788",
+    "LandArea": "500.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  }
+]

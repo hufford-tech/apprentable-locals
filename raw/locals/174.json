@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]288-  (i, ptc, rts, spa, u) Waterloo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "174",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "288-|Waterloo|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "174",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, ptc, rts, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1695 Burton Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "180",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1695 Burton Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Waterloo, IA 50703[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "180",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Waterloo|IA|50703",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](319) 233-8050[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "329",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 233-8050",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](319) 233-4312[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "330",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(319) 233-4312",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:chuck@ibew288.org\" target=\"_blank\">chuck@ibew288.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2039",
+    "editFieldNames": "Email",
+    "editFieldValues": "chuck@ibew288.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew288.org\" target=\"_blank\">www.ibew288.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "174",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew288.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Chuck R. Kacher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "538",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chuck|R.|Kacher||{ \"MemberID\" : \"538\",\"luid\": \"174\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1695 Burton Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waterloo\",\"state\":\"IA\",\"zip\":\"50703\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]David P. Lycke[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "539",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|P.|Lycke||{ \"MemberID\" : \"539\",\"luid\": \"174\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1695 Burton Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Waterloo\",\"state\":\"IA\",\"zip\":\"50703\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Chuck R. Kacher[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3491",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Chuck|R.|Kacher||{ \"MemberID\" : \"3491\",\"luid\": \"174\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Ethan Seidenkranz[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4443",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ethan||Seidenkranz||{ \"MemberID\" : \"4443\",\"luid\": \"174\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "174",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

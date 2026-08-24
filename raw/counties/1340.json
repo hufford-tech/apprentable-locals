@@ -1,0 +1,200 @@
+[
+  {
+    "CountyName": "Gloucester County, VA",
+    "District": "4",
+    "Population": "34780",
+    "LandArea": "216.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Gloucester County, VA",
+    "District": "4",
+    "Population": "34780",
+    "LandArea": "216.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hampton City, VA",
+    "District": "4",
+    "Population": "146437",
+    "LandArea": "51.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Hampton City, VA",
+    "District": "4",
+    "Population": "146437",
+    "LandArea": "51.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Isle of Wight County, VA",
+    "District": "4",
+    "Population": "29728",
+    "LandArea": "315.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Isle of Wight County, VA",
+    "District": "4",
+    "Population": "29728",
+    "LandArea": "315.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lancaster County, VA",
+    "District": "4",
+    "Population": "11567",
+    "LandArea": "133.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lancaster County, VA",
+    "District": "4",
+    "Population": "11567",
+    "LandArea": "133.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Mathews County, VA",
+    "District": "4",
+    "Population": "9207",
+    "LandArea": "85.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Mathews County, VA",
+    "District": "4",
+    "Population": "9207",
+    "LandArea": "85.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Middlesex County, VA",
+    "District": "4",
+    "Population": "9932",
+    "LandArea": "130.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Middlesex County, VA",
+    "District": "4",
+    "Population": "9932",
+    "LandArea": "130.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Newport News City, VA",
+    "District": "4",
+    "Population": "180150",
+    "LandArea": "68.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Newport News City, VA",
+    "District": "4",
+    "Population": "180150",
+    "LandArea": "68.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Northumberland County, VA",
+    "District": "4",
+    "Population": "12259",
+    "LandArea": "192.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Northumberland County, VA",
+    "District": "4",
+    "Population": "12259",
+    "LandArea": "192.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Poquoson City, VA",
+    "District": "4",
+    "Population": "11566",
+    "LandArea": "15.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Poquoson City, VA",
+    "District": "4",
+    "Population": "11566",
+    "LandArea": "15.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Richmond County, VA",
+    "District": "4",
+    "Population": "8809",
+    "LandArea": "191.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Richmond County, VA",
+    "District": "4",
+    "Population": "8809",
+    "LandArea": "191.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "York County, VA",
+    "District": "4",
+    "Population": "56297",
+    "LandArea": "105.65",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "York County, VA",
+    "District": "4",
+    "Population": "56297",
+    "LandArea": "105.65",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  }
+]

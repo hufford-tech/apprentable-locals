@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]673-  (i, rts, spa, t, u) Painesville[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "370",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "673-|Painesville|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "370",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, rts, spa, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]8356 Munson Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "368",
+    "editFieldNames": "Address1",
+    "editFieldValues": "8356 Munson Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Mentor, OH 44060[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "368",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Mentor|OH|44060",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](440) 255-3414[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "680",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(440) 255-3414",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](440) 255-3418[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "681",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(440) 255-3418",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ehovlik@ibew673.org\" target=\"_blank\">ehovlik@ibew673.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "355",
+    "editFieldNames": "Email",
+    "editFieldValues": "ehovlik@ibew673.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew673.org\" target=\"_blank\">www.ibew673.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "370",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew673.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]John D. Rusnak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1133",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|D.|Rusnak||{ \"MemberID\" : \"1133\",\"luid\": \"370\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8356 Munson Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mentor\",\"state\":\"OH\",\"zip\":\"44060\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Michael D. Kubacki[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1135",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|D.|Kubacki||{ \"MemberID\" : \"1135\",\"luid\": \"370\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8356 Munson Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mentor\",\"state\":\"OH\",\"zip\":\"44060\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]John D. Rusnak[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3680",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|D.|Rusnak||{ \"MemberID\" : \"3680\",\"luid\": \"370\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Gretchen A. Bryan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1134",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gretchen|A.|Bryan||{ \"MemberID\" : \"1134\",\"luid\": \"370\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"8356 Munson Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Mentor\",\"state\":\"OH\",\"zip\":\"44060\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "370",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

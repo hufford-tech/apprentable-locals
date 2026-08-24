@@ -1,0 +1,407 @@
+[
+  {
+    "CountyName": "Big Horn County, MT",
+    "District": "8",
+    "Population": "12671",
+    "LandArea": "4994.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Big Horn County, MT",
+    "District": "8",
+    "Population": "12671",
+    "LandArea": "4994.80",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Carbon County, MT",
+    "District": "8",
+    "Population": "9552",
+    "LandArea": "2047.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Carbon County, MT",
+    "District": "8",
+    "Population": "9552",
+    "LandArea": "2047.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Carter County, MT",
+    "District": "8",
+    "Population": "1360",
+    "LandArea": "3339.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Carter County, MT",
+    "District": "8",
+    "Population": "1360",
+    "LandArea": "3339.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Custer County, MT",
+    "District": "8",
+    "Population": "11696",
+    "LandArea": "3783.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Custer County, MT",
+    "District": "8",
+    "Population": "11696",
+    "LandArea": "3783.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Daniels County, MT",
+    "District": "8",
+    "Population": "2017",
+    "LandArea": "1426.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Daniels County, MT",
+    "District": "8",
+    "Population": "2017",
+    "LandArea": "1426.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Dawson County, MT",
+    "District": "8",
+    "Population": "9059",
+    "LandArea": "2373.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Dawson County, MT",
+    "District": "8",
+    "Population": "9059",
+    "LandArea": "2373.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Fallon County, MT",
+    "District": "8",
+    "Population": "2837",
+    "LandArea": "1620.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Fallon County, MT",
+    "District": "8",
+    "Population": "2837",
+    "LandArea": "1620.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Gallatin County, MT",
+    "District": "8",
+    "Population": "67831",
+    "LandArea": "2605.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Garfield County, MT",
+    "District": "8",
+    "Population": "1279",
+    "LandArea": "4668.06",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Garfield County, MT",
+    "District": "8",
+    "Population": "1279",
+    "LandArea": "4668.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Golden Valley County, MT",
+    "District": "8",
+    "Population": "1042",
+    "LandArea": "1175.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Golden Valley County, MT",
+    "District": "8",
+    "Population": "1042",
+    "LandArea": "1175.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "McCone County, MT",
+    "District": "8",
+    "Population": "1977",
+    "LandArea": "2642.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "McCone County, MT",
+    "District": "8",
+    "Population": "1977",
+    "LandArea": "2642.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Musselshell County, MT",
+    "District": "8",
+    "Population": "4497",
+    "LandArea": "1867.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Musselshell County, MT",
+    "District": "8",
+    "Population": "4497",
+    "LandArea": "1867.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Park County, MT",
+    "District": "8",
+    "Population": "15694",
+    "LandArea": "2802.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Powder River County, MT",
+    "District": "8",
+    "Population": "1858",
+    "LandArea": "3297.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Powder River County, MT",
+    "District": "8",
+    "Population": "1858",
+    "LandArea": "3297.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Prairie County, MT",
+    "District": "8",
+    "Population": "1199",
+    "LandArea": "1736.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Prairie County, MT",
+    "District": "8",
+    "Population": "1199",
+    "LandArea": "1736.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Richland County, MT",
+    "District": "8",
+    "Population": "9667",
+    "LandArea": "2084.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Richland County, MT",
+    "District": "8",
+    "Population": "9667",
+    "LandArea": "2084.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Roosevelt County, MT",
+    "District": "8",
+    "Population": "10620",
+    "LandArea": "2355.60",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Roosevelt County, MT",
+    "District": "8",
+    "Population": "10620",
+    "LandArea": "2355.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Rosebud County, MT",
+    "District": "8",
+    "Population": "9383",
+    "LandArea": "5012.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Rosebud County, MT",
+    "District": "8",
+    "Population": "9383",
+    "LandArea": "5012.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Sheridan County, MT",
+    "District": "8",
+    "Population": "4105",
+    "LandArea": "1676.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Sheridan County, MT",
+    "District": "8",
+    "Population": "4105",
+    "LandArea": "1676.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Stillwater County, MT",
+    "District": "8",
+    "Population": "8195",
+    "LandArea": "1795.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Stillwater County, MT",
+    "District": "8",
+    "Population": "8195",
+    "LandArea": "1795.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Sweet Grass County, MT",
+    "District": "8",
+    "Population": "3609",
+    "LandArea": "1855.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Treasure County, MT",
+    "District": "8",
+    "Population": "861",
+    "LandArea": "978.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Treasure County, MT",
+    "District": "8",
+    "Population": "861",
+    "LandArea": "978.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Wibaux County, MT",
+    "District": "8",
+    "Population": "1068",
+    "LandArea": "889.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Wibaux County, MT",
+    "District": "8",
+    "Population": "1068",
+    "LandArea": "889.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Yellowstone County, MT",
+    "District": "8",
+    "Population": "129352",
+    "LandArea": "2635.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MT"
+  },
+  {
+    "CountyName": "Yellowstone County, MT",
+    "District": "8",
+    "Population": "129352",
+    "LandArea": "2635.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "MT"
+  }
+]

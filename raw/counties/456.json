@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Middlesex County, NJ",
+    "District": "3",
+    "Population": "750162",
+    "LandArea": "309.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Middlesex County, NJ",
+    "District": "3",
+    "Population": "750162",
+    "LandArea": "309.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Somerset County, NJ",
+    "District": "3",
+    "Population": "297490",
+    "LandArea": "304.69",
+    "Percentage": "30%",
+    "jurisdiction": "O",
+    "StateProvince": "NJ"
+  },
+  {
+    "CountyName": "Somerset County, NJ",
+    "District": "3",
+    "Population": "297490",
+    "LandArea": "304.69",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "NJ"
+  }
+]

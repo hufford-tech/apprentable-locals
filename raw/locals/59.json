@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]70--  (lctt, o) Washington[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "70--|Washington|DC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "59",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "lctt, o",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3606 Stewart Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3606 Stewart Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Forestville, MD 20747[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Forestville|MD|20747",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](301) 516-7730[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "115",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 516-7730",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](301) 516-7344[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "116",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 516-7344",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew70.us\" target=\"_blank\">office@ibew70.us</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "58",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew70.us",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew70.us\" target=\"_blank\">www.ibew70.us</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew70.us",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]George A. Embrey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "182",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|A.|Embrey||{ \"MemberID\" : \"182\",\"luid\": \"59\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3606 Stewart Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Forestville\",\"state\":\"MD\",\"zip\":\"20747\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Michael P. Powers[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4337",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|P.|Powers||{ \"MemberID\" : \"4337\",\"luid\": \"59\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]George A. Embrey[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3389",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|A.|Embrey||{ \"MemberID\" : \"3389\",\"luid\": \"59\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christopher R. Henderson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4336",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|R.|Henderson||{ \"MemberID\" : \"4336\",\"luid\": \"59\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Knights of Columbus Across From the Union Hall, 4th Tuesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "59",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Knights of Columbus Across From the Union Hall, 4th Tuesday, 7 pm",
+    "datatype": "txt"
+  }
+]

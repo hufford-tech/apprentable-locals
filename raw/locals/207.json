@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]347-  (em, i, mt, rtb, rts, spa) Des Moines[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "347-|Des Moines|IA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "207",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, mt, rtb, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]6809 SE Bellagio Court[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "210",
+    "editFieldNames": "Address1",
+    "editFieldValues": "6809 SE Bellagio Court",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ankeny, IA 50021[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "210",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ankeny|IA|50021",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](515) 243-1924[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(515) 243-1924",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](515) 243-8772[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "392",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(515) 243-8772",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibewlu347.org\" target=\"_blank\">info@ibewlu347.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "202",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibewlu347.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu347.org\" target=\"_blank\">www.ibewlu347.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu347.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]David L. Reid[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "638",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Reid||{ \"MemberID\" : \"638\",\"luid\": \"207\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"850 Eighteenth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Des Moines\",\"state\":\"IA\",\"zip\":\"50314\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Richard D. Chumbley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "639",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard|D.|Chumbley||{ \"MemberID\" : \"639\",\"luid\": \"207\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"850 Eighteenth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Des Moines\",\"state\":\"IA\",\"zip\":\"50314\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]David L. Reid[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3524",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "David|L.|Reid||{ \"MemberID\" : \"3524\",\"luid\": \"207\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Christie L. Brookes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "637",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christie|L.|Brookes||{ \"MemberID\" : \"637\",\"luid\": \"207\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"850 Eighteenth Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Des Moines\",\"state\":\"IA\",\"zip\":\"50314\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "207",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 5 pm",
+    "datatype": "txt"
+  }
+]

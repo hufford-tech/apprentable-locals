@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]743-  (em, govt, i) Reading[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "743-|Reading|PA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "403",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, govt, i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1022 James Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1022 James Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Leesport, PA 19533[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Leesport|PA|19533",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](610) 777-3100[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "736",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(610) 777-3100",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](610) 777-6800[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "737",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(610) 777-6800",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@local743ibew.org\" target=\"_blank\">info@local743ibew.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "388",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@local743ibew.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal743.org\" target=\"_blank\">www.ibewlocal743.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal743.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Mark Pinkasavage[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1237",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark||Pinkasavage||{ \"MemberID\" : \"1237\",\"luid\": \"403\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5010 Forest Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Temple\",\"state\":\"PA\",\"zip\":\"19560\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jason C. Foster[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1239",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|C.|Foster||{ \"MemberID\" : \"1239\",\"luid\": \"403\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1804 N Eden Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Lancaster\",\"state\":\"PA\",\"zip\":\"17601\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Ed M. Bernitsky[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1240",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ed|M.|Bernitsky||{ \"MemberID\" : \"1240\",\"luid\": \"403\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"20 Morgan Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Reading\",\"state\":\"PA\",\"zip\":\"19608\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Vincent M. Biancone[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1238",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vincent|M.|Biancone||{ \"MemberID\" : \"1238\",\"luid\": \"403\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"142 E Park Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Elizabethtown\",\"state\":\"PA\",\"zip\":\"17022\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]4th Wednesday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "Meets",
+    "editFieldValues": "4th Wednesday, 7 pm",
+    "datatype": "txt"
+  }
+]

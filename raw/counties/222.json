@@ -1,0 +1,695 @@
+[
+  {
+    "CountyName": "Alachua County, FL",
+    "District": "5",
+    "Population": "217955",
+    "LandArea": "874.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Baker County, FL",
+    "District": "5",
+    "Population": "22259",
+    "LandArea": "585.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Bay County, FL",
+    "District": "5",
+    "Population": "148217",
+    "LandArea": "763.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Bradford County, FL",
+    "District": "5",
+    "Population": "26088",
+    "LandArea": "293.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Brevard County, FL",
+    "District": "5",
+    "Population": "476230",
+    "LandArea": "1018.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Broward County, FL",
+    "District": "5",
+    "Population": "1623018",
+    "LandArea": "1205.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Calhoun County, FL",
+    "District": "5",
+    "Population": "13017",
+    "LandArea": "567.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Caribbean Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Charlotte County, FL",
+    "District": "5",
+    "Population": "141627",
+    "LandArea": "693.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Citrus County, FL",
+    "District": "5",
+    "Population": "118085",
+    "LandArea": "583.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Clay County, FL",
+    "District": "5",
+    "Population": "140814",
+    "LandArea": "601.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Collier County, FL",
+    "District": "5",
+    "Population": "251377",
+    "LandArea": "2025.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Columbia County, FL",
+    "District": "5",
+    "Population": "56513",
+    "LandArea": "797.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Dade County, FL",
+    "District": "5",
+    "Population": "2253362",
+    "LandArea": "1946.06",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "De Soto County, FL",
+    "District": "5",
+    "Population": "32209",
+    "LandArea": "637.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Dixie County, FL",
+    "District": "5",
+    "Population": "13827",
+    "LandArea": "704.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Dominican Republic",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Duval County, FL",
+    "District": "5",
+    "Population": "778879",
+    "LandArea": "773.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Escambia County, FL",
+    "District": "5",
+    "Population": "294410",
+    "LandArea": "662.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Flagler County, FL",
+    "District": "5",
+    "Population": "49832",
+    "LandArea": "485.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Franklin County, Fl",
+    "District": "5",
+    "Population": "11057",
+    "LandArea": "544.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Gadsden County, FL",
+    "District": "5",
+    "Population": "45087",
+    "LandArea": "516.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Gilchrist County, FL",
+    "District": "5",
+    "Population": "14437",
+    "LandArea": "348.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Glades County, Fl",
+    "District": "5",
+    "Population": "10576",
+    "LandArea": "773.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Greater Antilles",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "5%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Gulf County, FL",
+    "District": "5",
+    "Population": "13332",
+    "LandArea": "554.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Haiti",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Hamilton County, FL",
+    "District": "5",
+    "Population": "13327",
+    "LandArea": "514.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hardee County, FL",
+    "District": "5",
+    "Population": "26938",
+    "LandArea": "637.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hendry County, FL",
+    "District": "5",
+    "Population": "36210",
+    "LandArea": "1152.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hernando County, FL",
+    "District": "5",
+    "Population": "130802",
+    "LandArea": "478.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Highlands County, FL",
+    "District": "5",
+    "Population": "87366",
+    "LandArea": "1028.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Hillsborough County, FL",
+    "District": "5",
+    "Population": "998948",
+    "LandArea": "1050.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Holmes County, FL",
+    "District": "5",
+    "Population": "18564",
+    "LandArea": "482.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Indian River County, FL",
+    "District": "5",
+    "Population": "112947",
+    "LandArea": "503.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Jackson County, FL",
+    "District": "5",
+    "Population": "46755",
+    "LandArea": "915.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Jamaica",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Jefferson County, FL",
+    "District": "5",
+    "Population": "12902",
+    "LandArea": "597.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lafayette County, FL",
+    "District": "5",
+    "Population": "7022",
+    "LandArea": "542.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lake County, FL",
+    "District": "5",
+    "Population": "210528",
+    "LandArea": "953.15",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lee County, FL",
+    "District": "5",
+    "Population": "440888",
+    "LandArea": "803.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Leeward Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Leon County, FL",
+    "District": "5",
+    "Population": "239452",
+    "LandArea": "666.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Lesser Antilles",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Levy County, FL",
+    "District": "5",
+    "Population": "34450",
+    "LandArea": "1118.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Liberty County, FL",
+    "District": "5",
+    "Population": "7021",
+    "LandArea": "835.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Madison County, FL",
+    "District": "5",
+    "Population": "18733",
+    "LandArea": "691.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Manatee County, FL",
+    "District": "5",
+    "Population": "264002",
+    "LandArea": "741.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Marion County, FL",
+    "District": "5",
+    "Population": "258916",
+    "LandArea": "1578.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Martin County, FL",
+    "District": "5",
+    "Population": "126731",
+    "LandArea": "555.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Monroe County, FL",
+    "District": "5",
+    "Population": "79589",
+    "LandArea": "996.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Nassau County, FL",
+    "District": "5",
+    "Population": "57663",
+    "LandArea": "651.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Okaloosa County, FL",
+    "District": "5",
+    "Population": "170498",
+    "LandArea": "935.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Okeechobee County, FL",
+    "District": "5",
+    "Population": "35910",
+    "LandArea": "773.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Orange County, FL",
+    "District": "5",
+    "Population": "896344",
+    "LandArea": "907.45",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Osceola County, FL",
+    "District": "5",
+    "Population": "172493",
+    "LandArea": "1321.90",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Palm Beach County, FL",
+    "District": "5",
+    "Population": "1131184",
+    "LandArea": "1974.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Pasco County, FL",
+    "District": "5",
+    "Population": "344765",
+    "LandArea": "744.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Pinellas County, FL",
+    "District": "5",
+    "Population": "921482",
+    "LandArea": "279.92",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Polk County, FL",
+    "District": "5",
+    "Population": "483924",
+    "LandArea": "1874.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Puerto Rico",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Putnam County, FL",
+    "District": "5",
+    "Population": "70423",
+    "LandArea": "721.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Santa Rosa County, FL",
+    "District": "5",
+    "Population": "117743",
+    "LandArea": "1016.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Sarasota County, FL",
+    "District": "5",
+    "Population": "325957",
+    "LandArea": "571.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Seminole County, FL",
+    "District": "5",
+    "Population": "365196",
+    "LandArea": "308.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "St. Johns County, FL",
+    "District": "5",
+    "Population": "123135",
+    "LandArea": "609.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "St. Lucie County, FL",
+    "District": "5",
+    "Population": "192695",
+    "LandArea": "572.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Sumter County, FL",
+    "District": "5",
+    "Population": "53345",
+    "LandArea": "545.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Suwannee County, FL",
+    "District": "5",
+    "Population": "34844",
+    "LandArea": "687.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Taylor County, FL",
+    "District": "5",
+    "Population": "19256",
+    "LandArea": "1041.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Trinidad",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  },
+  {
+    "CountyName": "Union County, FL",
+    "District": "5",
+    "Population": "13442",
+    "LandArea": "240.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Volusia County, FL",
+    "District": "5",
+    "Population": "443343",
+    "LandArea": "1103.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Wakulla County, FL",
+    "District": "5",
+    "Population": "22863",
+    "LandArea": "606.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Walton County, FL",
+    "District": "5",
+    "Population": "40601",
+    "LandArea": "1057.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Washington County, FL",
+    "District": "5",
+    "Population": "20973",
+    "LandArea": "579.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "FL"
+  },
+  {
+    "CountyName": "Windward Islands",
+    "District": "0",
+    "Population": null,
+    "LandArea": null,
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "CI"
+  }
+]

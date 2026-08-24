@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]245-  (govt, lctt, o, rtb, u) Toledo[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "245-|Toledo|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "154",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "govt, lctt, o, rtb, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]705 Lime City Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "156",
+    "editFieldNames": "Address1",
+    "editFieldValues": "705 Lime City Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Rossford, OH 43460[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "156",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Rossford|OH|43460",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](419) 666-3350[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "292",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 666-3350",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](419) 666-5545[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "293",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(419) 666-5545",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:justin@ibew245.com\" target=\"_blank\">justin@ibew245.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "151",
+    "editFieldNames": "Email",
+    "editFieldValues": "justin@ibew245.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew245.com\" target=\"_blank\">www.ibew245.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew245.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Justin D. Cappelletty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "478",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|D.|Cappelletty||{ \"MemberID\" : \"478\",\"luid\": \"154\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"705 Lime City Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rossford\",\"state\":\"OH\",\"zip\":\"43460\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Brian M. Gendaszek[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "479",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brian|M.|Gendaszek||{ \"MemberID\" : \"479\",\"luid\": \"154\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"705 Lime City Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rossford\",\"state\":\"OH\",\"zip\":\"43460\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Justin D. Cappelletty[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3471",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|D.|Cappelletty||{ \"MemberID\" : \"3471\",\"luid\": \"154\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Brandon M. Ketcham[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "477",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brandon|M.|Ketcham||{ \"MemberID\" : \"477\",\"luid\": \"154\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"705 Lime City Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Rossford\",\"state\":\"OH\",\"zip\":\"43460\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]2nd Thursday, 7:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "154",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Thursday, 7:30 pm",
+    "datatype": "txt"
+  }
+]

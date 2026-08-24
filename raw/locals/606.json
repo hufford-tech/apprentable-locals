@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1465  (u) Fall River[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "606",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1465|Fall River|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "606",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 585[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "564",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 585",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Somerset, MA 02726[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "564",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Somerset|MA|02726",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](508) 558-6352[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1054",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(508) 558-6352",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1465@gmail.com\" target=\"_blank\">ibew1465@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1465@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Daniel Raposo, 19 Cahoons Lane, Westport, MA  02790[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1863",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel||Raposo||{ \"MemberID\" : \"1863\",\"luid\": \"606\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"19 Cahoons Lane\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Westport\",\"state\":\"MA\",\"zip\":\"02790\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Charles R. Hoffshire, 455 Sodom Road, Westport, MA  02790[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1864",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|R.|Hoffshire||{ \"MemberID\" : \"1864\",\"luid\": \"606\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"455 Sodom Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Westport\",\"state\":\"MA\",\"zip\":\"02790\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Alan L. Lachance, 125 Regent Court, Swansea, MA  02777[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1862",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alan|L.|Lachance||{ \"MemberID\" : \"1862\",\"luid\": \"606\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"125 Regent Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Swansea\",\"state\":\"MA\",\"zip\":\"02777\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Brenda Goodison, 79 Glendale Drive, West Warwick, RI  02893[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1861",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brenda||Goodison||{ \"MemberID\" : \"1861\",\"luid\": \"606\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"79 Glendale Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"West Warwick\",\"state\":\"RI\",\"zip\":\"02893\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]139 Seaver Avenue, 2nd Tuesday, 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "606",
+    "editFieldNames": "Meets",
+    "editFieldValues": "139 Seaver Avenue, 2nd Tuesday, 3:30 pm",
+    "datatype": "txt"
+  }
+]

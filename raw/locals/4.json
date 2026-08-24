@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]4---  (rtb) St. Louis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "4---|St. Louis|MO",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "4",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rtb",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5850 Elizabeth Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5850 Elizabeth Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]St. Louis, MO 63110[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "St. Louis|MO|63110",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](314) 664-0202[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "7",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(314) 664-0202",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:broadcast@ibewlocal4.com\" target=\"_blank\">broadcast@ibewlocal4.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "Email",
+    "editFieldValues": "broadcast@ibewlocal4.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal4.com\" target=\"_blank\">www.ibewlocal4.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal4.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Michael J. Pendergast[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "13",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Pendergast||{ \"MemberID\" : \"13\",\"luid\": \"4\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2121 59th Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"St. Louis\",\"state\":\"MO\",\"zip\":\"63110\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]John D. Finley[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "12",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|D.|Finley||{ \"MemberID\" : \"12\",\"luid\": \"4\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2121 59th Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"St. Louis\",\"state\":\"MO\",\"zip\":\"63110\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Michael J. Pendergast[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3337",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Michael|J.|Pendergast||{ \"MemberID\" : \"3337\",\"luid\": \"4\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Theresa M. Dunn[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "14",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Theresa|M.|Dunn||{ \"MemberID\" : \"14\",\"luid\": \"4\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2121 59th Street\",\"addr2\":\"Suite A\",\"addr3\":\"\",\"city\":\"St. Louis\",\"state\":\"MO\",\"zip\":\"63110\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Thursday, 6:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "4",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 6:45 pm",
+    "datatype": "txt"
+  }
+]

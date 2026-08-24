@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2149  (rr) New Orleans[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "786",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2149|New Orleans|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "786",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]608 Sophia Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5420",
+    "editFieldNames": "Address1",
+    "editFieldValues": "608 Sophia Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]River Ridge, LA 70123[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5420",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "River Ridge|LA|70123",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](504) 920-7939[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2062",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(504) 920-7939",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:jmarino17@icloud.com\" target=\"_blank\">jmarino17@icloud.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2159",
+    "editFieldNames": "Email",
+    "editFieldValues": "jmarino17@icloud.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Joseph M. Marino Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2398",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|M.|Marino|Jr.|{ \"MemberID\" : \"2398\",\"luid\": \"786\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 51462\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Orleans\",\"state\":\"LA\",\"zip\":\"70151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Joseph M. Marino Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4106",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|M.|Marino|Jr.|{ \"MemberID\" : \"4106\",\"luid\": \"786\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 51462\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Orleans\",\"state\":\"LA\",\"zip\":\"70151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]George A. Jenkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2397",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|A.|Jenkins||{ \"MemberID\" : \"2397\",\"luid\": \"786\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 51462\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Orleans\",\"state\":\"LA\",\"zip\":\"70151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Christopher J. Meyer[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2399",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Christopher|J.|Meyer||{ \"MemberID\" : \"2399\",\"luid\": \"786\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 51462\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"New Orleans\",\"state\":\"LA\",\"zip\":\"70151\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1001 Loyola Avenue, 2nd Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "786",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1001 Loyola Avenue, 2nd Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

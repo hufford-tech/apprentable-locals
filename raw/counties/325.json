@@ -1,0 +1,47 @@
+[
+  {
+    "CountyName": "Broome County, NY",
+    "District": "3",
+    "Population": "200536",
+    "LandArea": "706.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Chenango County, NY",
+    "District": "3",
+    "Population": "51401",
+    "LandArea": "894.36",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Delaware County, NY",
+    "District": "3",
+    "Population": "48055",
+    "LandArea": "1446.37",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Otsego County, NY",
+    "District": "3",
+    "Population": "61676",
+    "LandArea": "1002.79",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  },
+  {
+    "CountyName": "Tioga County, NY",
+    "District": "3",
+    "Population": "51784",
+    "LandArea": "518.69",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "NY"
+  }
+]

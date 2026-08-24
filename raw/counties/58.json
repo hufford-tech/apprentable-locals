@@ -1,0 +1,65 @@
+[
+  {
+    "CountyName": "Huron County, MI",
+    "District": "6",
+    "Population": "36079",
+    "LandArea": "836.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Livingston County, MI",
+    "District": "6",
+    "Population": "156951",
+    "LandArea": "568.40",
+    "Percentage": "33%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Macomb County, MI",
+    "District": "6",
+    "Population": "788149",
+    "LandArea": "480.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Oakland County, MI",
+    "District": "6",
+    "Population": "1194156",
+    "LandArea": "872.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Sanilac County, MI",
+    "District": "6",
+    "Population": "44547",
+    "LandArea": "963.80",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "St. Clair County, MI",
+    "District": "6",
+    "Population": "164235",
+    "LandArea": "724.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  },
+  {
+    "CountyName": "Wayne County, MI",
+    "District": "6",
+    "Population": "2061162",
+    "LandArea": "614.15",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MI"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Culberson County, TX",
+    "District": "7",
+    "Population": "2975",
+    "LandArea": "3812.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Culberson County, TX",
+    "District": "7",
+    "Population": "2975",
+    "LandArea": "3812.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Dona Ana County, NM",
+    "District": "7",
+    "Population": "174682",
+    "LandArea": "3807.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "El Paso County, TX",
+    "District": "7",
+    "Population": "679622",
+    "LandArea": "1013.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "El Paso County, TX",
+    "District": "7",
+    "Population": "679622",
+    "LandArea": "1013.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hidalgo County, NM",
+    "District": "7",
+    "Population": "5932",
+    "LandArea": "3445.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Hudspeth County, TX",
+    "District": "7",
+    "Population": "3344",
+    "LandArea": "4571.00",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Hudspeth County, TX",
+    "District": "7",
+    "Population": "3344",
+    "LandArea": "4571.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TX"
+  },
+  {
+    "CountyName": "Luna County, NM",
+    "District": "7",
+    "Population": "25016",
+    "LandArea": "2965.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  },
+  {
+    "CountyName": "Otero County, NM",
+    "District": "7",
+    "Population": "62298",
+    "LandArea": "6626.50",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NM"
+  }
+]

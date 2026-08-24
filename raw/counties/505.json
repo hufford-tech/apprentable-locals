@@ -1,0 +1,74 @@
+[
+  {
+    "CountyName": "Baldwin County, AL",
+    "District": "5",
+    "Population": "140415",
+    "LandArea": "1596.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Choctaw County, AL",
+    "District": "5",
+    "Population": "15922",
+    "LandArea": "913.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Clarke County, AL",
+    "District": "5",
+    "Population": "27867",
+    "LandArea": "1238.37",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Conecuh County, AL",
+    "District": "5",
+    "Population": "14089",
+    "LandArea": "850.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Escambia County, AL",
+    "District": "5",
+    "Population": "38440",
+    "LandArea": "947.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Mobile County, AL",
+    "District": "5",
+    "Population": "399843",
+    "LandArea": "1233.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Monroe County, AL",
+    "District": "5",
+    "Population": "24324",
+    "LandArea": "1025.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  },
+  {
+    "CountyName": "Washington County, AL",
+    "District": "5",
+    "Population": "18097",
+    "LandArea": "1080.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "AL"
+  }
+]

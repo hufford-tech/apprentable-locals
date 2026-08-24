@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]307-  (ees, es, i, mo, o, u) Cumberland[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "307-|Cumberland|MD",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "187",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "ees, es, i, mo, o, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]401 Decatur Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "194",
+    "editFieldNames": "Address1",
+    "editFieldValues": "401 Decatur Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Cumberland, MD 21502[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "194",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Cumberland|MD|21502",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](301) 724-3403[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "355",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 724-3403",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](301) 724-2722[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "356",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(301) 724-2722",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:administrator@ibew307.org\" target=\"_blank\">administrator@ibew307.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "184",
+    "editFieldNames": "Email",
+    "editFieldValues": "administrator@ibew307.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew307.org\" target=\"_blank\">www.ibew307.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew307.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Rodney E. Rice[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "578",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|E.|Rice||{ \"MemberID\" : \"578\",\"luid\": \"187\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"401 Decatur Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cumberland\",\"state\":\"MD\",\"zip\":\"21502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Jason S. Browning[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "577",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|S.|Browning||{ \"MemberID\" : \"577\",\"luid\": \"187\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"401 Decatur Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cumberland\",\"state\":\"MD\",\"zip\":\"21502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Rodney E. Rice[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3504",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|E.|Rice||{ \"MemberID\" : \"3504\",\"luid\": \"187\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]James T. Kegg Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "579",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|T.|Kegg|Jr.|{ \"MemberID\" : \"579\",\"luid\": \"187\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"401 Decatur Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Cumberland\",\"state\":\"MD\",\"zip\":\"21502\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]31 Thomas Street, 4th Wednesday, 8 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "187",
+    "editFieldNames": "Meets",
+    "editFieldValues": "31 Thomas Street, 4th Wednesday, 8 pm",
+    "datatype": "txt"
+  }
+]

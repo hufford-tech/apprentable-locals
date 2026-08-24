@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]759-  (u) Ft. Lauderdale[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "412",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "759-|Ft. Lauderdale|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "412",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]301 NE First Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7213",
+    "editFieldNames": "Address1",
+    "editFieldValues": "301 NE First Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pompano Beach, FL 33060[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7213",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pompano Beach|FL|33060",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](954) 830-4183[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2369",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(954) 830-4183",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:president@ibew759.org\" target=\"_blank\">president@ibew759.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "395",
+    "editFieldNames": "Email",
+    "editFieldValues": "president@ibew759.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Hector Benavides, 1409 SW Twelfth Court, Ft. Lauderdale, FL  33312[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1267",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hector||Benavides||{ \"MemberID\" : \"1267\",\"luid\": \"412\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1409 SW Twelfth Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ft. Lauderdale\",\"state\":\"FL\",\"zip\":\"33312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Hector Benavides, 1409 SW Twelfth Court, Ft. Lauderdale, FL  33312[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3721",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Hector||Benavides||{ \"MemberID\" : \"3721\",\"luid\": \"412\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1409 SW Twelfth Court\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ft. Lauderdale\",\"state\":\"FL\",\"zip\":\"33312\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Keith E. Murphy, 8725 Franklin Road, Athens, AL  35614[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1265",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Keith|E.|Murphy||{ \"MemberID\" : \"1265\",\"luid\": \"412\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"8725 Franklin Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Athens\",\"state\":\"AL\",\"zip\":\"35614\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Tim B. Brucker, 12270 NW 30th Place, Sunrise, FL  33323[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1266",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Tim|B.|Brucker||{ \"MemberID\" : \"1266\",\"luid\": \"412\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"12270 NW 30th Place\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Sunrise\",\"state\":\"FL\",\"zip\":\"33323\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1st Thursday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "412",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 4 pm",
+    "datatype": "txt"
+  }
+]

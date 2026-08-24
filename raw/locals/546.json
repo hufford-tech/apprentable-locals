@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1191  (u) West Palm Beach[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1191|West Palm Beach|FL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "546",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1003 Belvedere Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "506",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1003 Belvedere Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]West Palm Beach, FL 33405[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "506",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "West Palm Beach|FL|33405",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](845) 849-6053[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "955",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(845) 849-6053",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:JRHarris1191@outlook.com\" target=\"_blank\">JRHarris1191@outlook.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "513",
+    "editFieldNames": "Email",
+    "editFieldValues": "JRHarris1191@outlook.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://http://scu4ibew.unionactive.com\" target=\"_blank\">http://scu4ibew.unionactive.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "Website",
+    "editFieldValues": "http://scu4ibew.unionactive.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Jeffrey R. Harris[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4340",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|R.|Harris||{ \"MemberID\" : \"4340\",\"luid\": \"546\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Jeffrey R. Harris[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4341",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeffrey|R.|Harris||{ \"MemberID\" : \"4341\",\"luid\": \"546\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Dennis W. Riordan II[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4318",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Dennis|W.|Riordan|II|{ \"MemberID\" : \"4318\",\"luid\": \"546\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Justin M. Littleton[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1684",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Justin|M.|Littleton||{ \"MemberID\" : \"1684\",\"luid\": \"546\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"5355 SW Ranchito Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Palm City\",\"state\":\"FL\",\"zip\":\"34990\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]2nd Wednesday, 6:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "546",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Wednesday, 6:30 pm",
+    "datatype": "txt"
+  }
+]

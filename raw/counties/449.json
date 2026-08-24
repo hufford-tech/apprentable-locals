@@ -1,0 +1,434 @@
+[
+  {
+    "CountyName": "Bannock County, ID",
+    "District": "8",
+    "Population": "75565",
+    "LandArea": "1113.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bannock County, ID",
+    "District": "8",
+    "Population": "75565",
+    "LandArea": "1113.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bear Lake County, ID",
+    "District": "8",
+    "Population": "6411",
+    "LandArea": "971.38",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bear Lake County, ID",
+    "District": "8",
+    "Population": "6411",
+    "LandArea": "971.38",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bingham County, ID",
+    "District": "8",
+    "Population": "41735",
+    "LandArea": "2094.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bingham County, ID",
+    "District": "8",
+    "Population": "41735",
+    "LandArea": "2094.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Blaine County, ID",
+    "District": "8",
+    "Population": "18991",
+    "LandArea": "2644.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Blaine County, ID",
+    "District": "8",
+    "Population": "18991",
+    "LandArea": "2644.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bonneville County, ID",
+    "District": "8",
+    "Population": "82522",
+    "LandArea": "1868.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Bonneville County, ID",
+    "District": "8",
+    "Population": "82522",
+    "LandArea": "1868.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Butte County, ID",
+    "District": "8",
+    "Population": "2899",
+    "LandArea": "2232.85",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Butte County, ID",
+    "District": "8",
+    "Population": "2899",
+    "LandArea": "2232.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Camas County, ID",
+    "District": "8",
+    "Population": "991",
+    "LandArea": "1074.96",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Camas County, ID",
+    "District": "8",
+    "Population": "991",
+    "LandArea": "1074.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Caribou County, ID",
+    "District": "8",
+    "Population": "7304",
+    "LandArea": "1766.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Caribou County, ID",
+    "District": "8",
+    "Population": "7304",
+    "LandArea": "1766.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Cassia County, ID",
+    "District": "8",
+    "Population": "21416",
+    "LandArea": "2566.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Cassia County, ID",
+    "District": "8",
+    "Population": "21416",
+    "LandArea": "2566.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Clark County, ID",
+    "District": "8",
+    "Population": "1022",
+    "LandArea": "1764.63",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Clark County, ID",
+    "District": "8",
+    "Population": "1022",
+    "LandArea": "1764.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Custer County, ID",
+    "District": "8",
+    "Population": "4342",
+    "LandArea": "4925.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Custer County, ID",
+    "District": "8",
+    "Population": "4342",
+    "LandArea": "4925.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Franklin County, ID",
+    "District": "8",
+    "Population": "11329",
+    "LandArea": "665.43",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Franklin County, ID",
+    "District": "8",
+    "Population": "11329",
+    "LandArea": "665.43",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Fremont County, ID",
+    "District": "8",
+    "Population": "11819",
+    "LandArea": "1866.76",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Fremont County, ID",
+    "District": "8",
+    "Population": "11819",
+    "LandArea": "1866.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Gooding County, ID",
+    "District": "8",
+    "Population": "14155",
+    "LandArea": "730.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Gooding County, ID",
+    "District": "8",
+    "Population": "14155",
+    "LandArea": "730.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Jefferson County, ID",
+    "District": "8",
+    "Population": "19155",
+    "LandArea": "1095.08",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Jefferson County, ID",
+    "District": "8",
+    "Population": "19155",
+    "LandArea": "1095.08",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Jerome County, ID",
+    "District": "8",
+    "Population": "18342",
+    "LandArea": "599.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Jerome County, ID",
+    "District": "8",
+    "Population": "18342",
+    "LandArea": "599.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lemhi County, ID",
+    "District": "8",
+    "Population": "7806",
+    "LandArea": "4564.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lemhi County, ID",
+    "District": "8",
+    "Population": "7806",
+    "LandArea": "4564.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lincoln County, ID",
+    "District": "8",
+    "Population": "4044",
+    "LandArea": "1205.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Lincoln County, ID",
+    "District": "8",
+    "Population": "4044",
+    "LandArea": "1205.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Madison County, ID",
+    "District": "8",
+    "Population": "27467",
+    "LandArea": "471.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Madison County, ID",
+    "District": "8",
+    "Population": "27467",
+    "LandArea": "471.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Minidoka County, ID",
+    "District": "8",
+    "Population": "20174",
+    "LandArea": "759.62",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Minidoka County, ID",
+    "District": "8",
+    "Population": "20174",
+    "LandArea": "759.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Oneida County, ID",
+    "District": "8",
+    "Population": "4125",
+    "LandArea": "1200.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Oneida County, ID",
+    "District": "8",
+    "Population": "4125",
+    "LandArea": "1200.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Power County, ID",
+    "District": "8",
+    "Population": "7538",
+    "LandArea": "1405.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Power County, ID",
+    "District": "8",
+    "Population": "7538",
+    "LandArea": "1405.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Teton County, ID",
+    "District": "8",
+    "Population": "5999",
+    "LandArea": "450.36",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Teton County, ID",
+    "District": "8",
+    "Population": "5999",
+    "LandArea": "450.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Twin Falls County, ID",
+    "District": "8",
+    "Population": "64284",
+    "LandArea": "1925.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "ID"
+  },
+  {
+    "CountyName": "Twin Falls County, ID",
+    "District": "8",
+    "Population": "64284",
+    "LandArea": "1925.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "ID"
+  }
+]

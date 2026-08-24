@@ -1,0 +1,20 @@
+[
+  {
+    "CountyName": "Adams County, PA",
+    "District": "3",
+    "Population": "91292",
+    "LandArea": "520.01",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  },
+  {
+    "CountyName": "York County, PA",
+    "District": "3",
+    "Population": "381751",
+    "LandArea": "904.45",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "PA"
+  }
+]

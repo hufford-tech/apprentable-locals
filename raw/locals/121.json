@@ -1,0 +1,232 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]191-  (c, i, mo, rtb, st) Everett[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "191-|Everett|WA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "121",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, i, mo, rtb, st",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]3100 164th Street NE[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "123",
+    "editFieldNames": "Address1",
+    "editFieldValues": "3100 164th Street NE",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Marysville, WA 98271[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "123",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Marysville|WA|98271",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](425) 259-3195[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "235",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(425) 259-3195",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](425) 339-9188[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "236",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(425) 339-9188",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:randy.curry@ibew191.com\" target=\"_blank\">randy.curry@ibew191.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2146",
+    "editFieldNames": "Email",
+    "editFieldValues": "randy.curry@ibew191.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew191.com\" target=\"_blank\">www.ibew191.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew191.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Wenatchee Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4156",
+    "editFieldNames": "Name",
+    "editFieldValues": "Wenatchee Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][t]27 N Chelan Avenue[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4156",
+    "editFieldNames": "Address1",
+    "editFieldValues": "27 N Chelan Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][t]Wenatchee, WA 98801[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4156",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Wenatchee|WA|98801",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][t][b](509) 663-1163[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1759",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(509) 663-1163",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][t][b]Fax [/b] (509) 664-7236[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1760",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(509) 664-7236",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Bellingham Office[/b][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4157",
+    "editFieldNames": "Name",
+    "editFieldValues": "Bellingham Office",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][t]1700 State Street[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4157",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1700 State Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][t]Bellingham, WA 98225[/t][/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "4157",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bellingham|WA|98225",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "17",
+    "Line": "[t][t][b](360) 734-3372[/b][/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1761",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 734-3372",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "18",
+    "Line": "[t][t][b]Fax [/b] (360) 734-6997[/t][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1762",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(360) 734-6997",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "19",
+    "Line": "[t][b]B.M. [/b]Randy L. Curry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "373",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randy|L.|Curry||{ \"MemberID\" : \"373\",\"luid\": \"121\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2701 Hoyt Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Everett\",\"state\":\"WA\",\"zip\":\"98201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "20",
+    "Line": "[t][b]Pres. [/b]Jeremy T. Chase[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "374",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jeremy|T.|Chase||{ \"MemberID\" : \"374\",\"luid\": \"121\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2701 Hoyt Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Everett\",\"state\":\"WA\",\"zip\":\"98201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "21",
+    "Line": "[t][b]F.S. [/b]Randy L. Curry[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3444",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Randy|L.|Curry||{ \"MemberID\" : \"3444\",\"luid\": \"121\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "22",
+    "Line": "[t][b]R.S. [/b]Alexandra J. Ware[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "375",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Alexandra|J.|Ware||{ \"MemberID\" : \"375\",\"luid\": \"121\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"2701 Hoyt Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Everett\",\"state\":\"WA\",\"zip\":\"98201\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "23",
+    "Line": "[t][b]Meets [/b]Marysville Office, 2nd Monday, 5:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "121",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Marysville Office, 2nd Monday, 5:30 pm",
+    "datatype": "txt"
+  }
+]

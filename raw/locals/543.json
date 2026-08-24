@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1183  (mt) Plymouth[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "543",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1183|Plymouth|NC",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "543",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 1083[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5722",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 1083",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Plymouth, NC 27962[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "5722",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Plymouth|NC|27962",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]B.M. [/b]Daniel J. Simpson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1673",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|J.|Simpson||{ \"MemberID\" : \"1673\",\"luid\": \"543\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2900 Brown Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamesville\",\"state\":\"NC\",\"zip\":\"27846\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Pres. [/b]Daniel T. Gardner[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1675",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Daniel|T.|Gardner||{ \"MemberID\" : \"1675\",\"luid\": \"543\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1404 Horse Pen Swamp Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Washington\",\"state\":\"NC\",\"zip\":\"27889\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]F.S. [/b]Mark Nano[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1672",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Mark||Nano||{ \"MemberID\" : \"1672\",\"luid\": \"543\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"89 Captains Cove\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Washington\",\"state\":\"NC\",\"zip\":\"27889\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]R.S. [/b]Phillip Hardison[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1674",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Phillip||Hardison||{ \"MemberID\" : \"1674\",\"luid\": \"543\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"1849 Brown Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Jamesville\",\"state\":\"NC\",\"zip\":\"27846\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Meets [/b]USW Union Hall, 100 Old Roper Loop, 3rd Wednesday, 4:45 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "543",
+    "editFieldNames": "Meets",
+    "editFieldValues": "USW Union Hall, 100 Old Roper Loop, 3rd Wednesday, 4:45 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "CountyName": "Carroll County, IL",
+    "District": "6",
+    "Population": "16674",
+    "LandArea": "444.21",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Carroll County, IL",
+    "District": "6",
+    "Population": "16674",
+    "LandArea": "444.21",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Cedar County, IA",
+    "District": "11",
+    "Population": "18187",
+    "LandArea": "579.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Cedar County, IA",
+    "District": "11",
+    "Population": "18187",
+    "LandArea": "579.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Clinton County, IA",
+    "District": "11",
+    "Population": "50149",
+    "LandArea": "694.98",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Clinton County, IA",
+    "District": "11",
+    "Population": "50149",
+    "LandArea": "694.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Dubuque County, IA",
+    "District": "11",
+    "Population": "89143",
+    "LandArea": "608.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Henry County, IL",
+    "District": "6",
+    "Population": "51020",
+    "LandArea": "823.21",
+    "Percentage": "45%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Henry County, IL",
+    "District": "6",
+    "Population": "51020",
+    "LandArea": "823.21",
+    "Percentage": "80%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jackson County, IA",
+    "District": "11",
+    "Population": "20296",
+    "LandArea": "636.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Jackson County, IA",
+    "District": "11",
+    "Population": "20296",
+    "LandArea": "636.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Jo Daviess County, IL",
+    "District": "6",
+    "Population": "22289",
+    "LandArea": "601.08",
+    "Percentage": "25%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jo Daviess County, IL",
+    "District": "6",
+    "Population": "22289",
+    "LandArea": "601.08",
+    "Percentage": "5%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Jones County, IA",
+    "District": "11",
+    "Population": "20221",
+    "LandArea": "575.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Mercer County, IL",
+    "District": "6",
+    "Population": "16957",
+    "LandArea": "561.02",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Mercer County, IL",
+    "District": "6",
+    "Population": "16957",
+    "LandArea": "561.02",
+    "Percentage": "95%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Muscatine County, IA",
+    "District": "11",
+    "Population": "41722",
+    "LandArea": "438.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Muscatine County, IA",
+    "District": "11",
+    "Population": "41722",
+    "LandArea": "438.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Rock Island County, IL",
+    "District": "6",
+    "Population": "149374",
+    "LandArea": "426.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Rock Island County, IL",
+    "District": "6",
+    "Population": "149374",
+    "LandArea": "426.75",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Scott County, IA",
+    "District": "11",
+    "Population": "158668",
+    "LandArea": "457.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Scott County, IA",
+    "District": "11",
+    "Population": "158668",
+    "LandArea": "457.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IA"
+  },
+  {
+    "CountyName": "Whiteside County, IL",
+    "District": "6",
+    "Population": "60653",
+    "LandArea": "684.77",
+    "Percentage": "40%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Whiteside County, IL",
+    "District": "6",
+    "Population": "60653",
+    "LandArea": "684.77",
+    "Percentage": "40%",
+    "jurisdiction": "O",
+    "StateProvince": "IL"
+  }
+]

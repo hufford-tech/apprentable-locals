@@ -1,0 +1,218 @@
+[
+  {
+    "CountyName": "Anderson County, TN",
+    "District": "10",
+    "Population": "71330",
+    "LandArea": "337.51",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Anderson County, TN",
+    "District": "10",
+    "Population": "71330",
+    "LandArea": "337.51",
+    "Percentage": "50%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Blount County, TN",
+    "District": "10",
+    "Population": "105823",
+    "LandArea": "558.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Blount County, TN",
+    "District": "10",
+    "Population": "105823",
+    "LandArea": "558.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Campbell County, TN",
+    "District": "10",
+    "Population": "39854",
+    "LandArea": "480.07",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Campbell County, TN",
+    "District": "10",
+    "Population": "39854",
+    "LandArea": "480.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Claiborne County, TN",
+    "District": "10",
+    "Population": "29862",
+    "LandArea": "434.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Claiborne County, TN",
+    "District": "10",
+    "Population": "29862",
+    "LandArea": "434.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cocke County, TN",
+    "District": "10",
+    "Population": "33565",
+    "LandArea": "434.40",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cocke County, TN",
+    "District": "10",
+    "Population": "33565",
+    "LandArea": "434.40",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Grainger County, TN",
+    "District": "10",
+    "Population": "20659",
+    "LandArea": "280.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Grainger County, TN",
+    "District": "10",
+    "Population": "20659",
+    "LandArea": "280.33",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Jefferson County, TN",
+    "District": "10",
+    "Population": "44294",
+    "LandArea": "273.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Jefferson County, TN",
+    "District": "10",
+    "Population": "44294",
+    "LandArea": "273.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Knox County, TN",
+    "District": "10",
+    "Population": "382032",
+    "LandArea": "508.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Knox County, TN",
+    "District": "10",
+    "Population": "382032",
+    "LandArea": "508.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Loudon County, TN",
+    "District": "10",
+    "Population": "39086",
+    "LandArea": "228.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Loudon County, TN",
+    "District": "10",
+    "Population": "39086",
+    "LandArea": "228.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Monroe County, TN",
+    "District": "10",
+    "Population": "38961",
+    "LandArea": "634.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Monroe County, TN",
+    "District": "10",
+    "Population": "38961",
+    "LandArea": "634.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sevier County, TN",
+    "District": "10",
+    "Population": "71170",
+    "LandArea": "592.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sevier County, TN",
+    "District": "10",
+    "Population": "71170",
+    "LandArea": "592.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Union County, TN",
+    "District": "10",
+    "Population": "17808",
+    "LandArea": "223.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Union County, TN",
+    "District": "10",
+    "Population": "17808",
+    "LandArea": "223.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  }
+]

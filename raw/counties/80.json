@@ -1,0 +1,416 @@
+[
+  {
+    "CountyName": "Accomack County, VA",
+    "District": "4",
+    "Population": "38305",
+    "LandArea": "455.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Accomack County, VA",
+    "District": "4",
+    "Population": "38305",
+    "LandArea": "455.24",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Brunswick County, VA",
+    "District": "4",
+    "Population": "18419",
+    "LandArea": "566.14",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Brunswick County, VA",
+    "District": "4",
+    "Population": "18419",
+    "LandArea": "566.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Camden County, NC",
+    "District": "10",
+    "Population": "6885",
+    "LandArea": "240.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Camden County, NC",
+    "District": "10",
+    "Population": "6885",
+    "LandArea": "240.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chesapeake City, VA",
+    "District": "4",
+    "Population": "199184",
+    "LandArea": "340.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Chesapeake City, VA",
+    "District": "4",
+    "Population": "199184",
+    "LandArea": "340.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Chowan County, NC",
+    "District": "10",
+    "Population": "14526",
+    "LandArea": "172.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Chowan County, NC",
+    "District": "10",
+    "Population": "14526",
+    "LandArea": "172.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Currituck County, NC",
+    "District": "10",
+    "Population": "18190",
+    "LandArea": "261.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Currituck County, NC",
+    "District": "10",
+    "Population": "18190",
+    "LandArea": "261.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Dare County, NC",
+    "District": "10",
+    "Population": "29967",
+    "LandArea": "383.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Dare County, NC",
+    "District": "10",
+    "Population": "29967",
+    "LandArea": "383.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Emporia City, VA",
+    "District": "4",
+    "Population": "5665",
+    "LandArea": "6.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Emporia City, VA",
+    "District": "4",
+    "Population": "5665",
+    "LandArea": "6.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Franklin City, VA",
+    "District": "4",
+    "Population": "8346",
+    "LandArea": "8.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Franklin City, VA",
+    "District": "4",
+    "Population": "8346",
+    "LandArea": "8.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Gates County, NC",
+    "District": "10",
+    "Population": "10516",
+    "LandArea": "340.61",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Gates County, NC",
+    "District": "10",
+    "Population": "10516",
+    "LandArea": "340.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Greensville County, VA",
+    "District": "4",
+    "Population": "11560",
+    "LandArea": "295.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Greensville County, VA",
+    "District": "4",
+    "Population": "11560",
+    "LandArea": "295.44",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lunenburg County, VA",
+    "District": "4",
+    "Population": "13146",
+    "LandArea": "431.70",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Lunenburg County, VA",
+    "District": "4",
+    "Population": "13146",
+    "LandArea": "431.70",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Mecklenburg County, VA",
+    "District": "4",
+    "Population": "32380",
+    "LandArea": "623.93",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Mecklenburg County, VA",
+    "District": "4",
+    "Population": "32380",
+    "LandArea": "623.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Norfolk City, VA",
+    "District": "4",
+    "Population": "234403",
+    "LandArea": "53.73",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Norfolk City, VA",
+    "District": "4",
+    "Population": "234403",
+    "LandArea": "53.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Northampton County, VA",
+    "District": "4",
+    "Population": "13093",
+    "LandArea": "207.37",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Northampton County, VA",
+    "District": "4",
+    "Population": "13093",
+    "LandArea": "207.37",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Pasquotank County, NC",
+    "District": "10",
+    "Population": "34897",
+    "LandArea": "226.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Pasquotank County, NC",
+    "District": "10",
+    "Population": "34897",
+    "LandArea": "226.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Perquimans County, NC",
+    "District": "10",
+    "Population": "11368",
+    "LandArea": "247.17",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Perquimans County, NC",
+    "District": "10",
+    "Population": "11368",
+    "LandArea": "247.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Portsmouth City, VA",
+    "District": "4",
+    "Population": "100565",
+    "LandArea": "33.16",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Portsmouth City, VA",
+    "District": "4",
+    "Population": "100565",
+    "LandArea": "33.16",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Southampton County, VA",
+    "District": "4",
+    "Population": "17482",
+    "LandArea": "599.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Southampton County, VA",
+    "District": "4",
+    "Population": "17482",
+    "LandArea": "599.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Suffolk City, VA",
+    "District": "4",
+    "Population": "63677",
+    "LandArea": "400.02",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Suffolk City, VA",
+    "District": "4",
+    "Population": "63677",
+    "LandArea": "400.02",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Tyrrell County, NC",
+    "District": "10",
+    "Population": "4149",
+    "LandArea": "389.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Tyrrell County, NC",
+    "District": "10",
+    "Population": "4149",
+    "LandArea": "389.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Virginia Beach City, VA",
+    "District": "4",
+    "Population": "425257",
+    "LandArea": "248.29",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Virginia Beach City, VA",
+    "District": "4",
+    "Population": "425257",
+    "LandArea": "248.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "VA"
+  },
+  {
+    "CountyName": "Washington County, NC",
+    "District": "10",
+    "Population": "13723",
+    "LandArea": "348.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "NC"
+  },
+  {
+    "CountyName": "Washington County, NC",
+    "District": "10",
+    "Population": "13723",
+    "LandArea": "348.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "NC"
+  }
+]

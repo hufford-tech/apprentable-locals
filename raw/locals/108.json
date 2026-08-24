@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]150-  (es, i, rts, spa) Waukegan[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "108",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "150-|Waukegan|IL",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "108",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "es, i, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]31290 N US Highway 45[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "111",
+    "editFieldNames": "Address1",
+    "editFieldValues": "31290 N US Highway 45",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Unit B[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "111",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Unit B",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Libertyville, IL 60048[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "111",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Libertyville|IL|60048",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](847) 680-1504[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "212",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(847) 680-1504",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](847) 680-0122[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "213",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(847) 680-0122",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew150.org\" target=\"_blank\">www.ibew150.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "108",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew150.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Steven B. Smart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "332",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven|B.|Smart||{ \"MemberID\" : \"332\",\"luid\": \"108\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"31290 N US Highway 45\",\"addr2\":\"Unit B\",\"addr3\":\"\",\"city\":\"Libertyville\",\"state\":\"IL\",\"zip\":\"60048\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Joseph Catella[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "333",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph||Catella||{ \"MemberID\" : \"333\",\"luid\": \"108\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"31290 N US Highway 45\",\"addr2\":\"Unit B\",\"addr3\":\"\",\"city\":\"Libertyville\",\"state\":\"IL\",\"zip\":\"60048\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Steven  B. Smart[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3433",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Steven |B.|Smart||{ \"MemberID\" : \"3433\",\"luid\": \"108\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Aaron M. Rendon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "334",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Aaron|M.|Rendon||{ \"MemberID\" : \"334\",\"luid\": \"108\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"31290 N US Highway 45\",\"addr2\":\"Unit B\",\"addr3\":\"\",\"city\":\"Libertyville\",\"state\":\"IL\",\"zip\":\"60048\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Gurnee American Legion Hall,  Route 21 & 132, 1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "108",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Gurnee American Legion Hall,  Route 21 & 132, 1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

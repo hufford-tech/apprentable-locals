@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1505  (em) Waltham[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1505|Waltham|MA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "614",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2 Rainin Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2 Rainin Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Woburn, MA 01801[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "571",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Woburn|MA|01801",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](781) 937-9991[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1067",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(781) 937-9991",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](781) 937-9310[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1068",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(781) 937-9310",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:john.bruno@local1505ibew.org\" target=\"_blank\">john.bruno@local1505ibew.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "579",
+    "editFieldNames": "Email",
+    "editFieldValues": "john.bruno@local1505ibew.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew1505.org\" target=\"_blank\">www.ibew1505.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew1505.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]John J. Bruno[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1886",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Bruno||{ \"MemberID\" : \"1886\",\"luid\": \"614\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"84 Frye Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Methuen\",\"state\":\"MA\",\"zip\":\"01844\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Kevin H. Longtin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1885",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kevin|H.|Longtin||{ \"MemberID\" : \"1885\",\"luid\": \"614\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"3 Mayberry Street\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Salem\",\"state\":\"NH\",\"zip\":\"03079\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]John J. Bruno[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3916",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "John|J.|Bruno||{ \"MemberID\" : \"3916\",\"luid\": \"614\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"84 Frye Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Methuen\",\"state\":\"MA\",\"zip\":\"01844\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Amy C. Xavier[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1887",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Amy|C.|Xavier||{ \"MemberID\" : \"1887\",\"luid\": \"614\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"19 Cross Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Londonderry\",\"state\":\"NH\",\"zip\":\"03053\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]Various Locations, 2nd Tuesday, 1 pm & 3:30 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "614",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Various Locations, 2nd Tuesday, 1 pm & 3:30 pm",
+    "datatype": "txt"
+  }
+]

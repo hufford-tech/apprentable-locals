@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1829  (rr) Shreveport[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "696",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1829|Shreveport|LA",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "696",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1901 Normand Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7252",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1901 Normand Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Bossier City, LA 71112[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7252",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Bossier City|LA|71112",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](318) 299-3425[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1184",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(318) 299-3425",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew1829@gmail.com\" target=\"_blank\">ibew1829@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "650",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew1829@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Jordan V. Bates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4279",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jordan|V.|Bates||{ \"MemberID\" : \"4279\",\"luid\": \"696\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Jordan V. Bates[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4282",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jordan|V.|Bates||{ \"MemberID\" : \"4282\",\"luid\": \"696\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]Richard Knighton, 1901 Normand Avenue, Bossier City, LA  71112[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2130",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Richard||Knighton||{ \"MemberID\" : \"2130\",\"luid\": \"696\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1901 Normand Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Bossier City\",\"state\":\"LA\",\"zip\":\"71112\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Eric M. Wilt[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4283",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Eric|M.|Wilt||{ \"MemberID\" : \"4283\",\"luid\": \"696\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\" \",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Local Union 194 Hall, 2nd Thursday, 1 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "696",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Local Union 194 Hall, 2nd Thursday, 1 pm",
+    "datatype": "txt"
+  }
+]

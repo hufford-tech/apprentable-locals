@@ -1,0 +1,587 @@
+[
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-6-san-francisco",
+    "local_number": "6",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-332-san-jose",
+    "local_number": "332",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-46-seattle",
+    "local_number": "46",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-595-dublin",
+    "local_number": "595",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-302-martinez",
+    "local_number": "302",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-48-portland",
+    "local_number": "48",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-11-los-angeles",
+    "local_number": "11",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-569-san-diego",
+    "local_number": "569",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-357-las-vegas",
+    "local_number": "357",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-112-kennewick",
+    "local_number": "112",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-1547-anchorage",
+    "local_number": "1547",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-440-riverside",
+    "local_number": "440",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-1186-honolulu",
+    "local_number": "1186",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-477-san-bernardino",
+    "local_number": "477",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-340-sacramento",
+    "local_number": "340",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-76-tacoma",
+    "local_number": "76",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-401-reno",
+    "local_number": "401",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-73-spokane",
+    "local_number": "73",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-68-denver",
+    "local_number": "68",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-354-salt-lake-city",
+    "local_number": "354",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-611-albuquerque",
+    "local_number": "611",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-532-billings",
+    "local_number": "532",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-322-casper",
+    "local_number": "322",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-113-colorado-springs",
+    "local_number": "113",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-640-phoenix",
+    "local_number": "640",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-291-boise",
+    "local_number": "291",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-570-tucson",
+    "local_number": "570",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-292-minneapolis",
+    "local_number": "292",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-134-chicago",
+    "local_number": "134",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-110-st-paul",
+    "local_number": "110",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-364-rockford",
+    "local_number": "364",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-176-joliet",
+    "local_number": "176",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-697-merrillville",
+    "local_number": "697",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-58-detroit",
+    "local_number": "58",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-124-kansas-city",
+    "local_number": "124",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-8-toledo",
+    "local_number": "8",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-494-milwaukee",
+    "local_number": "494",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-159-madison",
+    "local_number": "159",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-1-st-louis",
+    "local_number": "1",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-38-cleveland",
+    "local_number": "38",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-683-columbus",
+    "local_number": "683",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-481-indianapolis",
+    "local_number": "481",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-22-omaha",
+    "local_number": "22",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-306-akron",
+    "local_number": "306",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-226-topeka",
+    "local_number": "226",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-347-des-moines",
+    "local_number": "347",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-305-fort-wayne",
+    "local_number": "305",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-275-coopersville",
+    "local_number": "275",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-212-cincinnati",
+    "local_number": "212",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-82-dayton",
+    "local_number": "82",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-1426-fargo",
+    "local_number": "1426",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-271-wichita",
+    "local_number": "271",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-265-lincoln",
+    "local_number": "265",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-426-sioux-falls",
+    "local_number": "426",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-98-philadelphia",
+    "local_number": "98",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-103-boston",
+    "local_number": "103",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-102-parsippany",
+    "local_number": "102",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-3-new-york",
+    "local_number": "3",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-269-trenton",
+    "local_number": "269",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-164-paramus",
+    "local_number": "164",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-363-harriman",
+    "local_number": "363",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-25-hauppauge",
+    "local_number": "25",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-26-washington",
+    "local_number": "26",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-351-folsom",
+    "local_number": "351",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-99-providence",
+    "local_number": "99",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-7-springfield",
+    "local_number": "7",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-24-baltimore",
+    "local_number": "24",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-236-albany",
+    "local_number": "236",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-43-syracuse",
+    "local_number": "43",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-375-allentown",
+    "local_number": "375",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-5-pittsburgh",
+    "local_number": "5",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-35-hartford",
+    "local_number": "35",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-96-worcester",
+    "local_number": "96",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-81-scranton",
+    "local_number": "81",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-41-buffalo",
+    "local_number": "41",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-313-wilmington",
+    "local_number": "313",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-86-rochester",
+    "local_number": "86",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-90-new-haven",
+    "local_number": "90",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-466-charleston",
+    "local_number": "466",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-317-huntington",
+    "local_number": "317",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-143-harrisburg",
+    "local_number": "143",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-567-lewiston",
+    "local_number": "567",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-490-concord",
+    "local_number": "490",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-300-south-burlington",
+    "local_number": "300",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-1141-oklahoma-city",
+    "local_number": "1141",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-369-louisville",
+    "local_number": "369",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-20-dallas",
+    "local_number": "20",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-349-miami",
+    "local_number": "349",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-666-richmond",
+    "local_number": "666",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-60-san-antonio",
+    "local_number": "60",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-613-atlanta",
+    "local_number": "613",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-716-houston",
+    "local_number": "716",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-584-tulsa",
+    "local_number": "584",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-728-fort-lauderdale",
+    "local_number": "728",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-583-el-paso",
+    "local_number": "583",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-429-nashville",
+    "local_number": "429",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-474-memphis",
+    "local_number": "474",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-520-austin",
+    "local_number": "520",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-175-chattanooga",
+    "local_number": "175",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-130-new-orleans",
+    "local_number": "130",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-194-shreveport",
+    "local_number": "194",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-776-charleston",
+    "local_number": "776",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-379-charlotte",
+    "local_number": "379",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-505-mobile",
+    "local_number": "505",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-177-jacksonville",
+    "local_number": "177",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-508-savannah",
+    "local_number": "508",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-915-tampa",
+    "local_number": "915",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-295-little-rock",
+    "local_number": "295",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-606-orlando",
+    "local_number": "606",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-558-sheffield",
+    "local_number": "558",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-553-raleigh-durham",
+    "local_number": "553",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-136-birmingham",
+    "local_number": "136",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-278-corpus-christi",
+    "local_number": "278",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-80-norfolk",
+    "local_number": "80",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-700-fort-smith",
+    "local_number": "700",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-995-baton-rouge",
+    "local_number": "995",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  },
+  {
+    "url": "https://asksparkyai.com/ibew-locals/local-480-jackson",
+    "local_number": "480",
+    "lastmod": "2026-08-07T17:00:39.222Z"
+  }
+]

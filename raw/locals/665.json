@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]1658  (em) Pine Bluff[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "665",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "1658|Pine Bluff|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "665",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 5236[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "613",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 5236",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pine Bluff, AR 71611[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "613",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pine Bluff|AR|71611",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 592-3573[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1144",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 592-3573",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:localu1658@gmail.com\" target=\"_blank\">localu1658@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1898",
+    "editFieldNames": "Email",
+    "editFieldValues": "localu1658@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Johnny L. Wilson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2036",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnny|L.|Wilson||{ \"MemberID\" : \"2036\",\"luid\": \"665\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5236\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71611\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Johnny L. Wilson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3971",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Johnny|L.|Wilson||{ \"MemberID\" : \"3971\",\"luid\": \"665\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]William R. Hogan[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2037",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "William|R.|Hogan||{ \"MemberID\" : \"2037\",\"luid\": \"665\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 5236\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71611\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Judy Raddle[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2038",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Judy||Raddle||{ \"MemberID\" : \"2038\",\"luid\": \"665\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"PO Box 5236\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71611\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]1st Thursday, 2 pm & 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "665",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 2 pm & 4 pm",
+    "datatype": "txt"
+  }
+]

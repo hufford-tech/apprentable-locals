@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]242-  (catv, em, es, i, mar, rtb, rts, spa) Duluth[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "152",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "242-|Duluth|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "152",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "catv, em, es, i, mar, rtb, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2002 London Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "155",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2002 London Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Room 111[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "155",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Room 111",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Duluth, MN 55812[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "155",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Duluth|MN|55812",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](218) 728-6895[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "290",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(218) 728-6895",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](218) 728-1965[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "291",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(218) 728-1965",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:dsmithlcl242@gmail.com\" target=\"_blank\">dsmithlcl242@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "150",
+    "editFieldNames": "Email",
+    "editFieldValues": "dsmithlcl242@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew242.org\" target=\"_blank\">www.ibew242.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "152",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew242.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Donald J. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "471",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|J.|Smith||{ \"MemberID\" : \"471\",\"luid\": \"152\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2002 London Road\",\"addr2\":\"Room 111\",\"addr3\":\"\",\"city\":\"Duluth\",\"state\":\"MN\",\"zip\":\"55812\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Kyle G. Bukovich[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "472",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Kyle|G.|Bukovich||{ \"MemberID\" : \"472\",\"luid\": \"152\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2002 London Road\",\"addr2\":\"Room 111\",\"addr3\":\"\",\"city\":\"Duluth\",\"state\":\"MN\",\"zip\":\"55812\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Donald J. Smith[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3469",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Donald|J.|Smith||{ \"MemberID\" : \"3469\",\"luid\": \"152\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Zachary D. Claflin[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "473",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Zachary|D.|Claflin||{ \"MemberID\" : \"473\",\"luid\": \"152\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2002 London Road\",\"addr2\":\"Room 111\",\"addr3\":\"\",\"city\":\"Duluth\",\"state\":\"MN\",\"zip\":\"55812\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]Duluth: 4th Wednesday, 6 pm; Brainerd: 708 Front Street, 1st Monday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "152",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Duluth: 4th Wednesday, 6 pm; Brainerd: 708 Front Street, 1st Monday, 6 pm",
+    "datatype": "txt"
+  }
+]

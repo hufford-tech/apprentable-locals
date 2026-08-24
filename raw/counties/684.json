@@ -1,0 +1,38 @@
+[
+  {
+    "CountyName": "Mariposa County, CA",
+    "District": "9",
+    "Population": "17130",
+    "LandArea": "1451.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Merced County, CA",
+    "District": "9",
+    "Population": "210554",
+    "LandArea": "1928.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Stanislaus County, CA",
+    "District": "9",
+    "Population": "446997",
+    "LandArea": "1493.79",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  },
+  {
+    "CountyName": "Tuolumne County, CA",
+    "District": "9",
+    "Population": "54501",
+    "LandArea": "2235.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "CA"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "CountyName": "Adams County, WI",
+    "District": "6",
+    "Population": "18643",
+    "LandArea": "647.74",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Brown County, WI",
+    "District": "6",
+    "Population": "226778",
+    "LandArea": "528.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Calumet County, WI",
+    "District": "6",
+    "Population": "40631",
+    "LandArea": "319.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Columbia County, WI",
+    "District": "6",
+    "Population": "52468",
+    "LandArea": "773.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dane County, WI",
+    "District": "6",
+    "Population": "426526",
+    "LandArea": "1201.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Dodge County, WI",
+    "District": "6",
+    "Population": "85897",
+    "LandArea": "882.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Door County, WI",
+    "District": "6",
+    "Population": "27961",
+    "LandArea": "482.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Florence County, WI",
+    "District": "6",
+    "Population": "5088",
+    "LandArea": "488.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Fond Du Lac County, WI",
+    "District": "6",
+    "Population": "97296",
+    "LandArea": "722.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Forest County, WI",
+    "District": "6",
+    "Population": "10024",
+    "LandArea": "1014.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Green County, WI",
+    "District": "6",
+    "Population": "33647",
+    "LandArea": "583.99",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Green Lake County, WI",
+    "District": "6",
+    "Population": "19105",
+    "LandArea": "354.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Jefferson County, WI",
+    "District": "6",
+    "Population": "74021",
+    "LandArea": "557.01",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Juneau County, WI",
+    "District": "6",
+    "Population": "24316",
+    "LandArea": "767.61",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Kenosha County, WI",
+    "District": "6",
+    "Population": "149577",
+    "LandArea": "272.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Kewaunee County, WI",
+    "District": "6",
+    "Population": "20187",
+    "LandArea": "342.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Langlade County, WI",
+    "District": "6",
+    "Population": "20740",
+    "LandArea": "872.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Lincoln County, WI",
+    "District": "6",
+    "Population": "29641",
+    "LandArea": "883.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Manitowoc County, WI",
+    "District": "6",
+    "Population": "82887",
+    "LandArea": "591.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marathon County, WI",
+    "District": "6",
+    "Population": "125834",
+    "LandArea": "1544.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marinette County, WI",
+    "District": "6",
+    "Population": "43384",
+    "LandArea": "1401.76",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Marquette County, WI",
+    "District": "6",
+    "Population": "15832",
+    "LandArea": "455.49",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Menominee County, WI",
+    "District": "6",
+    "Population": "4562",
+    "LandArea": "357.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Milwaukee County, WI",
+    "District": "6",
+    "Population": "940164",
+    "LandArea": "241.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Oconto County, WI",
+    "District": "6",
+    "Population": "35634",
+    "LandArea": "997.97",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Oneida County, WI",
+    "District": "6",
+    "Population": "36776",
+    "LandArea": "1124.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Outagamie County, WI",
+    "District": "6",
+    "Population": "160971",
+    "LandArea": "640.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Ozaukee County, WI",
+    "District": "6",
+    "Population": "82317",
+    "LandArea": "231.95",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Portage County, WI",
+    "District": "6",
+    "Population": "67182",
+    "LandArea": "806.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Racine County, WI",
+    "District": "6",
+    "Population": "188831",
+    "LandArea": "333.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Rock County, WI",
+    "District": "6",
+    "Population": "152307",
+    "LandArea": "720.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Sauk County, WI",
+    "District": "6",
+    "Population": "55225",
+    "LandArea": "837.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Shawano County, WI",
+    "District": "6",
+    "Population": "40664",
+    "LandArea": "892.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Sheboygan County, WI",
+    "District": "6",
+    "Population": "112646",
+    "LandArea": "513.63",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Vilas County, WI",
+    "District": "6",
+    "Population": "21033",
+    "LandArea": "873.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Walworth County, WI",
+    "District": "6",
+    "Population": "93759",
+    "LandArea": "555.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Washington County, WI",
+    "District": "6",
+    "Population": "117493",
+    "LandArea": "430.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waukesha County, WI",
+    "District": "6",
+    "Population": "360767",
+    "LandArea": "555.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waupaca County, WI",
+    "District": "6",
+    "Population": "51731",
+    "LandArea": "751.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Waushara County, WI",
+    "District": "6",
+    "Population": "23154",
+    "LandArea": "626.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Winnebago County, WI",
+    "District": "6",
+    "Population": "156763",
+    "LandArea": "438.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  },
+  {
+    "CountyName": "Wood County, WI",
+    "District": "6",
+    "Population": "75555",
+    "LandArea": "792.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "WI"
+  }
+]

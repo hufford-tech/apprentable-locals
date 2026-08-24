@@ -1,0 +1,92 @@
+[
+  {
+    "CountyName": "Bureau County, IL",
+    "District": "6",
+    "Population": "35503",
+    "LandArea": "868.56",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Ford County, IL",
+    "District": "6",
+    "Population": "14241",
+    "LandArea": "485.90",
+    "Percentage": "30%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Grundy County, IL",
+    "District": "6",
+    "Population": "37535",
+    "LandArea": "419.90",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Henry County, IL",
+    "District": "6",
+    "Population": "51020",
+    "LandArea": "823.21",
+    "Percentage": "55%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Iroquois County, IL",
+    "District": "6",
+    "Population": "31334",
+    "LandArea": "1116.43",
+    "Percentage": "90%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Kankakee County, IL",
+    "District": "6",
+    "Population": "103833",
+    "LandArea": "676.75",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "La Salle County, IL",
+    "District": "6",
+    "Population": "111509",
+    "LandArea": "1134.92",
+    "Percentage": "70%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Putnam County, IL",
+    "District": "6",
+    "Population": "6086",
+    "LandArea": "159.80",
+    "Percentage": "95%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Stark County, IL",
+    "District": "6",
+    "Population": "6332",
+    "LandArea": "287.94",
+    "Percentage": "50%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  },
+  {
+    "CountyName": "Will County, IL",
+    "District": "6",
+    "Population": "502266",
+    "LandArea": "836.94",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "IL"
+  }
+]

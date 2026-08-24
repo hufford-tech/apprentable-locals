@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2356  (em) Richmond[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "839",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2356|Richmond|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "839",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]5977 Brindle Ridge Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7230",
+    "editFieldNames": "Address1",
+    "editFieldValues": "5977 Brindle Ridge Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Brodhead, KY 40409[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7230",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Brodhead|KY|40409",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](606) 386-9589[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "1386",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(606) 386-9589",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:joegarusmc@hotmail.com\" target=\"_blank\">joegarusmc@hotmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "771",
+    "editFieldNames": "Email",
+    "editFieldValues": "joegarusmc@hotmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal2356.org\" target=\"_blank\">www.ibewlocal2356.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "839",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal2356.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]B.M. [/b]Joseph A. Gardiner, 5977 Brindle Ridge Road, Brodhead, KY  40409[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2552",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Gardiner||{ \"MemberID\" : \"2552\",\"luid\": \"839\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5977 Brindle Ridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brodhead\",\"state\":\"KY\",\"zip\":\"40409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Pres. [/b]Joseph A. Gardiner, 5977 Brindle Ridge Road, Brodhead, KY  40409[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4163",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Gardiner||{ \"MemberID\" : \"4163\",\"luid\": \"839\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5977 Brindle Ridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brodhead\",\"state\":\"KY\",\"zip\":\"40409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]F.S. [/b]Joseph A. Gardiner, 5977 Brindle Ridge Road, Brodhead, KY  40409[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4164",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Joseph|A.|Gardiner||{ \"MemberID\" : \"4164\",\"luid\": \"839\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"5977 Brindle Ridge Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Brodhead\",\"state\":\"KY\",\"zip\":\"40409\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]R.S. [/b]Jason Lear, 230 Stoney Creek Way, Berea, KY  40403[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2553",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason||Lear||{ \"MemberID\" : \"2553\",\"luid\": \"839\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"230 Stoney Creek Way\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Berea\",\"state\":\"KY\",\"zip\":\"40403\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]Meets [/b]1st Saturday, 8 am[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "839",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Saturday, 8 am",
+    "datatype": "txt"
+  }
+]

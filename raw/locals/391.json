@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]716-  (em, i, lctt, rts, spa) Houston[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "716-|Houston|TX",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "391",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "em, i, lctt, rts, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1475 N Loop W[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "386",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1475 N Loop W",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Houston, TX 77008[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "386",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Houston|TX|77008",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](713) 869-8900[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "717",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(713) 869-8900",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](713) 868-6342[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "718",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(713) 868-6342",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibew716@ibew716.net\" target=\"_blank\">ibew716@ibew716.net</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "376",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibew716@ibew716.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew716.net\" target=\"_blank\">www.ibew716.net</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew716.net",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Stephen Gonzales[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1198",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen||Gonzales||{ \"MemberID\" : \"1198\",\"luid\": \"391\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1475 N Loop W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Houston\",\"state\":\"TX\",\"zip\":\"77008\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Rodney M. Mayon[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1196",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Rodney|M.|Mayon||{ \"MemberID\" : \"1196\",\"luid\": \"391\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1475 N Loop W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Houston\",\"state\":\"TX\",\"zip\":\"77008\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Stephen Gonzales[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3701",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen||Gonzales||{ \"MemberID\" : \"3701\",\"luid\": \"391\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Robin E. Glover[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1197",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Robin|E.|Glover||{ \"MemberID\" : \"1197\",\"luid\": \"391\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"1475 N Loop W\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Houston\",\"state\":\"TX\",\"zip\":\"77008\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "391",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday, 6 pm",
+    "datatype": "txt"
+  }
+]

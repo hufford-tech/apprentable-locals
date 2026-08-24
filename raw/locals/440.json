@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]816-  (i, o, spa, t, u) Paducah[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "816-|Paducah|KY",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "440",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i, o, spa, t, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]4515 Clarks River Road[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "416",
+    "editFieldNames": "Address1",
+    "editFieldValues": "4515 Clarks River Road",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Paducah, KY 42003[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "416",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Paducah|KY|42003",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](270) 898-2456[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "790",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(270) 898-2456",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](270) 898-2694[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "791",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(270) 898-2694",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlocal816@ibewlocal816.org\" target=\"_blank\">ibewlocal816@ibewlocal816.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "420",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlocal816@ibewlocal816.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal816.org\" target=\"_blank\">www.ibewlocal816.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal816.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]James M. DeFew[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1355",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|M.|DeFew||{ \"MemberID\" : \"1355\",\"luid\": \"440\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4515 Clarks River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Paducah\",\"state\":\"KY\",\"zip\":\"42003\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Gerald R. Ramage[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1353",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Gerald|R.|Ramage||{ \"MemberID\" : \"1353\",\"luid\": \"440\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"4515 Clarks River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Paducah\",\"state\":\"KY\",\"zip\":\"42003\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]James M. DeFew[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3748",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "James|M.|DeFew||{ \"MemberID\" : \"3748\",\"luid\": \"440\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Jonathan C. Davis III[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1354",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jonathan|C.|Davis|III|{ \"MemberID\" : \"1354\",\"luid\": \"440\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"4515 Clarks River Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Paducah\",\"state\":\"KY\",\"zip\":\"42003\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Friday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "440",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Friday, 7 pm",
+    "datatype": "txt"
+  }
+]

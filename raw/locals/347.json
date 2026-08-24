@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]625-  (c, ees, em, i, it, mar, mt) Halifax, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "347",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "625-|Halifax|NS",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "347",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "c, ees, em, i, it, mar, mt",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]24 Beechville Park Drive[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "345",
+    "editFieldNames": "Address1",
+    "editFieldValues": "24 Beechville Park Drive",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 202[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "345",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 202",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Beechville, NS B3T 1L1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "345",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Beechville|NS|B3T 1L1",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](902) 450-5625[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "642",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 450-5625",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](902) 450-5063[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "643",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(902) 450-5063",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew625.ca\" target=\"_blank\">info@ibew625.ca</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "334",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew625.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://https://ibew625.ca\" target=\"_blank\">https://ibew625.ca</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "347",
+    "editFieldNames": "Website",
+    "editFieldValues": "https://ibew625.ca",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Thomas N. Griffiths[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1064",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|N.|Griffiths||{ \"MemberID\" : \"1064\",\"luid\": \"347\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"24 Lakeside Park Drive\",\"addr2\":\"Suite 202\",\"addr3\":\"\",\"city\":\"Lakeside\",\"state\":\"NS\",\"zip\":\"B3T 1L1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]R. Addison Hawes[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1063",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "R. Addison||Hawes||{ \"MemberID\" : \"1063\",\"luid\": \"347\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"24 Lakeside Park Drive\",\"addr2\":\"Suite 202\",\"addr3\":\"\",\"city\":\"Lakeside\",\"state\":\"NS\",\"zip\":\"B3T 1L1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Thomas N. Griffiths[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3658",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Thomas|N.|Griffiths||{ \"MemberID\" : \"3658\",\"luid\": \"347\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Angela L. Duquette[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1065",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Angela|L.|Duquette||{ \"MemberID\" : \"1065\",\"luid\": \"347\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"24 Lakeside Park Drive\",\"addr2\":\"Suite 202\",\"addr3\":\"\",\"city\":\"Lakeside\",\"state\":\"NS\",\"zip\":\"B3T 1L1\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]2nd Monday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "347",
+    "editFieldNames": "Meets",
+    "editFieldValues": "2nd Monday, 7 pm",
+    "datatype": "txt"
+  }
+]

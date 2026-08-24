@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]2033  (mt, p) Pine Bluff[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "751",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "2033|Pine Bluff|AR",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "751",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "mt, p",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]PO Box 2437[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7299",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 2437",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Pine Bluff, AR 71603[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7299",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Pine Bluff|AR|71603",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](870) 692-1309[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "2377",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(870) 692-1309",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:shannonhall410@gmail.com\" target=\"_blank\">shannonhall410@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "2209",
+    "editFieldNames": "Email",
+    "editFieldValues": "shannonhall410@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]B.M. [/b]Shannon L. Hall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2295",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|L.|Hall||{ \"MemberID\" : \"2295\",\"luid\": \"751\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"11126 Dogwood Forest Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71603\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Pres. [/b]Shannon L. Hall[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "4068",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Shannon|L.|Hall||{ \"MemberID\" : \"4068\",\"luid\": \"751\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"11126 Dogwood Forest Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71603\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]F.S. [/b]George P. Venable[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2296",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "George|P.|Venable||{ \"MemberID\" : \"2296\",\"luid\": \"751\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1700 Don Drive\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"White Hall\",\"state\":\"AR\",\"zip\":\"71602\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]R.S. [/b]Amos J. Hawkins[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "2297",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Amos|J.|Hawkins||{ \"MemberID\" : \"2297\",\"luid\": \"751\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 2437\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Pine Bluff\",\"state\":\"AR\",\"zip\":\"71613\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Meets [/b]Pine Bluff Labor Temple, 5300 Hoover Street, 3rd Tuesday, 4 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "751",
+    "editFieldNames": "Meets",
+    "editFieldValues": "Pine Bluff Labor Temple, 5300 Hoover Street, 3rd Tuesday, 4 pm",
+    "datatype": "txt"
+  }
+]

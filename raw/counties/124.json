@@ -1,0 +1,182 @@
+[
+  {
+    "CountyName": "Bates County, MO",
+    "District": "11",
+    "Population": "16653",
+    "LandArea": "848.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Benton County, MO",
+    "District": "11",
+    "Population": "17180",
+    "LandArea": "705.51",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Carroll County, MO",
+    "District": "11",
+    "Population": "10285",
+    "LandArea": "694.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cass County, MO",
+    "District": "11",
+    "Population": "82092",
+    "LandArea": "698.99",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Clay County, MO",
+    "District": "11",
+    "Population": "184006",
+    "LandArea": "396.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Cooper County, MO",
+    "District": "11",
+    "Population": "16670",
+    "LandArea": "565.03",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Henry County, MO",
+    "District": "11",
+    "Population": "21997",
+    "LandArea": "702.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Jackson County, MO",
+    "District": "11",
+    "Population": "654880",
+    "LandArea": "604.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Johnson County, KS",
+    "District": "7",
+    "Population": "451086",
+    "LandArea": "476.78",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Johnson County, MO",
+    "District": "11",
+    "Population": "48258",
+    "LandArea": "830.44",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Lafayette County, MO",
+    "District": "11",
+    "Population": "32960",
+    "LandArea": "629.31",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Leavenworth County, KS",
+    "District": "7",
+    "Population": "68691",
+    "LandArea": "463.27",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Linn County, KS",
+    "District": "7",
+    "Population": "9570",
+    "LandArea": "598.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Miami County, KS",
+    "District": "7",
+    "Population": "28351",
+    "LandArea": "576.72",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  },
+  {
+    "CountyName": "Morgan County, MO",
+    "District": "11",
+    "Population": "19309",
+    "LandArea": "597.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Pettis County, MO",
+    "District": "11",
+    "Population": "39403",
+    "LandArea": "684.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Platte County, MO",
+    "District": "11",
+    "Population": "73781",
+    "LandArea": "420.33",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Ray County, MO",
+    "District": "11",
+    "Population": "23354",
+    "LandArea": "569.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Saline County, MO",
+    "District": "11",
+    "Population": "23756",
+    "LandArea": "755.55",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "MO"
+  },
+  {
+    "CountyName": "Wyandotte County, KS",
+    "District": "7",
+    "Population": "157882",
+    "LandArea": "151.39",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KS"
+  }
+]

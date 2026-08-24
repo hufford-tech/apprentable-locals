@@ -1,0 +1,803 @@
+[
+  {
+    "CountyName": "Adams County, IN",
+    "District": "6",
+    "Population": "33625",
+    "LandArea": "339.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Allen County, IN",
+    "District": "6",
+    "Population": "331849",
+    "LandArea": "657.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Bartholomew County, IN",
+    "District": "6",
+    "Population": "71435",
+    "LandArea": "406.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Benton County, IN",
+    "District": "6",
+    "Population": "9421",
+    "LandArea": "406.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Blackford County, IN",
+    "District": "6",
+    "Population": "14048",
+    "LandArea": "165.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Boone County, IN",
+    "District": "6",
+    "Population": "46107",
+    "LandArea": "422.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Brown County, IN",
+    "District": "6",
+    "Population": "14957",
+    "LandArea": "312.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Carroll County, IN",
+    "District": "6",
+    "Population": "20165",
+    "LandArea": "372.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Cass County, IN",
+    "District": "6",
+    "Population": "40930",
+    "LandArea": "412.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Clark County, IN",
+    "District": "6",
+    "Population": "96472",
+    "LandArea": "375.04",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Clay County, IN",
+    "District": "6",
+    "Population": "26556",
+    "LandArea": "357.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Clinton County, IN",
+    "District": "6",
+    "Population": "33866",
+    "LandArea": "405.10",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Crawford County, IN",
+    "District": "6",
+    "Population": "10743",
+    "LandArea": "305.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Daviess County, IN",
+    "District": "6",
+    "Population": "29820",
+    "LandArea": "430.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "De Kalb County, IN",
+    "District": "6",
+    "Population": "40285",
+    "LandArea": "362.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Decatur County, IN",
+    "District": "6",
+    "Population": "24555",
+    "LandArea": "372.60",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Delaware County, IN",
+    "District": "6",
+    "Population": "118769",
+    "LandArea": "393.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Dubois County, IN",
+    "District": "6",
+    "Population": "39674",
+    "LandArea": "430.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Elkhart County, IN",
+    "District": "6",
+    "Population": "182791",
+    "LandArea": "463.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Fayette County, IN",
+    "District": "6",
+    "Population": "25588",
+    "LandArea": "214.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Floyd County, IN",
+    "District": "6",
+    "Population": "70823",
+    "LandArea": "148.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Fountain County, IN",
+    "District": "6",
+    "Population": "17954",
+    "LandArea": "395.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Franklin County, IN",
+    "District": "6",
+    "Population": "22151",
+    "LandArea": "386.00",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Fulton County, IN",
+    "District": "6",
+    "Population": "20511",
+    "LandArea": "368.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Gibson County, IN",
+    "District": "6",
+    "Population": "32500",
+    "LandArea": "488.78",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Grant County, IN",
+    "District": "6",
+    "Population": "73403",
+    "LandArea": "414.03",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Greene County, IN",
+    "District": "6",
+    "Population": "33157",
+    "LandArea": "541.73",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hamilton County, IN",
+    "District": "6",
+    "Population": "182740",
+    "LandArea": "397.94",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hancock County, IN",
+    "District": "6",
+    "Population": "55391",
+    "LandArea": "306.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Harrison County, IN",
+    "District": "6",
+    "Population": "34325",
+    "LandArea": "485.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Hendricks County, IN",
+    "District": "6",
+    "Population": "104093",
+    "LandArea": "408.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Henry County, IN",
+    "District": "6",
+    "Population": "48508",
+    "LandArea": "392.93",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Howard County, IN",
+    "District": "6",
+    "Population": "84964",
+    "LandArea": "293.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Huntington County, IN",
+    "District": "6",
+    "Population": "38075",
+    "LandArea": "382.59",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jackson County, IN",
+    "District": "6",
+    "Population": "41335",
+    "LandArea": "509.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jasper County, IN",
+    "District": "6",
+    "Population": "30043",
+    "LandArea": "559.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jay County, IN",
+    "District": "6",
+    "Population": "21806",
+    "LandArea": "383.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jefferson County, IN",
+    "District": "6",
+    "Population": "31705",
+    "LandArea": "361.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Jennings County, IN",
+    "District": "6",
+    "Population": "27554",
+    "LandArea": "377.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Johnson County, IN",
+    "District": "6",
+    "Population": "115209",
+    "LandArea": "320.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Knox County, IN",
+    "District": "6",
+    "Population": "39256",
+    "LandArea": "515.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Kosciusko County, IN",
+    "District": "6",
+    "Population": "74057",
+    "LandArea": "537.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "La Porte County, IN",
+    "District": "6",
+    "Population": "110106",
+    "LandArea": "598.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lagrange County, IN",
+    "District": "6",
+    "Population": "34909",
+    "LandArea": "379.56",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lake County, IN",
+    "District": "6",
+    "Population": "484564",
+    "LandArea": "496.98",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Lawrence County, IN",
+    "District": "6",
+    "Population": "45922",
+    "LandArea": "448.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Madison County, IN",
+    "District": "6",
+    "Population": "133358",
+    "LandArea": "452.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Marion County, IN",
+    "District": "6",
+    "Population": "860454",
+    "LandArea": "396.25",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Marshall County, IN",
+    "District": "6",
+    "Population": "45128",
+    "LandArea": "444.27",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Martin County, IN",
+    "District": "6",
+    "Population": "10369",
+    "LandArea": "336.14",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Miami County, IN",
+    "District": "6",
+    "Population": "36082",
+    "LandArea": "375.62",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Monroe County, IN",
+    "District": "6",
+    "Population": "120563",
+    "LandArea": "394.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Montgomery County, IN",
+    "District": "6",
+    "Population": "37629",
+    "LandArea": "504.51",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Morgan County, IN",
+    "District": "6",
+    "Population": "66689",
+    "LandArea": "406.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Newton County, IN",
+    "District": "6",
+    "Population": "14566",
+    "LandArea": "401.85",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Noble County, IN",
+    "District": "6",
+    "Population": "46275",
+    "LandArea": "411.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Orange County, IN",
+    "District": "6",
+    "Population": "19306",
+    "LandArea": "399.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Owen County, IN",
+    "District": "6",
+    "Population": "21786",
+    "LandArea": "385.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Parke County, IN",
+    "District": "6",
+    "Population": "17241",
+    "LandArea": "444.77",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Perry County, IN",
+    "District": "6",
+    "Population": "18899",
+    "LandArea": "381.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pike County, IN",
+    "District": "6",
+    "Population": "12837",
+    "LandArea": "336.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Porter County, IN",
+    "District": "6",
+    "Population": "146798",
+    "LandArea": "418.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Posey County, IN",
+    "District": "6",
+    "Population": "27061",
+    "LandArea": "408.50",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Pulaski County, IN",
+    "District": "6",
+    "Population": "13755",
+    "LandArea": "433.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Putnam County, IN",
+    "District": "6",
+    "Population": "36019",
+    "LandArea": "480.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Randolph County, IN",
+    "District": "6",
+    "Population": "27401",
+    "LandArea": "452.83",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Ripley County, IN",
+    "District": "6",
+    "Population": "26523",
+    "LandArea": "446.36",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Rush County, IN",
+    "District": "6",
+    "Population": "18261",
+    "LandArea": "408.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Scott County, IN",
+    "District": "6",
+    "Population": "22960",
+    "LandArea": "190.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Shelby County, IN",
+    "District": "6",
+    "Population": "43445",
+    "LandArea": "412.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Spencer County, IN",
+    "District": "6",
+    "Population": "20391",
+    "LandArea": "398.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "St. Joseph County, IN",
+    "District": "6",
+    "Population": "265559",
+    "LandArea": "457.34",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Starke County, IN",
+    "District": "6",
+    "Population": "23556",
+    "LandArea": "309.31",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Steuben County, IN",
+    "District": "6",
+    "Population": "33214",
+    "LandArea": "308.72",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Sullivan County, IN",
+    "District": "6",
+    "Population": "21751",
+    "LandArea": "447.20",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Tippecanoe County, IN",
+    "District": "6",
+    "Population": "148955",
+    "LandArea": "499.79",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Tipton County, IN",
+    "District": "6",
+    "Population": "16577",
+    "LandArea": "260.39",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Union County, IN",
+    "District": "6",
+    "Population": "7349",
+    "LandArea": "161.55",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Vanderburgh County, IN",
+    "District": "6",
+    "Population": "171922",
+    "LandArea": "234.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Vermillion County, IN",
+    "District": "6",
+    "Population": "16788",
+    "LandArea": "256.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Vigo County, IN",
+    "District": "6",
+    "Population": "105848",
+    "LandArea": "403.29",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wabash County, IN",
+    "District": "6",
+    "Population": "34960",
+    "LandArea": "413.17",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Warren County, IN",
+    "District": "6",
+    "Population": "8419",
+    "LandArea": "364.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Warrick County, IN",
+    "District": "6",
+    "Population": "52383",
+    "LandArea": "384.07",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Washington County, IN",
+    "District": "6",
+    "Population": "27223",
+    "LandArea": "514.42",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wayne County, IN",
+    "District": "6",
+    "Population": "71097",
+    "LandArea": "403.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Wells County, IN",
+    "District": "6",
+    "Population": "27600",
+    "LandArea": "369.96",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "White County, IN",
+    "District": "6",
+    "Population": "25267",
+    "LandArea": "505.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  },
+  {
+    "CountyName": "Whitley County, IN",
+    "District": "6",
+    "Population": "30707",
+    "LandArea": "335.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "IN"
+  }
+]

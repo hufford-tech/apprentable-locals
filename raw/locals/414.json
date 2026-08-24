@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]763-  (u) Omaha[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "414",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "763-|Omaha|NE",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "414",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]13306 Stevens Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "Address1",
+    "editFieldValues": "13306 Stevens Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 101[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 101",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Omaha, NE 68137[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "403",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Omaha|NE|68137",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](402) 551-1004[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "753",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 551-1004",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](402) 551-1841[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "754",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(402) 551-1841",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:ibewlu763@yahoo.com\" target=\"_blank\">ibewlu763@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "397",
+    "editFieldNames": "Email",
+    "editFieldValues": "ibewlu763@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlu763members.com\" target=\"_blank\">www.ibewlu763members.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "414",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlu763members.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Jason M. Cavanaugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1272",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|M.|Cavanaugh||{ \"MemberID\" : \"1272\",\"luid\": \"414\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 101\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Jason M. Cavanaugh[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3723",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|M.|Cavanaugh||{ \"MemberID\" : \"3723\",\"luid\": \"414\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Brent A. Sass[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1271",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Brent|A.|Sass||{ \"MemberID\" : \"1271\",\"luid\": \"414\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 101\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Ryan C. Long[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1273",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ryan|C.|Long||{ \"MemberID\" : \"1273\",\"luid\": \"414\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"13306 Stevens Street\",\"addr2\":\"Suite 101\",\"addr3\":\"\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"68137\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]1st Thursday, 7 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "414",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Thursday, 7 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]636-  (as, catv, em, ptc, spa, u) Toronto, Canada[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "352",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "636-|Toronto|ON",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "352",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, catv, em, ptc, spa, u",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1001 Ritson Road S[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "349",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1001 Ritson Road S",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Oshawa, ON L1H 4G5[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "349",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Oshawa|ON|L1H 4G5",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b](905) 286-0330[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "649",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(905) 286-0330",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]Fax [/b](905) 286-0042[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "650",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(905) 286-0042",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:officeibew636@gmail.com\" target=\"_blank\">officeibew636@gmail.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "339",
+    "editFieldNames": "Email",
+    "editFieldValues": "officeibew636@gmail.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibewlocal636.com\" target=\"_blank\">www.ibewlocal636.com</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "352",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibewlocal636.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]B.M. [/b]Domenic Murdaca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1078",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Domenic||Murdaca||{ \"MemberID\" : \"1078\",\"luid\": \"352\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"7170 W Credit Avenue\",\"addr2\":\"Unit 2B\",\"addr3\":\"\",\"city\":\"Mississauga\",\"state\":\"ON\",\"zip\":\"L5N 6C6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Pres. [/b]Cindy Nagy[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1076",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Cindy||Nagy||{ \"MemberID\" : \"1076\",\"luid\": \"352\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"S\",\"addr1\":\"7170 W Credit Avenue\",\"addr2\":\"Unit 2B\",\"addr3\":\"\",\"city\":\"Mississauga\",\"state\":\"ON\",\"zip\":\"L5N 6C6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]F.S. [/b]Domenic Murdaca[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3665",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Domenic||Murdaca||{ \"MemberID\" : \"3665\",\"luid\": \"352\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]R.S. [/b]Susanne Labutte[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1077",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Susanne||Labutte||{ \"MemberID\" : \"1077\",\"luid\": \"352\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"S\",\"addr1\":\"7170 W Credit Avenue\",\"addr2\":\"Unit 2B\",\"addr3\":\"\",\"city\":\"Mississauga\",\"state\":\"ON\",\"zip\":\"L5N 6C6\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Meets [/b]1st Wednesday[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "352",
+    "editFieldNames": "Meets",
+    "editFieldValues": "1st Wednesday",
+    "datatype": "txt"
+  }
+]

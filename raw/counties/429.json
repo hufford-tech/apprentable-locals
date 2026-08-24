@@ -1,0 +1,722 @@
+[
+  {
+    "CountyName": "Adair County, KY",
+    "District": "4",
+    "Population": "17244",
+    "LandArea": "406.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Adair County, KY",
+    "District": "4",
+    "Population": "17244",
+    "LandArea": "406.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Allen County, KY",
+    "District": "4",
+    "Population": "17800",
+    "LandArea": "346.12",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Allen County, KY",
+    "District": "4",
+    "Population": "17800",
+    "LandArea": "346.12",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Bedford County, TN",
+    "District": "10",
+    "Population": "37586",
+    "LandArea": "473.67",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Bedford County, TN",
+    "District": "10",
+    "Population": "37586",
+    "LandArea": "473.67",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cannon County, TN",
+    "District": "10",
+    "Population": "12826",
+    "LandArea": "265.64",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cannon County, TN",
+    "District": "10",
+    "Population": "12826",
+    "LandArea": "265.64",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cheatham County, TN",
+    "District": "10",
+    "Population": "35912",
+    "LandArea": "302.66",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cheatham County, TN",
+    "District": "10",
+    "Population": "35912",
+    "LandArea": "302.66",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Christian County, KY",
+    "District": "4",
+    "Population": "72265",
+    "LandArea": "721.31",
+    "Percentage": "10%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Christian County, KY",
+    "District": "4",
+    "Population": "72265",
+    "LandArea": "721.31",
+    "Percentage": "10%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clay County, TN",
+    "District": "10",
+    "Population": "7976",
+    "LandArea": "236.11",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Clay County, TN",
+    "District": "10",
+    "Population": "7976",
+    "LandArea": "236.11",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Clinton County, KY",
+    "District": "4",
+    "Population": "9634",
+    "LandArea": "197.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Clinton County, KY",
+    "District": "4",
+    "Population": "9634",
+    "LandArea": "197.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Coffee County, TN",
+    "District": "10",
+    "Population": "48014",
+    "LandArea": "428.84",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Coffee County, TN",
+    "District": "10",
+    "Population": "48014",
+    "LandArea": "428.84",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Cumberland County, KY",
+    "District": "4",
+    "Population": "7147",
+    "LandArea": "305.82",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Cumberland County, KY",
+    "District": "4",
+    "Population": "7147",
+    "LandArea": "305.82",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Davidson County, TN",
+    "District": "10",
+    "Population": "569891",
+    "LandArea": "502.26",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Davidson County, TN",
+    "District": "10",
+    "Population": "569891",
+    "LandArea": "502.26",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "De Kalb County, TN",
+    "District": "10",
+    "Population": "17423",
+    "LandArea": "304.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "De Kalb County, TN",
+    "District": "10",
+    "Population": "17423",
+    "LandArea": "304.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Dickson County, TN",
+    "District": "10",
+    "Population": "43156",
+    "LandArea": "489.87",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Dickson County, TN",
+    "District": "10",
+    "Population": "43156",
+    "LandArea": "489.87",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hickman County, TN",
+    "District": "10",
+    "Population": "22295",
+    "LandArea": "612.52",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Hickman County, TN",
+    "District": "10",
+    "Population": "22295",
+    "LandArea": "612.52",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Houston County, TN",
+    "District": "10",
+    "Population": "8088",
+    "LandArea": "200.21",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Houston County, TN",
+    "District": "10",
+    "Population": "8088",
+    "LandArea": "200.21",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Humphreys County, TN",
+    "District": "10",
+    "Population": "17929",
+    "LandArea": "532.22",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Humphreys County, TN",
+    "District": "10",
+    "Population": "17929",
+    "LandArea": "532.22",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Jackson County, TN",
+    "District": "10",
+    "Population": "10984",
+    "LandArea": "308.88",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Jackson County, TN",
+    "District": "10",
+    "Population": "10984",
+    "LandArea": "308.88",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lewis County, TN",
+    "District": "10",
+    "Population": "11367",
+    "LandArea": "282.09",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lewis County, TN",
+    "District": "10",
+    "Population": "11367",
+    "LandArea": "282.09",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lincoln County, TN",
+    "District": "10",
+    "Population": "31340",
+    "LandArea": "570.23",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Lincoln County, TN",
+    "District": "10",
+    "Population": "31340",
+    "LandArea": "570.23",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Macon County, TN",
+    "District": "10",
+    "Population": "20386",
+    "LandArea": "307.13",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Macon County, TN",
+    "District": "10",
+    "Population": "20386",
+    "LandArea": "307.13",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Marshall County, TN",
+    "District": "10",
+    "Population": "26767",
+    "LandArea": "375.35",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Marshall County, TN",
+    "District": "10",
+    "Population": "26767",
+    "LandArea": "375.35",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Maury County, TN",
+    "District": "10",
+    "Population": "69498",
+    "LandArea": "612.86",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Maury County, TN",
+    "District": "10",
+    "Population": "69498",
+    "LandArea": "612.86",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Monroe County, KY",
+    "District": "4",
+    "Population": "11756",
+    "LandArea": "330.81",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Monroe County, KY",
+    "District": "4",
+    "Population": "11756",
+    "LandArea": "330.81",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Montgomery County, TN",
+    "District": "10",
+    "Population": "134768",
+    "LandArea": "539.28",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Montgomery County, TN",
+    "District": "10",
+    "Population": "134768",
+    "LandArea": "539.28",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Moore County, TN",
+    "District": "10",
+    "Population": "5740",
+    "LandArea": "129.18",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Moore County, TN",
+    "District": "10",
+    "Population": "5740",
+    "LandArea": "129.18",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Perry County, TN",
+    "District": "10",
+    "Population": "7631",
+    "LandArea": "414.89",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Perry County, TN",
+    "District": "10",
+    "Population": "7631",
+    "LandArea": "414.89",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Putnam County, TN",
+    "District": "10",
+    "Population": "62315",
+    "LandArea": "401.05",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Putnam County, TN",
+    "District": "10",
+    "Population": "62315",
+    "LandArea": "401.05",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Robertson County, TN",
+    "District": "10",
+    "Population": "54433",
+    "LandArea": "476.47",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Robertson County, TN",
+    "District": "10",
+    "Population": "54433",
+    "LandArea": "476.47",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Russell County, KY",
+    "District": "4",
+    "Population": "16315",
+    "LandArea": "253.53",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Russell County, KY",
+    "District": "4",
+    "Population": "16315",
+    "LandArea": "253.53",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Rutherford County, TN",
+    "District": "10",
+    "Population": "182023",
+    "LandArea": "618.91",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Rutherford County, TN",
+    "District": "10",
+    "Population": "182023",
+    "LandArea": "618.91",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Simpson County, KY",
+    "District": "4",
+    "Population": "16405",
+    "LandArea": "236.19",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Simpson County, KY",
+    "District": "4",
+    "Population": "16405",
+    "LandArea": "236.19",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "KY"
+  },
+  {
+    "CountyName": "Smith County, TN",
+    "District": "10",
+    "Population": "17712",
+    "LandArea": "314.41",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Smith County, TN",
+    "District": "10",
+    "Population": "17712",
+    "LandArea": "314.41",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Stewart County, TN",
+    "District": "10",
+    "Population": "12370",
+    "LandArea": "458.48",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Stewart County, TN",
+    "District": "10",
+    "Population": "12370",
+    "LandArea": "458.48",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sumner County, TN",
+    "District": "10",
+    "Population": "130449",
+    "LandArea": "529.30",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Sumner County, TN",
+    "District": "10",
+    "Population": "130449",
+    "LandArea": "529.30",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Trousdale County, TN",
+    "District": "10",
+    "Population": "7259",
+    "LandArea": "114.24",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Trousdale County, TN",
+    "District": "10",
+    "Population": "7259",
+    "LandArea": "114.24",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Van Buren County, TN",
+    "District": "10",
+    "Population": "5508",
+    "LandArea": "273.46",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Van Buren County, TN",
+    "District": "10",
+    "Population": "5508",
+    "LandArea": "273.46",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Warren County, TN",
+    "District": "10",
+    "Population": "38276",
+    "LandArea": "432.69",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Warren County, TN",
+    "District": "10",
+    "Population": "38276",
+    "LandArea": "432.69",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "White County, TN",
+    "District": "10",
+    "Population": "23102",
+    "LandArea": "376.58",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "White County, TN",
+    "District": "10",
+    "Population": "23102",
+    "LandArea": "376.58",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Williamson County, TN",
+    "District": "10",
+    "Population": "126638",
+    "LandArea": "582.68",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Williamson County, TN",
+    "District": "10",
+    "Population": "126638",
+    "LandArea": "582.68",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Wilson County, TN",
+    "District": "10",
+    "Population": "88809",
+    "LandArea": "570.57",
+    "Percentage": "100%",
+    "jurisdiction": "I",
+    "StateProvince": "TN"
+  },
+  {
+    "CountyName": "Wilson County, TN",
+    "District": "10",
+    "Population": "88809",
+    "LandArea": "570.57",
+    "Percentage": "100%",
+    "jurisdiction": "O",
+    "StateProvince": "TN"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]886-  (rr) Minneapolis[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "463",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "886-|Minneapolis|MN",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "463",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "rr",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]1445 150th Avenue[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7261",
+    "editFieldNames": "Address1",
+    "editFieldValues": "1445 150th Avenue",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Ogilvie, MN 56358[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "7261",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Ogilvie|MN|56358",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:woody.vann@yahoo.com\" target=\"_blank\">woody.vann@yahoo.com</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "1978",
+    "editFieldNames": "Email",
+    "editFieldValues": "woody.vann@yahoo.com",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b]B.M. [/b]Ken A. Goss, N3151 Lazy Point Road, Fall River, WI  54932[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1421",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ken|A.|Goss||{ \"MemberID\" : \"1421\",\"luid\": \"463\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"N3151 Lazy Point Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fall River\",\"state\":\"WI\",\"zip\":\"54932\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Pres. [/b]Ken A. Goss, N3151 Lazy Point Road, Fall River, WI  54932[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3771",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Ken|A.|Goss||{ \"MemberID\" : \"3771\",\"luid\": \"463\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"N3151 Lazy Point Road\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Fall River\",\"state\":\"WI\",\"zip\":\"54932\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]F.S. [/b]Vouth Vann, 1445 150th Avenue, Ogilvie, MN  56358[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1420",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Vouth||Vann||{ \"MemberID\" : \"1420\",\"luid\": \"463\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"1445 150th Avenue\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Ogilvie\",\"state\":\"MN\",\"zip\":\"56358\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]R.S. [/b]Roy E. Curtis III, 3853 Oak Street N, Minneapolis, MN  55429[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "1422",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Roy|E.|Curtis|III|{ \"MemberID\" : \"1422\",\"luid\": \"463\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"3853 Oak Street N\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Minneapolis\",\"state\":\"MN\",\"zip\":\"55429\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Meets [/b]OBB's Sports Bar & Grill, 1347 Burns Avenue, St. Paul, 1st Wednesday, 3 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "463",
+    "editFieldNames": "Meets",
+    "editFieldValues": "OBB's Sports Bar & Grill, 1347 Burns Avenue, St. Paul, 1st Wednesday, 3 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]306-  (i) Akron[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "186",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "306-|Akron|OH",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "186",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "i",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]2650 S Main Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "193",
+    "editFieldNames": "Address1",
+    "editFieldValues": "2650 S Main Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 200[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "193",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 200",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Akron, OH 44319[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "193",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Akron|OH|44319",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t][b](330) 245-2240[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "353",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 245-2240",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t][b]Fax [/b](330) 245-2240[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "354",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(330) 245-2240",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:info@ibew306.org\" target=\"_blank\">info@ibew306.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "183",
+    "editFieldNames": "Email",
+    "editFieldValues": "info@ibew306.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew306.org\" target=\"_blank\">www.ibew306.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "186",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew306.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]B.M. [/b]Charles J. Zittle Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "575",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|J.|Zittle|Sr.|{ \"MemberID\" : \"575\",\"luid\": \"186\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2650 S Main Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Akron\",\"state\":\"OH\",\"zip\":\"44319\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Pres. [/b]Henry M. Douglas Jr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "576",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Henry|M.|Douglas|Jr.|{ \"MemberID\" : \"576\",\"luid\": \"186\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"2650 S Main Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Akron\",\"state\":\"OH\",\"zip\":\"44319\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]F.S. [/b]Charles J. Zittle Sr.[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3503",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Charles|J.|Zittle|Sr.|{ \"MemberID\" : \"3503\",\"luid\": \"186\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]R.S. [/b]Jason A. Hornacek[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "574",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jason|A.|Hornacek||{ \"MemberID\" : \"574\",\"luid\": \"186\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"2650 S Main Street\",\"addr2\":\"Suite 200\",\"addr3\":\"\",\"city\":\"Akron\",\"state\":\"OH\",\"zip\":\"44319\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]Meets [/b]3rd Friday, 5 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "186",
+    "editFieldNames": "Meets",
+    "editFieldValues": "3rd Friday, 5 pm",
+    "datatype": "txt"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "ID": "1",
+    "Line": "[b]233-  (as, em, es, govt, i, mt, ptc, spa) Helena[/b]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "LU_SC|CharterCity|CharterState",
+    "editFieldValues": "233-|Helena|MT",
+    "datatype": "noop|tbx|ddl"
+  },
+  {
+    "ID": "2",
+    "Line": "",
+    "tableName": "TradeClasses",
+    "idFieldName": "LocalUnionID",
+    "idFieldValue": "145",
+    "editFieldNames": "TradeClassDesc",
+    "editFieldValues": "as, em, es, govt, i, mt, ptc, spa",
+    "datatype": "ddl-cbx"
+  },
+  {
+    "ID": "3",
+    "Line": "[t]110 N Warren Street[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "Address1",
+    "editFieldValues": "110 N Warren Street",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "4",
+    "Line": "[t]Suite 1[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "Address2",
+    "editFieldValues": "Suite 1",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "5",
+    "Line": "[t]Helena, MT 59601[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "147",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Helena|MT|59601",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "6",
+    "Line": "[t]PO Box 131[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "146",
+    "editFieldNames": "Address1",
+    "editFieldValues": "PO Box 131",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "7",
+    "Line": "[t]Helena, MT 59624[/t]",
+    "tableName": "Addresses",
+    "idFieldName": "ID",
+    "idFieldValue": "146",
+    "editFieldNames": "City|[State]|Zip",
+    "editFieldValues": "Helena|MT|59624",
+    "datatype": "tbx|ddl|tbx"
+  },
+  {
+    "ID": "8",
+    "Line": "[t][b](406) 442-3185[/b][/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "278",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 442-3185",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "9",
+    "Line": "[t][b]Fax [/b](406) 442-7985[/t]",
+    "tableName": "Phones",
+    "idFieldName": "ID",
+    "idFieldValue": "279",
+    "editFieldNames": "PhoneNo",
+    "editFieldValues": "(406) 442-7985",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "10",
+    "Line": "[t][b]Email [/b]<a href=\"mailto:office@ibew233.org\" target=\"_blank\">office@ibew233.org</a>[/t]",
+    "tableName": "Emails",
+    "idFieldName": "ID",
+    "idFieldValue": "143",
+    "editFieldNames": "Email",
+    "editFieldValues": "office@ibew233.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "11",
+    "Line": "[t][b]Web [/b]<a href=\"http://www.ibew233.org\" target=\"_blank\">www.ibew233.org</a>[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "Website",
+    "editFieldValues": "www.ibew233.org",
+    "datatype": "tbx"
+  },
+  {
+    "ID": "12",
+    "Line": "[t][b]B.M. [/b]Jackie L. McBroom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "448",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jackie|L.|McBroom||{ \"MemberID\" : \"448\",\"luid\": \"145\", \"BM\": \"yes\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 131\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Helena\",\"state\":\"MT\",\"zip\":\"59624\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "13",
+    "Line": "[t][b]Pres. [/b]Stephen M. Thompson[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "450",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Stephen|M.|Thompson||{ \"MemberID\" : \"450\",\"luid\": \"145\", \"BM\": \"no\", \"PRES\": \"yes\", \"FS\": \"no\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 131\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Helena\",\"state\":\"MT\",\"zip\":\"59624\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "14",
+    "Line": "[t][b]F.S. [/b]Jackie L. McBroom[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "3464",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Jackie|L.|McBroom||{ \"MemberID\" : \"3464\",\"luid\": \"145\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"yes\", \"RS\": \"no\",\"BrotherSister\":\"B\",\"addr1\":\"\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "15",
+    "Line": "[t][b]R.S. [/b]Wade E. Ellis[/t]",
+    "tableName": "Members",
+    "idFieldName": "ID",
+    "idFieldValue": "449",
+    "editFieldNames": "fname|mi|lname|suffix|pos|bs",
+    "editFieldValues": "Wade|E.|Ellis||{ \"MemberID\" : \"449\",\"luid\": \"145\", \"BM\": \"no\", \"PRES\": \"no\", \"FS\": \"no\", \"RS\": \"yes\",\"BrotherSister\":\"B\",\"addr1\":\"PO Box 131\",\"addr2\":\"\",\"addr3\":\"\",\"city\":\"Helena\",\"state\":\"MT\",\"zip\":\"59624\" }",
+    "datatype": "tbx|tbx|tbx|tbx|rblist|rblist"
+  },
+  {
+    "ID": "16",
+    "Line": "[t][b]Meets [/b]110 N Warren Street, Helena, 2nd Tuesday, 6 pm; 156 W Granite Street, Butte, 2nd Wednesday, 6 pm; 1112 Seventh Street S, Great Falls, 2nd Thursday, 6 pm[/t]",
+    "tableName": "LocalUnion",
+    "idFieldName": "ID",
+    "idFieldValue": "145",
+    "editFieldNames": "Meets",
+    "editFieldValues": "110 N Warren Street, Helena, 2nd Tuesday, 6 pm; 156 W Granite Street, Butte, 2nd Wednesday, 6 pm; 1112 Seventh Street S, Great Falls, 2nd Thursday, 6 pm",
+    "datatype": "txt"
+  }
+]
