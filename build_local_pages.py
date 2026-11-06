@@ -66,6 +66,7 @@ LABEL = {
 }
 NOTE = {
     "open": "A posted application window is open today.",
+    "expected_open": "The posted reopening date has passed. Confirm the current application window with the local before applying.",
     "rolling": "This local takes applications year-round or on a repeating schedule.",
     "closed_pending": "A future window is posted. Get notified when it opens.",
     "closed": "The local has posted that applications are closed.",
@@ -640,7 +641,7 @@ def page_html(l, nearest):
         county_word = "county" if l["county_n"] == 1 else "counties"
         desc = (f"IBEW Local {lu} in {city}, {st} serves {l['pop']:,} people across {l['county_n']} "
                 f"{county_word}. Inside wireman apprenticeship status, requirements, and how to apply.")
-    canonical = f"{SITE_BASE_URL}/locals/{l['slug']}.html"
+    canonical = f"{SITE_BASE_URL}/locals/{l['slug']}"
 
     req = [("Minimum age", l.get("min_age")), ("Education", l.get("min_edu")), ("Aptitude test", l.get("aptitude"))]
     req = [(k, v) for k, v in req if v and str(v).strip()]
@@ -857,7 +858,7 @@ document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeIssueM
   </div>
 </div>
 <div class="wrap">
-  <div class="topnav"><a href="../index.html">&larr; Back to the IBEW Apprenticeship Finder</a></div>
+  <div class="topnav"><a href="https://app.apprentable.org/resources/find-your-local?ref=locals-site">&larr; Back to the IBEW Apprenticeship Finder</a></div>
   <h1>IBEW Local {esc(lu)}</h1>
   <div class="sub">{esc(city)}, {esc(st)}{f' &middot; {esc(l["jatc"])}' if l.get("jatc") else ''}</div>
 
@@ -961,7 +962,7 @@ directory_html = f"""<!doctype html>
 </head>
 <body>
 <main class="wrap directory">
-<div class="topnav"><a href="index.html">&larr; Find Your Local by ZIP or City</a></div>
+<div class="topnav"><a href="https://app.apprentable.org/resources/find-your-local?ref=locals-site">&larr; Find Your Local by ZIP or City</a></div>
 <h1>All IBEW Local Apprenticeship Pages</h1>
 <p>Browse {len(locals_)} inside wireman local profiles by state. Each page includes application details, requirements, and available wage information.</p>
 <nav class="state-nav" aria-label="Jump to state">{state_nav}</nav>
@@ -983,7 +984,7 @@ method_html = f"""<!doctype html>
 <meta name="description" content="How Apprentable estimates broad apprentice starting-pay ranges when an official training center does not publish a current wage.">
 <link rel="canonical" href="{SITE_BASE_URL}/wage-estimates.html"><link rel="stylesheet" href="local.css">
 </head><body><main class="wrap directory">
-<div class="topnav"><a href="index.html">&larr; Find Your Local</a></div>
+<div class="topnav"><a href="https://app.apprentable.org/resources/find-your-local?ref=locals-site">&larr; Find Your Local</a></div>
 <h1>How Apprentice Wage Estimates Work</h1>
 <p>For {len(wage_estimate_meta['estimates'])} Inside Wireman locals without a verified current starting wage, we show a broad <strong>regional model estimate</strong>. It is not a wage quoted by a training center. Each local page explains why its pay remains unverified, including outdated sources, uncertain program matches, unavailable sites, and unconfirmed centers.</p>
 <h2>What the Range Means</h2>
@@ -1011,7 +1012,7 @@ build_brand_preview.build(production=True, show_confidence=SHOW_CONFIDENCE,
 
 # ---- sitemap.xml + robots.txt --------------------------------------------------
 urls = [f"{SITE_BASE_URL}/", f"{SITE_BASE_URL}/all-locals.html", f"{SITE_BASE_URL}/wage-estimates.html"] + [
-    f"{SITE_BASE_URL}/locals/{l['slug']}.html" for l in locals_
+    f"{SITE_BASE_URL}/locals/{l['slug']}" for l in locals_
 ]
 sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
