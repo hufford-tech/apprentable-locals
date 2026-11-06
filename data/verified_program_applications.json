@@ -1,0 +1,33 @@
+[
+  {
+    "program_id": "jatc26-inside-wireman-a",
+    "lu_number": "26",
+    "eta_program_id": "DC0450",
+    "sponsor": "Joint Apprenticeship & Training Committee (JATC 26)",
+    "program_name": "Inside Wireman A apprenticeship",
+    "source_url": "https://www.jatc26.org/inside-wireman-a-apprentice/",
+    "flow_chart_url": "https://www.jatc26.org/wp-content/uploads/2026/02/Application-Flow-Chart.pdf",
+    "program_contact_email": "apply@jatc26.org",
+    "status": "open",
+    "close_by": "2026-12-31",
+    "early_close_reason": "The JATC may close earlier if 4,200 applications are purchased.",
+    "verified_on": "2026-10-14",
+    "valid_through": "2026-10-21",
+    "selection_process": "GAN Personal Experience Form and aptitude test; no personal interview"
+  },
+  {
+    "program_id": "tricounty234-inside-wireman",
+    "lu_number": "234",
+    "eta_program_id": "CA0140",
+    "sponsor": "Tri-County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.tricountyjatc.org/",
+    "application_url": "https://www.tricountyjatc.org/program-application",
+    "status": "open",
+    "close_by": "2026-12-18",
+    "early_close_reason": "Applications and supporting documents must be mailed by the deadline for the February 2027 aptitude test.",
+    "verified_on": "2026-10-14",
+    "valid_through": "2026-10-21",
+    "selection_process": "Aptitude test followed by an oral interview for qualified applicants"
+  }
+]

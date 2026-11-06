@@ -1,0 +1,4037 @@
+[
+  {
+    "program_id": "la-county-inside-wireman",
+    "lu_number": "11",
+    "eta_program_id": "CA0170",
+    "sponsor": "Electrical Training Institute of Los Angeles",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.laett.com/index.cfm?zone=/unionactive/view_page.cfm&page=Inside20Wireman",
+    "source_label": "Electrical Training Institute of Los Angeles schedule",
+    "rate_kind": "progression",
+    "starting_rate": "26.00",
+    "effective_date": "2026-01-26",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "65.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0 hours",
+        "hourly_base": 26.0,
+        "percent": 40
+      },
+      {
+        "period": "1,000 hours",
+        "hourly_base": 29.25,
+        "percent": 45
+      },
+      {
+        "period": "2,000 hours",
+        "hourly_base": 32.5,
+        "percent": 50
+      },
+      {
+        "period": "2,750 hours",
+        "hourly_base": 35.75,
+        "percent": 55
+      },
+      {
+        "period": "3,500 hours",
+        "hourly_base": 39.0,
+        "percent": 60
+      },
+      {
+        "period": "4,250 hours",
+        "hourly_base": 42.25,
+        "percent": 65
+      },
+      {
+        "period": "5,000 hours",
+        "hourly_base": 45.5,
+        "percent": 70
+      },
+      {
+        "period": "5,750 hours",
+        "hourly_base": 48.75,
+        "percent": 75
+      },
+      {
+        "period": "6,500 hours",
+        "hourly_base": 52.0,
+        "percent": 80
+      },
+      {
+        "period": "7,250 hours",
+        "hourly_base": 55.25,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "north-texas-inside-wireman",
+    "lu_number": "20",
+    "eta_program_id": "TX2720",
+    "sponsor": "North Texas Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ntejatc.org/index.php/policies-and-standards",
+    "source_label": "North Texas Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "20.33",
+    "effective_date": "",
+    "as_of_date": "2026-01-01",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "40.65",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "Start",
+        "hourly_base": 20.33,
+        "percent": 50
+      },
+      {
+        "period": "6 months completed",
+        "hourly_base": 21.34,
+        "percent": 52.5
+      },
+      {
+        "period": "1st year completed",
+        "hourly_base": 22.36,
+        "percent": 55
+      },
+      {
+        "period": "2nd year completed",
+        "hourly_base": 24.39,
+        "percent": 60
+      },
+      {
+        "period": "3rd year completed",
+        "hourly_base": 28.46,
+        "percent": 70
+      },
+      {
+        "period": "Satisfactory progress",
+        "hourly_base": 32.52,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "baltimore-electrical-apprenticeship",
+    "lu_number": "24",
+    "eta_program_id": "MD1160",
+    "sponsor": "Baltimore Electrical JATC",
+    "program_name": "Electrical apprenticeship",
+    "source_url": "https://jatc24.org/multiple-pathways/",
+    "source_label": "Baltimore Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "23.63",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "52.50",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "jatc26-inside-wireman-a",
+    "lu_number": "26",
+    "eta_program_id": "DC0450",
+    "sponsor": "Joint Apprenticeship & Training Committee (JATC 26)",
+    "program_name": "Inside Wireman A apprenticeship",
+    "source_url": "https://www.jatc26.org/program/inside-wireman-a-apprenticeship-program/",
+    "source_label": "Joint Apprenticeship & Training Committee (JATC 26) schedule",
+    "rate_kind": "progression",
+    "starting_rate": "27.90",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "62.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "percent": 45,
+        "hourly_base": 27.9,
+        "advancement": "Complete 1,000 hours"
+      },
+      {
+        "period": "2nd period",
+        "percent": 47,
+        "hourly_base": 29.14,
+        "advancement": "Complete 1,000 hours and one year of school"
+      },
+      {
+        "period": "3rd period",
+        "percent": 50,
+        "hourly_base": 31.0,
+        "advancement": "Complete 1,500 hours and one year of school"
+      },
+      {
+        "period": "4th period",
+        "percent": 60,
+        "hourly_base": 37.2,
+        "advancement": "Complete 1,500 hours and one year of school"
+      },
+      {
+        "period": "5th period",
+        "percent": 70,
+        "hourly_base": 43.4,
+        "advancement": "Complete 1,500 hours and one year of school"
+      },
+      {
+        "period": "6th period",
+        "percent": 80,
+        "hourly_base": 49.6,
+        "advancement": "Complete 1,500 hours and one year of school"
+      }
+    ]
+  },
+  {
+    "program_id": "lima-inside-wireman",
+    "lu_number": "32",
+    "eta_program_id": "OH2150",
+    "sponsor": "Lima Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://limajatc.com/pay-scale/",
+    "source_label": "Lima Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "20.84",
+    "effective_date": "",
+    "as_of_date": "2025-12-01",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "41.67",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st year, period 1",
+        "hourly_base": 20.84
+      },
+      {
+        "period": "1st year, period 2",
+        "hourly_base": 20.84
+      },
+      {
+        "period": "2nd year, period 3",
+        "hourly_base": 25.0
+      },
+      {
+        "period": "3rd year, period 4",
+        "hourly_base": 27.09
+      },
+      {
+        "period": "4th year, period 5",
+        "hourly_base": 31.25
+      },
+      {
+        "period": "5th year, period 6",
+        "hourly_base": 36.25
+      }
+    ]
+  },
+  {
+    "program_id": "buffalo41-inside-wireman",
+    "lu_number": "41",
+    "eta_program_id": "NY1800",
+    "sponsor": "Electricians JAC Buffalo Local 41",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibewlocal41.com/?zone=/unionactive/view_page.cfm&page=Apprentice20Information",
+    "source_label": "IBEW Local 41 apprentice information",
+    "rate_kind": "progression",
+    "starting_rate": "23.75",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "47.50",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 23.75,
+        "percent": 50
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 28.5,
+        "percent": 60
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 30.9,
+        "percent": 65
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 33.25,
+        "percent": 70
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 35.65,
+        "percent": 75
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 40.4,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "puget-sound-inside-wire",
+    "lu_number": "46",
+    "eta_program_id": "WA2960",
+    "sponsor": "Puget Sound Electrical JATC",
+    "program_name": "Inside Wire apprenticeship",
+    "source_url": "https://ibew46.com/media/8441/20260619-080326-013127wire_wage_sheetscanned.pdf",
+    "source_label": "IBEW Local 46 Inside Wire wage sheet",
+    "rate_kind": "progression",
+    "starting_rate": "32.73",
+    "effective_date": "2026-08-03",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "77.93",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0–1,000 hours",
+        "hourly_base": 32.73,
+        "percent": 42
+      },
+      {
+        "period": "1,001–2,000 hours",
+        "hourly_base": 36.63,
+        "percent": 47
+      },
+      {
+        "period": "2,001–3,500 hours",
+        "hourly_base": 40.52,
+        "percent": 52
+      },
+      {
+        "period": "3,501–5,000 hours",
+        "hourly_base": 50.65,
+        "percent": 65
+      },
+      {
+        "period": "5,001–6,500 hours",
+        "hourly_base": 58.45,
+        "percent": 75
+      },
+      {
+        "period": "6,501–8,000 hours",
+        "hourly_base": 66.24,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "inland-empire-inside-wireman",
+    "lu_number": "73",
+    "eta_program_id": "WA2970",
+    "sponsor": "Inland Empire Electrical Training Trust",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.inlandelectrical.org/apprenticeships/inside-wireman/",
+    "source_label": "Inland Empire Electrical Training Trust schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "22.95",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "dayton82-inside-wireman",
+    "lu_number": "82",
+    "eta_program_id": "OH2130",
+    "sponsor": "Dayton Ohio Area Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew82.org/ibew-82-apprenticeship/",
+    "source_label": "IBEW Local 82 apprenticeship wage chart",
+    "rate_kind": "progression",
+    "starting_rate": "18.12",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "39.40",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st year",
+        "hourly_base": 18.12
+      },
+      {
+        "period": "2nd year",
+        "hourly_base": 19.7
+      },
+      {
+        "period": "3rd year",
+        "hourly_base": 20.49
+      },
+      {
+        "period": "4th year",
+        "hourly_base": 24.43
+      },
+      {
+        "period": "5th year",
+        "hourly_base": 30.34
+      }
+    ]
+  },
+  {
+    "program_id": "boston-electrical-apprenticeship",
+    "lu_number": "103",
+    "eta_program_id": "MA1180",
+    "sponsor": "Greater Boston JATC",
+    "program_name": "Electrical (Inside Wireman) apprenticeship",
+    "source_url": "https://bostonjatc.com/interested-in-applying/",
+    "source_label": "Greater Boston JATC application FAQ",
+    "rate_kind": "starting_rate",
+    "starting_rate": "27.51",
+    "effective_date": "2026-09-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "kansas-city-inside-wireman",
+    "lu_number": "124",
+    "eta_program_id": "MO1490",
+    "sponsor": "Kansas City JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.kcjatc124.org/new-page-1",
+    "source_label": "Kansas City JATC 2026–2027 pay chart",
+    "rate_kind": "progression",
+    "starting_rate": "25.65",
+    "effective_date": "2026-09-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "57.01",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0–1,000 hours",
+        "hourly_base": 25.65,
+        "percent": 45
+      },
+      {
+        "period": "1,001–2,000 hours",
+        "hourly_base": 28.51,
+        "percent": 50
+      },
+      {
+        "period": "2,001–3,500 hours",
+        "hourly_base": 31.36,
+        "percent": 55
+      },
+      {
+        "period": "3,501–5,000 hours",
+        "hourly_base": 37.06,
+        "percent": 65
+      },
+      {
+        "period": "5,001–6,500 hours",
+        "hourly_base": 42.76,
+        "percent": 75
+      },
+      {
+        "period": "6,501–8,000 hours",
+        "hourly_base": 48.46,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "chicago-inside-wireman",
+    "lu_number": "134",
+    "eta_program_id": "IL0710",
+    "sponsor": "Electrical Joint Apprenticeship and Training Trust",
+    "program_name": "Electrical (Inside Wireman) apprenticeship",
+    "source_url": "https://ejatt.com/wp-content/uploads/2026/06/A-CONSTRUCTION-PROGRAM-INFO-update-june-2026.pdf",
+    "source_label": "Chicago EJATT June 2026 program sheet",
+    "rate_kind": "progression",
+    "starting_rate": "25.26",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "63.15",
+    "rate_scope_note": "The first published hourly wage applies after 11 weeks of full-time classroom instruction. The source does not state pay for those initial weeks.",
+    "steps": [
+      {
+        "period": "1st-year field work, first 6 months",
+        "hourly_base": 25.26,
+        "percent": 40
+      },
+      {
+        "period": "1st-year field work, after 6 months",
+        "hourly_base": 28.42,
+        "percent": 45
+      },
+      {
+        "period": "2nd-year field work, first 6 months",
+        "hourly_base": 31.58,
+        "percent": 50
+      },
+      {
+        "period": "2nd-year field work, after 6 months",
+        "hourly_base": 34.73,
+        "percent": 55
+      },
+      {
+        "period": "3rd-year field work, first 6 months",
+        "hourly_base": 37.89,
+        "percent": 60
+      },
+      {
+        "period": "3rd-year field work, after 6 months",
+        "hourly_base": 41.05,
+        "percent": 65
+      },
+      {
+        "period": "4th-year field work, first 6 months",
+        "hourly_base": 44.21,
+        "percent": 70
+      },
+      {
+        "period": "4th-year field work, after 6 months",
+        "hourly_base": 47.36,
+        "percent": 75
+      },
+      {
+        "period": "5th-year field work, first 6 months",
+        "hourly_base": 50.52,
+        "percent": 80
+      },
+      {
+        "period": "5th-year field work, after 6 months",
+        "hourly_base": 56.84,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "madison159-inside-apprenticeship",
+    "lu_number": "159",
+    "eta_program_id": "WI3110",
+    "sponsor": "Madison Area Electrical JAC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew159.org/?zone=/unionactive/view_article.cfm&HomeID=930748&page=Careers",
+    "source_label": "IBEW Local 159 Inside wage information",
+    "rate_kind": "starting_rate",
+    "starting_rate": "23.27",
+    "effective_date": "2026-05-31",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "51.70",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "tricounty234-inside-wireman",
+    "lu_number": "234",
+    "eta_program_id": "CA0140",
+    "sponsor": "Tri-County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew234.org/wp-content/uploads/2025/12/Inside-Wage-Rates-25-26.pdf",
+    "source_label": "IBEW Local 234 Inside Agreement wage chart",
+    "rate_kind": "progression",
+    "starting_rate": "31.68",
+    "effective_date": "2025-12-30",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "70.41",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "percent": 45,
+        "hourly_base": 31.68
+      },
+      {
+        "period": "2nd period",
+        "percent": 47,
+        "hourly_base": 33.09
+      },
+      {
+        "period": "3rd period",
+        "percent": 55,
+        "hourly_base": 38.73
+      },
+      {
+        "period": "4th period",
+        "percent": 60,
+        "hourly_base": 42.25
+      },
+      {
+        "period": "5th period",
+        "percent": 65,
+        "hourly_base": 45.77
+      },
+      {
+        "period": "6th period",
+        "percent": 70,
+        "hourly_base": 49.29
+      },
+      {
+        "period": "7th period",
+        "percent": 75,
+        "hourly_base": 52.81
+      },
+      {
+        "period": "8th period",
+        "percent": 80,
+        "hourly_base": 56.33
+      },
+      {
+        "period": "9th period",
+        "percent": 85,
+        "hourly_base": 59.85
+      },
+      {
+        "period": "10th period",
+        "percent": 90,
+        "hourly_base": 63.37
+      }
+    ]
+  },
+  {
+    "program_id": "kern-county-inside-wireman",
+    "lu_number": "428",
+    "eta_program_id": "CA0130",
+    "sponsor": "Electrical Training Alliance of Kern County",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://kerncountyjatc.com/apply/",
+    "source_label": "Electrical Training Alliance of Kern County schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "26.39",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "orange-county-inside-wireman",
+    "lu_number": "441",
+    "eta_program_id": "CA0300",
+    "sponsor": "Orange County Electrical Training Institute",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ocett.org/OCETI%20Application%20Procedures%20Master%202026%2020260804.pdf",
+    "source_label": "OCETI 2026 application procedures",
+    "rate_kind": "starting_rate",
+    "starting_rate": "25.10",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "memphis-inside-wireman",
+    "lu_number": "474",
+    "eta_program_id": "TN2640",
+    "sponsor": "Memphis Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://memphiselectricaljatc.org/apply-now/",
+    "source_label": "Memphis Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "22.95",
+    "effective_date": "2026-08-03",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "38.25",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "Period 1",
+        "hourly_base": 22.95,
+        "percent": 60
+      },
+      {
+        "period": "Period 2",
+        "hourly_base": 22.95,
+        "percent": 60
+      },
+      {
+        "period": "Period 3",
+        "hourly_base": 24.85,
+        "percent": 65
+      },
+      {
+        "period": "Period 4",
+        "hourly_base": 26.8,
+        "percent": 70
+      },
+      {
+        "period": "Period 5",
+        "hourly_base": 28.7,
+        "percent": 75
+      },
+      {
+        "period": "Period 6",
+        "hourly_base": 30.6,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "indy-inside-wireman",
+    "lu_number": "481",
+    "eta_program_id": "IN0870",
+    "sponsor": "Electrical Training Institute of Indianapolis",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://eti-indy.org/wp-content/uploads/2026/06/NOTICE-INSIDE-JUNE-2026.pdf",
+    "source_label": "ETI Inside Wireman apprenticeship notice",
+    "rate_kind": "starting_rate",
+    "starting_rate": "22.90",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "48.90",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "savannah-electrical-apprenticeship",
+    "lu_number": "508",
+    "eta_program_id": "GA0620",
+    "sponsor": "Savannah Electrical Training Alliance",
+    "program_name": "Electrical apprenticeship",
+    "source_url": "https://www.sav-electricaltrainingalliance.com/sav-electrical-training-alliance",
+    "source_label": "Savannah Electrical Training Alliance schedule",
+    "rate_kind": "progression",
+    "starting_rate": "18.34",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 18.34,
+        "percent": 55
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 20.01,
+        "percent": 60
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 21.68,
+        "percent": 65
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 23.35,
+        "percent": 70
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 25.01,
+        "percent": 75
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 28.35,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "canton-inside-wireman",
+    "lu_number": "540",
+    "eta_program_id": "OH2080",
+    "sponsor": "Canton Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://cantonjatc.org/faqs/",
+    "source_label": "Canton Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "18.93",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "san-diego-inside-wireman",
+    "lu_number": "569",
+    "eta_program_id": "CA0250",
+    "sponsor": "Electrical Training Institute of San Diego",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://etiedu.org/applicants/inside-wireman/faq",
+    "source_label": "Electrical Training Institute of San Diego schedule",
+    "rate_kind": "progression",
+    "starting_rate": "23.58",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "58.95",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 23.58,
+        "percent": 40
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 25.94,
+        "percent": 44
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 28.3,
+        "percent": 48
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 30.65,
+        "percent": 52
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 33.01,
+        "percent": 56
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 35.37,
+        "percent": 60
+      },
+      {
+        "period": "7th period",
+        "hourly_base": 38.91,
+        "percent": 66
+      },
+      {
+        "period": "8th period",
+        "hourly_base": 41.27,
+        "percent": 70
+      },
+      {
+        "period": "9th period",
+        "hourly_base": 45.98,
+        "percent": 78
+      },
+      {
+        "period": "10th period",
+        "hourly_base": 48.34,
+        "percent": 82
+      }
+    ]
+  },
+  {
+    "program_id": "san-joaquin-inside-wireman",
+    "lu_number": "595",
+    "eta_program_id": "CA0330",
+    "sponsor": "San Joaquin and Calaveras Counties Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://sjeti.org/applicants/application-process/",
+    "source_label": "San Joaquin and Calaveras Counties Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "23.24",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "southcentral-wisconsin-electrical-apprenticeship",
+    "lu_number": "890",
+    "eta_program_id": "WI3090",
+    "sponsor": "South Central Wisconsin Area Electrical JAC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew890.org/wp-content/uploads/2026/06/JW-AP-CE-Inside-Wage-Package-6.2026-5.2027.pdf",
+    "source_label": "IBEW Local 890 Inside wage package",
+    "rate_kind": "starting_rate",
+    "starting_rate": "21.92",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "48.70",
+    "rate_scope_note": "",
+    "steps": []
+  },
+  {
+    "program_id": "alaska-ajeatt-wireman",
+    "lu_number": "1547",
+    "eta_program_id": "AK0050",
+    "sponsor": "Alaska Joint Electrical Apprenticeship and Training Trust",
+    "program_name": "Wireman apprenticeship",
+    "source_url": "https://www.alaskaelectricalapprenticeship.org/api/media/file/040126%20wage%20table.pdf",
+    "source_label": "Alaska Joint Electrical Apprenticeship and Training Trust schedule",
+    "rate_kind": "progression",
+    "starting_rate": "31.59",
+    "effective_date": "2026-04-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "57.44",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 31.59,
+        "percent": 55
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 31.59,
+        "percent": 55
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 31.59,
+        "percent": 55
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 34.46,
+        "percent": 60
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 37.34,
+        "percent": 65
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 40.21,
+        "percent": 70
+      },
+      {
+        "period": "7th period",
+        "hourly_base": 43.08,
+        "percent": 75
+      },
+      {
+        "period": "8th period",
+        "hourly_base": 45.95,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "portland-inside-electrician",
+    "lu_number": "48",
+    "eta_program_id": "OR2340",
+    "sponsor": "NECA-IBEW Electrical Training Center",
+    "program_name": "Inside Electrician apprenticeship",
+    "source_url": "https://nietc.org/applicants/apprenticeship-programs/inside-electrician/",
+    "source_label": "NECA-IBEW Electrical Training Center schedule",
+    "rate_kind": "progression",
+    "starting_rate": "26.20",
+    "effective_date": "2026-01-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "65.50",
+    "rate_scope_note": "JATC says this pay scale is for reference; consult the contract for official rates.",
+    "steps": [
+      {
+        "period": "0-1,000 OJT hours",
+        "hourly_base": 26.2,
+        "percent": 40
+      },
+      {
+        "period": "1,000-2,000 OJT hours",
+        "hourly_base": 29.48,
+        "percent": 45
+      },
+      {
+        "period": "2,000-3,500 OJT hours",
+        "hourly_base": 32.75,
+        "percent": 50
+      },
+      {
+        "period": "3,500-5,000 OJT hours",
+        "hourly_base": 39.3,
+        "percent": 60
+      },
+      {
+        "period": "5,000-6,500 OJT hours",
+        "hourly_base": 45.85,
+        "percent": 70
+      },
+      {
+        "period": "6,500-8,000 OJT hours",
+        "hourly_base": 55.68,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "south-texas-inside-wireman",
+    "lu_number": "60",
+    "eta_program_id": "TX2810",
+    "sponsor": "South Texas Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.sotxjatc.org/new-inside-wireman-7.6.2026-5.30.2027.pdf",
+    "source_label": "South Texas Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "19.79",
+    "effective_date": "2026-07-06",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "38.80",
+    "rate_scope_note": "Source labels two final rows 6th Period (81% and 90%); their timing is not specified.",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 19.79,
+        "percent": 51
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 21.73,
+        "percent": 56
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 23.67,
+        "percent": 61
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 25.61,
+        "percent": 66
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 27.55,
+        "percent": 71
+      },
+      {
+        "period": "6th period (81%)",
+        "hourly_base": 31.43,
+        "percent": 81
+      },
+      {
+        "period": "6th period (90%)",
+        "hourly_base": 34.92,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "austin-inside-wireman",
+    "lu_number": "520",
+    "eta_program_id": "TX2680",
+    "sponsor": "Austin Electrical Training Alliance",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://austineta.org/apprentice-program-2/",
+    "source_label": "Austin Electrical Training Alliance schedule",
+    "rate_kind": "progression",
+    "starting_rate": "21.07",
+    "effective_date": "2026-01-05",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "38.30",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 21.07,
+        "percent": 55
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 21.07,
+        "percent": 55
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 22.98,
+        "percent": 60
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 24.9,
+        "percent": 65
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 26.81,
+        "percent": 70
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 28.73,
+        "percent": 75
+      }
+    ]
+  },
+  {
+    "program_id": "st-paul-inside-construction-apprenticeship",
+    "lu_number": "110",
+    "eta_program_id": "MN1400",
+    "sponsor": "St. Paul Electrical JATC",
+    "program_name": "Inside Construction apprenticeship",
+    "source_url": "https://www.jatc110.org/Apprentice%20and%20Preapp%20Wage%20Scale%205.01.26%20to%204.30.27.pdf",
+    "source_label": "St. Paul Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "27.03",
+    "effective_date": "2026-05-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "60.06",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0-1,560 hours",
+        "hourly_base": 27.03,
+        "percent": 45
+      },
+      {
+        "period": "1,561-3,120 hours",
+        "hourly_base": 33.03,
+        "percent": 55
+      },
+      {
+        "period": "3,121-4,680 hours",
+        "hourly_base": 36.04,
+        "percent": 60
+      },
+      {
+        "period": "4,681-6,240 hours",
+        "hourly_base": 45.05,
+        "percent": 75
+      },
+      {
+        "period": "6,241-8,000 hours",
+        "hourly_base": 51.05,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "cincinnati-inside-wireman",
+    "lu_number": "212",
+    "eta_program_id": "OH2100",
+    "sponsor": "Cincinnati Electrical Training Center",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.electricaltc.org/docs/2026-schedule%206-1-26.pdf",
+    "source_label": "Cincinnati Electrical Training Center schedule",
+    "rate_kind": "progression",
+    "starting_rate": "18.13",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "40.28",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0-1,000 hours",
+        "hourly_base": 18.13,
+        "percent": 45
+      },
+      {
+        "period": "1,001-2,000 hours",
+        "hourly_base": 19.33,
+        "percent": 48
+      },
+      {
+        "period": "2,001-3,500 hours",
+        "hourly_base": 20.14,
+        "percent": 50
+      },
+      {
+        "period": "3,501-5,000 hours",
+        "hourly_base": 20.95,
+        "percent": 52
+      },
+      {
+        "period": "5,001-6,500 hours",
+        "hourly_base": 22.96,
+        "percent": 57
+      },
+      {
+        "period": "6,501-8,000 hours",
+        "hourly_base": 27.39,
+        "percent": 68
+      }
+    ]
+  },
+  {
+    "program_id": "minneapolis-inside-wireman",
+    "lu_number": "292",
+    "eta_program_id": "MN1390",
+    "sponsor": "Minneapolis Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://mplsjatc.org/wages-benefits/",
+    "source_label": "Minneapolis Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "27.90",
+    "effective_date": "2026-05-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "62.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0-1,000 hours",
+        "hourly_base": 27.9,
+        "percent": 45
+      },
+      {
+        "period": "1,001-1,999 hours",
+        "hourly_base": 27.9,
+        "percent": 45
+      },
+      {
+        "period": "2,000 hours and pass 1st year school",
+        "hourly_base": 31.0,
+        "percent": 50
+      },
+      {
+        "period": "3,500 hours and pass 2nd year school",
+        "hourly_base": 37.2,
+        "percent": 60
+      },
+      {
+        "period": "5,000 hours and pass 3rd year school",
+        "hourly_base": 46.5,
+        "percent": 75
+      },
+      {
+        "period": "6,500 hours and pass 4th year school",
+        "hourly_base": 52.7,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "new-mexico-inside-wireman",
+    "lu_number": "611",
+    "eta_program_id": "NM1770",
+    "sponsor": "New Mexico JATC for the Electrical Industry",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew611.org/apprenticeship",
+    "source_label": "New Mexico JATC for the Electrical Industry schedule",
+    "rate_kind": "progression",
+    "starting_rate": "23.21",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Official Local 611 page labels this as the 2026 Inside Apprentice Wage Structure; the exact effective date is not stated.",
+    "steps": [
+      {
+        "period": "1st year",
+        "hourly_base": 23.21
+      },
+      {
+        "period": "2nd year",
+        "hourly_base": 25.32
+      },
+      {
+        "period": "3rd year",
+        "hourly_base": 29.34
+      },
+      {
+        "period": "4th year",
+        "hourly_base": 33.76
+      },
+      {
+        "period": "5th year",
+        "hourly_base": 37.98
+      }
+    ]
+  },
+  {
+    "program_id": "lorain-county-inside-wireman",
+    "lu_number": "129",
+    "eta_program_id": "OH2160",
+    "sponsor": "Lorain County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew129.org/apprenticehipopportunity/",
+    "source_label": "Lorain County Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "22.60",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Current Local 129 apprenticeship page gives only the first-year starting hourly wage, alongside its 2027 application cycle.",
+    "steps": []
+  },
+  {
+    "program_id": "mentor-inside-wireman",
+    "lu_number": "673",
+    "eta_program_id": "OH2200",
+    "sponsor": "Mentor Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew673.org/wp-content/uploads/2026/05/Apprentice-Wage-Schedule.docx",
+    "source_label": "Mentor Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "19.58",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "43.50",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "0-1,000 hours",
+        "hourly_base": 19.58,
+        "percent": 45
+      },
+      {
+        "period": "1,000-2,000 hours",
+        "hourly_base": 21.75,
+        "percent": 50
+      },
+      {
+        "period": "2,000-3,500 hours",
+        "hourly_base": 23.93,
+        "percent": 55
+      },
+      {
+        "period": "3,500-5,000 hours",
+        "hourly_base": 28.28,
+        "percent": 65
+      },
+      {
+        "period": "5,000-6,500 hours",
+        "hourly_base": 32.63,
+        "percent": 75
+      },
+      {
+        "period": "6,500-8,000 hours",
+        "hourly_base": 36.98,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "lake-county-inside-wireman",
+    "lu_number": "150",
+    "eta_program_id": "IL0820",
+    "sponsor": "Lake County Joint Apprenticeship and Training Committee",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://lakecountyjatc.org/wp-content/uploads/2026/09/DOC092826-09282026084114.pdf",
+    "source_label": "Lake County Joint Apprenticeship and Training Committee schedule",
+    "rate_kind": "progression",
+    "starting_rate": "22.46",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "56.15",
+    "rate_scope_note": "Chart applies to apprentices indentured after June 1, 2026; earlier cohorts may have a different schedule.",
+    "steps": [
+      {
+        "period": "1st period, 0 hours",
+        "hourly_base": 22.46,
+        "percent": 40
+      },
+      {
+        "period": "2nd period, 1,000 hours",
+        "hourly_base": 22.46,
+        "percent": 40
+      },
+      {
+        "period": "3rd period, 1,801 hours and 1 school year",
+        "hourly_base": 28.08,
+        "percent": 50
+      },
+      {
+        "period": "4th period, 3,500 hours and 2 school years",
+        "hourly_base": 33.69,
+        "percent": 60
+      },
+      {
+        "period": "5th period, 5,000 hours and 3 school years",
+        "hourly_base": 42.11,
+        "percent": 75
+      },
+      {
+        "period": "6th period, 6,500 hours and 4 school years",
+        "hourly_base": 47.73,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "louisville-inside-wireman",
+    "lu_number": "369",
+    "eta_program_id": "KY1040",
+    "sponsor": "Louisville Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.loujatc.com/faq/",
+    "source_label": "Louisville Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "22.13",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Current JATC FAQ states starting pay for the first six months. It does not state an effective date or publish later hourly rates.",
+    "steps": []
+  },
+  {
+    "program_id": "lake-county-indiana-inside-wireman",
+    "lu_number": "697",
+    "eta_program_id": "IN0860",
+    "sponsor": "Lake County Electricians JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://697jatc.org/about-us/",
+    "source_label": "Lake County Electricians JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "18.14",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "JATC page gives the Inside Wireman starting rate effective June 1, 2026; it does not list later hourly steps.",
+    "steps": []
+  },
+  {
+    "program_id": "dupage-inside-commercial-wireman",
+    "lu_number": "701",
+    "eta_program_id": "IL0760",
+    "sponsor": "DuPage County Joint Apprenticeship Training Committee",
+    "program_name": "Inside/Commercial Wireman apprenticeship",
+    "source_url": "https://dupagejatc.org/wp-content/uploads/2026/05/wagesforwebsite06.26.pdf",
+    "source_label": "DuPage County Joint Apprenticeship Training Committee schedule",
+    "rate_kind": "progression",
+    "starting_rate": "26.25",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "52.49",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st year, 0 hours",
+        "hourly_base": 26.25,
+        "percent": 50
+      },
+      {
+        "period": "2nd year, 2,000 hours and 1st year complete",
+        "hourly_base": 31.49,
+        "percent": 60
+      },
+      {
+        "period": "3rd year, 3,500 hours and 2nd year complete",
+        "hourly_base": 36.74,
+        "percent": 70
+      },
+      {
+        "period": "4th year, 5,000 hours and 3rd year complete",
+        "hourly_base": 41.99,
+        "percent": 80
+      },
+      {
+        "period": "5th year, 6,500 hours and 4th year complete",
+        "hourly_base": 47.24,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "contra-costa-inside-wireman",
+    "lu_number": "302",
+    "eta_program_id": "CA0200",
+    "sponsor": "Contra Costa County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibewlu302.com/wp-content/uploads/2026/03/Inside-Application-Information-2026.pdf",
+    "source_label": "Contra Costa County Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "27.30",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Local 302's active apprenticeship page links its March 2026 application announcement, which calls this the current Inside Wireman starting wage. No later hourly steps are given.",
+    "steps": []
+  },
+  {
+    "program_id": "wyoming-casper-inside-wireman",
+    "lu_number": "322",
+    "eta_program_id": "WY3150",
+    "sponsor": "Wyoming Statewide Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship, Casper area",
+    "source_url": "https://www.wyojatc.org/?HomeID=935572&page=About20the20Program&zone=%2Funionactive%2Fview_article.cfm",
+    "source_label": "Wyoming Statewide Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "20.64",
+    "effective_date": "",
+    "as_of_date": "2026-06-11",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "JATC calls this the current minimum for the Casper area. Its percentage progression has no explicit later hourly amounts. Teton Agreement may differ.",
+    "steps": []
+  },
+  {
+    "program_id": "wyoming-cheyenne-inside-wireman",
+    "lu_number": "415",
+    "eta_program_id": "WY3150",
+    "sponsor": "Wyoming Statewide Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship, Cheyenne area",
+    "source_url": "https://www.wyojatc.org/?HomeID=935572&page=About20the20Program&zone=%2Funionactive%2Fview_article.cfm",
+    "source_label": "Wyoming Statewide Electrical JATC schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "20.63",
+    "effective_date": "",
+    "as_of_date": "2026-06-11",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "JATC calls this the current minimum for the Cheyenne area. Its percentage progression has no explicit later hourly amounts.",
+    "steps": []
+  },
+  {
+    "program_id": "asbury-park-commercial-apprenticeship",
+    "lu_number": "400",
+    "eta_program_id": "NJ1640",
+    "sponsor": "IBEW Local 400 Joint Apprenticeship and Training Committee",
+    "program_name": "Commercial electrician apprenticeship",
+    "source_url": "https://www.ibew400.org/jatc/apprenticeship/apprenticeship-faqs",
+    "source_label": "IBEW Local 400 Joint Apprenticeship and Training Committee schedule",
+    "rate_kind": "starting_rate",
+    "starting_rate": "17.31",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Official 2026 JATC FAQ gives the first-year commercial apprentice hourly base rate only; the separate telecommunications rate is excluded.",
+    "steps": []
+  },
+  {
+    "program_id": "jamestown-inside-wireman",
+    "lu_number": "106",
+    "eta_program_id": "NY1840",
+    "sponsor": "IBEW Local 106 JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew106.org/?page=Wages&zone=/unionactive/view_page.cfm",
+    "source_label": "IBEW Local 106 Inside wage page",
+    "rate_kind": "progression",
+    "starting_rate": "18.80",
+    "effective_date": "2026-01-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "47.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period, 0 hours",
+        "hourly_base": 18.8,
+        "percent": 40
+      },
+      {
+        "period": "2nd period, 1,000 hours",
+        "hourly_base": 21.15,
+        "percent": 45
+      },
+      {
+        "period": "3rd period, 2,000 hours",
+        "hourly_base": 25.85,
+        "percent": 55
+      },
+      {
+        "period": "4th period, 2,750 hours",
+        "hourly_base": 28.2,
+        "percent": 60
+      },
+      {
+        "period": "5th period, 3,500 hours",
+        "hourly_base": 30.55,
+        "percent": 65
+      },
+      {
+        "period": "6th period, 4,250 hours",
+        "hourly_base": 32.9,
+        "percent": 70
+      },
+      {
+        "period": "7th period, 5,000 hours",
+        "hourly_base": 35.25,
+        "percent": 75
+      },
+      {
+        "period": "8th period, 5,750 hours",
+        "hourly_base": 37.6,
+        "percent": 80
+      },
+      {
+        "period": "9th period, 6,600 hours",
+        "hourly_base": 39.95,
+        "percent": 85
+      },
+      {
+        "period": "10th period, 7,350 hours",
+        "hourly_base": 42.3,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "toledo-inside-commercial-wireman",
+    "lu_number": "8",
+    "eta_program_id": "OH2250",
+    "sponsor": "Toledo Electrical JATC",
+    "program_name": "Inside/Commercial Wireman apprenticeship",
+    "source_url": "https://www.tejatc.org/inside-commercial/",
+    "source_label": "Toledo Electrical JATC schedule",
+    "rate_kind": "progression",
+    "starting_rate": "21.32",
+    "effective_date": "2026-05-25",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "53.29",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "First, 0-900 hours",
+        "hourly_base": 21.32,
+        "percent": 40
+      },
+      {
+        "period": "Second, 901-1,800 hours",
+        "hourly_base": 21.32,
+        "percent": 40
+      },
+      {
+        "period": "Third, 1,801-3,300 hours",
+        "hourly_base": 26.65,
+        "percent": 50
+      },
+      {
+        "period": "Fourth, 3,301-4,800 hours",
+        "hourly_base": 31.97,
+        "percent": 60
+      },
+      {
+        "period": "Fifth, 4,801-6,300 hours",
+        "hourly_base": 37.3,
+        "percent": 70
+      },
+      {
+        "period": "Sixth, 6,301-8,000 hours",
+        "hourly_base": 42.63,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "northwest-washington-inside-wireman",
+    "lu_number": "191",
+    "eta_program_id": "WA2930",
+    "sponsor": "Northwest Washington Electrical Industry JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew191.com/Dispatch/Wage%20Charts/eff%2006012026/IW%20191%20Wage%20Chart%20Eff%202026-06-01%20to%202027-05-31.pdf",
+    "source_label": "IBEW Local 191 Inside Wire wage chart",
+    "rate_kind": "progression",
+    "starting_rate": "26.12",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "65.30",
+    "rate_scope_note": "New eight-progression apprentice schedule. The PDF also lists older phasing-out classifications, which are excluded; it shows the same base rates on both division pages.",
+    "steps": [
+      {
+        "period": "A1, 0-1,000 hours",
+        "hourly_base": 26.12
+      },
+      {
+        "period": "A2, 1,001-2,000 hours",
+        "hourly_base": 32.65
+      },
+      {
+        "period": "A3, 2,001-3,000 hours",
+        "hourly_base": 35.92
+      },
+      {
+        "period": "A4, 3,001-4,000 hours",
+        "hourly_base": 39.18
+      },
+      {
+        "period": "A5, 4,001-5,000 hours",
+        "hourly_base": 42.45
+      },
+      {
+        "period": "A6, 5,001-6,000 hours",
+        "hourly_base": 48.98
+      },
+      {
+        "period": "A7, 6,001-7,000 hours",
+        "hourly_base": 52.24
+      },
+      {
+        "period": "A8, 7,001-8,000 hours",
+        "hourly_base": 55.51
+      }
+    ]
+  },
+  {
+    "program_id": "sacramento-area-inside-wireman-south",
+    "lu_number": "340",
+    "eta_program_id": "CA0230",
+    "sponsor": "Sacramento Area JATC",
+    "program_name": "Inside Wireman apprenticeship, Local 340 South",
+    "source_url": "https://www.ibewlocal340.org/wp-content/uploads/2026/07/L340-Inside-Wireman-8-1-2026.pdf",
+    "source_label": "IBEW Local 340 Inside wage chart, South appendix",
+    "rate_kind": "progression",
+    "starting_rate": "24.17",
+    "effective_date": "2026-08-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "53.70",
+    "rate_scope_note": "Apprentice rates are from the South appendix covering Sacramento and the listed South counties. The PDF's North appendix gives journeyman rates but no separate apprentice step table; do not apply this chart to North counties without further review.",
+    "steps": [
+      {
+        "period": "1st period, 0 hours",
+        "hourly_base": 24.17,
+        "percent": 45
+      },
+      {
+        "period": "2nd period, 2,000 hours and 1st year schooling",
+        "hourly_base": 26.85,
+        "percent": 50
+      },
+      {
+        "period": "3rd period, 3,500 hours and 2nd year schooling",
+        "hourly_base": 32.22,
+        "percent": 60
+      },
+      {
+        "period": "4th period, 5,000 hours and 3rd year schooling",
+        "hourly_base": 37.59,
+        "percent": 70
+      },
+      {
+        "period": "5th period, 6,500 hours and 4th year schooling",
+        "hourly_base": 42.96,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "tri-city-albany-electrician-apprenticeship",
+    "lu_number": "236",
+    "eta_program_id": "NY1965",
+    "sponsor": "Tri-City JATC",
+    "program_name": "Electrician / Inside Wireman apprenticeship",
+    "source_url": "https://www.tricityjatc.org/uploads/apprentice-wage-and-benefit-schedule/1780926671_Wages&Benefits2026.pdf",
+    "source_label": "Tri-City JATC 2026 apprentice wage schedule",
+    "rate_kind": "progression",
+    "starting_rate": "20.80",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "52.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st year, first period",
+        "hourly_base": 20.8,
+        "percent": 40
+      },
+      {
+        "period": "1st year, second period",
+        "hourly_base": 23.4,
+        "percent": 45
+      },
+      {
+        "period": "2nd year, third period",
+        "hourly_base": 26.0,
+        "percent": 50
+      },
+      {
+        "period": "3rd year, fourth period",
+        "hourly_base": 31.2,
+        "percent": 60
+      },
+      {
+        "period": "4th year, fifth period",
+        "hourly_base": 36.4,
+        "percent": 70
+      },
+      {
+        "period": "5th year, sixth period",
+        "hourly_base": 41.6,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "delaware-inside-wireman",
+    "lu_number": "313",
+    "eta_program_id": "DE0440",
+    "sponsor": "Local 313 IBEW/NECA JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew313.org/docs/2026-06-01%20thru%202027-05-31%20Inside%20Apprentice%20Wages.pdf",
+    "source_label": "IBEW Local 313 Inside Apprentice Wages PDF",
+    "rate_kind": "progression",
+    "starting_rate": "20.40",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "51.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "Period 1, 0-1,000 hours",
+        "hourly_base": 20.4,
+        "percent": 40
+      },
+      {
+        "period": "Period 2, 1,000-2,000 hours and 1st year passing GPA",
+        "hourly_base": 22.95,
+        "percent": 45
+      },
+      {
+        "period": "Period 3, 2,000-2,750 hours and 1st year completed",
+        "hourly_base": 25.5,
+        "percent": 50
+      },
+      {
+        "period": "Period 4, 2,750-3,500 hours and 2nd year passing GPA",
+        "hourly_base": 28.05,
+        "percent": 55
+      },
+      {
+        "period": "Period 5, 3,500-4,250 hours and 2nd year completed",
+        "hourly_base": 30.6,
+        "percent": 60
+      },
+      {
+        "period": "Period 6, 4,250-5,000 hours and 3rd year passing GPA",
+        "hourly_base": 33.15,
+        "percent": 65
+      },
+      {
+        "period": "Period 7, 5,000-5,750 hours and 3rd year completed",
+        "hourly_base": 35.7,
+        "percent": 70
+      },
+      {
+        "period": "Period 8, 5,750-6,500 hours and 4th year passing GPA",
+        "hourly_base": 37.74,
+        "percent": 74
+      },
+      {
+        "period": "Period 9, 6,500-7,250 hours and 4th year completed",
+        "hourly_base": 40.29,
+        "percent": 79
+      },
+      {
+        "period": "Period 10, 7,250-8,000 hours and 5th year passing GPA",
+        "hourly_base": 43.35,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "redwood-empire-inside-wireman",
+    "lu_number": "551",
+    "eta_program_id": "CA0320",
+    "sponsor": "Redwood Empire Electrical Training Center",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://apprentice.rejatc.org/",
+    "source_label": "Redwood Empire JATC Inside apprenticeship page",
+    "rate_kind": "starting_rate",
+    "starting_rate": "30.85",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "",
+    "rate_scope_note": "Current live JATC page states the beginning Inside Wireman hourly wage; it gives no wage effective date or later hourly step amounts.",
+    "steps": []
+  },
+  {
+    "program_id": "raleigh-durham-inside-wireman",
+    "lu_number": "553",
+    "eta_program_id": "NC2020",
+    "sponsor": "Raleigh Durham Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew553.org/IBEW553/Inside%20Wage%20%20Benefits%20Chart%201_1_26%20-%2012_31_26.pdf",
+    "source_label": "IBEW Local 553 2026 Inside Wage Chart",
+    "rate_kind": "progression",
+    "starting_rate": "21.09",
+    "effective_date": "2026-01-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "32.44",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period, 0-1,000 hours",
+        "hourly_base": 21.09,
+        "percent": 65
+      },
+      {
+        "period": "2nd period, 1,001-2,000 hours",
+        "hourly_base": 21.09,
+        "percent": 65
+      },
+      {
+        "period": "3rd period, 2,001-4,000 hours",
+        "hourly_base": 22.71,
+        "percent": 70
+      },
+      {
+        "period": "4th period, 4,001-6,000 hours",
+        "hourly_base": 24.33,
+        "percent": 75
+      },
+      {
+        "period": "5th period, 6,001-8,000 hours",
+        "hourly_base": 27.57,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "joliet-inside-wireman-zone-i",
+    "lu_number": "176",
+    "eta_program_id": "IL0770",
+    "sponsor": "Joliet Electrical Training Center",
+    "program_name": "Inside Wireman apprenticeship - Zone I (Will and Grundy counties)",
+    "source_url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/inside_wage_sheet_2026.pdf",
+    "source_label": "IBEW Local 176 2026-27 Inside Agreement Wages, Zone I",
+    "rate_kind": "progression",
+    "starting_rate": "27.45",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "61.00",
+    "rate_scope_note": "Zone I covers Will and Grundy counties. The agreement separately publishes Zones II and III; this schedule applies only to Zone I.",
+    "steps": [
+      {
+        "period": "1st period, up to 1,000 hours",
+        "hourly_base": 27.45,
+        "percent": 45
+      },
+      {
+        "period": "2nd period, after 1,000 hours",
+        "hourly_base": 30.5,
+        "percent": 50
+      },
+      {
+        "period": "3rd period, after 2,000 hours",
+        "hourly_base": 33.55,
+        "percent": 55
+      },
+      {
+        "period": "4th period, after 3,500 hours",
+        "hourly_base": 39.65,
+        "percent": 65
+      },
+      {
+        "period": "5th period, after 5,000 hours",
+        "hourly_base": 48.8,
+        "percent": 80
+      },
+      {
+        "period": "6th period, after 6,500 hours",
+        "hourly_base": 54.9,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "joliet-inside-wireman-zone-ii",
+    "lu_number": "176",
+    "eta_program_id": "IL0770",
+    "sponsor": "Joliet Electrical Training Center",
+    "program_name": "Inside Wireman apprenticeship - Zone II (Kankakee and LaSalle counties)",
+    "source_url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/inside_wage_sheet_2026.pdf",
+    "source_label": "IBEW Local 176 2026-27 Inside Agreement Wages, Zone II",
+    "rate_kind": "progression",
+    "starting_rate": "27.27",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "60.60",
+    "rate_scope_note": "Zone II covers Kankakee and LaSalle counties. The agreement separately publishes Zones I and III; this schedule applies only to Zone II.",
+    "steps": [
+      {
+        "period": "1st period, up to 1,000 hours",
+        "hourly_base": 27.27,
+        "percent": 45
+      },
+      {
+        "period": "2nd period, after 1,000 hours",
+        "hourly_base": 30.3,
+        "percent": 50
+      },
+      {
+        "period": "3rd period, after 2,000 hours",
+        "hourly_base": 33.33,
+        "percent": 55
+      },
+      {
+        "period": "4th period, after 3,500 hours",
+        "hourly_base": 39.39,
+        "percent": 65
+      },
+      {
+        "period": "5th period, after 5,000 hours",
+        "hourly_base": 48.48,
+        "percent": 80
+      },
+      {
+        "period": "6th period, after 6,500 hours",
+        "hourly_base": 54.54,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "joliet-inside-wireman-zone-iii",
+    "lu_number": "176",
+    "eta_program_id": "IL0770",
+    "sponsor": "Joliet Electrical Training Center",
+    "program_name": "Inside Wireman apprenticeship - Zone III (other covered areas)",
+    "source_url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/inside_wage_sheet_2026.pdf",
+    "source_label": "IBEW Local 176 2026-27 Inside Agreement Wages, Zone III",
+    "rate_kind": "progression",
+    "starting_rate": "26.75",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "59.45",
+    "rate_scope_note": "Zone III covers the remaining areas in Local 176's Inside agreement. The agreement separately publishes Zones I and II; this schedule applies only to Zone III.",
+    "steps": [
+      {
+        "period": "1st period, up to 1,000 hours",
+        "hourly_base": 26.75,
+        "percent": 45
+      },
+      {
+        "period": "2nd period, after 1,000 hours",
+        "hourly_base": 29.73,
+        "percent": 50
+      },
+      {
+        "period": "3rd period, after 2,000 hours",
+        "hourly_base": 32.7,
+        "percent": 55
+      },
+      {
+        "period": "4th period, after 3,500 hours",
+        "hourly_base": 38.64,
+        "percent": 65
+      },
+      {
+        "period": "5th period, after 5,000 hours",
+        "hourly_base": 47.56,
+        "percent": 80
+      },
+      {
+        "period": "6th period, after 6,500 hours",
+        "hourly_base": 53.51,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "asheville-inside-wireman",
+    "lu_number": "238",
+    "eta_program_id": "NC2000",
+    "sponsor": "Asheville Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://aejatc238.org/earnings-benefits/",
+    "source_label": "Asheville Electrical JATC Earnings & Benefits chart, updated February 2026",
+    "rate_kind": "progression",
+    "starting_rate": "19.15",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "31.92",
+    "rate_scope_note": "JATC labels the chart current and says its rates were updated February 2026; it does not publish an exact agreement effective or expiration date. Hourly base pay excludes separately listed benefits.",
+    "steps": [
+      {
+        "period": "1st year, 1st period",
+        "hourly_base": 19.15,
+        "percent": 60
+      },
+      {
+        "period": "1st year, 2nd period",
+        "hourly_base": 20.75,
+        "percent": 65
+      },
+      {
+        "period": "2nd year, 3rd period",
+        "hourly_base": 22.34,
+        "percent": 70
+      },
+      {
+        "period": "3rd year, 4th period",
+        "hourly_base": 23.94,
+        "percent": 75
+      },
+      {
+        "period": "4th year, 5th period",
+        "hourly_base": 25.54,
+        "percent": 80
+      },
+      {
+        "period": "5th year, 6th period",
+        "hourly_base": 27.13,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "columbia-basin-inside-wireman",
+    "lu_number": "112",
+    "eta_program_id": "WA2950",
+    "sponsor": "Columbia Basin Electrical Training Alliance",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibewlu112.com/Agreement/Inside%20Agreement%20Appendix%20A%20effective%20June%20%2C%202026%20thru%20May%2031%2C%202027.pdf",
+    "source_label": "IBEW Local 112 Inside Construction Agreement Appendix A, 2026-27",
+    "rate_kind": "progression",
+    "starting_rate": "25.20",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-14",
+    "journeyman_base": "63.00",
+    "rate_scope_note": "",
+    "steps": [
+      {
+        "period": "1st period, 0-1,600 hours",
+        "hourly_base": 25.2,
+        "percent": 40
+      },
+      {
+        "period": "2nd period, 1,601-2,500 hours",
+        "hourly_base": 28.35,
+        "percent": 45
+      },
+      {
+        "period": "3rd period, 2,501-3,500 hours",
+        "hourly_base": 31.5,
+        "percent": 50
+      },
+      {
+        "period": "4th period, 3,501-5,000 hours",
+        "hourly_base": 40.95,
+        "percent": 65
+      },
+      {
+        "period": "5th period, 5,001-6,500 hours",
+        "hourly_base": 50.4,
+        "percent": 80
+      },
+      {
+        "period": "6th period, 6,501-8,000 hours",
+        "hourly_base": 53.55,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "watertown-inside-wireman",
+    "lu_number": "910",
+    "eta_program_id": "NY1980",
+    "sponsor": "EJATC of Watertown",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew910.org/ejatc/wp-content/uploads/sites/2/2026/03/2026-Inside-Rate-Sheet.pdf",
+    "source_label": "IBEW Local 910 Inside Construction Agreement Section 3.05, effective April 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "20.25",
+    "effective_date": "2026-04-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "45.00",
+    "rate_scope_note": "JATC labels its linked 2026 Inside sheet current. The Apprenticeship Wireman Base column lists six rates separately from fringe benefits; no expiration is printed.",
+    "steps": [
+      {
+        "period": "1st period, 0-1,000 hours",
+        "hourly_base": 20.25,
+        "percent": 45
+      },
+      {
+        "period": "2nd period, 1,001-2,000 hours",
+        "hourly_base": 22.5,
+        "percent": 50
+      },
+      {
+        "period": "3rd period, 2,001-3,500 hours",
+        "hourly_base": 24.75,
+        "percent": 55
+      },
+      {
+        "period": "4th period, 3,501-5,000 hours",
+        "hourly_base": 27.0,
+        "percent": 60
+      },
+      {
+        "period": "5th period, 5,001-6,500 hours",
+        "hourly_base": 31.5,
+        "percent": 70
+      },
+      {
+        "period": "6th period, 6,501-8,200 hours",
+        "hourly_base": 36.0,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "oak-ridge-neca-inside-wireman",
+    "lu_number": "270",
+    "eta_program_id": "TN2660",
+    "sponsor": "Oak Ridge Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship - Oak Ridge Division NECA agreement",
+    "source_url": "https://www.ibewlocal270.org/_files/ugd/35c563_8c83eb6f16044fb099df729a922d9561.pdf",
+    "source_label": "IBEW Local 270 Oak Ridge Division NECA Inside wage schedule, 6/1/2026 column",
+    "rate_kind": "progression",
+    "starting_rate": "19.75",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "35.91",
+    "rate_scope_note": "Oak Ridge Division NECA Inside agreement only; Local 270 also lists separate CLA, UCOR and TVA agreements. Use the 6/1/2026 column until the chart's 1/1/2027 increase. CE/CW and benefits are separate.",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 19.75,
+        "percent": 55
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 21.55,
+        "percent": 60
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 24.42,
+        "percent": 68
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 27.29,
+        "percent": 76
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 29.81,
+        "percent": 83
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 33.4,
+        "percent": 93
+      }
+    ]
+  },
+  {
+    "program_id": "battle-creek-inside-wireman-start",
+    "lu_number": "445",
+    "eta_program_id": "MI1230",
+    "sponsor": "Battle Creek Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.bcejatc.com/about",
+    "source_label": "Battle Creek Electrical JATC Inside Wireman starting pay",
+    "rate_kind": "starting_rate",
+    "starting_rate": "20.50",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "JATC calls $20.50 per hour currently on the check for a starting Inside apprentice, separate from $10+ benefits. No wage agreement dates or later-period dollar rates are published; review again within 30 days.",
+    "steps": []
+  },
+  {
+    "program_id": "houston-716-inside-wireman-zone-a-2026",
+    "lu_number": "716",
+    "eta_program_id": "TX2760",
+    "sponsor": "Houston Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship - Zone A basic rate, post-August 2018 indenture",
+    "source_url": "https://www.ibew716.net/wp-content/uploads/2024-2027-CBA-MOUs.pdf",
+    "source_label": "Local 716 and Southeast Texas NECA Inside agreement, Article V Section 5.06, 8/31/2026 column",
+    "rate_kind": "progression",
+    "starting_rate": "18.34",
+    "effective_date": "2026-08-31",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "40.75",
+    "rate_scope_note": "Article V basic Zone A wage; Zone B generally pays 90%, except qualifying industrial jobs. Only apprentices indentured after 8/27/2018. The JATC FAQ still displays the September 2025 starting figure; this official agreement gives the August 2026 schedule. Benefits excluded.",
+    "steps": [
+      {
+        "period": "1st period",
+        "hourly_base": 18.34,
+        "percent": 45
+      },
+      {
+        "period": "2nd period",
+        "hourly_base": 20.38,
+        "percent": 50
+      },
+      {
+        "period": "3rd period",
+        "hourly_base": 22.41,
+        "percent": 55
+      },
+      {
+        "period": "4th period",
+        "hourly_base": 26.49,
+        "percent": 65
+      },
+      {
+        "period": "5th period",
+        "hourly_base": 30.56,
+        "percent": 75
+      },
+      {
+        "period": "6th period",
+        "hourly_base": 34.64,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "local-3-nyc-a-construction-apprentice-2026",
+    "lu_number": "3",
+    "eta_program_id": "NY1880",
+    "sponsor": "JAC Joint Industry Board of Electric Industries",
+    "program_name": "NYC construction A electrician apprenticeship",
+    "source_url": "https://www.jibei.org/wp-content/uploads/Apprentice-Full-Benefit-2026.pdf",
+    "source_label": "Joint Industry Board NYC Construction Division A apprentice full benefit wage chart, 4/15/2026 base hourly column",
+    "rate_kind": "progression",
+    "starting_rate": "19.25",
+    "effective_date": "2026-04-15",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "NYC Construction Division A apprentices accepted after 5/10/2007. Four straight-time hourly year rates are printed; the chart gives no fifth-year rate. White Plains, residential, street lighting, tele-data, outside utility, overtime, and benefit totals are separate and excluded. Recheck the next 4/14/2027 column at that date.",
+    "steps": [
+      {
+        "period": "1st year",
+        "hourly_base": 19.25
+      },
+      {
+        "period": "2nd year",
+        "hourly_base": 21.25
+      },
+      {
+        "period": "3rd year",
+        "hourly_base": 23.25
+      },
+      {
+        "period": "4th year",
+        "hourly_base": 26.25
+      }
+    ]
+  },
+  {
+    "program_id": "atlanta-613-inside-wireman-fall-2026",
+    "lu_number": "613",
+    "eta_program_id": "GA0580",
+    "sponsor": "Atlanta Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://drive.google.com/file/d/1Y_kAV3paZPLIRqV78nsms6wY_AWs6XI8/view?usp=sharing",
+    "source_label": "Atlanta Electrical JATC Fall 2026-Spring 2027 Inside Wireman pay chart, updated 9/8/26",
+    "rate_kind": "progression",
+    "starting_rate": "18.90",
+    "effective_date": "",
+    "as_of_date": "2026-09-08",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "42.00",
+    "rate_scope_note": "Inside Wireman only. Fifth-year $31.50 applies if needed when 8,000 hours are not yet met. Graduate $42.00 requires 8,000 hours, all classes, and paid balances. Upgrades occur the first pay period of the following month after requirements are met. The JATC's older application page says $18.00; this dated chart supersedes it. Telecommunications and Construction Electrician excluded.",
+    "steps": [
+      {
+        "period": "1st year",
+        "hourly_base": 18.9
+      },
+      {
+        "period": "2nd year",
+        "hourly_base": 21.0
+      },
+      {
+        "period": "3rd year",
+        "hourly_base": 23.1
+      },
+      {
+        "period": "4th year",
+        "hourly_base": 27.3
+      },
+      {
+        "period": "5th year if needed",
+        "hourly_base": 31.5
+      }
+    ]
+  },
+  {
+    "program_id": "tampa-915-inside-apprentice-current-page",
+    "lu_number": "915",
+    "eta_program_id": "FL0550",
+    "sponsor": "Tampa Area Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://storage.googleapis.com/wzukusers/user-31871341/documents/2b5bd371afb74095b0be6cbf7b3ec1fe/Inside%20Apprentice%20Wages-Website%202025.pdf",
+    "source_label": "Tampa Area Electrical JATC current Inside Apprentice Wages PDF, effective beginning December 2025",
+    "rate_kind": "progression",
+    "starting_rate": "19.93",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "Official JATC home page labels this sheet most current as of review. Effective beginning Dec. 2025 with no exact day or expiration printed, so recheck within 30 days. Inside apprentice base wages only; health, pension and vacation fringes excluded.",
+    "steps": [
+      {
+        "period": "1st year",
+        "hourly_base": 19.93
+      },
+      {
+        "period": "2nd year",
+        "hourly_base": 21.74
+      },
+      {
+        "period": "3rd year",
+        "hourly_base": 25.36
+      },
+      {
+        "period": "4th year",
+        "hourly_base": 28.98
+      }
+    ]
+  },
+  {
+    "program_id": "detroit-58-inside-construction-live-page",
+    "lu_number": "58",
+    "eta_program_id": "MI1250",
+    "sponsor": "Detroit Electrical Industry Training Center",
+    "program_name": "Inside Construction Wireman apprenticeship",
+    "source_url": "https://detroiteitc.org/programs/",
+    "source_label": "Detroit EITC live Inside Construction Wireman program page",
+    "rate_kind": "progression",
+    "starting_rate": "25.23",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "56.07",
+    "rate_scope_note": "Official live program page publishes only starting and ending hourly apprentice rates; intermediate steps and exact effective date are not printed. Recheck within 30 days. Sound/Communication/Data Management and Residential Wireman wages excluded.",
+    "steps": [
+      {
+        "period": "starting apprentice",
+        "hourly_base": 25.23
+      },
+      {
+        "period": "ending apprentice",
+        "hourly_base": 42.05
+      }
+    ]
+  },
+  {
+    "program_id": "utah-354-inside-wireman-jun-nov-2026",
+    "lu_number": "354",
+    "eta_program_id": "UT2860",
+    "sponsor": "Utah Electrical Training Alliance / Utah Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://uteta.org/wp-content/uploads/2026/06/Cost-Sheet-06.26-11.26-Inside-CW.pdf",
+    "source_label": "Utah Electrical Training Alliance Inside Agreement Cost Sheet, June-November 2026",
+    "rate_kind": "progression",
+    "starting_rate": "24.11",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "46.22",
+    "rate_scope_note": "Directly printed Inside Agreement minimum hourly base rates for IBEW Local 354, June 1-November 30, 2026. Fringes, zone, welding, shift and Construction Wireman rates excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 24.11
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 25.96
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 27.81
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 29.66
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 31.51
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 33.35
+      },
+      {
+        "period": "7th Period",
+        "hourly_base": 35.2
+      },
+      {
+        "period": "8th Period",
+        "hourly_base": 37.05
+      },
+      {
+        "period": "9th Period",
+        "hourly_base": 38.9
+      },
+      {
+        "period": "10th Period",
+        "hourly_base": 40.29
+      }
+    ]
+  },
+  {
+    "program_id": "western-oklahoma-1141-inside-electrician-june-2026",
+    "lu_number": "1141",
+    "eta_program_id": "OK2290",
+    "sponsor": "Electrical Training Alliance of Western Oklahoma / Western Oklahoma Electrical JATC",
+    "program_name": "Inside Wireman Electrician apprenticeship",
+    "source_url": "https://etawok.org/s/2026-WOEJATC-Prog-Bro-052626.pdf",
+    "source_label": "Western Oklahoma Electrical JATC 2026 Electrician apprenticeship brochure",
+    "rate_kind": "progression",
+    "starting_rate": "21.83",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "43.65",
+    "rate_scope_note": "The official JATC brochure directly prints apprentice hourly wages effective June 1, 2026 for the Inside Wireman Electrician program. The $41.47 licensed sixth-period step requires a license and is conditional; $37.10 is the ordinary sixth-period step. Benefits and CW/CE rates excluded. No expiration date printed.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 21.83
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 24.01
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 28.37
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 30.56
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 32.74
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 37.1
+      },
+      {
+        "period": "6th Period with license",
+        "hourly_base": 41.47
+      }
+    ]
+  },
+  {
+    "program_id": "san-bernardino-477-inside-zone-a-2026",
+    "lu_number": "477",
+    "eta_program_id": "CA0240",
+    "sponsor": "Inland Empire Electrical Training Center / San Bernardino, Mono & Inyo Counties Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship - Zone A",
+    "source_url": "https://ibew477.org/wp-content/uploads/2026/07/june-1-2026-Zone-A-Zone-B-Wage-Bulletin.pdf",
+    "source_label": "Local 477/Southern Sierras NECA 2026-27 Inside Apprentice Classification, Zone A",
+    "rate_kind": "progression",
+    "starting_rate": "22.80",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "57.00",
+    "rate_scope_note": "Zone A is within 80 road miles of San Bernardino City Hall. Directly printed day-shift Inside apprentice hourly base wages from the signed 2026-27 Local 477 bulletin. Zone B has a separate schedule; zones are not averaged. Benefits and shift premiums excluded.",
+    "steps": [
+      {
+        "period": "40% apprentice classification",
+        "hourly_base": 22.8,
+        "percent": 40
+      },
+      {
+        "period": "45% apprentice classification",
+        "hourly_base": 25.65,
+        "percent": 45
+      },
+      {
+        "period": "50% apprentice classification",
+        "hourly_base": 28.5,
+        "percent": 50
+      },
+      {
+        "period": "60% apprentice classification",
+        "hourly_base": 34.2,
+        "percent": 60
+      },
+      {
+        "period": "70% apprentice classification",
+        "hourly_base": 39.9,
+        "percent": 70
+      },
+      {
+        "period": "85% apprentice classification",
+        "hourly_base": 48.45,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "san-bernardino-477-inside-zone-b-2026",
+    "lu_number": "477",
+    "eta_program_id": "CA0240",
+    "sponsor": "Inland Empire Electrical Training Center / San Bernardino, Mono & Inyo Counties Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship - Zone B",
+    "source_url": "https://ibew477.org/wp-content/uploads/2026/07/june-1-2026-Zone-A-Zone-B-Wage-Bulletin.pdf",
+    "source_label": "Local 477/Southern Sierras NECA 2026-27 Inside Apprentice Classification, Zone B",
+    "rate_kind": "progression",
+    "starting_rate": "30.78",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "76.95",
+    "rate_scope_note": "Zone B is outside the 80-road-mile Zone A boundary; all Inyo and Mono County work is Zone B. Directly printed day-shift Inside apprentice hourly base wages from the signed 2026-27 Local 477 bulletin. Zone A has a separate schedule; zones are not averaged. Benefits and shift premiums excluded.",
+    "steps": [
+      {
+        "period": "40% apprentice classification",
+        "hourly_base": 30.78,
+        "percent": 40
+      },
+      {
+        "period": "45% apprentice classification",
+        "hourly_base": 34.63,
+        "percent": 45
+      },
+      {
+        "period": "50% apprentice classification",
+        "hourly_base": 38.48,
+        "percent": 50
+      },
+      {
+        "period": "60% apprentice classification",
+        "hourly_base": 46.17,
+        "percent": 60
+      },
+      {
+        "period": "70% apprentice classification",
+        "hourly_base": 53.87,
+        "percent": 70
+      },
+      {
+        "period": "85% apprentice classification",
+        "hourly_base": 65.41,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "santa-clara-332-inside-june-2026",
+    "lu_number": "332",
+    "eta_program_id": "CA0270",
+    "sponsor": "Electrical Training Alliance of Silicon Valley / Santa Clara JATC",
+    "program_name": "Inside Commercial Wireman apprenticeship",
+    "source_url": "https://drive.google.com/file/d/1wIV9XV_yAsOGzqT28772JUzlQ_AjQpvd/view",
+    "source_label": "IBEW Local 332 Inside Agreement wage chart effective June 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "42.99",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "95.53",
+    "rate_scope_note": "The current Local 332 Inside Agreement chart, linked by the separate ETASV training center, directly prints straight-time hourly base wages for ten Inside apprentice periods. The older $40.96 starting figure on the local's apprenticeship landing page is superseded. Benefits, total package, and separate Residential, Sound & Communications, and CECW schedules are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 42.99,
+        "percent": 45
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 47.77,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 52.54,
+        "percent": 55
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 57.32,
+        "percent": 60
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 62.09,
+        "percent": 65
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 66.87,
+        "percent": 70
+      },
+      {
+        "period": "7th Period",
+        "hourly_base": 71.65,
+        "percent": 75
+      },
+      {
+        "period": "8th Period",
+        "hourly_base": 76.42,
+        "percent": 80
+      },
+      {
+        "period": "9th Period",
+        "hourly_base": 81.2,
+        "percent": 85
+      },
+      {
+        "period": "10th Period",
+        "hourly_base": 85.98,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "fresno-100-inside-regular-september-2026",
+    "lu_number": "100",
+    "eta_program_id": "CA0160",
+    "sponsor": "Central California Electrical Training Institute / Fresno JATC",
+    "program_name": "Inside Wireman apprenticeship - regular shift",
+    "source_url": "https://www.cceti.org/wp-content/uploads/2026/08/2026.09.01-Inside-Rates-Reg-Shift.pdf",
+    "source_label": "Local 100/East Central California NECA Inside regular-shift labor bulletin effective September 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "23.40",
+    "effective_date": "2026-09-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "52.00",
+    "rate_scope_note": "The signed Local 100 Inside Wireman regular-shift bulletin directly prints hourly base wages for ten apprentice percentage steps. The CCETI Inside FAQ maps those steps to periods 1-10. Benefits, vacation deduction, separate shifts, NAS-Lemoore, and Sound & Communication are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 23.4,
+        "percent": 45
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 26.0,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 28.6,
+        "percent": 55
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 31.2,
+        "percent": 60
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 33.8,
+        "percent": 65
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 36.4,
+        "percent": 70
+      },
+      {
+        "period": "7th Period",
+        "hourly_base": 39.0,
+        "percent": 75
+      },
+      {
+        "period": "8th Period",
+        "hourly_base": 41.6,
+        "percent": 80
+      },
+      {
+        "period": "9th Period",
+        "hourly_base": 44.2,
+        "percent": 85
+      },
+      {
+        "period": "10th Period",
+        "hourly_base": 46.8,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "jacksonville-177-inside-september-2026",
+    "lu_number": "177",
+    "eta_program_id": "FL0490",
+    "sponsor": "Electrical Training Alliance of Jacksonville / Jacksonville Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.etajax.org/",
+    "source_label": "Electrical Training Alliance of Jacksonville live apprenticeship wages, homepage published September 29, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "19.07",
+    "effective_date": "",
+    "as_of_date": "2026-09-29",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "37.40",
+    "rate_scope_note": "The training center's live homepage directly prints four annual apprentice hourly wages. Its linked 2026/2027 handbook confirms the Local 177/NECA program, Inside Wireman craft training and four period percentages. The homepage gives no precise wage effective date; September 29, 2026 is the page publication date. Benefits, Construction Wireman and telecommunications classifications are excluded.",
+    "steps": [
+      {
+        "period": "1st Year",
+        "hourly_base": 19.07,
+        "percent": 51
+      },
+      {
+        "period": "2nd Year",
+        "hourly_base": 22.07,
+        "percent": 59
+      },
+      {
+        "period": "3rd Year",
+        "hourly_base": 25.06,
+        "percent": 67
+      },
+      {
+        "period": "4th Year",
+        "hourly_base": 28.05,
+        "percent": 75
+      }
+    ]
+  },
+  {
+    "program_id": "richmond-666-inside-march-2026",
+    "lu_number": "666",
+    "eta_program_id": "VA2910",
+    "sponsor": "Richmond Electricians JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.rjatc.org/?HomeID=938149&page=Program&zone=%2Funionactive%2Fview_article.cfm",
+    "source_label": "Richmond Electricians JATC Inside Wireman apprentice pay rates as of March 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "20.86",
+    "effective_date": "",
+    "as_of_date": "2026-03-01",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "39.35",
+    "rate_scope_note": "The current official Richmond JATC Inside Wireman program page directly prints six hourly apprentice period wages and the journeyman base. Its FAQ confirms that the Local 666/Atlantic Coast NECA agreement sets this apprenticeship scale. Construction Wireman pay, benefits and tuition are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 20.86
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 22.82
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 23.61
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 25.97
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 28.33
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 31.48
+      }
+    ]
+  },
+  {
+    "program_id": "west-michigan-275-inside-june-2026",
+    "lu_number": "275",
+    "eta_program_id": "MI1330",
+    "sponsor": "West Michigan Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.wmejatc.org/_files/ugd/7e5ec3_c589643bfbf541d6af4d48954cd364cc.pdf",
+    "source_label": "Local 275/West Michigan NECA Inside Wireman wage sheet June 1, 2026 to May 30, 2027",
+    "rate_kind": "progression",
+    "starting_rate": "18.90",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "42.00",
+    "rate_scope_note": "Page 1 of the official 2026-27 Inside agreement directly prints these apprentice base wages. The 90% rate requires a State of Michigan electrical license after the fourth period (60%). Construction Wireman, residential, video/data/voice, benefits and total package are excluded.",
+    "steps": [
+      {
+        "period": "45% apprentice",
+        "hourly_base": 18.9,
+        "percent": 45
+      },
+      {
+        "period": "50% apprentice",
+        "hourly_base": 21.0,
+        "percent": 50
+      },
+      {
+        "period": "55% apprentice",
+        "hourly_base": 23.1,
+        "percent": 55
+      },
+      {
+        "period": "60% apprentice",
+        "hourly_base": 25.2,
+        "percent": 60
+      },
+      {
+        "period": "70% apprentice",
+        "hourly_base": 29.4,
+        "percent": 70
+      },
+      {
+        "period": "80% apprentice",
+        "hourly_base": 33.6,
+        "percent": 80
+      },
+      {
+        "period": "90% licensed apprentice",
+        "hourly_base": 37.8,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "brockton-223-inside-september-2026",
+    "lu_number": "223",
+    "eta_program_id": "MA1190",
+    "sponsor": "Brockton Electricians JATC",
+    "program_name": "Inside Apprentice Wireman apprenticeship",
+    "source_url": "https://www.mass.gov/doc/electrical-local-223-cba-08-31-2027/download",
+    "source_label": "Local 223/RI and Southeast Massachusetts NECA Apprentice Wireman chart September 1, 2026 to August 31, 2027",
+    "rate_kind": "progression",
+    "starting_rate": "21.89",
+    "effective_date": "2026-09-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "54.72",
+    "rate_scope_note": "Page 9 of the official current Inside agreement directly prints eight apprentice Wireman hourly Wage rows. Page 6 prints the journeyman base. H&W, pension, training contributions, total package, prior annual charts, and the separate Telecom agreement are excluded.",
+    "steps": [
+      {
+        "period": "1st Step",
+        "hourly_base": 21.89,
+        "percent": 40
+      },
+      {
+        "period": "2nd Step",
+        "hourly_base": 24.62,
+        "percent": 45
+      },
+      {
+        "period": "3rd Step",
+        "hourly_base": 27.36,
+        "percent": 50
+      },
+      {
+        "period": "4th Step",
+        "hourly_base": 30.1,
+        "percent": 55
+      },
+      {
+        "period": "5th Step",
+        "hourly_base": 32.83,
+        "percent": 60
+      },
+      {
+        "period": "6th Step",
+        "hourly_base": 35.57,
+        "percent": 65
+      },
+      {
+        "period": "7th Step",
+        "hourly_base": 38.3,
+        "percent": 70
+      },
+      {
+        "period": "8th Step",
+        "hourly_base": 41.04,
+        "percent": 75
+      }
+    ]
+  },
+  {
+    "program_id": "cleveland-38-inside-april-2026",
+    "lu_number": "38",
+    "eta_program_id": "OH2110",
+    "sponsor": "Cleveland Electrical Joint Apprenticeship and Training Committee",
+    "program_name": "Inside Wireman apprenticeship - normal shift",
+    "source_url": "https://ibew38.org/wp-content/uploads/2026/05/Inside-Pay-Rates-for-April-2026-October-2026.pdf",
+    "source_label": "Local 38/Greater Cleveland NECA Inside wage sheet April 27 to October 25, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "17.02",
+    "effective_date": "2026-04-27",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "48.63",
+    "rate_scope_note": "Page 3 of the official current Inside sheet directly prints ten normal-shift apprentice Base wages. Future October 26 rates, overtime, second/third shifts, foreman, Teledata, Residential, benefits and total package are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 17.02,
+        "percent": 35
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 19.45,
+        "percent": 40
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 21.88,
+        "percent": 45
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 24.32,
+        "percent": 50
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 26.75,
+        "percent": 55
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 29.18,
+        "percent": 60
+      },
+      {
+        "period": "7th Period",
+        "hourly_base": 31.61,
+        "percent": 65
+      },
+      {
+        "period": "8th Period",
+        "hourly_base": 34.04,
+        "percent": 70
+      },
+      {
+        "period": "9th Period",
+        "hourly_base": 36.47,
+        "percent": 75
+      },
+      {
+        "period": "10th Period",
+        "hourly_base": 38.9,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "central-oregon-280-inside-january-2026",
+    "lu_number": "280",
+    "eta_program_id": "OR2350",
+    "sponsor": "Central Electrical JATC",
+    "program_name": "Inside Electrician apprenticeship",
+    "source_url": "https://www.orpacneca.org/_files/ugd/5a8ce7_3311db7a123c49118a26fa9250e205bc.pdf",
+    "source_label": "Local 280/Oregon Pacific-Cascade NECA Inside wage and fringe benefits January 1 to December 31, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "26.70",
+    "effective_date": "2026-01-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "59.34",
+    "rate_scope_note": "Page 2 of the official NECA Inside labor cost sheet directly prints six apprentice hourly WAGES amounts. Residential, Limited Energy, Sound & Communications, benefits, employer costs, and deductions are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 26.7,
+        "percent": 45
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 29.67,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 32.64,
+        "percent": 55
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 35.6,
+        "percent": 60
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 41.54,
+        "percent": 70
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 50.44,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "knoxville-760-inside-january-2026",
+    "lu_number": "760",
+    "eta_program_id": "TN2620",
+    "sponsor": "Electrician Training Academy Knoxville (ETAK)",
+    "program_name": "Inside electrician apprenticeship",
+    "source_url": "https://www.etaknox.org/apprenticeship/paybenifits.aspx",
+    "source_label": "ETAK apprentice pay and benefits, January 1, 2026 column",
+    "rate_kind": "progression",
+    "starting_rate": "19.41",
+    "effective_date": "2026-01-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "32.35",
+    "rate_scope_note": "The JATC directly prints six January 1, 2026 apprentice hourly rates on its Pay and Benefits page. An older undated Current column, Construction Wireman rates, retirement and health contributions are excluded. The page warns insurance changes can adjust wages; no fixed end date is claimed.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 19.41,
+        "percent": 60
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 19.41,
+        "percent": 60
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 21.03,
+        "percent": 65
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 22.65,
+        "percent": 70
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 24.26,
+        "percent": 75
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 27.5,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "reading-743-inside-august-2026",
+    "lu_number": "743",
+    "eta_program_id": "PA2480",
+    "sponsor": "IBEW 743 JATC",
+    "program_name": "Inside Electrical apprenticeship",
+    "source_url": "https://ibew743.org/wp-content/uploads/2026/09/NEW-RATE-SHEET-effective-August-31-2026.pdf",
+    "source_label": "IBEW 743 JATC Inside Electrical Apprentice Rates effective August 31, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "19.21",
+    "effective_date": "2026-08-31",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "48.02",
+    "rate_scope_note": "The JATC's live application page links this as its current Inside Electrical apprentice chart. The PDF directly prints five period wage rates. Its journeyman row requires 8,000 hours, classroom completion and City Test conditions; no end date is printed. Benefits and third-party estimates are excluded.",
+    "steps": [
+      {
+        "period": "1st Period, under 2000 OJT hours",
+        "hourly_base": 19.21,
+        "percent": 40
+      },
+      {
+        "period": "2nd Period, 2000 OJT hours",
+        "hourly_base": 24.01,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period, 3500 OJT hours",
+        "hourly_base": 28.81,
+        "percent": 60
+      },
+      {
+        "period": "4th Period, 5000 OJT hours",
+        "hourly_base": 33.61,
+        "percent": 70
+      },
+      {
+        "period": "5th Period, 6500 OJT hours",
+        "hourly_base": 38.42,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "syracuse-43-commercial-inside-june-2026",
+    "lu_number": "43",
+    "eta_program_id": "NY1950",
+    "sponsor": "Central New York Electrical Training Alliance",
+    "program_name": "Commercial Inside apprentice wireman",
+    "source_url": "https://www.ibew43.org/about?AspxAutoDetectCookieSupport=1",
+    "source_label": "IBEW Local 43 commercial apprentice rates June 1, 2026 to May 31, 2027",
+    "rate_kind": "progression",
+    "starting_rate": "21.60",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "54.00",
+    "rate_scope_note": "The Local 43 official page directly prints six commercial apprentice hourly Rate amounts and separates them from teledata and residential schedules. Pension, annuity, health, training and other fringe columns are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 21.6,
+        "percent": 40
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 24.3,
+        "percent": 45
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 27.0,
+        "percent": 50
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 32.4,
+        "percent": 60
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 37.8,
+        "percent": 70
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 43.2,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "worcester-96-inside-september-2026",
+    "lu_number": "96",
+    "eta_program_id": "MA1210",
+    "sponsor": "Worcester Electricians JATC",
+    "program_name": "Inside Journeyman-Wireman apprenticeship",
+    "source_url": "https://ibewlocal96.org/wp-content/uploads/2023/10/Apprentice-Inside-Basic-Rate-Sheet-2023-2027.pdf",
+    "source_label": "Local 96 and Central Mass NECA Inside Basic apprentice rates effective September 6, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "19.75",
+    "effective_date": "2026-09-06",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The Local-hosted Inside Basic wage schedule directly prints six apprentice hourly wage rates in its 9/6/2026 column. Benefit contributions, total contract costs, deductions and earlier columns are excluded.",
+    "steps": [
+      {
+        "period": "0-999 OJT hours",
+        "hourly_base": 19.75,
+        "percent": 40
+      },
+      {
+        "period": "1000-1999 OJT hours",
+        "hourly_base": 22.22,
+        "percent": 45
+      },
+      {
+        "period": "2000-3499 OJT hours",
+        "hourly_base": 23.7,
+        "percent": 48
+      },
+      {
+        "period": "3500-4999 OJT hours",
+        "hourly_base": 27.16,
+        "percent": 55
+      },
+      {
+        "period": "5000-6499 OJT hours",
+        "hourly_base": 32.1,
+        "percent": 65
+      },
+      {
+        "period": "6500-8000 OJT hours",
+        "hourly_base": 39.5,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "lincoln-265-inside-starting-october-2026",
+    "lu_number": "265",
+    "eta_program_id": "NE1590",
+    "sponsor": "Lincoln Electrical JATC",
+    "program_name": "Inside (Electrician) apprenticeship",
+    "source_url": "https://lincolnelectricaljatc.org/apprenticeship/",
+    "source_label": "Lincoln Electrical JATC current Inside apprentice starting wage chart",
+    "rate_kind": "starting_rate",
+    "starting_rate": "22.50",
+    "effective_date": "",
+    "as_of_date": "2026-10-15",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The JATC's live Current Wage and Benefits image directly prints $22.50/hour plus benefits for an Inside Apprentice. Only the starting hourly base rate is published. Installer Technician pay and total package amounts are excluded. The image has no visible effective date.",
+    "steps": []
+  },
+  {
+    "program_id": "modesto-684-inside-june-2026",
+    "lu_number": "684",
+    "eta_program_id": "CA0180",
+    "sponsor": "Central Valley Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://cvjatc684.org/wp-content/uploads/2026/06/CVJATC684_Wage-Sheet_6-26.pdf",
+    "source_label": "Central Valley JATC Inside apprentice wage chart June 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "23.85",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "53.00",
+    "rate_scope_note": "The JATC's signed wage and zones chart directly prints six Inside apprentice hourly rates. Zones B/C differ in daily per diem, not hourly base. The matching NorCal NECA Inside chart confirms validity through May 31, 2027. Benefits, total package and shift premiums are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 23.85,
+        "percent": 45
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 26.5,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 31.8,
+        "percent": 60
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 37.1,
+        "percent": 70
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 42.4,
+        "percent": 80
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 47.7,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "montgomery-443-inside-september-2026",
+    "lu_number": "443",
+    "eta_program_id": "AL0030",
+    "sponsor": "Montgomery Electrical JATC",
+    "program_name": "Journeyman Wireman apprenticeship",
+    "source_url": "https://ibew443.org/inside-wages",
+    "source_label": "IBEW Local 443 Inside Wages effective September 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "16.63",
+    "effective_date": "2026-09-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "33.25",
+    "rate_scope_note": "The Local 443 official Inside PDF directly prints six Apprentice WAGE amounts. Benefits, total packages, Construction Wireman and Construction Electrician classifications are excluded.",
+    "steps": [
+      {
+        "period": "1st 6 Months",
+        "hourly_base": 16.63,
+        "percent": 50
+      },
+      {
+        "period": "2nd 6 Months",
+        "hourly_base": 18.29,
+        "percent": 55
+      },
+      {
+        "period": "2nd Year",
+        "hourly_base": 19.95,
+        "percent": 60
+      },
+      {
+        "period": "3rd Year",
+        "hourly_base": 23.28,
+        "percent": 70
+      },
+      {
+        "period": "4th Year",
+        "hourly_base": 26.6,
+        "percent": 80
+      },
+      {
+        "period": "5th Year",
+        "hourly_base": 29.93,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "akron-306-inside-starting-june-2026",
+    "lu_number": "306",
+    "eta_program_id": "OH2070",
+    "sponsor": "Akron Area Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://electrifymyfuture.com/programs/inside-wireman-apprenticeship/",
+    "source_label": "Akron Area Electrical JATC Inside apprentice starting rate as of June 2026",
+    "rate_kind": "starting_rate",
+    "starting_rate": "21.04",
+    "effective_date": "",
+    "as_of_date": "2026-10-15",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The JATC explicitly publishes $21.04/hr as the starting Inside apprentice rate as of June 2026. It does not print the other five period dollar amounts. Residential, Construction Wireman, and third-party calculated rates are excluded.",
+    "steps": []
+  },
+  {
+    "program_id": "ventura-952-inside-zone-a-june-2026",
+    "lu_number": "952",
+    "eta_program_id": "CA0350",
+    "sponsor": "Ventura County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship, Zone A day shift",
+    "source_url": "https://www.ibewlu952.org/wages/2026-06-952-Inside-wage-rates.pdf",
+    "source_label": "Local 952 Inside Wiremen Zone A day-shift rates effective June 29, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "25.47",
+    "effective_date": "2026-06-29",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "56.59",
+    "rate_scope_note": "The Local and NECA Inside bulletin directly prints six Zone A day-shift apprentice Wage amounts. Zone B hourly premium and swing/graveyard shift rates are separate scopes and are not averaged or inferred. Benefits, deductions and Transportation Systems Technician are excluded.",
+    "steps": [
+      {
+        "period": "Period 1, 1st Year",
+        "hourly_base": 25.47,
+        "percent": 45
+      },
+      {
+        "period": "Period 2, 1st Year",
+        "hourly_base": 28.3,
+        "percent": 50
+      },
+      {
+        "period": "Period 3, 2nd Year",
+        "hourly_base": 31.12,
+        "percent": 55
+      },
+      {
+        "period": "Period 4, 3rd Year",
+        "hourly_base": 33.95,
+        "percent": 60
+      },
+      {
+        "period": "Period 5, 4th Year",
+        "hourly_base": 39.61,
+        "percent": 70
+      },
+      {
+        "period": "Period 6, 5th Year",
+        "hourly_base": 48.1,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "san-mateo-617-inside-first-year-october-2026",
+    "lu_number": "617",
+    "eta_program_id": "CA0290",
+    "sponsor": "San Mateo County Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://smjatc617.org/applications/",
+    "source_label": "San Mateo County JATC current first-year apprentice rate",
+    "rate_kind": "starting_rate",
+    "starting_rate": "30.80",
+    "effective_date": "",
+    "as_of_date": "2026-10-15",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The JATC's current applications page directly prints $30.80 per hour for first-year apprentices. Other period dollar amounts are not printed there; an expired 2025-2026 Local wage chart and third-party percentage calculations are excluded.",
+    "steps": []
+  },
+  {
+    "program_id": "ann-arbor-252-inside-june-2026",
+    "lu_number": "252",
+    "eta_program_id": "MI1220",
+    "sponsor": "Ann Arbor Electrical JATC",
+    "program_name": "Inside Commercial Wireman apprenticeship",
+    "source_url": "https://www.aaejatc.org/5-year-commercial",
+    "source_label": "Ann Arbor Electrical JATC Inside apprentice wage chart June 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "20.18",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "50.44",
+    "rate_scope_note": "The JATC's dated Inside Commercial chart directly prints six apprentice Base Rate amounts, separately from vacation, benefits and total package. The broad, undated $15 apprenticeship recruiting figure is excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 20.18,
+        "percent": 40
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 25.22,
+        "percent": 50
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 30.26,
+        "percent": 60
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 35.31,
+        "percent": 70
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 40.35,
+        "percent": 80
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 45.4,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "napa-solano-180-inside-june-2026",
+    "lu_number": "180",
+    "eta_program_id": "CA0340",
+    "sponsor": "Solano/Napa Counties Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship, default classification A ordinary Rate",
+    "source_url": "https://www.ibewlu180.org/Uploads/UploadedFiles/docs/Inside%202026-%202027%20expanded%20wages.pdf",
+    "source_label": "Local 180 Inside apprentice rates effective June 1, 2026-May 31, 2027",
+    "rate_kind": "progression",
+    "starting_rate": "28.71",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "63.81",
+    "rate_scope_note": "The Local-hosted current Inside sheet directly prints ten ordinary Rate column apprentice dollar amounts. Separate swing/graveyard shifts, optional pension/VEBA wage reductions, Residential, and Sound & Communication are excluded. The California DIR program profile's different starting figure lacks this sheet's effective period.",
+    "steps": [
+      {
+        "period": "Period 1",
+        "hourly_base": 28.71,
+        "percent": 45
+      },
+      {
+        "period": "Period 2",
+        "hourly_base": 30.63,
+        "percent": 48
+      },
+      {
+        "period": "Period 3",
+        "hourly_base": 32.54,
+        "percent": 51
+      },
+      {
+        "period": "Period 4",
+        "hourly_base": 34.46,
+        "percent": 54
+      },
+      {
+        "period": "Period 5",
+        "hourly_base": 36.37,
+        "percent": 57
+      },
+      {
+        "period": "Period 6",
+        "hourly_base": 38.29,
+        "percent": 60
+      },
+      {
+        "period": "Period 7",
+        "hourly_base": 41.48,
+        "percent": 65
+      },
+      {
+        "period": "Period 8",
+        "hourly_base": 44.67,
+        "percent": 70
+      },
+      {
+        "period": "Period 9",
+        "hourly_base": 47.86,
+        "percent": 75
+      },
+      {
+        "period": "Period 10",
+        "hourly_base": 51.05,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "elgin-117-inside-june-2026",
+    "lu_number": "117",
+    "eta_program_id": "IL0750",
+    "sponsor": "IBEW LU117 NECA JATC McHenry & N. Kane Counties",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.necachapters.org/docs/northeasternillinoischapterlibraries/default-document-library/117-inside-apprentice-june-202649f03eda-7514-4ab2-8df8-d152769cda73.pdf?sfvrsn=91e6b282_1",
+    "source_label": "Local 117 JATC Inside Apprentice Rates effective June 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "24.89",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The NECA-hosted Local 117 JATC chart directly prints six Inside Apprentice Hourly Wage amounts. Its 100% row is journey scale. Benefits, deductions, total packages, Residential, and VDV rates are excluded.",
+    "steps": [
+      {
+        "period": "Period 1, through 1,000 hours",
+        "hourly_base": 24.89,
+        "percent": 40
+      },
+      {
+        "period": "Period 2, 1,001-2,000 hours",
+        "hourly_base": 28.0,
+        "percent": 45
+      },
+      {
+        "period": "Period 3, 2,001-3,500 hours",
+        "hourly_base": 34.22,
+        "percent": 55
+      },
+      {
+        "period": "Period 4, 3,501-5,000 hours",
+        "hourly_base": 40.44,
+        "percent": 65
+      },
+      {
+        "period": "Period 5, 5,001-6,500 hours",
+        "hourly_base": 46.67,
+        "percent": 75
+      },
+      {
+        "period": "Period 6, 6,501-8,000 hours",
+        "hourly_base": 52.89,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "medford-659-inside-january-2026",
+    "lu_number": "659",
+    "eta_program_id": "OR2330",
+    "sponsor": "Crater Lake Electrical JATC",
+    "program_name": "Inside Electrician apprenticeship",
+    "source_url": "https://clejatc.org/wp-content/uploads/2026/09/PAYRATES.pdf",
+    "source_label": "Crater Lake Electrical JATC Inside pay rates as of January 1, 2026",
+    "rate_kind": "progression",
+    "starting_rate": "21.17",
+    "effective_date": "",
+    "as_of_date": "2026-01-01",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "47.04",
+    "rate_scope_note": "The JATC's current linked chart directly prints eight Inside apprentice hourly dollar amounts. The separate Residential and Limited Energy rates are excluded. No rates are calculated from percentages.",
+    "steps": [
+      {
+        "period": "1st, 0 hours",
+        "hourly_base": 21.17,
+        "percent": 45
+      },
+      {
+        "period": "2nd, 1,000 hours",
+        "hourly_base": 23.52,
+        "percent": 50
+      },
+      {
+        "period": "3rd, 2,000 hours",
+        "hourly_base": 25.87,
+        "percent": 55
+      },
+      {
+        "period": "4th, 3,000 hours",
+        "hourly_base": 28.22,
+        "percent": 60
+      },
+      {
+        "period": "5th, 4,000 hours",
+        "hourly_base": 30.58,
+        "percent": 65
+      },
+      {
+        "period": "6th, 5,000 hours",
+        "hourly_base": 32.93,
+        "percent": 70
+      },
+      {
+        "period": "7th, 6,000 hours",
+        "hourly_base": 35.28,
+        "percent": 75
+      },
+      {
+        "period": "8th, 7,000 hours",
+        "hourly_base": 37.63,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "green-bay-158-inside-may-2026",
+    "lu_number": "158",
+    "eta_program_id": "WI3080",
+    "sponsor": "Northeast WI Area Electrical JATC",
+    "program_name": "Electrical Construction Inside apprenticeship",
+    "source_url": "https://www.ibew158.com/05-30-26%20to%2005-29-27%20INSIDE%20Blitz%20wage%20sheets.pdf",
+    "source_label": "IBEW Local 158 Inside apprentice Base Rates May 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "21.98",
+    "effective_date": "2026-05-30",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "43.95",
+    "rate_scope_note": "The Local-hosted current Inside PDF directly prints six Apprentice Base Rate amounts. Its 7000-hour boundary is transcribed as printed. The separate CW/CE and Limited Energy rates, benefits and package totals are excluded; no rate is inferred from percentages.",
+    "steps": [
+      {
+        "period": "1st Pay Period, 0-1500 hours",
+        "hourly_base": 21.98,
+        "percent": 50
+      },
+      {
+        "period": "2nd Pay Period, 1501-3000 hours",
+        "hourly_base": 24.17,
+        "percent": 55
+      },
+      {
+        "period": "3rd Pay Period, 3001-4500 hours",
+        "hourly_base": 26.37,
+        "percent": 60
+      },
+      {
+        "period": "4th Pay Period, 4501-6000 hours",
+        "hourly_base": 28.57,
+        "percent": 65
+      },
+      {
+        "period": "5th Pay Period, 6001-7000 hours",
+        "hourly_base": 30.77,
+        "percent": 70
+      },
+      {
+        "period": "6th Pay Period, 7000-8000 hours",
+        "hourly_base": 32.96,
+        "percent": 75
+      }
+    ]
+  },
+  {
+    "program_id": "kalamazoo-131-inside-june-2026",
+    "lu_number": "131",
+    "eta_program_id": "MI1300",
+    "sponsor": "Kalamazoo Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://media.linkedunion.com/ibew131/file-manager/131InsideWiremanWageSheet20262027.pdf",
+    "source_label": "Kalamazoo Local 131 Inside Wireman apprentice rates June 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "19.94",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "44.30",
+    "rate_scope_note": "The Local-linked current NECA/IBEW Inside sheet directly prints six apprentice dollar wages. CE/CW, VDV, Residential, benefits, deductions, and an expired journey sheet are excluded.",
+    "steps": [
+      {
+        "period": "1st Period",
+        "hourly_base": 19.94,
+        "percent": 45
+      },
+      {
+        "period": "2nd Period",
+        "hourly_base": 24.37,
+        "percent": 55
+      },
+      {
+        "period": "3rd Period",
+        "hourly_base": 26.58,
+        "percent": 60
+      },
+      {
+        "period": "4th Period",
+        "hourly_base": 28.8,
+        "percent": 65
+      },
+      {
+        "period": "5th Period",
+        "hourly_base": 31.01,
+        "percent": 70
+      },
+      {
+        "period": "6th Period",
+        "hourly_base": 35.44,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "southern-illinois-702-inside-june-2026",
+    "lu_number": "702",
+    "eta_program_id": "IL0830",
+    "sponsor": "Southern Illinois Div. Ch. NECA-IBEW LU 702 JATC",
+    "program_name": "Southern Illinois Division Inside Wireman apprenticeship",
+    "source_url": "https://ibew702.org/wp-content/uploads/2026/05/26-June-2026-December-2026.pdf",
+    "source_label": "IBEW Local 702 Southern Illinois Division Inside wage sheet June-December 2026",
+    "rate_kind": "progression",
+    "starting_rate": "27.88",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "55.76",
+    "rate_scope_note": "Local 702 Southern Illinois Division Inside Labor Agreement only. The scanned Local-hosted chart directly prints six apprentice Base Wage dollar rows, including equal first and second steps. Advancement also requires school progress. Benefits, deductions and total package are excluded.",
+    "steps": [
+      {
+        "period": "0-1000 hours",
+        "hourly_base": 27.88,
+        "percent": 50
+      },
+      {
+        "period": "1001-2000 hours + satisfactory progress",
+        "hourly_base": 27.88,
+        "percent": 50
+      },
+      {
+        "period": "2001-3500 hours + 1st year school",
+        "hourly_base": 30.67,
+        "percent": 55
+      },
+      {
+        "period": "3501-5000 hours + 2nd year school",
+        "hourly_base": 36.24,
+        "percent": 65
+      },
+      {
+        "period": "5001-6500 hours + 3rd year school",
+        "hourly_base": 41.82,
+        "percent": 75
+      },
+      {
+        "period": "6501-8000 hours + satisfactory progress",
+        "hourly_base": 50.18,
+        "percent": 90
+      }
+    ]
+  },
+  {
+    "program_id": "cedar-rapids-405-inside-starting-october-2026",
+    "lu_number": "405",
+    "eta_program_id": "IA0950",
+    "sponsor": "Cedar Rapids Electrical Apprenticeship Training and Educational Trust",
+    "program_name": "Inside Electrician apprenticeship",
+    "source_url": "https://www.crejatc.org/inside-electrician",
+    "source_label": "Cedar Rapids Electrical JATC Inside Electricians starting wage",
+    "rate_kind": "starting_rate",
+    "starting_rate": "21.13",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "44.48",
+    "rate_scope_note": "The JATC's live Inside page directly prints $21.13/hour as the apprentice starting wage, separately from pension and health contributions. Its six later increases have no printed dollar amounts and are not inferred. The separate Residential and Telecommunications rates are excluded. The source has no explicit wage date and requires review within 30 days.",
+    "steps": []
+  },
+  {
+    "program_id": "aurora-461-inside-june-2026",
+    "lu_number": "461",
+    "eta_program_id": "IL0680",
+    "sponsor": "NECA-IBEW Local Union 461 JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.necachapters.org/docs/northeasternillinoischapterlibraries/default-document-library/461-inside-apprentice-june-2026784e63b7-bae3-44c2-a454-c85b2157a1cf.pdf?sfvrsn=e88446d2_1",
+    "source_label": "NECA-IBEW Local 461 JATC Inside apprentice wage package June 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "25.66",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "64.16",
+    "rate_scope_note": "Official NECA chapter chart directly prints six Inside apprentice Hourly Wage figures. Period 1 is $25.66; $28.87 is Period 2. Benefits, total package, VDV, Residential and old Local-hosted 2022 chart are excluded.",
+    "steps": [
+      {
+        "period": "1st Period, 1st year",
+        "hourly_base": 25.66,
+        "percent": 40
+      },
+      {
+        "period": "2nd Period, 1st year",
+        "hourly_base": 28.87,
+        "percent": 45
+      },
+      {
+        "period": "3rd Period, 2nd year",
+        "hourly_base": 35.29,
+        "percent": 55
+      },
+      {
+        "period": "4th Period, 3rd year",
+        "hourly_base": 41.7,
+        "percent": 65
+      },
+      {
+        "period": "5th Period, 4th year",
+        "hourly_base": 48.12,
+        "percent": 75
+      },
+      {
+        "period": "6th Period, 5th year",
+        "hourly_base": 54.54,
+        "percent": 85
+      }
+    ]
+  },
+  {
+    "program_id": "newark-1105-inside-june-2026",
+    "lu_number": "1105",
+    "eta_program_id": "OH2190",
+    "sponsor": "Newark Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://drive.google.com/file/d/1cSYUya5XHq7QSZBl5TtROraiWbKw0s5g/view",
+    "source_label": "Newark Electrical JATC Inside + NMA wage chart June 2026-May 2027",
+    "rate_kind": "progression",
+    "starting_rate": "22.34",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "44.67",
+    "rate_scope_note": "The official JATC chart linked from Local 1105 directly prints six Inside apprentice Hourly Rate--Wage dollars. Pension, health, and Total Package per Hour are excluded.",
+    "steps": [
+      {
+        "period": "1st App",
+        "hourly_base": 22.34,
+        "percent": 50
+      },
+      {
+        "period": "2nd App",
+        "hourly_base": 22.34,
+        "percent": 50
+      },
+      {
+        "period": "3rd App",
+        "hourly_base": 24.57,
+        "percent": 55
+      },
+      {
+        "period": "4th App",
+        "hourly_base": 29.04,
+        "percent": 65
+      },
+      {
+        "period": "5th App",
+        "hourly_base": 31.27,
+        "percent": 70
+      },
+      {
+        "period": "6th App",
+        "hourly_base": 35.74,
+        "percent": 80
+      }
+    ]
+  },
+  {
+    "program_id": "mansfield-688-inside-live-october-2026",
+    "lu_number": "688",
+    "eta_program_id": "OH2170",
+    "sponsor": "Mansfield Area Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://ibew688.org/training/",
+    "source_label": "IBEW Local 688 live Inside Wireman apprentice wage page",
+    "rate_kind": "progression",
+    "starting_rate": "20.50",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "41.00",
+    "rate_scope_note": "Live official Local page directly prints six Inside Wireman apprentice On Check hourly base dollars, but no wage effective date. Recheck within 30 days. Total package, benefits, Installer Technician, and third-party calculated pay are excluded.",
+    "steps": [
+      {
+        "period": "Period 1, 0-1000 OJT hours",
+        "hourly_base": 20.5
+      },
+      {
+        "period": "Period 2, 1000 OJT hours",
+        "hourly_base": 22.55
+      },
+      {
+        "period": "Period 3, 2000 OJT hours",
+        "hourly_base": 24.6
+      },
+      {
+        "period": "Period 4, 3500 OJT hours",
+        "hourly_base": 26.65
+      },
+      {
+        "period": "Period 5, 5000 OJT hours",
+        "hourly_base": 30.75
+      },
+      {
+        "period": "Period 6, 6500 OJT hours",
+        "hourly_base": 34.85
+      }
+    ]
+  },
+  {
+    "program_id": "youngstown-64-inside-live-october-2026",
+    "lu_number": "64",
+    "eta_program_id": "OH2270",
+    "sponsor": "Youngstown Area Electrical JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://yjatc.org/faq/",
+    "source_label": "Youngstown Electrical JATC live Inside Program starting wage FAQ",
+    "rate_kind": "starting_rate",
+    "starting_rate": "16.59",
+    "effective_date": "",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "",
+    "rate_scope_note": "The official JATC FAQ directly prints $16.59 as the Inside starting wage, separately from the $15.43 Residential starting wage. Its pay effective date is unstated; recheck within 30 days. Later six-month period dollars are not published or inferred. The NORA CW/CE schedule and third-party 45% calculations are excluded.",
+    "steps": []
+  },
+  {
+    "program_id": "bloomington-197-inside-june-2026",
+    "lu_number": "197",
+    "eta_program_id": "IL0690",
+    "sponsor": "Bloomington/Normal JATC",
+    "program_name": "Inside Wireman apprenticeship",
+    "source_url": "https://www.ibew197.org/Uploads/UploadedFiles/wage%20ratesNew%20Folder/NECA%20Inside%20June%202026.pdf",
+    "source_label": "IBEW Local 197 Inside NECA wage sheet June-November 2026",
+    "rate_kind": "progression",
+    "starting_rate": "21.60",
+    "effective_date": "2026-06-01",
+    "as_of_date": "",
+    "verified_on": "2026-10-15",
+    "journeyman_base": "48.00",
+    "rate_scope_note": "Local-hosted current Inside agreement directly prints six regular CBA Apprentice Base Wage dollar rates. Prevailing Wage Rate Sample Calculations, total package, telecom, residential, and CW/CE schedules are excluded.",
+    "steps": [
+      {
+        "period": "0-1000 Hours",
+        "hourly_base": 21.6,
+        "percent": 45
+      },
+      {
+        "period": "1001-2000 Hours",
+        "hourly_base": 24.0,
+        "percent": 50
+      },
+      {
+        "period": "2001-3500 Hours",
+        "hourly_base": 26.4,
+        "percent": 55
+      },
+      {
+        "period": "3501-5000 Hours",
+        "hourly_base": 31.2,
+        "percent": 65
+      },
+      {
+        "period": "5001-6500 Hours",
+        "hourly_base": 36.0,
+        "percent": 75
+      },
+      {
+        "period": "6501-8000 Hours",
+        "hourly_base": 40.8,
+        "percent": 85
+      }
+    ]
+  }
+]

@@ -476,6 +476,7 @@ def compute_status(record, today=None):
     dated_windows = [
         w for w in windows
         if w.get("precision") == "absolute" and _parse_date(w.get("open_date"))
+        and not is_suspect_window(w, today=today)[0]
     ]
 
     # ---- round 5, task 3: every statement passes through the admissibility
@@ -2865,6 +2866,43 @@ class TestRound8NextCloseDateFromResolvedWindow(unittest.TestCase):
         }
         result = compute_status(record, today=self.TODAY)
         self.assertNotEqual(result["next_open_date"], result["next_close_date"])
+
+
+class TestRound4cCrawlWindowQuality(unittest.TestCase):
+    TODAY = datetime.date(2026, 10, 13)
+
+    def test_closed_label_is_not_an_open_window(self):
+        record = {
+            "windows": [{"precision": "absolute", "open_date": "2026-07-06",
+                         "close_date": "", "evidence_quote": "July 6 (Application Window Closed)"}],
+            "status_statements": [{"statement_type": "closed",
+                                   "verbatim_text": "Applications are closed."}],
+        }
+        self.assertEqual(compute_status(record, today=self.TODAY)["computed_status"], "closed")
+
+    def test_struck_dates_do_not_override_future_window(self):
+        record = {
+            "windows": [
+                {"precision": "absolute", "open_date": "2026-08-04", "close_date": "",
+                 "evidence_quote": "~~August 4 2026~~"},
+                {"precision": "absolute", "open_date": "2026-12-01", "close_date": "",
+                 "evidence_quote": "December 1, 2026"},
+            ],
+            "status_statements": [{"statement_type": "closed",
+                                   "verbatim_text": "The 2026 recruitment period has closed."}],
+        }
+        self.assertEqual(compute_status(record, today=self.TODAY)["computed_status"], "closed_pending")
+
+    def test_resume_date_in_closed_statement_is_not_close_date(self):
+        record = {
+            "windows": [{"precision": "absolute", "open_date": "2027-02-01", "close_date": "",
+                         "evidence_quote": "APPLICATIONS WILL RESUME FEBRUARY 2027"}],
+            "status_statements": [{"statement_type": "closed",
+                                   "verbatim_text": "APPLICATIONS ARE CLOSED FOR 2026. APPLICATIONS WILL RESUME FEBRUARY 2027."}],
+        }
+        result = compute_status(record, today=self.TODAY)
+        self.assertEqual(result["computed_status"], "closed_pending")
+        self.assertEqual(result["next_close_date"], "")
 
 
 if __name__ == "__main__":

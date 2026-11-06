@@ -10,9 +10,9 @@ import csv
 import json
 import sys
 import os
-from datetime import date, datetime
+import hashlib
+from datetime import date, datetime, timedelta
 from collections import Counter, defaultdict
-from statistics import mean
 
 from compute_status import compute_status
 from city_coords import CITY_COORDS
@@ -66,9 +66,8 @@ extraction = {r["lu_number"]: r for r in load("out/extraction_v2.csv")}
 olms = {r["local_union_id"]: r for r in load("out/locals_joined_olms.csv")}
 zip_rows = load("out/zip_to_local.csv")
 jurisdictions = load("out/jurisdictions.csv")
-# Davis-Bacon remains the journeyman source. Apprentice pay has its own source
-# precedence below: a reviewed local-published schedule, RAPIDS registration
-# wages, then a Davis-Bacon-derived percentage where one already exists.
+# Davis-Bacon remains the journeyman source. Candidate-facing apprentice pay
+# comes only from a verified, named training program schedule.
 davisbacon_wages = {}
 if os.path.exists("out/local_wage_davisbacon.csv"):
     for r in load("out/local_wage_davisbacon.csv"):
@@ -80,57 +79,39 @@ if os.path.exists("out/local_wage_davisbacon.csv"):
                 and r.get("journeyman_base_low") and not implausible):
             davisbacon_wages[r["lu_number"]] = r
 
-published_apprentice_wages = {}
-if os.path.exists("out/wage_reconciled.csv"):
-    for r in load("out/wage_reconciled.csv"):
-        # Only the existing display tier is trusted as a local-published
-        # schedule. Review/reject rows remain audit material until validated.
-        if r.get("tier") == "display" and r.get("apprentice_start_hourly"):
-            source_file = r.get("source_file", "")
-            published_apprentice_wages[r["lu_number"]] = {
-                "kind": "jatc_published",
-                "start_hourly_low": r["apprentice_start_hourly"],
-                "start_hourly_high": r["apprentice_start_hourly"],
-                "start_pct": r.get("apprentice_start_pct", ""),
-                "top_pct": r.get("apprentice_top_pct", ""),
-                "effective_date": r.get("effective_date", ""),
-                "effective_precision": r.get("effective_date_precision", ""),
-                "source": wage_source_url(source_file),
-                "source_label": "Local-published apprenticeship wage schedule",
-                "program_names": "",
-                "record_count": "",
-            }
-
-rapids_apprentice_wages = {}
-if os.path.exists("out/rapids_apprentice_wages.csv"):
-    for r in load("out/rapids_apprentice_wages.csv"):
-        rapids_apprentice_wages[r["lu_number"]] = r
-
-# National fallback benchmark. It is the arithmetic mean of the available
-# local-level apprentice medians/start rates, never a Davis-Bacon journeyman
-# average. Keep the sample size in the payload so the UI can explain exactly
-# what the number is (and what it is not).
-displayable_lus = {
-    t["lu_number"] for t in targets
-    if float(t.get("population_current_served_inside") or 0) > 0
-}
-benchmark_values = {}
-for lu, r in rapids_apprentice_wages.items():
-    if lu in displayable_lus and r.get("apprentice_start_hourly_median"):
-        benchmark_values[lu] = float(r["apprentice_start_hourly_median"])
-for lu, r in published_apprentice_wages.items():
-    if lu in displayable_lus and r.get("start_hourly_low"):
-        benchmark_values[lu] = float(r["start_hourly_low"])
-national_apprentice_average = mean(benchmark_values.values()) if benchmark_values else None
-national_apprentice_wage = {
-    "kind": "national_average",
-    "start_hourly_low": f"{national_apprentice_average:.2f}" if national_apprentice_average is not None else "",
-    "start_hourly_high": f"{national_apprentice_average:.2f}" if national_apprentice_average is not None else "",
-    "effective_date": "2026-08-17",
-    "source": "https://www.apprenticeship.gov/help/what-rapids",
-    "source_label": "National apprentice-wage benchmark",
-    "sample_local_count": str(len(benchmark_values)),
-}
+with open("out/verified_program_wages.json", encoding="utf-8") as f:
+    verified_program_wages = json.load(f)
+program_wages_by_lu = defaultdict(list)
+for schedule in verified_program_wages:
+    program_wages_by_lu[schedule["lu_number"]].append(schedule)
+with open("out/apprentice_wage_estimates.json", encoding="utf-8") as f:
+    apprentice_estimate_data = json.load(f)
+for source, key in (("out/verified_program_wages_summary.csv", "verified_wage_summary_sha256"),
+                    ("out/program_research_ledger.csv", "research_ledger_sha256")):
+    with open(source, "rb") as stream:
+        source_hash = hashlib.sha256(stream.read()).hexdigest()
+    if source_hash != apprentice_estimate_data.get(key):
+        raise ValueError(f"Apprentice estimates are stale after {source} changed; rebuild them first")
+apprentice_estimates_by_lu = {item["lu_number"]: item for item in apprentice_estimate_data["estimates"]}
+with open("out/verified_training_centers.json", encoding="utf-8") as f:
+    verified_training_centers = json.load(f)
+training_centers_by_lu = defaultdict(list)
+for center in verified_training_centers:
+    training_centers_by_lu[center["lu_number"]].append(center)
+with open("data/verified_program_applications.json", encoding="utf-8") as f:
+    reviewed_applications = json.load(f)
+applications_by_lu = defaultdict(list)
+for application in reviewed_applications:
+    reviewed = date.fromisoformat(application["verified_on"])
+    expires = date.fromisoformat(application["valid_through"])
+    center_ids = {center["eta_program_id"] for center in training_centers_by_lu[application["lu_number"]]}
+    if application["eta_program_id"] not in center_ids:
+        raise ValueError(f'{application["program_id"]}: application center/local relationship not reviewed')
+    if reviewed > date.today() or expires < reviewed or expires - reviewed > timedelta(days=14):
+        raise ValueError(f'{application["program_id"]}: invalid application review dates')
+    if (application["status"] == "open" and reviewed <= date.today() <= expires
+            and date.today() <= date.fromisoformat(application["close_by"])):
+        applications_by_lu[application["lu_number"]].append(application)
 recovered_apps = {}
 if os.path.exists("out/application_url_candidates.csv"):
     for r in load("out/application_url_candidates.csv"):
@@ -145,17 +126,18 @@ if os.path.exists("out/application_url_candidates.csv"):
 # to be that specific local's own program -- showing its raw Active-apprentice
 # count as if it were that local's own number is exactly the failure mode
 # that got RAPIDS_DISPLAY turned off last round. Behind RAPIDS_DISPLAY in the
-# template.
+# template. Reviewed override matches have the same confirmed status, only
+# when the program state's coverage classification is FULL.
 rapids_kpi = {}
 if os.path.exists("out/rapids_kpi_by_lu.csv"):
     for r in load("out/rapids_kpi_by_lu.csv"):
-        if r.get("match_type") == "lu_number_match":
+        if r.get("match_type") in ("lu_number_match", "override"):
             rapids_kpi[r["lu_number"]] = r
 
 # Peer-based estimated annual intake (out/rapids_intake_estimate_by_lu.csv,
 # rapids_intake_estimate.py) -- confirmed tier for the 58 name-matched locals
-# (their own reported figure), estimated tier (bin median, rounded) for every
-# other local with a jurisdiction population, not_published otherwise.
+# (their own reported figure), estimated tier (membership-scaled median,
+# rounded) for other locals with a membership figure, not_published otherwise.
 intake_by_lu = {}
 if os.path.exists("out/rapids_intake_estimate_by_lu.csv"):
     for r in load("out/rapids_intake_estimate_by_lu.csv"):
@@ -258,13 +240,13 @@ for r in jurisdictions:
 for t in targets:
     lid, lu = t["local_union_id"], t["lu_number"]
 
-    # Task 1 (frontend round): a target with zero inside counties/population
-    # is an outside/utility local misclassified as inside-wireman (e.g. LU 111
-    # Denver -- trade_classes lists 'i' but every jurisdiction row is type 'O').
-    # Never offer these for an inside apprenticeship. See
-    # out/target_classification_audit.csv for the full audit.
+    # A zero-population jurisdiction is normally an outside/utility target.
+    # A confirmed Inside training-center relationship overrides that geographic
+    # exclusion: Local 111's Western Colorado JATC is real, but county coverage
+    # is missing from this data source. Do not imply its service area is empty.
     inside_pop = int(float(t["population_current_served_inside"] or 0))
-    if inside_county_counts.get(lid, 0) == 0 or inside_pop == 0:
+    jurisdiction_unknown = inside_county_counts.get(lid, 0) == 0 or inside_pop == 0
+    if jurisdiction_unknown and not training_centers_by_lu.get(lu):
         excluded_no_inside.append((lu, t["charter_city"], t["charter_state"], inside_pop))
         continue
 
@@ -311,6 +293,22 @@ for t in targets:
         contact_email, contact_phone = recommended_contact(lu)
         aptitude = min_age = min_edu = ""
 
+    # A recently checked, named JATC application supersedes an older local-
+    # level crawl. It expires quickly because caps can close intake early.
+    program_application = applications_by_lu.get(lu, [])
+    training_centers = training_centers_by_lu.get(lu, [])
+    if len(training_centers) == 1:
+        jatc = training_centers[0]["organization"]
+    if program_application:
+        current = program_application[0]
+        cs["computed_status"] = "open"
+        cs["status_confidence"] = "high"
+        cs["next_close_date"] = ""  # a stated cap can close before the date
+        cs["days_since_evidence"] = (date.today() - date.fromisoformat(current["verified_on"])).days
+        quote = f'{current["program_name"]}: applications open; may close by {current["close_by"]} or earlier.'
+        src = current["source_url"]
+        app_url = current.get("application_url") or current["source_url"]
+
     status_counts[cs["computed_status"]] += 1
     o = olms.get(lid, {})
     cl = sorted(counties.get(lid, []), key=lambda c: -(c["pop"] or 0))
@@ -324,10 +322,12 @@ for t in targets:
         "lat": coords[0],
         "lon": coords[1],
         "pop": int(float(t["population_current_served_inside"] or 0)),
+        "jurisdiction_unknown": jurisdiction_unknown,
         "rank": int(float(t["rank_current"])) if t.get("rank_current") else None,
         "members": int(float(o["olms_members"])) if o.get("olms_members") else None,
         "website": clean_optional(t.get("website", "")),
         "jatc": jatc,
+        "training_centers": training_centers,
         "status": cs["computed_status"],
         "conf": cs["status_confidence"],
         "pattern": cs.get("intake_pattern", "") or "",
@@ -338,6 +338,7 @@ for t in targets:
         "src": src,
         "app_url": app_url,
         "app_url_recovered": app_url_recovered,
+        "program_applications": program_application,
         "monitor_days_since_change": monitor_days.get(lid),
         "email": contact_email,
         "phone": contact_phone,
@@ -349,8 +350,11 @@ for t in targets:
         "zip_n": len(zips_by_local.get(lid, ())),
         "meets": t.get("meets", ""),
     })
-    kpi = rapids_kpi.get(lu)
+    intake = intake_by_lu.get(lu)
+    kpi = rapids_kpi.get(lu) if intake and intake.get("tier") == "confirmed" else None
     if kpi:
+        fy2022 = int(float(kpi["new_apprentices_fy2022"]))
+        fy2025 = int(float(kpi["new_apprentices"]))
         locals_out[-1]["rapids_kpi"] = {
             "active": int(float(kpi["active_apprentices"])),
             "new": int(float(kpi["new_apprentices"])),
@@ -358,14 +362,22 @@ for t in targets:
             "period_end": kpi["period_end"],
             "prog_name": kpi.get("prog_name", ""),
         }
+        if fy2022 >= 10:
+            locals_out[-1]["intake_trend"] = {
+                "fy2022": fy2022, "fy2025": fy2025,
+                "pct_change": round((fy2025 / fy2022 - 1) * 100),
+            }
 
-    intake = intake_by_lu.get(lu)
     if intake and intake.get("tier") in ("confirmed", "estimated"):
         locals_out[-1]["intake"] = {
             "tier": intake["tier"],
             "value": int(float(intake["value"])),
             "period_start": intake["period_start"],
             "period_end": intake["period_end"],
+        }
+    elif intake and intake.get("tier") == "coverage_incomplete":
+        locals_out[-1]["intake"] = {
+            "tier": "coverage_incomplete", "state": intake["incomplete_state"]
         }
     locals_out[-1]["intake_tier"] = intake["tier"] if intake else "not_published"
     tier_counts["intake_tier"][locals_out[-1]["intake_tier"]] += 1
@@ -376,10 +388,6 @@ for t in targets:
         wd_revision = wage.get("source_wd_modification", "")
         locals_out[-1]["wage"] = {
             "kind": "davis_bacon",
-            "start_hourly_low": wage.get("apprentice_start_hourly_low", ""),
-            "start_hourly_high": wage.get("apprentice_start_hourly_high", ""),
-            "start_pct": wage.get("apprentice_start_pct", ""),
-            "top_pct": wage.get("apprentice_top_pct", ""),
             "base_low": wage.get("journeyman_base_low", ""),
             "base_high": wage.get("journeyman_base_high", ""),
             "fringe_low": wage.get("fringe_low", ""),
@@ -392,55 +400,23 @@ for t in targets:
             "source": f"https://sam.gov/wage-determination/{wd_number}/{wd_revision}" if wd_number and wd_revision else "",
             "classification_code": wage.get("selected_classification_code", ""),
             "classification_text": wage.get("selected_classification_text", ""),
-            "apprentice_pay_is_derived": wage.get("apprentice_pay_is_derived") == "true",
         }
 
-    # Source precedence for the candidate-facing apprentice figure. This is
-    # deliberately separate from the journeyman wage object because RAPIDS is
-    # a registration-time observation, not a current CBA scale.
-    apprentice = published_apprentice_wages.get(lu)
-    if apprentice:
-        locals_out[-1]["apprentice_wage"] = apprentice
-    else:
-        rapids = rapids_apprentice_wages.get(lu)
-        if rapids:
-            locals_out[-1]["apprentice_wage"] = {
-                "kind": "rapids_registration",
-                "start_hourly_low": rapids.get("apprentice_start_hourly_median", ""),
-                "start_hourly_high": rapids.get("apprentice_start_hourly_median", ""),
-                "observed_low": rapids.get("apprentice_start_hourly_low", ""),
-                "observed_high": rapids.get("apprentice_start_hourly_high", ""),
-                "effective_date": rapids.get("data_as_of", ""),
-                "source": rapids.get("source_url", ""),
-                "source_label": "DOL RAPIDS registration-time wage",
-                "program_names": rapids.get("program_names", ""),
-                "record_count": rapids.get("valid_wage_records", ""),
-            }
-        elif wage and wage.get("apprentice_pay_is_derived") and wage.get("apprentice_start_hourly_low"):
-            locals_out[-1]["apprentice_wage"] = {
-                "kind": "davis_bacon_derived",
-                "start_hourly_low": wage.get("apprentice_start_hourly_low", ""),
-                "start_hourly_high": wage.get("apprentice_start_hourly_high", ""),
-                "start_pct": wage.get("apprentice_start_pct", ""),
-                "top_pct": wage.get("apprentice_top_pct", ""),
-                "effective_date": wage.get("effective_date", ""),
-                "source": wage.get("source", ""),
-                "source_label": "Davis-Bacon-derived apprentice estimate",
-                "program_names": "",
-                "record_count": "",
-            }
-    if "apprentice_wage" not in locals_out[-1] and national_apprentice_average is not None:
-        locals_out[-1]["apprentice_wage"] = national_apprentice_wage
+    # Only a reviewed schedule for a named program is candidate-facing pay.
+    # Historical RAPIDS registrations and Davis-Bacon-derived apprentice
+    # estimates remain in their audit files, never in local wage tiles.
+    locals_out[-1]["program_wages"] = program_wages_by_lu.get(lu, [])
+    estimate = apprentice_estimates_by_lu.get(lu)
+    if estimate and locals_out[-1]["program_wages"]:
+        raise ValueError(f"Local {lu}: estimated pay conflicts with verified wage")
+    if estimate:
+        locals_out[-1]["apprentice_wage_estimate"] = estimate
 
-    # Task 8: every displayed value carries a tier, as a field rather than
-    # implied by copy -- confirmed / national_fallback / not_published.
-    # (estimated arrives with the peer-based intake model next round.)
+    # Every displayed value carries a tier, as a field rather than copy alone.
     locals_out[-1]["wage_tier"] = "confirmed" if locals_out[-1].get("wage") else "not_published"
-    aw = locals_out[-1].get("apprentice_wage")
     locals_out[-1]["apprentice_wage_tier"] = (
-        "not_published" if not aw
-        else "national_fallback" if aw.get("kind") == "national_average"
-        else "confirmed"
+        "verified_program" if locals_out[-1]["program_wages"] else
+        "model_estimate" if estimate else "not_published"
     )
     locals_out[-1]["window_tier"] = (
         "confirmed" if locals_out[-1].get("status") not in (None, "", "unknown") else "not_published"
@@ -545,7 +521,7 @@ print()
 print(f"Coverage summary (provenance tier by field, of {len(locals_out)} locals):")
 for field in sorted(tier_counts):
     counts = tier_counts[field]
-    parts = ", ".join(f"{tier}={counts[tier]}" for tier in ("confirmed", "estimated", "national_fallback", "not_published") if counts[tier])
+    parts = ", ".join(f"{tier}={count}" for tier, count in sorted(counts.items()) if count)
     print(f"  {field}: {parts}")
 import os
 print(f"bundle size: {os.path.getsize('out/frontend_data.json')/1024:.0f} KB")

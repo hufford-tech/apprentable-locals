@@ -182,7 +182,8 @@ _CLOSED_CUE_RE = re.compile(
 )
 _REOPEN_CUE_RE = re.compile(
     r"reopen|next\s+(application\s+)?period\s+(will\s+)?begin|"
-    r"will\s+begin\s+accepting|next\s+term\s+will\s+be\s+announced",
+    r"will\s+begin\s+accepting|applications\s+will\s+resume|"
+    r"next\s+term\s+will\s+be\s+announced",
     re.IGNORECASE,
 )
 _NEGATED_OPEN_RE = re.compile(

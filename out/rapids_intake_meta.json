@@ -1,14 +1,22 @@
 {
-  "model": "members_linear_capped",
-  "median_intake": 40.0,
-  "median_members": 798.0,
-  "cap": 214.39999999999992,
-  "band": "under_35",
-  "mdape": 33.8,
-  "p25_error": 14.4,
-  "p75_error": 52.8,
-  "rounding": 5,
-  "caveat": "standard",
-  "validation_n": 53,
+  "model": "members_linear_no_cap",
+  "median_intake": 49.0,
+  "median_members": 825.0,
+  "cap": null,
+  "cap_comparison_mdape": {
+    "no_cap": 36.4,
+    "reference_max": 36.4,
+    "p95": 36.4
+  },
+  "band": "35_to_60",
+  "mdape": 36.4,
+  "p25_error": 22.5,
+  "p75_error": 68.7,
+  "rounding": 10,
+  "caveat": "strong",
+  "validation_n": 59,
+  "reference_n": 141,
+  "reference_exclusions_n": 5,
+  "coverage_gate": "full_or_partial_registered_min5_and_1pct_members;unreliable_hidden",
   "rapids_display_default": true
 }

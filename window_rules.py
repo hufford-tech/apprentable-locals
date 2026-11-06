@@ -65,6 +65,9 @@ def is_suspect_window(w, today=None):
     if any(k in combined for k in CLOSURE_WORDS):
         reasons.append("relative_description_is_closure")
 
+    if "~~" in evidence or "<del>" in evidence.lower():
+        reasons.append("struck_through_date")
+
     if _TESTING_SCHEDULE_RE.search(combined):
         reasons.append("testing_schedule_not_application")
 
