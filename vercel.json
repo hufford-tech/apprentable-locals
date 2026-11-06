@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "zip"
+        }
+      ],
+      "destination": "https://app.apprentable.org/resources/find-your-local",
+      "statusCode": 301
+    }
+  ]
+}

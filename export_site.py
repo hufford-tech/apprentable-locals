@@ -26,10 +26,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "site"
 
-VERCEL_CONFIG = {
-    "cleanUrls": True,
-    "trailingSlash": False,
-}
+VERCEL_CONFIG = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
 
 NOINDEX_HEADERS = [
     {
