@@ -1,11 +1,8 @@
 """Emit site/locals/<slug>.html, one static SEO page per surviving local, plus
 site/index.html (the finder), site/sitemap.xml, site/robots.txt (frontend task 5).
 
-TRADEMARK NOTE: whether "IBEW" can appear in a domain name or product name is
-unresolved. Descriptive use in a page title ("IBEW Local 134 Apprenticeship")
-is a different legal question from using it as a brand name, and neither has
-been cleared. This script does not pick a domain -- SITE_BASE_URL below is a
-placeholder for canonical/OG tags and must be replaced before any real deploy.
+SITE_BASE_URL is the public finder origin used for canonical URLs, sharing
+metadata, and the sitemap.
 
 Each page is self-contained and lightweight: only its own local's data, no
 1.3 MB payload. Shared CSS lives in site/local.css so per-page HTML stays in
@@ -24,7 +21,11 @@ from datetime import date
 
 csv.field_size_limit(10_000_000)
 
-SITE_BASE_URL = "https://www.apprentable.org"
+SITE_BASE_URL = "https://apprentable.org"
+VERCEL_ANALYTICS_SNIPPET = """<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>"""
 
 # Task 13: same Supabase project/table the finder's capture() posts to
 # (page_template.html CONFIG block) -- literal values duplicated here rather
@@ -41,9 +42,8 @@ REPORT_ISSUE_URL = f"{SUPABASE_URL}/functions/v1/report-issue"
 SHOW_CONFIDENCE = os.environ.get("SHOW_CONFIDENCE", "false").lower() == "true"
 STATUS_DISPLAY = os.environ.get("STATUS_DISPLAY", "true").lower() != "false"
 WAGE_DISPLAY = os.environ.get("WAGE_DISPLAY", "true").lower() != "false"
-# Round 2: the estimate model (rapids_intake_estimate.py) validated at 42.5%
-# median absolute percentage error on leave-one-out -- the 35-60% "usable but
-# coarse" band, not a failure -- so this flips back to true. If the model is
+# The refreshed estimate model validates at 36.4% median absolute percentage
+# error on leave-one-out -- the 35-60% coarse band. If the model is
 # ever regenerated and lands over 60%, set this back to "false" by hand; it is
 # not read from the meta file automatically, same as every other display flag
 # here being a hand-set single-constant switch.
@@ -270,6 +270,14 @@ def status_block_html(l):
     if not STATUS_DISPLAY:
         return ('<div class="statusband"><div class="slabel">Check with the local</div>'
                 '<div class="snote">Application windows change often. Use the official link below.</div></div>')
+    if l.get("program_applications"):
+        app = l["program_applications"][0]
+        return (f'<div class="statusband d-open_now"><div class="slabel">'
+                f'<span class="dot" aria-hidden="true">{DISPLAY_SHAPE["open_now"]}</span>Accepting applications now</div>'
+                f'<div class="snote">{esc(app["sponsor"])} lists {esc(app["program_name"])} applications as open. '
+                f'Closes by {esc(app["close_by"])}; {esc(app["early_close_reason"])} '
+                f'<a href="{esc(app["source_url"])}" target="_blank" rel="noopener">Check the official page</a>. '
+                f'Checked {esc(app["verified_on"])}.</div></div>')
     # Task 12: candidate-facing band renders the 4-state display mapping, not
     # the raw 8-value computed_status -- see display_state() above.
     dkey, dlabel = display_state(l["status"], l.get("next_open"))
@@ -313,13 +321,24 @@ def prep_snote_html(l):
 
 def cta_block_html(l):
     lu_js = js_str(l["lu"])
-    prep_href = f"https://www.apprentable.org/?local={l['lu']}"
-    prep = (f'<a class="btn primary" href="{esc(prep_href)}" target="_blank" rel="noopener" '
-            f'aria-label="Practice the aptitude test and interview for Local {l["lu"]}" '
-            f'onclick="track(\'prep_cta_clicked\',{{lu_number:{lu_js},surface:\'static\'}})">'
-            f'Practice the aptitude test &amp; interview</a>{prep_snote_html(l)}')
+    app = l.get("program_applications", [])
+    official = (f'<a class="btn primary" href="{esc(l["app_url"])}" target="_blank" rel="noopener">'
+                'Apply through the training program</a>') if app else ""
+    prep = (f'<div class="snote">Preparing for Local {esc(l["lu"])}? '
+            'See which math and reading skills to focus on.</div>'
+            f'<a class="btn {"" if app else "primary"}" href="https://app.apprentable.org/diagnostic" target="_blank" rel="noopener" '
+            f'aria-label="Take the free aptitude diagnostic while preparing for Local {l["lu"]}" '
+            f'onclick="track(\'diagnostic_cta_clicked\',{{lu_number:{lu_js},surface:\'static\'}})">'
+            'Take the Free Diagnostic</a>'
+            '<div class="snote">No account needed to start. Sign in for the full skill breakdown.</div>'
+            f'{prep_snote_html(l)}')
+    if not app or "no personal interview" not in app[0].get("selection_process", "").lower():
+        prep += (f'<a class="btn" href="https://app.apprentable.org/interview" target="_blank" rel="noopener" '
+                 f'aria-label="Prepare for the interview for Local {l["lu"]}" '
+                 f'onclick="track(\'prep_cta_clicked\',{{lu_number:{lu_js},surface:\'static\',product:\'interview\'}})">'
+                 'Prepare for the interview</a>')
     notify = ""
-    if l.get("next_open") or STATUS_DISPLAY:
+    if not app and (l.get("next_open") or STATUS_DISPLAY):
         # Task 13: wired to the same Supabase `leads` endpoint the finder's
         # capture() posts to (same payload shape, same auth headers), plus
         # lu_number so the lead is attributable to this local. Replaces the
@@ -338,7 +357,7 @@ def cta_block_html(l):
             f'<div class="fine" id="notifyfine-{esc(l["lu"])}" style="font-size:11.5px;color:var(--ink3);margin-top:6px"></div>'
             f'</div>'
         )
-    return prep + notify
+    return official + prep + notify
 
 
 def wage_date(w):
@@ -365,11 +384,15 @@ NOT_PUBLISHED = '<span class="muted">Not published</span>'
 
 
 def journeyman_tile(l, counties):
-    """Tile 1: base + fringe combined, from the Davis-Bacon wage already
-    wired into l['wage'] (build_local_wage_davisbacon.py / wage_rules.py)."""
+    """Prefer the reviewed program's base; label Davis-Bacon totals as packages."""
+    programs = l.get("program_wages", []) if WAGE_DISPLAY else []
+    if len(programs) == 1 and programs[0].get("journeyman_base"):
+        p = programs[0]
+        return (f'${float(p["journeyman_base"]):.2f}/hr',
+                esc(p["program_name"]), "Journeyman base")
     w = l.get("wage") if WAGE_DISPLAY else None
     if not w or not w.get("total_low"):
-        return NOT_PUBLISHED, ""
+        return NOT_PUBLISHED, "", "Journeyman base"
     value = esc(wage_range(w.get("total_low"), w.get("total_high")))
     # The wage pipeline (out/local_wage_davisbacon.csv) does not persist the
     # specific county its Davis-Bacon match came from, only the WD number --
@@ -378,49 +401,53 @@ def journeyman_tile(l, counties):
     county_bit = f'{esc(counties[0]["name"])}, {esc(counties[0]["state"])}' if counties else ""
     wd = esc(w.get("wd_number", ""))
     bits = [b for b in [f"Davis-Bacon WD {wd}" if wd else "Davis-Bacon prevailing wage", county_bit] if b]
-    return value, " &middot; ".join(bits)
+    return value, " &middot; ".join(bits), "Prevailing wage package"
 
 
 def apprentice_tile(l):
-    """Show the highest-precedence apprentice wage source available."""
-    a = l.get("apprentice_wage") if WAGE_DISPLAY else None
-    if not a:
-        return NOT_PUBLISHED
-    if a.get("kind") == "national_average":
-        # A blended national figure is wrong at the level of any single local --
-        # never show it as a dollar amount in the tile. See wage_block_html()'s
-        # notify-box pointer for the full-section treatment below.
-        return NOT_PUBLISHED
-    if a.get("kind") == "rapids_registration":
-        median = a.get("start_hourly_low")
-        return f'${float(median):.2f}/hr median reported' if median else NOT_PUBLISHED
-    start = wage_range(a.get("start_hourly_low"), a.get("start_hourly_high"))
-    if not start:
-        return NOT_PUBLISHED
+    """Show one verified rate or a separate, rounded modeled range."""
+    programs = l.get("program_wages", []) if WAGE_DISPLAY else []
+    if len(programs) == 1:
+        return f'${float(programs[0]["starting_rate"]):.2f}/hr'
+    if len(programs) > 1:
+        rates = [float(program["starting_rate"]) for program in programs]
+        return wage_range(min(rates), max(rates))
+    estimate = l.get("apprentice_wage_estimate") if WAGE_DISPLAY and not programs else None
+    return f'~${estimate["low"]}–${estimate["high"]}/hr' if estimate else NOT_PUBLISHED
 
-    if a.get("start_pct"):
-        start += f' ({float(a["start_pct"]):.0f}% of journeyman base)'
-    return start
+
+def estimate_evidence(estimate):
+    outcomes = {
+        "no_current_rate_published": "No current program rate found",
+        "stale_source": "Available wage source is outdated",
+        "ambiguous_program": "Program wage match is uncertain",
+        "site_unavailable": "Official wage site was unavailable",
+        "center_unresolved": "Training center is unconfirmed",
+    }
+    bits = [outcomes.get(estimate["research_outcome"], "No verified current rate")]
+    if not estimate["center_verified"]:
+        bits.append("Training center unconfirmed")
+    return ". ".join(bits)
 
 
 def apprentice_tile_note(l):
-    a = l.get("apprentice_wage") if WAGE_DISPLAY else None
-    if not a:
-        return ""
-    if a.get("kind") == "national_average":
-        return "Local data unavailable"
-    if a.get("kind") == "rapids_registration":
-        n = f', {int(a["record_count"]):,} records' if a.get("record_count") else ""
-        return f'RAPIDS median at registration{n}'
-    if a.get("kind") == "jatc_published":
-        return "Local-published schedule"
-    return "Derived from Davis-Bacon"
+    programs = l.get("program_wages", []) if WAGE_DISPLAY else []
+    if len(programs) == 1:
+        program = programs[0]
+        return (f'{esc(program["program_name"])} · <a href="{esc(program["source_url"])}" '
+                'target="_blank" rel="noopener">Official wage source</a>')
+    if len(programs) > 1:
+        return 'Published wage zones · Official sources below'
+    if WAGE_DISPLAY and l.get("apprentice_wage_estimate"):
+        return (f'Regional model, not published pay · {esc(estimate_evidence(l["apprentice_wage_estimate"]))} · '
+                '<a href="../wage-estimates.html">How calculated</a>')
+    return ""
 
 
 def intake_tile(l):
     """Tile 4 (round 2): annual apprentice intake, either the real reported
-    figure (name-matched local, unrounded -- a count, not an estimate) or a
-    peer-based modeled range (bin median, rounded -- a model, not a count).
+    figure (explicit LU or reviewed override, unrounded) or a
+    peer-based modeled value (membership-scaled median, rounded).
     The rounding is deliberate: an unrounded estimate like "28" reads as
     reported, which is exactly the false precision this has to avoid."""
     if not RAPIDS_DISPLAY:
@@ -428,21 +455,29 @@ def intake_tile(l):
     intake = l.get("intake")
     if not intake:
         return f'<b>{NOT_PUBLISHED}</b><span>Annual intake</span>', "cell"
+    if intake["tier"] == "coverage_incomplete":
+        return (f'<b>{NOT_PUBLISHED}</b><span>Annual intake</span>'
+                f'<small>DOL registration data for {esc(intake["state"])} is incomplete.</small>'), "cell"
     fy = f"FY{intake['period_end'][:4]}" if intake.get("period_end") else "FY2025"
     if intake["tier"] == "confirmed":
         val = f'<b>{intake["value"]:,}</b>'
         label = f"Apprentices taken ({fy})"
         note = "Reported to the U.S. Department of Labor by this local's registered program."
+        trend = l.get("intake_trend")
+        if trend:
+            direction = "up" if trend["pct_change"] > 0 else "down" if trend["pct_change"] < 0 else "unchanged"
+            change = f'{direction} {abs(trend["pct_change"])}%' if direction != "unchanged" else "unchanged"
+            note += f' Took {trend["fy2025"]:,} apprentices in FY2025 ({change} since FY2022).'
         return f'{val}<span>{esc(label)}</span><small>{note}</small>', "cell"
     # estimated
     val = f'<b>about {intake["value"]:,}</b>'
     label = "Estimated annual intake"
     if INTAKE_META.get("caveat") == "strong":
-        note = ("Rough estimate based on DOL-registered programs serving similarly sized "
-                "jurisdictions. Intake varies widely between locals and year to year. "
+        note = ("Rough estimate based on DOL-registered programs and locals with similar "
+                "membership. Intake varies widely between locals and year to year. "
                 "Confirm with the JATC.")
     else:
-        note = ("Estimated from DOL-registered programs serving similarly sized jurisdictions. "
+        note = ("Estimated from DOL-registered programs and locals with similar membership. "
                 "This local's own figure isn't in our data, and actual intake varies year to "
                 "year. Confirm with the JATC.")
     return f'{val}<span>{esc(label)}</span><small>{note}</small>', "cell est"
@@ -483,7 +518,7 @@ def debug_stats_html(l):
 
 
 def tiles_block_html(l, counties, today):
-    jman_val, jman_note = journeyman_tile(l, counties)
+    jman_val, jman_note, jman_label = journeyman_tile(l, counties)
     appr_val = apprentice_tile(l)
     appr_note = apprentice_tile_note(l)
     window_val = next_window_tile(l, today)
@@ -491,22 +526,21 @@ def tiles_block_html(l, counties, today):
     req_bits = [v for v in (l.get("min_age"), l.get("min_edu")) if v and str(v).strip()]
     min_req = esc(", ".join(str(v) for v in req_bits)) if req_bits else "Not published"
     return f"""<div class="grid">
-    <div class="cell"><b>{appr_val}</b><span>Apprentice wage</span>
-      {f'<small>{esc(appr_note)}</small>' if appr_note else ''}</div>
-    <div class="cell"><b>{jman_val}</b><span>Journeyman rate</span>
+    <div class="cell{' est' if l.get('apprentice_wage_tier') == 'model_estimate' and WAGE_DISPLAY else ''}"><b>{appr_val}</b><span>{'Estimated apprentice starting pay' if l.get('apprentice_wage_tier') == 'model_estimate' and WAGE_DISPLAY else 'Verified apprentice starting pay range' if len(l.get('program_wages', [])) > 1 and WAGE_DISPLAY else 'Verified apprentice starting pay' if l.get('apprentice_wage_tier') == 'verified_program' and WAGE_DISPLAY else 'Apprentice wage'}</span>
+      {f'<small>{appr_note}</small>' if appr_note else ''}</div>
+    <div class="cell"><b>{jman_val}</b><span>{jman_label}</span>
       {f'<small>{jman_note}</small>' if jman_note else ''}</div>
     <div class="cell"><b>{window_val}</b><span>Next application window</span></div>
     <div class="{intake_cls}">{intake_html}</div>
   </div>
-  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS
-  registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>
+  <div class="snote">Verified rates link to official program sources. Estimated ranges are model projections and may differ from actual training center pay.</div>
   <div class="row"><span>Program length</span><b class="muted">Not published</b></div>
   <div class="row"><span>OJT hours</span><b class="muted">Not published</b></div>
   <div class="row"><span>Minimum requirements</span><b>{min_req}</b></div>"""
 
 
 def wage_block_html(l):
-    if not WAGE_DISPLAY or (not l.get("wage") and not l.get("apprentice_wage")):
+    if not WAGE_DISPLAY:
         return ""
     w = l.get("wage")
     sections = []
@@ -521,39 +555,53 @@ def wage_block_html(l):
                   if w.get("source") else source_name)
         classification = " ".join(filter(None, [w.get("classification_text", ""), w.get("classification_code", "")]))
         classification_note = f' Classification: {esc(classification)}.' if classification else ""
-        sections.append(f'<h2>Journeyman scale</h2>{"".join(rows)}'
+        sections.append(f'<h2>Federal prevailing wage reference</h2>{"".join(rows)}'
                         f'<div class="snote">Effective {esc(wage_date(w))}. Source: {source}.{classification_note}</div>'
                         '<div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; '
                         'where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div>')
 
-    a = l.get("apprentice_wage")
-    if a:
-        if a.get("kind") == "national_average":
-            # A blended national figure is wrong at the level of any single
-            # local -- never show it as a dollar amount here. Point to the
-            # existing notify box (cta_block_html) instead of a second
-            # capture form on the page.
-            sections.append(f'<h2>Apprentice wage</h2><div class="snote">Wage data coming for this local. '
-                            f'<a href="#notifybox-{esc(l["lu"])}">Notify me &rarr;</a></div>')
-        elif a.get("kind") == "rapids_registration":
-            observed = wage_range(a.get("observed_low"), a.get("observed_high"))
-            rows = [f'<div class="row"><span>Median reported starting wage</span><b>{esc(wage_range(a.get("start_hourly_low"), a.get("start_hourly_high")))}</b></div>']
-            if observed:
-                rows.append(f'<div class="row"><span>Observed registration wages</span><b>{esc(observed)}</b></div>')
-            note = (f'DOL RAPIDS, data as of {esc(wage_date(a))}; median of {int(a["record_count"]):,} '
-                    'valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule.')
-            source = (f'<a href="{esc(a["source"])}" target="_blank" rel="noopener">DOL RAPIDS</a>'
-                      if a.get("source") else "DOL RAPIDS")
-            sections.append(f'<h2>Apprentice wage</h2>{"".join(rows)}<div class="snote">{note} Source: {source}.</div>')
+    programs = l.get("program_wages", [])
+    if programs:
+        for program in programs:
+            rows = ""
+            for step in program["steps"]:
+                pct = f' ({float(step["percent"]):g}%)' if step.get("percent") is not None else ''
+                rows += (f'<div class="row"><span>{esc(step["period"])}{pct}</span>'
+                         f'<b>${float(step["hourly_base"]):.2f}/hr</b></div>')
+            if program["rate_kind"] == "starting_rate":
+                rows = (f'<div class="row"><span>Published starting wage</span>'
+                        f'<b>${float(program["starting_rate"]):.2f}/hr</b></div>')
+            source = (f'<a href="{esc(program["source_url"])}" target="_blank" rel="noopener">'
+                      f'{esc(program["source_label"])}</a>')
+            if program.get("journeyman_base"):
+                rows += (f'<div class="row"><span>Journeyman base</span>'
+                         f'<b>${float(program["journeyman_base"]):.2f}/hr</b></div>')
+            if program.get("effective_date"):
+                date_note = f'effective {esc(program["effective_date"])}'
+            elif program.get("as_of_date"):
+                date_note = f'source says current as of {esc(program["as_of_date"])}'
+            else:
+                date_note = 'source does not state a wage effective date'
+            sections.append(f'<h2>Apprentice pay: {esc(program["program_name"])}</h2>{rows}'
+                            f'<div class="snote">Base hourly pay; {date_note}. '
+                            f'Source: {source}. Verified {esc(program["verified_on"])}. Benefits are separate.</div>'
+                            + (f'<div class="snote">{esc(program["rate_scope_note"])}</div>'
+                               if program.get("rate_scope_note") else ''))
+    else:
+        official = (f' <a href="{esc(l["app_url"])}" target="_blank" rel="noopener">Check the training program</a>.'
+                    if l.get("app_url") else "")
+        estimate = l.get("apprentice_wage_estimate")
+        if estimate:
+            sections.append('<h2>Apprentice starting pay · regional model estimate</h2>'
+                            f'<div class="row"><span>Estimated hourly base range</span><b>~${estimate["low"]}–${estimate["high"]}/hr</b></div>'
+                            f'<div class="snote">{esc(estimate_evidence(estimate))}. '
+                            'This is a broad geographic estimate, not a published wage for this local. Actual pay may fall outside this range. '
+                            + ('No verified wage from this state was available for training. ' if estimate['state_peer_count'] == 0 else '')
+                            + ('Inside jurisdiction mapping is unavailable, so the model uses state prices. ' if l.get('jurisdiction_unknown') else '')
+                            + f'Research checked {esc(estimate["reviewed_on"])}. '
+                            '<a href="../wage-estimates.html">Method and limitations</a>.' + official + '</div>')
         else:
-            start = wage_range(a.get("start_hourly_low"), a.get("start_hourly_high"))
-            if a.get("start_pct"):
-                start += f' ({float(a["start_pct"]):.0f}% of journeyman base)'
-            source_name = a.get("source_label", "Apprentice wage source")
-            source = (f'<a href="{esc(a["source"])}" target="_blank" rel="noopener">{esc(source_name)}</a>'
-                      if a.get("source") else esc(source_name))
-            sections.append(f'<h2>Apprentice wage</h2><div class="row"><span>Starting pay</span><b>{esc(start)}</b></div>'
-                            f'<div class="snote">Source: {source}. Confirm the current progression schedule with the local.</div>')
+            sections.append(f'<h2>Apprentice pay</h2><div class="snote">A current program-specific wage schedule has not been verified.{official}</div>')
     # Apprentice pay first: a candidate is deciding whether to spend five years
     # getting to the journeyman number, so what they earn on day one matters more.
     journeyman = sections[0] if w else ""
@@ -585,9 +633,13 @@ def rapids_kpi_block_html(l):
 def page_html(l, nearest):
     city, st, lu = l["city"], l["st"], l["lu"]
     title = f"IBEW Local {lu} Apprenticeship — {city}, {st} | Inside Wireman Program"
-    pop_txt = f"{l['pop']:,}" if l.get("pop") else "an unpublished"
-    desc = (f"IBEW Local {lu} in {city}, {st} serves {pop_txt} people across {l['county_n']} "
-            f"counties. Inside wireman apprenticeship status, requirements, and how to apply.")
+    if l.get("jurisdiction_unknown"):
+        desc = (f"IBEW Local {lu} in {city}, {st} has an Inside Wireman training-center match. "
+                "Its jurisdiction size is unavailable. Apprenticeship status, pay estimate, and how to apply.")
+    else:
+        county_word = "county" if l["county_n"] == 1 else "counties"
+        desc = (f"IBEW Local {lu} in {city}, {st} serves {l['pop']:,} people across {l['county_n']} "
+                f"{county_word}. Inside wireman apprenticeship status, requirements, and how to apply.")
     canonical = f"{SITE_BASE_URL}/locals/{l['slug']}.html"
 
     req = [("Minimum age", l.get("min_age")), ("Education", l.get("min_edu")), ("Aptitude test", l.get("aptitude"))]
@@ -608,30 +660,23 @@ def page_html(l, nearest):
         for n in nearest
     )
 
-    jsonld = {
-        "@context": "https://schema.org",
-        "@type": "EducationalOccupationalProgram",
-        "name": f"IBEW Local {lu} Inside Wireman Apprenticeship",
-        "description": desc,
-        "provider": {
-            "@type": "Organization",
-            "name": f"IBEW Local {lu}" + (f" ({l['jatc']})" if l.get("jatc") else ""),
-            "url": website_href or canonical,
-        },
-        "occupationalCategory": "47-2111.00",
-        "areaServed": {
-            "@type": "AdministrativeArea",
-            "name": f"{l['county_n']} counties served by IBEW Local {lu}, headquartered in {city}, {st}",
-        },
-        "educationalProgramMode": "https://schema.org/OnSitePlacement",
-        "programType": "Apprenticeship",
-    }
-    if l.get("app_url"):
-        jsonld["applicationStartDate"] = ""
-        jsonld["url"] = l["app_url"]
-    if l.get("next_close"):
-        jsonld["applicationDeadline"] = l["next_close"]
-    jsonld = {k: v for k, v in jsonld.items() if v != ""}
+    reviewed_programs = l.get("program_applications") or l.get("program_wages") or []
+    if reviewed_programs:
+        program = reviewed_programs[0]
+        jsonld = {
+            "@context": "https://schema.org",
+            "@type": "EducationalOccupationalProgram",
+            "name": program["program_name"],
+            "description": desc,
+            "provider": {"@type": "Organization", "name": program["sponsor"],
+                         "url": program["source_url"]},
+            "occupationalCategory": "47-2111.00",
+            "programType": "Apprenticeship",
+            "url": program["source_url"],
+        }
+    else:
+        jsonld = {"@context": "https://schema.org", "@type": "WebPage",
+                  "name": title, "description": desc, "url": canonical}
 
     apply_rows = []
     if l.get("app_url"):
@@ -639,6 +684,17 @@ def page_html(l, nearest):
                            f'onclick="track(\'outbound_local_click\',{{lu_number:{lu_js},link_type:\'apply\',surface:\'static\'}})">Official link &rarr;</a></b></div>')
     else:
         apply_rows.append('<div class="row"><span>Application page</span><b class="muted">Not published</b></div>')
+    for app in l.get("program_applications", []):
+        if app.get("flow_chart_url"):
+            apply_rows.append(f'<div class="row"><span>{esc(app["program_name"])} flow chart</span>'
+                              f'<b><a href="{esc(app["flow_chart_url"])}" target="_blank" rel="noopener">Official flow chart &rarr;</a></b></div>')
+        if app.get("program_contact_email"):
+            mail = esc(app["program_contact_email"])
+            apply_rows.append(f'<div class="row"><span>Training program email</span><b><a href="mailto:{mail}">{mail}</a></b></div>')
+    for center in l.get("training_centers", []):
+        if center.get("website"):
+            apply_rows.append(f'<div class="row"><span>Training center</span><b><a href="{esc(center["website"])}" '
+                              f'target="_blank" rel="noopener">{esc(center["organization"])} &rarr;</a></b></div>')
     if website_href:
         apply_rows.append(f'<div class="row"><span>Local website</span><b><a href="{esc(website_href)}" target="_blank" rel="noopener" '
                            f'onclick="track(\'outbound_local_click\',{{lu_number:{lu_js},link_type:\'site\',surface:\'static\'}})">{esc(website)}</a></b></div>')
@@ -646,7 +702,8 @@ def page_html(l, nearest):
         apply_rows.append(f'<div class="row"><span>Phone</span><b><a href="tel:{esc(re_digits(l["phone"]))}" '
                            f'onclick="track(\'outbound_local_click\',{{lu_number:{lu_js},link_type:\'phone\',surface:\'static\'}})">{esc(l["phone"])}</a></b></div>')
     if l.get("email"):
-        apply_rows.append(f'<div class="row"><span>Email</span><b><a href="mailto:{esc(l["email"])}">{esc(l["email"])}</a></b></div>')
+        label = "Union email" if l.get("program_applications") else "Email"
+        apply_rows.append(f'<div class="row"><span>{label}</span><b><a href="mailto:{esc(l["email"])}">{esc(l["email"])}</a></b></div>')
     if l.get("meets"):
         apply_rows.append(f'<div class="row"><span>Meetings</span><b style="max-width:260px">{esc(l["meets"])}</b></div>')
 
@@ -677,6 +734,7 @@ def page_html(l, nearest):
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(desc)}">
 <script type="application/ld+json">{json.dumps(jsonld)}</script>
+{VERCEL_ANALYTICS_SNIPPET}
 <!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
      layout, so the gtag snippet is injected here directly. -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
@@ -813,25 +871,25 @@ document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeIssueM
 
   {wage_block_html(l)}
 
-  {rapids_kpi_block_html(l)}
+{rapids_kpi_block_html(l)}
 
   {req_html}
 
   <h2>Apply</h2>
   {''.join(apply_rows)}
 
-  <h2>Counties served ({l['county_n']})</h2>
+  <h2>{'Jurisdiction counties unavailable' if l.get('jurisdiction_unknown') else f"Counties served ({l['county_n']})"}</h2>
   <div class="counties">{county_html}</div>
 
-  <h2>ZIP codes served ({l['zip_n']:,})</h2>
+  <h2>{'Jurisdiction ZIP codes unavailable' if l.get('jurisdiction_unknown') else f"ZIP codes served ({l['zip_n']:,})"}</h2>
   <details><summary>Show all ZIP codes</summary><div class="zips">{esc(zip_html)}</div></details>
 
   <h2>Nearby locals</h2>
   <div class="nearby">{nearby_html or '<span class="muted">None on file</span>'}</div>
 
   <footer>Page built {generated}. This is the build date, not a verification date &mdash;
-  it does not mean every value on this page was re-checked that day. Application status and requirements come from each
-  local's own website and can change without notice &mdash; confirm with the local before relying
+  it does not mean every value on this page was re-checked that day. Application status and requirements come from official
+  training-program or local websites and can change without notice &mdash; confirm with the program before relying
   on this page. &copy; IBEW Apprenticeship Finder.
   <p>This is an independent, unofficial resource. It is not affiliated with, endorsed by, or
   sponsored by the International Brotherhood of Electrical Workers (IBEW), the National Electrical
@@ -869,18 +927,92 @@ for l in locals_:
         f.write(html)
     pages_written.append((slug, os.path.getsize(path)))
 
-# ---- site/index.html: the finder, lean build (task 8) -------------------------
+# ---- Crawlable directory: a plain HTML path from the finder to every local ---
+by_state = {}
+for l in locals_:
+    by_state.setdefault(l["st"], []).append(l)
+state_nav = " ".join(f'<a href="#state-{esc(st)}">{esc(st)}</a>' for st in sorted(by_state))
+state_sections = []
+for st, entries in sorted(by_state.items()):
+    links = "\n".join(
+        f'<li><a href="locals/{esc(l["slug"])}.html">IBEW Local {esc(l["lu"])} '
+        f'&mdash; {esc(l["city"])}, {esc(st)}</a></li>'
+        for l in sorted(entries, key=lambda item: (item["city"].casefold(), int(item["lu"])))
+    )
+    state_sections.append(f'<section id="state-{esc(st)}"><h2>{esc(st)}</h2><ul>{links}</ul></section>')
+directory_html = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All IBEW Local Apprenticeship Pages | Apprentable</title>
+<meta name="description" content="Browse {len(locals_)} IBEW local apprenticeship pages by state, with application status, requirements, wages, and official program links.">
+<link rel="canonical" href="{SITE_BASE_URL}/all-locals.html">
+<link rel="stylesheet" href="local.css">
+{VERCEL_ANALYTICS_SNIPPET}
+<style>
+.directory {{max-width:920px}}
+.state-nav {{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}}
+.state-nav a {{border:1px solid var(--line);border-radius:6px;padding:4px 7px}}
+.directory section {{margin:24px 0}}
+.directory ul {{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px 22px;list-style:none;padding:0}}
+.directory li a {{display:block;padding:7px 0;border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<main class="wrap directory">
+<div class="topnav"><a href="index.html">&larr; Find Your Local by ZIP or City</a></div>
+<h1>All IBEW Local Apprenticeship Pages</h1>
+<p>Browse {len(locals_)} inside wireman local profiles by state. Each page includes application details, requirements, and available wage information.</p>
+<nav class="state-nav" aria-label="Jump to state">{state_nav}</nav>
+{''.join(state_sections)}
+</main>
+</body>
+</html>
+"""
+with open(f"{OUT_DIR}/all-locals.html", "w", encoding="utf-8") as f:
+    f.write(directory_html)
+
+# The estimate explanation is a first-class public page linked beside every
+# modeled range. Build it from the same calibration metadata as the values.
+with open("out/apprentice_wage_estimates.json", encoding="utf-8") as f:
+    wage_estimate_meta = json.load(f)
+method_html = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How apprentice wage estimates work | Apprentable</title>
+<meta name="description" content="How Apprentable estimates broad apprentice starting-pay ranges when an official training center does not publish a current wage.">
+<link rel="canonical" href="{SITE_BASE_URL}/wage-estimates.html"><link rel="stylesheet" href="local.css">
+</head><body><main class="wrap directory">
+<div class="topnav"><a href="index.html">&larr; Find Your Local</a></div>
+<h1>How Apprentice Wage Estimates Work</h1>
+<p>For {len(wage_estimate_meta['estimates'])} Inside Wireman locals without a verified current starting wage, we show a broad <strong>regional model estimate</strong>. It is not a wage quoted by a training center. Each local page explains why its pay remains unverified, including outdated sources, uncertain program matches, unavailable sites, and unconfirmed centers.</p>
+<h2>What the Range Means</h2>
+<p>We trained on {wage_estimate_meta['training_locals']} locals with one verified Inside Wireman wage schedule each. The model adjusts those rates using 2024 regional cost-of-living data and, where available, verified wages from the same state. It weights metro areas across each local's Inside jurisdiction, using a state price index where county mapping is unavailable. The displayed range extends about ${wage_estimate_meta['half_width_dollars']}/hr on either side of the prediction, rounded outward to whole dollars.</p>
+<p>In a harder test that withheld each state in turn, 90% of verified-local errors were within ${wage_estimate_meta['holdout_90th_percentile_error']:.2f}/hr. This is a historical test on locals that publish wages, <strong>not a 90% guarantee</strong> for a local that does not. Actual pay can fall outside the displayed range.</p>
+<p>Some estimated locals had no verified training wage from their state. For those, the model relies on regional price data and verified wages elsewhere; the local page says so.</p>
+<h2>What It Leaves Out</h2>
+<p>Cost of living cannot reveal a local's negotiated agreement, wage zone, starting period, or future raise. The published wages used for training have different effective dates. Two locals with multiple wage zones were left out of model training rather than averaged together; their published rates are displayed as verified ranges. Benefits and journeyman rates are excluded. Where the official source is stale, ambiguous, or unavailable, the model range has no direct program wage evidence. A verified current rate always takes priority over a model estimate.</p>
+<h2>Sources</h2>
+<p>The wage inputs are <a href="all-locals.html">individually linked official JATC or local program schedules</a>. Geography uses <a href="https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area">U.S. BEA regional price parities</a> and <a href="https://www.census.gov/programs-surveys/metro-micro/about/delineation-files.html">U.S. Census metro definitions</a>. Model checked {esc(wage_estimate_meta['generated_on'])}. Check the linked training center for its actual current pay before relying on an estimate.</p>
+</main></body></html>
+"""
+with open(f"{OUT_DIR}/wage-estimates.html", "w", encoding="utf-8") as f:
+    f.write(method_html)
+
+# ---- site/index.html: the branded finder, lean build -------------------------
 # ZIP/city indexes fetched from site/data/*.json on first search instead of
 # being inlined -- keeps the hosted entry page light. ibew_finder.html (built
 # separately by `python build_page.py --single`) stays fully inlined for
 # file://.
-import build_page
-build_page.build_lean(out_path=f"{OUT_DIR}/index.html", data_dir=f"{OUT_DIR}/data",
-                       show_confidence=SHOW_CONFIDENCE, status_display=STATUS_DISPLAY,
-                       wage_display=WAGE_DISPLAY, rapids_display=RAPIDS_DISPLAY)
+import build_brand_preview
+build_brand_preview.build(production=True, show_confidence=SHOW_CONFIDENCE,
+                          status_display=STATUS_DISPLAY, wage_display=WAGE_DISPLAY,
+                          rapids_display=RAPIDS_DISPLAY, debug_events=DEBUG_EVENTS)
 
 # ---- sitemap.xml + robots.txt --------------------------------------------------
-urls = [f"{SITE_BASE_URL}/index.html"] + [f"{SITE_BASE_URL}/locals/{l['slug']}.html" for l in locals_]
+urls = [f"{SITE_BASE_URL}/", f"{SITE_BASE_URL}/all-locals.html", f"{SITE_BASE_URL}/wage-estimates.html"] + [
+    f"{SITE_BASE_URL}/locals/{l['slug']}.html" for l in locals_
+]
 sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u in urls:

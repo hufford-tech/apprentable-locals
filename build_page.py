@@ -27,6 +27,9 @@ import copy
 import json
 import os
 import re
+from pathlib import Path
+
+from map_outlines import outline_paths
 
 FIRST_PAINT_KEYS = {"generated", "locals", "intake_meta", "zip_count", "build"}
 
@@ -50,6 +53,8 @@ def _redact_locals(bundle, show_confidence, status_display, wage_display=True, r
             l["next_close"] = ""
         if not wage_display:
             l.pop("wage", None)
+            l.pop("program_wages", None)
+            l.pop("apprentice_wage_estimate", None)
         if not rapids_display:
             l.pop("rapids_kpi", None)
             l.pop("intake", None)
@@ -83,6 +88,9 @@ def _load_finder_core(show_confidence, status_display, core_path="site/js/finder
 
 
 def _apply_flags(tpl, show_confidence, status_display, wage_display, rapids_display=True, debug_events=False):
+    tpl = tpl.replace("__MAP_OUTLINES__", json.dumps(outline_paths(), separators=(",", ":")))
+    license_text = (Path(__file__).resolve().parent / "raw/maps/LICENSE-us-atlas.txt").read_text(encoding="utf-8")
+    tpl = tpl.replace("__MAP_LICENSE__", license_text.strip())
     tpl = tpl.replace("const SHOW_CONFIDENCE = false;",
                        f"const SHOW_CONFIDENCE = {'true' if show_confidence else 'false'};")
     tpl = tpl.replace("const STATUS_DISPLAY  = true;",
@@ -137,6 +145,8 @@ def build_single(out_path="ibew_finder.html", template_path="page_template.html"
     tpl = _apply_flags(tpl, show_confidence, status_display, wage_display, rapids_display, debug_events)
     # out_path sits at the repo root; profile pages live under site/locals/
     tpl = tpl.replace("__PROFILE_BASE__", "site/locals/")
+    tpl = tpl.replace("__DIRECTORY_HREF__", "site/all-locals.html")
+    tpl = tpl.replace("__WAGE_METHOD_URL__", "site/wage-estimates.html")
     with open(data_path, encoding="utf-8") as f:
         bundle = json.load(f)
     bundle = _redact_locals(bundle, show_confidence, status_display, wage_display, rapids_display)
@@ -173,6 +183,8 @@ def build_lean(out_path="site/index.html", template_path="page_template.html",
     tpl = _apply_flags(tpl, show_confidence, status_display, wage_display, rapids_display, debug_events)
     # out_path sits inside site/; profile pages live under site/locals/, a sibling dir
     tpl = tpl.replace("__PROFILE_BASE__", "locals/")
+    tpl = tpl.replace("__DIRECTORY_HREF__", "all-locals.html")
+    tpl = tpl.replace("__WAGE_METHOD_URL__", "wage-estimates.html")
     payload = _escape_for_script_tag(json.dumps(first_paint, separators=(",", ":")))
     html = tpl.replace("__DATA__", payload)
 
@@ -199,8 +211,8 @@ if __name__ == "__main__":
     show_confidence = os.environ.get("SHOW_CONFIDENCE", "false").lower() == "true"
     status_display = os.environ.get("STATUS_DISPLAY", "true").lower() != "false"
     wage_display = os.environ.get("WAGE_DISPLAY", "true").lower() != "false"
-    # Round 2: estimate model validated at 42.5% MdAPE (35-60% band, "usable
-    # but coarse", not a failure) -- see rapids_intake_estimate.py / README.
+    # Refreshed estimate model validates at 36.4% MdAPE (35-60% band) --
+    # see rapids_intake_estimate.py / README.
     rapids_display = os.environ.get("RAPIDS_DISPLAY", "true").lower() != "false"
     debug_events = os.environ.get("DEBUG_EVENTS", "false").lower() == "true"
 

@@ -91,7 +91,10 @@ def main():
             # Some mounts disallow unlink. Copy over the top instead and say so:
             # files removed since the last export would otherwise linger silently.
             stale_warning = True
-    shutil.copytree(SITE, dest, dirs_exist_ok=True)
+    # The source site can contain local Vercel linkage and environment files.
+    # A deploy export must contain only public assets, never those local files.
+    shutil.copytree(SITE, dest, dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns(".env*", ".vercel", ".gitignore", ".vercelignore"))
 
     rewritten = 0
     for p in sorted(dest.rglob("*")):
@@ -122,6 +125,7 @@ def main():
             cfg["headers"] = NOINDEX_HEADERS
         (dest / "vercel.json").write_text(json.dumps(cfg, indent=2) + "\n",
                                           encoding="utf-8")
+    (dest / ".vercelignore").write_text(".env*\n.vercel\n.gitignore\n", encoding="utf-8")
 
     pages = len(list((dest / "locals").glob("*.html"))) if (dest / "locals").exists() else 0
     total = sum(1 for p in dest.rglob("*") if p.is_file())

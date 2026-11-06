@@ -4,6 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Find Your IBEW Local | Apprenticeship Finder</title>
+<meta name="description" content="Find your IBEW local by ZIP code or city. Compare apprenticeship application status, requirements, wages, and local program details.">
+<!-- US Atlas boundary data license:
+__MAP_LICENSE__
+-->
+<link rel="canonical" href="https://apprentable.org/">
+<!-- Vercel Web Analytics for this static HTML page. -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 <!-- Google Analytics (GA4). This page doesn't render through the Next.js app's
      layout, so the gtag snippet is injected here directly. -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S83RVT3S3B"></script>
@@ -57,12 +67,24 @@ h1{font-size:16px;margin:0;letter-spacing:-.2px;font-weight:650}
 .hstat div{text-align:right}
 .hstat b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
 .hstat span{font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:.7px}
+.prepnav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.prepnav a{border:1px solid var(--line);border-radius:8px;padding:7px 10px;color:var(--ink);font-size:12px;font-weight:600;white-space:nowrap}
+.prepnav a:hover{background:var(--panel2);text-decoration:none}
+.prepnav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.prepnav a.diagnostic-link{background:var(--accent);border-color:var(--accent);color:#1a1206}
+.prepnav a.diagnostic-link:hover{background:var(--accent2)}
 
 .sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-.wrap{display:grid;grid-template-columns:400px 1fr;height:calc(100vh - 63px)}
+.wrap{display:grid;grid-template-columns:400px 1fr;grid-template-rows:auto minmax(0,1fr);height:calc(100vh - 63px)}
+.searchbox{grid-column:1;grid-row:1}
+.side{grid-column:1;grid-row:2}
+.map-pane{grid-column:2;grid-row:1 / span 2;position:relative;min-height:0}
 @media(max-width:900px){
-  .wrap{grid-template-columns:1fr;height:auto}
+  .wrap{grid-template-columns:1fr;grid-template-rows:auto auto auto;height:auto}
+  .searchbox{grid-column:1;grid-row:1}
+  .map-pane{grid-column:1;grid-row:2}
+  .side{grid-column:1;grid-row:3}
   #map{height:380px}
   .side{height:auto;border-right:none;border-bottom:1px solid var(--line)}
   .scroll{overflow-y:visible;flex:none}
@@ -215,7 +237,7 @@ h3{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--ink3)
 .mapfilter input{margin-right:5px;vertical-align:-1px}
 /* Only shown when there is genuinely nothing on the map. Tile failures must NOT
    trigger this: it is an opaque full-bleed overlay, and triggering it on a tile
-   error painted over 244 perfectly good pins. */
+   error painted over the local pins. */
 .mapfail{
   position:absolute;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;
   text-align:center;padding:30px;background:var(--bg);color:var(--ink2);font-size:14px;line-height:1.6;
@@ -282,29 +304,34 @@ footer.sitefoot{padding:12px 22px 18px;font-size:11px;line-height:1.6;color:var(
     <div><b id="nZips">0</b><span>ZIPs mapped</span></div>
     <div><b id="nPop">0</b><span>People covered</span></div>
   </div>
+  <nav class="prepnav" aria-label="Site navigation">
+    <a class="diagnostic-link" href="https://app.apprentable.org/diagnostic" target="_blank" rel="noopener" onclick="track('diagnostic_cta_clicked',{surface:'header'})">Take the Free Diagnostic</a>
+    <a href="__DIRECTORY_HREF__">Browse All Locals</a>
+    <a href="https://app.apprentable.org/interview" target="_blank" rel="noopener" onclick="track('prep_cta_clicked',{surface:'header',product:'interview'})">Interview Prep</a>
+  </nav>
 </header>
 
 <div class="wrap">
-  <div class="side">
     <div class="searchbox">
       <div class="chip" id="chip" hidden>
         <span id="chipText"></span>
         <button type="button" id="chipChange">Change</button>
       </div>
       <div id="searchFields">
-        <label for="q">Find the local that covers you</label>
+        <label for="q">Find Your Local</label>
         <input id="q" placeholder="ZIP code or city, e.g. 02138 or Boston" autocomplete="off">
         <div class="hint" id="hint">Every U.S. county is assigned to a local. Enter a ZIP for an exact match.</div>
       </div>
     </div>
+  <div class="side">
     <div class="scroll" id="panel"></div>
   </div>
-  <div style="position:relative">
+  <div class="map-pane">
     <div id="map"></div>
     <div class="legend">
       <div class="mapfilter">
-        <label><input type="radio" name="mapf" value="all" checked> All locals</label>
-        <label><input type="radio" name="mapf" value="confirmed"> Only confirmed status</label>
+        <label><input type="radio" name="mapf" value="all" checked> All Locals</label>
+        <label><input type="radio" name="mapf" value="confirmed"> Only Confirmed Status</label>
       </div>
       <div><span class="dot d-open_now" aria-hidden="true">&#9679;</span>Open now</div>
       <div><span class="dot d-always" aria-hidden="true">&#9670;</span>Always accepting</div>
@@ -317,12 +344,12 @@ footer.sitefoot{padding:12px 22px 18px;font-size:11px;line-height:1.6;color:var(
       <button id="zreset" type="button" aria-label="Reset the map view">Reset</button>
     </div>
   <div class="mapfail" id="mapfail" hidden>
-      Map could not be drawn, but search still works &mdash; use the box on the left.
+      The map is unavailable. Use the ZIP or city search, or <a href="__DIRECTORY_HREF__">Browse All Locals</a>.
     </div>
   </div>
 </div>
 
-<button class="report-fab" id="reportBtn" type="button" onclick="openReportModal()">&#9888; Report an issue</button>
+<button class="report-fab" id="reportBtn" type="button" onclick="openReportModal()">&#9888; Report an Issue</button>
 
 <div class="modal" id="modal">
   <div class="card" id="cardBody"></div>
@@ -410,8 +437,8 @@ const fmtDate = iso => {
 const mapfail = document.getElementById('mapfail');
 /* Say WHY. A generic "map failed" message cost two rounds of guessing. */
 function showMapFail(reason){
-  mapfail.innerHTML = 'Map could not be drawn, but search still works &mdash; use the box on the left.'
-    + (reason ? `<br><span style="font-size:12px;opacity:.7">Reason: ${reason}</span>` : '');
+  mapfail.innerHTML = 'The map is unavailable. Use the ZIP or city search, or <a href="__DIRECTORY_HREF__">Browse All Locals</a>.'
+    + (reason ? `<br><span style="font-size:12px;opacity:.7">Reason: ${esc(String(reason))}</span>` : '');
   mapfail.hidden = false;
 }
 
@@ -429,7 +456,24 @@ function showMapFail(reason){
 const VB = {x:0, y:0, w:960, h:600};        // logical drawing space
 const svgNS = 'http://www.w3.org/2000/svg';
 const markers = [];
+const markerGlyphs = [];
 let mapEl = null;
+let mapResults = null; // null means every local; searches replace this with matching indexes
+let confirmedMapOnly = false;
+
+function syncMapResults(indexes){
+  mapResults = indexes == null ? null : new Set(indexes);
+  applyMapFilters();
+}
+function applyMapFilters(){
+  L_.forEach((l, i) => {
+    if (!markers[i]) return;
+    const visible = (mapResults == null || mapResults.has(i))
+      && (!confirmedMapOnly || isConfirmedStatus(l.status));
+    markers[i].style.display = visible ? '' : 'none';
+    if (markerGlyphs[i]) markerGlyphs[i].style.display = visible ? '' : 'none';
+  });
+}
 
 const RAD = Math.PI / 180;
 function albers(lat, lon, phi1, phi2, phi0, lam0){
@@ -459,6 +503,10 @@ function project(lat, lon){
   const [x,y] = albers(lat, lon, 29.5, 45.5, 37.5, -96);
   return [487 + x*1150, 291 - y*1150];
 }
+
+// Simplified Census state arcs projected at build time. Kept inline so the
+// single-file finder and the deployable site both render the map offline.
+const MAP_OUTLINES = __MAP_OUTLINES__;
 
 const STATE_CENTERS = {
   AL:[32.8,-86.8], AK:[63.6,-152.4], AZ:[34.2,-111.6], AR:[34.9,-92.4],
@@ -496,9 +544,22 @@ function drawMap(){
   const svg = el('svg', {
     viewBox:`${VB.x} ${VB.y} ${VB.w} ${VB.h}`,
     width:'100%', height:'100%',
-    style:'display:block;cursor:grab;touch-action:none',
+    style:'display:block;cursor:grab;touch-action:pan-y',
     role:'img', 'aria-label':`Map of ${L_.length} IBEW local unions across the United States`
   });
+
+  const gOutlines = el('g', {'aria-hidden':'true', 'pointer-events':'none'});
+  gOutlines.appendChild(el('path', {
+    d:MAP_OUTLINES.states, fill:'none', stroke:'#4b5866', 'stroke-opacity':'.65',
+    'stroke-width':'.75', 'stroke-linejoin':'round', 'stroke-linecap':'round',
+    'vector-effect':'non-scaling-stroke'
+  }));
+  gOutlines.appendChild(el('path', {
+    d:MAP_OUTLINES.nation, fill:'none', stroke:'#7b8998', 'stroke-opacity':'.8',
+    'stroke-width':'1.25', 'stroke-linejoin':'round', 'stroke-linecap':'round',
+    'vector-effect':'non-scaling-stroke'
+  }));
+  svg.appendChild(gOutlines);
 
   // state abbreviation labels, drawn first so pins sit on top
   const gLabels = el('g', {});
@@ -530,11 +591,11 @@ function drawMap(){
       fill: DISPLAY_COLOR[dk] || '#7c8998',
       'fill-opacity':'.85', stroke:'#0e1116', 'stroke-width':'1.2',
       style:'cursor:pointer', tabindex:'0', role:'button',
-      'aria-label':`IBEW Local ${l.lu}, ${l.city}, ${l.st}. ${l.pop.toLocaleString()} people in jurisdiction.`
+      'aria-label':`IBEW Local ${l.lu}, ${l.city}, ${l.st}. ${l.jurisdiction_unknown ? 'Jurisdiction size unavailable' : l.pop.toLocaleString()+' people in jurisdiction'}.`
               + (STATUS_DISPLAY ? ` ${displayStatusLabel(l.status, l.next_open, fmtDate)}.` : '')
     });
     const title = el('title', {});
-    title.textContent = `IBEW Local ${l.lu} — ${l.city}, ${l.st} — ${l.pop.toLocaleString()} people`;
+    title.textContent = `IBEW Local ${l.lu} — ${l.city}, ${l.st} — ${l.jurisdiction_unknown ? 'jurisdiction size unavailable' : l.pop.toLocaleString()+' people'}`;
     c.appendChild(title);
     // Task 12: color alone never carries meaning here (WCAG 1.4.1) -- each
     // display state also gets a distinct glyph, rendered on top of the pin.
@@ -547,7 +608,10 @@ function drawMap(){
       });
       glyphEl.textContent = DISPLAY_SHAPE[dk] || '';
     }
-    c.addEventListener('click', e => { e.stopPropagation(); select(i); });
+    c.addEventListener('click', e => {
+      e.stopPropagation();
+      if (!pinClickSuppressed) select(i, true);
+    });
     c.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); select(i); }
     });
@@ -562,6 +626,7 @@ function drawMap(){
     gPins.appendChild(c);
     if (glyphEl) gPins.appendChild(glyphEl);
     markers[i] = c;
+    markerGlyphs[i] = glyphEl;
     placed++;
   });
   svg.appendChild(gPins);
@@ -588,12 +653,16 @@ function drawMap(){
   }, {passive:false});
 
   let drag = null;
+  let pinClickSuppressed = false;
   svg.addEventListener('pointerdown', e => {
+    if (e.pointerType === 'touch' && !e.isPrimary) return;
     drag = {x:e.clientX, y:e.clientY, vx:vb.x, vy:vb.y};
+    pinClickSuppressed = false;
     svg.style.cursor = 'grabbing';
   });
   svg.addEventListener('pointermove', e => {
     if (!drag) return;
+    if (Math.hypot(e.clientX - drag.x, e.clientY - drag.y) > 6) pinClickSuppressed = true;
     const rect = svg.getBoundingClientRect();
     vb.x = drag.vx - (e.clientX - drag.x) * (vb.w / rect.width);
     vb.y = drag.vy - (e.clientY - drag.y) * (vb.h / rect.height);
@@ -601,6 +670,7 @@ function drawMap(){
   });
   const endDrag = () => { drag = null; svg.style.cursor = 'grab'; };
   svg.addEventListener('pointerup', endDrag);
+  svg.addEventListener('pointercancel', endDrag);
   svg.addEventListener('pointerleave', endDrag);
 
   const zi = document.getElementById('zin'), zo = document.getElementById('zout'),
@@ -618,14 +688,11 @@ function drawMap(){
   // ---- status filter ----
   document.querySelectorAll('input[name="mapf"]').forEach(inp => {
     inp.addEventListener('change', () => {
-      const onlyConfirmed = inp.value === 'confirmed' && inp.checked;
-      L_.forEach((l, i) => {
-        if (!markers[i]) return;
-        const show = !onlyConfirmed || isConfirmedStatus(l.status);
-        markers[i].style.display = show ? '' : 'none';
-      });
+      confirmedMapOnly = document.querySelector('input[name="mapf"]:checked').value === 'confirmed';
+      applyMapFilters();
     });
   });
+  applyMapFilters();
 }
 
 /* focusMap: called by select() in place of the old map.flyTo */
@@ -699,12 +766,18 @@ function ensureIndexes(){
 q.addEventListener('input', () => {
   const v = q.value.trim();
   if (!v){ current=null; showDefault(); return; }
-  ensureIndexes().then(() => runSearch(v));
+  ensureIndexes().then(() => {
+    if (indexesReady && q.value.trim()) runSearch(q.value.trim());
+  });
 });
 
 function runSearch(v){
   const parsed = normalizeZip(v);
-  if (parsed.kind === 'zip_incomplete'){ hint.textContent = "Keep typing, ZIP codes are 5 digits."; return; }
+  if (parsed.kind === 'zip_incomplete'){
+    hint.textContent = "Keep typing, ZIP codes are 5 digits.";
+    syncMapResults(null);
+    return;
+  }
   if (parsed.kind === 'zip'){
     const zip5 = parsed.zip5;
     const hits = DATA.zips[zip5];
@@ -713,6 +786,7 @@ function runSearch(v){
       const top = sortMultiLocal(multi)[0];
       track('zip_entered', {zip: zip5, matched: true, lu_number: L_[top.i].lu, state: L_[top.i].st});
       hint.textContent = `ZIP ${v} spans ${multi.length} locals' jurisdictions. County-level lines don't always follow ZIP boundaries.`;
+      syncMapResults(multi.map(c => c.i));
       showMultiZip(zip5, multi);
       return;
     }
@@ -733,11 +807,12 @@ function runSearch(v){
 
 function showDefault(){
   setChip(null);
+  syncMapResults(null);
   hint.textContent = "Every U.S. county is assigned to a local. Enter a ZIP for an exact match.";
   const top = L_.map((l,i)=>i).sort((a,b)=>L_[b].pop-L_[a].pop).slice(0,25);
-  panel.innerHTML = `<div style="padding:13px 16px;font-size:11px;text-transform:uppercase;
+  panel.innerHTML = `<div style="padding:13px 16px;font-size:11px;
     letter-spacing:.9px;color:var(--ink3);border-bottom:1px solid var(--line)">
-    Largest locals by population served</div>` + top.map(rowHTML).join('');
+    Largest Locals by Population Served</div>` + top.map(rowHTML).join('');
 }
 
 function showMultiZip(zip5, cands){
@@ -751,7 +826,7 @@ function showMultiZip(zip5, cands){
       onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();select(${c.i})}">
       <div class="lu">${s}IBEW Local ${l.lu}${c.isTop?'<span class="toppick">Most likely</span>':''}</div>
       <div class="loc">${esc(l.city)}, ${l.st}</div>
-      <div class="meta">${fmt(l.pop)} people in jurisdiction</div>
+      <div class="meta">${l.jurisdiction_unknown ? 'Jurisdiction size unavailable' : fmt(l.pop)+' people in jurisdiction'}</div>
       <div class="mgrid">
         <div><span>Res. ratio</span><b>${(c.r*100).toFixed(0)}%</b></div>
         <div><span>County coverage</span><b>${c.c!=null?c.c.toFixed(0)+'%':'—'}</b></div>
@@ -769,6 +844,7 @@ function showMultiZip(zip5, cands){
 }
 
 function showList(idxs, title){
+  syncMapResults(idxs);
   if (idxs.length !== 1) setChip(null); // a single result falls through to select(), which sets its own chip
   if (!idxs.length){ panel.innerHTML = `<div class="empty">No local found.<br>Try a nearby ZIP code.</div>`; return; }
   panel.innerHTML = (title?`<div style="padding:13px 16px;font-size:11px;text-transform:uppercase;
@@ -786,7 +862,7 @@ function rowHTML(i){
     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();select(${i})}">
     <div class="lu">${s}IBEW Local ${l.lu}</div>
     <div class="loc">${esc(l.city)}, ${l.st}</div>
-    <div class="meta">${fmt(l.pop)} people &middot; ${l.county_n} count${l.county_n===1?'y':'ies'}</div>
+    <div class="meta">${l.jurisdiction_unknown ? 'Jurisdiction mapping unavailable' : fmt(l.pop)+' people &middot; '+l.county_n+' count'+(l.county_n===1?'y':'ies')}</div>
   </div>`;
 }
 
@@ -797,8 +873,7 @@ function rowHTML(i){
    Davis-Bacon county expansion (more journeyman coverage) is worth it. */
 function wageBucket(l){
   const hasJourneyman = !!(l.wage && l.wage.total_low);
-  const aw = l.apprentice_wage;
-  const hasApprentice = !!(aw && aw.kind !== 'national_average');
+  const hasApprentice = !!(l.program_wages && l.program_wages.length);
   if (hasJourneyman && hasApprentice) return 'full';
   if (hasJourneyman) return 'jw_only';
   if (hasApprentice) return 'appr_only';
@@ -806,13 +881,16 @@ function wageBucket(l){
 }
 
 /* ---------------- detail ---------------- */
-function select(i){
+function select(i, fromMap=false){
   current = i;
   const l = L_[i];
   focusMap(i);
   panel.innerHTML = detailHTML(l,i);
   panel.scrollTop = 0;
   setChip(l);
+  if (fromMap && window.matchMedia('(max-width:900px)').matches) {
+    panel.scrollIntoView({behavior:'smooth', block:'start'});
+  }
   track('local_viewed', {lu_number: l.lu, state: l.st, status: l.status, bucket: wageBucket(l), surface: 'finder'});
 }
 
@@ -820,6 +898,10 @@ function statusHTML(l){
   if (!STATUS_DISPLAY) return `<div class="statusband">
       <div class="slabel">Check with the local</div>
       <div class="snote">Application windows change often. Use the official link below.</div></div>`;
+  const programApp = (l.program_applications || [])[0];
+  if (programApp) return `<div class="statusband d-open_now">
+    <div class="slabel"><span class="dot" aria-hidden="true">${DISPLAY_SHAPE.open_now}</span>Accepting applications now</div>
+    <div class="snote">${esc(programApp.sponsor)} lists ${esc(programApp.program_name)} applications as open. Closes by ${esc(programApp.close_by)}; ${esc(programApp.early_close_reason)} <a href="${esc(programApp.source_url)}" target="_blank" rel="noopener">Check the official page</a>. Checked ${esc(programApp.verified_on)}.</div></div>`;
   const conf = SHOW_CONFIDENCE
     ? `<span class="sconf">${l.conf} confidence</span>` : '';
   // "why?" disclosure: collapsed by default so the quote/source evidence
@@ -871,85 +953,85 @@ function wageDate(w){
   return w.effective_precision === 'month' ? `${months[m-1]} ${y}` : `${months[m-1]} ${d}, ${y}`;
 }
 
-/* Tile 1: journeyman total (base+fringe), from Davis-Bacon. Mirrors
-   build_local_pages.py's journeyman_tile() -- the wage pipeline doesn't
-   persist which county its Davis-Bacon match came from, only the WD number,
-   so this local's largest-population inside county is cited as jurisdiction
-   context rather than asserted as the exact match. */
+/* Prefer a verified program's journeyman base. Otherwise label the
+   Davis-Bacon base-plus-fringe figure as a prevailing wage package. */
 function journeymanTile(l){
+  const programs = WAGE_DISPLAY ? (l.program_wages || []) : [];
+  if (programs.length === 1 && programs[0].journeyman_base){
+    const p = programs[0];
+    return { value: `$${Number(p.journeyman_base).toFixed(2)}/hr`, note: p.program_name, label: 'Journeyman base' };
+  }
   const w = WAGE_DISPLAY ? l.wage : null;
-  if (!w || !w.total_low) return { value: NOT_PUBLISHED, note: '' };
+  if (!w || !w.total_low) return { value: NOT_PUBLISHED, note: '', label: 'Journeyman base' };
   const value = wageRange(w.total_low, w.total_high);
   const countyBit = (l.counties && l.counties[0]) ? esc(l.counties[0]) : '';
   const wd = w.wd_number ? esc(w.wd_number) : '';
   const bits = [wd ? `Davis-Bacon WD ${wd}` : 'Davis-Bacon prevailing wage', countyBit].filter(Boolean);
-  return { value, note: bits.join(' &middot; ') };
+  return { value, note: bits.join(' &middot; '), label: 'Prevailing wage package' };
 }
 
-/* Tile 2: apprentice starting wage, highest-precedence source available.
-   Mirrors build_local_pages.py's apprentice_tile(). A blended national
-   figure is wrong at the level of any single local -- never show it as a
-   dollar amount here; the tile is simply omitted (see tilesBlockHTML), and
-   the fuller wageHTML() section below carries the capture prompt instead. */
+/* Tile 2: verified rate or a distinctly labeled, rounded model range. */
 function apprenticeTile(l){
-  const a = WAGE_DISPLAY ? l.apprentice_wage : null;
-  if (!a || a.kind === 'national_average') return NOT_PUBLISHED;
-  if (a.kind === 'rapids_registration'){
-    const median = a.start_hourly_low;
-    return median ? `$${Number(median).toFixed(2)}/hr median reported` : NOT_PUBLISHED;
+  const programs = WAGE_DISPLAY ? (l.program_wages || []) : [];
+  if (programs.length === 1) return `$${Number(programs[0].starting_rate).toFixed(2)}/hr`;
+  if (programs.length > 1){
+    const rates = programs.map(p => Number(p.starting_rate));
+    return wageRange(Math.min(...rates), Math.max(...rates));
   }
-  const start = wageRange(a.start_hourly_low, a.start_hourly_high);
-  if (!start) return NOT_PUBLISHED;
-  return a.start_pct ? `${start} (${Number(a.start_pct).toFixed(0)}% of journeyman base)` : start;
+  const e = WAGE_DISPLAY && !programs.length ? l.apprentice_wage_estimate : null;
+  return e ? `~$${e.low}–$${e.high}/hr` : NOT_PUBLISHED;
+}
+function estimateEvidence(e){
+  const outcomes = {
+    no_current_rate_published: 'No current program rate found',
+    stale_source: 'Available wage source is outdated',
+    ambiguous_program: 'Program wage match is uncertain',
+    site_unavailable: 'Official wage site was unavailable',
+    center_unresolved: 'Training center is unconfirmed'
+  };
+  return [outcomes[e.research_outcome] || 'No verified current rate',
+    e.center_verified ? '' : 'Training center unconfirmed'].filter(Boolean).join('. ');
 }
 function apprenticeTileNote(l){
-  const a = WAGE_DISPLAY ? l.apprentice_wage : null;
-  if (!a) return '';
-  if (a.kind === 'national_average') return 'Local data unavailable';
-  if (a.kind === 'rapids_registration'){
-    const n = a.record_count ? `, ${Number(a.record_count).toLocaleString()} records` : '';
-    return `RAPIDS median at registration${n}`;
-  }
-  if (a.kind === 'jatc_published') return 'Local-published schedule';
-  return 'Derived from Davis-Bacon';
+  const programs = WAGE_DISPLAY ? (l.program_wages || []) : [];
+  if (programs.length === 1) return `${esc(programs[0].program_name)} · <a href="${esc(programs[0].source_url)}" target="_blank" rel="noopener">Official wage source</a>`;
+  if (programs.length > 1) return 'Published wage zones · Official sources below';
+  const e = l.apprentice_wage_estimate;
+  return e ? `Regional model, not published pay · ${esc(estimateEvidence(e))} · <a href="__WAGE_METHOD_URL__">How calculated</a>` : '';
 }
 function wageHTML(l, i){
   const w = WAGE_DISPLAY ? l.wage : null;
-  const a = WAGE_DISPLAY ? l.apprentice_wage : null;
-  if (!w && !a) return '';
+  const programs = WAGE_DISPLAY ? (l.program_wages || []) : [];
+  if (!WAGE_DISPLAY) return '';
   // Apprentice pay first: it is what a candidate is actually deciding on.
   let jw = '', app = '';
   if (w){
     const dateText = wageDate(w);
     const classificationNote = w.classification_text ? ` Classification: ${esc(w.classification_text)}${w.classification_code?` ${esc(w.classification_code)}`:''}.` : '';
-    jw += `<h3>Journeyman scale</h3>
+    jw += `<h3>Federal Prevailing Wage Reference</h3>
     <div class="row"><span>Base wage</span><b>${wageRange(w.base_low,w.base_high)}</b></div>
     <div class="row"><span>Fringe benefits</span><b>${wageRange(w.fringe_low,w.fringe_high)}</b></div>
     <div class="row"><span>Total package</span><b>${wageRange(w.total_low,w.total_high)}</b></div>
     <div class="snote">Effective ${esc(dateText)}. Source: ${w.source?`<a href="${esc(w.source)}" target="_blank" rel="noopener">U.S. Department of Labor Davis-Bacon prevailing wage determination ${esc(w.wd_number)}</a>`:`U.S. Department of Labor Davis-Bacon prevailing wage determination ${esc(w.wd_number)}`}.${classificationNote}</div>
     <div class="snote">Davis-Bacon is the prevailing wage on federally funded construction; where the rate is a union rate, it reflects the local IBEW agreement. Contractors on private work may pay differently.</div>`;
   }
-  if (a){
-    if (a.kind === 'national_average'){
-      // A blended national figure is wrong at the level of any single local --
-      // never show it as a dollar amount here. Capture-only until this local
-      // has its own apprentice wage data.
-      app += `<h3>Apprentice wage</h3><div class="snote">Wage data coming for this local.
-      <button type="button" class="tile-notify" onclick="openModal(${i})">Notify me &rarr;</button></div>`;
-    } else if (a.kind === 'rapids_registration'){
-      const median = wageRange(a.start_hourly_low,a.start_hourly_high);
-      const observed = wageRange(a.observed_low,a.observed_high);
-      const count = a.record_count ? Number(a.record_count).toLocaleString() : '';
-      app += `<h3>Apprentice wage</h3>
-      <div class="row"><span>Median reported starting wage</span><b>${median}</b></div>
-      ${observed?`<div class="row"><span>Observed registration wages</span><b>${observed}</b></div>`:''}
-      <div class="snote">DOL RAPIDS, data as of ${esc(wageDate(a))}; median of ${count} valid registration-time wage records. This may include historical cohorts and is not a current CBA schedule. Source: ${a.source?`<a href="${esc(a.source)}" target="_blank" rel="noopener">DOL RAPIDS</a>`:'DOL RAPIDS'}.</div>`;
-    } else {
-      const start = wageRange(a.start_hourly_low,a.start_hourly_high) + (a.start_pct ? ` (${Number(a.start_pct).toFixed(0)}% of journeyman base)` : '');
-      const source = a.source ? `<a href="${esc(a.source)}" target="_blank" rel="noopener">${esc(a.source_label)}</a>` : esc(a.source_label || 'Apprentice wage source');
-      app += `<h3>Apprentice wage</h3><div class="row"><span>Starting pay</span><b>${start}</b></div>
-      <div class="snote">Source: ${source}. Confirm the current progression schedule with the local.</div>`;
+  if (programs.length){
+    for (const program of programs){
+      const rows = program.rate_kind === 'starting_rate'
+        ? `<div class="row"><span>Published starting wage</span><b>$${Number(program.starting_rate).toFixed(2)}/hr</b></div>`
+        : program.steps.map(step => `<div class="row"><span>${esc(step.period)}${step.percent != null ? ` (${Number(step.percent)}%)` : ''}</span><b>$${Number(step.hourly_base).toFixed(2)}/hr</b></div>`).join('');
+      const jw = program.journeyman_base ? `<div class="row"><span>Journeyman base</span><b>$${Number(program.journeyman_base).toFixed(2)}/hr</b></div>` : '';
+      const dateNote = program.effective_date ? `effective ${esc(program.effective_date)}` : program.as_of_date ? `source says current as of ${esc(program.as_of_date)}` : 'source does not state a wage effective date';
+      app += `<h3>Apprentice Pay: ${esc(program.program_name)}</h3>${rows}
+      ${jw}
+      <div class="snote">Base hourly pay; ${dateNote}. Source: <a href="${esc(program.source_url)}" target="_blank" rel="noopener">${esc(program.source_label)}</a>. Verified ${esc(program.verified_on)}. Benefits are separate.</div>
+      ${program.rate_scope_note ? `<div class="snote">${esc(program.rate_scope_note)}</div>` : ''}`;
     }
+  } else {
+    const e = l.apprentice_wage_estimate;
+    app = e
+      ? `<h3>Apprentice Starting Pay · Regional Model Estimate</h3><div class="row"><span>Estimated hourly base range</span><b>~$${e.low}–$${e.high}/hr</b></div><div class="snote">${esc(estimateEvidence(e))}. This is a broad geographic estimate, not a published wage for this local. Actual pay may fall outside this range.${e.state_peer_count === 0 ? ' No verified wage from this state was available for training.' : ''}${l.jurisdiction_unknown ? ' Inside jurisdiction mapping is unavailable, so the model uses state prices.' : ''} Research checked ${esc(e.reviewed_on)}. <a href="__WAGE_METHOD_URL__">Method and limitations</a>.${l.app_url?` <a href="${esc(l.app_url)}" target="_blank" rel="noopener">Check the training program</a>.`:''}</div>`
+      : `<h3>Apprentice Pay</h3><div class="snote">A current program-specific wage schedule has not been verified.${l.app_url?` <a href="${esc(l.app_url)}" target="_blank" rel="noopener">Check the training program</a>.`:''}</div>`;
   }
   return app + jw;
 }
@@ -965,7 +1047,7 @@ function rapidsKpiHTML(l){
   const k = RAPIDS_DISPLAY ? l.rapids_kpi : null;
   if (!k) return '';
   const fy = fyLabel(k);
-  return `<h3>Apprenticeship program size</h3>
+  return `<h3>Apprenticeship Program Size</h3>
   <div class="row"><span>Active apprentices${fy?` (${fy})`:''}</span><b>${fmt(k.active)}</b></div>
   <div class="row"><span>New apprentices${fy?` (${fy})`:''}</span><b>${fmt(k.new)}</b></div>
   <div class="snote">U.S. Department of Labor Registered Apprenticeship Partners Information Database (RAPIDS), reporting period ${esc(k.period_start)} to ${esc(k.period_end)}. Reflects this local's registered JATC program under the general "Electrician" occupation code, which may include classifications beyond inside wireman.</div>
@@ -983,16 +1065,24 @@ function rapidsKpiHTML(l){
 function intakeTile(l){
   const intake = RAPIDS_DISPLAY ? l.intake : null;
   if (!intake) return { value: NOT_PUBLISHED, label: 'Annual intake', note: '', cls: '' };
+  if (intake.tier === 'coverage_incomplete') return {
+    value: NOT_PUBLISHED, label: 'Annual intake',
+    note: `DOL registration data for ${intake.state} is incomplete.`, cls: ''
+  };
   const fy = fyLabel(intake);
   if (intake.tier === 'confirmed'){
+    const trend = l.intake_trend;
+    const direction = trend ? (trend.pct_change > 0 ? `up ${trend.pct_change}%` :
+      trend.pct_change < 0 ? `down ${Math.abs(trend.pct_change)}%` : 'unchanged') : '';
     return {
       value: fmt(intake.value), label: `Apprentices taken${fy?` (${fy})`:''}`,
-      note: "Reported to the U.S. Department of Labor by this local's registered program.", cls: '',
+      note: "Reported to the U.S. Department of Labor by this local's registered program." +
+        (trend ? ` Took ${fmt(trend.fy2025)} apprentices in FY2025 (${direction} since FY2022).` : ''), cls: '',
     };
   }
   const note = INTAKE_CAVEAT === 'strong'
-    ? "Rough estimate based on DOL-registered programs serving similarly sized jurisdictions. Intake varies widely between locals and year to year. Confirm with the JATC."
-    : "Estimated from DOL-registered programs serving similarly sized jurisdictions. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.";
+    ? "Rough estimate based on DOL-registered programs and locals with similar membership. Intake varies widely between locals and year to year. Confirm with the JATC."
+    : "Estimated from DOL-registered programs and locals with similar membership. This local's own figure isn't in our data, and actual intake varies year to year. Confirm with the JATC.";
   return { value: `about ${fmt(intake.value)}`, label: 'Estimated annual intake', note, cls: 'est' };
 }
 /* RAPIDS_BLOCK_END */
@@ -1031,13 +1121,8 @@ function nextWindowTile(l, today){
    block below) and the old standalone intakeHTML(). Each *Tile function can
    go undefined on a flag-off build (its marker block gets stripped), hence
    the typeof guards. A tile whose value is NOT_PUBLISHED is omitted rather
-   than rendered empty. Verified against all 244 locals in
-   out/frontend_data.json: distribution is 1 tile x44, 2 tiles x88, 3 tiles
-   x85, 4 tiles x27 -- low tile counts are the common case, not an edge
-   case, and .grid's auto-fit columns (see CSS) reflow cleanly at any count
-   from 1 to 4 with no dead space. 0 locals render zero tiles today, but
-   tilesBlockHTML still returns '' rather than an empty grid if that ever
-   happens (e.g. new data with every field missing). */
+   than rendered empty. The grid's auto-fit columns reflow for any available
+   tile count; an empty set returns no grid. */
 function tilesBlockHTML(l, i, today){
   const jw = typeof journeymanTile === 'function' ? journeymanTile(l) : { value: NOT_PUBLISHED, note: '' };
   const appr = typeof apprenticeTile === 'function' ? apprenticeTile(l) : NOT_PUBLISHED;
@@ -1046,17 +1131,17 @@ function tilesBlockHTML(l, i, today){
   const intake = typeof intakeTile === 'function' ? intakeTile(l) : { value: NOT_PUBLISHED, label: 'Annual intake', note: '', cls: '' };
 
   const cells = [];
-  if (appr !== NOT_PUBLISHED) cells.push(`<div class="cell"><b>${appr}</b><span>Apprentice wage</span>
-    ${apprNote?`<small>${esc(apprNote)}</small>`:''}</div>`);
-  if (jw.value !== NOT_PUBLISHED) cells.push(`<div class="cell"><b>${jw.value}</b><span>Journeyman rate</span>
+  if (appr !== NOT_PUBLISHED) cells.push(`<div class="cell ${l.apprentice_wage_tier === 'model_estimate' ? 'est' : ''}"><b>${appr}</b><span>${l.apprentice_wage_tier === 'model_estimate' ? 'Estimated apprentice starting pay' : (l.program_wages || []).length > 1 ? 'Verified apprentice starting pay range' : 'Verified apprentice starting pay'}</span>
+    ${apprNote?`<small>${apprNote}</small>`:''}</div>`);
+  if (jw.value !== NOT_PUBLISHED) cells.push(`<div class="cell"><b>${jw.value}</b><span>${esc(jw.label)}</span>
     ${jw.note?`<small>${jw.note}</small>`:''}</div>`);
   if (win !== NOT_PUBLISHED) cells.push(`<div class="cell"><b>${win}</b><span>Next application window</span></div>`);
-  if (intake.value !== NOT_PUBLISHED) cells.push(`<div class="cell ${intake.cls}"><b>${intake.value}</b><span>${esc(intake.label)}</span>
+  if (intake.value !== NOT_PUBLISHED || (RAPIDS_DISPLAY && l.intake && l.intake.tier === 'coverage_incomplete')) cells.push(`<div class="cell ${intake.cls}"><b>${intake.value}</b><span>${esc(intake.label)}</span>
     ${intake.note?`<small>${esc(intake.note)}</small>`:''}</div>`);
 
   if (!cells.length) return '';
   return `<div class="grid">${cells.join('')}</div>
-  <div class="snote">Apprentice figures use the best available local-published schedule, RAPIDS registration wage, or clearly labeled derived fallback. Confirm the current scale with the local.</div>`;
+  <div class="snote">Verified rates link to official program sources. Estimated ranges are model projections and may differ from actual training center pay.</div>`;
 }
 
 /* The old tile set (population/members/counties/ZIPs) demoted, not deleted --
@@ -1081,24 +1166,32 @@ function detailHTML(l,i){
   const req = [
     ['Minimum age', l.min_age], ['Education', l.min_edu], ['Aptitude test', l.aptitude]
   ].filter(r => r[1] && r[1].trim());
+  const programApp = (l.program_applications || [])[0];
 
   return `<div class="detail">
   <div class="back" onclick="q.dispatchEvent(new Event('input'))" tabindex="0" role="button"
-    aria-label="Back to results"
-    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();q.dispatchEvent(new Event('input'))}">&larr; Back to results</div>
+    aria-label="Back to Results"
+    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();q.dispatchEvent(new Event('input'))}">&larr; Back to Results</div>
   <div class="dl">IBEW Local ${l.lu}</div>
   <div class="dc">${esc(l.city)}, ${l.st}${l.jatc?` &middot; ${esc(l.jatc)}`:''}</div>
 
   ${statusHTML(l)}
 
-  <a class="btn primary" href="https://www.apprentable.org/?local=${l.lu}" target="_blank" rel="noopener"
+  ${programApp?`<a class="btn primary" href="${esc(l.app_url)}" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center">Apply Through the Training Program</a>`:''}
+
+  <div class="snote">Preparing for Local ${l.lu}? See which math and reading skills to focus on.</div>
+  <a class="btn${programApp?'':' primary'}" href="https://app.apprentable.org/diagnostic" target="_blank" rel="noopener"
     style="display:block;text-decoration:none;text-align:center"
-    onclick="track('prep_cta_clicked',{lu_number:'${l.lu}',bucket:'${wageBucket(l)}',surface:'finder'})">Practice the aptitude test &amp; interview</a>
-  <button class="btn" onclick="openModal(${i},'alert')">Email me when Local ${l.lu} opens</button>
-  <button class="btn" onclick="openModal(${i},'radius')">Notify me about locals within 100 miles</button>
+    onclick="track('diagnostic_cta_clicked',{lu_number:'${l.lu}',bucket:'${wageBucket(l)}',surface:'finder'})">Take the Free Diagnostic</a>
+  <div class="snote">No account needed to start. Sign in for the full skill breakdown.</div>
+  ${!programApp || !programApp.selection_process.toLowerCase().includes('no personal interview')?`<a class="btn" href="https://app.apprentable.org/interview" target="_blank" rel="noopener"
+    style="display:block;text-decoration:none;text-align:center"
+    onclick="track('prep_cta_clicked',{lu_number:'${l.lu}',bucket:'${wageBucket(l)}',surface:'finder',product:'interview'})">Prepare for the Interview</a>`:''}
+  ${programApp?'':`<button class="btn" onclick="openModal(${i},'alert')">Email Me When Local ${l.lu} Opens</button>`}
+  <button class="btn" onclick="openModal(${i},'radius')">Notify Me About Locals Within 100 Miles</button>
   ${l.slug?`<a class="profilecard" href="__PROFILE_BASE__${l.slug}.html">
-    <div class="pc-title">View the full Local ${l.lu} profile &rarr;</div>
-    <div class="pc-sub">Wage schedule by period, past intake windows, benefits, jurisdiction map, contact</div>
+    <div class="pc-title">View the Full Local ${l.lu} Profile &rarr;</div>
+    <div class="pc-sub">Program sources, verified pay when available, jurisdiction and contact</div>
   </a>`:''}
 
   ${tilesBlockHTML(l, i, new Date())}
@@ -1109,22 +1202,25 @@ function detailHTML(l,i){
 
   ${typeof rapidsKpiHTML==='function'?rapidsKpiHTML(l):''}
 
-  <details class="acc"><summary>What it takes &#9662;</summary>
+  <details class="acc"><summary>What It Takes &#9662;</summary>
   ${req.length?req.map(r=>
     `<div class="row"><span>${r[0]}</span><b>${esc(r[1])}</b></div>`).join(''):'<div class="snote">Not published for this local.</div>'}
   </details>
 
-  <details class="acc"><summary>How to apply &#9662;</summary>
+  <details class="acc"><summary>How to Apply &#9662;</summary>
   ${l.app_url?`<div class="row"><span>Application page</span><b><a href="${esc(l.app_url)}" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'${l.lu}',link_type:'apply',surface:'finder'})">Official link &rarr;</a></b></div>`:
     `<div class="row"><span>Application page</span><b class="muted">Not published</b></div>`}
+  ${programApp?.flow_chart_url?`<div class="row"><span>Application flow chart</span><b><a href="${esc(programApp.flow_chart_url)}" target="_blank" rel="noopener">Official flow chart &rarr;</a></b></div>`:''}
+  ${programApp?.program_contact_email?`<div class="row"><span>Training program email</span><b><a href="mailto:${esc(programApp.program_contact_email)}">${esc(programApp.program_contact_email)}</a></b></div>`:''}
+  ${(l.training_centers || []).filter(c=>c.website).map(c=>`<div class="row"><span>Training center</span><b><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.organization)} &rarr;</a></b></div>`).join('')}
   ${l.website?`<div class="row"><span>Local website</span><b><a href="${esc(l.website.startsWith('http')?l.website:'https://'+l.website)}" target="_blank" rel="noopener" onclick="track('outbound_local_click',{lu_number:'${l.lu}',link_type:'site',surface:'finder'})">${esc(l.website)}</a></b></div>`:''}
   ${l.phone?`<div class="row"><span>Phone</span><b><a href="tel:${esc(l.phone.replace(/[^0-9+]/g,''))}" onclick="track('outbound_local_click',{lu_number:'${l.lu}',link_type:'phone',surface:'finder'})">${esc(l.phone)}</a></b></div>`:''}
-  ${l.email?`<div class="row"><span>Email</span><b>${esc(l.email)}</b></div>`:''}
+  ${l.email?`<div class="row"><span>${programApp?'Union email':'Email'}</span><b>${esc(l.email)}</b></div>`:''}
   ${l.meets?`<div class="row"><span>Meetings</span><b style="max-width:220px">${esc(l.meets)}</b></div>`:''}
   </details>
 
-  <h3>Counties served ${l.county_n>l.counties.length?`(top ${l.counties.length} of ${l.county_n})`:''}</h3>
-  <div class="counties">${l.counties.map(esc).join(' &middot; ')}</div>
+  <h3>${l.jurisdiction_unknown ? 'Jurisdiction Counties Unavailable' : `Counties Served ${l.county_n>l.counties.length?`(top ${l.counties.length} of ${l.county_n})`:''}`}</h3>
+  <div class="counties">${l.jurisdiction_unknown ? 'Check with the training center for its service area.' : l.counties.map(esc).join(' &middot; ')}</div>
   </div>`;
 }
 
@@ -1172,7 +1268,7 @@ modal.addEventListener('keydown', e => {
 function alertCard(l, kind){
   kind = kind || 'alert';
   const isRadius = kind === 'radius';
-  const title = isRadius ? `Nearby-local alerts for Local ${l.lu}` : `Application alerts for Local ${l.lu}`;
+  const title = isRadius ? `Nearby Local Alerts for Local ${l.lu}` : `Application Alerts for Local ${l.lu}`;
   const w = isRadius
     ? `We'll consider your interest in locals near Local ${l.lu} as we build out area-wide alerts. Add your address and you'll be on the list.`
     : "Email alerts are launching soon. Add your address and you'll be on the list for Local " + l.lu + ".";
@@ -1189,7 +1285,7 @@ function alertCard(l, kind){
   <input id="ph" type="tel" placeholder="Phone (optional)" aria-label="Phone number, optional">
   <input id="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"
     style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
-  <button class="btn primary" onclick="capture('${l.lu}','${kind}')">Notify me</button>
+  <button class="btn primary" onclick="capture('${l.lu}','${kind}')">Notify Me</button>
   <div class="fine">${fine}</div></div>`;
 }
 function reportCard(l){
@@ -1197,7 +1293,7 @@ function reportCard(l){
   const place = l ? `${l.city}, ${l.st}` : '';
   return `<div><span class="x" onclick="closeModal()" tabindex="0" role="button" aria-label="Close"
   onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();closeModal()}">&times;</span>
-  <h2>Report a data issue</h2>
+  <h2>Report a Data Issue</h2>
   <p>Tell us what looks wrong and we’ll review the source and correct it manually.</p>
   <label for="ri-local">Local</label>
   <input id="ri-local" type="text" value="${esc(lu)}" aria-label="Local">
@@ -1212,7 +1308,7 @@ function reportCard(l){
   <textarea id="ri-message" placeholder="Include the correct information or a link to the source." aria-label="Issue details"></textarea>
   <label for="ri-email">Your email (optional)</label>
   <input id="ri-email" type="email" placeholder="Only if you want a reply" aria-label="Your email address, optional">
-  <button class="btn primary" onclick="submitReport()">Send report</button>
+  <button class="btn primary" onclick="submitReport()">Send Report</button>
   <div class="fine" id="ri-fine">The current page and local context will be included automatically. You can edit the prefilled fields.</div></div>`;
 }
 async function submitReport(){
@@ -1243,7 +1339,7 @@ async function submitReport(){
     });
     if (!res.ok) throw new Error(`report failed: ${res.status}`);
     track('report_issue_submitted', {lu_number: l ? l.lu : null, issue_type: issueType, surface: 'finder'});
-    cardBody.innerHTML = `<div class="ok"><div class="big">&#9888;</div><h2>Report received</h2>
+    cardBody.innerHTML = `<div class="ok"><div class="big">&#9888;</div><h2>Report Received</h2>
       <p>Thanks — we’ll review the source and correct the page if needed.</p>
       <button class="btn" onclick="closeModal()">Close</button></div>`;
   } catch (err) {
@@ -1280,7 +1376,7 @@ async function capture(lu,kind){
     if (!res.ok) throw new Error(`save failed: ${res.status}`);
     track('email_captured', {lu_number: lu, kind, surface: 'finder'});
     cardBody.innerHTML = `<div class="ok"><div class="big">&#9889;</div>
-      <h2>You're on the list</h2>
+      <h2>You're on the List</h2>
       <p>${esc(email)}${phone?` &middot; ${esc(phone)}`:''} &middot; Local ${lu}</p>
       <button class="btn" onclick="closeModal()">Close</button></div>`;
   } catch (err) {
