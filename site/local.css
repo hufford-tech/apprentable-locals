@@ -4,9 +4,9 @@
   --accent:#f0a13a; --accent2:#ffc46b;
   --open:#39c46e; --rolling:#4aa3f0; --pending:#f0a13a; --closed:#e2564d;
   --unknown:#6b7889; --expired:#8a6d3b; --conflict:#a97bd6;
-  /* Task 12: the 4 candidate-facing display states. --d-unconfirmed is
+  /* Candidate-facing display states. --d-unconfirmed is
      deliberately neutral gray, not red -- see DISPLAY_LABEL comment above. */
-  --d-open:#39c46e; --d-always:#4aa3f0; --d-opens:#f0a13a; --d-unconfirmed:#7c8998;
+  --d-open:#39c46e; --d-expected:#f0a13a; --d-always:#4aa3f0; --d-opens:#f0a13a; --d-unconfirmed:#7c8998;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -19,15 +19,17 @@ h1{font-size:26px;margin:6px 0 2px;letter-spacing:-.4px}
 .statusband{margin:15px 0;padding:13px 14px;border-radius:10px;background:var(--panel2);
   border:1px solid var(--line);border-left:3px solid var(--d-unconfirmed)}
 .statusband.d-open_now{border-left-color:var(--d-open)}
+.statusband.d-expected_open{border-left-color:var(--d-expected)}
 .statusband.d-always{border-left-color:var(--d-always)}
 .statusband.d-opens_date{border-left-color:var(--d-opens)}
 .statusband.d-unconfirmed{border-left-color:var(--d-unconfirmed)}
 .slabel{font-size:15px;font-weight:640}
 /* Task 12: each state gets its own glyph (circle/diamond/triangle/square) as
    well as its own color, so meaning never rides on color alone (WCAG 1.4.1)
-   -- a colorblind viewer still tells the 4 states apart by shape. */
+   -- a colorblind viewer still tells these states apart by shape. */
 .dot{display:inline-block;margin-right:7px;font-size:11px;vertical-align:1px}
 .d-open_now .dot{color:var(--d-open)}
+.d-expected_open .dot{color:var(--d-expected)}
 .d-always .dot{color:var(--d-always)}
 .d-opens_date .dot{color:var(--d-opens)}
 .d-unconfirmed .dot{color:var(--d-unconfirmed)}

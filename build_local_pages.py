@@ -66,7 +66,7 @@ LABEL = {
 }
 NOTE = {
     "open": "A posted application window is open today.",
-    "expected_open": "The posted reopening date has passed. Confirm the current application window with the local before applying.",
+    "expected_open": "Based on a posted reopening date. Confirm with the local before applying.",
     "rolling": "This local takes applications year-round or on a repeating schedule.",
     "closed_pending": "A future window is posted. Get notified when it opens.",
     "closed": "The local has posted that applications are closed.",
@@ -76,11 +76,12 @@ NOTE = {
 }
 
 # Task 12: candidate-facing display collapses compute_status.py's 8 raw
-# computed_status values into 4 states. This is a presentation mapping ONLY,
+# computed_status values into 5 states. This is a presentation mapping ONLY,
 # applied after compute_status.py has already run -- it never changes a
 # computed status value, and compute_status.py itself is not touched.
-#   open_now     <- open, expected_open (a stated reopen date has already
-#                    passed, i.e. the local's own words say intake resumed)
+#   open_now      <- open
+#   expected_open <- expected_open (a stated reopening date has passed,
+#                    without a newer confirmation)
 #   always       <- rolling
 #   opens_date   <- closed_pending, or closed with a known next_open_date
 #                    (rule 7 in compute_status.py can attach one from a
@@ -93,15 +94,17 @@ NOTE = {
 #                    not a failure state.
 DISPLAY_LABEL = {
     "open_now": "Open now",
+    "expected_open": "Expected open",
     "always": "Always accepting",
     "opens_date": "Opens",  # date is appended by the caller
     "unconfirmed": "Unconfirmed – check with the local",
 }
 # Shape glyph shown next to the dot so color is never the only carrier of
 # meaning (WCAG 1.4.1) -- colorblind users can't rely on red/green/gray/amber
-# alone to tell these four states apart.
+# alone to tell these five states apart.
 DISPLAY_SHAPE = {
     "open_now": "●",   # filled circle
+    "expected_open": "&#9675;",  # hollow circle
     "always": "◆",     # diamond
     "opens_date": "▲", # triangle
     "unconfirmed": "■", # square
@@ -110,9 +113,11 @@ DISPLAY_SHAPE = {
 
 def display_state(status, next_open=None):
     """Collapse a raw computed_status value (+ next_open_date) into one of
-    the 4 candidate-facing display states. Returns (key, label)."""
-    if status in ("open", "expected_open"):
+    the 5 candidate-facing display states. Returns (key, label)."""
+    if status == "open":
         return "open_now", DISPLAY_LABEL["open_now"]
+    if status == "expected_open":
+        return "expected_open", DISPLAY_LABEL["expected_open"]
     if status == "rolling":
         return "always", DISPLAY_LABEL["always"]
     if status == "closed_pending" or (status == "closed" and next_open):
@@ -191,9 +196,9 @@ CSS = """
   --accent:#f0a13a; --accent2:#ffc46b;
   --open:#39c46e; --rolling:#4aa3f0; --pending:#f0a13a; --closed:#e2564d;
   --unknown:#6b7889; --expired:#8a6d3b; --conflict:#a97bd6;
-  /* Task 12: the 4 candidate-facing display states. --d-unconfirmed is
+  /* Candidate-facing display states. --d-unconfirmed is
      deliberately neutral gray, not red -- see DISPLAY_LABEL comment above. */
-  --d-open:#39c46e; --d-always:#4aa3f0; --d-opens:#f0a13a; --d-unconfirmed:#7c8998;
+  --d-open:#39c46e; --d-expected:#f0a13a; --d-always:#4aa3f0; --d-opens:#f0a13a; --d-unconfirmed:#7c8998;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -206,15 +211,17 @@ h1{font-size:26px;margin:6px 0 2px;letter-spacing:-.4px}
 .statusband{margin:15px 0;padding:13px 14px;border-radius:10px;background:var(--panel2);
   border:1px solid var(--line);border-left:3px solid var(--d-unconfirmed)}
 .statusband.d-open_now{border-left-color:var(--d-open)}
+.statusband.d-expected_open{border-left-color:var(--d-expected)}
 .statusband.d-always{border-left-color:var(--d-always)}
 .statusband.d-opens_date{border-left-color:var(--d-opens)}
 .statusband.d-unconfirmed{border-left-color:var(--d-unconfirmed)}
 .slabel{font-size:15px;font-weight:640}
 /* Task 12: each state gets its own glyph (circle/diamond/triangle/square) as
    well as its own color, so meaning never rides on color alone (WCAG 1.4.1)
-   -- a colorblind viewer still tells the 4 states apart by shape. */
+   -- a colorblind viewer still tells these states apart by shape. */
 .dot{display:inline-block;margin-right:7px;font-size:11px;vertical-align:1px}
 .d-open_now .dot{color:var(--d-open)}
+.d-expected_open .dot{color:var(--d-expected)}
 .d-always .dot{color:var(--d-always)}
 .d-opens_date .dot{color:var(--d-opens)}
 .d-unconfirmed .dot{color:var(--d-unconfirmed)}
@@ -279,7 +286,7 @@ def status_block_html(l):
                 f'Closes by {esc(app["close_by"])}; {esc(app["early_close_reason"])} '
                 f'<a href="{esc(app["source_url"])}" target="_blank" rel="noopener">Check the official page</a>. '
                 f'Checked {esc(app["verified_on"])}.</div></div>')
-    # Task 12: candidate-facing band renders the 4-state display mapping, not
+    # Candidate-facing band renders the display mapping, not
     # the raw 8-value computed_status -- see display_state() above.
     dkey, dlabel = display_state(l["status"], l.get("next_open"))
     conf = f'<span class="sconf">{esc(l["conf"])} confidence</span>' if SHOW_CONFIDENCE else ""
@@ -492,6 +499,8 @@ def next_window_tile(l, today):
     key, _ = display_state(l["status"], l.get("next_open"))
     if key == "open_now":
         return "Open now"
+    if key == "expected_open":
+        return "Expected open"
     if key == "always":
         return "Always accepting"
     if key == "opens_date":
